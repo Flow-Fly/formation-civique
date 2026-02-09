@@ -5,7 +5,7 @@ import { StudyPage } from "@/components/study/study-page.tsx";
 import { QuizPage } from "@/components/quiz/quiz-page.tsx";
 import { FlashcardsPage } from "@/components/flashcards/flashcards-page.tsx";
 import { SettingsPage } from "@/components/settings/settings-page.tsx";
-
+// test
 const router = createHashRouter([
   {
     path: "/",
