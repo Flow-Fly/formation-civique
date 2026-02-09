@@ -1,0 +1,40 @@
+{
+  "id": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+  "title": "L'hymne français",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "les-symboles-de-la-republique",
+  "subcategoryName": "Les symboles de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/hymne-francais/",
+  "objectives": [
+    "Comprendre la signification de l’hymne français.Identifier les principales occasions d’entendre l’hymne français."
+  ],
+  "sections": [
+    {
+      "heading": "Le titre de l’hymne français",
+      "content": "L’hymne national de la France est un chant qui s’appelle La Marseillaise. Il évoque un grand moment de l’histoire de la France : la Révolution.\n\nCe chant a été composé en 1792 pour soutenir les soldats dans le cadre d’une guerre. La Marseillaise représente les valeurs de liberté, de résistance et d’unité du peuple français.",
+      "type": "text"
+    },
+    {
+      "heading": "L’histoire de l’hymne français",
+      "content": "En avril 1792, quelques jours après le début de la guerre de la France contre l'Autriche, un officier français compose le \"Chant de guerre pour l’armée du Rhin\". Ce chant est repris par un bataillon d’habitants de Marseille lors d’une révolte à Paris en août 1792.\n- Le chant se diffuse rapidement partout en France. Face à ce succès, il est déclaré chant national le 14 juillet 1795. Il s’appelle désormais La Marseillaise.\n- Interdite pendant de longues années, la Marseillaise est à nouveau chantée lors de la Révolution de 1830. Berlioz, célèbre compositeur français, arrange le chant pour qu’il puisse être joué par un orchestre.\n- La Marseillaise devient l’hymne national en 1879 durant la 3ème République.",
+      "type": "text"
+    },
+    {
+      "heading": "Les principales occasions d’entendre l’hymne français",
+      "content": "Cérémonies officielles de l’État : commémoration nationale, discours du président de la République, hommage rendu aux victimes d’attentats ou aux soldats morts pour la France, défilé militaire du 14 juillet.\n- Événements sportifs internationaux : avant un match auquel participe une équipe française, cérémonie de remise d’une médaille à un athlète français.\n- Manifestations exceptionnelles : rassemblement lors d’un évènement national marquant (par exemple les manifestations après les attentats de 2015).",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La Marseillaise de Rouget de Lisle | Élysée",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La Marseillaise de Rouget de Lisle | Élysée",
+      "url": "https://www.elysee.fr/la-presidence/la-marseillaise-de-rouget-de-lisle"
+    }
+  ]
+}

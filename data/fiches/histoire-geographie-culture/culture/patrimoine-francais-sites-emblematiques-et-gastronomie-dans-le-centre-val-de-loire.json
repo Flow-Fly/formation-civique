@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-dans-le-centre-val-de-loire",
+  "title": "Patrimoine français : sites emblématiques et gastronomie dans le Centre-Val de Loire",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-dans-le-centre-val-de-loire/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Centre-Val de Loire."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Centre-Val de Loire.",
+      "type": "text"
+    },
+    {
+      "heading": "Le château de Chambord, magnifique château de la Loire",
+      "content": "Le château de Chambord a été construit au bord de la Loire, près de Blois, sur ordre de François 1er.\n\nÉdifié vers 1500, ce très grand château est célèbre pour son architecture de style Renaissance et son escalier en spirale.\n\nLe château est classé au patrimoine mondial de l’UNESCO depuis 1981.\n\nLe château accueille plus d’1 million de visiteurs chaque année.",
+      "type": "text"
+    },
+    {
+      "heading": "La tarte Tatin, spécialité du Centre-Val de Loire",
+      "content": "La tarte Tatin a été inventée par accident dans la région du Centre-Val de Loire.\n\nIl s’agit d’une tarte aux pommes caramélisées cuites à l’envers. On la mange tiède, en dessert.\n\nOn raconte que la tarte Tatin a été inventée accidentellement par les sœurs Tatin. Une des sœurs aurait caramélisé des pommes par accident. Pour ne pas gâcher le dessert, elle a posé une pâte sur les pommes et enfourné le tout au four. Après la cuisson, elle a retourné la tarte pour mettre les pommes caramélisés sur le dessus.\n\nSources photos :\n\nMonument : \n                (Ouvre une nouvelle fenêtre) https://www.chambord.org/fr/presentation-le-chateau-de-chambord/\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Château de Chambord & Domaine (Officiel)\n\n(Ouvre une nouvelle fenêtre) La tarte Tatin - Val de Loire",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Château de Chambord & Domaine (Officiel)",
+      "url": "https://www.chambord.org/fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La tarte Tatin - Val de Loire",
+      "url": "https://www.valdeloire-france.com/tarte-tatin/"
+    }
+  ]
+}

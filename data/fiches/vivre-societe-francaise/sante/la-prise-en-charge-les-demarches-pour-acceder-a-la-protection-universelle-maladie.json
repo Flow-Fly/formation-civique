@@ -1,0 +1,39 @@
+{
+  "id": "vivre-societe-francaise--sante--la-prise-en-charge-les-demarches-pour-acceder-a-la-protection-universelle-maladie",
+  "title": "La prise en charge : les démarches pour accéder à la protection universelle maladie (PUMa)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/la-prise-en-charge-les-demarches-pour-acceder-a-la-protection-universelle-maladie/",
+  "objectives": [
+    "Comprendre comment bénéficier de la protection universelle maladie (PUMa)."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Comprendre comment bénéficier de la protection universelle maladie (PUMa).",
+      "type": "text"
+    },
+    {
+      "heading": "Comment bénéficier de la protection universelle maladie (PUMa) de l’Assurance maladie ?",
+      "content": "Pour avoir la protection universelle maladie (PUMa), enregistrez-vous auprès de la Caisse primaire d’assurance maladie (CPAM), qui fait le lien entre les bénéficiaires (résidents français depuis plus de 3 mois) et l’Assurance maladie. Les démarches à effectuer sont les suivantes :\n\nremplir le formulaire de demande personnelle d’ouverture de droits (1 par adulte). À noter : si des enfants mineurs sont à charge, remplir aussi le formulaire de rattachement des enfants ;\n- fournir tous les justificatifs de présence en France depuis plus de 3 mois, si nécessaire. Exemple : quittances de loyer, factures (électricité, téléphone), ordonnances médicales, attestations d’association... Ces documents doivent mentionner un nom et une date ;\n- si vous en avez, joindre les factures de soins déjà engagés ;\n- indiquer une adresse postale stable avec une boîte aux lettres au nom de la personne inscrite (en l’absence de domicile fixe, il est possible de demander une domiciliation) ;\n- faire une copie de tous les documents du dossier ;\n- envoyer le dossier à la CPAM du département ou le déposer à la CPAM la plus proche de chez soi (ou à la MSA si vous en dépendez). Pour trouver l’adresse de la CPAM la plus proche : \n                (Ouvre une nouvelle fenêtre) https://www.ameli.fr/assure/adresses-et-contacts/l-envoi-d-un-document/envoyer-une-feuille-de-soins\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Site de l’Assurance Maladie",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Demander l'ouverture des droits à l'Assurance maladie (Formulaire 15763*02) | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Demande de rattachement des enfants à l'un ou aux deux parents - Assurances maladie et maternité (Formulaire 14445*02) | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Demander l'ouverture des droits à l'Assurance maladie (Formulaire 15763*02) | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/R45084"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Demande de rattachement des enfants à l'un ou aux deux parents - Assurances maladie et maternité (Formulaire 14445*02) | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/R16671"
+    }
+  ]
+}

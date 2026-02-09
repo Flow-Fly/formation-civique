@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--mayotte",
+  "title": "Mayotte",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/mayotte/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : Mayotte."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : Mayotte.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située Mayotte ?",
+      "content": "Mayotte est une île située dans l’océan Indien, entre Madagascar et le continent africain (Mozambique). Elle fait partie de l’archipel des Comores.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de Mayotte ?",
+      "content": "Mayotte est à la fois un Département et une Région d’Outre-Mer (DROM).\n\nSes grandes villes sont Mamoudzou (préfecture), Dzaoudzi, Koungou, Dembéni et Bandraboua.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 321 000 habitants (estimation). La population est en forte augmentation et est très jeune (la moitié a moins de 18 ans).\n\nSecteurs économiques clés\n\nAgriculture vivrière, pêche, administration, construction, petits commerces. Projets de développement dans les infrastructures et la santé.\n\nSituation du marché du travail\n\nLe taux de chômage est très élevé (environ 35% de la population active). Le niveau de vie est beaucoup plus bas que la moyenne nationale.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de Mayotte | Insee\n\n(Ouvre une nouvelle fenêtre) L'essentiel sur Mayotte | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de Mayotte | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=DEP-976"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) L'essentiel sur Mayotte | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/4632225"
+    }
+  ]
+}

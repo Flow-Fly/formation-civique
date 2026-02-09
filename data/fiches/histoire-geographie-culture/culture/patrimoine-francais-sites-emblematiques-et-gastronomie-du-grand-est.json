@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-du-grand-est",
+  "title": "Patrimoine français : sites emblématiques et gastronomie du Grand Est",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-du-grand-est/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux du Grand Est."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux du Grand Est.",
+      "type": "text"
+    },
+    {
+      "heading": "La place Stanislas, un lieu emblématique de Nancy",
+      "content": "La place Stanislas est une grande place située au cœur de la ville de Nancy et est classée au patrimoine mondial de l’UNESCO depuis 1983.\n\nElle a été construite au milieu du 18ème siècle avec une architecture classique de l’époque.\n\nLa \"place Stan\" est connue pour ses grilles dorées, ses fontaines et pour les bâtiments élégants qui l’entourent : hôtel de ville, Opéra, musée des Beaux-Arts…\n\nAppréciée par ses habitants, elle accueille de nombreux événements.",
+      "type": "text"
+    },
+    {
+      "heading": "La choucroute alsacienne, plat traditionnel de la région",
+      "content": "La choucroute alsacienne est un plat réalisé avec du chou fermenté. On peut l’accompagner de viandes : saucisses, lard ou jambon.\n\nLa choucroute est cuite lentement pour que les saveurs se mélangent bien.\n\nEn Alsace, on mange surtout la choucroute en hiver. On peut en manger au restaurant ou lors des repas de fête.\n\nSources photos :\n\nMonument : \n                (Ouvre une nouvelle fenêtre) https://www.nancy.fr/nancy-la-ville/webcam\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La place Stanislas - Culture - Ville de Nancy\n\n(Ouvre une nouvelle fenêtre) Choucroute garnie à l’alsacienne - Visit Alsace",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La place Stanislas - Culture - Ville de Nancy",
+      "url": "https://www.nancy.fr/culture/patrimoine/la-place-stanislas"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Choucroute garnie à l’alsacienne - Visit Alsace",
+      "url": "https://www.visit.alsace/recettes/choucroute-garnie-a-lalsacienne/"
+    }
+  ]
+}

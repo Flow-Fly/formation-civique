@@ -1,0 +1,49 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--les-demarches-dacces-a-la-nationalite-francaise",
+  "title": "Les démarches d’accès à la nationalité française",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-dacces-a-la-nationalite-francaise/",
+  "objectives": [
+    "Connaître les démarches pour accéder à la nationalité française."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les démarches pour accéder à la nationalité française.",
+      "type": "text"
+    },
+    {
+      "heading": "Quel type de démarche ?",
+      "content": "Il existe deux procédures principales pour demander la nationalité française pour les étrangers adultes en France :\n\npar décret de naturalisation (en ligne sur l'ANEF) après au moins 5 ans de résidence en France, si la personne remplit les conditions prévues et que l’État accepte sa demande ;\n- par déclaration (auprès de sa plateforme de naturalisation en préfecture) : en cas de mariage avec un Français ou en tant qu'ascendant, frère ou sœur de Français.\n\nL'adhésion aux principes et valeurs essentiels de la République est une condition pour devenir français, vérifiée lors de l'entretien d'assimilation organisé à la préfecture.",
+      "type": "text"
+    },
+    {
+      "heading": "Où obtenir des informations sur l'accès à la nationalité française ?",
+      "content": "Pour obtenir des informations sur l'accès à la nationalité française, rendez-vous en ligne :\n\nsur le site \n                (Ouvre une nouvelle fenêtre) service-public.fr ;\n- sur le site internet de la préfecture la plus proche ;\n- en ligne, sur le site de la préfecture la plus proche ou le site de l’ANEF (l’Administration Numérique des Étrangers en France) : \n                (Ouvre une nouvelle fenêtre) administration-etrangers-en-france.interieur.gouv.fr/particuliers/\n\nEn cas de difficulté avec les démarches en lignes, vous pouvez bénéficier d'un accompagnement auprès du centre de contact citoyens de l'ANTS (par téléphone au 0806 001 620) ou vous rendre dans un point d’accueil numérique (PAN) en préfecture.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment faire une demande de naturalisation ?",
+      "content": "Voici les différentes étapes :\n\nfaire une simulation sur le site \n                (Ouvre une nouvelle fenêtre) service-public.fr pour savoir quelles pièces justificatives sont nécessaires à ma demande spécifique ;\n- déposer un dossier complet avec les pièces justificatives demandées sur le site internet de l’ANEF pour une demande de naturalisation par décret ou en préfecture (plateforme de naturalisation) pour une déclaration.\n\nSources photos :\n\nPictogramme\n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC\n- Logo Gouvernement",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Nationalité française | Service-public.fr\n\n(Ouvre une nouvelle fenêtre) Carte des plateformes de naturalisation | Immigration",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Nationalité française | Service-public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/N111"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Carte des plateformes de naturalisation | Immigration",
+      "url": "https://www.immigration.interieur.gouv.fr/Archives/Les-archives-du-site/Info-ressources/Demarches/Demarches-de-l-etranger-en-France"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789",
+  "title": "L'Ancien Régime (jusqu'en 1789)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/l-ancien-regime-jusqu-en-1789/",
+  "objectives": [
+    "Connaître et savoir situer les principales périodes historiques.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que l’Ancien Régime ?",
+      "content": "L’Ancien Régime correspond à la période de la fin du XVIème siècle à 1789. Il se caractérise par une monarchie absolue de droit divin. “De droit divin” parce que l’on considère que le pouvoir du roi vient de la volonté de Dieu, “absolue” parce que le roi a tous les pouvoirs.\n\nLa société est organisée selon trois ordres :\n\nle clergé (premier ordre) ;\n- la noblesse (deuxième ordre) ;\n- le tiers état (troisième ordre).\n\nLe clergé et la noblesse possèdent des droits héréditaires, c’est-à-dire transmis de génération en génération. Par exemple, ces ordres ne paient pas d’impôts. Le tiers état, qui représente 90 % de la population, n’a aucun privilège. Il paie la majeure partie des impôts.\n\nPersonnage clé : Le roi Louis XIV, surnommé le Roi-Soleil, est l’une des personnes importantes de l’Ancien Régime. Il incarne la monarchie absolue.\n\nSur la droite, détail du portrait de Louis XIV en costume de sacre peint par Hyacinthe Rigaud.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant cette période ?",
+      "content": "Les droits politiques sont très limités sous l’Ancien Régime. Le suffrage universel (droit de vote accordé à tous les citoyens qui ont la capacité électorale) n’existe pas et les privilèges sont réservés au clergé et à la noblesse. Pour la majorité de la population, notamment les paysans, il n’y a pas d’égalité devant la loi.\n\nL’individu a peu de place face à l’État.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les apports de ce régime au système français actuel ?",
+      "content": "Le seul véritable héritage laissé par l’Ancien Régime est la centralisation du pouvoir. Cette organisation de l’État autour d’une administration unifiée et d’une forte autorité centrale a été conservée.\n\nSource photo : GrandPalaisRmn (Château de Versailles) / Daniel Arnaudet, Gérard Blot.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La justice en France sous l’Ancien Régime | Ministère de la Justice",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La justice en France sous l’Ancien Régime | Ministère de la Justice",
+      "url": "https://www.justice.gouv.fr/justice-france/lhistoire-justice/justice-france-lancien-regime"
+    }
+  ]
+}

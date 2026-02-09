@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-des-pays-de-la-loire",
+  "title": "Patrimoine français : sites emblématiques et gastronomie des Pays de la Loire",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-des-pays-de-la-loire/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux des Pays de la Loire."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux des Pays de la Loire.",
+      "type": "text"
+    },
+    {
+      "heading": "Le château des ducs de Bretagne, un morceau de Bretagne au cœur de Nantes",
+      "content": "Le château des ducs de Bretagne est un monument historique situé à Nantes. Il a été construit à la fin du 15ème siècle.\n\nEn 1532, le territoire de l’actuelle Loire-Atlantique est rattaché au royaume de France. Le “château des ducs de Bretagne” devient celui des rois de France.\n\nLes murailles et tours du château médiéval sont bien conservées.\n\nLe château des ducs de Bretagne abrite aujourd’hui un musée sur l’histoire de Nantes et de Bretagne.",
+      "type": "text"
+    },
+    {
+      "heading": "La brioche vendéenne, spécialité de Vendée",
+      "content": "La brioche vendéenne est une pâtisserie traditionnelle de la Vendée.Cette brioche moelleuse et sucrée est souvent parfumée à la fleur d’oranger.\n\nLa brioche vendéenne est généralement consommée au petit déjeuner ou au goûter, nature ou accompagnée de confiture. On la mange aussi traditionnellement lors des mariages en Vendée.\n\nCette brioche symbolise la douceur de vivre de la région et son savoir-faire artisanal transmis de génération en génération.\n\nSources photos\n\nMonument : \n                (Ouvre une nouvelle fenêtre) https://www.chateaunantes.fr/le-chateau/histoire/\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Château des ducs de Bretagne | Musée d’histoire de Nantes\n\n(Ouvre une nouvelle fenêtre) Gastronomie et produits locaux de Vendée - La brioche vendéenne | Office de tourisme Vendée",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Château des ducs de Bretagne | Musée d’histoire de Nantes",
+      "url": "https://www.chateaunantes.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Gastronomie et produits locaux de Vendée - La brioche vendéenne | Office de tourisme Vendée",
+      "url": "https://www.vendee-tourisme.com/inspirez-moi/escapades-gourmandes/la-brioche-vendeenne"
+    }
+  ]
+}

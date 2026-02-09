@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs",
+  "title": "Patrimoine français : des artistes emblématiques parmi les sculpteurs",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs/",
+  "objectives": [
+    "Connaître des figures françaises de la sculpture."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître des figures françaises de la sculpture.",
+      "type": "text"
+    },
+    {
+      "heading": "Auguste Rodin, grand sculpteur français (1840-1917)",
+      "content": "Qui était-il ?\n\nAuguste Rodin est un sculpteur français qui révolutionne la sculpture par un style très expressif et réaliste. Il met en valeur les émotions, les mouvements du corps et la matière brute. Il s’éloigne de la sculpture classique pour créer des œuvres puissantes, qui inspireront la sculpture moderne.\n\nÀ Paris, le musée Rodin lui est consacré et permet de découvrir ses œuvres majeures.\n\nSculptures incontournables d’Auguste Rodin\n\n(Ouvre une nouvelle fenêtre) Le Penseur\n- (Ouvre une nouvelle fenêtre) Le Baiser\n- (Ouvre une nouvelle fenêtre) La Porte de l’Enfer",
+      "type": "text"
+    },
+    {
+      "heading": "Camille Claudel, figure importante de la sculpture française (1864-1943)",
+      "content": "Qui était-elle ?\n\nCélèbre sculptrice française, son œuvre montre une grande sensibilité, un travail fin du mouvement et une expression profonde des émotions humaines, comme la douleur, l’amour ou la solitude.\n\nSculptures incontournables de Camille Claudel\n\n(Ouvre une nouvelle fenêtre) La Valse\n- (Ouvre une nouvelle fenêtre) La vieille Hélène\n- (Ouvre une nouvelle fenêtre) Femme accroupie\n\nSources photos :\n\nPortrait d'Auguste Rodin George Charles Beresford, 1902, National Portrait Gallery\n- Portrait de Camille Claudel Musée Camille Claudel / Marco Illuminati / Didier Guy / Yves Bourel",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) 1840 - 2015 | Musée Rodin\n\n(Ouvre une nouvelle fenêtre) Biographie de Camille Claudel | Musée Camille Claudel",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) 1840 - 2015 | Musée Rodin",
+      "url": "https://www.musee-rodin.fr/ressources/vie-de-rodin/1840-2015"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Biographie de Camille Claudel | Musée Camille Claudel",
+      "url": "https://www.museecamilleclaudel.fr/fr/collections/camille-claudel-biographie"
+    }
+  ]
+}

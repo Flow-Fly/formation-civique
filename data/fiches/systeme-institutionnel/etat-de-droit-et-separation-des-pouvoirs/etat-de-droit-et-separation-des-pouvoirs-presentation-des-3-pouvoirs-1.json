@@ -1,0 +1,45 @@
+{
+  "id": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+  "title": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "etat-de-droit-et-separation-des-pouvoirs",
+  "subcategoryName": "État de droit et séparation des pouvoirs",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/",
+  "objectives": [
+    "Connaître et comprendre les caractéristiques de notre démocratie.Identifier les trois pouvoirs."
+  ],
+  "sections": [
+    {
+      "heading": "Le pouvoir législatif, c’est quoi ?",
+      "content": "Le pouvoir législatif est exercé par le Parlement, composé de 2 entités, qu’on appelle “chambres” :\n\nl’Assemblée nationale (où siègent les 577 députés, élus par les citoyens) ;\n- le Sénat (où siègent les 348 sénateurs, élus par les grands électeurs).\n\nLe Parlement vote la loi.\n\nLes deux chambres doivent :\n\nproposer ;\n- négocier ;\n- voter la loi.\n\nElles vérifient aussi que le Gouvernement agit selon la loi et évaluent les politiques publiques.",
+      "type": "text"
+    },
+    {
+      "heading": "Le pouvoir exécutif, c’est quoi ?",
+      "content": "Le pouvoir exécutif est exercé par :\n\nle président de la République (le chef de l’État et des armées) qui réside au Palais de l’Élysée ;\n- le Gouvernement (le Premier ministre et les ministres). Le Premier ministre, qui réside à l'hôtel de Matignon, est nommé par le président de la République.\n\nLe président de la République et le Gouvernement appliquent et font respecter les lois (créées par le pouvoir législatif).\n\nLe président de la République et le Gouvernement doivent aussi :\n\ndiriger l’Administration ;\n- conduire la politique nationale (intérieure et extérieure).",
+      "type": "text"
+    },
+    {
+      "heading": "L'autorité judiciaire, c’est quoi ?",
+      "content": "L'autorité judiciaire est exercée par les juges et les magistrats (recrutés par concours et non choisis par le pouvoir).\n\nLes juges et les magistrats appliquent les lois. Ils jugent et rendent la justice.\n\nLa justice est indépendante, elle rend un jugement impartial et équitable. Une aide juridictionnelle financière existe pour que chacun (peu importe sa nationalité, son âge, ses revenus) soit défendu de manière juste.",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "Infographie illustrant les 3 pouvoirs :\n\nPouvoir législatifÉlaboration de la loi\n\nPouvoir exécutifApplication de la loi\n\nPouvoir judiciaireContrôle et sanction en cas de non-respect de la loi",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La séparation des pouvoirs en France | Le droit en schémas, par Inès Stanojevic",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La séparation des pouvoirs en France | Le droit en schémas, par Inès Stanojevic",
+      "url": "https://droitenschemas.com/separation-des-pouvoirs/"
+    }
+  ]
+}

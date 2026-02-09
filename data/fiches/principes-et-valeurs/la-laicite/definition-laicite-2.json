@@ -1,0 +1,44 @@
+{
+  "id": "principes-et-valeurs--la-laicite--definition-laicite-2",
+  "title": "La définition de la laïcité (2/2)",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-laicite",
+  "subcategoryName": "La laïcité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/definition-laicite-2/",
+  "objectives": [
+    "Connaître la diversité des religions en France.Identifier la place et le rôle des religions par rapport à l’État."
+  ],
+  "sections": [
+    {
+      "heading": "La diversité des religions en France",
+      "content": "Plusieurs religions sont pratiquées en France, ainsi que divers courants de pensée, spiritualités… Cette diversité peut se retrouver au sein d’une même famille.\n\nChaque personne a la liberté de pratiquer la religion de son choix, dans le respect des autres.",
+      "type": "text"
+    },
+    {
+      "heading": "Le droit de ne pas croire, de ne plus croire ou de changer de religion",
+      "content": "Ne pas avoir de religion ou choisir de ne plus avoir de religion est aussi un droit. En France, beaucoup de personnes déclarent ne pas avoir de religion.",
+      "type": "text"
+    },
+    {
+      "heading": "Les différentes religions en France",
+      "content": "La France est un pays de diversité religieuse :\n\nla religion la plus représentée en France est la religion catholique ;\n- la communauté musulmane en France est la plus importante d’Europe ;\n- la communauté juive en France est la plus importante d’Europe ;\n- la communauté bouddhiste en France est la plus importante d’Europe.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Journée nationale de la laïcité 2024 | info.gouv.fr\n\n(Ouvre une nouvelle fenêtre) Comprendre la laïcité | info.gouv.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Journée nationale de la laïcité 2024 | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/organisation/laicitegouvfr"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Comprendre la laïcité | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2023_12_comprendre_la_laicite_-_fonction_publique_vdef.pdf"
+    }
+  ]
+}

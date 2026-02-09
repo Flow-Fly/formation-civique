@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-bretagne",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Bretagne",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-bretagne/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Bretagne."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Bretagne.",
+      "type": "text"
+    },
+    {
+      "heading": "Le Fort de Saint-Malo, un lieu historique en Bretagne",
+      "content": "Le Fort National de Saint-Malo a été construit au 17ème siècle pour protéger la ville.\n\nInstallé sur un ilôt rocheux, il a une vue panoramique exceptionnelle sur la côte.\n\nLes grands remparts et canons du fort militaire montrent que Saint-Malo était un port régional important.\n\nAujourd’hui, on peut le visiter et y découvrir l’histoire maritime et militaire de la région. C’est une destination touristique prisée.",
+      "type": "text"
+    },
+    {
+      "heading": "Les crêpes et les galettes bretonnes, incontournables en Bretagne",
+      "content": "Les crêpes et galettes sont des spécialités culinaires bretonnes. Fines galettes rondes, elles sont garnies pour être mangées.\n\nPréparées à base de lait, d'œuf et de farine, les crêpes se mangent avec une garniture sucrée : sucre, caramel au beurre salé, confiture…\n\nLes galettes sont préparées à base de farine de sarrasin (blé noir) et d’eau. Elles sont traditionnellement garnies de jambon, œuf, fromage.\n\nLes crêpes et les galettes font partie de l’identité culinaire bretonne.\n\nSources photos\n\nMonument : \n                (Ouvre une nouvelle fenêtre) https://www.fortnational.com/\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Visiter le Fort National à Saint-Malo avec un guide | Fort National\n\n(Ouvre une nouvelle fenêtre) La crêpe | Tourisme Bretagne",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Visiter le Fort National à Saint-Malo avec un guide | Fort National",
+      "url": "https://www.fortnational.com/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La crêpe | Tourisme Bretagne",
+      "url": "https://www.tourismebretagne.com/selon-mes-envies/gastronomie/les-specialites-bretonnes/crepe/"
+    }
+  ]
+}

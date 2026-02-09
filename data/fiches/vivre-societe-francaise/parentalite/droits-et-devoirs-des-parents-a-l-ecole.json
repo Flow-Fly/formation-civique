@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+  "title": "Les devoirs et le rôle des parents à l’école",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/droits-et-devoirs-des-parents-a-l-ecole/",
+  "objectives": [
+    "Connaître les devoirs des parents à l’école.Identifier les possibilités de participer à la vie de l’école."
+  ],
+  "sections": [
+    {
+      "heading": "L’information des parents",
+      "content": "L’école doit informer régulièrement les parents :\n\ndes résultats de leur enfant lors des évaluations ;\n- de son comportement à l’école.\n\nCes informations sont transmises de manière régulière par l’intermédiaire du livret scolaire (pendant le cours élémentaire) puis du bulletin scolaire (pendant le collège et le lycée).",
+      "type": "text"
+    },
+    {
+      "heading": "Les devoirs des parents",
+      "content": "Les parents ont des devoirs pour accompagner la scolarité de leur enfant :\n\nlire le livret scolaire ou le bulletin scolaire ;\n- consulter le carnet de liaison (il est souvent numérique) : sur l'espace numérique de travail (ENT) de l'école ;\n- communiquer avec les professeurs ;\n- participer aux réunions parents-professeurs ;\n- faire les démarches administratives (inscriptions…).",
+      "type": "text"
+    },
+    {
+      "heading": "Le rôle des parents",
+      "content": "Les parents doivent soutenir leur enfant et suivre ses devoirs à la maison.\n\nLes parents peuvent participer à la vie de l’école de plusieurs façons :\n\nen rejoignant l’association de parents d’élèves qui défend les intérêts des enfants ;\n- en se présentant aux élections de représentants des parents d’élèves. Les représentants des parents d’élèves participent aux décisions importantes concernant l’organisation de l’école.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les parents à l'École | Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les parents à l'École | Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche",
+      "url": "https://www.education.gouv.fr/les-parents-l-ecole-9899#:~:text=Les%20parents%20sont%20tenus%20r%C3%A9guli%C3%A8rement,prennent%20connaissance%20de%20ces%20documents."
+    }
+  ]
+}

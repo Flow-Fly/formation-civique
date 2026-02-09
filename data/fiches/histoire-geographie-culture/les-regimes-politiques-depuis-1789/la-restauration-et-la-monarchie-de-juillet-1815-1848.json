@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-restauration-et-la-monarchie-de-juillet-1815-1848",
+  "title": "La Restauration et la Monarchie de Juillet (1815-1848)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-restauration-et-la-monarchie-de-juillet-1815-1848/",
+  "objectives": [
+    "Connaître la Restauration et la Monarchie de Juillet.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que la Restauration et la Monarchie de Juillet ?",
+      "content": "Après la chute de Napoléon Ier le 7 juillet 1815, la monarchie fait son retour. La première période est celle de la Restauration (1815-1830). Le roi Louis XVIII rétablit la monarchie, mais conserve la Charte constitutionnelle, qui protège certaines libertés, comme la liberté de la presse ou un parlement élu. Il adopte toutefois des mesures conservatrices, en renforçant le rôle de l’Église et en surveillant les opposants.\n\nEn 1830, une révolution a lieu à Paris, en réaction aux restrictions des libertés sous le règne de Charles X. Le roi abdique le 2 août 1830 : c’est la fin de la Restauration.\n\nUne seconde période, appelée Monarchie de Juillet (1830-1848), commence avec l’arrivée au pouvoir de Louis-Philippe le 9 août 1830. Il devient roi des Français et met en place une monarchie plus libérale, où le rôle du Parlement et les libertés publiques sont renforcés. Mais le pouvoir s’appuie surtout sur la bourgeoisie et le droit de vote reste réservé aux plus riches.\n\nPeu à peu, les inégalités sociales et le refus d’élargir le droit de vote provoquent des tensions. Une nouvelle révolution met fin au régime le 24 février 1848.\n\nPersonnages clés :\n\nLouis XVIII, roi de France de 1814 à 1824. Il tente de concilier le retour de la royauté avec les acquis de la Révolution française, notamment à travers la Charte constitutionnelle de 1814.\n- Louis-Philippe, roi des Français de 1830 à 1848. Il cherche à incarner une monarchie plus proche du peuple mais il gouverne sans vraiment ouvrir le pouvoir.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant ces périodes ?",
+      "content": "Le citoyen conserve des droits, comme la liberté de la presse et le droit de vote, garantis par la Charte constitutionnelle de 1814 puis de 1830. Mais ces libertés sont souvent limitées par le pouvoir royal et le droit de vote est toujours réservé aux hommes les plus riches.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les apports de ces régimes au système français actuel ?",
+      "content": "Sous la Restauration, le parlement est composé de deux groupes : une chambre élue par une petite partie des citoyens et une chambre choisie par le roi. C’est le début d’une séparation des pouvoirs.\n- Sous la Monarchie de Juillet, le roi conserve le pouvoir exécutif, mais partage désormais le pouvoir législatif avec la Chambre des pairs et la Chambre des députés. Le Parlement gagne donc en importance.\n\nCes évolutions préparent l’idée d’un pouvoir législatif fort et d’une démocratie représentative en France.\n\nÀ cette époque aussi, des partis politiques, des journaux engagés et des oppositions structurées apparaissent. Ils amorcent le fonctionnement démocratique futur de la République.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La Restauration (1814-1830) : les prémices d’un régime parlementaire | vie-publique.fr\n\n(Ouvre une nouvelle fenêtre) La Monarchie de Juillet (1830-1848) : de la stabilité à l’émeute républicaine | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La Restauration (1814-1830) : les prémices d’un régime parlementaire | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/268870-la-restauration-1814-1830-les-premices-dun-regime-parlementaire"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La Monarchie de Juillet (1830-1848) : de la stabilité à l’émeute républicaine | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/268895-la-monarchie-de-juillet-louis-philippe-guizot-revolution-1848"
+    }
+  ]
+}

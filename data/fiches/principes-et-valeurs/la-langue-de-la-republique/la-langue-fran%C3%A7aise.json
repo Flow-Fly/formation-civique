@@ -1,0 +1,40 @@
+{
+  "id": "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+  "title": "La langue française",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-langue-de-la-republique",
+  "subcategoryName": "La langue de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/la-langue-de-la-republique/la-langue-fran%C3%A7aise/",
+  "objectives": [
+    "Comprendre la place de la langue française dans l’histoire de la France.Connaître la diversité des langues pratiquées en France.Identifier l’influence d’autres pays sur le français."
+  ],
+  "sections": [
+    {
+      "heading": "Le français : l’unique langue officielle",
+      "content": "C’est en 1539 que la langue française a remplacé le latin dans les textes administratifs. À cette époque, la population utilise de nombreuses langues locales. C’est la première étape pour unifier la langue française.\n\nIl faut attendre 1992, au moment de la création de l’Union européenne et de la disparition de la monnaie française, pour que la langue française soit inscrite dans la Constitution : \"la langue de la République est le français\".\n\nLe français est donc la seule langue officielle en France. Elle est utilisée dans les écoles, l’administration, la justice, et plus largement dans la vie publique.\n\nCette unité de langue garantit l’égalité d’accès aux droits et à l’information, et renforce la cohésion nationale.",
+      "type": "text"
+    },
+    {
+      "heading": "Une langue qui évolue toujours",
+      "content": "Le français n’est pas une langue figée. Il se nourrit sans cesse de nouveaux mots venus d’autres pays.Exemples : banque (mot issu de l’italien), week-end (mot issu de l’anglais), chiffre (mot issu de l’arabe)…",
+      "type": "text"
+    },
+    {
+      "heading": "Une diversité de langues régionales",
+      "content": "Plusieurs autres langues sont utilisées dans différents régions de la France : le breton, le corse, l’alsacien, le basque ou encore le créole. Elles peuvent être enseignées à l’école, dans le cadre de cours non obligatoires.\n\nCe ne sont pas des langues officielles de la France, mais elles font partie du patrimoine français.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) 10 dates qui ont marqué la langue française | Cité internationale de la langue française au château de Villers-Cotterêts",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) 10 dates qui ont marqué la langue française | Cité internationale de la langue française au château de Villers-Cotterêts",
+      "url": "https://www.cite-langue-francaise.fr/decouvrir/l-aventure-du-francais/10-dates-qui-ont-marque-la-langue-francaise"
+    }
+  ]
+}

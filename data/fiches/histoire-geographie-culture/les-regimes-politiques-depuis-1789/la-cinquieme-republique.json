@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+  "title": "La Vème République",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-cinquieme-republique/",
+  "objectives": [
+    "Connaître la Vème République.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que la Vème République ?",
+      "content": "La Vème République est le régime politique actuel de la France. Elle est instaurée le 4 octobre 1958, face à une crise politique majeure liée à la guerre d’Algérie et à l’instabilité gouvernementale de la IVème République.\n\nCharles de Gaulle, chef du Gouvernement provisoire après la Libération, revient au pouvoir. Il propose une nouvelle Constitution, adoptée par référendum en septembre 1958.\n\nPersonnages clés : Charles de Gaulle, fondateur et premier président de la Vème République, a façonné ses institutions et renforcé le pouvoir exécutif. Beaucoup de dirigeants lui ont ensuite succédé, comme Georges Pompidou ou François Mitterrand. Ils reflètent l’évolution politique du régime.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens sous la Vème République ?",
+      "content": "La Vème République garantit le respect des droits fondamentaux, inscrits dans la Constitution.\n\nEn 1974, sous le mandat de Valéry Giscard d’Estaing, elle élargit la participation démocratique : les jeunes peuvent voter dès l’âge de 18 ans (contre 21 ans auparavant).",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les apports de la Vème République ?",
+      "content": "La Vème République instaure un pouvoir exécutif fort, avec un président doté de pouvoirs importants pour préserver la continuité et la stabilité du Gouvernement.\n\nLa stabilité gouvernementale est aussi favorisée par la Constitution, qui limite les conditions dans lesquelles le Gouvernement peut être renversé par l’Assemblée nationale.\n\nLa création du Conseil constitutionnel assure un contrôle juridique des lois et garantit le respect de la Constitution.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Comment caractériser le régime politique de la Ve République ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Comment caractériser le régime politique de la Ve République ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/38013-comment-caracteriser-le-regime-politique-de-la-ve-republique"
+    }
+  ]
+}

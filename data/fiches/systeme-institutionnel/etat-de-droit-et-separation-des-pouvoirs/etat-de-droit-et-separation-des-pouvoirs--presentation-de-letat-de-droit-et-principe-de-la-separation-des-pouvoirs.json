@@ -1,0 +1,49 @@
+{
+  "id": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+  "title": "État de droit et séparation des pouvoirs : présentation de l’État de droit et principe de la séparation des pouvoirs",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "etat-de-droit-et-separation-des-pouvoirs",
+  "subcategoryName": "État de droit et séparation des pouvoirs",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/",
+  "objectives": [
+    "Connaître et comprendre les caractéristiques de notre démocratie."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître et comprendre les caractéristiques de notre démocratie.",
+      "type": "text"
+    },
+    {
+      "heading": "L’État de droit, c’est quoi ?",
+      "content": "Un État de droit est un système dans lequel la loi est la même pour tous, y compris pour l’État. Le droit est donc supérieur aux pouvoirs et aux autorités politiques. Ce système garantit le respect des droits fondamentaux et de la démocratie.\n\nExemple : le droit à la sûreté protège les individus contre les arrestations et les emprisonnements arbitraires des autorités publiques.\n\nL’État de droit est donc une condition de la démocratie, et c'est le contraire de l’État arbitraire puisque les autorités publiques agissent toujours en respectant la loi.\n\nDes juges indépendants contrôlent les autorités publiques.",
+      "type": "text"
+    },
+    {
+      "heading": "Les principes de l’État de droit, quels sont-ils ?",
+      "content": "On définit l’État de droit selon 6 principes :\n\nla primauté du droit : le droit s’impose à tous, y compris à l’État et à ses représentants ;\n- l’égalité devant la loi (tout le monde est soumis aux mêmes lois et a les mêmes droits et devoirs, qu’il soit politicien ou pas) ;\n- la séparation des pouvoirs.\n\nOn y ajoute :\n\nla légalité : les lois sont créées dans un processus transparent, responsable, démocratique et dans lequel chaque parti politique a pu s’exprimer ;\n- la sécurité juridique : on peut avoir confiance en la loi, elle est claire et ne change pas tout le temps ;\n- une protection juridictionnelle effective : la justice protège réellement.\n\nL’État de droit doit toujours respecter la Constitution française et la Déclaration des droits de l'homme et du citoyen de 1789, citée dans l’introduction de la Constitution.",
+      "type": "text"
+    },
+    {
+      "heading": "Le principe de séparation des pouvoirs, c’est quoi ?",
+      "content": "En France, la séparation des 3 pouvoirs signifie que les pouvoirs législatif (le Parlement vote les lois), exécutif (le Gouvernement applique et fait respecter la loi) et judiciaire (l’autorité judiciaire contrôle l’application des lois) ne sont pas entre les mains des mêmes personnes.\n\nCe principe permet de garantir les droits fondamentaux et de conserver un équilibre : les pouvoirs se contrôlent mutuellement, ils sont neutres et ne peuvent s’exercer de façon arbitraire. Exemple : un ministre qui ne respecte pas la loi peut être sanctionné comme tout citoyen.\n\nLe principe de séparation des pouvoirs est inscrit dans la Constitution, qui cite la Déclaration des droits de l’homme et du citoyen de 1789.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Qu'est-ce que l'État de droit ? | vie-publique.fr\n\n(Ouvre une nouvelle fenêtre) Qu'entend-on par séparation des pouvoirs ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qu'est-ce que l'État de droit ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/parole-dexpert/270286-quest-ce-que-letat-de-droit"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qu'entend-on par séparation des pouvoirs ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/275008-quentend-par-separation-des-pouvoirs"
+    }
+  ]
+}

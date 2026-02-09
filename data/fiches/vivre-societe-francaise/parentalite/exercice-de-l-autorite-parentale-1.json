@@ -1,0 +1,35 @@
+{
+  "id": "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+  "title": "Exercice de l’autorité parentale (1/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1/",
+  "objectives": [
+    "Comprendre ce qu’est l’autorité parentale.Connaître les droits et devoirs des parents."
+  ],
+  "sections": [
+    {
+      "heading": "L’autorité parentale, qu’est-ce que c’est ?",
+      "content": "Les parents ont des droits et des devoirs vis-à-vis de leur enfant de moins de 18 ans. L’ensemble de ces droits et devoirs, c’est-à-dire ce qu’ils peuvent et ce qu’ils doivent faire, correspond à ce que l’on appelle l’autorité parentale.\n\nLes deux parents ont tous les deux l’autorité parentale : ils ont les mêmes droits et les mêmes devoirs. Peu importe leur situation (s’ils sont mariés, pacsés, en concubinage ou séparés).\n\nDès sa naissance, les parents doivent déclarer leur enfant à la mairie.\n\nIls sont tous les deux responsables de leur enfant.",
+      "type": "text"
+    },
+    {
+      "heading": "L’intérêt de l’enfant",
+      "content": "Les parents exercent leurs droits et devoirs dans l'intérêt de leur enfant et dans le respect de leur enfant. Ils n’utilisent ni la violence physique, ni la violence psychologique.\n\nLes parents associent leur enfant aux décisions qui le concernent, selon son âge et sa maturité.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Exercice de l'autorité parentale | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Exercice de l'autorité parentale | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F3132"
+    }
+  ]
+}

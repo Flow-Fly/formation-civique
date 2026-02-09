@@ -1,0 +1,35 @@
+{
+  "id": "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+  "title": "Les droits liés à la personne humaine",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "droits-fondamentaux",
+  "subcategoryName": "Droits fondamentaux",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine/",
+  "objectives": [
+    "Connaître les droits fondamentaux.Comprendre l’application des droits fondamentaux."
+  ],
+  "sections": [
+    {
+      "heading": "Les droits liés à la personne humaine (dits “les droits de” quelqu’un), c’est quoi ?",
+      "content": "Les droits liés à la personne sont “les droits de” tous les êtres humains. Ce sont des droits naturels que chaque individu possède simplement parce qu’il est un être humain.\n\nCe sont des droits individuels, civiques et politiques. Chaque personne a droit à :\n\nl’égalité devant la loi (tout être humain doit être traité de la même façon par la loi) ;\n- la liberté ;\n- la sûreté (la sécurité) ;\n- la résistance à l’oppression.\n\nCes droits fondamentaux sont des libertés fondamentales inaltérables (c'est-à-dire qu'elles ne sont pas modifiables).",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits qui découlent des droits individuels ?",
+      "content": "L’application des droits fondamentaux liés à la personne humaine cités précédemment (égalité, liberté, sûreté et résistance à l'oppression) entraîne des droits fondamentaux dans une société.\n\nLe principe d’égalité devant la loi se décline en plusieurs types d’égalité :\n\nle suffrage universel (le droit de vote pour chaque citoyen) ;\n- l’égalité des sexes (les femmes et les hommes doivent recevoir un traitement égal et ne doivent pas être victimes de discriminations fondées sur leur appartenance à l'un ou l'autre sexe ou genre) ;\n- l’égalité devant la loi, l’impôt, la justice, devant l’accès à l’emploi, l'accès à la culture…\n\nLe principe de liberté confère à chacun :\n\nla liberté d’expression (liberté de penser et de dire ce que l’on pense) ;\n- la liberté de culte ou de religion ;\n- le droit de grève (droit pour une personne employée de cesser le travail pour exprimer un désaccord).\n\nLe droit de propriété fonde la liberté de disposer de ses biens et d’entreprendre.\n\nLe droit à la sûreté suppose le respect des droits de la défense comme :\n\nle droit à un procès équitable (être accompagné, dans la langue qu’il comprend) ;\n- la présomption d’innocence (toute personne accusée est dite \"innocente\" tant que sa culpabilité n’a pas été prouvée) ;\n- le droit à un avocat ;\n- le droit au silence ;\n- et la protection de la liberté individuelle.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Libertés et droits fondamentaux : de quoi s'agit-il ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Libertés et droits fondamentaux : de quoi s'agit-il ? | vie-publique.fr",
+      "url": "http://vie-publique.fr/fiches/23865-libertes-et-droits-fondamentaux-de-quoi-sagit-il"
+    }
+  ]
+}

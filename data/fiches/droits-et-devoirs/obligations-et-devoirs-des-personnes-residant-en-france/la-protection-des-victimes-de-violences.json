@@ -1,0 +1,44 @@
+{
+  "id": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+  "title": "La protection des victimes de violences",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "obligations-et-devoirs-des-personnes-residant-en-france",
+  "subcategoryName": "Obligations et devoirs des personnes résidant en France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-protection-des-victimes-de-violences/",
+  "objectives": [
+    "Comprendre ses droits fondamentaux.Savoir comment agir en cas de violence."
+  ],
+  "sections": [
+    {
+      "heading": "Si on est victime de violence, peut-on être protégé ?",
+      "content": "Quelle que soit la violence subie, que ce soit récent ou dans le passé, vous pouvez être accompagné et protégé.\n\nToutes les violences ont des conséquences : pour vous (psychologiques, physiques…) et pour la personne qui a été violente (mesures d’éloignement, condamnations…). Il est donc important de ne pas rester seul et d’agir.",
+      "type": "text"
+    },
+    {
+      "heading": "Que faire quand on est victime de violence ?",
+      "content": "En parler\n\nIl ne faut pas rester seul. Exprimer sa souffrance permet de sortir de l’isolement et d’être orienté vers des solutions. Vous pouvez vous adresser à :\n\nune personne de confiance : ami, membre de la famille, collègue, enseignant…\n- un professionnel : médecin, psychologue, travailleur social…\n\nSe faire accompagner\n\nIl existe de nombreuses associations spécialisées selon le type de violence vécue. Elles proposent souvent un accompagnement :\n\npsychologique (écoute, soutien, groupes de parole) ;\n- juridique (informations sur vos droits, aide à porter plainte) ;\n- social (logement d’urgence, démarches administratives…).\n\nCes accompagnements sont gratuits, confidentiels et sans obligation de porter plainte.\n\nPorter plainte ou signaler les faits\n\nEn tant que victime, vous pouvez :\n\ndéposer plainte auprès de tous les commissariats ou les gendarmeries ;\n- envoyer un courrier au procureur de la République ;\n- (Ouvre une nouvelle fenêtre) utiliser les plateformes de signalement en ligne, notamment pour les violences sexuelles et sexistes.\n\nLa victime de violences n'est jamais responsable.",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "Numéros d’urgence\n\n15 – SAMU17 – Police secours18 – Sapeurs-pompiers112 – Appels d’urgence européen115 – Hébergement d’urgence119 – Enfance maltraitée196 – Secours en mer3919 – Violences conjugales\n\n3018 – Harcèlement scolaire114 – par SMS pour les personnes malentendantes\n\n(En bas, logo du Gouvernement français avec Marianne sur fond bleu, blanc, rouge)",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) J'ai besoin d'aide | Arrêtons les violences\n\n(Ouvre une nouvelle fenêtre) Site \"ma sécurité\"| Ministère de l'Intérieur",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) J'ai besoin d'aide | Arrêtons les violences",
+      "url": "https://arretonslesviolences.gouv.fr/besoin-d-aide"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Site \"ma sécurité\"| Ministère de l'Intérieur",
+      "url": "https://www.masecurite.interieur.gouv.fr/fr"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--auvergne-rhone-alpes",
+  "title": "Auvergne-Rhône-Alpes",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/auvergne-rhone-alpes/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : l’Auvergne-Rhône-Alpes."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : l’Auvergne-Rhône-Alpes.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de l’Auvergne-Rhône-Alpes ?",
+      "content": "La région de l’Auvergne-Rhône-Alpes est située dans le sud-est de la France. Elle est bordée par la Suisse et l’Italie et s’étend des Alpes au Massif central.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de l’Auvergne-Rhône-Alpes ?",
+      "content": "L’Auvergne-Rhône-Alpes compte 12 départements : Ain, Allier, Ardèche, Cantal, Drôme, Haute-Loire, Haute-Savoie, Isère, Loire, Puy-de-Dôme, Rhône, Savoie.\n\nSes principales villes sont Lyon (préfecture), Grenoble, Saint-Étienne, Clermont-Ferrand, Annecy et Chambéry.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 8,1 millions d’habitants. C’est la 2ème région la plus peuplée après l’Île-de-France.\n\nSecteurs économiques clés\n\nIndustrie (aéronautique, chimie, métallurgie), agroalimentaire, numérique, énergie, tourisme (stations de ski), agriculture (vignes et élevage).\n\nSituation du marché du travail\n\nLe taux de chômage est légèrement inférieur à la moyenne nationale. L’économie est dynamique dans la région lyonnaise, alpine et grenobloise.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région d’Auvergne-Rhône-Alpes | Insee\n\n(Ouvre une nouvelle fenêtre) Notes relatives aux taux de chômage et à l’emploi salarié | DREETS",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région d’Auvergne-Rhône-Alpes | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-84"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Notes relatives aux taux de chômage et à l’emploi salarié | DREETS",
+      "url": "https://auvergne-rhone-alpes.dreets.gouv.fr/Notes-relatives-au-taux-de-chomage-et-a-l-emploi-salarie"
+    }
+  ]
+}

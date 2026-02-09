@@ -1,0 +1,48 @@
+{
+  "id": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+  "title": "Accès aux soins : le médecin généraliste",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-le-medecin-generaliste/",
+  "objectives": [
+    "Comprendre le rôle du médecin généraliste et du médecin traitant.Connaître le parcours de santé."
+  ],
+  "sections": [
+    {
+      "heading": "Pourquoi consulter un médecin généraliste ?",
+      "content": "Le médecin généraliste est formé pour assurer des soins de premier recours (prévention, dépistage, diagnostic, traitement, orientation, éducation pour la santé). Il prend en charge des patients de tout âge, pour des problèmes courants ou chroniques.",
+      "type": "text"
+    },
+    {
+      "heading": "Un médecin traitant, c’est quoi ?",
+      "content": "Le médecin généraliste devient médecin traitant lorsqu’il est officiellement déclaré par le patient pour assurer le suivi médical et coordonner les soins.\n\nLe médecin traitant est celui qui :\n\nsoigne et suit le patient régulièrement : c’est lui qu’il faut consulter en premier pour un avis sur sa santé et qui s'assure que le suivi médical est optimal ;\n- oriente dans le parcours de soins coordonnés : c’est l’interlocuteur privilégié, il informe et vous met, si besoin, en relation avec d'autres professionnels de santé (médecins spécialistes, médecins hospitaliers,...) ;\n- connaît et gère votre dossier médical : il centralise toutes les informations concernant vos soins et votre état de santé. Il tient à jour votre dossier médical (résultats d'examens, diagnostics, traitements...) ;\n- assure une prévention personnalisée : il assure le suivi de la vaccination, les examens de dépistage organisés (exemple : dépistage du cancer colorectal), peut aider à l'arrêt du tabac, donne des conseils santé en fonction de votre style de vie, de votre âge ou de vos antécédents familiaux, des conseils en nutrition…\n- établit le protocole de soins à suivre si le patient est atteint d'une affection de longue durée. Il le construit en concertation avec les autres médecins qui suivent la maladie.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment prendre rendez-vous avec un médecin traitant ?",
+      "content": "Pour prendre un rendez-vous avec un médecin généraliste :\n\nappelez le cabinet de votre médecin traitant ;\n- réservez un rendez-vous en ligne sur la plateforme de votre médecin (exemple : \n                (Ouvre une nouvelle fenêtre) Doctolib, \n                (Ouvre une nouvelle fenêtre) Maiia…).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le rôle du médecin traitant et le parcours de soins coordonnés | ameli.fr | Assuré\n\n(Ouvre une nouvelle fenêtre) Doctolib : Prenez rendez-vous en ligne chez un soignant\n\n(Ouvre une nouvelle fenêtre) Maiia - RDV médical et Téléconsultation - Professionnels de santé",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le rôle du médecin traitant et le parcours de soins coordonnés | ameli.fr | Assuré",
+      "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/medecin-traitant-parcours-soins-coordonnes"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Doctolib : Prenez rendez-vous en ligne chez un soignant",
+      "url": "https://www.doctolib.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Maiia - RDV médical et Téléconsultation - Professionnels de santé",
+      "url": "https://www.maiia.com/"
+    }
+  ]
+}

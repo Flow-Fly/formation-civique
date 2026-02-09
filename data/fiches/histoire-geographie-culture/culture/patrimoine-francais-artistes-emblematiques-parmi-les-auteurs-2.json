@@ -1,0 +1,53 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+  "title": "Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/",
+  "objectives": [
+    "Connaître des artistes français, et en particulier les auteurs français du 19ème siècle."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître des artistes français, et en particulier les auteurs français du 19ème siècle.",
+      "type": "text"
+    },
+    {
+      "heading": "Victor Hugo, écrivain majeur du romantisme français (1802-1885)",
+      "content": "Qui était-il ?\n\nVictor Hugo est un écrivain engagé, poète, dramaturge et romancier. Dans ses œuvres romantiques, il valorise les émotions, l’imagination, la nature et la liberté artistique. Ses œuvres dénoncent les injustices sociales et explorent les combats pour la liberté. Il a profondément marqué la littérature et la pensée politique de son temps.\n\nLes plus célèbres écrits de Victor Hugo\n\nLes Misérables\n- Notre-Dame de Paris\n- Le Dernier Jour d’un condamné",
+      "type": "text"
+    },
+    {
+      "heading": "Baudelaire, poète majeur du 19ème siècle (1821-1867)",
+      "content": "Qui était-il ?\n\nBaudelaire est un grand poète français. Il a modernisé la poésie. Dans son œuvre, il explore le bien et le mal, la beauté et la laideur ou encore la mélancolie (grande tristesse). Ses poèmes ont d’abord choqué, puis fasciné. Ils font aujourd’hui partie des œuvres les plus étudiées et appréciées de la littérature française.\n\nLes plus célèbres recueils de Baudelaire\n\nLes Fleurs du Mal\n- Le Spleen de Paris",
+      "type": "text"
+    },
+    {
+      "heading": "George Sand, écrivaine importante au 19ème siècle (1804-1876)",
+      "content": "Qui était-elle ?\n\nGeorge Sand est une écrivaine connue pour son engagement social, sa défense des droits des femmes et sa liberté de ton. Elle a renouvelé le roman français en mêlant réalisme et romantisme, avec une attention particulière aux milieux ruraux et populaires. Son œuvre a contribué à faire évoluer la place des femmes dans la société et la littérature. En effet, c’est la première femme à mesurer sa popularité aux écrivains masculins de son époque.\n\nLes plus célèbres romans de George Sand :\n\nLa Mare au Diable\n- Consuelo\n- Indiana\n\nSources photo :\n\nPortrait de Victor HugoLéon Bonnat et Nadar © GrandPalaisRmn (musée d'Orsay) / Hervé Lewandowski\n- Portrait de BaudelaireNadar © GrandPalaisRmn (musée d'Orsay) / Hervé Lewandowski\n- Portrait de George SandNadar - MLC 1983.1.164 © Musée George Sand et la Vallée Noire – La Châtre",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Victor Hugo - Maison Victor Hugo Besançon\n\n(Ouvre une nouvelle fenêtre) Baudelaire, la modernité mélancolique | BnF\n\n(Ouvre une nouvelle fenêtre) Tout savoir sur George Sand",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Victor Hugo - Maison Victor Hugo Besançon",
+      "url": "https://maisonvictorhugo.besancon.fr/la-maison-victor-hugo/victor-hugo/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Baudelaire, la modernité mélancolique | BnF",
+      "url": "https://expositions.bnf.fr/baudelaire/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Tout savoir sur George Sand",
+      "url": "https://www.pays-george-sand.com/decouvrir/terre-dinspiration/george-sand/"
+    }
+  ]
+}

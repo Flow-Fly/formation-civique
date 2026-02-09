@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-occitanie",
+  "title": "Patrimoine français : sites emblématiques et gastronomie d’Occitanie",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-occitanie/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux d’Occitanie."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux d’Occitanie.",
+      "type": "text"
+    },
+    {
+      "heading": "Le pont du Gard, monument historique d’Occitanie",
+      "content": "Le pont du Gard est un aqueduc, un canal en pierre. Il a été construit au 1er siècle par les Romains pour transporter de l’eau sur 50 kilomètres jusqu’à la ville de Nîmes. C’est une prouesse technique et esthétique.\n\nLe pont du Gard est un des aqueducs les mieux conservés au monde.\n\nIl est inscrit au patrimoine mondial de l’UNESCO.",
+      "type": "text"
+    },
+    {
+      "heading": "Le cassoulet, un plat traditionnel d’Occitanie",
+      "content": "Le cassoulet est un plat du Languedoc dans le sud de la France.\n\nIl est préparé à base de haricots blancs mijotés avec différentes viandes (confit de canard, saucisse ou porc). On le prépare dans une “cassole”, un grand récipient en terre cuite.\n\nOn mange plutôt le cassoulet pendant la saison froide.\n\nLe cassoulet, plat convivial et généreux, reflète le savoir-faire culinaire et la tradition paysanne locale.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le Pont du Gard | Site officiel\n\n(Ouvre une nouvelle fenêtre) Recette officielle du vrai cassoulet de Castelnaudary",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le Pont du Gard | Site officiel",
+      "url": "https://pontdugard.fr/fr"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Recette officielle du vrai cassoulet de Castelnaudary",
+      "url": "https://www.cassoulet.com/content/7-recette-officielle-du-vrai-cassoulet-de-castelnaudary"
+    }
+  ]
+}

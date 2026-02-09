@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
+  "title": "La IIIème République (1870-1940)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940/",
+  "objectives": [
+    "Connaître la IIIème République.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que la IIIème République ?",
+      "content": "Après la chute du 2nd Empire de Napoléon 3, la IIIème République ancre le régime républicain en France. Elle est proclamée le 4 septembre 1870 par Léon Gambetta. Elle naît dans un climat de tensions entre républicains et monarchistes.\n\nEn 1871, la Commune de Paris, mouvement d’insurrection parisien et républicain, se forme, en opposition à la nouvelle Assemblée monarchiste. Le Gouvernement d’Adolphe Thiers réprime violemment le mouvement.\n\nLes royalistes, divisés, échouent à restaurer la monarchie. La République s’installe durablement avec les lois constitutionnelles de 1875. Elle s’achève le 10 juillet 1940, pendant la guerre, lorsque le régime de Vichy s’installe.\n\nPersonnages clés : La IIIème République n’est pas incarnée par une seule figure, mais par 16 présidents. Ils reflètent la diversité et la continuité du régime à travers plusieurs décennies.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant cette période ?",
+      "content": "La IIIème République affirme de grandes libertés républicaines, comme la liberté de réunion publique sans autorisation ou la liberté de syndicat (sauf dans la fonction publique).\n\nAvec la loi du 5 avril 1884 sur l’organisation municipale, les citoyens masculins peuvent élire le conseil municipal de leur commune.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les apports de ce régime au système français actuel ?",
+      "content": "La IIIème République établit une démocratie parlementaire stable avec :\n\nun président ;\n- un Parlement composé de deux chambres (les députés et les sénateurs) ;\n- et un Gouvernement (les ministres) responsable devant ce parlement.\n\nElle généralise l’école publique gratuite en 1881 et l’école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry.\n\nElle instaure la loi de 1905 sur la séparation des Églises et de l’État, qui fonde la laïcité.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La IIIe République (1870-1940). Installation définitive de la République | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La IIIe République (1870-1940). Installation définitive de la République | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/268977-la-iiie-republique-1870-1940-installation-definitive-de-la-republique"
+    }
+  ]
+}

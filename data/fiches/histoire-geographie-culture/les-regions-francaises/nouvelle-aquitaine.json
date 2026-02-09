@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--nouvelle-aquitaine",
+  "title": "Nouvelle-Aquitaine",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/nouvelle-aquitaine/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Nouvelle-Aquitaine."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Nouvelle-Aquitaine.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de la Nouvelle-Aquitaine ?",
+      "content": "La région de la Nouvelle-Aquitaine est située dans le sud-ouest de la France. Elle borde l’océan Atlantique et est proche de l’Espagne. C’est la plus grande région métropolitaine française.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de la Nouvelle-Aquitaine ?",
+      "content": "La Nouvelle-Aquitaine compte 12 départements : Charente, Charente-Maritime, Corrèze, Creuse, Deux-Sèvres, Dordogne, Gironde, Haute-Vienne, Landes, Lot-et-Garonne, Pyrénées-Atlantiques, Vienne.\n\nSes principales villes sont Bordeaux (préfecture), Limoges, Poitiers, Pau, La Rochelle, Bayonne et Périgueux.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 6,2 millions d’habitants. La population augmente rapidement, surtout dans les départements du bord de mer, qui sont attractifs.\n\nSecteurs économiques clés\n\nAéronautique, agriculture (vignes, élevage, céréales), agroalimentaire, tourisme (littoral, patrimoine, montagne), numérique, forêt/bois, énergie.\n\nSituation du marché du travail\n\nLe taux de chômage est inférieur à la moyenne nationale, mais varie fortement selon les départements.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet - Région de la Nouvelle-Aquitaine | Insee\n\n(Ouvre une nouvelle fenêtre) Tableau de bord de la conjoncture : Nouvelle-Aquitaine | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet - Région de la Nouvelle-Aquitaine | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-75"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Tableau de bord de la conjoncture : Nouvelle-Aquitaine | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2121832"
+    }
+  ]
+}

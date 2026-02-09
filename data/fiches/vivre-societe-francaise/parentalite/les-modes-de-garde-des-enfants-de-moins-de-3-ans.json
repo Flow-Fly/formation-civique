@@ -1,0 +1,35 @@
+{
+  "id": "vivre-societe-francaise--parentalite--les-modes-de-garde-des-enfants-de-moins-de-3-ans",
+  "title": "Les modes de garde des enfants de moins de 3 ans",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-modes-de-garde-des-enfants-de-moins-de-3-ans/",
+  "objectives": [
+    "Comprendre qu’il existe des lieux pour faire garder un enfant par des professionnels.Identifier les différentes possibilités pour faire garder son enfant."
+  ],
+  "sections": [
+    {
+      "heading": "Faire garder son enfant par des professionnels",
+      "content": "Les enfants de moins de 3 ans qui ne vont pas encore à l’école peuvent être gardés par des professionnels spécialisés dans la garde d’enfant.\n\nCe service est payant, mais il existe des aides financières pour les personnes à faibles revenus.\n\nIl existe différents lieux de garde d’enfant. Un des avantages : les enfants sont en contact avec d’autres enfants.\n\nCes lieux gardent des enfants à partir de 2 mois et demi. Dans certains cas, ils gardent des enfants jusqu’à 6 ans.",
+      "type": "text"
+    },
+    {
+      "heading": "Où faire garder son enfant ?",
+      "content": "La crèche est un endroit qui garde de nombreux enfants, de manière régulière. Diverses activités favorisent le bon développement des enfants. Il existe différents types de crèches : crèche collective (gérée par une association, une commune…), crèche dans une entreprise, crèche parentale (les parents se partagent les temps de garde)…\n- La micro-crèche est une crèche qui garde 10 enfants au maximum. Elle garde les enfants de manière régulière ou seulement certains jours.\n- La halte-garderie permet de faire garder son enfant certains jours, pas plus de 3 demi-journées par semaine. Elle fonctionne comme une crèche, mais les professionnels sont moins nombreux.\n- L’assistante maternelle peut garder un ou plusieurs enfants en même temps. Il est possible de faire garder son enfant de moins de 3 ans, en complément de l’école.\n- À domicile. Les parents emploient directement une personne qui vient garder l’enfant chez eux. Cette solution est plus chère que les autres et moins encadrée.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) J'ai besoin de faire garder mes enfants | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) J'ai besoin de faire garder mes enfants | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F601"
+    }
+  ]
+}

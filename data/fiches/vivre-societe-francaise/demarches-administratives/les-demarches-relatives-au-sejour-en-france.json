@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+  "title": "Les démarches relatives au séjour en France",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-sejour-en-france/",
+  "objectives": [
+    "Connaître les démarches pour renouveler son titre de séjour."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les démarches pour renouveler son titre de séjour.",
+      "type": "text"
+    },
+    {
+      "heading": "Quel type de titre de séjour ?",
+      "content": "Tout étranger doit disposer d’un titre de séjour valide qui correspond à sa situation.\n\nLe type de titre de séjour varie en fonction de la durée et du motif (la raison) de l’installation en France.\n\nPour savoir quel type de titre de séjour vous correspond, rendez-vous :\n\nen présentiel, dans une maison France Service ou dans un point d’accueil numérique (PAN) en préfecture ;\n- en ligne, sur le site de la préfecture la plus proche ou le site de l’ANEF (l’Administration Numérique des Étrangers en France) : \n                (Ouvre une nouvelle fenêtre) administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/ ;\n- par téléphone, contactez le centre de contact citoyen pour les démarches en lien avec l’ANEF : 0806 001 620.\n\nÀ NOTERVous devez informer la Préfecture de tout changement d’adresse ou de domiciliation.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment faire la demande de renouvellement de titre de séjour ?",
+      "content": "La demande de renouvellement de titre de séjour doit être faite au moins 3 mois avant la fin de validité de votre titre de séjour. Vous pouvez faire jusqu’à 3 demandes de titre de séjour pour le même motif par an.\n\nVoici les différentes étapes d’une demande de renouvellement de titre de séjour :\n\nprendre contact avec sa préfecture pour connaître les modalités de dépôt ;\n- préparer le dossier avec :les pièces justificatives demandées ;\"le contrat d'engagement à respecter les principes de la République française\" ;l’attestation de réussite de l’examen civique ;une certification linguistique de niveau A2 (pour toutes les demandes de titre de séjour de plus de 1 an).\n- les pièces justificatives demandées ;\n- \"le contrat d'engagement à respecter les principes de la République française\" ;\n- l’attestation de réussite de l’examen civique ;\n- une certification linguistique de niveau A2 (pour toutes les demandes de titre de séjour de plus de 1 an).\n\n3. déposer le dossier complet, au moins 3 mois avant la fin de validité du titre de séjour.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Titres, cartes de séjour et documents de circulation pour étranger en France\n\n(Ouvre une nouvelle fenêtre) Faire une demande sur internet pour un titre de séjour, un changement de situation, un titre de voyage, une demande de naturalisation ANEF",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Titres, cartes de séjour et documents de circulation pour étranger en France",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/N110"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Faire une demande sur internet pour un titre de séjour, un changement de situation, un titre de voyage, une demande de naturalisation ANEF",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/R59398"
+    }
+  ]
+}

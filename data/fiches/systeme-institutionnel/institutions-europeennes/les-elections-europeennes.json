@@ -1,0 +1,44 @@
+{
+  "id": "systeme-institutionnel--institutions-europeennes--les-elections-europeennes",
+  "title": "Les élections européennes",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "institutions-europeennes",
+  "subcategoryName": "Institutions européennes",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes/",
+  "objectives": [
+    "Comprendre à quoi servent les élections européennes.Comprendre qui peut voter.Comprendre qui peut être candidat."
+  ],
+  "sections": [
+    {
+      "heading": "Qui élit-on lors des élections européennes ?",
+      "content": "Les élections européennes sont organisées tous les cinq ans. Les citoyens et les citoyennes de l’Union européenne votent pour désigner les membres du Parlement européen. On les appelle les députés européens, ou eurodéputés.\n\nLe nombre d’eurodéputés par État dépend de la population du pays. Depuis les élections de 2024, la France compte 81 eurodéputés.\n\nLes électeurs votent pour des listes de partis politiques, et non pour des candidats uniques.",
+      "type": "text"
+    },
+    {
+      "heading": "Qui peut voter ?",
+      "content": "Pour avoir le droit de voter en France lors des élections européennes, il faut :\n\nAvoir la nationalité d’un pays membre de l’Union européenne ;\n- Habiter en France ;\n- Avoir au moins 18 ans la veille du 1er tour de l’élection ;\n- Être inscrit sur les listes électorales françaises.",
+      "type": "text"
+    },
+    {
+      "heading": "Qui peut être candidat ?",
+      "content": "Pour être candidat aux élections européennes organisées en France, il faut :\n\nAvoir la nationalité d’un pays membre de l’Union européenne ;\n- Habiter en France ;\n- Avoir au moins 18 ans la veille du 1er tour de l’élection ;\n- Ne pas être privé de ses droits civils et politiques.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque des territoires",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Élections européennes : tout ce qu’il faut savoir\n\n(Ouvre une nouvelle fenêtre) Élections : droit de vote d'un citoyen européen en France | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Élections européennes : tout ce qu’il faut savoir",
+      "url": "https://elections.europa.eu/fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Élections : droit de vote d'un citoyen européen en France | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F1937"
+    }
+  ]
+}

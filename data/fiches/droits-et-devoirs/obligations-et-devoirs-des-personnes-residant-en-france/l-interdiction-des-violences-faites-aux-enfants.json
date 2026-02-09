@@ -1,0 +1,44 @@
+{
+  "id": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--l-interdiction-des-violences-faites-aux-enfants",
+  "title": "L'interdiction des violences faites aux enfants",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "obligations-et-devoirs-des-personnes-residant-en-france",
+  "subcategoryName": "Obligations et devoirs des personnes résidant en France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/l-interdiction-des-violences-faites-aux-enfants/",
+  "objectives": [
+    "Comprendre ses droits fondamentaux.Identifier les violences faites aux enfants."
+  ],
+  "sections": [
+    {
+      "heading": "La maltraitance des enfants, c’est quoi ?",
+      "content": "Différents types de violences existent :\n\ndes violences physiques ou sexuelles (morsure, brûlure, étranglement, attouchement, mutilation sexuelle...) ;\n- des violences psychologiques (cris, menaces, moqueries...) ;\n- la privation volontaire de soins (alimentation, médicaments, hygiène...).\n\nLa violence n’apprend rien, elle ne peut pas être utilisée pour éduquer un enfant ; c’est inscrit dans la loi. Les gifles, les fessées, les humiliations ou les autres violences psychologiques et physiques sont interdites.",
+      "type": "text"
+    },
+    {
+      "heading": "Les violences entre enfants : le cas du harcèlement scolaire",
+      "content": "Un élève est victime de harcèlement scolaire lorsqu'il subit, de manière répétée, des violences verbales, morales ou physiques de la part d'un ou plusieurs autres élèves, à l’intérieur ou à l’extérieur de l’établissement scolaire.\n\nCes actes de violence sont, par exemple, des insultes, des moqueries, des brimades, des rejets d'un groupe, des bousculades, des coups, des vols.\n\nLe harcèlement scolaire est un délit. Il est puni par la loi.",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "Enfants en danger ?Parents en difficulté ?\n\nLe mieux, c’est d’en parler !\n\n119\n\n24H/24 – APPEL GRATUIT – 7 jours/7ALLÔ ENFANCE EN DANGER\n\nwww.allo119.gouv.fr",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Enfant victime de maltraitance | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Harcèlement scolaire au collège et au lycée | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Enfant victime de maltraitance | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F952"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Harcèlement scolaire au collège et au lycée | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F31985"
+    }
+  ]
+}

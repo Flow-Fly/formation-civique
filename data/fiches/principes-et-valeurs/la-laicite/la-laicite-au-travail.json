@@ -1,0 +1,49 @@
+{
+  "id": "principes-et-valeurs--la-laicite--la-laicite-au-travail",
+  "title": "La laïcité au travail",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-laicite",
+  "subcategoryName": "La laïcité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-au-travail/",
+  "objectives": [
+    "Identifier les différences d’application de la laïcité entre les services publics et les entreprises privées."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les différences d’application de la laïcité entre les services publics et les entreprises privées.",
+      "type": "text"
+    },
+    {
+      "heading": "La neutralité au travail",
+      "content": "La laïcité ne s’applique pas de la même manière aux personnes qui travaillent dans les services publics (les agents publics) et à celles qui travaillent dans les entreprises privées (les salariés).",
+      "type": "text"
+    },
+    {
+      "heading": "Comment s’applique la laïcité pour les agents publics ?",
+      "content": "Comme tout citoyen français, l’agent du service public est libre d’avoir une religion.\n\nMais dans le cadre de son travail, il n’a pas le droit de manifester ses opinions religieuses :\n\nil ne doit porter aucun signe montrant sa religion (voile, keshi, croix, kippa…) ;\n- il ne doit pas faire de prosélytisme ;\n- son comportement ne doit pas troubler le fonctionnement du service public.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment s’applique la laïcité pour les salariés ?",
+      "content": "Le salarié a lui aussi la liberté d’avoir une religion, comme tout citoyen.\n\nContrairement à l’agent public, il peut exprimer ses opinions religieuses dans le cadre de son travail et il peut porter des signes montrant sa religion, sauf si cela perturbe le bon fonctionnement de l’entreprise.\n\nL’employeur peut imposer des limites à cette liberté de manifester son opinion religieuse dans certains cas. Par exemple, pour des questions d’hygiène ou de sécurité.\n\nUn salarié doit obtenir l'autorisation de son employeur pour s'absenter pour une fête religieuse. Le refus de l'employeur est possible, à condition qu'il ne soit pas discriminatoire.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La gestion des faits religieux dans l'entreprise privée | info.gouv.fr\n\n(Ouvre une nouvelle fenêtre) Laïcité et neutralité de la fonction publique | Le portail de la fonction publique",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La gestion des faits religieux dans l'entreprise privée | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2019_10_gestion_religieux_entreprise_prive-nov2019.pdf"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Laïcité et neutralité de la fonction publique | Le portail de la fonction publique",
+      "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"
+    }
+  ]
+}

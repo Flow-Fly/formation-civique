@@ -1,0 +1,44 @@
+{
+  "id": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+  "title": "La liberté",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-devise-de-la-republique",
+  "subcategoryName": "La devise de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/",
+  "objectives": [
+    "Comprendre ce qu’est la liberté, une des valeurs de la République française.Connaître les différents types de liberté."
+  ],
+  "sections": [
+    {
+      "heading": "La liberté : qu’est-ce que c’est ?",
+      "content": "En France, chaque personne peut penser, s’exprimer et vivre comme elle le souhaite. La seule limite est de ne pas empêcher une autre personne d’en faire autant.\n\nCette liberté est une valeur fondamentale qui est garantie par la Déclaration des droits de l’homme et du citoyen de 1789.\n\nL’État français protège cette liberté et pose les limites pour que la liberté des uns n'empêche pas celle des autres.",
+      "type": "text"
+    },
+    {
+      "heading": "Les différents types de liberté",
+      "content": "Il existe deux types de libertés :\n\nles libertés de chaque personne : se déplacer dans le territoire grâce à son titre de séjour, avoir ou ne pas avoir une religion, exprimer une opinion, vivre avec la personne de son choix...\n- les libertés qui concernent plusieurs personnes et qui garantissent à chacun sa place dans la société : se rassembler dans un lieu, participer à une manifestation, adhérer à un syndicat pour défendre des intérêts communs…",
+      "type": "text"
+    },
+    {
+      "heading": "La liberté, un droit pour tous",
+      "content": "La liberté est un droit pour tous, sans faire de différence entre les pays d’origine d’une personne, ses parents ou ses ancêtres, sa religion…\n\nUne personne qui a bien compris ce qu’est le principe de liberté peut alors vivre, travailler, apprendre et s’exprimer en toute sécurité.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Déclaration des droits de l'homme et du citoyen de 1789 | Légifrance\n\n(Ouvre une nouvelle fenêtre) Le principe de liberté, droit et grands enjeux du monde contemporain | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Déclaration des droits de l'homme et du citoyen de 1789 | Légifrance",
+      "url": "https://www.legifrance.gouv.fr/contenu/menu/droit-national-en-vigueur/constitution/declaration-des-droits-de-l-homme-et-du-citoyen-de-1789"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le principe de liberté, droit et grands enjeux du monde contemporain | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/dossier/276140-le-principe-de-liberte-droit-et-grands-enjeux-du-monde-contemporain"
+    }
+  ]
+}

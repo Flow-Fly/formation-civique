@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--emploi--le-droit-au-travail-4",
+  "title": "Le droit du travail (4/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-4/",
+  "objectives": [
+    "Comprendre le rôle de l’inspection du travail.Connaître les missions de l’inspection du travail.Connaître le rôle du service de renseignements en droit du travail."
+  ],
+  "sections": [
+    {
+      "heading": "À quoi sert l’inspection du travail ?",
+      "content": "L'inspection du travail est un service de l’État qui veille au respect du droit du travail.\n\nElle informe et conseille les employeurs, les salariés et les représentants du personnel.",
+      "type": "text"
+    },
+    {
+      "heading": "Ses missions",
+      "content": "Informer sur les lois et des règles du droit du travail.\n- Conseiller les employeurs et les salariés en fonction de leur situation.\n- Servir de médiateur dans un conflit entre plusieurs salariés et un employeur.\n- Vérifier le respect du droit du travail (santé, sécurité, durée du travail, travail illégal...).\n\nDans certaines situations, l'employeur doit obtenir l’autorisation de l’inspection du travail avant d'agir.",
+      "type": "text"
+    },
+    {
+      "heading": "Le service de renseignements en droit du travail",
+      "content": "Un salarié qui pense que son employeur ne respecte pas le droit du travail peut se renseigner en appelant le service des renseignements en droit du travail : 0 806 000 126.\n\nCe service répond à des questions juridiques mais, contrairement à l’inspection du travail, il ne peut pas intervenir dans l’entreprise.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Quand faire appel à l'inspection du travail ? | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Quand faire appel à l'inspection du travail ? | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F107"
+    }
+  ]
+}

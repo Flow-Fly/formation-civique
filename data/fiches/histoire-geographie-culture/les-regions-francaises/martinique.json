@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--martinique",
+  "title": "Martinique",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/martinique/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Martinique."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Martinique.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la Martinique ?",
+      "content": "La Martinique est une île située dans les Caraïbes, au sein de l’archipel des Petites Antilles.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de la Martinique ?",
+      "content": "La Martinique est à la fois un Département et une Région d’Outre-Mer (DROM).\n\nSes principales villes sont Fort-de-France (préfecture), Le Lamentin, Schœlcher, Le Robert et Sainte-Marie.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 355 500 habitants. La Martinique connaît un vieillissement et une légère diminution de sa population, en raison de la baisse de la natalité et de l’émigration des jeunes.\n\nSecteurs économiques clés\n\nTourisme, agriculture (banane, rhum), pêche, services publics, commerce portuaire. La Martinique dépend fortement des importations et de l’économie de la France métropolitaine.\n\nSituation du marché du travail\n\nLe taux de chômage est élevé. Le marché de l’emploi est marqué par la saisonnalité touristique et le secteur public.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de la Martinique | Insee\n\n(Ouvre une nouvelle fenêtre) Les inscrits à France Travail en Martinique au 2ème trimestre 2025 | DEETS",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de la Martinique | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=DEP-972"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les inscrits à France Travail en Martinique au 2ème trimestre 2025 | DEETS",
+      "url": "https://martinique.deets.gouv.fr/Les-inscrits-a-France-Travail-en-Martinique-au-2eme-trimestre-2025"
+    }
+  ]
+}

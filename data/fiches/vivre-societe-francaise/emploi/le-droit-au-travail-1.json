@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+  "title": "Le droit du travail (1/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-1/",
+  "objectives": [
+    "Comprendre ce qu’est le droit du travail.Connaître les types de documents qui présentent le droit du travail.Comprendre ce que l’on appelle les heures supplémentaires."
+  ],
+  "sections": [
+    {
+      "heading": "Le droit du travail, qu’est-ce que c’est ?",
+      "content": "Le droit du travail, c’est l’ensemble des règles juridiques qui concernent les relations professionnelles entre les salariés et les employeurs.\n\nDéfinition : une règle juridique organise la vie sociale. Si une règle n’est pas respectée, l’État peut punir par une sanction.",
+      "type": "text"
+    },
+    {
+      "heading": "Où trouver ces règles juridiques ?",
+      "content": "Les règles sont écrites dans trois types de document :\n\nLe Code du travail fixe les droits et les obligations pour tous : contrat de travail, conditions de travail, salaire…\n- Les conventions collectives concernent une activité (exemple : transport routier). Elles adaptent les règles du Code du travail sur des points précis en fonction de situations particulières liées à cette activité (congés, salaires minimaux...).\n- Le règlement intérieur est rédigé par un employeur dont l’entreprise compte au moins 50 salariés. Il présente les droits et obligations des salariés en matière de santé, de sécurité et de discipline.",
+      "type": "text"
+    },
+    {
+      "heading": "La durée du travail et l'âge pour commencer à travailler",
+      "content": "Le droit du travail détermine une référence pour la durée de travail des salariés à temps complet : 35 heures par semaine. Cette durée s’applique à toutes les entreprises.\n\nLes salariés à temps partiel travaillent moins de 35 heures par semaine.\n\nLes salariés à temps complet peuvent travailler plus de 35 heures. Au-delà de 35 heures, on parle \"d’heures supplémentaires\". L’employeur doit payer ces heures supplémentaires au salarié ou lui permettre de les rattraper.\n\nIl existe aussi un temps de travail maximal à ne pas dépasser.\n\nIl est possible de travailler dès l'âge de 16 ans. Tout mineur doit y être autorisé par son représentant légal (père ou mère, par exemple), sauf s'il est émancipé.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La durée légale du travail | Travail-emploi.gouv.fr | Ministère du Travail, de la Santé, des Solidarités et des Familles\n\n(Ouvre une nouvelle fenêtre) Code du travail - Légifrance",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La durée légale du travail | Travail-emploi.gouv.fr | Ministère du Travail, de la Santé, des Solidarités et des Familles",
+      "url": "https://travail-emploi.gouv.fr/la-duree-legale-du-travail"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Code du travail - Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050/"
+    }
+  ]
+}

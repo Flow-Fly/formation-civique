@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--emploi--le-droit-au-travail-5",
+  "title": "Le droit du travail (5/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-5/",
+  "objectives": [
+    "Comprendre ce qu’est le travail non déclaré.Connaître les conséquences pour l’employeur et le salarié."
+  ],
+  "sections": [
+    {
+      "heading": "Le travail non déclaré, qu’est-ce que c’est ?",
+      "content": "Le travail non déclaré (on l’appelle aussi travail dissimulé), c’est une activité professionnelle pour laquelle il n’y a pas de déclaration officielle. Par exemple : pas de déclaration avant l’embauche d’un salarié, mention sur le bulletin de paie d’un nombre d’heures de travail inférieur à celui qui a été réalisé.\n\nLe travail non déclaré est interdit par la loi.\n\nTravailler ou faire travailler de manière non déclarée peut sembler pratique ou économique. Mais cela peut entraîner de graves conséquences pour l’employeur et le salarié.",
+      "type": "text"
+    },
+    {
+      "heading": "Les conséquences pour l’employeur",
+      "content": "Un employeur qui ne déclare pas un salarié peut être puni jusqu’à 3 ans de prison et 45 000 euros d’amende. Les peines peuvent aller jusqu’à 5 ans de prison et 75 000 euros d’amende dans certaines situations (exemple : travail non déclaré d’une personne de moins de 18 ans).\n\nL’employeur peut aussi avoir des sanctions complémentaires.\n\nExemples : fermeture de l’entreprise pendant 3 mois maximum, impossibilité de travailler dans le cadre d’un marché public.\n\nSur le plan financier, l’entreprise doit rembourser les aides publiques perçues, payer un montant supérieur aux cotisations sociales qui n’ont pas été payées, et verser au salarié l’équivalent de 6 mois de salaire.",
+      "type": "text"
+    },
+    {
+      "heading": "Les conséquences pour le salarié",
+      "content": "Un salarié qui travaille sans être déclaré ne cotise ni à l’assurance chômage, ni pour sa retraite.\n\nIl n’a pas droit à la sécurité sociale en cas de maladie ou d’accident du travail.\n\nIl n’a pas de congé payé.\n\nIl ne peut pas se défendre en cas de conflit avec l’employeur.\n\nIl peut être licencié du jour en lendemain, sans annonce préalable.\n\nS’il a reçu des aides sociales (RSA, CAF…), le salarié risque de devoir les rembourser ou de payer une amende.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le travail dissimulé | Travail-emploi.gouv.fr | Ministère du Travail, de la Santé, des Solidarités et des Familles\n\n(Ouvre une nouvelle fenêtre) Que risque une entreprise en cas de travail illégal ? | Entreprendre.Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le travail dissimulé | Travail-emploi.gouv.fr | Ministère du Travail, de la Santé, des Solidarités et des Familles",
+      "url": "https://travail-emploi.gouv.fr/le-travail-dissimule"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Que risque une entreprise en cas de travail illégal ? | Entreprendre.Service-Public.fr",
+      "url": "https://entreprendre.service-public.fr/vosdroits/F31490"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--emploi--recrutement-2",
+  "title": "Recrutement (2/3)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/recrutement-2/",
+  "objectives": [
+    "Comprendre à quoi sert un CV.Connaître les informations à renseigner dans un CV."
+  ],
+  "sections": [
+    {
+      "heading": "Le CV, à quoi ça sert ?",
+      "content": "Le Curriculum Vitae (CV) est un document qu'une personne envoie à une entreprise dans le but d'être embauché dans cette entreprise.\n\nIl présente la personne à l’employeur :\n\nson expérience professionnelle ;\n- son parcours de formation ;\n- ses compétences ;\n- ses qualités.\n\nIl permet à l'entreprise d'évaluer les capacités de la personne à réaliser le travail attendu.\n\nL'envoi d'un CV n'est pas obligatoire.",
+      "type": "text"
+    },
+    {
+      "heading": "Les informations importantes du CV",
+      "content": "Il est important de réaliser un CV en fonction des informations demandées par l’entreprise dans son offre.\n\nNom, prénom, email, numéro de téléphone, âge.\n- Principales expériences professionnelles ou uniquement celles qui ont un lien avec l'offre.\n- Formation (diplôme le plus élevé ou celui qui a un lien avec l'offre).\n- Photographie d'identité (ce n’est pas obligatoire).",
+      "type": "text"
+    },
+    {
+      "heading": "Les points de vigilance",
+      "content": "Pour l’entreprise qui diffuse l’offre :\n\nLes informations demandées dans l’offre de travail doivent avoir un lien direct avec le travail proposé.\n\nPour la personne qui élabore son CV :\n\nUne personne qui a été embauchée sur la base d’un CV comportant des fausses informations (diplôme, expérience professionnelle…) peut être licenciée.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Curriculum vitae (CV) - Candidature à une offre d'emploi | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Curriculum vitae (CV) - Candidature à une offre d'emploi | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F33336"
+    }
+  ]
+}

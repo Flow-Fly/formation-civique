@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--emploi--recrutement-3",
+  "title": "Recrutement (3/3)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/recrutement-3/",
+  "objectives": [
+    "Comprendre à quoi sert une lettre de motivation.Connaître les informations à mentionner dans une lettre de motivation."
+  ],
+  "sections": [
+    {
+      "heading": "La lettre de motivation, à quoi ça sert ?",
+      "content": "Dans une lettre de motivation, la personne explique à l’entreprise pourquoi elle répond à l’offre de travail. L’objectif de cette lettre est d’obtenir un rendez-vous avec l’employeur.\n\nLes personnes qui se chargent des recrutements lisent une lettre de motivation en 30 secondes environ. Il est donc très important de faire passer des messages clés dans cette lettre.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment écrire votre lettre de motivation ?",
+      "content": "Expliquez d’abord pourquoi l’offre de travail vous intéresse.\n- Présentez votre expérience en donnant des exemples de compétences qui sont indiquées dans l’offre.\n- Montrez que vous avez bien compris ce dont l’entreprise a besoin.\n- Expliquez ce que vous pourrez apporter à l’entreprise.\n- Concluez en demandant un rendez-vous.",
+      "type": "text"
+    },
+    {
+      "heading": "Faites-vous aider",
+      "content": "Il est utile de faire relire vos premières candidatures (CV, lettre de motivation) pour avoir un regard extérieur. Choisissez des personnes proches de vous (famille, amis…), en lesquelles vous avez confiance. Elles vous aideront à améliorer votre candidature.\n\nPour vous préparer à un rendez-vous d’embauche, n’hésitez pas à vous entraîner à l’oral. Pour cela, faites des simulations avec des personnes proches de vous.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) 10 astuces pour écrire votre lettre de motivation | France Travail",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) 10 astuces pour écrire votre lettre de motivation | France Travail",
+      "url": "https://www.francetravail.fr/candidat/vos-recherches/preparer-votre-candidature/cv-lettre-de-motivation-e-mail/10-astuces-pour-ecrire-votre-let.html"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-bourgogne-franche-comte",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Bourgogne-Franche-Comté",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-bourgogne-franche-comte/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Bourgogne-Franche-Comté."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Bourgogne-Franche-Comté.",
+      "type": "text"
+    },
+    {
+      "heading": "L’abbaye de Fontenay, monument emblématique de Bourgogne",
+      "content": "L’abbaye de Fontenay se situe au nord de la Bourgogne, en pleine nature.\n\nFondée par Saint Bernard de Clairvaux en 1118, l’abbaye est l’un des plus anciens monastères de France encore existant. Son état de conservation est remarquable.\n\nL’abbaye est classée au patrimoine mondial de l’UNESCO depuis 1981. Le parc paysager a été classé “Jardin remarquable” en 2004.\n\nC’est un site touristique important en Bourgogne.",
+      "type": "text"
+    },
+    {
+      "heading": "Le bœuf bourguignon, plat typique de la gastronomie bourguignonne",
+      "content": "Le bœuf bourguignon est une spécialité culinaire qui vient de Bourgogne.\n\nC’est un plat composé de morceaux de bœuf mijotés longuement dans un vin rouge de Bourgogne, avec des oignons, des carottes, des champignons et du lard.\n\nLe bœuf bourguignon est un plat convivial, symbole de la gastronomie de Bourgogne-Franche-Comté, qu’on mange partout en France.\n\nSources photos du monument et du plat : images générées par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Abbaye de Fontenay | Patrimoine Mondial\n\n(Ouvre une nouvelle fenêtre) Le bœuf bourguignon façon Bernard Loiseau | Bourgogne-Franche-Comté",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Abbaye de Fontenay | Patrimoine Mondial",
+      "url": "https://www.abbayedefontenay.com/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le bœuf bourguignon façon Bernard Loiseau | Bourgogne-Franche-Comté",
+      "url": "https://www.bourgognefranchecomte.com/vin-et-gastronomie/produits-regionaux-recettes-traditonnelles/le-boeuf-bourguignon-de-bernard-loiseau/"
+    }
+  ]
+}

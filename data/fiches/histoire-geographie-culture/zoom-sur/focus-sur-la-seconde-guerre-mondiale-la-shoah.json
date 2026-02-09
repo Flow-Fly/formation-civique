@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah",
+  "title": "Focus sur la Seconde Guerre mondiale - la Shoah",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "zoom-sur",
+  "subcategoryName": "Zoom sur",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah/",
+  "objectives": [
+    "Connaître les grands repères historiques : la France dans la Seconde Guerre mondiale.Prendre conscience de l’ampleur de la Shoah comme crime contre l’humanité."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que la Shoah ?",
+      "content": "La Shoah désigne le génocide des Juifs organisé par l’Allemagne nazie pendant la Seconde Guerre mondiale. Environ 6 millions de Juifs ont été assassinés par le régime nazi et ses collaborateurs.\n\nLa politique nazie passe par plusieurs étapes :\n\nexclusion des Juifs dès 1935 (lois de Nuremberg)  ;\n- enfermement dans des ghettos (comme à Varsovie, en Pologne)  ;\n- massacres par fusillade menés par les Einsatzgruppen (unités d’extermination nazies) à partir de 1941 (comme le massacre de Babi Yar en Ukraine) ;\n- puis mise en œuvre de la “solution finale” en 1942.\n\nLa “solution finale” est le nom donné par les nazis à leur plan d’extermination des Juifs d’Europe : les Juifs sont arrêtés, déportés dans des trains de marchandises et envoyés dans des camps de concentration et des camps d’extermination (camps d’Auschwitz-Birkenau, de Treblinka, de Sobibor, de Belzec, de Chelmno et de Majdanek). À leur arrivée, la majorité des déportés sont gazés immédiatement, les autres sont soumis au travail forcé, à la faim, au froid, aux violences et aux humiliations.\n\nSur la droite, photo du camp d’Auschwitz-Birkenau en 1944.",
+      "type": "text"
+    },
+    {
+      "heading": "Quel est le rôle du régime de Vichy en France ?",
+      "content": "En France, le régime de Vichy (qui rejette les valeurs républicaines et la démocratie), dirigé par le maréchal Pétain, met en place une politique autoritaire, antisémite et collabore avec l’Allemagne nazie. Le gouvernement du maréchal adopte dès octobre 1940 plusieurs lois sur le statut des Juifs. Il exclut les Juifs de nombreux métiers et de la fonction publique, organise leur recensement et confisque leurs biens.\n\nLa police française participe aux arrestations et aux déportations : à Paris, la rafle du Vel d’Hiv (16 et 17 juillet 1942) entraîne l’arrestation d’environ 13 000 Juifs, dont 4 000 enfants, qui sont déportés vers Auschwitz en train.\n\nSur environ 330 000 Juifs vivant en France, 76 000 sont déportés pendant la Seconde Guerre mondiale.",
+      "type": "text"
+    },
+    {
+      "heading": "Pourquoi se souvenir de la Shoah ?",
+      "content": "La Shoah est le plus grand génocide de l’histoire. Elle a été reconnue au procès de Nuremberg comme un crime contre l’humanité.\n\nEn 1995, la France a reconnu officiellement la responsabilité de l’État français dans la déportation des Juifs. On étudie aujourd’hui la Shoah à l’école pour comprendre les conséquences de la haine, du racisme et de l’antisémitisme, et pour rappeler l’importance du devoir de mémoire.",
+      "type": "text"
+    },
+    {
+      "heading": "À retenir",
+      "content": "Bilan humain\n\n6 millions de Juifs assassinés.\n\nPersonnes clés\n\nHeinrich Himmler : il organise l’extermination des Juifs (Shoah).\n- Reinhard Heydrich : organisateur de la “solution finale” c'est à dire la façon dont doivent être traitées les populations juives européennes qui doivent disparaître, selon les nazis.\n- Philippe Pétain, couramment appelé le maréchal Pétain : chef de l’État français entre 1940 et 1944, il collabore avec l’Allemagne.\n\nSource photo : Bernhard Walter publié dans la collection \"The Auschwitz Album\" en 1980",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Shoah, la solution finale | Lumni\n\n(Ouvre une nouvelle fenêtre) La Shoah | Mémorial de la Shoah",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Shoah, la solution finale | Lumni",
+      "url": "https://www.lumni.fr/dossier/la-shoah-site-thematique"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La Shoah | Mémorial de la Shoah",
+      "url": "https://www.memorialdelashoah.org/archives-et-documentation/quest-ce-que-la-shoah.html"
+    }
+  ]
+}

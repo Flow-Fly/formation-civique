@@ -1,0 +1,44 @@
+{
+  "id": "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+  "title": "Le coq",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "les-symboles-de-la-republique",
+  "subcategoryName": "Les symboles de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/le-coq/",
+  "objectives": [
+    "Comprendre la signification de ce symbole coutumier.Identifier les principales utilisations de ce symbole."
+  ],
+  "sections": [
+    {
+      "heading": "Quelles sont les origines de ce symbole ?",
+      "content": "Pendant l’Antiquité, les Romains désignaient les Gaulois par le mot latin \"Gallus\", qui signifiait à la fois \"Gaulois\" et \"coq\". Ce jeu de mots s’est concrétisé par l’utilisation du coq pour représenter le Gaulois de manière symbolique. D’abord moqueur, le coq est peu à peu devenu un symbole de fierté et de courage.\n\nÀ partir de la Renaissance, puis surtout pendant la Révolution française, le coq commence à apparaître sur des monnaies, des drapeaux… Il valorise alors les paysans qui travaillent dur et qui sont attachés à la terre.",
+      "type": "text"
+    },
+    {
+      "heading": "Un symbole non officiel",
+      "content": "Le coq n’est pas reconnu de manière officielle comme un symbole de la République française, contrairement au drapeau tricolore, à Marianne ou à la devise nationale.\n\nMais comme il est très utilisé, il est devenu un symbole national fort.",
+      "type": "text"
+    },
+    {
+      "heading": "Les principales utilisations du coq",
+      "content": "Diplomatie économique et culturelle : logo de La French Tech, communication de Business France, pavillon de la France lors des expositions universelles…\n- Institutions de la République : frontons de certaines mairies ou de monuments aux morts…\n- Sport : maillots des équipes nationales.\n\nSource photo : Mascotte coq des Jeux Olympiques posant devant le vestiaire du stand du ministère au Club France Paris / F.Balsamo",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le coq | Élysée\n\n(Ouvre une nouvelle fenêtre) À l'origine du coq, emblème national - #CulturePrime",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le coq | Élysée",
+      "url": "https://www.elysee.fr/la-presidence/le-coq"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) À l'origine du coq, emblème national - #CulturePrime",
+      "url": "https://www.youtube.com/watch?v=U-Ldfcy1niw"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+  "title": "Le principe de pluralité des partis",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "democratie-et-droit-de-vote",
+  "subcategoryName": "Démocratie et droit de vote",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis/",
+  "objectives": [
+    "Connaître et comprendre le principe de la pluralité des partis."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître et comprendre le principe de la pluralité des partis.",
+      "type": "text"
+    },
+    {
+      "heading": "La pluralité des partis politiques, c’est quoi ?",
+      "content": "La pluralité des partis politiques (beaucoup de partis différents) est un principe fondamental de la démocratie française. Le Conseil constitutionnel a affirmé que “Le respect du pluralisme constitue le fondement de la démocratie”.La pluralité des partis garantit la liberté d’expression des opinions politiques de tous les citoyens.\n\nChaque citoyen peut librement rejoindre un parti politique correspondant à ses convictions. Ce droit est garanti par l'article 4 de la Constitution française, qui dispose que “Les partis et groupements politiques concourent à l’expression du suffrage”.",
+      "type": "text"
+    },
+    {
+      "heading": "Les médias sont-ils équitables entre les partis ?",
+      "content": "D’après la loi du 30 septembre 1986 sur la liberté de communication, les médias ont l’obligation d’être équitable entre les partis politiques. Cette loi garantit le pluralisme politique.\n\nExemple : pendant les campagnes électorales, tous les partis ont autant de temps de parole.",
+      "type": "text"
+    },
+    {
+      "heading": "Beaucoup de partis politiques différents, à quoi ça sert ?",
+      "content": "Les partis politiques participent à la vie politique (ils peuvent être présents à l’Assemblée et au Sénat).\n\nIl ont 2 fonctions :\n\nIls proposent des programmes politiques qu'ils souhaitent mettre en œuvre. Les partis politiques sont les intermédiaires entre les citoyens et le Gouvernement.\n- Ils sélectionnent les candidats pour les faire élire. Quand un membre d’un parti est élu à l’Assemblée ou au Sénat (pouvoir législatif) ou élu en tant que président de la République ou choisi en tant que Premier ministre (pouvoir exécutif), le parti politique dirige le pays (ils y participent).",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) L'importance du droit de vote | Les élections en France\n\n(Ouvre une nouvelle fenêtre) Quel est le rôle des partis politiques ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) L'importance du droit de vote | Les élections en France",
+      "url": "https://www.elections.interieur.gouv.fr/comprendre-elections/pourquoi-je-vote/limportance-du-droit-de-vote"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Quel est le rôle des partis politiques ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/24000-quel-est-le-role-des-partis-politiques"
+    }
+  ]
+}

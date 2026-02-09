@@ -1,0 +1,39 @@
+{
+  "id": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+  "title": "Se conformer aux lois - les acteurs (2/2)",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "obligations-et-devoirs-des-personnes-residant-en-france",
+  "subcategoryName": "Obligations et devoirs des personnes résidant en France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/",
+  "objectives": [
+    "Découvrir les différentes catégories d’infractions.Identifier les principaux acteurs chargés de faire respecter la loi."
+  ],
+  "sections": [
+    {
+      "heading": "Qui est chargé de faire respecter la loi ?",
+      "content": "La police et la gendarmerie sont des forces de l’ordre. Ces deux institutions assurent le respect des lois en France.Institutions distinctes, elles agissent sur des périmètres différents :\n\nla police assure le respect des lois en ville ;\n- la gendarmerie agit en zone rurale et périurbaine (campagne) et sur les axes de circulation. Les gendarmes ont le statut de militaires.",
+      "type": "text"
+    },
+    {
+      "heading": "Quel est leur rôle ?",
+      "content": "La police et la gendarmerie exercent les mêmes missions mais dans des zones différentes.\n\nElles se chargent de :\n\nla prévention des infractions ;\n- le maintien de l’ordre public ;\n- la protection des personnes et des biens ;\n- l’investigation ou enquête sur les infractions ;\n- la protection du pays en cas de menace extérieure ou de terrorisme.\n\nLes policiers et les gendarmes peuvent donner des amendes, recueillir le témoignage d’une infraction sous forme de procès-verbaux ou constater et signaler des faits à la justice.\n\nLes 2 institutions travaillent parfois ensemble pour assurer la sécurité et l’ordre public.\n\nSources photos :\n\nLogo de la police\n                (Ouvre une nouvelle fenêtre) licence Creative Commons Attribution-Share Alike 4.0 International - Auteur : Rundvald, aucun changement n'a été apporté\n- Logo de la gendarmerie \n                (Ouvre une nouvelle fenêtre) Gendarmerie Nationale Française / Vector graphic : Futurhit12",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Bienvenue sur le site de la police nationale\n\n(Ouvre une nouvelle fenêtre) Accueil - Gendarmerie nationale",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Bienvenue sur le site de la police nationale",
+      "url": "https://www.police-nationale.interieur.gouv.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Accueil - Gendarmerie nationale",
+      "url": "https://www.gendarmerie.interieur.gouv.fr/"
+    }
+  ]
+}

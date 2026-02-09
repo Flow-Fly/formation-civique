@@ -1,0 +1,53 @@
+{
+  "id": "vivre-societe-francaise--emploi--recrutement-1",
+  "title": "Recrutement (1/3)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/recrutement-1/",
+  "objectives": [
+    "Identifier les différentes manières pour transmettre une candidature."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les différentes manières pour transmettre une candidature.",
+      "type": "text"
+    },
+    {
+      "heading": "Sur le site internet de France Travail",
+      "content": "Vous pouvez transmettre votre candidature en utilisant un des nombreux sites internet généralistes qui diffusent des offres de travail dans la plupart des secteurs d’activité et partout en France.\n\nLe site internet de France travail est la référence pour trouver un travail en France. Environ 160 000 offres sont mises à jour chaque jour. Il vous propose aussi des conseils et des informations utiles pour trouver un travail (fiches de présentation de métiers, témoignages de personnes exerçant un métier...)",
+      "type": "text"
+    },
+    {
+      "heading": "Sur des sites internet spécialisés",
+      "content": "Il existe aussi des sites internet spécialisés. Certains diffusent des offres limitées à un secteur géographique proche de chez vous. D’autres diffusent des offres dans un secteur professionnel.\n\nExemples :\n\nle site internet Choisir le service public propose uniquement des offres dans le service public ;\n- le site internet L’industrie recrute propose uniquement des offres d’emploi dans l’industrie\n\nGrâce aux moteurs de recherche, vous pouvez cibler les sites en fonction de votre profil.\n\nVous pouvez aussi envoyer une candidature en passant directement par le site internet d’une entreprise qui vous intéresse.",
+      "type": "text"
+    },
+    {
+      "heading": "En personne",
+      "content": "Internet n’est pas la seule manière de transmettre une candidature. Vous pouvez la remettre en personne dans les locaux de l’entreprise ou pendant un forum / salon professionnel (événement où vous pouvez rencontrer des personnes qui recrutent, parfois spécialisé dans un secteur d’activité : agriculture, industrie, tourisme…).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Accueil | France Travail\n\n(Ouvre une nouvelle fenêtre) Accueil | Apec\n\n(Ouvre une nouvelle fenêtre) Accueil | Choisir le service public",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+      "url": "https://www.francetravail.fr/accueil/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Accueil | Apec",
+      "url": "https://www.apec.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Accueil | Choisir le service public",
+      "url": "https://choisirleservicepublic.gouv.fr/"
+    }
+  ]
+}

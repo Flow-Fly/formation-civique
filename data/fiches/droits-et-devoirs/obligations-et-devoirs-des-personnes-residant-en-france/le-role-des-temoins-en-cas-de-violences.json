@@ -1,0 +1,44 @@
+{
+  "id": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences",
+  "title": "Le rôle des témoins en cas de violences",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "obligations-et-devoirs-des-personnes-residant-en-france",
+  "subcategoryName": "Obligations et devoirs des personnes résidant en France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/le-role-des-temoins-en-cas-de-violences/",
+  "objectives": [
+    "Comprendre ses droits fondamentaux.Savoir comment agir en cas de violence."
+  ],
+  "sections": [
+    {
+      "heading": "Témoin de violences : vous devez agir sans vous mettre en danger",
+      "content": "Quelque soit la violence dont vous êtes témoin, vous devez agir. Votre action aidera la victime qui peut être un membre de votre famille, un collègue de travail, un inconnu dans la rue…",
+      "type": "text"
+    },
+    {
+      "heading": "Que faire quand on est témoin de violence ?",
+      "content": "Il est important d’agir, sans mettre la victime ou vous-mêmes en danger.\n\nÉcouter et soutenir la victime : écouter, c’est déjà aider la victime.\n- Orienter vers des aides : sans forcer la victime à agir, vous pouvez lui donner des solutions : un numéro de téléphone de secours, un site de signalement en ligne, un contact de professionnels de santé ou social. Proposer une information, une ressource ou un accompagnement à une démarche peut parfois suffire à déclencher un changement.\n- Intervenir sans se mettre en danger : si une personne est témoin direct d’une violence, elle doit d’abord se protéger, puis aider la victime. Elle peut appeler les forces de l’ordre ou chercher de l’aide autour (autres témoins, responsables de lieu public, agents de sécurité…).\n- Témoigner et signaler : être témoin, c’est aussi pouvoir faire avancer une enquête ou protéger d’autres victimes. En tant que témoin, il est possible de témoigner auprès de la police ou d’un juge si la victime décide de porter plainte. Il est également possible de faire un signalement anonyme ou d’envoyer une main courante (signaler des faits à la police ou à la gendarmerie, sans déposer plainte) pour que les faits soient enregistrés.",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "Numéros d’urgence\n\n15 – SAMU17 – Police secours18 – Sapeurs-pompiers112 – Appels d’urgence européen115 – Hébergement d’urgence119 – Enfance maltraitée196 – Secours en mer3919 – Violences conjugales3018 – Harcèlement scolaire114 – par SMS pour les personnes malentendantes\n\n(En bas, logo du Gouvernement français avec Marianne sur fond bleu, blanc, rouge)",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) J'ai besoin d'aide | Arrêtons les violences\n\n(Ouvre une nouvelle fenêtre) Signaler une violence conjugale, sexuelle ou sexiste | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) J'ai besoin d'aide | Arrêtons les violences",
+      "url": "https://arretonslesviolences.gouv.fr/besoin-d-aide"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Signaler une violence conjugale, sexuelle ou sexiste | Service-Public.fr",
+      "url": "https://www.service-public.fr/cmi"
+    }
+  ]
+}

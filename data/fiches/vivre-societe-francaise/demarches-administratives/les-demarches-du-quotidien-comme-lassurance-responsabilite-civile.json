@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile",
+  "title": "Les démarches du quotidien comme l’assurance responsabilité civile",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-lassurance-responsabilite-civile/",
+  "objectives": [
+    "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : l’assurance responsabilité civile."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : l’assurance responsabilité civile.",
+      "type": "text"
+    },
+    {
+      "heading": "La responsabilité civile, c’est quoi ?",
+      "content": "La responsabilité civile, c’est l’obligation de chacun de réparer les dommages matériels, corporels ou moraux que l’on peut causer sans le vouloir à d’autres personnes.\n\nCes dommages peuvent survenir à différents moments :\n\nà son domicile ;\n- en conduisant un véhicule ;\n- dans le cadre de la vie quotidienne (activités privées) ;\n- dans le cadre professionnel…\n\nSi un enfant mineur, un animal domestique, un objet sous votre responsabilité causent des dommages, alors votre responsabilité civile est aussi engagée.",
+      "type": "text"
+    },
+    {
+      "heading": "L’assurance responsabilité civile, c’est quoi ?",
+      "content": "L’assurance responsabilité civile est payante et obligatoire. Elle garantit la protection des autres.\n\nSi vous causez un accident, un tort matériel ou un dommage physique, votre assurance prendra en charge (en partie ou en totalité) les préjudices dont vous êtes responsable.\n\nIl existe différents types d’assurances : habitation, automobile…\n\nL’assurance responsabilité est payante : comparez les offres des assurances selon vos besoins spécifiques.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Assurance habitation : qu’est-ce que la garantie responsabilité civile ? | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Assurance auto : qu’est-ce que la garantie responsabilité civile ? | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Assurance habitation : qu’est-ce que la garantie responsabilité civile ? | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F2123"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Assurance auto : qu’est-ce que la garantie responsabilité civile ? | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F31258"
+    }
+  ]
+}

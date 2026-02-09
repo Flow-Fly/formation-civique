@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-martinique",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Martinique",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-martinique/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Martinique."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Martinique.",
+      "type": "text"
+    },
+    {
+      "heading": "Le Fort Saint-Louis, monument historique à Fort-de-France",
+      "content": "Le Fort Saint-Louis est situé à Fort-de-France, au bord de la mer des Caraïbes. Il a été construit au 17ème siècle par les Français pour défendre l’île contre les attaques ennemies.Ce fort militaire à l’architecture défensive coloniale a une vue magnifique sur la baie.\n\nEncore en activité, on peut seulement visiter une partie du Fort Saint-Louis, qui retrace l’histoire de la Martinique.",
+      "type": "text"
+    },
+    {
+      "heading": "Les accras de morue, spécialité typique des Antilles",
+      "content": "Les accras de morue sont des beignets traditionnels de la culture culinaire antillaise.\n\nCe sont des petits beignets dorés faits à base de morue mélangée avec des épices, de l’ail et du piment.\n\nOn les mange chaud, à l’apéritif ou lors des fêtes. On aime leur texture croustillante et leur goût relevé.\n\nLes accras de morue sont un incontournable de la cuisine des Caraïbes et en particulier de Martinique.\n\nSources photos\n\nMonument : \n                (Ouvre une nouvelle fenêtre) https://archives.defense.gouv.fr/memoire/culture/les-monuments-et-lieux-historiques/le-fort-saint-louis-fort-de-france.html\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Fort Saint Louis - Terres du Centre Martinique\n\n(Ouvre une nouvelle fenêtre) Les vrais accras de morue",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Fort Saint Louis - Terres du Centre Martinique",
+      "url": "https://terresducentremartinique.fr/sites-musees/fort-saint-louis/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les vrais accras de morue",
+      "url": "https://www.macuisinecreole.fr/single-post/2018/03/29/les-vrais-accras-de-morue"
+    }
+  ]
+}

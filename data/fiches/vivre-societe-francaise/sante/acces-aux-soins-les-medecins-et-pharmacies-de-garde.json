@@ -1,0 +1,35 @@
+{
+  "id": "vivre-societe-francaise--sante--acces-aux-soins-les-medecins-et-pharmacies-de-garde",
+  "title": "Accès aux soins : les médecins et pharmacies de garde",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-les-medecins-et-pharmacies-de-garde/",
+  "objectives": [
+    "Savoir comment trouver un médecin de garde.Comprendre le fonctionnement des pharmacies de garde."
+  ],
+  "sections": [
+    {
+      "heading": "Les médecins de garde, c’est quoi ?",
+      "content": "Un médecin de garde est un médecin généraliste qui fait des consultations en dehors des heures d’ouverture des cabinets médicaux (soir, nuits, week-ends, jours fériés).\n\nIl prend en charge rapidement les problèmes de santé urgents mais non vitaux (afin de ne pas surcharger les services d’urgence hospitaliers, destinés en priorité aux urgences vitales).\n\nSelon le cas, le médecin de garde peut :\n\nse déplacer à domicile ;\n- accueillir le patient dans un centre de garde ;\n- donner des conseils médicaux par téléphone si une consultation n’est pas nécessaire.\n\nPour contacter un médecin de garde, appelez le 15 (SAMU) ou le numéro spécifique pour la permanence des soins mis en place dans votre région.",
+      "type": "text"
+    },
+    {
+      "heading": "Les pharmacies de garde, c’est quoi ?",
+      "content": "Une pharmacie de garde est une pharmacie désignée pour rester ouverte lorsque les autres sont fermées (soir, nuits, week-ends, jours fériés). Les pharmacies sont désignées à tour de rôle.\n\nLa pharmacie de garde permet notamment d’obtenir des médicaments en urgence et d’assurer une continuité des soins.\n\nPour savoir où est la pharmacie de garde la plus proche de chez vous, prenez contact avec la gendarmerie ou la police (17) ou appelez le 32 37 (0,35 €/minute).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Annuaire des pharmacies et pharmacies de garde en France",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Annuaire des pharmacies et pharmacies de garde en France",
+      "url": "https://www.data.gouv.fr/reuses/annuaire-des-pharmacies-et-pharmacies-de-garde-en-france/"
+    }
+  ]
+}

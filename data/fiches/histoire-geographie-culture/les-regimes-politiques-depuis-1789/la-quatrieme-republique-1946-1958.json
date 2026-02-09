@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-quatrieme-republique-1946-1958",
+  "title": "La IVème République (1946-1958)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-quatrieme-republique-1946-1958/",
+  "objectives": [
+    "Connaître la IVème République.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que la IVème République ?",
+      "content": "La IVème République naît le 27 octobre 1946, après la Seconde Guerre mondiale et la Libération. Une nouvelle Constitution est adoptée, qui confirme la prédominance du pouvoir législatif (détenu par le Parlement) sur le pouvoir exécutif (détenu par le président du Conseil des ministres).\n\nLe déséquilibre des pouvoirs, l’absence de majorité au Parlement et l’instabilité gouvernementale affaiblissent le régime. Il s’effondre le 4 octobre 1958, en pleine guerre d’Algérie.\n\nPersonnages clés : Vincent Auriol (1947-1954) et René Coty (1954-1958) sont les deux présidents de la IVème République. Cette période se caractérise par une forte instabilité gouvernementale avec de nombreux changements de gouvernement.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant cette période ?",
+      "content": "La Constitution garantit pour la première fois l’égalité entre les femmes et les hommes, dans la continuité du droit de vote accordé aux femmes depuis le 21 avril 1944.\n\nLa protection sociale se développe, ce qui améliore les droits sociaux des citoyens.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les apports de ce régime au système français actuel ?",
+      "content": "La IVème République pose les bases de l’État-providence : elle élargit la sécurité sociale et développe les services publics, un modèle que l’on conserve toujours aujourd’hui.\n\nL’État devient un acteur central de la reconstruction et du développement économique. Il intervient directement dans des secteurs clés (planification, nationalisations, entreprises publiques).",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La IVe République (1944-1958) : un régime marqué par une forte instabilité | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La IVe République (1944-1958) : un régime marqué par une forte instabilité | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/268979-la-ive-republique-1944-1958"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "vivre-societe-francaise--sante--la-prise-en-charge-les-differentes-couvertures-maladie",
+  "title": "La prise en charge : les différentes couvertures maladie",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/la-prise-en-charge-les-differentes-couvertures-maladie/",
+  "objectives": [
+    "Identifier les différentes couvertures maladie.Comprendre comment y avoir accès."
+  ],
+  "sections": [
+    {
+      "heading": "La protection universelle maladie (PUMa), c’est quoi ?",
+      "content": "Les soins de santé coûtent chers, et ils sont en grande partie financés par les cotisations sociales payées par les personnes qui travaillent.\n\nLa protection universelle maladie PUMa garantit un droit à la prise en charge financière des frais de santé pour toute personne qui travaille ou réside en France de manière stable et régulière et qui est affiliée à l’Assurance maladie. Ce dispositif d’Assurance sociale permet à chacun d’accéder aux soins, même en cas de perte d’emploi ou de changement de situation familiale.\n\nQuand vous payez une consultation ou des médicaments, vous êtes (au moins sur le forfait de base) remboursé par la protection universelle maladie. C’est la couverture de base.",
+      "type": "text"
+    },
+    {
+      "heading": "La couverture complémentaire, c’est quoi ?",
+      "content": "La couverture complémentaire complète la couverture de base assurée par la protection universelle maladie (PUMa). On l’appelle aussi la mutuelle.\n\nLa mutuelle n’est pas obligatoire mais elle est recommandée afin de compléter la prise en charge financière des soins, des médicaments, des indemnités en cas d’arrêt de travail…\n\nL’employeur peut prendre en charge une partie du coût de votre complémentaire santé. Tout employeur du secteur privé a l’obligation de vous en proposer une.\n\nLa prise en charge financière complémentaire est plus ou moins importante selon le niveau de couverture choisi. Les membres de votre foyer peuvent être couverts par votre couverture complémentaire.",
+      "type": "text"
+    },
+    {
+      "heading": "La Complémentaire Santé Solidaire (C2S), c’est quoi ?",
+      "content": "La Complémentaire Santé Solidaire est une couverture complémentaire qui prend en charge les dépenses de santé des personnes aux ressources modestes. Selon vos ressources, elle peut être gratuite ou coûter moins de 1 € par jour.\n\nCette complémentaire Santé Solidaire permet de recevoir des soins sans faire d’avance de frais quand il s’agit de consultations médicales, dentaires, hospitalières, pour les médicaments, lunettes, prothèses dentaires et auditives (sous certaines conditions : il faut être affilié à l’assurance maladie et respecter un plafond de ressources. ).\n\nSi vous êtes bénéficiaire, tous les membres de votre foyer le sont aussi.\n\nSources photos :\n\nLogo\n                (Ouvre une nouvelle fenêtre) Site de l’Assurance Maladie\n- Photo \n                (Ouvre une nouvelle fenêtre) Site du Ministère des Solidarités",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La protection universelle maladie | ameli.fr | Assuré\n\n(Ouvre une nouvelle fenêtre) Informations sur l'accès aux soins\n\n(Ouvre une nouvelle fenêtre) Couverture maladie complémentaire (mutuelle) | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La protection universelle maladie | ameli.fr | Assuré",
+      "url": "https://www.ameli.fr/assure/droits-demarches/principes/protection-universelle-maladie"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Informations sur l'accès aux soins",
+      "url": "https://www.immigration.interieur.gouv.fr/Integration-et-Acces-a-la-nationalite/Outils-de-communication"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Couverture maladie complémentaire (mutuelle) | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F20314"
+    }
+  ]
+}

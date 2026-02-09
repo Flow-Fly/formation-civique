@@ -1,0 +1,44 @@
+{
+  "id": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+  "title": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "obligations-et-devoirs-des-personnes-residant-en-france",
+  "subcategoryName": "Obligations et devoirs des personnes résidant en France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/",
+  "objectives": [
+    "Sensibiliser à l'importance d'une conduite écoresponsable et citoyenne.Identifier des actions concrètes du quotidien, accessibles à tous."
+  ],
+  "sections": [
+    {
+      "heading": "Le devoir de protéger l’environnement",
+      "content": "Toutes les personnes qui habitent en France ont le devoir de protéger l’environnement, pour soi et pour les autres :\n\n“Chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé” (article 1 de la Charte de l’environnement de 2004).\n- “Toute personne a le devoir de prendre part à la préservation et à l’amélioration de l’environnement” (article 2 de la Charte de l’environnement de 2004).\n\nElle s’inscrit dans le respect des valeurs républicaines :\n\nLiberté, en choisissant de consommer et de se déplacer de manière responsable ;\n- Égalité, pour que chacun ait accès à un environnement sain ;\n- Fraternité, pour les générations futures et le bien commun.",
+      "type": "text"
+    },
+    {
+      "heading": "Exemples d’actions concrètes :",
+      "content": "trier ses déchets et réduire ses déchets plastiques ;\n- éviter le gaspillage des aliments et de l’énergie ;\n- privilégier les transports en commun et le vélo ;\n- respecter les espaces communs et ne pas y jeter de déchets ;\n- participer à des actions locales pour l’environnement (exemple : nettoyage collectif).",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "Faites bonne impression\n\nRecyclez c'est d'abord bien jeter ses déchets\n\nBercyLab mobilisé pour un monde plus vert",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Protection de l'environnement - Les bons gestes à adopter pour consommer plus raisonnablement | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Accueil | Ministères de l'aménagement du territoire et de la transition écologique",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Protection de l'environnement - Les bons gestes à adopter pour consommer plus raisonnablement | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/actualites/A15181"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Accueil | Ministères de l'aménagement du territoire et de la transition écologique",
+      "url": "https://www.ecologie.gouv.fr/"
+    }
+  ]
+}

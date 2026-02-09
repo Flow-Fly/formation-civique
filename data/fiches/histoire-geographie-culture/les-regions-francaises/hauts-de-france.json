@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--hauts-de-france",
+  "title": "Hauts-de-France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/hauts-de-france/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : les Hauts-de-France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : les Hauts-de-France.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région des Hauts-de-France ?",
+      "content": "La région des Hauts-de-France est située au nord de la France, à la frontière avec la Belgique. Elle est bordée par la Manche et reliée au Royaume-Uni par le tunnel sous la Manche.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes des Hauts-de-France ?",
+      "content": "Les Hauts-de-France comptent 5 départements : Aisne, Nord, Oise, Pas-de-Calais, Somme.\n\nSes grandes principales villes sont Lille (préfecture), Amiens, Dunkerque, Roubaix, Tourcoing, Calais et Beauvais.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 6 millions d’habitants. La population est jeune, concentrée dans les villes, mais connaît de fortes disparités socio-économiques.\n\nSecteurs économiques clés\n\nIndustrie (automobile, ferroviaire, agroalimentaire), logistique, textile, numérique, agriculture, tourisme côtier et de mémoire (Première et Seconde guerres mondiales).\n\nSituation du marché du travail\n\nLe taux de chômage est supérieur à la moyenne nationale. La région connaît des difficultés liées à son passé industriel, mais certaines villes comme Lille se reconvertissent activement.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région des Hauts-de-France | Insee\n\n(Ouvre une nouvelle fenêtre) Taux de chômage localisé par région - Hauts-de-France | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région des Hauts-de-France | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-32"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Taux de chômage localisé par région - Hauts-de-France | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/serie/001739982"
+    }
+  ]
+}

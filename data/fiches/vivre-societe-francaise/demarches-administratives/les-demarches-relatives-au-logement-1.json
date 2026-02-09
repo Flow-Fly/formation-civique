@@ -1,0 +1,48 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1",
+  "title": "Les démarches relatives au logement (1/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-logement-1/",
+  "objectives": [
+    "Savoir identifier les différents acteurs de la recherche de logement.Connaître et comprendre les droits et obligations d’un propriétaire.Connaître et comprendre les obligations d’un locataire."
+  ],
+  "sections": [
+    {
+      "heading": "Comment trouver un logement ?",
+      "content": "Pour trouver un logement privé, consultez les annonces des agences immobilières ou celles des sites spécialisés.Vous devrez notamment présenter une pièce d’identité, un justificatif de revenus, les quittances de loyer précédentes…\n\nPour un logement social, faites une demande en ligne sur le site \n                (Ouvre une nouvelle fenêtre) demande-logement-social.gouv.fr.Vous devrez notamment présenter votre pièce d’identité, un avis d’imposition, un justificatif de situation familiale…",
+      "type": "text"
+    },
+    {
+      "heading": "Le bail, contrat de location, à quoi ça sert ?",
+      "content": "Le bail est un contrat écrit entre le bailleur (le plus souvent le propriétaire) et le locataire dans lequel :\n\nle bailleur s’engage à louer le bien à un montant fixé à l’avance (selon la taille du logement) au locataire ;\n- le locataire s’engage à payer le loyer et les charges et à respecter certaines obligations.\n\nLe bail est le seul document qui autorise à vivre dans un logement : il est valide seulement s'il est signé par le locataire et le propriétaire.",
+      "type": "text"
+    },
+    {
+      "heading": "Qui peut interrompre le bail ?",
+      "content": "Le contrat de location peut prendre fin à la fin de la durée qu’il se fixe.\n\nIl peut être interrompu plus rapidement :\n\npar le bailleur, sous certaines conditions ;\n- par le locataire, à tout moment, en respectant le délai de préavis de 3 mois (qui est la durée minimale entre la notification et la fin du contrat effectif). Le préavis est de 1 mois sous certaines conditions (si le logement est meublé, si le logement est situé en zone tendue, en cas de problème de santé, en cas de changement professionnel…).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Demande de logement social en ligne (et renouvellement de demande) | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Accueil | Demande de logement social en ligne\n\n(Ouvre une nouvelle fenêtre) Devenir locataire d'un logement privé | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Demande de logement social en ligne (et renouvellement de demande) | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/R34754"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Accueil | Demande de logement social en ligne",
+      "url": "https://www.demande-logement-social.gouv.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Devenir locataire d'un logement privé | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/N292"
+    }
+  ]
+}

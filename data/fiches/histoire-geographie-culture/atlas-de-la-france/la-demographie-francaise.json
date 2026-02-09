@@ -1,0 +1,50 @@
+{
+  "id": "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise",
+  "title": "La démographie française",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "atlas-de-la-france",
+  "subcategoryName": "Atlas de la France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/",
+  "objectives": [
+    "Connaître les principaux chiffres clés sur la population française."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les principaux chiffres clés sur la population française.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les principaux chiffres de la démographie française ?",
+      "content": "Population totale\n\n68,6 millions d’habitants vivent en France (au 1er janvier 2025) :\n\n66,4 millions en France hexagonale ;\n- 2,3 millions dans les DROM (départements et régions d’outre-mer).\n\nNaissances\n\nLes femmes ont en moyenne 1,62 enfant (en 2024). Le nombre de naissances est en baisse en France.\n\nEspérance de vie\n\nLes femmes vivent en moyenne 85,6 ans et les hommes 80 ans (en 2024). L’espérance de vie actuelle est l’une des plus élevées dans l’histoire de la France.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelle est la répartition de la population selon l’âge ?",
+      "content": "La France connaît un vieillissement de la population. Il y a de plus en plus de personnes âgées et de moins en moins de naissances.\n\nMoins de 20 ans : 23 % de la population.\n- Entre 20 et 64 ans : 55 % de la population.\n- 65 ans et plus : 22 % de la population.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment se répartit géographiquement la population ?",
+      "content": "La population française est répartie de façon inégale sur le territoire.\n\nEnviron 81 % de la population vit en ville. Les zones les plus peuplées sont les grandes agglomérations comme Paris, Lyon, Marseille, Toulouse, Lille et Bordeaux.\n\nLes régions littorales, comme la côte atlantique, le sud de la France près de la mer Méditerranée et la Bretagne, accueillent aussi beaucoup d’habitants. Ces zones sont attractives et bien équipées.\n\nD’autres régions sont moins peuplées. C’est le cas du Massif central, des Alpes, des Pyrénées et de plusieurs zones rurales du nord-est de la France. Ces territoires comptent peu d’habitants, en raison de l’éloignement par rapport aux grandes villes et du nombre limité d’emplois.",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "Population au 1er janvier 2025Démographie\n\nAu 1er janvier 2025 : 68,6 millions (à arrondis près)+0,25 % en un an\n\n66,4 millions en France métropolitaine2,3 millions dans les DOM",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Bilan démographique 2024 | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Bilan démographique 2024 | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/8327319"
+    }
+  ]
+}

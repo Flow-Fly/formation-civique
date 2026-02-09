@@ -1,0 +1,44 @@
+{
+  "id": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+  "title": "Marianne",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "les-symboles-de-la-republique",
+  "subcategoryName": "Les symboles de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/",
+  "objectives": [
+    "Comprendre la signification de ce symbole officiel.Identifier les principales utilisations de Marianne."
+  ],
+  "sections": [
+    {
+      "heading": "Que signifie le symbole Marianne ?",
+      "content": "La figure de Marianne apparaît pendant la Révolution française pour représenter la République.\n\nAvec son prénom féminin populaire, elle symbolise le fait que la République est fondée sur la volonté du peuple et la démocratie.\n\nElle porte le bonnet phrygien, comme les esclaves de l’Antiquité qui avaient retrouvé leur liberté.\n\nDe plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République.",
+      "type": "text"
+    },
+    {
+      "heading": "Un élément de la culture populaire",
+      "content": "En plus de son utilisation dans les institutions de la République française, Marianne est devenue un repère visuel pour représenter la France et son peuple. Elle apparaît sur des timbres, des pièces de monnaie, des affiches, dans des films, des caricatures…\n\nÀ partir des années 1960, Marianne a souvent été représentée par des actrices françaises (Brigitte Bardot, Catherine Deneuve, Laetitia Casta). Cela a modernisé son image et renforcé sa place dans la culture populaire.",
+      "type": "text"
+    },
+    {
+      "heading": "Les principales utilisations du symbole Marianne",
+      "content": "Institutions de la République : le buste de Marianne est présent dans toutes les mairies.\n- Documents officiels : la figure de Marianne est présente sur la carte d’identité, sur les documents administratifs comme la déclaration d'impôts par exemple…\n\nOn la voit aussi sur des timbres et les pièces de monnaie.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La petite histoire de Marianne | info.gouv.fr\n\n(Ouvre une nouvelle fenêtre) Marianne | Élysée",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La petite histoire de Marianne | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/actualite/la-petite-histoire-de-marianne"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Marianne | Élysée",
+      "url": "https://www.elysee.fr/la-presidence/marianne"
+    }
+  ]
+}

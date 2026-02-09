@@ -1,0 +1,30 @@
+{
+  "id": "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+  "title": "Accès aux soins : le parcours de santé",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-le-parcours-de-sante/",
+  "objectives": [
+    "Connaître le parcours de santé.Connaître les différentes offres de soins."
+  ],
+  "sections": [
+    {
+      "heading": "Que faire en cas de problème de santé en France ?",
+      "content": "Selon l’urgence de votre problème de santé, vous pouvez :\n\nConsulter un médecin\n\nPour un problème de santé courant, on commence généralement par consulter un médecin traitant (médecin généraliste de référence pour le patient).\n\nC’est ce qu’on appelle le parcours de soins coordonnés : c’est le fait de consulter d'abord son médecin traitant, qui va ensuite orienter le patient vers d'autres professionnels de santé si nécessaire, notamment des médecins spécialistes (exemples : cardiologue, dermatologue…).\n\nAller à l’hôpital\n\nEn cas de situation grave (accident, douleurs violentes, malaise grave…), on se rend à l’hôpital, en urgence ou sur rendez-vous. En effet, beaucoup de spécialistes reçoivent leurs patients dans les locaux d’un hôpital.\n\nAller en pharmacie\n\nLe pharmacien peut vous donner des conseils pour les douleurs du quotidien.\n\nUne pharmacie est un établissement médical où vous pouvez récupérer et acheter des médicaments et autres produits de santé (compléments alimentaires, dispositifs médicaux…).\n\nAprès la consultation avec votre médecin, rendez-vous en pharmacie avec la prescription médicale pour que le pharmacien vous délivre les traitements (médicaments et dispositifs médicaux) prescrits et vous conseille sur leur utilisation.\n\nSource : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le rôle du médecin traitant et le parcours de soins coordonnés",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le rôle du médecin traitant et le parcours de soins coordonnés",
+      "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/medecin-traitant-parcours-soins-coordonnes"
+    }
+  ]
+}

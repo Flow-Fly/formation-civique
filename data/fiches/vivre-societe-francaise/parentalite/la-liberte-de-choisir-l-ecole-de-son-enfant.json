@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+  "title": "La liberté de choisir l’école de son enfant",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant/",
+  "objectives": [
+    "Connaître les différents lieux de l’école.Identifier la possibilité de faire \"l’école à la maison\"."
+  ],
+  "sections": [
+    {
+      "heading": "L’école publique",
+      "content": "Les parents sont libres d'inscrire leur enfant dans une école publique ou privée.\n\nPour inscrire son enfant à l’école publique, il suffit de contacter la mairie, ou l’école située à proximité de son domicile.\n\nLes diplômes délivrés par les écoles publiques ont tous une valeur officielle.\n\nL’École républicaine, gratuite, laïque et obligatoire, est au cœur de la transmission des valeurs de la République, telles que la citoyenneté, la laïcité, la culture de l’engagement et la lutte contre toutes les formes de discrimination.",
+      "type": "text"
+    },
+    {
+      "heading": "L'école privée",
+      "content": "Les parents peuvent inscrire leur enfant dans une école privée, sans contrainte liée à leur lieu de domicile.\n\nLes écoles privées sont également contrôlées par l’État selon leur statut.\n\nIl peut y avoir des frais complémentaires par rapport à l’école publique.\n\nLes diplômes délivrés par les écoles privées n'ont pas tous une valeur officielle.",
+      "type": "text"
+    },
+    {
+      "heading": "L’ \"école à la maison\"",
+      "content": "Un parent peut exceptionnellement \"faire l’école\" lui-même à son enfant.\n\nIl faut une autorisation spéciale, en fonction de certains motifs.\n\nExemples : l’état de santé de l’enfant, l’enfant pratique un sport de manière intensive, l’enfant a un handicap.\n\nLes motifs sont très encadrés par la loi.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les parents à l'École | Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche\n\n(Ouvre une nouvelle fenêtre) Les établissements d'enseignement scolaire privés | Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les parents à l'École | Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche",
+      "url": "https://www.education.gouv.fr/les-parents-l-ecole-9899"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les établissements d'enseignement scolaire privés | Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche",
+      "url": "https://www.education.gouv.fr/les-etablissements-d-enseignement-scolaire-prives-2942"
+    }
+  ]
+}

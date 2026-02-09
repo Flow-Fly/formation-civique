@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+  "title": "Patrimoine français : des artistes emblématiques parmi les auteurs (1/3)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1/",
+  "objectives": [
+    "Connaître des artistes français, et en particulier les auteurs français du 17ème siècle."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître des artistes français, et en particulier les auteurs français du 17ème siècle.",
+      "type": "text"
+    },
+    {
+      "heading": "Jean de la Fontaine, célèbre poète et fabuliste du 17ème siècle (1621-1695)",
+      "content": "Qui était-il ?\n\nJean de la Fontaine est un écrivain connu pour ses fables. Ces courts récits, souvent en vers, mettent en scène des animaux ou des humains et transmettent une morale. Les fables divertissent et instruisent tout en critiquant la société de l’époque. Ses fables sont enseignées à l’école.\n\nLes plus célèbres fables de Jean de La Fontaine\n\nLe Corbeau et le Renard\n- La Cigale et la Fourmi\n- Le Loup et l’Agneau\n- Le Lièvre et la Tortue",
+      "type": "text"
+    },
+    {
+      "heading": "Molière, comédien, auteur et metteur en scène de théâtre (1622-1673)",
+      "content": "Qui était-il ?\n\nMolière est l’une des figures majeures du théâtre classique français. Il a popularisé la comédie de mœurs, qui critique la société et les défauts humains par le rire. Son théâtre dénonce l’hypocrisie, le fanatisme ou encore la médecine de son époque. Son influence reste centrale dans la langue et la culture françaises.\n\nLes plus célèbres pièces de théâtre de Molière\n\nLe Malade imaginaire\n- Tartuffe\n- l’Avare\n- l’École des Femmes\n\nSources photos :\n\nPortrait de Jean de La FontaineHyacinthe Rigaud © château de Versailles\n- Molière dans le rôle de CésarNicolas Mignard © Paris Musées / Musée Carnavalet - Histoire de Paris",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Musée Jean de La Fontaine | Sa vie, son œuvre : Fables\n\n(Ouvre une nouvelle fenêtre) Molière | Château de Versailles",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Musée Jean de La Fontaine | Sa vie, son œuvre : Fables",
+      "url": "https://www.museejeandelafontaine.fr/?-Les-Fables-de-Jean-de-La-Fontaine-&lang=fr"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Molière | Château de Versailles",
+      "url": "https://www.chateauversailles.fr/decouvrir/histoire/grands-personnages/moliere"
+    }
+  ]
+}

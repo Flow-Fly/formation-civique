@@ -1,0 +1,44 @@
+{
+  "id": "droits-et-devoirs--droits-fondamentaux--les-acteurs-institutionnels",
+  "title": "Les acteurs institutionnels",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "droits-fondamentaux",
+  "subcategoryName": "Droits fondamentaux",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/",
+  "objectives": [
+    "Identifier les acteurs qui permettent de faire valoir ses droits fondamentaux."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les acteurs qui permettent de faire valoir ses droits fondamentaux.",
+      "type": "text"
+    },
+    {
+      "heading": "Vers qui se tourner en premier pour faire valoir ses droits fondamentaux ?",
+      "content": "Les policiers et gendarmes sont les forces de l’ordre. Ils interviennent pour résoudre un conflit, calmer un désaccord ou protéger physiquement une personne.\n\nVous pouvez vous rendre au commissariat de police ou à la brigade de gendarmerie la plus proche. Vous pouvez y déposer une plainte contre quelqu’un (ou contre X, si vous ne connaissez pas l’identité de la personne responsable).",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les autres acteurs qui peuvent vous accompagner ?",
+      "content": "Quand vous déposez une plainte, une procédure est ouverte. Différents acteurs peuvent vous accompagner dans cette procédure judiciaire :\n\n(Ouvre une nouvelle fenêtre) Un conciliateur ou \n                (Ouvre une nouvelle fenêtre) un médiateur : il contacte les deux parties et essaye de trouver un accord à l’amiable afin d’éviter un procès.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Qu'est-ce que le Défenseur des droits ? | vie-publique.fr\n\n(Ouvre une nouvelle fenêtre) Vos droits et démarches | justice.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qu'est-ce que le Défenseur des droits ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/268649-quest-ce-que-le-defenseur-des-droits"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Vos droits et démarches | justice.fr",
+      "url": "http://justice.fr/"
+    }
+  ]
+}

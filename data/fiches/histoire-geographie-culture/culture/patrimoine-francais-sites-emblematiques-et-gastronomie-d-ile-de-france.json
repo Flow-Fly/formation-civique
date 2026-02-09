@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+  "title": "Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux d’Île-de-France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux d’Île-de-France.",
+      "type": "text"
+    },
+    {
+      "heading": "La Tour Eiffel, symbole de Paris",
+      "content": "La Tour Eiffel se trouve à Paris. Elle est construite en 2 ans par l’ingénieur Gustave Eiffel pour l’Exposition universelle de 1889 qui fêtait les 100 ans de la Révolution française. Elle y représentait le génie industriel de la France. Haute de 312 mètres (330 avec les antennes), elle a longtemps été le plus haut monument du monde. Elle offre une vue spectaculaire sur Paris.\n\nD’abord critiquée, la Tour Eiffel est aujourd’hui un symbole de la France et un repère parisien.",
+      "type": "text"
+    },
+    {
+      "heading": "Le brie de Meaux, \"Roi des Fromages\" d’Île-de-France",
+      "content": "Le brie de Meaux est un fromage à pâte molle, fabriqué en Île-de-France depuis le Moyen-Âge.\n\nOn peut le manger avec du pain en fin de repas ou le cuisiner : quiche au brie…\n\nLe brie de Meaux est un fromage doux qui se caractérise par sa croûte blanche fine et son cœur fondant.\n\nCouronné “Roi des Fromages” au Congrès de Vienne en 1815, il reflète le raffinement et le savoir-faire gastronomique de la région parisienne.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Architecture, construction, structure & histoire de la tour Eiffel | Site de la tour Eiffel\n\n(Ouvre une nouvelle fenêtre) Brie de Meaux et de Melun | Site du Brie de Meaux et de Melun",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Architecture, construction, structure & histoire de la tour Eiffel | Site de la tour Eiffel",
+      "url": "https://www.toureiffel.paris/fr/le-monument/histoire"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Brie de Meaux et de Melun | Site du Brie de Meaux et de Melun",
+      "url": "https://www.briedemeauxetdemelun.fr/"
+    }
+  ]
+}

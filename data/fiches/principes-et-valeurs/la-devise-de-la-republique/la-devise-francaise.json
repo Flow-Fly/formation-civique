@@ -1,0 +1,44 @@
+{
+  "id": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+  "title": "La devise française",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-devise-de-la-republique",
+  "subcategoryName": "La devise de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-devise-francaise/",
+  "objectives": [
+    "Connaître les symboles républicains mentionnés dans la Constitution.Comprendre l’origine et le sens de la devise française."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce qu’une devise ?",
+      "content": "La devise de la République française est :\"Liberté, Égalité, Fraternité\".\n\nElle est officielle depuis 1848 et fait partie de notre patrimoine national.Elle exprime les valeurs auxquelles les Français sont attachés :\n\nla liberté pour chacun ;\n- l’égalité entre tous ;\n- la fraternité, c’est-à-dire la solidarité entre les citoyens.\n\nSur la droite, photo de la façade de la préfecture du Finistère.",
+      "type": "text"
+    },
+    {
+      "heading": "D’où vient cette devise ?",
+      "content": "La devise apparaît pendant la Révolution française, en 1789.Les révolutionnaires veulent une société plus juste, fondée sur ces trois valeurs : liberté, égalité, fraternité.\n\nElle est adoptée officiellement en 1848, sous la 2ème République.\n- Sous la 3ème République, elle est visible un peu partout : mairies, monuments, écoles…\n- Elle est toujours inscrite dans la Constitution d’aujourd’hui (1958).\n\nC’est un symbole fort de la République française, elle nous rappelle que la République est fondée sur des valeurs partagées, unit les citoyens et guide la vie démocratique en France.",
+      "type": "text"
+    },
+    {
+      "heading": "Où voit-on la devise aujourd’hui ?",
+      "content": "Vous pouvez la lire :\n\nsur les bâtiments publics : mairies, écoles, tribunaux…\n- sur certaines pièces de monnaie et timbres ;\n- sur les documents officiels : carte d’identité, papiers administratifs…\n- dans la Constitution française ;\n- lors de fêtes nationales, comme le 14 juillet.\n\nSource photo : Ministère de l’Intérieur - J.Groisard",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Liberté, Égalité, Fraternité | Élysée\n\n(Ouvre une nouvelle fenêtre) La petite histoire de la devise | info.gouv.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Liberté, Égalité, Fraternité | Élysée",
+      "url": "https://www.elysee.fr/la-presidence/liberte-egalite-fraternite"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La petite histoire de la devise | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/actualite/la-petite-histoire-du-drapeau-tricolore"
+    }
+  ]
+}

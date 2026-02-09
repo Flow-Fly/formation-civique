@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+  "title": "Patrimoine français : la langue française dans le monde",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/",
+  "objectives": [
+    "Comprendre le rôle de la langue française dans la construction de l’unité nationale.Identifier l’influence internationale du français et comprendre la notion de francophonie."
+  ],
+  "sections": [
+    {
+      "heading": "La langue française, une langue importante ?",
+      "content": "Le français est la 5ème langue la plus parlée au monde avec plus de 300 millions de locuteurs.\n\nOn parle français sur les 5 continents.\n\nLe français est la langue officielle de plus de 30 pays.",
+      "type": "text"
+    },
+    {
+      "heading": "Quel rôle joue la langue française dans le monde ?",
+      "content": "Le français est la langue diplomatique utilisée pour le travail dans les grandes organisations internationales comme l’ONU, l’Union européenne, l’Union africaine ou dans le Comité international olympique.",
+      "type": "text"
+    },
+    {
+      "heading": "La francophonie, c’est quoi ?",
+      "content": "La francophonie rassemble tous les hommes et femmes qui parlent français, c’est la communauté des peuples francophones.\n\nL'Organisation Internationale de la Francophonie (OIF) coordonne les 93 États et gouvernements membres.\n\nLa Francophonie a pour missions de :\n\nvaloriser le Français dans sa diversité culturelle ;\n- promouvoir la paix, la démocratie et les droits de l’Homme ;\n- soutenir l’éducation, la formation et la recherche ;\n- encourager la coopération économique au service du développement durable.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La langue française dans le monde | Organisation internationale de la Francophonie)",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La langue française dans le monde | Organisation internationale de la Francophonie)",
+      "url": "https://www.francophonie.org/la-langue-francaise-dans-le-monde-305"
+    }
+  ]
+}

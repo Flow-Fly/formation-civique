@@ -1,0 +1,40 @@
+{
+  "id": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+  "title": "La limite des libertés individuelles",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "obligations-et-devoirs-des-personnes-residant-en-france",
+  "subcategoryName": "Obligations et devoirs des personnes résidant en France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/",
+  "objectives": [
+    "Comprendre les limites des libertés individuelles.Identifier des exemples concrets de restrictions de libertés individuelles en France."
+  ],
+  "sections": [
+    {
+      "heading": "Que dit la Déclaration des Droits de l’Homme et du Citoyen ?",
+      "content": "De nombreux droits et libertés nous sont accordés par la Déclaration des Droits de l’Homme et du Citoyen et les autres textes fondamentaux. Il est écrit que nos droits sont “imprescriptibles” (article 2 de la DDHC), ce qui signifie qu’ils ne peuvent pas nous être retirés.\n\nCependant, ces droits et libertés ont une limite pour protéger la vie en société. Nos droits et libertés individuels sont limités par les droits des autres : \"La liberté consiste à faire tout ce qui ne nuit pas à autrui\" (article 4 de la DDHC).",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les limites de nos droits et libertés ?",
+      "content": "Nos droits et libertés individuels sont limités par :\n\nl’intérêt général ;\n- les libertés des autres ;\n- la défense de l’ordre public qui concerne non seulement la sécurité, mais également la tranquillité, la salubrité (c’est-à-dire qui ne présente pas de danger pour l’hygiène, la santé et l’environnement) ;\n- le respect de la dignité humaine.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelques exemples",
+      "content": "Dans le cadre de la lutte contre le terrorisme certaines libertés individuelles (liberté de circulation, par exemple) ont été restreintes.\n\nLa mise en place de l'état d'urgence sanitaire contre le Covid-19 en mars 2020 a limité la liberté d'aller et venir, la liberté d'entreprendre et la liberté de réunion.\n\nEn milieu carcéral, la liberté de correspondance peut être restreinte pour des raisons de sécurité ou de maintien de l’ordre.\n\nDe même, il est interdit de circuler dans l'espace public avec une tenue qui vise à cacher son visage.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le principe de liberté, droit et grands enjeux du monde contemporain | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le principe de liberté, droit et grands enjeux du monde contemporain | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/dossier/276140-le-principe-de-liberte-droit-et-grands-enjeux-du-monde-contemporain#les-restrictions-%C3%A0-la-libert%C3%A9"
+    }
+  ]
+}

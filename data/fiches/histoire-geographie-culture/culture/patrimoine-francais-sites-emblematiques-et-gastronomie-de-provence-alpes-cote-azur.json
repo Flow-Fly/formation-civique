@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-provence-alpes-cote-azur",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Provence-Alpes-Côte d’Azur",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-provence-alpes-cote-azur/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Provence-Alpes-Côte d’Azur."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Provence-Alpes-Côte d’Azur.",
+      "type": "text"
+    },
+    {
+      "heading": "La promenade des Anglais, un symbole emblématique de Nice",
+      "content": "La promenade des Anglais est une grande avenue de bord de mer à Nice. Elle a été inaugurée en 1834.\n\nCélèbre pour ses palmiers, ses plages, ses hôtels de luxe, on peut s’y promener à pied, à vélo ou en roller.\n\nLa Promenade des Anglais est un symbole fort de la ville de Nice qui accueille les grands événements, comme le carnaval de Nice ou le Tour de France.",
+      "type": "text"
+    },
+    {
+      "heading": "La bouillabaisse, spécialité culinaire de Marseille",
+      "content": "La bouillabaisse est un plat traditionnel méditerranéen.\n\nIl est préparé à base de poissons mijotés lentement dans un bouillon parfumé avec des herbes, du fenouil, du safran et des épices.\n\nOn mange d’abord le bouillon de la bouillabaisse avec des morceaux de pain sec à l’ail et de la sauce rouille (une sauce à base de pommes de terre, tomate, foie de lotte et huile d’olive), puis les poissons cuits à part.\n\nCe plat festif célèbre les produits de la mer et les pêcheurs de Marseille qui préparaient ce plat avec les poissons invendus.\n\nSources photos\n\nLieu : \n                (Ouvre une nouvelle fenêtre) https://www.nice.fr/fr/patrimoine-et-culture/la-promenade-des-anglais -\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les 200 ans de la promenade des Anglais | Ville de Nice\n\n(Ouvre une nouvelle fenêtre) La bouillabaisse | Office de Tourisme de Marseille",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les 200 ans de la promenade des Anglais | Ville de Nice",
+      "url": "https://www.nice.fr/fr/patrimoine-et-culture/la-promenade-des-anglais"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La bouillabaisse | Office de Tourisme de Marseille",
+      "url": "https://www.marseille-tourisme.com/decouvrez-marseille/gastronomie/specialitees-culinaires-marseillaises/la-bouillabaisse/"
+    }
+  ]
+}

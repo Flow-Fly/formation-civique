@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--normandie",
+  "title": "Normandie",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/normandie/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Normandie."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Normandie.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de la Normandie ?",
+      "content": "La région de la Normandie est située au nord-ouest de la France et bordée par la Manche. Elle est proche de l’Île-de-France et du Royaume-Uni.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de la Normandie ?",
+      "content": "La Normandie compte 5 départements : Calvados, Eure, Manche, Orne, Seine-Maritime.\n\nSes principales villes sont Rouen (préfecture), Caen, Le Havre, Cherbourg-en-Cotentin, Évreux, Alençon.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 3,5 millions d’habitants. La population vieillit et le nombre d’habitants augmente peu, mais les villes portuaires et universitaires sont dynamiques.\n\nSecteurs économiques clés\n\nIndustrie (automobile, aéronautique, énergie), logistique (ports), agriculture et élevage, pêche, tourisme de mémoire (Seconde Guerre mondiale), de patrimoine et de littoral, énergies marines.\n\nSituation du marché du travail\n\nLe taux de chômage est proche de la moyenne nationale. Les pôles d’activités majeurs sont Caen, Le Havre et Rouen.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet - Région de Normandie | Insee\n\n(Ouvre une nouvelle fenêtre) Normandie Stat’s - bulletin trimestriel mai 2025 | DREETS",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet - Région de Normandie | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-28"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Normandie Stat’s - bulletin trimestriel mai 2025 | DREETS",
+      "url": "https://normandie.dreets.gouv.fr/sites/normandie.dreets.gouv.fr/IMG/pdf/normandie_stat_s_numero_43.pdf"
+    }
+  ]
+}

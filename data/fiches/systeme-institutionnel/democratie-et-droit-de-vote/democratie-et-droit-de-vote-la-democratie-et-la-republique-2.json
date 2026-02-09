@@ -1,0 +1,59 @@
+{
+  "id": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+  "title": "La démocratie et la République (2/2)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "democratie-et-droit-de-vote",
+  "subcategoryName": "Démocratie et droit de vote",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/",
+  "objectives": [
+    "Comprendre le modèle de la République.Savoir décrire simplement le fonctionnement démocratique."
+  ],
+  "sections": [
+    {
+      "heading": "Qui sont les acteurs politiques au niveau national ?",
+      "content": "Le président de la République, élu pour 5 ans au suffrage universel directement par les citoyens français. Il nomme le Premier ministre selon la majorité ;\n- le Gouvernement (les ministres sont proposés par le Premier ministre au président de la République) ;\n- les 577 députés de l’Assemblée nationale (élus au suffrage direct par les Français, tous les 5 ans) et les 348 sénateurs du Sénat (élection au suffrage indirect, par les grands électeurs choisis par les français, tous les 6 ans). L’Assemblée nationale et le Sénat forment le Parlement.",
+      "type": "text"
+    },
+    {
+      "heading": "Qui sont les acteurs politiques au niveau local ?",
+      "content": "Les élus municipaux (maire et conseillers municipaux, élus pour 6 ans lors des élections municipales au suffrage direct) : ils représentent les citoyens sur la commune ;\n- les conseillers départementaux (élus pour 6 ans aux élections départementales au suffrage direct) : ils forment l’assemblée départementale qui prend des décisions concernant le département ;\n- les conseillers régionaux (élus pour 6 ans au élections régionales au suffrage direct) : ils forment l’assemblée régionale qui prend des décisions concernant la région.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Bienvenue sur le site de l'Élysée\n\n(Ouvre une nouvelle fenêtre) Site officiel du Gouvernement | info.gouv.fr\n\n(Ouvre une nouvelle fenêtre) Assemblée nationale | Les députés, le vote de la loi, le Parlement français\n\n(Ouvre une nouvelle fenêtre) Sénat - Travaux parlementaires, sénateurs, Parlement | Sénat\n\n(Ouvre une nouvelle fenêtre) Statut de l'élu local | Ministères Aménagement du territoire Transition écologique\n\n(Ouvre une nouvelle fenêtre) Qu'est-ce qu'un conseil régional ? | vie-publique.fr\n\n(Ouvre une nouvelle fenêtre) Qu'est-ce qu'un conseil départemental ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Bienvenue sur le site de l'Élysée",
+      "url": "https://www.elysee.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Site officiel du Gouvernement | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Assemblée nationale | Les députés, le vote de la loi, le Parlement français",
+      "url": "https://www.assemblee-nationale.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Sénat - Travaux parlementaires, sénateurs, Parlement | Sénat",
+      "url": "https://www.senat.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Statut de l'élu local | Ministères Aménagement du territoire Transition écologique",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/statut-lelu-local"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qu'est-ce qu'un conseil régional ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/19627-quest-ce-quun-conseil-regional"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qu'est-ce qu'un conseil départemental ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/19623-quest-ce-quun-conseil-departemental"
+    }
+  ]
+}

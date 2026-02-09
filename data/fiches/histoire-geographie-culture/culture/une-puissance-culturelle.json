@@ -1,0 +1,39 @@
+{
+  "id": "histoire-geographie-culture--culture--une-puissance-culturelle",
+  "title": "Une puissance culturelle",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/une-puissance-culturelle/",
+  "objectives": [
+    "Connaître les repères culturels de la société française.Comprendre les spécificités culturelles de la France."
+  ],
+  "sections": [
+    {
+      "heading": "Dans quels domaines la culture française est-elle reconnue ?",
+      "content": "La France est renommée dans le monde pour son savoir-faire et son influence dans plusieurs champs culturels :\n\nLa littérature\n\nLa France est mondialement connue pour sa littérature. Plusieurs personnes françaises ont remporté le prix Nobel de littérature (André Gide, Albert Camus, Annie Ernaux…).\n\nLe cinéma\n\nLe cinéma français rayonne à l’international grâce à son histoire et à des réalisateurs célèbres (par exemple ceux de la Nouvelle Vague). La France organise aussi des événements majeurs du 7ème art, comme le Festival de Cannes.\n\nLa mode\n\nParis est considérée comme l’une des capitales mondiales de la mode, avec des maisons de haute couture emblématiques, par exemple Chanel, Dior ou Saint Laurent. Ces grandes maisons symbolisent le luxe et le savoir-faire français.\n\nLes musées et le patrimoine\n\nLa France abrite certains des musées les plus prestigieux au monde (le Louvre, le musée d’Orsay). Elle est reconnue pour son savoir-faire dans la conservation et la valorisation de son patrimoine historique (châteaux, œuvres d’art, villes anciennes, sites archéologiques…).",
+      "type": "text"
+    },
+    {
+      "heading": "Comment rayonne-t-elle à l’international ?",
+      "content": "La culture française bénéficie d’une visibilité mondiale. Ce rayonnement s’appuie sur :\n\nLes institutions françaises à l’étranger\n\nLes Alliances françaises et les Instituts français sont présents dans plus de 130 pays. Ils diffusent la langue et la culture françaises à travers des cours de français et des événements.\n\nDes partenariats culturels\n\nLa France partage son expertise en matière de conservation, de muséographie et de valorisation artistique avec d’autres pays. Par exemple, le musée du Louvre Abu Dhabi est le résultat d’un accord inédit entre la France et les Émirats arabes unis.\n\nUne image emblématique\n\nLa France est associée à des symboles populaires, comme la baguette de pain ou le béret. Ils contribuent eux aussi à l’image de la France et à son attractivité.\n\nSources photos : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Institut français\n\n(Ouvre une nouvelle fenêtre) Ministère de la Culture",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Institut français",
+      "url": "https://www.institutfrancais.com/fr"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Ministère de la Culture",
+      "url": "https://www.culture.gouv.fr/"
+    }
+  ]
+}

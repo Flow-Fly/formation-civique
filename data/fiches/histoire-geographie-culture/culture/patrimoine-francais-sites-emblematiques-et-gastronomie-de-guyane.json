@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-guyane",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Guyane",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-guyane/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Guyane."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Guyane.",
+      "type": "text"
+    },
+    {
+      "heading": "Le centre spatial de Kourou, un site scientifique majeur au cœur de l’Amazonie",
+      "content": "Le centre spatial de Kourou est situé sur la côte atlantique de la Guyane. C’est l’une des bases de lancement de fusées parmi les plus importantes au monde.\n\nInauguré en 1968, il est utilisé par l’Agence spatiale européenne pour envoyer des satellites.\n\nCe site moderne attire des chercheurs et ingénieurs du monde entier.\n\nMoteur économique de la région, le centre spatial de Kourou donne une place de choix à la Guyane dans les domaines de la recherche et de la technologie spatiale.",
+      "type": "text"
+    },
+    {
+      "heading": "Le bouillon d’awara, un plat traditionnel riche en saveurs",
+      "content": "Le bouillon d’awara est un plat qu’on mange pour les grandes occasions, notamment à Pâques.\n\nIl est composé de viandes, poissons, légumes et épices, mijotés pendant plusieurs jours dans la pulpe de l’awara, un fruit orangé local. On le mange accompagné de riz.\n\nLe bouillon d’awara représente la richesse de la cuisine créole guyanaise.\n\nSources photos\n\nLieu : \n                (Ouvre une nouvelle fenêtre) https://www.info.gouv.fr/actualite/visite-du-centre-spatial-guyanais-une-fierte-europeenne\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Centre Spatial Guyanais | Site officiel\n\n(Ouvre une nouvelle fenêtre) Retour sur la conférence « Les origines du bouillon d'awara » | Collectivité Territoriale de Guyane",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Centre Spatial Guyanais | Site officiel",
+      "url": "https://centrespatialguyanais.cnes.fr/fr"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Retour sur la conférence « Les origines du bouillon d'awara » | Collectivité Territoriale de Guyane",
+      "url": "https://www.ctguyane.fr/culture-retour-sur-la-conference-les-origines-du-bouillon-dawara/"
+    }
+  ]
+}

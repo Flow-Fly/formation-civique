@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--emploi--orientation-3",
+  "title": "Orientation (3/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-3/",
+  "objectives": [
+    "Identifier quelles sont les personnes concernées par l’inscription automatique (deuxième catégorie).Connaître la procédure pour bénéficier des services de France Travail."
+  ],
+  "sections": [
+    {
+      "heading": "L’inscription automatique",
+      "content": "L’inscription à France Travail est automatique pour deux catégories de personnes. Ces personnes n’ont aucune démarche à faire pour s’inscrire.\n\nCette fiche présente la deuxième catégorie.",
+      "type": "text"
+    },
+    {
+      "heading": "Êtes-vous concerné ?",
+      "content": "Votre inscription à France Travail est automatique si :\n\nvous avez demandé le Revenu de Solidarité Active (RSA) ;\n- vous avez une relation officielle (mariage, concubinage, PACS) avec une personne qui a demandé le RSA ;\n- vous avez demandé un accompagnement à une Mission locale pour vous aider à trouver un travail.",
+      "type": "text"
+    },
+    {
+      "heading": "La démarche pour bénéficier des services de France Travail",
+      "content": "Votre inscription est automatique mais vous devez faire une démarche pour bénéficier des services de France Travail.\n\nsi la demande de RSA a été faite par internet, vous recevez par email un lien d’inscription et le questionnaire d’orientation à remplir ;\n- si la demande de RSA a été faite en remplissant des papiers, vous recevez par courrier un document d’inscription et le questionnaire d’orientation à remplir ;\n- si vous êtes déjà suivi par une Mission locale, c’est elle qui vous aide pour vous inscrire à France Travail et transmet à France Travail vos réponses au questionnaire.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+      "url": "https://www.francetravail.fr/accueil/"
+    }
+  ]
+}

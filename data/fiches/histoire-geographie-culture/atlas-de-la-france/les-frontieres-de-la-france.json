@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+  "title": "Les frontières de la France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "atlas-de-la-france",
+  "subcategoryName": "Atlas de la France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/",
+  "objectives": [
+    "Identifier les frontières maritimes et terrestres de la France.Se repérer dans l’espace."
+  ],
+  "sections": [
+    {
+      "heading": "Quelles sont les frontières de la France ?",
+      "content": "La France possède à la fois des frontières terrestres et des frontières maritimes étendues. Elle occupe une position stratégique en Europe de l’Ouest.\n\nFrontières terrestres (3 000 km en France hexagonale)\n\nEn Europe, la France partage des frontières terrestres avec 8 pays : la Belgique, le Luxembourg, l’Allemagne, la Suisse, l’Italie et l’Espagne, ainsi que les principautés d’Andorre et de Monaco.\n\nElle possède aussi des frontières avec le Brésil et le Suriname en Amérique du Sud, grâce à la Guyane.\n\nFrontières maritimes (5 500 km en France métropolitaine)\n\nLes frontières maritimes de la France s’étendent le long de la mer du Nord, de la Manche, de l’océan Atlantique et de la mer Méditerranée.\n\nGrâce à ses territoires d’outre-mer, la France est aussi présente dans les océans Pacifique, Atlantique et Indien, ce qui en fait une puissance géographique mondiale.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les frontières naturelles de la France ?",
+      "content": "Plusieurs frontières naturelles sont présentes dans le pays. Elles ont aidé la France à façonner son territoire et à protéger ses limites au cours de l’histoire.\n\nFleuves et montagnes\n\nÀ l’est : le Rhin sépare la France et l’Allemagne sur une partie de la frontière. Les massifs du Jura et des Vosges jouent également un rôle de frontière avec la Suisse et l’Allemagne.\n- Au sud : les Pyrénées forment une barrière montagneuse entre la France et l’Espagne.\n- Au sud-est : les Alpes marquent la limite entre la France et l’Italie et, en partie, la Suisse.\n\nMers et océans\n\nLa France est bordée par plusieurs façades maritimes.\n\nAu nord-ouest : la mer du Nord et la Manche.\n- À l’ouest : l’océan Atlantique.\n- Au sud : la mer Méditerranée.\n\nCes frontières naturelles offrent à la France une grande diversité de paysages et une ouverture stratégique vers le monde.",
+      "type": "text"
+    },
+    {
+      "heading": "Les frontières et l’espace maritime de la France",
+      "content": "Source carte : OFB, fonds cartographiques, 2023 sur le site du ministère de la Transition écologique et de la Cohésion des territoires.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La France dans l’Union européenne | Toute l’Europe",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La France dans l’Union européenne | Toute l’Europe",
+      "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/la-france-dans-l-union-europeenne/"
+    }
+  ]
+}

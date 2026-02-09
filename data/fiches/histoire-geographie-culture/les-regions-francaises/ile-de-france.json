@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+  "title": "Île-de-France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/ile-de-france/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : l’Île-de-France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : l’Île-de-France.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de l’Île-de-France ?",
+      "content": "La région de l’Île-de-France est située au centre-nord de la France, autour de Paris. C’est le cœur politique, économique et administratif du pays.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de l’Île-de-France ?",
+      "content": "L'Île-de-France compte 8 départements : Essonne, Hauts-de-Seine, Paris, Seine-et-Marne, Seine-Saint-Denis, Val-de-Marne, Val-d’Oise, Yvelines.\n\nSes principales villes sont Paris (préfecture), Boulogne-Billancourt, Saint-Denis, Versailles, Nanterre, Créteil, Évry et Cergy.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 12,4 millions d’habitants. C’est la région la plus peuplée de France, avec une forte densité de population et une forte urbanisation.\n\nSecteurs économiques clés\n\nServices (finance, numérique, communication), industrie de pointe, recherche, tourisme, culture, construction, logistique, activités de siège et centres de décision.\n\nSituation du marché du travail\n\nLe taux de chômage est proche de la moyenne nationale. Il existe de forts contrastes entre l’ouest de la région, plus favorisé, et l’est, plus fragile socialement et économiquement.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région d’Île-de-France | Insee\n\n(Ouvre une nouvelle fenêtre) Taux de chômage localisé par région - Île-de-France | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région d’Île-de-France | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-11"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Taux de chômage localisé par région - Île-de-France | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/serie/001515843"
+    }
+  ]
+}

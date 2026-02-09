@@ -1,0 +1,48 @@
+{
+  "id": "vivre-societe-francaise--emploi--types-emploi-3",
+  "title": "Types d'emploi (3/3)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/types-emploi-3/",
+  "objectives": [
+    "Comprendre que la création d’une entreprise est possible pour tous.Identifier les étapes pour construire son projet.Identifier les démarches pour créer son entreprise."
+  ],
+  "sections": [
+    {
+      "heading": "Qui peut créer une entreprise en France ?",
+      "content": "Vous pouvez créer une entreprise en France, même si vous n’avez pas la nationalité française.\n\nVous n’avez pas besoin de diplôme, sauf pour certaines activités (exemple : coiffure…).\n\nIl est important d’avoir de l’expérience dans l’activité de la future entreprise, et de connaître des personnes qui pourront vous aider.\n\nPartout en France, il y a des associations pour vous aider à définir votre projet et trouver de l’argent.\n\nIl y a des aides financières comme \n                (Ouvre une nouvelle fenêtre) l'aide à la création ou à la reprise d'une entreprise (ACRE) ou \n                (Ouvre une nouvelle fenêtre) des aides régionales.",
+      "type": "text"
+    },
+    {
+      "heading": "Les étapes pour construire votre projet",
+      "content": "Clarifier vos envies et celles de vos futurs clients.\n- Discutez de votre idée avec différentes personnes pour avoir un regard extérieur.\n- Vérifiez qu’une autre personne n’a pas eu la même idée que vous. Pour cela, il suffit de faire une recherche sur le site internet de l’INPI (Institut National de la Propriété Industrielle). Une idée est protégée par un brevet d’invention. L’INPI recense tous les brevets d’invention.\n- Construisez votre projet avec une étude de marché (analyse des entreprises concurrentes, des clients, de l’environnement économique) et un business plan (présentation du service ou du produit, stratégie, plan financier…).",
+      "type": "text"
+    },
+    {
+      "heading": "Les principales démarches pour créer votre entreprise",
+      "content": "Choisir une adresse officielle pour l’entreprise (ce n’est pas forcément l’adresse du lieu de travail).\n- Enregistrer les statuts de votre société (nom, forme juridique, adresse, montant du capital, comment seront prises les décisions…).\n- Déclarer votre entreprise (on appelle cette démarche l’immatriculation).\n- Publier dans un journal d’annonces légales.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Vous voulez créer ou reprendre une entreprise ? Retrouvez toutes les informations pour réussir votre création d’entreprise\n\n(Ouvre une nouvelle fenêtre) Je crée | Entreprendre.Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) La création d'entreprise pas à pas | France Travail",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Vous voulez créer ou reprendre une entreprise ? Retrouvez toutes les informations pour réussir votre création d’entreprise",
+      "url": "https://bpifrance-creation.fr/entrepreneur/liste-activites-reglementees"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Je crée | Entreprendre.Service-Public.fr",
+      "url": "https://entreprendre.service-public.fr/vosdroits/N31901"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La création d'entreprise pas à pas | France Travail",
+      "url": "https://www.francetravail.fr/candidat/je-creereprends-une-entreprise/la-creation-dentreprise-pas-a-pa.html"
+    }
+  ]
+}

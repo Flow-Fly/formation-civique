@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--centre-val-de-loire",
+  "title": "Centre-Val de Loire",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/centre-val-de-loire/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : Centre-Val de Loire."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : Centre-Val de Loire.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région du Centre-Val de Loire ?",
+      "content": "La région du Centre-Val de Loire est située au centre-nord de la France, entre l’Île-de-France et le Massif central. Elle est traversée par le fleuve de la Loire.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes du Centre-Val de Loire ?",
+      "content": "Le Centre-Val de Loire compte 6 départements : Cher, Eure-et-Loir, Indre, Indre-et-Loire, Loir-et-Cher, Loiret.\n\nSes principales villes sont Orléans (préfecture), Tours, Bourges, Châteauroux, Chartres, Blois.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 2,6 millions d’habitants. La région est moyennement dense et sa population reste stable, avec toutefois des variations entre les zones urbaines et rurales.\n\nSecteurs économiques clés\n\nIndustrie (pharmaceutique, aéronautique, cosmétique), agriculture (grandes cultures, vignes), tourisme (châteaux de la Loire), agroalimentaire.\n\nSituation du marché du travail\n\nLe taux de chômage est proche de la moyenne nationale. Les zones rurales sont plus fragiles, mais les pôles autour de Tours et Orléans sont dynamiques.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région du Centre-Val de Loire | Insee\n\n(Ouvre une nouvelle fenêtre) Taux de chômage localisé par région - Centre-Val de Loire | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région du Centre-Val de Loire | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-24"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Taux de chômage localisé par région - Centre-Val de Loire | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/serie/001515847"
+    }
+  ]
+}

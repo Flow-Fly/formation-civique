@@ -1,0 +1,49 @@
+{
+  "id": "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+  "title": "Le droit du travail (2/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-2/",
+  "objectives": [
+    "Comprendre ce qu’est le salaire et le bulletin de salaire.Comprendre ce qu’est le congé payé.Connaître le rôle du conseil de Prud’hommes.Comprendre le droit syndical."
+  ],
+  "sections": [
+    {
+      "heading": "Le salaire",
+      "content": "Le salaire est l’argent versé par l’employeur au salarié, en échange du travail qu’il a fourni.\n\nIl est interdit de verser un salaire inférieur au salaire minimum de croissance (\n                (Ouvre une nouvelle fenêtre) SMIC), qui est le salaire horaire minimum en France et qui s'élève à 1 801,80 € brut environ.\n\nAu moment du versement du salaire, l’employeur doit fournir au salarié un bulletin de paie. Ce document comporte des informations obligatoires (période de travail, nombre d’heures de travail…). À l’inverse, d’autres informations sont interdites, par exemple les heures ou journées de grève du salarié.\n\nL’employeur peut fournir le bulletin de paie sous forme électronique, sauf si le salarié le refuse.",
+      "type": "text"
+    },
+    {
+      "heading": "Le congé payé",
+      "content": "Tous les salariés ont droit, chaque année, à un congé payé par leur employeur.\n\nLe congé payé est un droit et une obligation.\n\nUn salarié a droit à 2,5 jours ouvrables de congé payé s’il a travaillé chez le même employeur pendant un temps équivalent à un mois de travail.\n\nDéfinition : un jour ouvrable est un jour de la semaine où le salarié pourrait potentiellement travailler, sauf le dimanche et les jours fériés.",
+      "type": "text"
+    },
+    {
+      "heading": "Le droit syndical",
+      "content": "En France, chaque salarié a le droit de se syndiquer.\n\nCela veut dire qu’il peut créer, adhérer ou participer à un syndicat.\n\nUn syndicat est une organisation qui défend les droits des travailleurs : le salaire, les conditions de travail, la sécurité...\n\nPersonne ne peut obliger un salarié à rejoindre un syndicat, et personne ne peut le punir s’il en fait partie.\n\nC’est une liberté importante dans le monde du travail.",
+      "type": "text"
+    },
+    {
+      "heading": "Le conseil de Prud’hommes",
+      "content": "Si le salarié et l’employeur ne sont pas d'accord concernant le contrat de travail (licenciement, salaire…), le salarié peut contacter le Conseil de Prud’hommes.\n\nC’est un lieu de Justice qui décide dans ce type de conflit. Il peut imposer à l’employeur de payer une indemnité au salarié, de le réintégrer dans l’entreprise…\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les congés payés de vos salariés en 6 questions | Ministère de l’Économie des Finances et de la Souveraineté industrielle et numérique\n\n(Ouvre une nouvelle fenêtre) Rémunération | Travail-emploi.gouv.fr | Ministère du Travail, de la Santé, des Solidarités et des Familles",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les congés payés de vos salariés en 6 questions | Ministère de l’Économie des Finances et de la Souveraineté industrielle et numérique",
+      "url": "https://www.economie.gouv.fr/entreprises/conges-payes"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Rémunération | Travail-emploi.gouv.fr | Ministère du Travail, de la Santé, des Solidarités et des Familles",
+      "url": "https://travail-emploi.gouv.fr/droit-du-travail/remuneration"
+    }
+  ]
+}

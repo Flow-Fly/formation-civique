@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--bourgogne-franche-comte",
+  "title": "Bourgogne-Franche-Comté",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/bourgogne-franche-comte/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Bourgogne-Franche-Comté."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Bourgogne-Franche-Comté.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de la Bourgogne-Franche-Comté ?",
+      "content": "La région de la Bourgogne-Franche-Comté est située à l’est de la France, à la frontière avec la Suisse. Elle s’étend entre le Bassin parisien et le massif du Jura.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de la Bourgogne-Franche-Comté ?",
+      "content": "La Bourgogne-Franche-Comté compte 8 départements : Côte-d’Or, Doubs, Haute-Saône, Jura, Nièvre, Saône-et-Loire, Territoire de Belfort, Yonne.\n\nSes principales villes sont Dijon (préfecture), Besançon, Belfort, Chalon-sur-Saône, Auxerre et Nevers.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 2,8 millions d’habitants. C’est une région avec une faible densité de population et des zones rurales importantes.\n\nSecteurs économiques clés\n\nIndustrie (automobile, agroalimentaire, microtechniques), viticulture (vins de Bourgogne), horlogerie, bois, tourisme vert et tourisme culturel.\n\nSituation du marché du travail\n\nLe taux de chômage est généralement bas, mais varie selon les zones. Plusieurs pôles industriels sont présents dans la région.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région de Bourgogne-Franche-Comté | Insee\n\n(Ouvre une nouvelle fenêtre) Chambre de commerce et d’industrie | CCI Bourgogne Franche-Comté",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région de Bourgogne-Franche-Comté | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-27"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Chambre de commerce et d’industrie | CCI Bourgogne Franche-Comté",
+      "url": "https://www.bourgognefranchecomte.cci.fr/"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "droits-et-devoirs--droits-fondamentaux--introduction-aux-droits-fondamentaux",
+  "title": "Introduction aux droits fondamentaux",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "droits-fondamentaux",
+  "subcategoryName": "Droits fondamentaux",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/introduction-aux-droits-fondamentaux/",
+  "objectives": [
+    "Connaître les droits fondamentaux.Comprendre l’application des droits fondamentaux."
+  ],
+  "sections": [
+    {
+      "heading": "Les droits fondamentaux, c’est quoi ?",
+      "content": "Les droits fondamentaux (ou libertés fondamentales) sont les droits et les libertés élémentaires que tout le monde doit respecter pour assurer le bien-être de chacun.\n\nCes droits sont les mêmes pour tout le monde, peu importe le sexe, l'âge (avant ou après 18 ans), les croyances ou la façon de vivre.\n\nLes droits fondamentaux garantissent à chacun :\n\nla dignité ;\n- le respect ;\n- l’égalité ;\n- la justice.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les différentes catégories de droits fondamentaux ?",
+      "content": "Ces droits fondamentaux peuvent être répartis en 3 catégories :\n\nles droits liés à la personne humaine ;\n- les droits sociaux et économiques ;\n- les droits dits \"de troisième génération\" qui sont collectifs.\n\nCes droits fondamentaux sont la base de notre démocratie.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels textes garantissent ces droits fondamentaux ?",
+      "content": "Ces droits fondamentaux sont garantis par l’État.\n\nLes droits et libertés fondamentaux sont inscrits dans plusieurs textes français et européens, dont :\n\nla Déclaration des droits de l'homme et du citoyen de 1789 ;\n- le Code Civil de 1804 ;\n- la Constitution française de 1946 ;\n- la Constitution française de 1958 ;\n- la Convention européenne des droits de l’homme et des libertés fondamentales mise en place en 1959 ;\n- la Charte des droits fondamentaux de l'Union européenne de 2000 ;\n- la Charte de l’environnement de 2005.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Libertés et droits fondamentaux : de quoi s'agit-il ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Libertés et droits fondamentaux : de quoi s'agit-il ? | vie-publique.fr",
+      "url": "http://vie-publique.fr/fiches/23865-libertes-et-droits-fondamentaux-de-quoi-sagit-il"
+    }
+  ]
+}

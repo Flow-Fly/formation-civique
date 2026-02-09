@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--la-reunion",
+  "title": "La Réunion",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/la-reunion/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Réunion."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Réunion.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située La Réunion ?",
+      "content": "La Réunion est une île volcanique située dans l’océan Indien, à l’est de Madagascar et au sud-ouest de l’île Maurice.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de La Réunion ?",
+      "content": "La Réunion est à la fois un Département et une Région d’Outre-Mer (DROM).\n\nSes principales villes sont Saint-Denis (préfecture), Saint-Pierre, Saint-Paul, Le Tampon, Saint-André.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 885 700 habitants. Sa population est jeune, mais vieillit progressivement.\n\nSecteurs économiques clés\n\nTourisme, agriculture (canne à sucre, fruits tropicaux), construction, énergies renouvelables (géothermie, solaire), technologies de l’information et de la communication, services publics.\n\nSituation du marché du travail\n\nLe taux de chômage est élevé (environ 19 % de la population active). Les inégalités sociales et territoriales sont importantes et l’île dépend fortement des transferts publics.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de La Réunion | Insee\n\n(Ouvre une nouvelle fenêtre) La Réunion en bref - Les chiffres clés de la Réunion (juillet 2025) | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de La Réunion | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=DEP-974"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La Réunion en bref - Les chiffres clés de la Réunion (juillet 2025) | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/fichier/2018985/Reunion_en_bref.pdf"
+    }
+  ]
+}

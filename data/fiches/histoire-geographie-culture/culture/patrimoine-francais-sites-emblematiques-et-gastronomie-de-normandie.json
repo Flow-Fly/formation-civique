@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-normandie",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Normandie",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-normandie/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Normandie."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Normandie.",
+      "type": "text"
+    },
+    {
+      "heading": "Le Mont Saint-Michel, un site unique et emblématique",
+      "content": "Le Mont Saint-Michel est une île rocheuse située sur la côte normande. Il est célèbre pour son abbaye construite au sommet des rochers.\n\nLa construction de l’abbaye du Mont-Saint-Michel s’est étalée sur plusieurs siècles du Moyen Âge, mêlant les styles architecturaux.\n\nLe Mont est aussi connu pour ses marées impressionnantes : à marée haute, l’île est entourée d’eau.\n\nLe Mont Saint-Michel et sa baie sont classés au patrimoine mondial de l'UNESCO.\n\nIl est un symbole fort de la Normandie, aux portes de la Bretagne, mêlant histoire, culture et nature.",
+      "type": "text"
+    },
+    {
+      "heading": "Le camembert, célèbre fromage normand",
+      "content": "Le camembert de Normandie est un fromage à pâte molle, fabriqué dans la région normande depuis le 18ème siècle.\n\nCe fromage doux, au goût fruité ou plus puissant, a une texture fondante.\n\nOn le mange avec du pain frais, parfois avec du beurre, ou avec du cidre local (boisson alcoolisée à partir de jus de pommes fermenté).\n\nLe camembert est un symbole fort de la gastronomie normande.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Office de Tourisme de la Destination Mont Saint-Michel – Normandie\n\n(Ouvre une nouvelle fenêtre) Camembert de Normandie | Route des fromages de Normandie",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Office de Tourisme de la Destination Mont Saint-Michel – Normandie",
+      "url": "https://www.ot-montsaintmichel.com/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Camembert de Normandie | Route des fromages de Normandie",
+      "url": "https://www.routedesfromagesdenormandie.fr/les-4-fromages-de-normandie/le-camembert/"
+    }
+  ]
+}

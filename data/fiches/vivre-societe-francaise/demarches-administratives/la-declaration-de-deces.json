@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--la-declaration-de-deces",
+  "title": "La déclaration de décès",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-deces/",
+  "objectives": [
+    "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : la déclaration d’un décès."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : la déclaration d’un décès.",
+      "type": "text"
+    },
+    {
+      "heading": "La déclaration de décès en France",
+      "content": "La déclaration de décès est obligatoire, gratuite et doit être faite à la mairie dès que possible après la constatation du décès. Elle permet d’officialiser le décès et de débuter les obsèques.\n\nLa déclaration du décès à la mairie peut être faite par toute personne majeure qui possède des renseignements sur l’état civil du défunt.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment déclarer le décès ?",
+      "content": "Une personne est décédée, voici comment agir :\n\nLa constatation du décès\n\nSi le décès a eu lieu à l’hôpital ou dans un EHPAD, c'est un professionnel de santé qui constate le décès et qui établit le certificat de décès.\n- Si le décès a eu lieu à domicile, il faut appeler le médecin traitant de la personne décédée ou SOS Médecins.\n- Si le décès a eu lieu sur la voie publique, il faut appeler la police ou la gendarmerie qui établira le certificat de décès.\n\nPrévenir ses proches\n\nFamille, amis, voisins…\n\nLa déclaration de décès à la mairie\n\nToute personne majeure peut déclarer le décès, de préférence un proche. Par exemple un parent ou une personne possédant des renseignements sur l'état civil du défunt.\n\nLa personne qui déclarer le décès doit présenter :\n\nsa pièce d’identité ;\n- le certificat de décès (si possible) ;\n- un document d’identité de la personne décédée.\n\nPrévenir l’employeur\n\nde la personne décédée.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) https://epernay.fr/",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Déclaration de décès | Service Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Déclaration de décès | Service Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F909"
+    }
+  ]
+}

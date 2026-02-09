@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-mayotte",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Mayotte",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-mayotte/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Mayotte."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Mayotte.",
+      "type": "text"
+    },
+    {
+      "heading": "Le lac Dziani, un lac situé dans un ancien volcan",
+      "content": "Le lac Dziani est situé sur l’île de Petite-Terre.\n\nIl s’est formé dans le cratère d’un ancien volcan éteint, au milieu d’une végétation tropicale. On peut en faire le tour grâce à un sentier de randonnée qui offre de beaux points de vue sur le lac, sur Petite-Terre et sur le lagon de Mayotte.\n\nSon eau saumâtre (mélange d’eau douce et d’eau salée) verte doit sa couleur à ses algues et minéraux.\n\nC’est l’un des plus beaux sites de Mayotte, chargé de légendes locales, qui représente un symbole fort du patrimoine naturel de l’île. Préservé, il est interdit de s’y baigner ou d’y pêcher.",
+      "type": "text"
+    },
+    {
+      "heading": "Le mataba, un plat traditionnel à base de feuilles de manioc",
+      "content": "Le mataba est un plat typique de Mayotte. On le prépare avec des feuilles de manioc finement hachées, cuites longuement dans du lait de coco. Il est souvent accompagné de poisson, de viande ou de crevettes.\n\nC’est un repas savoureux, à la texture onctueuse et au goût doux et parfumé, très apprécié lors des repas en famille ou lors des fêtes.\n\nAvec ses produits locaux, le mataba est un véritable symbole de la cuisine mahoraise.\n\nSource photos du lieu et du plat : images générées par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le mystique Lac Dziani | Mayotte tourisme\n\n(Ouvre une nouvelle fenêtre) Première récolte de manioc (recette du Mataba) | Collège de Terre Sainte",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le mystique Lac Dziani | Mayotte tourisme",
+      "url": "https://www.mayotte-tourisme.com/explorez/naturellement-sauvage/les-incontournables/le-mystique-lac-dziani/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Première récolte de manioc (recette du Mataba) | Collège de Terre Sainte",
+      "url": "https://etab.ac-reunion.fr/clg-terresainte/premiere-recolte-de-manioc/"
+    }
+  ]
+}

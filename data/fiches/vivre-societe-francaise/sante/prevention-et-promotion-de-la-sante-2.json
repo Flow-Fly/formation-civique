@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2",
+  "title": "Prévention et promotion de la santé (2/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/prevention-et-promotion-de-la-sante-2/",
+  "objectives": [
+    "Identifier les dispositifs de prévention en France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les dispositifs de prévention en France.",
+      "type": "text"
+    },
+    {
+      "heading": "La vaccination, c’est quoi ?",
+      "content": "La vaccination est un moyen simple, sûr et efficace de se protéger des maladies dangereuses et des séquelles qu’elles peuvent laisser. Elle utilise les défenses naturelles de l’organisme pour renforcer le système immunitaire.\n\nCertains vaccins sont obligatoires pour protéger la santé de la population.\n\nPour optimiser son efficacité pour moi et pour les autres, il est important de respecter les obligations vaccinales et le calendrier des vaccinations. La liste des vaccins recommandés ou obligatoires est indiquée dans le carnet de santé et est mise à jour par le médecin à chaque consultation.\n\nL’entrée dans les structures collectives pour les enfants (crèches, écoles…) est conditionnée à la réalisation de certains vaccins.",
+      "type": "text"
+    },
+    {
+      "heading": "Mon Bilan Prévention, c’est quoi ?",
+      "content": "“Mon Bilan Prévention” permet de faire un point global sur sa santé (en dehors de toute maladie) :\n\nidentifier les habitudes de vie qui peuvent nuire à la santé (tabac, alimentation, sommeil, activité physique…) ;\n- renforcer le suivi de votre santé physique et mentale ;\n- proposer des conseils et consultations supplémentaires si besoin.\n\nCe dispositif de prévention gratuit est proposé aux plus de 18 ans et peut être réalisé à tout âge. Prenez rendez-vous avec un médecin, un infirmier ou un pharmacien habilité.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Vaccination : pour les enfants et les adultes aussi | ameli.fr | Assuré\n\n(Ouvre une nouvelle fenêtre) Mon Bilan Prévention : en quoi ça consiste ? | Ministère du Travail, de la Santé, des Solidarités et des Familles",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Vaccination : pour les enfants et les adultes aussi | ameli.fr | Assuré",
+      "url": "https://www.ameli.fr/assure/sante/assurance-maladie/campagnes-vaccination/calendrier-vaccinations-adulte-enfant"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Mon Bilan Prévention : en quoi ça consiste ? | Ministère du Travail, de la Santé, des Solidarités et des Familles",
+      "url": "https://sante.gouv.fr/prevention-en-sante/preserver-sa-sante/mon-bilan-prevention-les-rendez-vous-sante-aux-ages-cles-de-la-vie/article/mon-bilan-prevention-en-quoi-ca-consiste"
+    }
+  ]
+}

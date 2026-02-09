@@ -1,0 +1,44 @@
+{
+  "id": "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+  "title": "Les libertés au sein du couple",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "droits-fondamentaux",
+  "subcategoryName": "Droits fondamentaux",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/",
+  "objectives": [
+    "Comprendre ses droits fondamentaux.Comprendre et connaître ses libertés au sein du couple."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce qu’un couple ?",
+      "content": "Un couple est une union entre deux personnes de sexe différent ou de même sexe, qui ont une vie commune.\n\nQu’ils soient en concubinage, pacsés ou mariés, les deux partenaires du couple ont chacun des libertés individuelles fondamentales reconnues par la loi. Ces droits les protègent et garantissent le respect de l’autonomie de chacun d’eux.",
+      "type": "text"
+    },
+    {
+      "heading": "La liberté conjugale, c’est quoi ?",
+      "content": "En France, chacun est libre de choisir son conjoint (quel que soit son sexe).\n\nChacun est libre de se mettre en couple, de vivre en concubinage, de se pacser, de se marier ou de ne pas le faire. Le consentement libre est une condition essentielle de la validité du mariage (article 146 du Code civil).\n\nLa liberté conjugale permet aussi à chaque conjoint de mettre fin à l’union (concubinage, PACS ou mariage) dans laquelle elle est engagée :\n\nle divorce met fin au mariage, sans avoir besoin d’une faute ;\n- le PACS peut être rompu par un simple passage à la mairie ;\n- le concubinage peut s’arrêter à tout moment, sans formalité.",
+      "type": "text"
+    },
+    {
+      "heading": "La liberté d’avoir des enfants, c’est quoi ?",
+      "content": "Chaque personne du couple est individuellement libre de choisir d’avoir ou de ne pas avoir d’enfant. La contraception et l’IVG sont accessibles sans autorisation du partenaire.\n\nQue vous soyez en couple (en concubinage, pacsé ou marié) ou seul, vous avez aussi le droit de devenir parent grâce :\n\nau droit à l’adoption, qui permet d’adopter un mineur ou un majeur, français ou étranger ;\n- à la PMA (Procréation Médicalement Assistée), ouverte à toutes les femmes (en couple ou seules) depuis le 2 août 2021 grâce à la loi bioéthique.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Couple | Justice.fr\n\n(Ouvre une nouvelle fenêtre) Qu’est-ce que la procréation médicalement assistée (PMA) ?",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Couple | Justice.fr",
+      "url": "https://www.justice.fr/node-page/11213"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qu’est-ce que la procréation médicalement assistée (PMA) ?",
+      "url": "https://questionsexualite.fr/comprendre-la-conception-et-la-grossesse/les-autres-modes-de-procreation/qu-est-ce-que-la-procreation-medicalement-assistee-pma"
+    }
+  ]
+}

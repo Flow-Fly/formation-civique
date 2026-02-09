@@ -1,0 +1,55 @@
+{
+  "id": "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais",
+  "title": "Les fleuves français",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "atlas-de-la-france",
+  "subcategoryName": "Atlas de la France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais/",
+  "objectives": [
+    "Connaître les 5 fleuves français.Se repérer dans l’espace."
+  ],
+  "sections": [
+    {
+      "heading": "La Seine",
+      "content": "La Seine prend sa source en Bourgogne, près de Dijon, et se jette dans la Manche.\n\nLongueur : 776 kilomètres.\n\nAffluents majeurs : l’Aube, la Marne, l’Yonne et l’Oise.\n\nGrandes villes traversées : Troyes, Paris, Rouen et Le Havre.",
+      "type": "text"
+    },
+    {
+      "heading": "La Loire",
+      "content": "La Loire prend naissance à 1 400 mètres d’altitude dans le Massif central et se jette dans l’océan Atlantique.\n\nLongueur : 1 020 kilomètres. C’est le plus long fleuve de France.\n\nAffluents majeurs : la Nièvre, l’Allier et le Cher.\n\nGrandes villes traversées : Nevers, Orléans, Blois et Nantes.",
+      "type": "text"
+    },
+    {
+      "heading": "La Garonne",
+      "content": "La Garonne prend sa source dans le Val d’Aran en Espagne, à plus de 1 900 mètres d’altitude. Elle traverse les Pyrénées et se jette dans l’océan Atlantique.\n\nLongueur : 650 kilomètres. C’est le fleuve français le plus court.\n\nAffluents majeurs : le Tarn, l’Ariège et l’Aveyron.\n\nGrandes villes traversées : Toulouse, Agen et Bordeaux.",
+      "type": "text"
+    },
+    {
+      "heading": "Le Rhône",
+      "content": "Le Rhône naît en Suisse dans les Alpes, à 1 850 mètres d’altitude, et se jette dans la Méditerranée.\n\nLongueur : 812 kilomètres, dont 522 km en France.\n\nAffluents majeurs : l’Ain, la Saône, le Gard et la Durance.\n\nGrandes villes traversées : Lyon, Valence, Avignon et Arles",
+      "type": "text"
+    },
+    {
+      "heading": "Le Rhin",
+      "content": "Le Rhin prend sa source dans l’est de la Suisse et traverse la France, l’Allemagne et les Pays-Bas jusqu’à la mer du Nord. En France, il longe une partie de la frontière franco-allemande.\n\nLongueur : 1 320 kilomètres, dont 180 kilomètres en France. C’est l’un des plus grands fleuves d’Europe.\n\nAffluents majeurs : la Moselle et l’Ill.\n\nGrandes villes traversées : Strasbourg.",
+      "type": "text"
+    },
+    {
+      "heading": "Carte des fleuves français",
+      "content": "Source carte : IGN 2012, cartes-de-france.fr",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Généralités sur le transport et le réseau fluvial en France | Ministère de la Transition écologique, de la Biodiversité, de la Forêt, de la Mer et de la Pêche",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Généralités sur le transport et le réseau fluvial en France | Ministère de la Transition écologique, de la Biodiversité, de la Forêt, de la Mer et de la Pêche",
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/generalites-transport-reseau-fluvial-france"
+    }
+  ]
+}

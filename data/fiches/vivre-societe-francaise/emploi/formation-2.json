@@ -1,0 +1,49 @@
+{
+  "id": "vivre-societe-francaise--emploi--formation-2",
+  "title": "Formation (2/3)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/formation-2/",
+  "objectives": [
+    "Comprendre comment faire reconnaître en France un diplôme obtenu à l’étranger."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Comprendre comment faire reconnaître en France un diplôme obtenu à l’étranger.",
+      "type": "text"
+    },
+    {
+      "heading": "La reconnaissance en France d’un diplôme obtenu à l’étranger",
+      "content": "Vous souhaitez étudier ou travailler en France ? Vous pouvez faire reconnaître votre diplôme obtenu dans un autre pays que la France.\n\nLes critères sont différents :\n\nselon votre parcours et les exigences de la formation souhaitée, si vous voulez étudier en France ;\n- selon le métier que vous souhaitez exercer en France.\n\nLa reconnaissance du diplôme est délivrée uniquement par l’organisation où vous souhaitez étudier, ou par l’employeur où vous souhaitez travailler.",
+      "type": "text"
+    },
+    {
+      "heading": "L’attestation de comparabilité, à quoi ça sert ?",
+      "content": "Selon votre situation, vous aurez peut-être besoin d’une attestation de comparabilité : c’est un document qui est fourni par le Centre Enic-Naric.\n\nSituation 1 : vous souhaitez étudier en France. Certains lieux d’enseignement demandent ce document pour mieux comprendre le parcours de formation que vous avez suivi à l’étranger.\n- Situation 2 : vous souhaitez travailler en France. Certains employeurs demandent ce document pour mieux comprendre votre parcours de formation et évaluer votre niveau de formation.\n- Situation 3 : vous souhaitez demander la nationalité française. Dans certaines situations, ce document est nécessaire.",
+      "type": "text"
+    },
+    {
+      "heading": "Les étapes pour faire reconnaître son diplôme",
+      "content": "Les étapes pour faire reconnaître votre diplôme :\n\nvérifiez que votre situation permet de faire reconnaître votre diplôme en France ;\n- préparez les documents (pièce d’identité, diplôme, relevés de notes et leurs traductions officielles) ;\n- déposez votre dossier sur le site internet de Enic-Naric ;\n- payez les frais (20 € au moment du dépôt, puis 100 € pour l’analyse du dossier). Vous n’avez pas à payer si vous êtes demandeur d’asile ou réfugié ou bénéficiaire de la protection subsidiaire ou temporaire.\n\nVous recevrez la réponse 4 à 6 mois environ après votre demande.\n\nCes étapes concernent les formations de plus de 200 heures et les métiers qui ne sont pas réglementés.\n\nExemples de métiers réglementés : avocat, médecin, architecte, mécanicien, coiffeur.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) ENIC-NARIC - gateway to recognition of qualifications\n\n(Ouvre une nouvelle fenêtre) France Education International",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) ENIC-NARIC - gateway to recognition of qualifications",
+      "url": "https://www.enic-naric.net/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) France Education International",
+      "url": "https://www.france-education-international.fr/expertises/enic-naric?langue=fr"
+    }
+  ]
+}

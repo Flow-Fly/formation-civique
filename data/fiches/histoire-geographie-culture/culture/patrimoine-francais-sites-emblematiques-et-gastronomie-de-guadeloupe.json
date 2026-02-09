@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-guadeloupe",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Guadeloupe",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-guadeloupe/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Guadeloupe."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Guadeloupe.",
+      "type": "text"
+    },
+    {
+      "heading": "Le Fort Delgrès, un lieu historique chargé de mémoire à Basse-Terre",
+      "content": "Le Fort Delgrès est une forteresse située dans la ville de Basse-Terre en Guadeloupe. Elle a été construite au 17ème siècle pour protéger l’île des attaques.\n\nLes grands remparts en pierre volcanique et sa vue sur les Caraïbes sont impressionnants.\n\nLe fort tient son nom de Louis Delgrès, un officier guadeloupéen, résistant contre le rétablissement de l’esclavage.\n\nAujourd’hui, ce fort est symbole de la lutte pour la liberté.",
+      "type": "text"
+    },
+    {
+      "heading": "Le colombo de poulet, plat typique guadeloupéen",
+      "content": "Le colombo de poulet est un plat typique de la cuisine guadeloupéenne.\n\nC’est un plat composé de poulet mariné avec un mélange d’épices qu’on dit “colombo” et mijoté avec des légumes (aubergines, courgette, pomme de terre).\n\nOn mange le poulet colombo avec du riz ou des bananes plantain lors des repas de famille et fêtes locales.\n\nCe plat convivial et festif incarne la richesse de la gastronomie créole.\n\nSources photos\n\nMonument : \n                (Ouvre une nouvelle fenêtre) https://www.cg971.fr/lieu/fort-delgres/\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Fort Delgrès | Conseil Départemental de la Guadeloupe\n\n(Ouvre une nouvelle fenêtre) Colombo de Poulet | Guadeloupe",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Fort Delgrès | Conseil Départemental de la Guadeloupe",
+      "url": "https://www.cg971.fr/lieu/fort-delgres/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Colombo de Poulet | Guadeloupe",
+      "url": "https://www.guadeloupe.fr/cuisine-saveurs/cuisine-creole/colombo-de-poulet/"
+    }
+  ]
+}

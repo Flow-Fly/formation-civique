@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--emploi--orientation-2",
+  "title": "Orientation (2/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-2/",
+  "objectives": [
+    "Identifier quelles sont les personnes concernées par l’inscription automatique (première catégorie).Connaître la procédure pour bénéficier des services de France Travail."
+  ],
+  "sections": [
+    {
+      "heading": "L’inscription automatique",
+      "content": "L’inscription à France Travail est automatique pour deux catégories de personnes. Ces personnes n’ont aucune démarche à faire pour s’inscrire.\n\nCette fiche présente la première catégorie.",
+      "type": "text"
+    },
+    {
+      "heading": "Êtes-vous concerné ?",
+      "content": "Votre inscription à France Travail est automatique si :\n\nvous recevez le Revenu de Solidarité Active (RSA) ;\n- vous avez une relation officielle (mariage, concubinage, PACS) avec une personne qui reçoit le RSA ;\n- vous êtes inscrit en Mission Locale dans le cadre d’un Parcours Contractualisé d’Accompagnement vers l’Emploi et l’Autonomie (PACEA) ou un Contrat d’Engagement Jeune (CEJ).",
+      "type": "text"
+    },
+    {
+      "heading": "La démarche pour bénéficier des services de France Travail",
+      "content": "Votre inscription est automatique mais vous devez faire une démarche pour bénéficier des services de France Travail.\n\nVous répondez au questionnaire d’orientation.\n- Vous vous connectez sur le site internet francetravail.fr.\n- Vous allez sur votre espace personnel en utilisant les codes que vous avez reçus par courrier ou par e-mail.\n\nVotre espace personnel vous permet de gérer vos rendez-vous, envoyer des informations…",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+      "url": "https://www.francetravail.fr/accueil/"
+    }
+  ]
+}

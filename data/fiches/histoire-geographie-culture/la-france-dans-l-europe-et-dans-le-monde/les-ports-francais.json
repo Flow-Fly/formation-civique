@@ -1,0 +1,45 @@
+{
+  "id": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+  "title": "Les ports français",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "la-france-dans-l-europe-et-dans-le-monde",
+  "subcategoryName": "La France dans l'Europe et dans le monde",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/les-ports-francais/",
+  "objectives": [
+    "Comprendre les relations économiques de la France avec le reste du monde.Connaître les principaux ports français."
+  ],
+  "sections": [
+    {
+      "heading": "Quel est le rôle des ports français pour le commerce mondial ?",
+      "content": "Les ports jouent un rôle essentiel dans l’économie mondiale : plus de 90% du commerce international de marchandises se fait par bateau. Ils facilitent l’import-export à grande échelle (conteneurs, vrac liquide ou solide comme le pétrole, les minerais, le bois, les céréales…).\n\nLes grands ports maritimes de la France sont directement gérés par l’État. Ils traitent plus de 80% du trafic maritime français de marchandises. Des millions de conteneurs transitent grâce à eux chaque année. Ces grands ports :\n\nreprésentent les principaux points d’entrée et de sortie des marchandises  ;\n- connectent la France aux grands hubs logistiques mondiaux (en Europe, en Asie et en Amérique)  ;\n- aident l’industrie française à rester compétitive grâce à des délais de transport intéressants et fiables.",
+      "type": "text"
+    },
+    {
+      "heading": "Où sont situés les grands ports français ?",
+      "content": "La France compte 66 ports de commerce maritime, dont 12 ports d’État :\n\n7 grands ports en France métropolitaine : Dunkerque, Le Havre, Rouen, Nantes Saint-Nazaire, La Rochelle, Bordeaux et Marseille.\n- 4 grands ports dans les territoires d’outre-mer : Guyane, Martinique, Guadeloupe, Port-Réunion.\n- 1 port d’intérêt national : le port de Saint-Pierre-et-Miquelon, près du Canada, est aussi un port d’État. Il est bien plus petit que les autres ports, mais important du fait de sa situation géographique.",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "",
+      "type": "text"
+    },
+    {
+      "heading": "Localisation des ports de commerce français",
+      "content": "Légende (Statut Juridique du Port)\n\n🔵 Ports de commerce décentralisés\n\n⚫ Grands ports maritimes (GPM)\n\nPorts représentés sur la carte\n\nNord et Manche\n\nDunkerque : Grands ports maritimes (GPM)\n- Calais : port de commerce décentralisé\n- Boulogne-sur-Mer : port de commerce décentralisé\n- Dieppe : port de commerce décentralisé\n- Le Tréport : port de commerce décentralisé\n- Cherbourg-en-Cotentin : port de commerce décentralisé\n- Caen : port de commerce décentralisé\n- Le Havre : grand port maritime (GPM)\n\nBretagne et Atlantique Nord\n\nSaint-Malo : port de commerce décentralisé\n- Roscoff : port de commerce décentralisé\n- Brest : port de commerce décentralisé\n- Le Légué : port de commerce décentralisé\n- Lorient : port de commerce décentralisé\n- Nantes-Saint-Nazaire : grand port maritime (GPM)\n\nCôte Atlantique\n\nLes Sables d’Olonne : port de commerce décentralisé\n- La Rochelle : grand port maritime (GPM)\n- Rochefort : port de commerce décentralisé\n- Tonnay-Charente : port de commerce décentralisé\n- Bordeaux : grand port maritime (GPM)\n- Bayonne : port de commerce décentralisé\n\nMéditerranée\n\nSète : port de commerce décentralisé\n- Port-la-Nouvelle : port de commerce décentralisé\n- Port-Vendres : port de commerce décentralisé\n- Marseille : grand port maritime (GPM)\n- Toulon : port de commerce décentralisé\n- Nice : port de commerce décentralisé\n\nCorse\n\nBastia : port de commerce décentralisé\n- L’Île-Rousse : port de commerce décentralisé\n- Calvi : port de commerce décentralisé\n- Ajaccio : port de commerce décentralisé\n- Propriano : port de commerce décentralisé\n- Porto-Vecchio : port de commerce décentralisé\n- Bonifacio : port de commerce décentralisé\n\nOutre-mer\n\nGuadeloupe - Pointe-à-Pitre : grand port maritime (GPM)\n- Martinique - Fort-de-France : grand port maritime (GPM)\n- Guyane - Cayenne : grand port maritime (GPM)\n- Réunion - Le Port : grand port maritime (GPM)\n- Mayotte - Longoni : grand port maritime (GPM)\n- Saint-Pierre-et-Miquelon - Saint-Pierre : port de commerce décentralisé",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Ports maritimes | mer.gouv.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Ports maritimes | mer.gouv.fr",
+      "url": "https://www.mer.gouv.fr/acteurs-reseau-et-activites-portuaires-en-france"
+    }
+  ]
+}

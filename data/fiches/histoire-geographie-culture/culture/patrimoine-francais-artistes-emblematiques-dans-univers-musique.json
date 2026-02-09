@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+  "title": "Patrimoine français : des artistes emblématiques dans l’univers de la musique",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-dans-univers-musique/",
+  "objectives": [
+    "Connaître des figures de la musique française."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître des figures de la musique française.",
+      "type": "text"
+    },
+    {
+      "heading": "Claude Debussy, compositeur français (1862-1918)",
+      "content": "Qui était-il ?\n\nClaude Debussy est considéré comme le père de la musique moderne. Sa musique cherche à évoquer des ambiances, des sensations, des images, un peu comme les peintres impressionnistes. Il rompt avec les règles classiques pour créer un style libre, poétique et très expressif. Il a fortement influencé la musique du 20ème siècle.\n\nMorceaux les plus connus de Claude Debussy\n\nClair de Lune\n- Prélude à l’après-midi d’un faune\n- La Mer",
+      "type": "text"
+    },
+    {
+      "heading": "Edith Piaf, une des plus grandes chanteuses du 20ème siècle (1915-1963)",
+      "content": "Qui était-elle ?\n\nEdith Piaf est célèbre pour sa voix puissante et émotive, et ses chansons sur l’amour, la douleur et l’espoir. Surnommée \"La Môme Piaf\", elle devient une icône de la chanson française et connaît un grand succès en France comme à l’international. Sa vie difficile, marquée par les drames, donne encore plus de force à son interprétation.\n\nMorceaux les plus connus d’Edith Piaf\n\nL’Hymne à l’amour\n- La vie en rose\n- La Foule\n\nSources photos :\n\nPortrait de Claude Debussy dans son bureau de l’avenue du Bois de Boulogne1910, Gallica-BnF\n- Portrait d'Edith Piaf Studio Harcourt - RMN",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Claude Debussy | Philarmonie de Paris\n\n(Ouvre une nouvelle fenêtre) Edith Piaf | FranceArchives",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Claude Debussy | Philarmonie de Paris",
+      "url": "https://pad.philharmoniedeparis.fr/0051746-biographie-de-claude-debussy.aspx?_lg=fr-FR"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Edith Piaf | FranceArchives",
+      "url": "https://francearchives.gouv.fr/pages_histoire/39968"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-la-sante-mentale",
+  "title": "Prévention et promotion de la santé : la santé mentale",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/prevention-et-promotion-de-la-sante-la-sante-mentale/",
+  "objectives": [
+    "Comprendre les enjeux de la santé mentale.Connaître les principales structures et professionnels intervenant en santé mentale."
+  ],
+  "sections": [
+    {
+      "heading": "La santé mentale, c’est quoi ?",
+      "content": "La santé mentale désigne un état de bien-être psychique, émotionnel et social. C’est quand une personne se sent bien dans sa tête (exemple : elle sait gérer son stress) et avec les autres.\n\nAvoir une bonne santé mentale, ce n’est pas seulement l’absence de troubles psychiques graves ; quand on a une bonne santé mentale, on peut affronter les problèmes de la vie, avoir des relations sociales équilibrées avec les autres, travailler et contribuer à la vie en société.",
+      "type": "text"
+    },
+    {
+      "heading": "Vers qui se tourner ?",
+      "content": "Si vous, ou un proche, ne se sent pas bien, vous pouvez contacter :\n\nle médecin traitant, qui assure le suivi régulier ;\n- un psychologue ou un psychiatre, des médecins spécialistes qui vous accompagnent en cabinet ou à l’hôpital ;\n- une structure de proximité comme les Centres Médico-Psychologiques (CMP) ;\n- les lignes d’écoute anonymes :3114 : pour la prévention du suicide (24h/24) ;Fil Santé Jeunes : pour les jeunes.\n- 3114 : pour la prévention du suicide (24h/24) ;\n- Fil Santé Jeunes : pour les jeunes.",
+      "type": "text"
+    },
+    {
+      "heading": "Un renforcement des actions de prévention",
+      "content": "La prévention concernant la santé mentale est une priorité pour accompagner au mieux et au plus tôt les patients.\n\nPlusieurs actions sont mises en place :\n\ncampagnes de sensibilisation grand public ;\n- interventions dans les écoles, universités et entreprises ;\n- forfait \"MonPsy\" : jusqu’à 8 séances chez un psychologue remboursées sous conditions.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La santé mentale, Grande cause nationale, en 5 questions clés | Ministère du Travail, de la Santé, des Solidarités et des Familles\n\n(Ouvre une nouvelle fenêtre) Santé mentale : définition et facteurs en jeu | ameli.fr | Assuré",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La santé mentale, Grande cause nationale, en 5 questions clés | Ministère du Travail, de la Santé, des Solidarités et des Familles",
+      "url": "https://sante.gouv.fr/actualites/actualites-du-ministere/article/la-sante-mentale-grande-cause-nationale-en-5-questions-cles"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Santé mentale : définition et facteurs en jeu | ameli.fr | Assuré",
+      "url": "https://www.ameli.fr/assure/sante/themes/sante-mentale-de-l-adulte/sante-mentale-definition-et-facteurs-en-jeu"
+    }
+  ]
+}

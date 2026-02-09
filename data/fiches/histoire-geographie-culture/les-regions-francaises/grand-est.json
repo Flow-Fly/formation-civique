@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--grand-est",
+  "title": "Grand Est",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/grand-est/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : le Grand Est."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : le Grand Est.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région du Grand Est ?",
+      "content": "La région du Grand Est est située à l’est de la France, à la frontière avec la Belgique, le Luxembourg, l’Allemagne et la Suisse. C’est un carrefour européen.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes du Grand Est ?",
+      "content": "Le Grand Est compte 10 départements : Ardennes, Aube, Bas-Rhin, Haute-Marne, Haut-Rhin, Marne, Meurthe-et-Moselle, Meuse, Moselle, Vosges.\n\nSes principales villes sont Strasbourg (préfecture), Reims, Metz, Nancy, Mulhouse et Troyes.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 5,6 millions d’habitants. La population se concentre surtout autour des grandes villes et diminue dans certaines zones rurales ou industrielles.\n\nSecteurs économiques clés\n\nIndustrie (automobile, chimie, métallurgie), vignes (vins de Champagne et d'Alsace), agriculture, logistique, tourisme patrimonial et de mémoire (Première et Seconde guerres mondiales).\n\nSituation du marché du travail\n\nLe taux de chômage est proche de la moyenne nationale, mais varie selon les territoires. Il est plus élevé dans les zones industrielles en reconversion et plus bas autour de Strasbourg.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région du Grand Est | Insee\n\n(Ouvre une nouvelle fenêtre) Taux de chômage localisés trimestres 2025 | DREETS",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région du Grand Est | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-44"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Taux de chômage localisés trimestres 2025 | DREETS",
+      "url": "https://grand-est.dreets.gouv.fr/Taux-de-chomage-localises-Trimestres-2025"
+    }
+  ]
+}

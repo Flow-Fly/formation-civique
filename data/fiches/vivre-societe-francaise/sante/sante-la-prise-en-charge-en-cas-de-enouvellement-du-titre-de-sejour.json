@@ -1,0 +1,39 @@
+{
+  "id": "vivre-societe-francaise--sante--sante-la-prise-en-charge-en-cas-de-enouvellement-du-titre-de-sejour",
+  "title": "Santé : la prise en charge en cas de renouvellement du titre de séjour",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-en-cas-de-enouvellement-du-titre-de-sejour/",
+  "objectives": [
+    "Comprendre comment être pris en charge en cas de renouvellement du titre de séjour."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Comprendre comment être pris en charge en cas de renouvellement du titre de séjour.",
+      "type": "text"
+    },
+    {
+      "heading": "Mon titre de séjour n’est plus valide, quelle prise en charge des frais de santé ?",
+      "content": "Les modalités de prise en charge en cas de renouvellement du titre de séjour diffèrent en fonction des aides :\n\nPour la protection universelle maladie (PUMa) :\n\nLes dépenses de santé restent prises en charge pendant 6 mois à partir de la date de fin de validité du titre de séjour.\n\n45 jours supplémentaires sont accordés à compter de la réception du courrier de notification de fermeture des droits envoyé par la caisse d’assurance maladie.\n\nPour la Complémentaire Santé Solidaire (C2S) :\n\nLa Complémentaire Santé Solidaire peut être maintenue sur demande pendant 6 mois à partir de la fin de la validité du titre de séjour (même période que le maintien de la PUMa).\n\nElle ne peut pas être prolongée de 45 jours comme la PUMa.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Vous êtes étranger en situation irrégulière | Complémentaire santé solidaire\n\n(Ouvre une nouvelle fenêtre) Faire une demande sur internet pour un titre de séjour, un changement de situation, un titre de voyage, une demande de naturalisation ANEF | Service Public",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Vous êtes étranger en situation irrégulière | Complémentaire santé solidaire",
+      "url": "https://www.complementaire-sante-solidaire.gouv.fr/ma-situation/vous-etes-etranger-en-situation-irreguliere"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Faire une demande sur internet pour un titre de séjour, un changement de situation, un titre de voyage, une demande de naturalisation ANEF | Service Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59398"
+    }
+  ]
+}

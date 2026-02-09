@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--sante--sante-la-prise-en-charge-durant-la-maternite",
+  "title": "Santé : la prise en charge durant la maternité",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-durant-la-maternite/",
+  "objectives": [
+    "Comprendre comment être pris en charge en cas de maternité."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Comprendre comment être pris en charge en cas de maternité.",
+      "type": "text"
+    },
+    {
+      "heading": "En période de maternité, quelle prise en charge de l’Assurance maladie ?",
+      "content": "Dès le début de la grossesse et jusqu’à 12 jours après l’accouchement, l’Assurance Maladie prend en charge une grande partie des frais médicaux liés à la maternité.\n\nPour être prise en charge dans cette période de maternité, pensez à déclarer votre grossesse dans les 3 premiers mois en consultant un médecin généraliste (médecin traitant idéalement) ou votre sage-femme.",
+      "type": "text"
+    },
+    {
+      "heading": "La prise en charge pendant la période de maternité",
+      "content": "Lors des 5 premiers mois de grossesse\n\nL'Assurance maladie prend en charge à 100% avec dispense d'avance de frais (tiers payant) les examens médicaux obligatoires dans le cadre du suivi de la grossesse.\n- Les 2 premières échographies réalisées avant la fin du 5e mois de grossesse sont prises en charge à 70%.\n- À compter du 4ème mois de grossesse, il est possible de bénéficier d'un examen de prévention bucco-dentaire pris en charge à 100% par l'Assurance maladie.\n\nDu 6e mois de grossesse à l’accouchement\n\nTous les frais médicaux remboursables sont pris en charge à 100%. Il n’y a pas d’avance de frais à faire (tiers payant). Cette prise en charge s'applique à tous les frais médicaux, qu’ils soient ou non en rapport avec la grossesse.\n- La 3e échographie bénéficie de la prise en charge à 100%.\n\nLes frais d'accouchement et les frais de séjour, dans la limite de 12 jours sont pris en charge à 100% dans un hôpital ou une clinique conventionnée.\n\nPendant les 12 jours après l’accouchement\n\nTous les frais médicaux remboursables sont pris en charge à 100%. Il n’y a pas d’avance de frais à faire (tiers payant). Cette prise en charge s’applique à tous les frais médicaux, qu’ils soient ou non en rapport avec la grossesse.\n- Il est possible d’être suivi par une sage-femme (également pris en charge à 100% dans cette période).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Femme enceinte : prise en charge à 100 % (Assurance maladie) | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Grossesse : démarches et accompagnement | ameli.fr | Assuré",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Femme enceinte : prise en charge à 100 % (Assurance maladie) | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F164"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Grossesse : démarches et accompagnement | ameli.fr | Assuré",
+      "url": "https://www.ameli.fr/assure/droits-demarches/famille/maternite-paternite-adoption/grossesse"
+    }
+  ]
+}

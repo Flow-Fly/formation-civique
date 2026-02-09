@@ -1,0 +1,39 @@
+{
+  "id": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+  "title": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (2/2)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "etat-de-droit-et-separation-des-pouvoirs",
+  "subcategoryName": "État de droit et séparation des pouvoirs",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2/",
+  "objectives": [
+    "Connaître et comprendre les caractéristiques de notre démocratie.Identifier les trois pouvoirs."
+  ],
+  "sections": [
+    {
+      "heading": "Quelle justice pour quel conflit ?",
+      "content": "La justice protège, décide et sanctionne impartialement. Selon les parties qui s’opposent, le pouvoir judiciaire s’exerce différemment, réparti entre deux ordres : la justice judiciaire et la justice administrative.\n\nLa justice judiciaire comprend :\n\nla justice civile, qui s’occupe des litiges entre citoyens (exemple : un conflit entre locataire et propriétaire) ;\n- la justice pénale, qui punit les infractions des citoyens à la loi (exemple : un vol, un excès de vitesse en voiture).\n- la justice administrative juge les litiges entre les citoyens (individus) et l’État (administrations et collectivités publiques) (exemple : une fausse déclaration à la CAF).",
+      "type": "text"
+    },
+    {
+      "heading": "Comment sont organisées ces institutions judiciaires ?",
+      "content": "Les tribunaux de chaque ordre sont organisés en pyramide :\n\nune juridiction de première instance (premier procès) ;\n- une juridiction d'appel (quand un deuxième procès est demandé, il va en cours d’appel) ;\n- une juridiction de cassation : la Cour de cassation (justice judiciaire) ou le Conseil d’État (justice administrative). C’est le dernier niveau de juridiction en France.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Infographie sur l'organisation des juridictions : l'ordre judiciaire | vie-publique.fr\n\n(Ouvre une nouvelle fenêtre) Infographie sur l'organisation des juridictions : l'ordre administratif | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Infographie sur l'organisation des juridictions : l'ordre judiciaire | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/infographie/281042-infographie-organisation-des-juridictions-lordre-judiciaire"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Infographie sur l'organisation des juridictions : l'ordre administratif | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/infographie/281044-infographie-organisation-des-juridictions-lordre-administratif"
+    }
+  ]
+}

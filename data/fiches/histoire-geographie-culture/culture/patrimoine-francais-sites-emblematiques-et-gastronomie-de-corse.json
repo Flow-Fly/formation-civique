@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Corse",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Corse."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Corse.",
+      "type": "text"
+    },
+    {
+      "heading": "La citadelle de Bonifacio, la forteresse historique perchée sur la falaise",
+      "content": "La citadelle de Bonifacio a été construite au sommet de falaises surplombant la mer Méditerranée au sud de la Corse.\n\nAu Moyen Âge, cette forteresse protégeait la ville des attaques maritimes.\n\nAujourd’hui, les touristes viennent nombreux découvrir la citadelle corse et sa vue sur la mer.",
+      "type": "text"
+    },
+    {
+      "heading": "Le brocciu, fromage frais typique de Corse",
+      "content": "Le brocciu est un fromage frais traditionnel fabriqué en Corse à partir du lait de brebis ou de chèvre.\n\nOn peut le manger nature, avec du miel ou de la confiture à la fin du repas. On peut également le cuisiner dans de nombreuses recettes corses : omelettes, raviolis, gratins…\n\nIl est très apprécié pour sa texture douce, légère et son goût légèrement acidulé, frais et parfumé.\n\nProduit des troupeaux des bergers corses, le brocciu est un symbole du savoir-faire et des traditions de l’île.\n\nSources photos du monument et du plat : images générées par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La citadelle de Bonifacio | Office de Tourisme de Bonifacio\n\n(Ouvre une nouvelle fenêtre) Le brocciu, le fromage AOP corse | Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La citadelle de Bonifacio | Office de Tourisme de Bonifacio",
+      "url": "https://bonifacio.fr/decouvrir/bonifacio-ville-dart-et-dhistoire/la-citadelle-medievale-de-bonifacio/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le brocciu, le fromage AOP corse | Ministère de l'Agriculture et de la Souveraineté alimentaire",
+      "url": "https://agriculture.gouv.fr/le-brocciu-le-fromage-aop-corse"
+    }
+  ]
+}

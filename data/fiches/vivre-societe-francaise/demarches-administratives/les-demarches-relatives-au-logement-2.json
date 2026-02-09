@@ -1,0 +1,43 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-2",
+  "title": "Les démarches relatives au logement (2/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-logement-2/",
+  "objectives": [
+    "Savoir identifier les différents acteurs de la recherche de logement.Connaître et comprendre les droits et obligations d’un propriétaire.Connaître et comprendre les obligations d’un locataire."
+  ],
+  "sections": [
+    {
+      "heading": "Quels sont les droits et devoirs du bailleur (propriétaire) ?",
+      "content": "Le propriétaire a pour droits de :\n\nrecevoir le loyer et les charges convenus ;\n- interrompre le bail ou empêcher son renouvellement, sous certaines conditions.\n\nLe propriétaire a pour obligations de :\n\nlouer un logement \"décent\", qui respecte la sécurité et la santé du locataire ;\n- donner au locataire les documents obligatoires lors de la signature du contrat de location et en cours de bail : contrat de bail, état des lieux, diagnostics techniques...\n- assurer les réparations majeures et l'entretien du logement.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits et devoirs du locataire ?",
+      "content": "Le locataire a pour droits de :\n\nprofiter paisiblement du logement ;\n- demander au propriétaire la réalisation des réparations nécessaires ;\n- quitter le logement en respectant le délai de préavis (de 3 mois en général, ou d’1 mois sous conditions).\n\nLe locataire a pour obligations de :\n\npayer le loyer et les charges aux dates prévues ;\n- souscrire une assurance habitation couvrant les risques locatifs (incendie, dégât des eaux...) ;\n- assurer l'entretien courant du logement et effectuer les réparations locatives (petites réparations qui sont à la charge du locataire pendant toute la durée du bail) ;\n- utiliser paisiblement les lieux et respecter le \"règlement de copropriété\".\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Location immobilière : obligations du propriétaire (bailleur) | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Location immobilière : fin du bail | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Location immobilière : obligations du locataire | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Location immobilière : obligations du propriétaire (bailleur) | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/N31059"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Location immobilière : fin du bail | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/N339"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Location immobilière : obligations du locataire | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/N19424"
+    }
+  ]
+}

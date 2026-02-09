@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--corse",
+  "title": "Corse",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/corse/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Corse."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Corse.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de la Corse ?",
+      "content": "La région de la Corse est une île située dans la mer Méditerranée, au sud-est de la France continentale.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de la Corse ?",
+      "content": "La Corse compte 2 départements : Corse-du-Sud et Haute-Corse.\n\nSes principales villes sont Ajaccio (préfecture), Bastia, Corte, Porto-Vecchio et Calvi.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 360 000 habitants. La densité de la population est faible. La population corse vieillit, mais elle augmente dernièrement grâce à l’attractivité de la région.\n\nSecteurs économiques clés\n\nTourisme, agriculture (élevage, vignes, huile d’olive), artisanat, construction, services.\n\nSituation du marché du travail\n\nLe taux de chômage est supérieur à la moyenne nationale, surtout en dehors de la saison touristique. L’économie est fortement liée aux saisons du tourisme.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région de Corse | Insee\n\n(Ouvre une nouvelle fenêtre) Taux de chômage localisé par région - Corse | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région de Corse | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-94"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Taux de chômage localisé par région - Corse | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/serie/001784470"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+  "title": "Patrimoine français : des artistes emblématiques devenus français",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-devenus-francais/",
+  "objectives": [
+    "Connaître des artistes, et en particulier des artistes qui ont obtenu la nationalité française."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître des artistes, et en particulier des artistes qui ont obtenu la nationalité française.",
+      "type": "text"
+    },
+    {
+      "heading": "Marc Chagall, célèbre peintre installé en France (1887-1985)",
+      "content": "Qui était-il ?\n\nD'origine russe, Chagall s'installe à Paris en 1923 et travaille pour un marchand d'art. Il est d'abord reconnu réfugié avant d'obtenir la nationalité française en 1937. Durant la Seconde Guerre mondiale, il quitte la France et s'installe à New-York. Le régime de Vichy lui retire sa nationalité française. En 1948, Marc Chagall rentre à Paris et se voit restituer sa nationalité française. En 1962, il peint réalise une fresque pour décorer le plafond de l'Opéra Garnier. Ses œuvres sont considérées comme originales et très colorées : elles mélangent les traditions juives et russes.\n\nLes plus célèbres œuvres de Marc Chagall\n\n(Ouvre une nouvelle fenêtre) La Vie\n- (Ouvre une nouvelle fenêtre) Plafond de l'Opéra Garnier\n- (Ouvre une nouvelle fenêtre) La Guerre",
+      "type": "text"
+    },
+    {
+      "heading": "Joséphine Baker, artiste et militante franco-américaine (1906-1975)",
+      "content": "Qui était-elle ?\n\nNée dans une famille pauvre du Missouri (Etats-Unis), Freda Josephine McDonal, alias Joséphine Baker s'installe à Paris en 1925. Elle devient la vedette du spectacle \"La Revue Nègre\". Elle se lance ensuite dans la chanson et le cinéma. En 1937, elle obtient la nationalité française. Durant la Seconde guerre mondiale, elle rejoint la Résistance comme agent des services secrets de la France libre. Elle dissimule des informations secrètes dans des partitions musicales. Elle lutte également contre le racisme et dénonce la ségrégation aux Etats-Unis. Joséphine Baker est entrée au Panthéon le 30 novembre 2021.\n\nLes plus célèbres œuvres de Joséphine Baker\n\n(Ouvre une nouvelle fenêtre) \"J'ai deux amours\"\n- (Ouvre une nouvelle fenêtre) Banana Dance\n- La Sirène des Tropiques\n\nSources photos :\n\nPortrait de Marc Chagall Carl Van Vechten - 1941\n- Portrait de Joséphine Baker (détail) Studio Harcourt © Studio Harcourt / Wikimédia Commons - 1940",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Marc Chagall | Centre Pompidou\n\n(Ouvre une nouvelle fenêtre) Joséphine Baker, un destin français | Ministère de la Culture",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Marc Chagall | Centre Pompidou",
+      "url": "https://www.centrepompidou.fr/fr/ressources/personne/c7pG96e"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Joséphine Baker, un destin français | Ministère de la Culture",
+      "url": "https://www.culture.gouv.fr/actualites/Josephine-Baker-un-destin-francais"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+  "title": "Les présidents de la Vème République",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "la-veme-republique",
+  "subcategoryName": "La Vème République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/les-presidents-de-la-cinquieme-republique/",
+  "objectives": [
+    "Identifier les présidents de la Vème République."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les présidents de la Vème République.",
+      "type": "text"
+    },
+    {
+      "heading": "Charles de Gaulle",
+      "content": "Dates des mandats : 1958-1966 et 1966-1969\n\nFaits marquants du mandat :\n\nFondation de la Vème République.\n- Élection du président au suffrage universel.\n- A mis fin à la guerre d’Algérie en 1962.",
+      "type": "text"
+    },
+    {
+      "heading": "Georges Pompidou",
+      "content": "Dates du mandat : 1969-1974\n\nFaits marquants du mandat :\n\nModernisation de la France, en favorisant l’industrialisation et le développement des infrastructures.\n- Renforcement de la construction européenne, en soutenant l’élargissement de la Communauté économique européenne (CEE).",
+      "type": "text"
+    },
+    {
+      "heading": "Valéry Giscard d’Estaing",
+      "content": "Dates du mandat : 1974-1981\n\nFaits marquants du mandat :\n\nAbaissement de la majorité à 18 ans.\n- Dépénalisation de l’avortement.\n- Instauration du divorce par consentement mutuel.",
+      "type": "text"
+    },
+    {
+      "heading": "François Mitterrand",
+      "content": "Dates des mandats : 1981-1988 et 1988-1995\n\nFaits marquants du mandat :\n\nMise en place d’un ensemble de mesures sociales.\n- Abolition de la peine de mort.\n- Construction de “grands projets” : l’Arche de la Défense, le Grand Louvre, la Bibliothèque nationale qui porte son nom.",
+      "type": "text"
+    },
+    {
+      "heading": "Jacques Chirac",
+      "content": "Dates des mandats : 1995-2002 et 2002-2007\n\nFaits marquants du mandat :\n\nPassage au quinquennat présidentiel (mandat de 5 ans, contre 7 ans auparavant).\n- Refus de l’engagement de la France dans la guerre en Irak.",
+      "type": "text"
+    },
+    {
+      "heading": "Nicolas Sarkozy",
+      "content": "Dates du mandat : 2007-2012\n\nFaits marquants du mandat :\n\nRéforme de la retraite en augmentant l’âge légal de départ à la retraite.\n- Gestion de la crise financière de 2008.",
+      "type": "text"
+    },
+    {
+      "heading": "François Hollande",
+      "content": "Dates du mandat : 2012-2017\n\nFaits marquants du mandat :\n\nLégalisation du mariage pour tous.\n- Renforcement de la lutte contre le terrorisme.",
+      "type": "text"
+    },
+    {
+      "heading": "Emmanuel Macron",
+      "content": "Date des mandats : 2017-2022 et depuis 2022\n\nFaits marquants du mandat :\n\nGestion de la crise des \"gilets jaunes\".\n- Gestion de la pandémie de la Covid-19.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les présidents de la République | Élysée",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les présidents de la République | Élysée",
+      "url": "https://www.elysee.fr/la-presidence/les-presidents-de-la-republique"
+    }
+  ]
+}

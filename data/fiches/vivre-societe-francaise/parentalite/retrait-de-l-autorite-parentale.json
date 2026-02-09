@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--parentalite--retrait-de-l-autorite-parentale",
+  "title": "Retrait de l’autorité parentale",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/retrait-de-l-autorite-parentale/",
+  "objectives": [
+    "Savoir qui décide du retrait de l’autorité parentale.Connaître dans quelles situations on peut retirer l’autorité parentale.Connaître les conséquences du retrait de l’autorité parentale."
+  ],
+  "sections": [
+    {
+      "heading": "Qui décide du retrait de l’autorité parentale ?",
+      "content": "Un parent ne peut pas renoncer à son autorité parentale. Mais l’autorité parentale peut être retirée à un parent, ou aux deux parents, en cas de mise en danger de l’enfant ou désintérêt pour l’enfant.\n\nLe retrait de l’autorité parentale est une décision prise par un tribunal.",
+      "type": "text"
+    },
+    {
+      "heading": "Dans quelles situations ?",
+      "content": "Exemples de situations qui peuvent entraîner un retrait de l’autorité parentale :\n\nmise en danger de l’enfant : violence physique ou psychologique ;\n- désintérêt pour l’enfant : abstention volontaire d'exercer les droits et devoirs parentaux pendant plus de deux ans, malgré une procédure d’assistance éducative (assistance décidée par un tribunal) ;\n- condamnation pour un crime ou un délit : un parent a réalisé un crime ou un délit sur son enfant ou l'autre parent, un parent a participé à un crime ou un délit réalisé par son enfant.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les conséquences ?",
+      "content": "Le retrait total de l’autorité parentale\n\nLe parent perd tous ses droits et devoirs sur son enfant.\n\nIl n'a plus le droit de prendre de décisions concernant son enfant.\n\nIl n’a plus aucun droit sur les biens de son enfant.\n\nLe parent conserve l'obligation de contribuer à l'entretien et l'éducation de son enfant.\n\nLe parent reste le père ou la mère de l’enfant.\n\nLe retrait partiel de l’autorité parentale\n\nL’autorité parentale est retirée sur certains droits et/ou devoirs.\n\nExemple : le parent peut conserver ses droits sur les biens de l’enfant, ses droits et devoirs de surveillance et d'éducation.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Retrait de l'autorité parentale | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Retrait de l'autorité parentale - Danger ou désintérêt envers l'enfant | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Retrait de l'autorité parentale | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F3135"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Retrait de l'autorité parentale - Danger ou désintérêt envers l'enfant | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F36522/0?idFicheParent=F3135"
+    }
+  ]
+}

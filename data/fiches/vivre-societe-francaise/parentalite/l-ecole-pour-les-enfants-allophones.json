@@ -1,0 +1,39 @@
+{
+  "id": "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+  "title": "L'école pour les enfants allophones",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/l-ecole-pour-les-enfants-allophones/",
+  "objectives": [
+    "Comprendre que l’école accueille les enfants dont la langue maternelle n’est pas le français.Savoir que ces enfants peuvent suivre des cours adaptés à leur niveau de français."
+  ],
+  "sections": [
+    {
+      "heading": "L’école accueille tous les enfants",
+      "content": "En France, tous les enfants de 3 à 16 ans doivent aller à l’école. Cette obligation concerne donc aussi les enfants non francophones (c’est-à-dire ceux dont la langue maternelle n’est pas le français).\n\nPlus d’un tiers des enfants qui vont à l’école parlent une autre langue que le français à la maison.",
+      "type": "text"
+    },
+    {
+      "heading": "Des cours adaptés pour apprendre le français",
+      "content": "Au moment de l’entrée dans l’école, l’enfant qui ne parle pas bien (ou pas du tout) le français passe un test de positionnement pour déterminer son niveau en français et l'orienter vers l'un des dispositifs suivants :\n\nUnités Pédagogiques pour Élèves étrangers Allophones Arrivants - UPE2A : déployées pour les élèves allophones nouvellement arrivés ;\n- Unités Pédagogiques pour Élèves Allophones Arrivants, Non Scolarisés Antérieurement - UPE2A-NSA : destinées aux élèves allophones non scolarisés avant leur arrivée, ces unités leur offrent la possibilité de prolonger d’une année supplémentaire le dispositif UPE2A.\n\nSelon son niveau, il peut suivre des cours adaptés. Entouré d’enfants et d’adultes qui parlent le français, il apprend vite la langue française dans le cadre de l’école.\n\nUne fois qu’il maîtrise le français, il peut suivre les mêmes cours que les autres enfants.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Organisation de la scolarité des élèves allophones nouvellement arrivés | Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche\n\n(Ouvre une nouvelle fenêtre) Les élèves allophones dans l’angle mort de l’Éducation nationale - UNICEF",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Organisation de la scolarité des élèves allophones nouvellement arrivés | Ministère de l'Education Nationale, de l'Enseignement supérieur et de la Recherche",
+      "url": "https://www.education.gouv.fr/bo/12/Hebdo37/MENE1234231C.htm"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les élèves allophones dans l’angle mort de l’Éducation nationale - UNICEF",
+      "url": "https://www.unicef.fr/article/les-eleves-allophones-dans-langle-mort-de-leducation-nationale/"
+    }
+  ]
+}

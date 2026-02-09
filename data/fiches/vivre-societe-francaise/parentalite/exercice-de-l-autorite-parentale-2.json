@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+  "title": "Exercice de l’autorité parentale (2/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-2/",
+  "objectives": [
+    "Comprendre que la loi est prioritaire sur les valeurs privées.Savoir que l’autorité parentale concerne aussi les biens de l’enfant.Identifier les situations qui mettent fin à l’autorité parentale."
+  ],
+  "sections": [
+    {
+      "heading": "La loi française prime sur les valeurs culturelles et familiales",
+      "content": "La loi française est prioritaire sur les valeurs culturelles et familiales. Cela signifie que si des valeurs culturelles et familiales contredisent la loi française, elles ne peuvent pas être transmises ou appliquées.\n\nExemple : le principe d’égalité entre les filles et les garçons doit être respecté, même dans la sphère privée.",
+      "type": "text"
+    },
+    {
+      "heading": "Les devoirs sur les biens de l’enfant",
+      "content": "Les parents ont le droit et le devoir de gérer les biens de leur enfant, par exemple un appartement issu d’un héritage.\n\nIls ont également la jouissance légale des biens de l'enfant jusqu'à ses 16 ans. Cela signifie, par exemple, qu’ils peuvent s’approprier les revenus liés à la location d’un appartement dont leur enfant est propriétaire.",
+      "type": "text"
+    },
+    {
+      "heading": "Quand se termine l’autorité parentale ?",
+      "content": "L'autorité parentale se termine :\n\nquand l'enfant a 18 ans ;\n- si l’enfant est émancipé, c’est-à-dire qu’il devient adulte avant 18 ans (par exemple en cas de conflit avec ses parents) ;\n- en cas de retrait de l’autorité parentale.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Exercice de l'autorité parentale | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Exercice de l'autorité parentale | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F3132"
+    }
+  ]
+}

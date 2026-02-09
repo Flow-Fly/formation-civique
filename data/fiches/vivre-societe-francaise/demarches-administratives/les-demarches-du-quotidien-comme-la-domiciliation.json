@@ -1,0 +1,45 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-la-domiciliation",
+  "title": "Les démarches du quotidien comme la domiciliation",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-la-domiciliation/",
+  "objectives": [
+    "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : la domiciliation."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : la domiciliation.",
+      "type": "text"
+    },
+    {
+      "heading": "La domiciliation, c’est quoi ?",
+      "content": "La domiciliation est une adresse administrative attribuée aux personnes qui ne peuvent pas recevoir leur courrier de façon constante et confidentielle à une adresse stable. Les personnes sans domicile fixe, en habitat mobile ou précaire sont concernées.",
+      "type": "text"
+    },
+    {
+      "heading": "La domiciliation, à quoi ça sert ?",
+      "content": "Il est indispensable d'avoir une adresse pour recevoir son courrier. La domiciliation est une adresse administrative qui permet de bénéficier de droits civils, civiques et sociaux (sous conditions) et d’un accès :\n\nà des démarches professionnelles (insertion sociale) ;\n- à des démarches fiscales (exemple : impôts) ;\n- aux démarches préfectorales (exemple : demande et renouvellement de titre de séjour) ;\n- à des services essentiels (compte bancaire, souscription assurances obligatoires) ;\n- à la scolarisation.",
+      "type": "text"
+    },
+    {
+      "heading": "Que dois-je faire si je change d’adresse ?",
+      "content": "Quand vous changez de logement, le changement d’adresse doit être fait le plus rapidement possible (3 mois maximum après le déménagement) :\n\nfaire un changement d’adresse sur \n                (Ouvre une nouvelle fenêtre) service-public.fr qui informe les services publics du changement : la CAF, les impôts, la Sécurité sociale…\n- informer les services tels que : banque, assurance, employeur, opérateur téléphonique…\n- mettre à jour ses papiers (exemples : carte grise, liste électorale).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Changement d'adresse en ligne | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Changement d'adresse en ligne | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/R11193"
+    }
+  ]
+}

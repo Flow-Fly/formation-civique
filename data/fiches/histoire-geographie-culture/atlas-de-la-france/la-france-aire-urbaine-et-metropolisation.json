@@ -1,0 +1,45 @@
+{
+  "id": "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+  "title": "La France : aire urbaine et métropolisation",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "atlas-de-la-france",
+  "subcategoryName": "Atlas de la France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/",
+  "objectives": [
+    "Savoir établir un lien entre géographie et économie : aire urbaine et métropolisation."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Savoir établir un lien entre géographie et économie : aire urbaine et métropolisation.",
+      "type": "text"
+    },
+    {
+      "heading": "Qu’est-ce qu’une aire urbaine ?",
+      "content": "La majorité de la population française vit en ville et plus précisément dans ce qu’on appelle des aires urbaines. Une aire urbaine est un espace géographique formé de 3 parties :\n\nla ville-centre, qui regroupe le cœur des activités économiques, administratives et culturelles ;\n- la banlieue, qui entoure la ville-centre ;\n- et la couronne périurbaine, composée de communes plus rurales, où les habitants se déplacent chaque jour pour aller travailler dans la ville.\n\nEn France, environ 9 personnes sur 10 vivent dans une aire urbaine.",
+      "type": "text"
+    },
+    {
+      "heading": "Qu’est-ce que la métropolisation ?",
+      "content": "Une métropole est une grande ville, à la tête d’une vaste aire urbaine. Les métropoles jouent un rôle important dans l’organisation du territoire, car elles regroupent des fonctions de commandement :\n\néconomiques (sièges sociaux, zones d’activités) ;\n- politiques (préfectures, institutions) ;\n- culturelles (universités, musées) ;\n- logistiques (aéroports, gares, grands axes de transport).\n\nEn France, la population, les principales activités économiques, les emplois, les richesses et les services sont donc concentrés dans les métropoles. On nomme ce phénomène la métropolisation.\n\nLa métropolisation entraîne de nombreux changements, car les grandes villes grossissent et s’étendent de plus en plus loin vers les campagnes. Cela modifie les paysages et crée des enjeux en matière de mobilité et de développement durable.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les grandes métropoles françaises ?",
+      "content": "Les 10 plus grandes métropoles françaises sont les suivantes :\n\nMétropole du Grand Paris (130 communes et 7 millions d'habitants) ;\n- Métropole d’Aix-Marseille-Provence (92 communes et 2 millions d'habitants) ;\n- Métropole du Grand Lyon (58 communes et 1,4 millions d'habitants) ;\n- Métropole européenne de Lille (95 communes et 1,2 millions d'habitants) ;\n- Bordeaux Métropole (28 communes et 855 000 habitants) ;\n- Toulouse Métropole (37 communes et 842 000 habitants) ;\n- Nantes Métropole (24 communes et 695 300 habitants) ;\n- Métropole Nice Côte d’Azur (51 communes et 575 000 habitants) ;\n- Montpellier Méditerranée Métropole (31 communes et 523 100 habitants) ;\n- Eurométropole de Strasbourg (33 communes et 522 600 habitants).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) En France, neuf personnes sur dix vivent dans l’aire d’attraction d’une ville | Insee Focus",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) En France, neuf personnes sur dix vivent dans l’aire d’attraction d’une ville | Insee Focus",
+      "url": "https://www.insee.fr/fr/statistiques/4806694"
+    }
+  ]
+}

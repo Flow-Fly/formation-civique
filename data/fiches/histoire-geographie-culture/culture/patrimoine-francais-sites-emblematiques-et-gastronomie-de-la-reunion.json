@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-la-reunion",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de La Réunion",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-la-reunion/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de La Réunion."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de La Réunion.",
+      "type": "text"
+    },
+    {
+      "heading": "Le Piton de la Fournaise, un volcan actif spectaculaire",
+      "content": "Le Piton de la Fournaise est l’un des volcans les plus actifs au monde.\n\nIl se situe dans le sud-est de l’île de La Réunion et culmine à plus de 2 600 mètres d’altitude.\n\nFacilement accessible, il attire de nombreux visiteurs et randonneurs fascinés par ses paysages lunaires, ses cratères et ses coulées de lave.\n\nSpectaculaire lors de ses éruptions (souvent sans danger pour la population), il est un symbole fort de l’île.\n\nLe Piton de la Fournaise est inscrit au patrimoine mondial de l’UNESCO dans le cadre du parc national de La Réunion.",
+      "type": "text"
+    },
+    {
+      "heading": "Le cari de poisson, un plat typique de l’île",
+      "content": "Le cari de poisson est une recette populaire à La Réunion.\n\nCe plat simple est préparé avec du poisson frais qui mijote avec des tomates, des oignons, de l’ail, du curcuma et d’autres épices locales.\n\nLe cari de poisson est servi avec du riz, des lentilles ou des grains.\n\nOn peut en manger au restaurant ou lors des repas de fête.\n\nIl représente parfaitement la richesse culinaire de l’île, issue d’un mélange de cultures.\n\nSource photos du lieu et du plat : images générées par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Piton de la Fournaise à La Réunion | Île de la Réunion Tourisme\n\n(Ouvre une nouvelle fenêtre) Recette du cari poisson rouge | Île de la Réunion Tourisme",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Piton de la Fournaise à La Réunion | Île de la Réunion Tourisme",
+      "url": "https://www.reunion.fr/decouvrez/piton-de-la-fournaise-le-feu-sacre/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Recette du cari poisson rouge | Île de la Réunion Tourisme",
+      "url": "https://www.reunion.fr/decouvrez/gastronomie/recettes-creoles-reunionnaises/recette-du-carry-poisson-rouge/"
+    }
+  ]
+}

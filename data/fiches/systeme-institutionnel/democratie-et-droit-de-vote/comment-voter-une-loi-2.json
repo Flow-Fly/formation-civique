@@ -1,0 +1,50 @@
+{
+  "id": "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-2",
+  "title": "Comment voter une loi (2/2)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "democratie-et-droit-de-vote",
+  "subcategoryName": "Démocratie et droit de vote",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/comment-voter-une-loi-2/",
+  "objectives": [
+    "Connaître et comprendre comment est votée une loi."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître et comprendre comment est votée une loi.",
+      "type": "text"
+    },
+    {
+      "heading": "La navette parlementaire, c’est quoi ?",
+      "content": "Quand le texte de loi a été validé par une des chambres parlementaires (l’Assemblée nationale ou le Sénat), le texte de loi est envoyé à l’autre chambre.\n\nExemple : l’Assemblée nationale a amendé (modifié) le texte de loi et l’a validé. Le texte de loi est transmis au Sénat.\n\nSi les deux assemblées valident le même texte de loi (sans modification), alors le texte de loi est définitivement adopté.\n- Si des amendements sont ajoutés (modifications) par la deuxième chambre parlementaire, alors le texte de loi est de nouveau transmis à la première assemblée : on parle de navette parlementaire.",
+      "type": "text"
+    },
+    {
+      "heading": "Et si les députés et les sénateurs ne sont pas d’accord ?",
+      "content": "Une commission paritaire mixte, composée de 7 députés et 7 sénateurs, est appelée pour se mettre d’accord sur un texte de loi.\n\nS’ils n’arrivent pas à se mettre d’accord : l’Assemblée nationale décide (les députés peuvent choisir quels amendements/modifications faire, ou ne pas faire, à la loi).",
+      "type": "text"
+    },
+    {
+      "heading": "Que se passe-t-il après, quand la loi est adoptée par les deux chambres ?",
+      "content": "La loi est validée et signée par le président de la République dans un délai de 15 jours.\n\nPendant ce délai :\n\nle président peut demander un nouvel examen ;\n- le Conseil constitutionnel peut être saisi pour vérifier la conformité à la Constitution.\n\nUne fois promulguée, la loi est publiée au Journal officiel et entre en vigueur.",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "Affiche gouvernementale retraçant le parcours d’une loi.\n\nLe parcours d'une loi.\n\nInitiative de la loi\n\nSous le contrôle du Premier ministre, un ministère prépare un texte, examiné par le Conseil d’État, puis adopté en Conseil des ministres. Le gouvernement dépose ensuite ce projet de loi à l'Assemblée nationale ou au Sénat.\n- Un ou plusieurs députés (ou sénateurs) déposent une proposition de loi à l'Assemblée nationale ou au Sénat.\n\nExamen de la loi\n\nLe texte est examiné en commission, puis discuté, amendé et voté en séance publique, à l’Assemblée nationale et au Sénat.\n\nNavette parlementaire\n\nLe texte revient ensuite à l’Assemblée nationale, puis au Sénat. Il peut toujours être discuté et amendé.\n- En cas de désaccord entre les deux chambres, une commission mixte paritaire, composée de 7 députés et 7 sénateurs, est mise en place pour arriver à un texte de compromis.\n- Si la commission ne parvient pas à trouver un accord, l’Assemblée nationale a le dernier mot.\n\nPromulgation de la loi\n\nLe Conseil constitutionnel peut être saisi par 60 députés ou 60 sénateurs pour vérifier la conformité du texte de loi à la Constitution.\n- La loi est promulguée par le Président de la République, puis publiée au Journal Officiel.\n\nEléction législatives 2017.\n\nMinistère de l'Intérieur.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Quelles sont les étapes du vote d’une loi ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Quelles sont les étapes du vote d’une loi ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/19521-quelles-sont-les-etapes-du-vote-dune-loi"
+    }
+  ]
+}

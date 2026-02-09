@@ -1,0 +1,44 @@
+{
+  "id": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+  "title": "Les conditions pour voter en France (2/2)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "democratie-et-droit-de-vote",
+  "subcategoryName": "Démocratie et droit de vote",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2/",
+  "objectives": [
+    "Connaître et comprendre les élections en France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître et comprendre les élections en France.",
+      "type": "text"
+    },
+    {
+      "heading": "Pourquoi le droit de vote est-il un droit fondamental ?",
+      "content": "En France, le droit de vote est un droit fondamental. Il est inscrit dans la Déclaration des droits de l’homme et du citoyen, de 1789. L’article 3 de la Constitution de la Vème République de 1958 le précise.\n\nEn France, le vote est strictement :\n\npersonnel ;\n- libre ;\n- secret.\n\nPar le vote, le peuple exprime sa volonté, qui se traduit ensuite en lois, qui s’imposent à tous. Tous les votes sont comptabilisés, peu importe le sexe, l’âge, l’origine ou la religion.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les différents types d’élection ?",
+      "content": "Les citoyens français peuvent participer à plusieurs types d’élections au suffrage universel direct en France :\n\nles élections présidentielles pour élire le président de la République (tous les 5 ans) ;\n- les élections législatives pour élire les députés à l’Assemblée nationale (tous les 5 ans sauf si il y a une dissolution) ;\n- les élections municipales pour élire les conseillers municipaux (tous les 6 ans) ;\n- les élections départementales pour élire les conseillers départementaux (tous les 6 ans) ;\n- les élections régionales pour élire les conseillers régionaux (tous les 6 ans) ;\n- les élections européennes pour élire les députés au Parlement européen (tous les 5 ans). Les citoyens de l’Union européenne résidant en France peuvent également voter.\n\nPar contre, les élections sénatoriales, qui permettent d'élire les sénateurs, sont au suffrage universel indirect (tous les 3 ans renouvellement par moitié). Seuls les grands électeurs (maires, conseillers municipaux, députés) votent.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) L'importance du droit de vote | Les élections en France\n\n(Ouvre une nouvelle fenêtre) Les différentes élections / Les élections en France / Archives élections | Ministère de l'Intérieur",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) L'importance du droit de vote | Les élections en France",
+      "url": "https://www.elections.interieur.gouv.fr/comprendre-elections/pourquoi-je-vote/limportance-du-droit-de-vote"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les différentes élections / Les élections en France / Archives élections | Ministère de l'Intérieur",
+      "url": "https://mobile.interieur.gouv.fr/Archives/Archives-elections/Les-elections-en-France/Les-differentes-elections"
+    }
+  ]
+}

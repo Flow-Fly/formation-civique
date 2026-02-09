@@ -1,0 +1,48 @@
+{
+  "id": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+  "title": "L'égalité (3/3)",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-devise-de-la-republique",
+  "subcategoryName": "La devise de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-3/",
+  "objectives": [
+    "Comprendre ce qu’est la discrimination.Identifier les discriminations qui sont interdites par la loi."
+  ],
+  "sections": [
+    {
+      "heading": "La discrimination, qu’est-ce que c’est ?",
+      "content": "On parle de discrimination lorsqu’une personne est moins bien traitée qu’une autre en raison d’un des critères interdits par la loi, par exemple son handicap, sa religion, son orientation sexuelle...\n\nLa discrimination peut exister dans plusieurs domaines : emploi, logement, éducation, accès aux services publics.\n\nElle peut être directe (par exemple, refuser un emploi à une personne en raison de son origine) ou indirecte (par exemple, appliquer une règle qui semble ne pas faire de discrimination, mais qui, dans les faits, désavantage certaines personnes).",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les critères ? Quelles sont les sanctions ?",
+      "content": "La loi française reconnaît plus de 26 critères de discrimination : origine, sexe, apparence physique, âge, handicap, grossesse, orientation sexuelle, opinions politiques, religion…\n\nLes discriminations sont punies par des amendes et diverses sanctions. Des peines de prison sont possibles en cas de récidive.",
+      "type": "text"
+    },
+    {
+      "heading": "Les différentes formes de discriminations",
+      "content": "L’État lutte activement contre plusieurs formes de discrimination :\n\nle racisme : discrimination à cause de l'origine ethnique ou raciale ;\n- l’antisémitisme : perception des Juifs pouvant s’exprimer par de la haine vis-à-vis d’eux ;Exemples : refus d'embauche, insultes.\n- la discrimination à cause de la religion ;\n- le sexisme : comportement particulier, et souvent rabaissant, à cause du sexe de la personne ;Exemples : salaire plus bas, moqueries, refus d’accès à certains métiers.\n- la haine et la discrimination anti-LGBT+ : attitude hostile à l'égard des personnes en raison de leur orientation sexuelle.Exemples : harcèlement, moqueries, refus de soin ou de logement.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Que faire en cas de discrimination | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Qu'est-ce que l'antisémitisme ? | Musée de l'histoire de l'immigration | Palais de la Porte Dorée\n\n(Ouvre une nouvelle fenêtre) Guide pratique de lutte contre les discriminations | DILCRAH.gouv.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Que faire en cas de discrimination | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F19448"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qu'est-ce que l'antisémitisme ? | Musée de l'histoire de l'immigration | Palais de la Porte Dorée",
+      "url": "https://www.histoire-immigration.fr/les-mots/qu-est-ce-que-l-antisemitisme"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Guide pratique de lutte contre les discriminations | DILCRAH.gouv.fr",
+      "url": "https://www.dilcrah.gouv.fr/ressources/guide-pratique-de-lutte-contre-les-discriminations"
+    }
+  ]
+}

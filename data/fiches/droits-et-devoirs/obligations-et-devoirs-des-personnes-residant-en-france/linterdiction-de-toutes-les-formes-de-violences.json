@@ -1,0 +1,39 @@
+{
+  "id": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-de-toutes-les-formes-de-violences",
+  "title": "L'interdiction de toutes les formes de violences",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "obligations-et-devoirs-des-personnes-residant-en-france",
+  "subcategoryName": "Obligations et devoirs des personnes résidant en France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-de-toutes-les-formes-de-violences/",
+  "objectives": [
+    "Comprendre ses droits fondamentaux.Comprendre l'interdiction de toutes les formes de violences."
+  ],
+  "sections": [
+    {
+      "heading": "Les violences, c’est quoi ?",
+      "content": "Les violences sont des actes violents commis contre une autre personne.\n\nLes violences, qu'elles soient au sein du couple, au sein de la famille, au travail, dans la rue sont strictement interdites en France.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les types de violences ?",
+      "content": "La violence psychologique\n\nLa violence psychologique est un comportement ou un ensemble d'actes qui visent à vous rabaisser ou à vous dénigrer.\n\nExemples de violences psychologiques :\n\ninsulter une personne ;\n- tenir des propos dévalorisants ou dénigrants contre une personne, en privé ou en public ;\n- confisquer les documents d'identité d'une personne ;\n- menacer une personne.\n\nLa violence physique\n\nLa violence physique se caractérise par un geste qui a pour but de blesser une personne.\n\nExemples de violences physiques :\n\nune gifle ;\n- un coup (avec une main, un objet) ;\n- être poussé ou tiré par les cheveux.\n\nLa violence économique\n\nLa violence économique est un comportement qui vise à contrôler l’argent de son partenaire pour le contrôler.\n\nExemple de violences économiques :\n\nContrôle total des ressources financières et de leur utilisation.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Violences conjugales | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Les formes de violences | Mon Parcours Handicap",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Violences conjugales | Service-Public.fr",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12544"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les formes de violences | Mon Parcours Handicap",
+      "url": "https://www.monparcourshandicap.gouv.fr/prevention/quels-sont-les-differents-types-de-violences"
+    }
+  ]
+}

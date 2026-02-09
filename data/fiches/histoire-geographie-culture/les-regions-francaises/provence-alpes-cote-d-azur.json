@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+  "title": "Provence-Alpes-Côte d’Azur",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/provence-alpes-cote-d-azur/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Provence-Alpes-Côte d’Azur."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Provence-Alpes-Côte d’Azur.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de la Provence-Alpes-Côte d’Azur ?",
+      "content": "La région de la Provence-Alpes-Côte d’Azur est située dans le sud-est de la France. Elle est bordée par l’Italie et la mer Méditerranée. C’est une région à la fois côtière et montagneuse (Alpes du Sud).",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de la Provence-Alpes-Côte d’Azur ?",
+      "content": "La Provence-Alpes-Côte d’Azur compte 6 départements : Alpes-de-Haute-Provence, Alpes-Maritimes, Bouches-du-Rhône, Hautes-Alpes, Var, Vaucluse.\n\nSes principales villes sont Marseille (préfecture), Nice, Toulon, Avignon, Aix-en-Provence, Gap.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 5,2 millions d’habitants. La région est très urbanisée sur le littoral et plus rurale et montagneuse dans les Alpes. Elle reste attractive, même si sa population vieillit.\n\nSecteurs économiques clés\n\nTourisme, industrie (portuaire, chimie, aéronautique), numérique, agriculture méditerranéenne.\n\nSituation du marché du travail\n\nLe taux de chômage est plus élevé que la moyenne nationale, notamment dans les grandes métropoles. Le littoral est dynamique, tandis que l’arrière-pays est confronté à plus de difficultés.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région de Provence-Alpes-Côte d’Azur | Insee\n\n(Ouvre une nouvelle fenêtre) Taux de chômage par département - Provence‑Alpes‑Côte d’Azur | DREETS",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région de Provence-Alpes-Côte d’Azur | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-93"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Taux de chômage par département - Provence‑Alpes‑Côte d’Azur | DREETS",
+      "url": "https://paca.dreets.gouv.fr/sites/paca.dreets.gouv.fr/IMG/pdf/taux_de_chomage_tdb-9.pdf"
+    }
+  ]
+}

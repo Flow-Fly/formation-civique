@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--occitanie",
+  "title": "Occitanie",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/occitanie/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : l’Occitanie."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : l’Occitanie.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de l’Occitanie ?",
+      "content": "La région de l’Occitanie est située dans le sud de la France. Elle est bordée par la mer Méditerranée à l’est et l’Espagne au sud-ouest. C’est une région vaste, qui comprend à la fois des côtes, des montagnes (les Pyrénées) et des plaines agricoles.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de l’Occitanie ?",
+      "content": "L’Occitanie compte 13 départements : Ariège, Aude, Aveyron, Gard, Gers, Haute-Garonne, Hautes-Pyrénées, Hérault, Lot, Lozère, Pyrénées-Orientales, Tarn, Tarn-et-Garonne.\n\nSes principales villes sont Toulouse (préfecture), Montpellier, Nîmes, Perpignan, Béziers, Albi et Tarbes.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 6, 2 millions d’habitants. La population augmente fortement, notamment autour de Toulouse et Montpellier. C’est une région jeune et attractive.\n\nSecteurs économiques clés\n\nAéronautique et spatial (Airbus à Toulouse), agriculture et vignes, tourisme (mer Méditerranée, montagne, patrimoine), santé, numérique.\n\nSituation du marché du travail\n\nLe taux de chômage est plus élevé que la moyenne nationale. L’économie est dynamique dans les grandes villes, mais plus fragile dans les zones rurales et montagneuses.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région d’Occitanie | Insee\n\n(Ouvre une nouvelle fenêtre) Demande d’emploi en Occitanie - 2e trimestre 2025 | DREETS",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région d’Occitanie | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-76"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Demande d’emploi en Occitanie - 2e trimestre 2025 | DREETS",
+      "url": "https://occitanie.dreets.gouv.fr/Demande-d-emploi-en-Occitanie-2e-trimestre-2025"
+    }
+  ]
+}

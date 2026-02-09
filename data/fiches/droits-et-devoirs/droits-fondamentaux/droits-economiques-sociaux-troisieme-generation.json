@@ -1,0 +1,39 @@
+{
+  "id": "droits-et-devoirs--droits-fondamentaux--droits-economiques-sociaux-troisieme-generation",
+  "title": "Les droits économiques et sociaux et les droits dits de troisième génération",
+  "themeId": "droits-et-devoirs",
+  "themeName": "Droits et devoirs",
+  "subcategoryId": "droits-fondamentaux",
+  "subcategoryName": "Droits fondamentaux",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/droits-economiques-sociaux-troisieme-generation/",
+  "objectives": [
+    "Connaître les droits fondamentaux.Comprendre l’application des droits fondamentaux."
+  ],
+  "sections": [
+    {
+      "heading": "Les droits économiques et sociaux, c’est quoi ?",
+      "content": "Les droits économiques et sociaux visent à garantir à chaque individu des conditions de vie dignes en assurant l'accès à des ressources essentielles telles que l'éducation, la santé, le travail, le logement et la sécurité sociale.\n\nLes droits économiques et sociaux sont notamment :\n\nle droit à l’emploi : \"Chacun a le devoir de travailler et le droit d'obtenir un emploi. Nul ne peut être lésé, dans son travail ou son emploi, en raison de ses origines, de ses opinions ou de ses croyances.\" (article 5 du Préambule de la Constitution de 1946) ;\n- le droit à la protection de la santé : \"Elle garantit à tous, notamment à l'enfant, à la mère et aux vieux travailleurs, la protection de la santé, la sécurité matérielle, le repos et les loisirs.\" (article 11 du Préambule de la Constitution de 1946) ;\n- le droit à la gratuité de l’enseignement public : \"La Nation garantit l'égal accès de l'enfant et de l'adulte à l'instruction, à la formation professionnelle et à la culture. L'organisation de l'enseignement public gratuit et laïque à tous les degrés est un devoir de l'État.\" (article 13 du Préambule de la Constitution de 1946).\n\nÀ la différence des droits liés à la personne qui existent dès la naissance d’un individu, les droits économiques et sociaux ont besoin de l’intervention de l’État pour être assurés et protégés.",
+      "type": "text"
+    },
+    {
+      "heading": "Les droits dits \"de troisième génération\", c’est quoi ?",
+      "content": "Les droits fondamentaux dits de \"troisième génération\" sont avant tout fondés sur la solidarité collective.\n\nCes droits concernent autant un citoyen français qu’un citoyen d’un autre pays. Ils prennent en compte des enjeux internationaux qui concernent toute la planète : la paix, l’environnement, le développement…\n\nCes droits ont pour but de garantir une vie décente aux futures générations.\n\nOn dit que ce sont des “droits pour” :\n\nla paix ;\n- un environnement sain (\"Chacun a le droit de vivre dans un environnement équilibré et respectueux de la santé.\" - article 1 de la Charte de l’environnement de 2004) ;\n- des générations futures : nous devons préserver les droits, les ressources et l’environnement pour les futures générations ;\n- l’assistance humanitaire : en cas de violation des droits de l’Homme, un État peut intervenir dans un autre État pour aider les Hommes qui s’y trouvent (apporter de la nourriture et des soins, ou tenter de limiter un conflit fait partie des actions possibles).\n\nCes droits sont apparus plus récemment et sont progressivement intégrés dans les textes de loi en France. Ils ne peuvent pas encore tous être utilisés devant un tribunal.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Site Mes Droits Sociaux\n\n(Ouvre une nouvelle fenêtre) Libertés et droits fondamentaux : de quoi s'agit-il ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Site Mes Droits Sociaux",
+      "url": "https://www.mesdroitssociaux.gouv.fr/accueil/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Libertés et droits fondamentaux : de quoi s'agit-il ? | vie-publique.fr",
+      "url": "http://vie-publique.fr/fiches/23865-libertes-et-droits-fondamentaux-de-quoi-sagit-il"
+    }
+  ]
+}

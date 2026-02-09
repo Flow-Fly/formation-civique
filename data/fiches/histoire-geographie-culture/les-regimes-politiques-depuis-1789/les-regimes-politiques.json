@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+  "title": "Les régimes politiques",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/les-regimes-politiques/",
+  "objectives": [
+    "Connaître et savoir situer les principales périodes historiques.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Jusqu’en 1789, l’Ancien Régime",
+      "content": "Avant la Révolution française de 1789, le régime politique de France est celui d’une monarchie absolue de droit divin. On appelle cette période l’Ancien Régime. Les principales périodes sont les suivantes :\n\n481-751 : dynastie mérovingienne ;\n- 751-987 : dynastie carolingienne ;\n- 987-1789 : dynastie capétienne.",
+      "type": "text"
+    },
+    {
+      "heading": "De 1789 à 1958, une succession de régimes politiques",
+      "content": "À partir de 1789, la France connaît plusieurs régimes politiques. Les principales périodes sont les suivantes :\n\n1789-1791 : Révolution française et transitions politiques. La Déclaration des droits de l’homme et du citoyen est publiée en 1789 ;\n- 1791-1792 : Monarchie constitutionnelle ;\n- 1792-1799 : Ière République ;\n- 1799-1804 : Consulat ;\n- 1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;\n- 1814-1830 : Restauration de la monarchie ;\n- 1830-1848 : Monarchie de Juillet ;\n- 1848-1851 : IIème République ;\n- 1852-1870 : 2nd Empire ;\n- 1870-1940 : IIIème République. En 1871, insurrection de la Commune de Paris ;\n- 1940-1944 : Régime de Vichy. En parallèle, la France libre puis le Comité français de libération nationale ;\n- 1944-1946 : Gouvernement provisoire de la République française ;\n- 1946-1958 : IVème République. La Sécurité sociale est créée. La Constitution garantit pour la première fois l’égalité entre les femmes et les hommes.",
+      "type": "text"
+    },
+    {
+      "heading": "Depuis 1958, la Vème République",
+      "content": "Depuis 1958, le régime politique de la France est celui de la Vème République.\n\nLa République telle que nous la connaissons aujourd’hui s’est construite progressivement. Elle a hérité des acquis, des luttes et des transformations des différents régimes qui l’ont précédée.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les régimes politiques de la Révolution française à 1958 | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les régimes politiques de la Révolution française à 1958 | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/les-regimes-politiques-de-la-revolution-francaise-1958"
+    }
+  ]
+}

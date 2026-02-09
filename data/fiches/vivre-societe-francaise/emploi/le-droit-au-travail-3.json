@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+  "title": "Le droit du travail (3/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-3/",
+  "objectives": [
+    "Comprendre ce qu’est la discrimination au travail.Identifier les situations de discrimination.Savoir comment signaler une discrimination."
+  ],
+  "sections": [
+    {
+      "heading": "La discrimination au travail, qu’est-ce que c’est ?",
+      "content": "On parle de discrimination au travail quand une personne est moins bien traitée que les autres par l’employeur en raison d’un des critères interdits par la loi, par exemple son origine, son sexe, son âge...\n\nToutes les personnes qui travaillent dans une entreprise (salarié, stagiaire, apprenti) sont protégées contre la discrimination. Cette protection implique que la personne peut signaler la discrimination pour obtenir, dans certains cas, une réparation.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les situations de discrimination ?",
+      "content": "Il peut y avoir de la discrimination au travail à différents moments.\n\nPar exemple :\n\nau moment de l’embauche ;\n- au moment du licenciement ;\n- au moment du renouvellement de contrat ;\n- au moment de la fixation du salaire ;\n- au moment de la définition des tâches du salarié ;\n- au moment des horaires de travail...",
+      "type": "text"
+    },
+    {
+      "heading": "Comment signaler une discrimination ?",
+      "content": "Une victime de discrimination ou une personne qui connaît une discrimination peut le signaler, par exemple :\n\nà l’Inspection du Travail ;\n- à un représentant du personnel ;\n- à un syndicat professionnel.\n\nSignaler une discrimination n’entraîne aucune sanction, sauf en cas de mensonge.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Discrimination au travail | Ministère du travail\n\n(Ouvre une nouvelle fenêtre) Discrimination au travail | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Discrimination au travail | Ministère du travail",
+      "url": "https://travail-emploi.gouv.fr/droit-du-travail/egalite-professionnelle-discrimination-et-harcelement"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Discrimination au travail | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F1642"
+    }
+  ]
+}

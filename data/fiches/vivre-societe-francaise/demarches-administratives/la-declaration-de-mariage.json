@@ -1,0 +1,45 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+  "title": "La déclaration de mariage",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-mariage/",
+  "objectives": [
+    "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : la déclaration de mariage."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : la déclaration de mariage.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles conditions respecter pour se marier civilement en France ?",
+      "content": "Le mariage civil est le seul mariage reconnu en France.\n\nDeux personnes, de sexe différent ou de même sexe, peuvent se marier si ces personnes :\n\nont plus de 18 ans (ou moins de 18 ans, mais vous avez l’accord d’au moins un de vos parents ou l’autorisation vous a été accordée par le procureur de la République) ;\n- n'ont pas de lien de parenté ou d’alliance (exemple : le mariage entre cousins germains est interdit) ;\n- et qu’elles peuvent donner un consentement libre et éclairé au mariage.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment célébrer le mariage civil ?",
+      "content": "Le mariage est célébré dans la commune où vit au moins l’un des 2 futurs mariés ou l’un de leurs parents.\n\nPour vous marier, voici les documents à préparer :\n\nvos pièces d’identité (originales et photocopies) ;\n- un justificatif de domicile (daté de plus de 1 mois) ;\n- vos actes de naissance ;\n- informations d’identité sur les témoins et photocopie de leur papier d’identité.\n\nLe jour de la cérémonie de mariage civil, l’acte de mariage français et un livret de famille vous seront remis.",
+      "type": "text"
+    },
+    {
+      "heading": "Mariage à l’étranger, comment faire reconnaître le mariage en France ?",
+      "content": "La transcription d’un mariage civil célébré à l’étranger (inscription de l’acte de mariage étranger dans les registres de l’état civil français) permet la reconnaissance officielle d’un mariage par la France. Pour faire cette transcription, rendez-vous dans les consulats français à l’étranger ou auprès du Service Central d'État Civil (SCEC) du ministère des Affaires étrangères.\n\nUn acte de mariage français et un livret de famille vous seront ensuite remis.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Mariage en France | Service Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Mariage en France | Service Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F930"
+    }
+  ]
+}

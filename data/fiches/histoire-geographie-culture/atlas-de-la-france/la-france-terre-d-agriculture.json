@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--atlas-de-la-france--la-france-terre-d-agriculture",
+  "title": "La France, terre d’agriculture",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "atlas-de-la-france",
+  "subcategoryName": "Atlas de la France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-terre-d-agriculture/",
+  "objectives": [
+    "Savoir établir un lien entre géographie et économie : la France, terre d’agriculture."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Savoir établir un lien entre géographie et économie : la France, terre d’agriculture.",
+      "type": "text"
+    },
+    {
+      "heading": "Pourquoi la France est-elle une terre d’agriculture ?",
+      "content": "La France est un pays agricole majeur, en Europe et dans le monde.\n\nElle est la première puissance agricole de l’Union Européenne (UE), avec 18% de la production totale de l’UE.\n- Elle exporte dans le monde de nombreux produits comme le blé, le vin, les produits laitiers ou la viande. Elle importe des fruits et légumes et des produits transformés.\n\nLa moitié du territoire français est utilisé pour l’agriculture. Celle-ci façonne les paysages et l’économie du pays.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les régions agricoles de la France ?",
+      "content": "La France possède des régions agricoles variées, grâce à des climats, des reliefs et des sols très différents :\n\nle Bassin parisien est connu pour la culture du blé et de la betterave ;\n- la Bretagne et l’Ouest de la France sont réputés pour l’élevage des vaches laitières et des porcs ;\n- le Sud-Ouest est connu pour l’élevage et le maïs ;\n- le Sud-Est produit des fruits, des légumes et du vin.\n\nDes zones comme Bordeaux, la Bourgogne, la Champagne ou le Languedoc sont célèbres pour leurs vignobles.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les défis du secteur agricole ?",
+      "content": "Depuis les années 1950, l’agriculture s’est modernisée : les exploitations sont plus grandes, les machines plus performantes et les rendements ont beaucoup augmenté. Mais cela a aussi créé des problèmes, comme la pollution, la baisse du nombre d’agriculteurs et la perte de terres agricoles à cause de l’urbanisation.\n\nAujourd’hui, l’agriculture française doit relever de nouveaux défis :\n\ns’adapter au changement climatique ;\n- réduire l’usage des produits chimiques ;\n- répondre aux attentes des consommateurs en matière de qualité et d’environnement.\n\nC’est pour ces raisons que de plus en plus d’agriculteurs se tournent vers des pratiques plus durables, comme l’agriculture biologique ou les circuits courts.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les chiffres clés 2024 de l’agriculture française - Chambre d’agriculture France\n\n(Ouvre une nouvelle fenêtre) Quelle part du territoire français est occupée par l’agriculture ? | Ministère de l’Agriculture et de la Souveraineté alimentaire",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les chiffres clés 2024 de l’agriculture française - Chambre d’agriculture France",
+      "url": "https://chambres-agriculture.fr/actualites/actualite/les-chiffres-cles-2024-de-lagriculture-francaise"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Quelle part du territoire français est occupée par l’agriculture ? | Ministère de l’Agriculture et de la Souveraineté alimentaire",
+      "url": "https://agriculture.gouv.fr/quelle-part-du-territoire-francais-est-occupee-par-lagriculture"
+    }
+  ]
+}

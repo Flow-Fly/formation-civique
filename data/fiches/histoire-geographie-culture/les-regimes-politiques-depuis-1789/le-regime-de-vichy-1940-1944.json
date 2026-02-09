@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-regime-de-vichy-1940-1944",
+  "title": "Le régime de Vichy (1940-1944)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-regime-de-vichy-1940-1944/",
+  "objectives": [
+    "Connaître le régime de Vichy.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que le régime de Vichy ?",
+      "content": "On appelle “régime de Vichy” le régime dirigé par le maréchal Pétain à partir du 10 juillet 1940, après la défaite de la France face à l’Allemagne. Installé à Vichy, le gouvernement abolit la République et instaure un régime autoritaire et collaborationniste avec l’occupant nazi.\n\nLe régime de Vichy supprime les libertés et persécute les opposants et les minorités, en particulier les Juifs.\n\nIl prend fin le 22 août 1944 avec la Libération.\n\nPersonnage clé : le maréchal Philippe Pétain, héros de la Première Guerre mondiale, devient chef de l’État français en 1940 et dirige le régime autoritaire de Vichy.\n\nSur la droite, une photo du maréchal Philippe Pétain.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant cette période ?",
+      "content": "Les libertés et droits fondamentaux (liberté d’expression, de réunion, de la presse, droit de vote) sont supprimés.\n\nLe régime impose une société hiérarchisée, fondée sur des valeurs conservatrices et autoritaires. Une large partie de la population est exclue de la pleine citoyenneté.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les apports de ce régime au système français actuel ?",
+      "content": "Le régime de Vichy n’a pas laissé d’apports positifs au système actuel. Au contraire, il marque une rupture avec les valeurs démocratiques et républicaines, ce qui conduit, après la Libération, à renforcer la défense des droits et libertés fondamentales en France.\n\nSource photo : Henri Manuel.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Régime de Vichy et Résistance (1940-1944) | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Régime de Vichy et Résistance (1940-1944) | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/268978-regime-de-vichy-et-resistance-1940-1944"
+    }
+  ]
+}

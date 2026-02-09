@@ -1,0 +1,40 @@
+{
+  "id": "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-1",
+  "title": "Prévention et promotion de la santé (1/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/prevention-et-promotion-de-la-sante-1/",
+  "objectives": [
+    "Identifier les dispositifs de prévention en France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les dispositifs de prévention en France.",
+      "type": "text"
+    },
+    {
+      "heading": "Les dispositifs de prévention de santé, c’est quoi ?",
+      "content": "Un dispositif de prévention de santé est un ensemble d’actions, de mesures et d’outils (exemple : dépistage ou la vaccination) mis en place pour :\n\nempêcher l’apparition de maladies ;\n- détecter et limiter la progression de symptômes ;\n- promouvoir un mode de vie sain.",
+      "type": "text"
+    },
+    {
+      "heading": "Le dépistage, c’est quoi ?",
+      "content": "Le dépistage sert à repérer une maladie chez une personne qui ne présente pas encore de symptômes. C’est une méthode de prévention efficace qui permet de détecter les maladies tôt et, par conséquent, d’augmenter les chances de guérison grâce à un traitement rapide.\n\nLes dépistages les plus fréquents concernent :\n\nles cancers ;\n- les maladies du cœur et des poumons ;\n- les infections, notamment les infections sexuellement transmissibles (IST).\n\nLe dépistage est proposé en priorité aux personnes les plus à risque de développer une maladie. Il est fait régulièrement, selon un calendrier précis, pour une meilleure surveillance.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Quel dépistage pour quelle maladie ? | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Quel dépistage pour quelle maladie ? | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F218"
+    }
+  ]
+}

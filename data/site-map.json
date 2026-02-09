@@ -1,0 +1,1104 @@
+{
+  "themes": [
+    {
+      "id": "principes-et-valeurs",
+      "name": "Principes et valeurs de la République",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/",
+      "subcategories": [
+        {
+          "id": "la-devise-de-la-republique",
+          "name": "La devise de la République",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/",
+          "articles": [
+            {
+              "title": "La devise française",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-devise-francaise/"
+            },
+            {
+              "title": "La liberté",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte/"
+            },
+            {
+              "title": "L'égalité (1/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-1/"
+            },
+            {
+              "title": "L'égalité (2/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-2/"
+            },
+            {
+              "title": "L'égalité (3/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-3/"
+            },
+            {
+              "title": "La fraternité (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/fraternite-1/"
+            },
+            {
+              "title": "La fraternité (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/fraternite-2/"
+            }
+          ]
+        },
+        {
+          "id": "les-symboles-de-la-republique",
+          "name": "Les symboles de la République",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/",
+          "articles": [
+            {
+              "title": "Le drapeau français",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/le-drapeau-fran%C3%A7ais/"
+            },
+            {
+              "title": "L'hymne français",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/hymne-francais/"
+            },
+            {
+              "title": "Marianne",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne/"
+            },
+            {
+              "title": "La fête nationale",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/la-fete-nationale/"
+            },
+            {
+              "title": "Le coq",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/le-coq/"
+            }
+          ]
+        },
+        {
+          "id": "la-laicite",
+          "name": "La laïcité",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/",
+          "articles": [
+            {
+              "title": "La définition de la laïcité (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1/"
+            },
+            {
+              "title": "La définition de la laïcité (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/definition-laicite-2/"
+            },
+            {
+              "title": "Histoire de la laïcité",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/histoire-de-la-laicite/"
+            },
+            {
+              "title": "La laïcité dans l'espace public",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-espace-public/"
+            },
+            {
+              "title": "La laïcité dans les services publics",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-les-services-publics/"
+            },
+            {
+              "title": "Le prosélytisme",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/le-proselytisme/"
+            },
+            {
+              "title": "Le blasphème",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/le-blaspheme/"
+            },
+            {
+              "title": "La laïcité au travail",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-au-travail/"
+            },
+            {
+              "title": "La laïcité à l'école (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-1/"
+            },
+            {
+              "title": "La laïcité à l'école (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-2/"
+            }
+          ]
+        },
+        {
+          "id": "la-langue-de-la-republique",
+          "name": "La langue de la République",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/la-langue-de-la-republique/",
+          "articles": [
+            {
+              "title": "La langue française",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/la-langue-de-la-republique/la-langue-fran%C3%A7aise/"
+            }
+          ]
+        },
+        {
+          "id": "le-contrat-d-engagement-a-respecter-les-principes-de-la-republique",
+          "name": "Le contrat d'engagement à respecter les principes de la République",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/le-contrat-dengagement-%C3%A0-respecter-les-principes-de-la-republique/",
+          "articles": [
+            {
+              "title": "Le contrat d'engagement républicain",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/le-contrat-dengagement-%C3%A0-respecter-les-principes-de-la-republique/le-contrat-engagement-republicain/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systeme-institutionnel",
+      "name": "Système institutionnel et politique",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/",
+      "subcategories": [
+        {
+          "id": "etat-de-droit-et-separation-des-pouvoirs",
+          "name": "État de droit et séparation des pouvoirs",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/",
+          "articles": [
+            {
+              "title": "État de droit et séparation des pouvoirs : présentation de l’État de droit et principe de la séparation des pouvoirs",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs/"
+            },
+            {
+              "title": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1/"
+            },
+            {
+              "title": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2/"
+            }
+          ]
+        },
+        {
+          "id": "democratie-et-droit-de-vote",
+          "name": "Démocratie et droit de vote",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/",
+          "articles": [
+            {
+              "title": "La démocratie et la République (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-1/"
+            },
+            {
+              "title": "La démocratie et la République (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2/"
+            },
+            {
+              "title": "Les conditions pour voter en France (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/"
+            },
+            {
+              "title": "Les conditions pour voter en France (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2/"
+            },
+            {
+              "title": "Le principe de pluralité des partis",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis/"
+            },
+            {
+              "title": "Comment voter une loi (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/comment-voter-une-loi-1/"
+            },
+            {
+              "title": "Comment voter une loi (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/comment-voter-une-loi-2/"
+            }
+          ]
+        },
+        {
+          "id": "organisation-de-la-republique-francaise",
+          "name": "Organisation de la République Française",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/",
+          "articles": [
+            {
+              "title": "Le découpage administratif de la France (1/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/"
+            },
+            {
+              "title": "Le découpage administratif de la France (2/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-2/"
+            },
+            {
+              "title": "Le découpage administratif de la France (3/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-3/"
+            }
+          ]
+        },
+        {
+          "id": "institutions-europeennes",
+          "name": "Institutions européennes",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/",
+          "articles": [
+            {
+              "title": "Les étapes clés de la construction européenne",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne/"
+            },
+            {
+              "title": "Les symboles européens (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1/"
+            },
+            {
+              "title": "Les symboles européens (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-2/"
+            },
+            {
+              "title": "Le fonctionnement européen (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-1/"
+            },
+            {
+              "title": "Le fonctionnement européen (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2/"
+            },
+            {
+              "title": "Les élections européennes",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "droits-et-devoirs",
+      "name": "Droits et devoirs",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/",
+      "subcategories": [
+        {
+          "id": "droits-fondamentaux",
+          "name": "Droits fondamentaux",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/",
+          "articles": [
+            {
+              "title": "Introduction aux droits fondamentaux",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/introduction-aux-droits-fondamentaux/"
+            },
+            {
+              "title": "Les droits liés à la personne humaine",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine/"
+            },
+            {
+              "title": "Les droits économiques et sociaux et les droits dits de troisième génération",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/droits-economiques-sociaux-troisieme-generation/"
+            },
+            {
+              "title": "La dignité humaine",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/la-diginite-humaine/"
+            },
+            {
+              "title": "Un droit fondamental : le droit de disposer de son corps",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps/"
+            },
+            {
+              "title": "Les libertés au sein du couple",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple/"
+            },
+            {
+              "title": "La citoyenneté",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-la-citoyennete/"
+            },
+            {
+              "title": "Présentation des principaux textes (1/3) : La Déclaration des droits de l'homme et du citoyen",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen/"
+            },
+            {
+              "title": "Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique/"
+            },
+            {
+              "title": "Présentation des principaux textes (3/3) : La Charte de l'environnement",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-charte-de-lenvironnement/"
+            },
+            {
+              "title": "Les acteurs institutionnels",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels/"
+            }
+          ]
+        },
+        {
+          "id": "obligations-et-devoirs-des-personnes-residant-en-france",
+          "name": "Obligations et devoirs des personnes résidant en France",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/",
+          "articles": [
+            {
+              "title": "La limite des libertés individuelles",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles/"
+            },
+            {
+              "title": "Se conformer aux lois : les infractions (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions/"
+            },
+            {
+              "title": "Se conformer aux lois - les acteurs (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs/"
+            },
+            {
+              "title": "Les obligations en tant que résident français",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais/"
+            },
+            {
+              "title": "Les obligations en tant que citoyen français",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-citoyen-francais/"
+            },
+            {
+              "title": "L'interdiction de toutes les formes de violences",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-de-toutes-les-formes-de-violences/"
+            },
+            {
+              "title": "L'interdiction des violences faites aux enfants",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/l-interdiction-des-violences-faites-aux-enfants/"
+            },
+            {
+              "title": "L'interdiction des mutilations sexuelles féminines",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-des-mutilations-sexuelles-f%C3%A9minines/"
+            },
+            {
+              "title": "L'interdition des violences sexuelles",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-des-violences-sexuelles/"
+            },
+            {
+              "title": "La traite des êtres humains et la prostitution",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-traite-des-etres-humains-et-la-prostitution/"
+            },
+            {
+              "title": "La protection des victimes de violences",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-protection-des-victimes-de-violences/"
+            },
+            {
+              "title": "Le rôle des témoins en cas de violences",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/le-role-des-temoins-en-cas-de-violences/"
+            },
+            {
+              "title": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "histoire-geographie-culture",
+      "name": "Histoire, géographie et culture",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/",
+      "subcategories": [
+        {
+          "id": "les-regimes-politiques-depuis-1789",
+          "name": "Les régimes politiques depuis 1789",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/",
+          "articles": [
+            {
+              "title": "Les régimes politiques",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/les-regimes-politiques/"
+            },
+            {
+              "title": "Des Mérovingiens à l’Ancien Régime (Vème-XVIème siècle)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/des-merovingiens-a-l-ancien-regime/"
+            },
+            {
+              "title": "L'Ancien Régime (jusqu'en 1789)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/l-ancien-regime-jusqu-en-1789/"
+            },
+            {
+              "title": "La fin de la monarchie absolue et le début de la Ière République (1789-1792)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792/"
+            },
+            {
+              "title": "La Ière République (1792-1804)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804/"
+            },
+            {
+              "title": "Le Consulat (1799-1804)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-consulat-1799-1804/"
+            },
+            {
+              "title": "Le 1er Empire (1804-1815)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/"
+            },
+            {
+              "title": "La Restauration et la Monarchie de Juillet (1815-1848)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-restauration-et-la-monarchie-de-juillet-1815-1848/"
+            },
+            {
+              "title": "La IIème République (1848-1851)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-deuxieme-republique-1848-1851/"
+            },
+            {
+              "title": "Le 2nd Empire (1852-1870)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-2nd-empire-1852-1870/"
+            },
+            {
+              "title": "La IIIème République (1870-1940)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940/"
+            },
+            {
+              "title": "Le régime de Vichy (1940-1944)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-regime-de-vichy-1940-1944/"
+            },
+            {
+              "title": "Le Gouvernement provisoire de la République française (1944-1946)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-gouvernement-provisoire-de-la-republique-francaise-1944-1946/"
+            },
+            {
+              "title": "La IVème République (1946-1958)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-quatrieme-republique-1946-1958/"
+            },
+            {
+              "title": "La Vème République",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-cinquieme-republique/"
+            }
+          ]
+        },
+        {
+          "id": "la-veme-republique",
+          "name": "La Vème République",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/",
+          "articles": [
+            {
+              "title": "Les présidents de la Vème République",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/les-presidents-de-la-cinquieme-republique/"
+            },
+            {
+              "title": "Focus sur la Vème République : l'abolition de la peine de mort",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5/"
+            },
+            {
+              "title": "Focus sur la Vème République : le droit à l'avortement",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement/"
+            },
+            {
+              "title": "Focus sur la Vème République : le mariage pour tous",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-7/"
+            }
+          ]
+        },
+        {
+          "id": "les-conflits-mondiaux-et-le-nouvel-ordre-mondial",
+          "name": "Les conflits mondiaux et le nouvel ordre mondial",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/",
+          "articles": [
+            {
+              "title": "La Première Guerre mondiale (1914-1918) : le contexte",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1/"
+            },
+            {
+              "title": "La Première Guerre mondiale (1914-1918) : les conséquences",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-2/"
+            },
+            {
+              "title": "La Seconde Guerre mondiale (1939-1945) : le contexte",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1939-1945-le-contexte/"
+            },
+            {
+              "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (1/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1/"
+            },
+            {
+              "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (2/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-2/"
+            },
+            {
+              "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (3/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-3/"
+            },
+            {
+              "title": "La Seconde Guerre mondiale (1939-1945) : les conséquences",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences/"
+            },
+            {
+              "title": "Recomposition de l’ordre mondial : la décolonisation",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation/"
+            },
+            {
+              "title": "Recomposition de l’ordre mondial : la construction européenne",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne/"
+            }
+          ]
+        },
+        {
+          "id": "zoom-sur",
+          "name": "Zoom sur",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/",
+          "articles": [
+            {
+              "title": "Le territoire français dans le temps (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/le-territoire-francais-dans-le-temps-1/"
+            },
+            {
+              "title": "Le territoire français dans le temps (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/le-territoire-francais-dans-le-temps-2/"
+            },
+            {
+              "title": "L'immigration",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/l-immigration/"
+            },
+            {
+              "title": "Focus sur la Seconde Guerre mondiale - la Shoah",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah/"
+            },
+            {
+              "title": "Focus sur la Seconde Guerre mondiale - la Résistance et la Libération",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration/"
+            }
+          ]
+        },
+        {
+          "id": "atlas-de-la-france",
+          "name": "Atlas de la France",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/",
+          "articles": [
+            {
+              "title": "Le territoire de la France",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/"
+            },
+            {
+              "title": "Les frontières de la France",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france/"
+            },
+            {
+              "title": "Les fleuves français",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais/"
+            },
+            {
+              "title": "La démographie française",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise/"
+            },
+            {
+              "title": "La France : aire urbaine et métropolisation",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation/"
+            },
+            {
+              "title": "La France, terre d’agriculture",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-terre-d-agriculture/"
+            },
+            {
+              "title": "La France, terre industrielle",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/la-france-terre-industrielle/"
+            },
+            {
+              "title": "L’économie française",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/l-economie-francaise/"
+            }
+          ]
+        },
+        {
+          "id": "la-france-dans-l-europe-et-dans-le-monde",
+          "name": "La France dans l'Europe et dans le monde",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/",
+          "articles": [
+            {
+              "title": "La France dans l'Europe",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-l-europe/"
+            },
+            {
+              "title": "La France dans la circulation européenne",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-la-circulation-europeenne/"
+            },
+            {
+              "title": "La France dans l’écosystème naturel européen",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-l-ecosysteme-naturel-europeen/"
+            },
+            {
+              "title": "L’agriculture française en Europe",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/l-agriculture-francaise-en-europe/"
+            },
+            {
+              "title": "La France dans le monde",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-le-monde/"
+            },
+            {
+              "title": "Une puissance militaire et diplomatique",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-militaire-et-diplomatique/"
+            },
+            {
+              "title": "Une puissance maritime",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-maritime/"
+            },
+            {
+              "title": "Les ports français",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/les-ports-francais/"
+            },
+            {
+              "title": "Un système aérien au cœur du réseau mondial",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/un-systeme-aerien-au-c%C5%93ur-du-reseau-mondial/"
+            },
+            {
+              "title": "Une puissance touristique",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique/"
+            }
+          ]
+        },
+        {
+          "id": "les-regions-francaises",
+          "name": "Les régions françaises",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/",
+          "articles": [
+            {
+              "title": "Auvergne-Rhône-Alpes",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/auvergne-rhone-alpes/"
+            },
+            {
+              "title": "Bourgogne-Franche-Comté",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/bourgogne-franche-comte/"
+            },
+            {
+              "title": "Bretagne",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/bretagne/"
+            },
+            {
+              "title": "Centre-Val de Loire",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/centre-val-de-loire/"
+            },
+            {
+              "title": "Corse",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/corse/"
+            },
+            {
+              "title": "Grand Est",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/grand-est/"
+            },
+            {
+              "title": "Hauts-de-France",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/hauts-de-france/"
+            },
+            {
+              "title": "Île-de-France",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/ile-de-france/"
+            },
+            {
+              "title": "Normandie",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/normandie/"
+            },
+            {
+              "title": "Nouvelle-Aquitaine",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/nouvelle-aquitaine/"
+            },
+            {
+              "title": "Occitanie",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/occitanie/"
+            },
+            {
+              "title": "Pays de la Loire",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/pays-de-la-loire/"
+            },
+            {
+              "title": "Provence-Alpes-Côte d’Azur",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/provence-alpes-cote-d-azur/"
+            },
+            {
+              "title": "Guadeloupe",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/guadeloupe/"
+            },
+            {
+              "title": "Martinique",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/martinique/"
+            },
+            {
+              "title": "Guyane",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/guyane/"
+            },
+            {
+              "title": "La Réunion",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/la-reunion/"
+            },
+            {
+              "title": "Mayotte",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/mayotte/"
+            }
+          ]
+        },
+        {
+          "id": "culture",
+          "name": "Culture",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/",
+          "articles": [
+            {
+              "title": "Une puissance culturelle",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/une-puissance-culturelle/"
+            },
+            {
+              "title": "Patrimoine français : la langue française dans le monde",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie d’Auvergne-Rhône-Alpes",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-auvergne-rhone-alpes/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Bourgogne-Franche-Comté",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-bourgogne-franche-comte/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Bretagne",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-bretagne/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie dans le Centre-Val de Loire",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-dans-le-centre-val-de-loire/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Corse",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie du Grand Est",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-du-grand-est/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie des Hauts-de-France",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-des-hauts-de-france/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Normandie",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-normandie/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Nouvelle-Aquitaine",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-nouvelle-aquitaine/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie d’Occitanie",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-occitanie/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie des Pays de la Loire",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-des-pays-de-la-loire/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Provence-Alpes-Côte d’Azur",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-provence-alpes-cote-azur/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Guadeloupe",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-guadeloupe/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Martinique",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-martinique/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Guyane",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-guyane/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de La Réunion",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-la-reunion/"
+            },
+            {
+              "title": "Patrimoine français : sites emblématiques et gastronomie de Mayotte",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-mayotte/"
+            },
+            {
+              "title": "Patrimoine français : des artistes emblématiques parmi les auteurs (1/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1/"
+            },
+            {
+              "title": "Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2/"
+            },
+            {
+              "title": "Patrimoine français : des artistes emblématiques parmi les auteurs (3/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3/"
+            },
+            {
+              "title": "Patrimoine français : des artistes emblématiques parmi les peintres",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/"
+            },
+            {
+              "title": "Patrimoine français : des artistes emblématiques dans l’univers de la musique",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-dans-univers-musique/"
+            },
+            {
+              "title": "Patrimoine français : des artistes emblématiques parmi les sculpteurs",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs/"
+            },
+            {
+              "title": "Patrimoine français : des artistes emblématiques devenus français",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-devenus-francais/"
+            },
+            {
+              "title": "Patrimoine français : le citoyen, acteur et conservateur de la culture en France",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france/"
+            },
+            {
+              "title": "Patrimoine français : l’accès à la culture",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-acces-a-la-culture/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vivre-societe-francaise",
+      "name": "Vivre dans la société française",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/",
+      "subcategories": [
+        {
+          "id": "demarches-administratives",
+          "name": "Démarches administratives",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/",
+          "articles": [
+            {
+              "title": "Les démarches du quotidien comme la domiciliation",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-la-domiciliation/"
+            },
+            {
+              "title": "Les démarches du quotidien comme l’ouverture d’un compte bancaire",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-louverture-dun-compte-bancaire/"
+            },
+            {
+              "title": "Les démarches du quotidien comme le permis de conduire (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-le-permis-de-conduire-1/"
+            },
+            {
+              "title": "Les démarches du quotidien comme le permis de conduire (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-le-permis-de-conduire-2/"
+            },
+            {
+              "title": "Les démarches du quotidien comme l’assurance responsabilité civile",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-lassurance-responsabilite-civile/"
+            },
+            {
+              "title": "L'impôt en France et la déclaration de revenus",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/l-impot-en-france-et-la-declaration-de-revenus/"
+            },
+            {
+              "title": "Les démarches relatives au séjour en France",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-sejour-en-france/"
+            },
+            {
+              "title": "Les démarches d’accès à la nationalité française",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-dacces-a-la-nationalite-francaise/"
+            },
+            {
+              "title": "La déclaration de naissance",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-naissance/"
+            },
+            {
+              "title": "La déclaration de mariage",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-mariage/"
+            },
+            {
+              "title": "La déclaration de décès",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-deces/"
+            },
+            {
+              "title": "Les démarches relatives au logement (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-logement-1/"
+            },
+            {
+              "title": "Les démarches relatives au logement (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-logement-2/"
+            },
+            {
+              "title": "Annexe : les numéros d’urgence",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/annexe-les-numeros-durgence/"
+            }
+          ]
+        },
+        {
+          "id": "sante",
+          "name": "Santé",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/",
+          "articles": [
+            {
+              "title": "Accès aux soins : le parcours de santé",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-le-parcours-de-sante/"
+            },
+            {
+              "title": "Accès aux soins : le médecin généraliste",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-le-medecin-generaliste/"
+            },
+            {
+              "title": "Accès aux soins : le médecin spécialiste",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-le-medecin-specialiste/"
+            },
+            {
+              "title": "Accès aux soins : les structures d’accueil gratuites",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-les-structures-d-accueil-gratuites/"
+            },
+            {
+              "title": "Accès aux soins : services et numéros d’urgence",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-services-et-numeros-d-urgence/"
+            },
+            {
+              "title": "La prise en charge : les différentes couvertures maladie",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/la-prise-en-charge-les-differentes-couvertures-maladie/"
+            },
+            {
+              "title": "Accès aux soins : les médecins et pharmacies de garde",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-les-medecins-et-pharmacies-de-garde/"
+            },
+            {
+              "title": "Santé : la prise en charge en cas de renouvellement du titre de séjour",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-en-cas-de-enouvellement-du-titre-de-sejour/"
+            },
+            {
+              "title": "Santé : la prise en charge et le remboursement",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-les-demarches-pour-etre-rembourse/"
+            },
+            {
+              "title": "La prise en charge : les démarches pour accéder à la protection universelle maladie (PUMa)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/la-prise-en-charge-les-demarches-pour-acceder-a-la-protection-universelle-maladie/"
+            },
+            {
+              "title": "Santé : la prise en charge durant la maternité",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-durant-la-maternite/"
+            },
+            {
+              "title": "Santé : les droits et les devoirs du patient",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/sante-les-droits-du-patient/"
+            },
+            {
+              "title": "Prévention et promotion de la santé (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/prevention-et-promotion-de-la-sante-1/"
+            },
+            {
+              "title": "Prévention et promotion de la santé (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/prevention-et-promotion-de-la-sante-2/"
+            },
+            {
+              "title": "Prévention et promotion de la santé : la santé mentale",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/prevention-et-promotion-de-la-sante-la-sante-mentale/"
+            }
+          ]
+        },
+        {
+          "id": "emploi",
+          "name": "Emploi",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/",
+          "articles": [
+            {
+              "title": "Orientation (1/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-1/"
+            },
+            {
+              "title": "Orientation (2/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-2/"
+            },
+            {
+              "title": "Orientation (3/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-3/"
+            },
+            {
+              "title": "Orientation (4/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-4/"
+            },
+            {
+              "title": "Orientation (5/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-5/"
+            },
+            {
+              "title": "Formation (1/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/formation-1/"
+            },
+            {
+              "title": "Formation (2/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/formation-2/"
+            },
+            {
+              "title": "Formation (3/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/formation-3/"
+            },
+            {
+              "title": "Types d'emploi (1/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/types-emploi-1/"
+            },
+            {
+              "title": "Types d'emploi (2/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/types-emploi-2/"
+            },
+            {
+              "title": "Types d'emploi (3/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/types-emploi-3/"
+            },
+            {
+              "title": "Recrutement (1/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/recrutement-1/"
+            },
+            {
+              "title": "Recrutement (2/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/recrutement-2/"
+            },
+            {
+              "title": "Recrutement (3/3)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/recrutement-3/"
+            },
+            {
+              "title": "Le droit du travail (1/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-1/"
+            },
+            {
+              "title": "Le droit du travail (2/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-2/"
+            },
+            {
+              "title": "Le droit du travail (3/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-3/"
+            },
+            {
+              "title": "Le droit du travail (4/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-4/"
+            },
+            {
+              "title": "Le droit du travail (5/5)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/le-droit-au-travail-5/"
+            }
+          ]
+        },
+        {
+          "id": "parentalite",
+          "name": "Parentalité",
+          "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/",
+          "articles": [
+            {
+              "title": "Les droits de l'enfant",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-droits-de-l-enfant/"
+            },
+            {
+              "title": "Exercice de l’autorité parentale (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1/"
+            },
+            {
+              "title": "Exercice de l’autorité parentale (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-2/"
+            },
+            {
+              "title": "Retrait de l’autorité parentale",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/retrait-de-l-autorite-parentale/"
+            },
+            {
+              "title": "Les modes de garde des enfants de moins de 3 ans",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-modes-de-garde-des-enfants-de-moins-de-3-ans/"
+            },
+            {
+              "title": "Le système éducatif",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/"
+            },
+            {
+              "title": "La liberté de choisir l’école de son enfant",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant/"
+            },
+            {
+              "title": "L'école pour les enfants allophones",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/l-ecole-pour-les-enfants-allophones/"
+            },
+            {
+              "title": "Les devoirs et le rôle des parents à l’école",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/droits-et-devoirs-des-parents-a-l-ecole/"
+            },
+            {
+              "title": "Le dispositif OEPRE",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-dispositif-oepre/"
+            },
+            {
+              "title": "Le soutien à la parentalité (1/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-soutien-a-la-parentalite-1/"
+            },
+            {
+              "title": "Le soutien à la parentalité (2/2)",
+              "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-soutien-a-la-parentalite-2/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-la-circulation-europeenne",
+  "title": "La France dans la circulation européenne",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "la-france-dans-l-europe-et-dans-le-monde",
+  "subcategoryName": "La France dans l'Europe et dans le monde",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-la-circulation-europeenne/",
+  "objectives": [
+    "Savoir établir un lien entre géographie et économie : la France dans la circulation européenne."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Savoir établir un lien entre géographie et économie : la France dans la circulation européenne.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment la France est-elle reliée à l’Europe ?",
+      "content": "Les grandes villes françaises sont reliées aux capitales européennes et aux grands ports internationaux grâce à un important réseau national de routes, de trains, de voies navigables et de ports.\n\nLa France possède notamment l’un des réseaux routiers les plus denses au monde, avec plus de 10 000 km d’autoroutes. Ces routes connectent entre elles toutes les grandes villes du pays et facilitent aussi les échanges avec les pays voisins. Elles permettent de transporter rapidement les voyageurs et les marchandises à travers l’Europe.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les grands couloirs européens qui traversent la France ?",
+      "content": "L’Union européenne a créé des corridors qui traversent l’Europe pour mieux faire circuler les personnes et les marchandises. La France se situe au croisement de plusieurs grands axes :\n\nle corridor Nord-ouest/Sud-est, qui relie la Grande-Bretagne à l’Italie, via le tunnel sous la Manche, Paris et Lyon ;\n- le corridor Atlantique, qui connecte l’Espagne et le Portugal à la France et à l’Allemagne, en passant par Bordeaux et Toulouse ;\n\nCes axes combinent plusieurs moyens de transport : route, train et bateau. Les marchandises peuvent ainsi facilement passer du camion au train, puis du train au bateau, par exemple.\n\nSources photos : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Introduction. Pour une lecture territoriale des corridors de transport en Europe | Géoconfluences",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Introduction. Pour une lecture territoriale des corridors de transport en Europe | Géoconfluences",
+      "url": "https://geoconfluences.ens-lyon.fr/informations-scientifiques/dossiers-regionaux/territoires-europeens-regions-etats-union/rte-t/introduction"
+    }
+  ]
+}

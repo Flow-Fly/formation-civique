@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--guadeloupe",
+  "title": "Guadeloupe",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/guadeloupe/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Guadeloupe."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Guadeloupe.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la Guadeloupe ?",
+      "content": "La Guadeloupe est une île située dans les Caraïbes, au sein des Petites Antilles.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de la Guadeloupe ?",
+      "content": "La Guadeloupe est à la fois un Département et une Région d’Outre-Mer (DROM).\n\nSes principales villes sont Basse-Terre (préfecture), Pointe-à-Pitre, Les Abymes, Le Gosier et Sainte-Anne.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 380 400 habitants. La population vieillit et diminue, en raison de l’émigration des jeunes vers la France métropolitaine.\n\nSecteurs économiques clés\n\nTourisme, agriculture (canne à sucre, banane), pêche, énergie (géothermie), services publics. La Guadeloupe dépend fortement des importations.\n\nSituation du marché du travail\n\nLe taux de chômage est élevé. L’activité économique se concentre autour des services et du commerce.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de la Guadeloupe | Insee\n\n(Ouvre une nouvelle fenêtre) Les inscrits à France Travail en Guadeloupe au 2ème trimestre 2025 | DEETS",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de la Guadeloupe | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=DEP-971"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les inscrits à France Travail en Guadeloupe au 2ème trimestre 2025 | DEETS",
+      "url": "https://guadeloupe.deets.gouv.fr/les-inscrits-a-france-travail-en-guadeloupe-au-2ieme-trimestre-2025"
+    }
+  ]
+}

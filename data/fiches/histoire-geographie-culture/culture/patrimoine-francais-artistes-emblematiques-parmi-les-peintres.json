@@ -1,0 +1,62 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-peintres",
+  "title": "Patrimoine français : des artistes emblématiques parmi les peintres",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-artistes-emblematiques-parmi-les-peintres/",
+  "objectives": [
+    "Connaître des figures françaises de la peinture."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître des figures françaises de la peinture.",
+      "type": "text"
+    },
+    {
+      "heading": "Eugène Delacroix, peintre majeur du romantisme français (1798-1863)",
+      "content": "Qui était-il ?\n\nDelacroix a bouleversé la peinture par sa puissance expressive et ses couleurs vives. Il s’oppose au style classique en mettant en avant le mouvement, la liberté et la passion. Son influence est immense : il a ouvert la voie aux peintres modernes comme les impressionnistes.\n\nTableaux incontournables d’Eugène Delacroix\n\n(Ouvre une nouvelle fenêtre) La Liberté guidant le peuple\n- (Ouvre une nouvelle fenêtre) Scènes des massacres de Scio\n- (Ouvre une nouvelle fenêtre) La Mort de Sardanapale",
+      "type": "text"
+    },
+    {
+      "heading": "Paul Cézanne, précurseur de l’art moderne (1839-1906)",
+      "content": "Qui était-il ?\n\nCézanne, célèbre peintre français, commence par s’inspirer de l’impressionnisme, mais cherche ensuite à donner de la structure et de la solidité aux formes en utilisant des formes géométriques (cylindres, sphères, cônes). Il pose les bases du cubisme et influence des artistes comme Picasso ou Matisse. On dit souvent de lui qu’il est le \"père de la peinture moderne\".\n\nTableaux incontournables de Paul Cézanne\n\n(Ouvre une nouvelle fenêtre) Les Joueurs de cartes\n- (Ouvre une nouvelle fenêtre) Montagne Sainte-Victoire\n- (Ouvre une nouvelle fenêtre) Pommes et oranges",
+      "type": "text"
+    },
+    {
+      "heading": "Claude Monet, peintre impressionniste français (1840-1926)",
+      "content": "Qui était-il ?\n\nMonet est un peintre français qui a révolutionné la peinture en représentant la lumière, les reflets, les saisons et les paysages au fil du temps. Le courant “impressionniste” est nommé d’après le tableau Impression, Soleil levant de Monet. Il privilégie la sensation visuelle immédiate plutôt que les détails, ouvrant la voie à l’art moderne. Monet est aujourd’hui l’un des peintres les plus célèbres au monde.\n\nTableaux incontournables de Claude Monet\n\n(Ouvre une nouvelle fenêtre) Impression, Soleil levant\n- (Ouvre une nouvelle fenêtre) Les Nymphéas\n- (Ouvre une nouvelle fenêtre) La Gare Saint-Lazare",
+      "type": "text"
+    },
+    {
+      "heading": "Auguste Renoir, peintre impressionniste de figures (1841-1919)",
+      "content": "Qui était-il ?\n\nRenoir est un peintre français qui a peint des scènes joyeuses de la vie quotidienne, des portraits lumineux, et des représentations de la nature, des fêtes ou des moments intimes. Il cherche à capter la douceur de vivre et la lumière, souvent en peignant à l’extérieur. Contrairement à d’autres impressionnistes, il s’intéresse beaucoup au corps humain, aux figures. Son style évolue vers une peinture plus classique avec le temps.\n\nTableaux incontournables d’Auguste Renoir\n\n(Ouvre une nouvelle fenêtre) Le Déjeuner des canotiers\n- (Ouvre une nouvelle fenêtre) Bal du moulin de la Galette\n- (Ouvre une nouvelle fenêtre) La Balançoire\n\nSources photos :\n\nPortrait d'Eugène DelacroixPhotographié par Nadar\n- Portrait de Paul Cézanne assis dans son atelier des Lauves devant Les Grandes baigneuses1905, Photographie par Emile Bernard © Bridgeman Images Beaux Arts\n- Portrait de Claude MonetPhotographié par Nadar, 1899\n- Portrait d'Auguste RenoirInconnu, Musée d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Eugène Delacroix - Biographie | Musée Delacroix\n\n(Ouvre une nouvelle fenêtre) Qui est Claude Monet ? | Beaux Arts\n\n(Ouvre une nouvelle fenêtre) Qui est Paul Cézanne ? | Beaux Arts\n\n(Ouvre une nouvelle fenêtre) Auguste Renoir | Musée de Montmartre",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Eugène Delacroix - Biographie | Musée Delacroix",
+      "url": "https://www.musee-delacroix.fr/fr/musee/un-musee-dedie-a-eugene-delacroix/biographie/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qui est Claude Monet ? | Beaux Arts",
+      "url": "https://www.beauxarts.com/grand-format/claude-monet-en-2-minutes/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qui est Paul Cézanne ? | Beaux Arts",
+      "url": "https://www.beauxarts.com/grand-format/paul-cezanne-en-2-minutes/#&gid=1&pid=1"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Auguste Renoir | Musée de Montmartre",
+      "url": "https://museedemontmartre.fr/evenements/renoir/"
+    }
+  ]
+}

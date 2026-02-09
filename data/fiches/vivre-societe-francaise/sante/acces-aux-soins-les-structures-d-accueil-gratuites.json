@@ -1,0 +1,39 @@
+{
+  "id": "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites",
+  "title": "Accès aux soins : les structures d’accueil gratuites",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-les-structures-d-accueil-gratuites/",
+  "objectives": [
+    "Identifier les structures d’accueil gratuites selon ses besoins.Connaître le parcours de santé."
+  ],
+  "sections": [
+    {
+      "heading": "Une structure d’accueil gratuite, c’est quoi ?",
+      "content": "En France, de nombreuses structures permettent d’être soigné sans payer. Elles font partie du service public proposé par l’État.\n\nCertaines structures sont généralistes, d’autres spécialisées pour un type d’accompagnement.",
+      "type": "text"
+    },
+    {
+      "heading": "Vers quelle structure me diriger ?",
+      "content": "Soins généralistes\n\nPour des soins généralistes : les permanences d’accès aux soins de santé (PASS) de presque tous les hôpitaux publics sont ouvertes à tous. Le personnel soignant vous redirigera vers les spécialistes que vous avez besoin de consulter. Certaines PASS sont spécialisées pour les maladies : des yeux (ophtalmologie), des dents (bucco-dentaires), de la peau (dermatologie).\n- Pour se faire vacciner : vous pouvez demander à un médecin, une sage-femme, un pharmacien ou un infirmier.\n- Pour les femmes enceintes et les enfants de moins de 6 ans (soins et conseils) : rendez-vous dans les centres de protection maternelle et infantile (PMI).\n\nSoins spécialisés\n\nPour avoir une contraception, des conseils sur la sexualité, un accompagnement à l'interruption volontaire de grossesse (IVG) : dans les centres de santé sexuelle.\n- Pour le dépistage du SIDA, hépatites et infections sexuellement transmissibles (IST) : dans les centres gratuits d’information, de dépistage et de diagnostic des infections par le VIH, hépatites et IST (CeGIDD).\n- Pour soigner les addictions : dans les centres de soin, d'accompagnement et de prévention en addictologie (CSAPA) et dans les services alcoologie - addictions des hôpitaux publics.\n- Pour dépister et soigner la tuberculose : dans les centres de lutte anti-tuberculose (CLAT).\n- Pour prendre soin de sa santé mentale : les permanences d'accès aux soins de santé en psychiatrie (PASS Psy) ou Centres régionaux de psychotraumatisme (CRP) ou Centres médico-psychologiques (CMP).\n- Pour la santé mentale des enfants : les centres médico-psychologiques enfants et adolescents (CMPEA) ou Centres médico-psychopédagogiques (CMPP).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Site du Centre Hospitalier Sud-Francilien",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les permanences d’accès aux soins de santé - PASS | Ministère du Travail, de la Santé, des Solidarités et des Familles\n\n(Ouvre une nouvelle fenêtre) Tous les organismes | Service-public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les permanences d’accès aux soins de santé - PASS | Ministère du Travail, de la Santé, des Solidarités et des Familles",
+      "url": "https://sante.gouv.fr/prevention-en-sante/sante-des-populations/l-acces-aux-soins-des-personnes-en-situation-de-precarite-11421/article/les-permanences-d-acces-aux-soins-de-sante-pass-432636"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Tous les organismes | Service-public.fr",
+      "url": "https://lannuaire.service-public.fr/themes#:~:text=Administration%20locale-,Social%2C%20sant%C3%A9,-Travail%2C%20emploi%2C%20formation"
+    }
+  ]
+}

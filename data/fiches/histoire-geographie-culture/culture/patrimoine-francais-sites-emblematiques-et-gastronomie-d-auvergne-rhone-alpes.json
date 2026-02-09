@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-auvergne-rhone-alpes",
+  "title": "Patrimoine français : sites emblématiques et gastronomie d’Auvergne-Rhône-Alpes",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-auvergne-rhone-alpes/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux d’Auvergne-Rhône-Alpes."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux d’Auvergne-Rhône-Alpes.",
+      "type": "text"
+    },
+    {
+      "heading": "La basilique de Fourvière : le symbole de Lyon",
+      "content": "La basilique de Fourvière se situe sur la colline Fourvière la plus haute de la ville.\n\nŒuvre de l'architecte Pierre Bossan, elle a été construite entre 1872 et 1884.\n\nCette basilique est connue pour son style original et la richesse de sa décoration intérieure (mosaïques, vitraux, marbres).\n\nLa basilique est un lieu incontournable de la ville de Lyon et de sa région. Depuis son esplanade, on peut voir un panorama exceptionnel sur Lyon.\n\nAu mois de décembre, pendant la Fête des Lumières, la basilique et toute la ville de Lyon sont illuminées par des projections et lumières.\n\nDes millions de visiteurs la visitent chaque année.",
+      "type": "text"
+    },
+    {
+      "heading": "La fondue savoyarde, spécialité traditionnelle de la région alpine",
+      "content": "La fondue savoyarde est un plat de montagne populaire dans les Alpes françaises.\n\nC’est un plat à base de fromage fondu français (comté, beaufort, emmental) dans lequel on trempe du pain. Le fromage est souvent parfumé avec du vin blanc et de l’ail.\n\nLa fondue savoyarde est appréciée en hiver dans les stations de ski.\n\nSources photos\n\nMonument : \n                (Ouvre une nouvelle fenêtre) https://www.fourviere.org/fr/vie-du-site-notre-dame-de-fourviere/notre-dame-de-fourviere/la-basilique/\n- Plat : image générée par une intelligence artificielle",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La basilique | Notre-Dame de Fourvière\n\n(Ouvre une nouvelle fenêtre) Fondue savoyarde | Site Officiel de la Chartreuse en Savoie et Isère, au coeur de Rhone Alpes : hébergement et séjour de ski, randonnée",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La basilique | Notre-Dame de Fourvière",
+      "url": "https://www.fourviere.org/fr/vie-du-site-notre-dame-de-fourviere/notre-dame-de-fourviere/la-basilique/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Fondue savoyarde | Site Officiel de la Chartreuse en Savoie et Isère, au coeur de Rhone Alpes : hébergement et séjour de ski, randonnée",
+      "url": "https://www.chartreuse-tourisme.com/preparer-son-sejour/manger-boire-deguster/recettes-et-specialites/fondue-savoyarde/"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+  "title": "Le découpage administratif de la France (3/3)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "organisation-de-la-republique-francaise",
+  "subcategoryName": "Organisation de la République Française",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-3/",
+  "objectives": [
+    "Comprendre ce que l’on appelle le découpage administratif.Découvrir un exemple de répartition des compétences entre l'Etat et les collectivités territoriales."
+  ],
+  "sections": [
+    {
+      "heading": "Le découpage administratif en France, qu’est-ce que c’est ?",
+      "content": "Les ministères, qui mettent en œuvre les décisions du gouvernement : l'administration centrale définit et encadre les politiques à l’échelle nationale ;\n- Les collectivités territoriales :les communes (34 875) ;les départements (101 dont 5 en Outre-mer) ;les régions (18 dont 5 Outre-Mer).\n- les communes (34 875) ;\n- les départements (101 dont 5 en Outre-mer) ;\n- les régions (18 dont 5 Outre-Mer).\n\nLes ministères et les collectivités territoriales sont chargés, selon leurs compétences, de gérer le pays et chacun des territoires.",
+      "type": "text"
+    },
+    {
+      "heading": "Exemple de répartition des compétences entre l’État et les collectivités territoriales : l’école en France",
+      "content": "Le service public de l’Éducation est concerné par la décentralisation : l’État a transféré certaines compétences aux collectivités territoriales.\n\nL’État (l’administration centrale) :définit les programmes scolaires ;recrute, forme et gère les enseignants ;valide les manuels scolaires ;supervise les universités.\n- définit les programmes scolaires ;\n- recrute, forme et gère les enseignants ;\n- valide les manuels scolaires ;\n- supervise les universités.\n- Les régions gèrent les lycées ;\n- Les départements gèrent les collèges ;\n- Les communes gèrent les écoles maternelles et primaires.\n\nGérer un établissement scolaire réunit plusieurs compétences : construction et entretien des bâtiments, équipements et matériel, cantine.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Qu'est-ce qu'une collectivité territoriale ou collectivité locale ? | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Qu'est-ce qu'une collectivité territoriale ou collectivité locale ? | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/19604-quest-ce-quune-collectivite-territoriale-ou-collectivite-locale"
+    }
+  ]
+}

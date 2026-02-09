@@ -1,0 +1,39 @@
+{
+  "id": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+  "title": "Une puissance touristique",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "la-france-dans-l-europe-et-dans-le-monde",
+  "subcategoryName": "La France dans l'Europe et dans le monde",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique/",
+  "objectives": [
+    "Connaître les repères culturels de la société française.Savoir que la France est la première destination touristique au monde."
+  ],
+  "sections": [
+    {
+      "heading": "Quels sont les atouts touristiques de la France ?",
+      "content": "La France est la première destination touristique au monde. Elle attire les voyageurs du monde entier (plus de 100 millions en 2024) grâce à la richesse de son patrimoine et la diversité de ses paysages.\n\nL’offre touristique de la France est très étendue.\n\nPatrimoine culturel : musées (comme le musée du Louvre ou le musée d’Orsay), monuments historiques (tour Eiffel, Mont-Saint-Michel, châteaux de la Loire…), sites français classés à l’Unesco.\n- Patrimoine naturel : plages de la Côte d’Azur, montagnes des Alpes et des Pyrénées, campagnes verdoyantes, parcs naturels, régions viticoles réputées.\n- Événements internationaux : Festival de Cannes pour le cinéma, Roland-Garros pour le tennis, Tour de France pour le cyclisme…",
+      "type": "text"
+    },
+    {
+      "heading": "Pourquoi le tourisme est-il important pour la France ?",
+      "content": "Le tourisme est un secteur majeur de l’économie française. Ses retombées économiques représentent 8% du produit intérieur brut (PIB) national.\n\nC’est aussi un secteur qui génère de nombreux emplois : personnel dans les hôtels et restaurants, guides touristiques, métiers du transport et des activités culturelles… Plus de 2 millions d’emplois sont liés au tourisme en France, directement ou indirectement. Le tourisme contribue au dynamisme des régions, en particulier dans les zones rurales et les petites villes.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le secteur du tourisme en France | Direction générale des Entreprises\n\n(Ouvre une nouvelle fenêtre) Poids du tourisme dans l’économie française | Atout France",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le secteur du tourisme en France | Direction générale des Entreprises",
+      "url": "https://www.entreprises.gouv.fr/secteurs-dactivite/le-secteur-du-tourisme-en-france"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Poids du tourisme dans l’économie française | Atout France",
+      "url": "https://www.atout-france.fr/fr/informations/poids-du-tourisme-dans-leconomie-francaise#:~:text=PIB,est%20comparable%20aux%20pays%20concurrents."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+  "title": "Le 1er Empire (1804-1815)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/",
+  "objectives": [
+    "Connaître le 1er Empire.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que le 1er Empire ?",
+      "content": "Le 1er Empire correspond à la période où Napoléon 1er est au pouvoir. Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur.\n\nPendant cette période, Napoléon 1er mène plusieurs guerres en Europe pour étendre son empire et centralise le pouvoir en contrôlant la presse et les opposants. Affaibli par ses défaites, notamment en Russie en 1812, l’empereur abdique en 1814, puis définitivement le 7 juillet 1815 après la bataille de Waterloo. Le 1er Empire prend fin et la monarchie est rétablie.\n\nPersonnage clé : Napoléon Bonaparte est le fondateur et le chef du 1er Empire, sous le nom de Napoléon 1er. Il concentre entre ses mains le pouvoir politique, militaire et administratif et incarne l’autorité impériale en France.\n\nSur la droite, portrait de Napoléon Bonaparte en costume de sacre peint par François Gérard.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant cette période ?",
+      "content": "Le citoyen conserve l’égalité devant la loi, garantie par le Code civil de 1804. Celui-ci fixe des règles communes à tous, notamment sur la famille, la propriété et les contrats.\n\nMais sous l’Empire, les libertés politiques sont limitées : Napoléon concentre le pouvoir et contrôle la presse. Il rétablit l’esclavage en 1802 puis abolit la traite des noirs en 1815.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les apports de ce régime au système français actuel ?",
+      "content": "Le 1er Empire laisse un héritage durable avec le Code civil, qui garantit encore aujourd’hui l’égalité devant la loi et règle la vie en société.\n\nIl crée aussi des institutions, comme le lycée et le baccalauréat, qui structurent toujours le système éducatif français.\n\nSource photo : RMN-GP (Château de Versailles) / © Franck Raux.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Consulat et Premier Empire : l’autoritarisme napoléonien (1799-1815) | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Consulat et Premier Empire : l’autoritarisme napoléonien (1799-1815) | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/268948-consulat-et-premier-empire-lautoritarisme-napoleonien-1799-1815"
+    }
+  ]
+}

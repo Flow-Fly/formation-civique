@@ -1,0 +1,45 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie",
+  "title": "Patrimoine français : sites emblématiques et gastronomie",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie/",
+  "objectives": [
+    "Comprendre ce qu’est le patrimoine français, et en particulier le patrimoine culturel et gastronomique."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Comprendre ce qu’est le patrimoine français, et en particulier le patrimoine culturel et gastronomique.",
+      "type": "text"
+    },
+    {
+      "heading": "Le patrimoine, c’est quoi ?",
+      "content": "Le patrimoine est à la fois un ensemble de biens et de monuments qui retracent l’histoire de notre culture. Le patrimoine est aussi immatériel : traditions orales, art du spectacle, pratiques sociales, rituels…",
+      "type": "text"
+    },
+    {
+      "heading": "Les monuments historiques et lieux emblématiques de France",
+      "content": "La France a une histoire culturelle et historique riche et variée. Pour protéger son patrimoine culturel, certains monuments historiques sont protégés par un statut juridique particulier destiné à les protéger.\n\nOn pourrait faire le portrait de la France grâce aux lieux emblématiques et monuments historiques de ses territoires.",
+      "type": "text"
+    },
+    {
+      "heading": "La gastronomie française",
+      "content": "La gastronomie française fait partie du patrimoine immatériel français. Elle rassemble des milliers de recettes et traditions culinaires locales.\n\nInscrite au patrimoine mondial de l’UNESCO, la gastronomie française est une façon de se rassembler pour un bon repas lors d’événements importants (naissances, mariages, anniversaires…). Autour d’au moins 4 plats, des produits de qualité sont servis sur une table décorée avec du vin sélectionné avec soin.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Site du ministère de la culture",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Site du ministère de la culture",
+      "url": "https://www.culture.gouv.fr/thematiques/inventaire-general-du-patrimoine"
+    }
+  ]
+}

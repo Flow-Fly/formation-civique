@@ -1,0 +1,44 @@
+{
+  "id": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+  "title": "Le drapeau français",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "les-symboles-de-la-republique",
+  "subcategoryName": "Les symboles de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/le-drapeau-fran%C3%A7ais/",
+  "objectives": [
+    "Comprendre ce que représente le drapeau français.Reconnaître les moments et les lieux où il est utilisé dans la vie de tous les jours."
+  ],
+  "sections": [
+    {
+      "heading": "Les couleurs",
+      "content": "Le drapeau français est un symbole officiel de la République française.\n\nLe drapeau est composé de trois bandes verticales : bleu, blanc et rouge.\n- Chaque couleur a une signification : le bleu et le rouge étaient les couleurs de la ville de Paris, tandis que le blanc était la couleur du roi.\n- L'alliance des trois couleurs était donc le symbole de l'alliance du roi et du peuple et reste le symbole d'une France unie.\n\nSur la droite, façade de la sous-préfecture de Montbrison.",
+      "type": "text"
+    },
+    {
+      "heading": "L'histoire du drapeau français",
+      "content": "En juillet 1789, pendant la Révolution française, les gardes nationaux parisiens portent une cocarde bleue et rouge, les couleurs de la ville de Paris.\n- Le général Lafayette, pour symboliser l’unité entre le roi et le peuple, ajoute le blanc royal au centre : c’est la naissance des trois couleurs réunies.\n- En 1790, le drapeau tricolore commence à être utilisé dans la marine.\n- Il est devenu le drapeau officiel de la France en 1794.\n- Il a perdu les couleurs bleue et rouge lors du retour de la monarchie qui ne garda que blanc royal.\n- Le drapeau bleu blanc rouge est revenu définitivement en 1830.",
+      "type": "text"
+    },
+    {
+      "heading": "Où voit-on le drapeau aujourd'hui ?",
+      "content": "Devant les bâtiments publics : mairies, écoles, préfectures...\n- Lors des cérémonies officielles, des fêtes nationales (14 juillet).\n- Dans les stades pendant les compétitions sportives.\n- Sur certains documents officiels (carte d’identité, permis de conduire).\n\nIl est interdit de faire outrage au drapeau français, c'est-à-dire de détruire ou d'utiliser de manière dégradante le drapeau en public.\n\nSource photo : Ministère de l’Intérieur - J.Rocha",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le drapeau français | Élysée\n\n(Ouvre une nouvelle fenêtre) La petite histoire du drapeau tricolore | info.gouv.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le drapeau français | Élysée",
+      "url": "https://www.elysee.fr/la-presidence/le-drapeau-francais"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La petite histoire du drapeau tricolore | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/actualite/la-petite-histoire-du-drapeau-tricolore"
+    }
+  ]
+}

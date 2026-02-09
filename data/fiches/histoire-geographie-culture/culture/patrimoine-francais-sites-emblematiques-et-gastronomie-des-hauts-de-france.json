@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-des-hauts-de-france",
+  "title": "Patrimoine français : sites emblématiques et gastronomie des Hauts-de-France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-des-hauts-de-france/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux des Hauts-de-France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux des Hauts-de-France.",
+      "type": "text"
+    },
+    {
+      "heading": "Le beffroi de Lille, symbole fort de la ville",
+      "content": "Le beffroi de Lille est une grande tour de l’hôtel de ville de Lille.\n\nInauguré en 1932, il est le plus haut beffroi civil d’Europe. Sa hauteur offre une vue panoramique exceptionnelle.\n\nSon style architectural moderne et traditionnel reflète son histoire : il a été créé lors de la reconstruction de l’hôtel de ville détruit pendant la Première Guerre mondiale.\n\nLieu important pour les habitants, le beffroi de Lille est classé au patrimoine mondial de l’UNESCO depuis 2005.",
+      "type": "text"
+    },
+    {
+      "heading": "Le maroilles, fromage traditionnel des Hauts-de-France",
+      "content": "Le maroilles est un fromage à pâte molle, fabriqué en Hauts-de-France.\n\nOn peut le manger avec du pain ou le cuisiner : tarte (ou flamiche) au maroilles, fondue au maroilles…\n\nLe maroilles a une odeur puissante et un goût fort et représente le savoir-faire agricole et fromager des Hauts-de-France.\n\nSources photos :\n\nMonument : \n                (Ouvre une nouvelle fenêtre) https://www.lille.fr/Lille-Centre/Decouvrir-le-quartier/Culture-loisirs-et-patrimoine/L-hotel-de-ville-et-son-beffroi\n- Plat : \n                (Ouvre une nouvelle fenêtre) https://www.hautsdefrance.fr/le-maroilles-14-siecles-de-gout-et-dhistoire/",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) L'hôtel de ville et son beffroi / Nos équipements | Ville de Lille\n\n(Ouvre une nouvelle fenêtre) Le Maroilles : 14 siècles de goût et d'histoire | Région Hauts-de-France",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) L'hôtel de ville et son beffroi / Nos équipements | Ville de Lille",
+      "url": "https://www.lille.fr/Nos-equipements/L-hotel-de-ville-et-son-beffroi"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le Maroilles : 14 siècles de goût et d'histoire | Région Hauts-de-France",
+      "url": "https://www.hautsdefrance.fr/le-maroilles-14-siecles-de-gout-et-dhistoire/"
+    }
+  ]
+}

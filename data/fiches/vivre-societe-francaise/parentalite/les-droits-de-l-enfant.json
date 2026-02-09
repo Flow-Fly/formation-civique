@@ -1,0 +1,49 @@
+{
+  "id": "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+  "title": "Les droits de l'enfant",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-droits-de-l-enfant/",
+  "objectives": [
+    "Identifier le document international qui a défini les droits de l’enfant.Comprendre un des principes fondamentaux des droits de l’enfant.Connaître les principaux droits de l’enfant."
+  ],
+  "sections": [
+    {
+      "heading": "La Convention internationale des droits de l’enfant",
+      "content": "En 1989, 196 États ont signé un document sur les droits de l’enfant dans le cadre de l’Organisation des Nations Unies (ONU). Ce document s’appelle la Convention Internationale des Droits de l’Enfant. Seuls les États-Unis ne l’ont pas signé.\n\nCe document présente les droits fondamentaux des enfants.\n\nIl impose des contraintes aux États qui l’ont signé. Il assure donc la protection des enfants.\n\nC’est le fondement de toute l’action de l’UNICEF, une organisation qui dépend de l’ONU.",
+      "type": "text"
+    },
+    {
+      "heading": "L’intérêt de l’enfant est supérieur",
+      "content": "L’intérêt de l’enfant est supérieur à sa volonté et à celle de ses parents. C’est l’un des principes de la Convention.\n\nCe principe signifie que l'enfant peut choisir lui-même son avenir. Ce ne sont pas ses parents qui décident à sa place, sauf si les décisions de l’enfant le mettent en danger.",
+      "type": "text"
+    },
+    {
+      "heading": "Les principaux droits de l’enfant",
+      "content": "L’égalité.\n- Avoir un nom, une identité.\n- Vivre en famille.\n- Être soigné, protégé des maladies, avoir une alimentation suffisante et équilibrée.\n- Bénéficier d’une justice adaptée à son âge.\n- Aller à l’école et avoir des loisirs.\n- Protection de la vie privée.\n- Ne pas faire la guerre ni la subir : être protégé en temps de guerre.\n- Protection contre la violence.\n- Protection contre l'exploitation.\n- Liberté de s’informer et de s’exprimer, d’être entendu sur les questions qui le concernent.\n- Enfant en situation de handicap : vivre avec et comme les autres, ils peuvent bénéficier d'un emploi du temps aménagé.",
+      "type": "text"
+    },
+    {
+      "heading": "Transcription",
+      "content": "12 PRINCIPAUX DROITS DE L’ENFANTCes droits sont inscrits dans la Convention internationale des droits de l’enfant (CIDE), adoptée par l’ONU le 20 novembre 1989.\n\ndroit à l’égalité;\n- droit d’avoir une identité;\n- droit de vivre en famille;\n- droit à la santé;\n- droit à l’éducation et aux loisirs;\n- droit à la protection de la vie privée;\n- droit à une justice adaptée à son âge;\n- droit d’être protégé en temps de guerre;\n- droit d’être protégé contre toutes les formes de violences;\n- droit d’être protégé contre toutes les formes d’exploitation;\n- droit de s’exprimer et d’être entendu sur les questions qui le concernent;\n- droit de l’enfant en situation de handicap de vivre avec et comme les autres.\n\nEn cas de problème, contactez le Défenseur des droits :Téléphone : 09 69 39 00 00Site web : defenseurdesdroits.fr\n\nDéfenseur des droits – République Française",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La Convention Internationale des Droits de l'Enfant (CIDE) – UNICEF\n\n(Ouvre une nouvelle fenêtre) Affiche 12 principaux droits de l'enfant | Défenseur des Droits",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La Convention Internationale des Droits de l'Enfant (CIDE) – UNICEF",
+      "url": "https://www.unicef.fr/convention-droits-enfants/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Affiche 12 principaux droits de l'enfant | Défenseur des Droits",
+      "url": "https://www.defenseurdesdroits.fr/affiche-12-principaux-droits-de-lenfant-321"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+  "title": "Les démarches du quotidien comme le permis de conduire (1/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-le-permis-de-conduire-1/",
+  "objectives": [
+    "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi.Comprendre les démarches pour obtenir ou échanger un permis de conduire en France.Comprendre les démarches pour assurer une voiture."
+  ],
+  "sections": [
+    {
+      "heading": "Peut-on conduire en France ?",
+      "content": "Si vous avez une voiture personnelle, il est obligatoire d’avoir :\n\nun permis de conduire valide ;\n- une carte grise du véhicule à jour ;\n- une assurance automobile.\n\nL’entretien d’une voiture est obligatoire tous les 2 ans (pour les véhicules de plus de 4 ans).",
+      "type": "text"
+    },
+    {
+      "heading": "Comment passer son permis en France ?",
+      "content": "Pour passer son permis, rendez-vous en auto-école ou inscrivez-vous en candidat libre. Il est nécessaire d'avoir 17 ans au minimum et être résident en France pour passer l'examen du permis de conduire.\n\nVous devrez suivre une formation théorique (code de la route) et une formation pratique (minimum 20 heures).\n\nLe permis comprend 2 épreuves :\n\nle Code de la route : un examen théorique sous forme de QCM (Questionnaire à Choix Multiples) sur les règles de circulation, la sécurité, les priorités...\n- une épreuve pratique d’environ 30 minutes de conduite, incluant une manœuvre, un test de sécurité et un parcours sur route.\n\nUne fois le permis de conduire obtenu, il est nécessaire de prendre une assurance avant de pouvoir conduire sa voiture.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Transports - Mobilité | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Passer son permis de conduire | Sécurité Routière",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Transports - Mobilité | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/N19812"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Passer son permis de conduire | Sécurité Routière",
+      "url": "https://www.securite-routiere.gouv.fr/passer-son-permis-de-conduire"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--pays-de-la-loire",
+  "title": "Pays de la Loire",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/pays-de-la-loire/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : les Pays de la Loire."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : les Pays de la Loire.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région des Pays de la Loire ?",
+      "content": "La région des Pays de la Loire est située à l’ouest de la France. Elle est bordée par l’océan Atlantique et proche de la Bretagne, du Centre-Val de Loire et de la Nouvelle-Aquitaine.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes des Pays de la Loire ?",
+      "content": "Les Pays de la Loire comptent 5 départements : Loire-Atlantique, Maine-et-Loire, Mayenne, Sarthe, Vendée.\n\nSes principales villes sont Nantes (préfecture), Angers, Le Mans, Laval, La Roche-sur-Yon.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 3,9 millions d’habitants. La population augmente rapidement, notamment dans les villes de Nantes, Angers et Le Mans.\n\nSecteurs économiques clés\n\nIndustrie (navale, agroalimentaire, aéronautique), agriculture, numérique, énergies renouvelables, tourisme (littoral vendéen, châteaux, patrimoine culturel).\n\nSituation du marché du travail\n\nLe taux de chômage est inférieur à la moyenne nationale. L’économie est dynamique, avec une région attractive et des travailleurs qualifiés.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Région des Pays de la Loire | Insee\n\n(Ouvre une nouvelle fenêtre) Demande d’emploi en Pays de la Loire, troisième trimestre 2025 | DREETS",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Région des Pays de la Loire | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=REG-52"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Demande d’emploi en Pays de la Loire, troisième trimestre 2025 | DREETS",
+      "url": "https://pays-de-la-loire.dreets.gouv.fr/Demande-d-emploi-en-Pays-de-la-Loire-quatrieme-trimestre-2024"
+    }
+  ]
+}

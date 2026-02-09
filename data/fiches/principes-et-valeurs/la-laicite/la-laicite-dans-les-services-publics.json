@@ -1,0 +1,49 @@
+{
+  "id": "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+  "title": "La laïcité dans les services publics",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-laicite",
+  "subcategoryName": "La laïcité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-les-services-publics/",
+  "objectives": [
+    "Comprendre comment s'applique le principe de laïcité dans les services publics."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Comprendre comment s'applique le principe de laïcité dans les services publics.",
+      "type": "text"
+    },
+    {
+      "heading": "La neutralité dans les services publics",
+      "content": "Les personnes qui travaillent dans les services publics ainsi que dans les entreprises ou associations qui ont une mission de service public ne peuvent pas exprimer ou montrer leurs convictions (religieuses, politiques ou philosophiques). Les opinions et croyances sont de l’ordre de la vie privée et ne doivent pas s’imposer aux autres. Cela permet de traiter les usagers de manière équitable.\n\nCette neutralité se concrétise aussi dans les bâtiments des services publics. Aucun signe ou emblème religieux, politique ou philosophique ne doit être exposé dans les bureaux, aux guichets ou encore dans les espaces communs.\n\nIl n’est pas possible de demander une adaptation du service public au nom d’une religion.",
+      "type": "text"
+    },
+    {
+      "heading": "La neutralité ne concerne pas les usagers",
+      "content": "La neutralité ne s’impose pas aux personnes qui se rendent dans un service public en tant qu’usagers. Elles peuvent donc porter un signe d’appartenance religieuse.\n\nCette liberté est limitée dans certaines situations, de manière ponctuelle. Par exemple, une personne qui porte un voile doit l’enlever un moment pour la vérification de son identité à l’occasion de la remise d’un passeport. De même, les usagers ne peuvent pas demander une adaptation du service public au nom d'une religion.",
+      "type": "text"
+    },
+    {
+      "heading": "La charte de la laïcité dans les services publics",
+      "content": "Il existe un document qui rappelle les droits et les devoirs pour respecter la laïcité dans les services publics. Il s’adresse aux usagers et aux personnes qui travaillent dans ces services. C’est la Charte de la laïcité dans les services publics.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Le portail de la fonction publique",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Comprendre la laïcité | info.gouv.fr\n\n(Ouvre une nouvelle fenêtre) Laïcité et neutralité de la fonction publique | Le portail de la fonction publique",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Comprendre la laïcité | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2023_12_comprendre_la_laicite_-_fonction_publique_vdef.pdf"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Laïcité et neutralité de la fonction publique | Le portail de la fonction publique",
+      "url": "https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-louverture-dun-compte-bancaire",
+  "title": "Les démarches du quotidien comme l’ouverture d’un compte bancaire",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "demarches-administratives",
+  "subcategoryName": "Démarches administratives",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-louverture-dun-compte-bancaire/",
+  "objectives": [
+    "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : l’ouverture d’un compte bancaire."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les démarches essentielles pour garantir son installation et sa résidence dans le respect de la loi : l’ouverture d’un compte bancaire.",
+      "type": "text"
+    },
+    {
+      "heading": "Un compte bancaire, pour quoi faire ?",
+      "content": "Le compte bancaire est très utile :\n\nl’argent y est en sécurité (pas de perte ou de vol) ;\n- il est obligatoire pour réaliser beaucoup de démarches administratives, pour travailler (pour recevoir son salaire).",
+      "type": "text"
+    },
+    {
+      "heading": "Comment ouvrir un compte bancaire en France ?",
+      "content": "Chaque personne peut ouvrir un compte bancaire en France. Il faut néanmoins respecter certaines règles :\n\nvérification de l’identité : présenter une pièce d'identité officielle comportant une photographie ;\n- vérification de l’âge : être majeur ou mineur émancipé pour ouvrir seul un compte individuel (ou mineur avec autorisation des représentants légaux) ;\n- justification du domicile de moins de 3 mois en fournissant par exemple l'un des documents suivants : avis d’imposition, quittance de loyer, facture d’eau ou d’électricité, attestation de domicile ;\n- dépôt de signature : déposer une signature qui sera enregistrée par la banque.\n\nOuvrir un compte bancaire est gratuit (mais la banque peut faire payer des frais pour la tenue du compte).",
+      "type": "text"
+    },
+    {
+      "heading": "Et si la banque refuse d’ouvrir un compte ?",
+      "content": "La banque que vous avez contactée peut refuser de vous ouvrir un compte, sans avoir besoin de justifier sa décision.\n\n> Vous souhaitez faire valoir votre droit au compte ?\n\nSaisissez la Banque de France, responsable de cette mission.\n\nQuel est le rôle de la Banque de France ?\n\nLa Banque de France gère des services à l’économie : droit au compte, accompagnement des personnes en surendettement… ainsi que la stratégie monétaire et assure la stabilité des prix.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Compte bancaire individuel | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Faire valoir votre droit au compte bancaire",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Compte bancaire individuel | Service-Public.fr",
+      "url": "http://service-public.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Faire valoir votre droit au compte bancaire",
+      "url": "https://www.banque-france.fr/fr/a-votre-service/particuliers/faire-valoir-droit-au-compte-bancaire"
+    }
+  ]
+}

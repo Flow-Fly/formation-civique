@@ -1,0 +1,40 @@
+{
+  "id": "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-2",
+  "title": "Le fonctionnement européen (2/2)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "institutions-europeennes",
+  "subcategoryName": "Institutions européennes",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2/",
+  "objectives": [
+    "Comprendre le fonctionnement européen.Connaître les principales institutions de l’Union européenne.Comprendre le rôle de chaque institution européenne."
+  ],
+  "sections": [
+    {
+      "heading": "Le Conseil européen et le Conseil de l’Union européenne",
+      "content": "Ces deux institutions sont toutes les deux situées à Bruxelles. Elles ont des noms similaires mais elles n’ont pas les mêmes rôles, pas les mêmes membres.\n\nLe Conseil européen donne les grandes orientations politiques et budgétaires de l’Union européenne (UE).\n\nIl réunit les 27 chefs d’État ou de gouvernement des pays membres de l’UE.\n\nLe Conseil de l’Union Européenne coordonne les politiques communes, conclut des accords internationaux, vote le budget de l’UE, élabore la politique étrangère et de sécurité de l’UE, coordonne les politiques des États membres dans certains domaines.\n\nIl n’a pas de membres permanents : il réunit les ministres des pays membres, choisis en fonction des domaines à traiter (agriculture, économie…).",
+      "type": "text"
+    },
+    {
+      "heading": "La Commission européenne et le Parlement européen",
+      "content": "La Commission européenne est située à Bruxelles et le Parlement européen à Strasbourg.\n\nLa Commission européenne représente les intérêts communs, propose le budget et propose les lois.\n\nElle réunit les 27 commissaires européens, un pour chaque pays membre. Chaque commissaire européen est chargé d’un domaine : agriculture, justice, égalité… La commission exécute les décisions du Conseil et du Parlement\n\nLe Parlement européen vote le budget et vote les lois, avec le Conseil de l’Union européenne. Il contrôle la Commission européenne.\n\nIl réunit 720 députés européens, répartis en groupes politiques (sociaux-démocrates, libéraux, libéraux, etc.).",
+      "type": "text"
+    },
+    {
+      "heading": "La cour de Justice",
+      "content": "La cour de Justice est située à Luxembourg.\n\nElle rend la justice à l’échelle européenne. Par exemple, elle traite les conflits juridiques entre des institutions et/ou des États membres de l’UE.\n\nElle vérifie également que les Etats appliquent correctement le droit européen.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Les institutions européennes | Touteleurope.eu",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Les institutions européennes | Touteleurope.eu",
+      "url": "https://www.touteleurope.eu/fonctionnement-de-l-ue/les-institutions-europeennes/"
+    }
+  ]
+}

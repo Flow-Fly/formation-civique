@@ -1,0 +1,40 @@
+{
+  "id": "principes-et-valeurs--la-laicite--le-blaspheme",
+  "title": "Le blasphème",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-laicite",
+  "subcategoryName": "La laïcité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/le-blaspheme/",
+  "objectives": [
+    "Comprendre ce qu’est le blasphème.Comprendre pourquoi il n’est pas interdit en France.Connaître les limites fixées par la loi."
+  ],
+  "sections": [
+    {
+      "heading": "Les bases : qu’est-ce que la liberté d’expression ?",
+      "content": "En France, la liberté d’expression est un droit fondamental. Elle est garantie par la Déclaration des droits de l'homme et du citoyen de 1789 :\n\nchacun a le droit d’avoir ses opinions, même religieuses, à condition que cela ne trouble pas l’ordre public ;\n- chacun peut parler, écrire et publier librement.",
+      "type": "text"
+    },
+    {
+      "heading": "Le blasphème, c’est quoi ?",
+      "content": "Le blasphème, c’est quand on critique ou se moque d’une religion, d’un dieu ou de ce que certains considèrent comme sacré.En France, pays laïque, le blasphème n’est pas interdit :\n\non a le droit de critiquer une religion ;\n- on ne peut pas être puni pour avoir dit quelque chose contre une religion.\n\nLa caricature est libre et ne peut être punie.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont les limites ?",
+      "content": "Au nom de la liberté d'expression, même si le blasphème n’est pas interdit, on ne peut pas dire tout et n’importe quoi. Certains propos sont punis par la loi, par exemple :\n\nles insultes ou propos haineux envers des personnes à cause de leur religion ;\n- l'encouragement à commettre certains crimes ou délits contre une religion ;\n- l’incitation à la haine raciale ou ethnique, à la violence ou à la discrimination religieuse ;\n- la négation de la Shoah (génocide des Juifs pendant la Seconde Guerre mondiale).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Fiche n°17 – Laïcité et liberté d'expression vis-à-vis des religions | info.gouv.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Fiche n°17 – Laïcité et liberté d'expression vis-à-vis des religions | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2020_02_fiche_n17-_laicite_et_liberte_dexpression_vis-a-vis_des_religions.pdf"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+  "title": "La fraternité (2/2)",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-devise-de-la-republique",
+  "subcategoryName": "La devise de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/fraternite-2/",
+  "objectives": [
+    "Connaître et comprendre les différentes formes d’engagement dans la vie associative et locale."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître et comprendre les différentes formes d’engagement dans la vie associative et locale.",
+      "type": "text"
+    },
+    {
+      "heading": "Les différentes formes de l’engagement",
+      "content": "En France, chaque personne - française ou étrangère - peut s’engager librement. Ce droit, que l’on appelle \"liberté d’association\", est inscrit dans une loi qui date de 1901.\n\nCet engagement peut prendre différentes formes :\n\ntravailler dans une association (culture, sport, aide humanitaire…) ;\n- mener une action pour les autres, sur son temps libre, sans être payé (bénévolat), par exemple pour une association ;\n- adhérer à un syndicat (pour défendre les droits des travailleurs) ;\n- adhérer à un parti politique, participer à une campagne électorale…",
+      "type": "text"
+    },
+    {
+      "heading": "Pourquoi s’engager dans une association ?",
+      "content": "S’engager dans une association permet de :\n\nrencontrer des personnes qui ont des situations de vie différentes ;\n- défendre des idées, aider les autres ou encore participer à la société.\n\nL’engagement est aussi une manière de participer à la vie collective, à la solidarité et à la démocratie.",
+      "type": "text"
+    },
+    {
+      "heading": "Comment créer une association ?",
+      "content": "La création d’une association est une démarche simple. Il faut :\n\nréunir au moins deux personnes ;\n- choisir un objectif non lucratif, c’est-à-dire qui n’a pas pour but de gagner de l’argent ;Exemple : aider des personnes, préserver l’environnement, partager une activité culturelle…\n- rédiger les statuts, c'est-à-dire les règles de fonctionnement de l’association ;\n- faire une déclaration à la préfecture ou sur internet.\n\nPour financer les activités de l’association, il est possible de recevoir des dons ou des subventions, à condition de respecter certaines obligations : transparence sur les finances, respect des lois, déclaration des changements (nouveaux dirigeants, achat de local…).\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogramme FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) S’engager dans une association | Associations.gouv.fr\n\n(Ouvre une nouvelle fenêtre) Je crée une association | Service-Public.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) S’engager dans une association | Associations.gouv.fr",
+      "url": "https://www.associations.gouv.fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Je crée une association | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F3109"
+    }
+  ]
+}

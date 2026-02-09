@@ -1,0 +1,44 @@
+{
+  "id": "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+  "title": "Accès aux soins : services et numéros d’urgence",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "sante",
+  "subcategoryName": "Santé",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-services-et-numeros-d-urgence/",
+  "objectives": [
+    "Connaître les services et les numéros d’urgence.Connaître le parcours de santé."
+  ],
+  "sections": [
+    {
+      "heading": "Les services d’urgence, c’est quoi ?",
+      "content": "Les services d’urgence des hôpitaux sont destinés uniquement aux détresses et urgences les plus graves.\n\nCe service accueille toute personne en situation d’urgence (y compris psychiatriques) et la prend en charge. Les services d’urgence sont ouverts 24h/24 et 7j/7 afin de prendre en charge les urgences vitales et les blessures graves qui nécessitent une prise en charge immédiate.",
+      "type": "text"
+    },
+    {
+      "heading": "Qui contacter en cas d’urgence ?",
+      "content": "Il faut agir selon la gravité de l’urgence médicale.\n\nSans danger vital immédiat (en cas de forte fièvre, de douleurs importantes ou de malaise) : vous pouvez contacter SOS Médecins au 3624 (0,16 €/minute). En cas de nécessité, un médecin peut venir à domicile, de jour comme de nuit (tarifs conventionnés). Le numéro est joignable 24h/24 et 7j/7.\n- En cas de danger vital (blessure grave, détresse respiratoire, perte de connaissance ou tout autre danger vital) : il faut appeler le SAMU au 15 ou 114 (appel d’urgence pour sourds et malentendants). Une équipe médicale pourra évaluer la situation et envoyer une ambulance si nécessaire. Le numéro est joignable gratuitement 24h/24 et 7j/7.\n\nSi l’état de santé nécessite une prise en charge rapide (entorse, plaie profonde…) mais permet le déplacement, vous pouvez vous rendre directement aux urgences de l’hôpital le plus proche.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les autres numéros d’urgence médicale ?",
+      "content": "Un enfant en danger ? Appelez le 119.\n- Une femme victime de violence ? Appelez le 3919.\n- Pour la prévention du suicide : 3114 et en anglais : 01 46 21 46 46.\n\nRetrouvez tous les numéros d’urgence dans la fiche ANNEXE dédiée.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Quels sont les numéros en cas d'urgence (Samu, pompiers...) et les numéros d'écoute ? | Service-Public.fr\n\n(Ouvre une nouvelle fenêtre) Urgences | APHP",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Quels sont les numéros en cas d'urgence (Samu, pompiers...) et les numéros d'écoute ? | Service-Public.fr",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F33954"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Urgences | APHP",
+      "url": "https://www.aphp.fr/vous-soigner/les-prises-en-charge/urgences"
+    }
+  ]
+}

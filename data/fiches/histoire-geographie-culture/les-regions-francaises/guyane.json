@@ -1,0 +1,49 @@
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--guyane",
+  "title": "Guyane",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/guyane/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : la Guyane."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : la Guyane.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la Guyane ?",
+      "content": "La Guyane est située en Amérique du Sud, sur la côte atlantique.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les départements et les grandes villes de la Guyane ?",
+      "content": "La Guyane est à la fois un Département et une Région d’Outre-Mer (DROM).\n\nSes principales villes sont Cayenne (préfecture), Saint-Laurent-du-Maroni, Kourou, Matoury, Remire-Montjoly.",
+      "type": "text"
+    },
+    {
+      "heading": "Quelles sont ses caractéristiques ?",
+      "content": "Démographie\n\nEnviron 292 400 habitants. La population est jeune : plus de la moitié a moins de 30 ans.\n\nSecteurs économiques clés\n\nCentre spatial (CNES à Kourou), pêche, extraction d’or, agriculture, services publics.\n\nSituation du marché du travail\n\nLe taux de chômage est très élevé. Les services et les formations sont difficiles d’accès dans l’intérieur du territoire.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de la Guyane | Insee\n\n(Ouvre une nouvelle fenêtre) Taux de chômage localisé par département - Guyane | Insee",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Dossier complet − Département de la Guyane | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/2011101?geo=DEP-973"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Taux de chômage localisé par département - Guyane | Insee",
+      "url": "https://www.insee.fr/fr/statistiques/serie/010751339"
+    }
+  ]
+}

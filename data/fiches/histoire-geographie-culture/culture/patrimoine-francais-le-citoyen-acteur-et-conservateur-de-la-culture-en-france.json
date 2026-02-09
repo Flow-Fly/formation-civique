@@ -1,0 +1,48 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+  "title": "Patrimoine français : le citoyen, acteur et conservateur de la culture en France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france/",
+  "objectives": [
+    "Connaître les repères culturels de la société française.Comprendre l’importance du patrimoine en France."
+  ],
+  "sections": [
+    {
+      "heading": "L’artisanat, c’est quoi ?",
+      "content": "L’artisanat regroupe les métiers qui permettent de restaurer et de préserver le patrimoine culturel français : ébéniste, maître verrier, tailleur de pierre, doreur…\n\nCes savoir-faire rares sont souvent transmis de génération en génération.",
+      "type": "text"
+    },
+    {
+      "heading": "Le patrimoine culturel est-il important pour les citoyens français ?",
+      "content": "Les citoyens français sont engagés pour la protection du patrimoine :\n\non peut être acteur de la conservation du patrimoine : les artisans contribuent à la préservation du patrimoine, des associations locales bénévoles restaurent chapelles, moulins ou chemins historiques…\n- on peut contribuer financièrement à la protection du patrimoine avec par exemple le Loto du Patrimoine qui permet de sauvegarder les monuments fragiles grâce à l'argent récolté.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les projets de conservation les plus connus ?",
+      "content": "La protection et la conservation du patrimoine sont au cœur de grands projets :\n\nla reconstruction de la cathédrale de Notre-Dame de Paris : après l’incendie de 2019, plus de 840 millions d’euros ont été récoltés par des dons privés. L’exceptionnelle mobilisation citoyenne montre l’attachement fort des Français à ce patrimoine symbolique et leur volonté d’en être les gardiens ;\n- le label “Les Plus Beaux Villages de France” valorise les communes qui préservent leur patrimoine architectural et culturel, grâce à l’engagement direct des habitants et des élus locaux pour maintenir l’authenticité des lieux.\n\nSource photo : David Bordes / Ministère de la Culture",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) L'artisanat en France et les artisans français | Artisanat.fr\n\n(Ouvre une nouvelle fenêtre) Site officiel - Les Plus Beaux Villages de France\n\n(Ouvre une nouvelle fenêtre) Le chantier du siècle | Ministère de la Culture",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) L'artisanat en France et les artisans français | Artisanat.fr",
+      "url": "https://www.artisanat.fr/analyses-donnees/artisanat-en-france"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Site officiel - Les Plus Beaux Villages de France",
+      "url": "https://www.les-plus-beaux-villages-de-france.org/fr/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le chantier du siècle | Ministère de la Culture",
+      "url": "https://notre-dame-de-paris.culture.gouv.fr/fr"
+    }
+  ]
+}

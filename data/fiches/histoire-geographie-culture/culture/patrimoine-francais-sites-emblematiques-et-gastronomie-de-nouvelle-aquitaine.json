@@ -1,0 +1,44 @@
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-nouvelle-aquitaine",
+  "title": "Patrimoine français : sites emblématiques et gastronomie de Nouvelle-Aquitaine",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-nouvelle-aquitaine/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux de Nouvelle-Aquitaine."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux de Nouvelle-Aquitaine.",
+      "type": "text"
+    },
+    {
+      "heading": "La Dune du Pilat, paysage emblématique de la côte atlantique",
+      "content": "La dune du Pilat est au bord du bassin d’Arcachon.\n\nLa dune du Pilat est la plus haute dune d’Europe avec plus de 100 mètres de hauteur et 3 kilomètres de long. Formée par les vents et les marées, la dune est en mouvement permanent, avançant lentement vers l’intérieur des terres.\n\nElle offre une vue panoramique sur l’Atlantique, la forêt des Landes et le banc de sable d’Arguin.\n\nLa dune du Pilat est un site naturel protégé.Entre mer et forêt, elle attire plus d’1 million de visiteurs chaque année.",
+      "type": "text"
+    },
+    {
+      "heading": "Le foie gras du Périgord, spécialité culinaire du Sud-Ouest",
+      "content": "Le foie gras du Périgord est une spécialité de la Nouvelle-Aquitaine.\n\nIl est produit à partir de canards ou d’oies élevés selon un savoir-faire traditionnel transmis de générations en générations, dans un environnement rural préservé.\n\nCe mets raffiné est fondant et délicat.On en mange partout en France, surtout pendant la période des fêtes.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) La Grande dune du Pilat | Site officiel\n\n(Ouvre une nouvelle fenêtre) Foie gras du Périgord | Périgord",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) La Grande dune du Pilat | Site officiel",
+      "url": "https://ladunedupilat.com/"
+    },
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Foie gras du Périgord | Périgord",
+      "url": "https://www.foiegras-perigord.com/fr"
+    }
+  ]
+}

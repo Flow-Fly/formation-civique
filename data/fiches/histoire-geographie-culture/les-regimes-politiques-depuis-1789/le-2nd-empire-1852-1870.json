@@ -1,0 +1,40 @@
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-2nd-empire-1852-1870",
+  "title": "Le 2nd Empire (1852-1870)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-2nd-empire-1852-1870/",
+  "objectives": [
+    "Connaître le Second Empire.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que le Second Empire ?",
+      "content": "Louis-Napoléon Bonaparte organise un coup d’État en décembre 1851 et devient empereur des Français sous le nom de Napoléon III, le 2 décembre 1852.\n\nLe Second Empire est d’abord un régime autoritaire, avant de se libéraliser dans les années 1860 : les libertés sont alors plus importantes et le pouvoir du Parlement est renforcé. Pendant cette période, l’économie se modernise et la France s’ouvre à l’Europe.\n\nLe Second Empire s’achève le 4 septembre 1870, après la défaite des troupes françaises contre la Prusse.\n\nPersonnage clé : Louis-Napoléon Bonaparte, qui gouverne sous le nom de Napoléon III, est le neveu de Napoléon Ier. Il concentre les pouvoirs et limite les libertés. Malgré quelques réformes, son autorité diminue jusqu’à sa chute après la défaite contre la Prusse en 1870.\n\nSur la droite, copie du grand portrait officiel en pied de l’empereur Napoléon III, d’après Franz Xaver Winterhalter, 1853.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant cette période ?",
+      "content": "Le suffrage universel masculin est maintenu, mais les élections sont contrôlées et encadrées pour protéger le pouvoir en place.\n\nEn 1864, le droit de grève est partiellement autorisé.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les apports de ce régime au système français actuel ?",
+      "content": "Pendant sa phase libérale, le Second Empire renforce progressivement les droits du Parlement. En 1870, une réforme constitutionnelle instaure un régime de type parlementaire avec deux chambres législatives mais l’empereur peut toujours nommer et révoquer les ministres.\n\nSource photo : GrandPalaisRmn (Château de Versailles) / Gérard Blot.",
+      "type": "text"
+    },
+    {
+      "heading": "Pour aller plus loin",
+      "content": "(Ouvre une nouvelle fenêtre) Le Second Empire (1852-1870). Du souvenir d’Austerlitz à la défaite de Sedan | vie-publique.fr",
+      "type": "text"
+    }
+  ],
+  "references": [
+    {
+      "label": "(Ouvre une nouvelle fenêtre) Le Second Empire (1852-1870). Du souvenir d’Austerlitz à la défaite de Sedan | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/fiches/268974-le-second-empire-1852-1870-napoleon-iii"
+    }
+  ]
+}
