@@ -28,7 +28,7 @@ export function FlashcardsPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchParams, questions.length]);
 
-  const keyMap = useMemo(() => {
+  const keyMap = useMemo((): Record<string, () => void> => {
     if (deck.state.phase !== "active") return {};
     if (!deck.state.flipped) {
       return {
