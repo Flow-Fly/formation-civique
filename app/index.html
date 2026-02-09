@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation Civique — Cartes memoire</title>
+  <meta name="description" content="Application d'apprentissage pour la formation civique francaise. 258 questions avec quiz et repetition espacee.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Loading state */
+    .loading-screen {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header" id="app-header" role="banner">
+      <span class="logo">Formation Civique</span>
+    </header>
+    <main class="main-content" id="app-content" role="main">
+      <div class="loading-screen">Chargement...</div>
+    </main>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
