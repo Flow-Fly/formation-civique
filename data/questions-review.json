@@ -25,8 +25,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Les premières paroles de la Marseillaise, hymne national français, sont « Allons enfants de la patrie, le jour de gloire est arrivé ». Elle a été composée par Rouget de Lisle en 1792.",
-    "relatedFicheIds": [],
+    "explanation": "Les premières paroles de la Marseillaise, hymne national français, sont « Allons enfants de la patrie, le jour de gloire est arrivé ». Elle a été composée par Rouget de Lisle en 1792.\nPour en savoir plus, consultez la fiche : L'hymne français",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -56,8 +58,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Lors d'un entretien d'embauche, seules les questions relatives aux compétences professionnelles sont autorisées. Les questions sur la religion, l'origine ethnique ou l'appartenance syndicale constituent une discrimination.",
-    "relatedFicheIds": [],
+    "explanation": "Lors d'un entretien d'embauche, seules les questions relatives aux compétences professionnelles sont autorisées. Les questions sur la religion, l'origine ethnique ou l'appartenance syndicale constituent une discrimination.\nPour en savoir plus, consultez la fiche : Le droit du travail (3/5)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -87,8 +91,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Déclarer ses revenus aux services fiscaux est obligatoire pour toute personne résidant en France. C'est un devoir civique qui permet de financer les services publics.",
-    "relatedFicheIds": [],
+    "explanation": "Déclarer ses revenus aux services fiscaux est obligatoire pour toute personne résidant en France. C'est un devoir civique qui permet de financer les services publics.\nPour en savoir plus, consultez la fiche : L'impôt en France et la déclaration de revenus",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -118,8 +124,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les impôts permettent de financer les dépenses publiques : éducation, santé, infrastructures, sécurité, etc. Tous les résidents contribuent selon leurs moyens (principe de solidarité nationale).",
-    "relatedFicheIds": [],
+    "explanation": "Les impôts permettent de financer les dépenses publiques : éducation, santé, infrastructures, sécurité, etc. Tous les résidents contribuent selon leurs moyens (principe de solidarité nationale).\nPour en savoir plus, consultez la fiche : L'impôt en France et la déclaration de revenus",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -149,8 +157,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La liberté d'association est garantie par la loi du 1er juillet 1901. Toute personne peut créer ou rejoindre une association librement.",
-    "relatedFicheIds": [],
+    "explanation": "La liberté d'association est garantie par la loi du 1er juillet 1901. Toute personne peut créer ou rejoindre une association librement.\nPour en savoir plus, consultez la fiche : Les droits liés à la personne humaine",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -180,8 +191,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "La liberté d'expression sur les réseaux sociaux est libre mais encadrée par la loi. L'injure, la diffamation, l'incitation à la haine ou le harcèlement sont interdits.",
-    "relatedFicheIds": [],
+    "explanation": "La liberté d'expression sur les réseaux sociaux est libre mais encadrée par la loi. L'injure, la diffamation, l'incitation à la haine ou le harcèlement sont interdits.\nPour en savoir plus, consultez la fiche : La limite des libertés individuelles",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -211,8 +225,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Marianne est le symbole de la République française. Elle représente les valeurs de liberté et de démocratie. Son buste est présent dans toutes les mairies de France.",
-    "relatedFicheIds": [],
+    "explanation": "Marianne est le symbole de la République française. Elle représente les valeurs de liberté et de démocratie. Son buste est présent dans toutes les mairies de France.\nPour en savoir plus, consultez la fiche : Marianne",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -242,8 +258,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le drapeau tricolore bleu, blanc, rouge est un symbole officiel de la République française, inscrit dans la Constitution (article 2).",
-    "relatedFicheIds": [],
+    "explanation": "Le drapeau tricolore bleu, blanc, rouge est un symbole officiel de la République française, inscrit dans la Constitution (article 2).\nPour en savoir plus, consultez la fiche : Le drapeau français",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -273,8 +291,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La devise « Liberté, Égalité, Fraternité » est visible sur les bâtiments publics : mairies, écoles, tribunaux, ainsi que sur les documents officiels et les pièces de monnaie.",
-    "relatedFicheIds": [],
+    "explanation": "La devise « Liberté, Égalité, Fraternité » est visible sur les bâtiments publics : mairies, écoles, tribunaux, ainsi que sur les documents officiels et les pièces de monnaie.\nPour en savoir plus, consultez la fiche : La devise française",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -304,8 +324,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Les symboles officiels de la République française inscrits dans la Constitution sont le drapeau tricolore, la Marseillaise, la devise « Liberté, Égalité, Fraternité » et Marianne.",
-    "relatedFicheIds": [],
+    "explanation": "Les symboles officiels de la République française inscrits dans la Constitution sont le drapeau tricolore, la Marseillaise, la devise « Liberté, Égalité, Fraternité » et Marianne.\nPour en savoir plus, consultez la fiche : Le drapeau français",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+      "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -335,8 +358,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Brûler publiquement le drapeau français est un délit puni par la loi (article 433-5-1 du Code pénal). Le drapeau est un symbole de la République protégé.",
-    "relatedFicheIds": [],
+    "explanation": "Brûler publiquement le drapeau français est un délit puni par la loi (article 433-5-1 du Code pénal). Le drapeau est un symbole de la République protégé.\nPour en savoir plus, consultez la fiche : Le drapeau français",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -366,8 +391,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "La Sécurité sociale a été créée en 1945, après la Seconde Guerre mondiale, par les ordonnances des 4 et 19 octobre 1945. Elle garantit la protection de tous contre les risques sociaux.",
-    "relatedFicheIds": [],
+    "explanation": "La Sécurité sociale a été créée en 1945, après la Seconde Guerre mondiale, par les ordonnances des 4 et 19 octobre 1945. Elle garantit la protection de tous contre les risques sociaux.\nPour en savoir plus, consultez la fiche : La prise en charge : les différentes couvertures maladie",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--sante--la-prise-en-charge-les-differentes-couvertures-maladie"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -397,8 +424,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La fête nationale du 14 juillet commémore la prise de la Bastille le 14 juillet 1789, événement symbolique du début de la Révolution française, et la Fête de la Fédération du 14 juillet 1790.",
-    "relatedFicheIds": [],
+    "explanation": "La fête nationale du 14 juillet commémore la prise de la Bastille le 14 juillet 1789, événement symbolique du début de la Révolution française, et la Fête de la Fédération du 14 juillet 1790.\nPour en savoir plus, consultez la fiche : La fête nationale",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -428,8 +457,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Marianne porte un bonnet phrygien sur la tête, symbole de liberté hérité de l'Antiquité romaine où il était porté par les esclaves affranchis.",
-    "relatedFicheIds": [],
+    "explanation": "Marianne porte un bonnet phrygien sur la tête, symbole de liberté hérité de l'Antiquité romaine où il était porté par les esclaves affranchis.\nPour en savoir plus, consultez la fiche : Marianne",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -459,8 +490,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La fraternité dans la devise française signifie la solidarité et l'entraide entre les citoyens. Elle implique que chacun se soucie du bien-être des autres membres de la société.",
-    "relatedFicheIds": [],
+    "explanation": "La fraternité dans la devise française signifie la solidarité et l'entraide entre les citoyens. Elle implique que chacun se soucie du bien-être des autres membres de la société.\nPour en savoir plus, consultez la fiche : La fraternité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--fraternite-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -490,8 +523,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le coq est un symbole de la République française visible sur les maillots de l'équipe de France de football. Il symbolise la fierté et la vigilance.",
-    "relatedFicheIds": [],
+    "explanation": "Le coq est un symbole de la République française visible sur les maillots de l'équipe de France de football. Il symbolise la fierté et la vigilance.\nPour en savoir plus, consultez la fiche : Le coq",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -521,8 +556,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "La devise de la République française est « Liberté, Égalité, Fraternité ». Elle est inscrite dans la Constitution et figure sur les bâtiments publics.",
-    "relatedFicheIds": [],
+    "explanation": "La devise de la République française est « Liberté, Égalité, Fraternité ». Elle est inscrite dans la Constitution et figure sur les bâtiments publics.\nPour en savoir plus, consultez la fiche : La devise française",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -552,8 +589,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La liberté d'association est le droit de se regrouper librement pour partager des activités, défendre des idées ou des intérêts communs, garanti par la loi de 1901.",
-    "relatedFicheIds": [],
+    "explanation": "La liberté d'association est le droit de se regrouper librement pour partager des activités, défendre des idées ou des intérêts communs, garanti par la loi de 1901.\nPour en savoir plus, consultez la fiche : Les droits liés à la personne humaine",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -583,8 +623,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Une liberté est le droit d'agir sans contrainte dans les limites fixées par la loi. La liberté de chacun s'arrête là où commence celle des autres.",
-    "relatedFicheIds": [],
+    "explanation": "Une liberté est le droit d'agir sans contrainte dans les limites fixées par la loi. La liberté de chacun s'arrête là où commence celle des autres.\nPour en savoir plus, consultez la fiche : La liberté",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+      "droits-et-devoirs--droits-fondamentaux--introduction-aux-droits-fondamentaux"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -614,8 +657,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Selon l'article 1er de la Constitution, « La France est une République indivisible, laïque, démocratique et sociale. »",
-    "relatedFicheIds": [],
+    "explanation": "Selon l'article 1er de la Constitution, « La France est une République indivisible, laïque, démocratique et sociale. »\nPour en savoir plus, consultez la fiche : Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -645,8 +691,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Marianne figure sur les timbres-poste français, ainsi que dans les mairies et sur certains documents officiels de la République.",
-    "relatedFicheIds": [],
+    "explanation": "Marianne figure sur les timbres-poste français, ainsi que dans les mairies et sur certains documents officiels de la République.\nPour en savoir plus, consultez la fiche : Marianne",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -676,8 +724,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'Égalité signifie que tous les citoyens ont les mêmes droits et les mêmes devoirs, sans distinction de sexe, d'origine, de religion ou de condition sociale.",
-    "relatedFicheIds": [],
+    "explanation": "L'Égalité signifie que tous les citoyens ont les mêmes droits et les mêmes devoirs, sans distinction de sexe, d'origine, de religion ou de condition sociale.\nPour en savoir plus, consultez la fiche : L'égalité (1/3)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -707,8 +757,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La liberté de conscience, garantie par la laïcité, permet à chacun de croire ou ne pas croire, et de changer librement de religion.",
-    "relatedFicheIds": [],
+    "explanation": "La liberté de conscience, garantie par la laïcité, permet à chacun de croire ou ne pas croire, et de changer librement de religion.\nPour en savoir plus, consultez la fiche : La définition de la laïcité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -738,8 +791,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La neutralité de l'État signifie qu'il ne reconnaît, ne salarie ni ne subventionne aucun culte (loi de 1905). L'État traite toutes les croyances de manière égale.",
-    "relatedFicheIds": [],
+    "explanation": "La neutralité de l'État signifie qu'il ne reconnaît, ne salarie ni ne subventionne aucun culte (loi de 1905). L'État traite toutes les croyances de manière égale.\nPour en savoir plus, consultez la fiche : La définition de la laïcité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--definition-laicite-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -769,8 +825,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Un usager du service public peut effectuer des démarches administratives (demande de passeport, carte d'identité, inscription, etc.) dans une mairie.",
-    "relatedFicheIds": [],
+    "explanation": "Un usager du service public peut effectuer des démarches administratives (demande de passeport, carte d'identité, inscription, etc.) dans une mairie.\nPour en savoir plus, consultez la fiche : La laïcité dans les services publics",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -800,8 +858,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'État peut financer la réparation et l'entretien de bâtiments cultuels qui appartiennent aux communes (principalement les églises construites avant 1905), car ce sont des biens publics.",
-    "relatedFicheIds": [],
+    "explanation": "L'État peut financer la réparation et l'entretien de bâtiments cultuels qui appartiennent aux communes (principalement les églises construites avant 1905), car ce sont des biens publics.\nPour en savoir plus, consultez la fiche : Histoire de la laïcité",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+      "principes-et-valeurs--la-laicite--definition-laicite-2"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -831,8 +892,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "La loi de séparation des Églises et de l'État a été votée le 9 décembre 1905. Elle est le texte fondateur de la laïcité en France.",
-    "relatedFicheIds": [],
+    "explanation": "La loi de séparation des Églises et de l'État a été votée le 9 décembre 1905. Elle est le texte fondateur de la laïcité en France.\nPour en savoir plus, consultez la fiche : Histoire de la laïcité",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -862,8 +925,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La loi de 1905 dispose que « La République ne reconnaît, ne salarie ni ne subventionne aucun culte » tout en garantissant la liberté de conscience et le libre exercice des cultes.",
-    "relatedFicheIds": [],
+    "explanation": "La loi de 1905 dispose que « La République ne reconnaît, ne salarie ni ne subventionne aucun culte » tout en garantissant la liberté de conscience et le libre exercice des cultes.\nPour en savoir plus, consultez la fiche : La définition de la laïcité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -893,8 +959,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le principe de laïcité garantit la liberté de conscience et le libre exercice des cultes, tout en assurant la neutralité de l'État vis-à-vis des religions.",
-    "relatedFicheIds": [],
+    "explanation": "Le principe de laïcité garantit la liberté de conscience et le libre exercice des cultes, tout en assurant la neutralité de l'État vis-à-vis des religions.\nPour en savoir plus, consultez la fiche : La définition de la laïcité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -924,8 +992,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La journée de la laïcité est célébrée le 9 décembre, date anniversaire de la loi de séparation des Églises et de l'État de 1905.",
-    "relatedFicheIds": [],
+    "explanation": "La journée de la laïcité est célébrée le 9 décembre, date anniversaire de la loi de séparation des Églises et de l'État de 1905.\nPour en savoir plus, consultez la fiche : Histoire de la laïcité",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -955,8 +1025,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "La loi de 2004 interdit les signes religieux ostensibles dans les écoles publiques. Les signes discrets (petite chaîne, petite médaille) restent autorisés.",
-    "relatedFicheIds": [],
+    "explanation": "La loi de 2004 interdit les signes religieux ostensibles dans les écoles publiques. Les signes discrets (petite chaîne, petite médaille) restent autorisés.\nPour en savoir plus, consultez la fiche : La laïcité à l'école (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -986,8 +1059,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'antisémitisme désigne précisément la haine ou les préjugés contre les Juifs. C'est une forme spécifique de racisme punie par la loi.",
-    "relatedFicheIds": [],
+    "explanation": "L'antisémitisme désigne précisément la haine ou les préjugés contre les Juifs. C'est une forme spécifique de racisme punie par la loi.\nPour en savoir plus, consultez la fiche : L'égalité (3/3)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1017,8 +1092,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La loi du 9 décembre 1905 de séparation des Églises et de l'État est considérée comme le texte fondateur de la laïcité en France.",
-    "relatedFicheIds": [],
+    "explanation": "La loi du 9 décembre 1905 de séparation des Églises et de l'État est considérée comme le texte fondateur de la laïcité en France.\nPour en savoir plus, consultez la fiche : Histoire de la laïcité",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -1048,8 +1126,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les institutions publiques (école, hôpital, administration, justice) doivent rester neutres en matière de religion. Les agents du service public ne doivent pas manifester leurs convictions religieuses.",
-    "relatedFicheIds": [],
+    "explanation": "Les institutions publiques (école, hôpital, administration, justice) doivent rester neutres en matière de religion. Les agents du service public ne doivent pas manifester leurs convictions religieuses.\nPour en savoir plus, consultez la fiche : La laïcité dans les services publics",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1079,8 +1159,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La laïcité est le principe de séparation des Églises et de l'État qui garantit la liberté de conscience. Elle n'est pas l'opposition aux religions mais leur traitement égal par l'État.",
-    "relatedFicheIds": [],
+    "explanation": "La laïcité est le principe de séparation des Églises et de l'État qui garantit la liberté de conscience. Elle n'est pas l'opposition aux religions mais leur traitement égal par l'État.\nPour en savoir plus, consultez la fiche : La définition de la laïcité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1110,8 +1192,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La charte de la laïcité à l'école permet de rappeler les règles de la laïcité et de favoriser le vivre ensemble dans le respect des convictions de chacun.",
-    "relatedFicheIds": [],
+    "explanation": "La charte de la laïcité à l'école permet de rappeler les règles de la laïcité et de favoriser le vivre ensemble dans le respect des convictions de chacun.\nPour en savoir plus, consultez la fiche : La laïcité à l'école (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1141,8 +1226,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les agents du service public doivent respecter et veiller à la neutralité religieuse dans les services publics. Ils ne doivent pas manifester leurs convictions religieuses dans l'exercice de leurs fonctions.",
-    "relatedFicheIds": [],
+    "explanation": "Les agents du service public doivent respecter et veiller à la neutralité religieuse dans les services publics. Ils ne doivent pas manifester leurs convictions religieuses dans l'exercice de leurs fonctions.\nPour en savoir plus, consultez la fiche : La laïcité dans les services publics",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1172,8 +1259,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Une personne qui déclare ne croire en aucun dieu est athée. La laïcité garantit le droit de ne pas croire, tout comme celui de croire.",
-    "relatedFicheIds": [],
+    "explanation": "Une personne qui déclare ne croire en aucun dieu est athée. La laïcité garantit le droit de ne pas croire, tout comme celui de croire.\nPour en savoir plus, consultez la fiche : La définition de la laïcité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1203,8 +1292,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le Premier ministre est nommé par le Président de la République (article 8 de la Constitution).",
-    "relatedFicheIds": [],
+    "explanation": "Le Premier ministre est nommé par le Président de la République (article 8 de la Constitution).\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1234,8 +1326,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Tout citoyen français âgé de 18 ans révolus, jouissant de ses droits civiques, peut se présenter à l'élection présidentielle, à condition de recueillir 500 parrainages d'élus.",
-    "relatedFicheIds": [],
+    "explanation": "Tout citoyen français âgé de 18 ans révolus, jouissant de ses droits civiques, peut se présenter à l'élection présidentielle, à condition de recueillir 500 parrainages d'élus.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -1265,8 +1359,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Selon l'article 3 de la Constitution, « La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum. »",
-    "relatedFicheIds": [],
+    "explanation": "Selon l'article 3 de la Constitution, « La souveraineté nationale appartient au peuple qui l'exerce par ses représentants et par la voie du référendum. »\nPour en savoir plus, consultez la fiche : La démocratie et la République (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1296,8 +1392,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Lors des élections municipales, les citoyens élisent les conseillers municipaux qui, à leur tour, élisent le maire parmi eux.",
-    "relatedFicheIds": [],
+    "explanation": "Lors des élections municipales, les citoyens élisent les conseillers municipaux qui, à leur tour, élisent le maire parmi eux.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (2/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1327,8 +1426,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Depuis 2019, l'inscription sur les listes électorales est automatique pour les jeunes Français atteignant 18 ans. Pour les autres, c'est une démarche volontaire.",
-    "relatedFicheIds": [],
+    "explanation": "Depuis 2019, l'inscription sur les listes électorales est automatique pour les jeunes Français atteignant 18 ans. Pour les autres, c'est une démarche volontaire.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -1358,8 +1459,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Pour voter aux élections présidentielles, il faut avoir la nationalité française, être âgé de 18 ans révolus et jouir de ses droits civiques.",
-    "relatedFicheIds": [],
+    "explanation": "Pour voter aux élections présidentielles, il faut avoir la nationalité française, être âgé de 18 ans révolus et jouir de ses droits civiques.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1389,8 +1492,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Pour être candidat aux élections municipales, il faut être de nationalité française ou citoyen de l'Union européenne résidant en France, et avoir 18 ans révolus.",
-    "relatedFicheIds": [],
+    "explanation": "Pour être candidat aux élections municipales, il faut être de nationalité française ou citoyen de l'Union européenne résidant en France, et avoir 18 ans révolus.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (2/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -1420,8 +1525,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le maire est une autorité élue. Il est élu par les conseillers municipaux lors des élections municipales. Le préfet est nommé, pas élu.",
-    "relatedFicheIds": [],
+    "explanation": "Le maire est une autorité élue. Il est élu par les conseillers municipaux lors des élections municipales. Le préfet est nommé, pas élu.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (1/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1451,8 +1558,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le maire célèbre les mariages, gère l'état civil, assure la sécurité (police municipale), l'urbanisme, et administre les affaires de la commune.",
-    "relatedFicheIds": [],
+    "explanation": "Le maire célèbre les mariages, gère l'état civil, assure la sécurité (police municipale), l'urbanisme, et administre les affaires de la commune.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (1/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1482,8 +1591,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Tout citoyen français âgé de 18 ans révolus peut se présenter aux élections présidentielles, sous réserve de recueillir 500 parrainages d'élus.",
-    "relatedFicheIds": [],
+    "explanation": "Tout citoyen français âgé de 18 ans révolus peut se présenter aux élections présidentielles, sous réserve de recueillir 500 parrainages d'élus.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1513,8 +1624,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Pour s'inscrire sur les listes électorales sans accès à internet, il faut se rendre à la mairie de son domicile avec une pièce d'identité et un justificatif de domicile.",
-    "relatedFicheIds": [],
+    "explanation": "Pour s'inscrire sur les listes électorales sans accès à internet, il faut se rendre à la mairie de son domicile avec une pièce d'identité et un justificatif de domicile.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1544,8 +1657,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "On peut devenir électeur à 18 ans, l'âge de la majorité civile en France. L'inscription est automatique depuis 2019.",
-    "relatedFicheIds": [],
+    "explanation": "On peut devenir électeur à 18 ans, l'âge de la majorité civile en France. L'inscription est automatique depuis 2019.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1575,8 +1690,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "En France, le vote n'est pas obligatoire (contrairement à la Belgique par exemple). C'est un droit et un devoir civique, mais pas une obligation légale.",
-    "relatedFicheIds": [],
+    "explanation": "En France, le vote n'est pas obligatoire (contrairement à la Belgique par exemple). C'est un droit et un devoir civique, mais pas une obligation légale.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1606,8 +1724,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Non, nul n'est censé ignorer la loi. Tous les citoyens et résidents doivent respecter les lois de la République. En cas de désaccord, il existe des voies légales pour les contester.",
-    "relatedFicheIds": [],
+    "explanation": "Non, nul n'est censé ignorer la loi. Tous les citoyens et résidents doivent respecter les lois de la République. En cas de désaccord, il existe des voies légales pour les contester.\nPour en savoir plus, consultez la fiche : Se conformer aux lois : les infractions (1/2)",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1637,8 +1758,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les députés sont élus au suffrage universel direct par les citoyens français lors des élections législatives.",
-    "relatedFicheIds": [],
+    "explanation": "Les députés sont élus au suffrage universel direct par les citoyens français lors des élections législatives.\nPour en savoir plus, consultez la fiche : La démocratie et la République (2/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1668,8 +1792,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les lois sont votées par le Parlement, composé de l'Assemblée nationale (députés) et du Sénat (sénateurs).",
-    "relatedFicheIds": [],
+    "explanation": "Les lois sont votées par le Parlement, composé de l'Assemblée nationale (députés) et du Sénat (sénateurs).\nPour en savoir plus, consultez la fiche : Comment voter une loi (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1699,8 +1826,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Les trois pouvoirs sont : le pouvoir législatif (faire les lois), le pouvoir exécutif (appliquer les lois) et le pouvoir judiciaire (juger les infractions).",
-    "relatedFicheIds": [],
+    "explanation": "Les trois pouvoirs sont : le pouvoir législatif (faire les lois), le pouvoir exécutif (appliquer les lois) et le pouvoir judiciaire (juger les infractions).\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation de l’État de droit et principe de la séparation des pouvoirs",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1730,8 +1860,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'État de droit est un système où les pouvoirs publics sont soumis au respect du droit. Personne, y compris l'État, n'est au-dessus des lois.",
-    "relatedFicheIds": [],
+    "explanation": "L'État de droit est un système où les pouvoirs publics sont soumis au respect du droit. Personne, y compris l'État, n'est au-dessus des lois.\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation de l’État de droit et principe de la séparation des pouvoirs",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -1761,8 +1893,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le mandat du conseil municipal et du maire dure 6 ans. Les élections municipales ont lieu tous les 6 ans.",
-    "relatedFicheIds": [],
+    "explanation": "Le mandat du conseil municipal et du maire dure 6 ans. Les élections municipales ont lieu tous les 6 ans.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (1/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -1792,8 +1926,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Lors des élections législatives, les citoyens élisent les députés de l'Assemblée nationale au suffrage universel direct.",
-    "relatedFicheIds": [],
+    "explanation": "Lors des élections législatives, les citoyens élisent les députés de l'Assemblée nationale au suffrage universel direct.\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1823,8 +1960,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le mandat du Président de la République française est de 5 ans (quinquennat), renouvelable une fois, depuis la réforme constitutionnelle de 2000.",
-    "relatedFicheIds": [],
+    "explanation": "Le mandat du Président de la République française est de 5 ans (quinquennat), renouvelable une fois, depuis la réforme constitutionnelle de 2000.\nPour en savoir plus, consultez la fiche : La Vème République",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1854,8 +1994,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le mandat des députés à l'Assemblée nationale est de 5 ans, sauf dissolution de l'Assemblée par le Président.",
-    "relatedFicheIds": [],
+    "explanation": "Le mandat des députés à l'Assemblée nationale est de 5 ans, sauf dissolution de l'Assemblée par le Président.\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -1885,8 +2027,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le mandat des sénateurs est de 6 ans. Le Sénat est renouvelé par moitié tous les 3 ans.",
-    "relatedFicheIds": [],
+    "explanation": "Le mandat des sénateurs est de 6 ans. Le Sénat est renouvelé par moitié tous les 3 ans.\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -1916,8 +2060,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le Premier ministre dirige l'action du gouvernement (article 21 de la Constitution). Il coordonne l'action des ministres.",
-    "relatedFicheIds": [],
+    "explanation": "Le Premier ministre dirige l'action du gouvernement (article 21 de la Constitution). Il coordonne l'action des ministres.\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1947,8 +2093,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Adhérer à un parti politique est un droit fondamental en France, garanti par la Constitution. Le pluralisme politique est un principe de la démocratie.",
-    "relatedFicheIds": [],
+    "explanation": "Adhérer à un parti politique est un droit fondamental en France, garanti par la Constitution. Le pluralisme politique est un principe de la démocratie.\nPour en savoir plus, consultez la fiche : Le principe de pluralité des partis",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -1978,8 +2126,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "C'est la justice (pouvoir judiciaire) qui sanctionne l'auteur d'un vol. Un juge ou un tribunal prononce la sanction après un procès.",
-    "relatedFicheIds": [],
+    "explanation": "C'est la justice (pouvoir judiciaire) qui sanctionne l'auteur d'un vol. Un juge ou un tribunal prononce la sanction après un procès.\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (2/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2009,8 +2160,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les collèges publics sont gérés par le département. C'est le conseil départemental qui s'occupe de leur construction, entretien et fonctionnement.",
-    "relatedFicheIds": [],
+    "explanation": "Les collèges publics sont gérés par le département. C'est le conseil départemental qui s'occupe de leur construction, entretien et fonctionnement.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (1/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2040,8 +2193,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Les écoles primaires et maternelles publiques sont gérées par la commune. Le maire est responsable de leur construction et de leur entretien.",
-    "relatedFicheIds": [],
+    "explanation": "Les écoles primaires et maternelles publiques sont gérées par la commune. Le maire est responsable de leur construction et de leur entretien.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (1/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2071,8 +2226,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les maires sont désignés par les conseillers municipaux qui les élisent parmi eux, après les élections municipales.",
-    "relatedFicheIds": [],
+    "explanation": "Les maires sont désignés par les conseillers municipaux qui les élisent parmi eux, après les élections municipales.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (1/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2102,8 +2259,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "La région est responsable des transports régionaux (TER, cars régionaux). Elle organise et finance les transports ferroviaires et routiers régionaux.",
-    "relatedFicheIds": [],
+    "explanation": "La région est responsable des transports régionaux (TER, cars régionaux). Elle organise et finance les transports ferroviaires et routiers régionaux.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (3/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2133,8 +2292,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "La Constitution peut être modifiée par le vote du Parlement réuni en Congrès (3/5e des voix) ou par référendum, après adoption du projet par les deux assemblées.",
-    "relatedFicheIds": [],
+    "explanation": "La Constitution peut être modifiée par le vote du Parlement réuni en Congrès (3/5e des voix) ou par référendum, après adoption du projet par les deux assemblées.\nPour en savoir plus, consultez la fiche : Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -2164,8 +2326,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "En cas de vacance de la présidence (décès, démission), c'est le président du Sénat qui assure l'intérim (article 7 de la Constitution).",
-    "relatedFicheIds": [],
+    "explanation": "En cas de vacance de la présidence (décès, démission), c'est le président du Sénat qui assure l'intérim (article 7 de la Constitution).\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2195,8 +2360,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le Conseil constitutionnel veille au respect de la Constitution. Il contrôle la constitutionnalité des lois et la régularité des élections.",
-    "relatedFicheIds": [],
+    "explanation": "Le Conseil constitutionnel veille au respect de la Constitution. Il contrôle la constitutionnalité des lois et la régularité des élections.\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (2/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2226,8 +2394,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Pour se présenter à l'élection présidentielle, il faut obligatoirement recueillir 500 parrainages d'élus provenant d'au moins 30 départements différents.",
-    "relatedFicheIds": [],
+    "explanation": "Pour se présenter à l'élection présidentielle, il faut obligatoirement recueillir 500 parrainages d'élus provenant d'au moins 30 départements différents.\nPour en savoir plus, consultez la fiche : Les conditions pour voter en France (2/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2257,8 +2427,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Il y a 101 départements en France : 96 en métropole et 5 outre-mer (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte).",
-    "relatedFicheIds": [],
+    "explanation": "Il y a 101 départements en France : 96 en métropole et 5 outre-mer (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte).\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (1/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2288,8 +2461,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Le découpage administratif de la France est organisé en communes, départements et régions. Ce sont les trois niveaux de collectivités territoriales.",
-    "relatedFicheIds": [],
+    "explanation": "Le découpage administratif de la France est organisé en communes, départements et régions. Ce sont les trois niveaux de collectivités territoriales.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (1/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2319,8 +2495,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le préfet représente l'État dans le département. Il est nommé par le Président de la République en Conseil des ministres.",
-    "relatedFicheIds": [],
+    "explanation": "Le préfet représente l'État dans le département. Il est nommé par le Président de la République en Conseil des ministres.\nPour en savoir plus, consultez la fiche : Le découpage administratif de la France (2/3)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2350,8 +2528,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le Président de la République est le chef de l'État, garant de la Constitution et chef des armées. Il nomme le Premier ministre et peut dissoudre l'Assemblée nationale.",
-    "relatedFicheIds": [],
+    "explanation": "Le Président de la République est le chef de l'État, garant de la Constitution et chef des armées. Il nomme le Premier ministre et peut dissoudre l'Assemblée nationale.\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2369,7 +2550,7 @@
       },
       {
         "id": "b",
-        "text": "Chef du gouvernement, il dirige l'action du gouvernement"
+        "text": "Chef du gouvernement"
       },
       {
         "id": "c",
@@ -2381,8 +2562,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le Premier ministre est le chef du gouvernement. Il dirige l'action du gouvernement et assure l'exécution des lois (articles 20-21 de la Constitution).",
-    "relatedFicheIds": [],
+    "explanation": "Le Premier ministre est le chef du gouvernement. Il dirige l'action du gouvernement et assure l'exécution des lois (articles 20-21 de la Constitution).\nPour en savoir plus, consultez la fiche : État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2412,8 +2595,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le Défenseur des droits est une autorité indépendante qui veille au respect des droits et libertés des citoyens face aux administrations et aux services publics.",
-    "relatedFicheIds": [],
+    "explanation": "Le Défenseur des droits est une autorité indépendante qui veille au respect des droits et libertés des citoyens face aux administrations et aux services publics.\nPour en savoir plus, consultez la fiche : Les acteurs institutionnels",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-acteurs-institutionnels"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2443,8 +2628,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La citoyenneté européenne a été créée par le traité de Maastricht en 1992. Elle confère des droits supplémentaires aux citoyens des États membres.",
-    "relatedFicheIds": [],
+    "explanation": "La citoyenneté européenne a été créée par le traité de Maastricht en 1992. Elle confère des droits supplémentaires aux citoyens des États membres.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -2474,8 +2662,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Croatie est le dernier État à avoir intégré l'Union européenne, le 1er juillet 2013.",
-    "relatedFicheIds": [],
+    "explanation": "La Croatie est le dernier État à avoir intégré l'Union européenne, le 1er juillet 2013.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -2505,8 +2696,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La devise de l'Union européenne est « Unie dans la diversité » (In varietate concordia), adoptée en 2000.",
-    "relatedFicheIds": [],
+    "explanation": "La devise de l'Union européenne est « Unie dans la diversité » (In varietate concordia), adoptée en 2000.\nPour en savoir plus, consultez la fiche : Les symboles européens (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2536,8 +2729,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'hymne de l'Union européenne est l'Ode à la joie, composée par Ludwig van Beethoven (9e symphonie, 1824).",
-    "relatedFicheIds": [],
+    "explanation": "L'hymne de l'Union européenne est l'Ode à la joie, composée par Ludwig van Beethoven (9e symphonie, 1824).\nPour en savoir plus, consultez la fiche : Les symboles européens (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2567,8 +2762,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La journée de l'Europe est célébrée le 9 mai, date anniversaire de la déclaration Schuman de 1950 qui a lancé la construction européenne.",
-    "relatedFicheIds": [],
+    "explanation": "La journée de l'Europe est célébrée le 9 mai, date anniversaire de la déclaration Schuman de 1950 qui a lancé la construction européenne.\nPour en savoir plus, consultez la fiche : Les symboles européens (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1",
+      "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2598,8 +2796,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le siège de la Banque centrale européenne (BCE) est à Francfort, en Allemagne.",
-    "relatedFicheIds": [],
+    "explanation": "Le siège de la Banque centrale européenne (BCE) est à Francfort, en Allemagne.\nPour en savoir plus, consultez la fiche : Le fonctionnement européen (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2629,8 +2829,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le siège de la Commission européenne est à Bruxelles, en Belgique.",
-    "relatedFicheIds": [],
+    "explanation": "Le siège de la Commission européenne est à Bruxelles, en Belgique.\nPour en savoir plus, consultez la fiche : Le fonctionnement européen (2/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2660,8 +2862,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Au Parlement européen siègent les députés européens, élus au suffrage universel direct par les citoyens des États membres.",
-    "relatedFicheIds": [],
+    "explanation": "Au Parlement européen siègent les députés européens, élus au suffrage universel direct par les citoyens des États membres.\nPour en savoir plus, consultez la fiche : Les élections européennes",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-elections-europeennes",
+      "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2691,8 +2896,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'Union européenne compte 27 États membres au 1er janvier 2025, depuis le retrait du Royaume-Uni (Brexit) en 2020.",
-    "relatedFicheIds": [],
+    "explanation": "L'Union européenne compte 27 États membres au 1er janvier 2025, depuis le retrait du Royaume-Uni (Brexit) en 2020.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2722,8 +2930,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le traité de Maastricht, fondateur de l'Union européenne, a été signé le 7 février 1992.",
-    "relatedFicheIds": [],
+    "explanation": "Le traité de Maastricht, fondateur de l'Union européenne, a été signé le 7 février 1992.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -2753,8 +2964,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le traité de Maastricht (1992) est le traité fondateur de l'Union européenne. Il a créé la citoyenneté européenne et posé les bases de l'euro.",
-    "relatedFicheIds": [],
+    "explanation": "Le traité de Maastricht (1992) est le traité fondateur de l'Union européenne. Il a créé la citoyenneté européenne et posé les bases de l'euro.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2784,8 +2998,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le Royaume-Uni a quitté l'Union européenne le 31 janvier 2020 (Brexit), après un référendum en 2016.",
-    "relatedFicheIds": [],
+    "explanation": "Le Royaume-Uni a quitté l'Union européenne le 31 janvier 2020 (Brexit), après un référendum en 2016.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2815,8 +3032,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'hymne de l'Union européenne est l'Ode à la joie, extrait de la 9e symphonie de Beethoven, adoptée en 1985.",
-    "relatedFicheIds": [],
+    "explanation": "L'hymne de l'Union européenne est l'Ode à la joie, extrait de la 9e symphonie de Beethoven, adoptée en 1985.\nPour en savoir plus, consultez la fiche : Les symboles européens (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1",
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2846,8 +3066,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le drapeau européen est composé de 12 étoiles dorées disposées en cercle sur fond bleu. Le nombre 12 symbolise la perfection et l'unité, pas le nombre d'États.",
-    "relatedFicheIds": [],
+    "explanation": "Le drapeau européen est composé de 12 étoiles dorées disposées en cercle sur fond bleu. Le nombre 12 symbolise la perfection et l'unité, pas le nombre d'États.\nPour en savoir plus, consultez la fiche : Les symboles européens (1/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2877,8 +3099,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les députés européens sont élus au suffrage universel direct par les citoyens de l'Union européenne, tous les 5 ans.",
-    "relatedFicheIds": [],
+    "explanation": "Les députés européens sont élus au suffrage universel direct par les citoyens de l'Union européenne, tous les 5 ans.\nPour en savoir plus, consultez la fiche : Les élections européennes",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-elections-europeennes",
+      "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2908,8 +3133,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le siège officiel du Parlement européen est à Strasbourg, en France. Des sessions plénières additionnelles se tiennent aussi à Bruxelles.",
-    "relatedFicheIds": [],
+    "explanation": "Le siège officiel du Parlement européen est à Strasbourg, en France. Des sessions plénières additionnelles se tiennent aussi à Bruxelles.\nPour en savoir plus, consultez la fiche : Le fonctionnement européen (2/2)",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-2",
+      "systeme-institutionnel--institutions-europeennes--les-elections-europeennes"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -2939,8 +3167,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le droit de grève permet aux salariés de défendre leurs intérêts professionnels par la cessation collective du travail. C'est un droit constitutionnel.",
-    "relatedFicheIds": [],
+    "explanation": "Le droit de grève permet aux salariés de défendre leurs intérêts professionnels par la cessation collective du travail. C'est un droit constitutionnel.\nPour en savoir plus, consultez la fiche : Les droits liés à la personne humaine",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+      "droits-et-devoirs--droits-fondamentaux--droits-economiques-sociaux-troisieme-generation"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -2970,8 +3201,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'État peut restreindre certains droits au nom de l'ordre public et de l'intérêt général, dans les limites fixées par la loi.",
-    "relatedFicheIds": [],
+    "explanation": "L'État peut restreindre certains droits au nom de l'ordre public et de l'intérêt général, dans les limites fixées par la loi.\nPour en savoir plus, consultez la fiche : La limite des libertés individuelles",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -3001,8 +3235,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'article 1er de la DDHC de 1789 proclame : « Les hommes naissent et demeurent libres et égaux en droits. »",
-    "relatedFicheIds": [],
+    "explanation": "L'article 1er de la DDHC de 1789 proclame : « Les hommes naissent et demeurent libres et égaux en droits. »\nPour en savoir plus, consultez la fiche : Présentation des principaux textes (1/3) : La Déclaration des droits de l'homme et du citoyen",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3032,8 +3268,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : la liberté de chacun s'arrête là où commence celle des autres.",
-    "relatedFicheIds": [],
+    "explanation": "La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : la liberté de chacun s'arrête là où commence celle des autres.\nPour en savoir plus, consultez la fiche : Présentation des principaux textes (1/3) : La Déclaration des droits de l'homme et du citoyen",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3063,8 +3302,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'article 1er de la Constitution française affirme : « La France est une République indivisible, laïque, démocratique et sociale. »",
-    "relatedFicheIds": [],
+    "explanation": "L'article 1er de la Constitution française affirme : « La France est une République indivisible, laïque, démocratique et sociale. »\nPour en savoir plus, consultez la fiche : Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3094,8 +3336,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La liberté de la presse garantit la diffusion libre de l'information. Elle est protégée par la loi du 29 juillet 1881.",
-    "relatedFicheIds": [],
+    "explanation": "La liberté de la presse garantit la diffusion libre de l'information. Elle est protégée par la loi du 29 juillet 1881.\nPour en savoir plus, consultez la fiche : La liberté",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3125,8 +3370,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La liberté de circulation permet à toute personne de se déplacer librement sur le territoire français et d'en sortir.",
-    "relatedFicheIds": [],
+    "explanation": "La liberté de circulation permet à toute personne de se déplacer librement sur le territoire français et d'en sortir.\nPour en savoir plus, consultez la fiche : La liberté",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3156,8 +3404,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Être citoyen d'un État, c'est avoir des droits (voter, protection, accès aux services publics) et des devoirs (respecter la loi, payer les impôts, participer à la défense).",
-    "relatedFicheIds": [],
+    "explanation": "Être citoyen d'un État, c'est avoir des droits (voter, protection, accès aux services publics) et des devoirs (respecter la loi, payer les impôts, participer à la défense).\nPour en savoir plus, consultez la fiche : La citoyenneté",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3187,8 +3438,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les droits fondamentaux sont les droits inhérents à la personne humaine, garantis par la Constitution, la DDHC de 1789 et les conventions internationales.",
-    "relatedFicheIds": [],
+    "explanation": "Les droits fondamentaux sont les droits inhérents à la personne humaine, garantis par la Constitution, la DDHC de 1789 et les conventions internationales.\nPour en savoir plus, consultez la fiche : Les droits liés à la personne humaine",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+      "droits-et-devoirs--droits-fondamentaux--introduction-aux-droits-fondamentaux"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3218,8 +3472,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "La sûreté (droit à la liberté individuelle) protège contre les arrestations arbitraires. Nul ne peut être arrêté sans raison légale.",
-    "relatedFicheIds": [],
+    "explanation": "La sûreté (droit à la liberté individuelle) protège contre les arrestations arbitraires. Nul ne peut être arrêté sans raison légale.\nPour en savoir plus, consultez la fiche : Les droits liés à la personne humaine",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -3249,8 +3506,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Déclaration des Droits de l'Homme et du Citoyen de 1789 est le texte fondateur établissant les droits et devoirs de chaque citoyen.",
-    "relatedFicheIds": [],
+    "explanation": "La Déclaration des Droits de l'Homme et du Citoyen de 1789 est le texte fondateur établissant les droits et devoirs de chaque citoyen.\nPour en savoir plus, consultez la fiche : Présentation des principaux textes (1/3) : La Déclaration des droits de l'homme et du citoyen",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+      "droits-et-devoirs--droits-fondamentaux--introduction-aux-droits-fondamentaux"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3280,8 +3540,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'article 1er de la DDHC de 1789 affirme que « les hommes naissent et demeurent libres et égaux en droits ».",
-    "relatedFicheIds": [],
+    "explanation": "L'article 1er de la DDHC de 1789 affirme que « les hommes naissent et demeurent libres et égaux en droits ».\nPour en savoir plus, consultez la fiche : Présentation des principaux textes (1/3) : La Déclaration des droits de l'homme et du citoyen",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3311,8 +3574,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'esclavage et le travail forcé sont des atteintes graves à la dignité humaine, interdites par la Convention européenne des droits de l'homme et le Code pénal français.",
-    "relatedFicheIds": [],
+    "explanation": "L'esclavage et le travail forcé sont des atteintes graves à la dignité humaine, interdites par la Convention européenne des droits de l'homme et le Code pénal français.\nPour en savoir plus, consultez la fiche : La dignité humaine",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--la-diginite-humaine",
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3342,8 +3608,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La liberté d'expression est le droit d'exprimer ses opinions librement, dans les limites fixées par la loi (interdiction de la diffamation, de l'incitation à la haine, etc.).",
-    "relatedFicheIds": [],
+    "explanation": "La liberté d'expression est le droit d'exprimer ses opinions librement, dans les limites fixées par la loi (interdiction de la diffamation, de l'incitation à la haine, etc.).\nPour en savoir plus, consultez la fiche : La liberté",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+      "principes-et-valeurs--la-laicite--le-blaspheme",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3373,8 +3643,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Suite à une interpellation, il est possible de garder le silence et de demander un avocat. Ce sont des droits fondamentaux de la personne gardée à vue.",
-    "relatedFicheIds": [],
+    "explanation": "Suite à une interpellation, il est possible de garder le silence et de demander un avocat. Ce sont des droits fondamentaux de la personne gardée à vue.\nPour en savoir plus, consultez la fiche : Les droits liés à la personne humaine",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+      "droits-et-devoirs--droits-fondamentaux--introduction-aux-droits-fondamentaux"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3404,8 +3677,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Non, tous les citoyens français n'ont pas une religion. La laïcité garantit la liberté de conscience : chacun est libre de croire ou de ne pas croire.",
-    "relatedFicheIds": [],
+    "explanation": "Non, tous les citoyens français n'ont pas une religion. La laïcité garantit la liberté de conscience : chacun est libre de croire ou de ne pas croire.\nPour en savoir plus, consultez la fiche : La définition de la laïcité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--definition-laicite-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3435,8 +3711,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La majorité numérique en France est fixée à 15 ans (loi du 7 juillet 2023). En dessous, l'accord parental est nécessaire pour s'inscrire sur les réseaux sociaux.",
-    "relatedFicheIds": [],
+    "explanation": "La majorité numérique en France est fixée à 15 ans (loi du 7 juillet 2023). En dessous, l'accord parental est nécessaire pour s'inscrire sur les réseaux sociaux.\nPour en savoir plus, consultez la fiche : Les droits économiques et sociaux et les droits dits de troisième génération",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--droits-economiques-sociaux-troisieme-generation"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -3466,8 +3744,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Il est autorisé de fumer dans les espaces fumeurs désignés ou en extérieur. La loi interdit de fumer dans les lieux publics fermés et couverts.",
-    "relatedFicheIds": [],
+    "explanation": "Il est autorisé de fumer dans les espaces fumeurs désignés ou en extérieur. La loi interdit de fumer dans les lieux publics fermés et couverts.\nPour en savoir plus, consultez la fiche : Les obligations en tant que résident français",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+      "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3497,8 +3778,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La conduite sans permis d'une moto est un délit puni par la loi (jusqu'à 1 an d'emprisonnement et 15 000 € d'amende).",
-    "relatedFicheIds": [],
+    "explanation": "La conduite sans permis d'une moto est un délit puni par la loi (jusqu'à 1 an d'emprisonnement et 15 000 € d'amende).\nPour en savoir plus, consultez la fiche : Les démarches du quotidien comme le permis de conduire (1/2)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3528,8 +3812,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le devoir de solidarité consiste à contribuer à la cohésion sociale par l'entraide et la solidarité, notamment à travers les impôts et les cotisations sociales.",
-    "relatedFicheIds": [],
+    "explanation": "Le devoir de solidarité consiste à contribuer à la cohésion sociale par l'entraide et la solidarité, notamment à travers les impôts et les cotisations sociales.\nPour en savoir plus, consultez la fiche : La fraternité (1/2)",
+    "relatedFicheIds": [
+      "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3559,8 +3846,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Non, la polygamie est interdite en France. Le mariage ne peut exister qu'entre deux personnes. La bigamie est un délit puni par le Code pénal.",
-    "relatedFicheIds": [],
+    "explanation": "Non, la polygamie est interdite en France. Le mariage ne peut exister qu'entre deux personnes. La bigamie est un délit puni par le Code pénal.\nPour en savoir plus, consultez la fiche : La déclaration de mariage",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+      "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3590,8 +3880,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Oui, il est obligatoire de déclarer ses impôts chaque année en France, même si l'on n'est pas imposable. C'est un devoir civique.",
-    "relatedFicheIds": [],
+    "explanation": "Oui, il est obligatoire de déclarer ses impôts chaque année en France, même si l'on n'est pas imposable. C'est un devoir civique.\nPour en savoir plus, consultez la fiche : L'impôt en France et la déclaration de revenus",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3621,8 +3914,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Oui, il est obligatoire de porter secours à une personne en danger (article 223-6 du Code pénal). La non-assistance à personne en danger est un délit.",
-    "relatedFicheIds": [],
+    "explanation": "Oui, il est obligatoire de porter secours à une personne en danger (article 223-6 du Code pénal). La non-assistance à personne en danger est un délit.\nPour en savoir plus, consultez la fiche : Les obligations en tant que résident français",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3652,8 +3948,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Être juré d'assises est un devoir civique obligatoire pour tout citoyen français de plus de 23 ans inscrit sur les listes électorales.",
-    "relatedFicheIds": [],
+    "explanation": "Être juré d'assises est un devoir civique obligatoire pour tout citoyen français de plus de 23 ans inscrit sur les listes électorales.\nPour en savoir plus, consultez la fiche : Les obligations en tant que citoyen français",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais",
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -3683,8 +3982,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La vente d'alcool est interdite aux personnes de moins de 18 ans en France. Cette interdiction s'applique dans tous les commerces et débits de boissons.",
-    "relatedFicheIds": [],
+    "explanation": "La vente d'alcool est interdite aux personnes de moins de 18 ans en France. Cette interdiction s'applique dans tous les commerces et débits de boissons.\nPour en savoir plus, consultez la fiche : Les obligations en tant que résident français",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--l-interdiction-des-violences-faites-aux-enfants"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3714,8 +4016,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le non-respect du code de la route est puni par la loi et peut constituer une contravention ou un délit selon la gravité de l'infraction.",
-    "relatedFicheIds": [],
+    "explanation": "Le non-respect du code de la route est puni par la loi et peut constituer une contravention ou un délit selon la gravité de l'infraction.\nPour en savoir plus, consultez la fiche : Se conformer aux lois : les infractions (1/2)",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+      "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3745,8 +4050,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Un crime (meurtre, terrorisme, etc.) peut entraîner la privation des droits civils et politiques par décision d'un juge, en plus de la peine de prison.",
-    "relatedFicheIds": [],
+    "explanation": "Un crime (meurtre, terrorisme, etc.) peut entraîner la privation des droits civils et politiques par décision d'un juge, en plus de la peine de prison.\nPour en savoir plus, consultez la fiche : Se conformer aux lois : les infractions (1/2)",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -3776,8 +4084,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Pour obtenir une carte d'identité, il faut fournir un justificatif d'identité (acte de naissance), un justificatif de domicile et une photo d'identité.",
-    "relatedFicheIds": [],
+    "explanation": "Pour obtenir une carte d'identité, il faut fournir un justificatif d'identité (acte de naissance), un justificatif de domicile et une photo d'identité.\nPour en savoir plus, consultez la fiche : La déclaration de naissance",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance",
+      "vivre-societe-francaise--demarches-administratives--les-demarches-dacces-a-la-nationalite-francaise"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3807,8 +4118,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La liberté d'expression peut être limitée pour protéger l'ordre public, la réputation d'autrui, prévenir l'incitation à la haine, la diffamation ou l'injure.",
-    "relatedFicheIds": [],
+    "explanation": "La liberté d'expression peut être limitée pour protéger l'ordre public, la réputation d'autrui, prévenir l'incitation à la haine, la diffamation ou l'injure.\nPour en savoir plus, consultez la fiche : La limite des libertés individuelles",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+      "principes-et-valeurs--la-laicite--le-blaspheme"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -3838,8 +4152,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Un citoyen appelé à être juré d'assises doit se présenter. C'est une obligation civique. L'absence injustifiée peut être sanctionnée par une amende.",
-    "relatedFicheIds": [],
+    "explanation": "Un citoyen appelé à être juré d'assises doit se présenter. C'est une obligation civique. L'absence injustifiée peut être sanctionnée par une amende.\nPour en savoir plus, consultez la fiche : Les obligations en tant que citoyen français",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais",
+      "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3869,8 +4186,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'âge de la majorité civile en France est 18 ans. À cet âge, on devient juridiquement capable d'exercer ses droits civils.",
-    "relatedFicheIds": [],
+    "explanation": "L'âge de la majorité civile en France est 18 ans. À cet âge, on devient juridiquement capable d'exercer ses droits civils.\nPour en savoir plus, consultez la fiche : Introduction aux droits fondamentaux",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--introduction-aux-droits-fondamentaux",
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3900,8 +4220,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Payer ses impôts est l'un des devoirs principaux d'un citoyen français. Cela contribue au financement des services publics et à la solidarité nationale.",
-    "relatedFicheIds": [],
+    "explanation": "Payer ses impôts est l'un des devoirs principaux d'un citoyen français. Cela contribue au financement des services publics et à la solidarité nationale.\nPour en savoir plus, consultez la fiche : Les obligations en tant que citoyen français",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais",
+      "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3931,8 +4254,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le crime est l'infraction la plus grave en droit français. Il est jugé par la cour d'assises et peut être puni de réclusion criminelle.",
-    "relatedFicheIds": [],
+    "explanation": "Le crime est l'infraction la plus grave en droit français. Il est jugé par la cour d'assises et peut être puni de réclusion criminelle.\nPour en savoir plus, consultez la fiche : Se conformer aux lois : les infractions (1/2)",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -3962,8 +4288,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La citoyenneté numérique désigne l'usage responsable et éthique des technologies numériques, incluant les droits et devoirs en ligne.",
-    "relatedFicheIds": [],
+    "explanation": "La citoyenneté numérique désigne l'usage responsable et éthique des technologies numériques, incluant les droits et devoirs en ligne.\nPour en savoir plus, consultez la fiche : Les droits économiques et sociaux et les droits dits de troisième génération",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--droits-economiques-sociaux-troisieme-generation",
+      "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -3993,8 +4322,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Tout citoyen français de plus de 23 ans, sachant lire et écrire, inscrit sur les listes électorales et jouissant de ses droits civiques peut être appelé comme juré d'assises.",
-    "relatedFicheIds": [],
+    "explanation": "Tout citoyen français de plus de 23 ans, sachant lire et écrire, inscrit sur les listes électorales et jouissant de ses droits civiques peut être appelé comme juré d'assises.\nPour en savoir plus, consultez la fiche : Les obligations en tant que citoyen français",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais",
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4024,8 +4356,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le devoir de mémoire est le devoir de se souvenir des événements tragiques (guerres, génocides) pour éviter qu'ils ne se reproduisent et honorer les victimes.",
-    "relatedFicheIds": [],
+    "explanation": "Le devoir de mémoire est le devoir de se souvenir des événements tragiques (guerres, génocides) pour éviter qu'ils ne se reproduisent et honorer les victimes.\nPour en savoir plus, consultez la fiche : Focus sur la Seconde Guerre mondiale - la Shoah",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah",
+      "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4055,8 +4390,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Une personne privée de ses droits civils et politiques ne peut ni voter ni se présenter à une élection pendant la durée de la privation.",
-    "relatedFicheIds": [],
+    "explanation": "Une personne privée de ses droits civils et politiques ne peut ni voter ni se présenter à une élection pendant la durée de la privation.\nPour en savoir plus, consultez la fiche : Les droits liés à la personne humaine",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4086,8 +4424,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le Code civil a été adopté sous Napoléon Ier en 1804. Il est aussi appelé Code Napoléon et constitue le fondement du droit civil français.",
-    "relatedFicheIds": [],
+    "explanation": "Le Code civil a été adopté sous Napoléon Ier en 1804. Il est aussi appelé Code Napoléon et constitue le fondement du droit civil français.\nPour en savoir plus, consultez la fiche : Le 1er Empire (1804-1815)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-consulat-1799-1804"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4117,8 +4458,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Charles de Gaulle a été le premier président de la Ve République (1959-1969). Il en est le fondateur.",
-    "relatedFicheIds": [],
+    "explanation": "Charles de Gaulle a été le premier président de la Ve République (1959-1969). Il en est le fondateur.\nPour en savoir plus, consultez la fiche : Les présidents de la Vème République",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4148,8 +4492,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le 14 juillet commémore la prise de la Bastille le 14 juillet 1789, symbole de la Révolution française, et la Fête de la Fédération du 14 juillet 1790.",
-    "relatedFicheIds": [],
+    "explanation": "Le 14 juillet commémore la prise de la Bastille le 14 juillet 1789, symbole de la Révolution française, et la Fête de la Fédération du 14 juillet 1790.\nPour en savoir plus, consultez la fiche : La fête nationale",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4179,8 +4526,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les lois scolaires de la IIIe République (lois Ferry, 1881-1882) avaient pour objectif de rendre l'école gratuite, laïque et obligatoire pour tous les enfants.",
-    "relatedFicheIds": [],
+    "explanation": "Les lois scolaires de la IIIe République (lois Ferry, 1881-1882) avaient pour objectif de rendre l'école gratuite, laïque et obligatoire pour tous les enfants.\nPour en savoir plus, consultez la fiche : La IIIème République (1870-1940)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "vivre-societe-francaise--parentalite--le-systeme-educatif"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4210,8 +4561,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'année 1958 est importante car elle marque la fondation de la Ve République et l'adoption de la Constitution du 4 octobre 1958, toujours en vigueur.",
-    "relatedFicheIds": [],
+    "explanation": "L'année 1958 est importante car elle marque la fondation de la Ve République et l'adoption de la Constitution du 4 octobre 1958, toujours en vigueur.\nPour en savoir plus, consultez la fiche : La Vème République",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4241,8 +4595,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Simone Veil est une figure majeure de l'histoire française. Elle a notamment défendu et fait adopter la loi sur l'interruption volontaire de grossesse (IVG) en 1975.",
-    "relatedFicheIds": [],
+    "explanation": "Simone Veil est une figure majeure de l'histoire française. Elle a notamment défendu et fait adopter la loi sur l'interruption volontaire de grossesse (IVG) en 1975.\nPour en savoir plus, consultez la fiche : Focus sur la Vème République : le droit à l'avortement",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement",
+      "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4272,8 +4629,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La France est un des 6 pays fondateurs de l'Union européenne (via la CECA en 1951), avec l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg.",
-    "relatedFicheIds": [],
+    "explanation": "La France est un des 6 pays fondateurs de l'Union européenne (via la CECA en 1951), avec l'Allemagne, l'Italie, la Belgique, les Pays-Bas et le Luxembourg.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+      "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4303,8 +4664,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les plages du débarquement du 6 juin 1944 (D-Day) se situent en Normandie (Utah Beach, Omaha Beach, Gold Beach, Juno Beach, Sword Beach).",
-    "relatedFicheIds": [],
+    "explanation": "Les plages du débarquement du 6 juin 1944 (D-Day) se situent en Normandie (Utah Beach, Omaha Beach, Gold Beach, Juno Beach, Sword Beach).\nPour en savoir plus, consultez la fiche : Normandie",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--normandie",
+      "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-normandie"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4334,8 +4699,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Les rois de France étaient traditionnellement couronnés dans la cathédrale de Reims, en Champagne.",
-    "relatedFicheIds": [],
+    "explanation": "Les rois de France étaient traditionnellement couronnés dans la cathédrale de Reims, en Champagne.\nPour en savoir plus, consultez la fiche : Des Mérovingiens à l’Ancien Régime (Vème-XVIème siècle)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--des-merovingiens-a-l-ancien-regime",
+      "histoire-geographie-culture--les-regions-francaises--grand-est"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4365,8 +4733,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Jules Ferry, ministre de l'Instruction publique, a rendu l'école gratuite (1881), laïque et obligatoire (1882) sous la IIIe République.",
-    "relatedFicheIds": [],
+    "explanation": "Jules Ferry, ministre de l'Instruction publique, a rendu l'école gratuite (1881), laïque et obligatoire (1882) sous la IIIe République.\nPour en savoir plus, consultez la fiche : La IIIème République (1870-1940)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4396,8 +4768,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Louis XVI a été guillotiné le 21 janvier 1793 pendant la Révolution française, après avoir été jugé et condamné à mort par la Convention.",
-    "relatedFicheIds": [],
+    "explanation": "Louis XVI a été guillotiné le 21 janvier 1793 pendant la Révolution française, après avoir été jugé et condamné à mort par la Convention.\nPour en savoir plus, consultez la fiche : La fin de la monarchie absolue et le début de la Ière République (1789-1792)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4427,8 +4802,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "La Révolution française a débuté en 1789, avec la prise de la Bastille le 14 juillet 1789 comme événement emblématique.",
-    "relatedFicheIds": [],
+    "explanation": "La Révolution française a débuté en 1789, avec la prise de la Bastille le 14 juillet 1789 comme événement emblématique.\nPour en savoir plus, consultez la fiche : La fin de la monarchie absolue et le début de la Ière République (1789-1792)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+      "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4458,8 +4836,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Napoléon Ier est devenu empereur le 2 décembre 1804, lors de son sacre à Notre-Dame de Paris.",
-    "relatedFicheIds": [],
+    "explanation": "Napoléon Ier est devenu empereur le 2 décembre 1804, lors de son sacre à Notre-Dame de Paris.\nPour en savoir plus, consultez la fiche : Le 1er Empire (1804-1815)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-consulat-1799-1804"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4489,8 +4870,12 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Charles de Gaulle a un lien direct avec la République française : fondateur de la Ve République, chef de la France libre pendant la Seconde Guerre mondiale.",
-    "relatedFicheIds": [],
+    "explanation": "Charles de Gaulle a un lien direct avec la République française : fondateur de la Ve République, chef de la France libre pendant la Seconde Guerre mondiale.\nPour en savoir plus, consultez la fiche : La Vème République",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+      "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+      "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4520,8 +4905,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'appel à la résistance du général de Gaulle date du 18 juin 1940, depuis Londres sur la BBC, invitant les Français à continuer le combat contre l'Allemagne nazie.",
-    "relatedFicheIds": [],
+    "explanation": "L'appel à la résistance du général de Gaulle date du 18 juin 1940, depuis Londres sur la BBC, invitant les Français à continuer le combat contre l'Allemagne nazie.\nPour en savoir plus, consultez la fiche : Focus sur la Seconde Guerre mondiale - la Résistance et la Libération",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-regime-de-vichy-1940-1944",
+      "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4551,8 +4940,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Shoah (ou Holocauste) est le génocide des Juifs d'Europe par l'Allemagne nazie pendant la Seconde Guerre mondiale, qui a causé la mort de 6 millions de personnes.",
-    "relatedFicheIds": [],
+    "explanation": "La Shoah (ou Holocauste) est le génocide des Juifs d'Europe par l'Allemagne nazie pendant la Seconde Guerre mondiale, qui a causé la mort de 6 millions de personnes.\nPour en savoir plus, consultez la fiche : Focus sur la Seconde Guerre mondiale - la Shoah",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4582,8 +4974,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les Misérables est une œuvre majeure de Victor Hugo, publiée en 1862. Elle traite de la misère sociale dans la France du XIXe siècle.",
-    "relatedFicheIds": [],
+    "explanation": "Les Misérables est une œuvre majeure de Victor Hugo, publiée en 1862. Elle traite de la misère sociale dans la France du XIXe siècle.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4613,8 +5007,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'Algérie a été une colonie française de 1830 à 1962. La guerre d'Algérie (1954-1962) a mené à son indépendance.",
-    "relatedFicheIds": [],
+    "explanation": "L'Algérie a été une colonie française de 1830 à 1962. La guerre d'Algérie (1954-1962) a mené à son indépendance.\nPour en savoir plus, consultez la fiche : Recomposition de l’ordre mondial : la décolonisation",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation",
+      "histoire-geographie-culture--zoom-sur--l-immigration"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4644,8 +5041,12 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Depuis 1962, les Français élisent le président de la République au suffrage universel direct, suite au référendum voulu par le général de Gaulle.",
-    "relatedFicheIds": [],
+    "explanation": "Depuis 1962, les Français élisent le président de la République au suffrage universel direct, suite au référendum voulu par le général de Gaulle.\nPour en savoir plus, consultez la fiche : Les présidents de la Vème République",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4675,8 +5076,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "L'Union européenne a été fondée en 1992 par le traité de Maastricht. Avant cela, il existait la CEE (Communauté économique européenne) créée en 1957.",
-    "relatedFicheIds": [],
+    "explanation": "L'Union européenne a été fondée en 1992 par le traité de Maastricht. Avant cela, il existait la CEE (Communauté économique européenne) créée en 1957.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4706,8 +5110,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Seconde Guerre mondiale a eu lieu de 1939 à 1945.",
-    "relatedFicheIds": [],
+    "explanation": "La Seconde Guerre mondiale a eu lieu de 1939 à 1945.\nPour en savoir plus, consultez la fiche : La Seconde Guerre mondiale (1939-1945) : le contexte",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1939-1945-le-contexte",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4737,8 +5144,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Première Guerre mondiale a eu lieu de 1914 à 1918. L'armistice a été signé le 11 novembre 1918.",
-    "relatedFicheIds": [],
+    "explanation": "La Première Guerre mondiale a eu lieu de 1914 à 1918. L'armistice a été signé le 11 novembre 1918.\nPour en savoir plus, consultez la fiche : La Première Guerre mondiale (1914-1918) : le contexte",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4768,8 +5178,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La peine de mort a été abolie en France le 9 octobre 1981, sous la présidence de François Mitterrand, grâce au garde des Sceaux Robert Badinter.",
-    "relatedFicheIds": [],
+    "explanation": "La peine de mort a été abolie en France le 9 octobre 1981, sous la présidence de François Mitterrand, grâce au garde des Sceaux Robert Badinter.\nPour en savoir plus, consultez la fiche : Focus sur la Vème République : l'abolition de la peine de mort",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+      "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4799,8 +5212,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le 8 mai célèbre la victoire des Alliés et la capitulation de l'Allemagne nazie, marquant la fin de la Seconde Guerre mondiale en Europe (8 mai 1945).",
-    "relatedFicheIds": [],
+    "explanation": "Le 8 mai célèbre la victoire des Alliés et la capitulation de l'Allemagne nazie, marquant la fin de la Seconde Guerre mondiale en Europe (8 mai 1945).\nPour en savoir plus, consultez la fiche : La Seconde Guerre mondiale (1939-1945) : les conséquences",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-3"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4830,8 +5246,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La CECA (Communauté européenne du charbon et de l'acier), créée en 1951 par le traité de Paris, est la première étape de la construction européenne.",
-    "relatedFicheIds": [],
+    "explanation": "La CECA (Communauté européenne du charbon et de l'acier), créée en 1951 par le traité de Paris, est la première étape de la construction européenne.\nPour en savoir plus, consultez la fiche : Les étapes clés de la construction européenne",
+    "relatedFicheIds": [
+      "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4861,8 +5280,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Jean Moulin était une figure emblématique de la Résistance française. Il a unifié les mouvements de résistance et a été arrêté et torturé à mort par les nazis en 1943.",
-    "relatedFicheIds": [],
+    "explanation": "Jean Moulin était une figure emblématique de la Résistance française. Il a unifié les mouvements de résistance et a été arrêté et torturé à mort par les nazis en 1943.\nPour en savoir plus, consultez la fiche : Focus sur la Seconde Guerre mondiale - la Résistance et la Libération",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-3"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4892,8 +5314,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Manche est la mer qui sépare la France de l'Angleterre. Elle est reliée par le tunnel sous la Manche depuis 1994.",
-    "relatedFicheIds": [],
+    "explanation": "La Manche est la mer qui sépare la France de l'Angleterre. Elle est reliée par le tunnel sous la Manche depuis 1994.\nPour en savoir plus, consultez la fiche : Le territoire de la France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+      "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4923,8 +5348,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le 11 novembre commémore l'armistice de la Première Guerre mondiale, signé le 11 novembre 1918, et rend hommage à tous les morts pour la France.",
-    "relatedFicheIds": [],
+    "explanation": "Le 11 novembre commémore l'armistice de la Première Guerre mondiale, signé le 11 novembre 1918, et rend hommage à tous les morts pour la France.\nPour en savoir plus, consultez la fiche : La Première Guerre mondiale (1914-1918) : le contexte",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -4954,8 +5382,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'esclavage a été définitivement aboli en France par le décret du 27 avril 1848, sous la IIe République. Il avait été brièvement aboli en 1794 puis rétabli par Napoléon en 1802.",
-    "relatedFicheIds": [],
+    "explanation": "L'esclavage a été définitivement aboli en France par le décret du 27 avril 1848, sous la IIe République. Il avait été brièvement aboli en 1794 puis rétabli par Napoléon en 1802.\nPour en savoir plus, consultez la fiche : La IIème République (1848-1851)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851",
+      "droits-et-devoirs--droits-fondamentaux--la-diginite-humaine"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -4985,8 +5416,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Victor Schœlcher est à l'origine du décret d'abolition définitive de l'esclavage en France le 27 avril 1848.",
-    "relatedFicheIds": [],
+    "explanation": "Victor Schœlcher est à l'origine du décret d'abolition définitive de l'esclavage en France le 27 avril 1848.\nPour en savoir plus, consultez la fiche : La IIème République (1848-1851)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851",
+      "droits-et-devoirs--droits-fondamentaux--la-diginite-humaine"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5016,8 +5450,12 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "L'école publique est gratuite depuis 1881, grâce aux lois Jules Ferry (loi du 16 juin 1881).",
-    "relatedFicheIds": [],
+    "explanation": "L'école publique est gratuite depuis 1881, grâce aux lois Jules Ferry (loi du 16 juin 1881).\nPour en savoir plus, consultez la fiche : La IIIème République (1870-1940)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5047,8 +5485,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les Pyrénées sont la chaîne de montagnes située entre la France et l'Espagne, s'étendant de l'Atlantique à la Méditerranée.",
-    "relatedFicheIds": [],
+    "explanation": "Les Pyrénées sont la chaîne de montagnes située entre la France et l'Espagne, s'étendant de l'Atlantique à la Méditerranée.\nPour en savoir plus, consultez la fiche : Les frontières de la France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+      "histoire-geographie-culture--les-regions-francaises--occitanie",
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5078,8 +5520,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "En 1944, les femmes françaises ont obtenu le droit de vote par l'ordonnance du 21 avril 1944. Elles ont voté pour la première fois le 29 avril 1945.",
-    "relatedFicheIds": [],
+    "explanation": "En 1944, les femmes françaises ont obtenu le droit de vote par l'ordonnance du 21 avril 1944. Elles ont voté pour la première fois le 29 avril 1945.\nPour en savoir plus, consultez la fiche : Le Gouvernement provisoire de la République française (1944-1946)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-gouvernement-provisoire-de-la-republique-francaise-1944-1946",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+      "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5109,8 +5555,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'ONU (Organisation des Nations Unies) a été créée en 1945 après la Seconde Guerre mondiale pour maintenir la paix et la sécurité internationales.",
-    "relatedFicheIds": [],
+    "explanation": "L'ONU (Organisation des Nations Unies) a été créée en 1945 après la Seconde Guerre mondiale pour maintenir la paix et la sécurité internationales.\nPour en savoir plus, consultez la fiche : La Seconde Guerre mondiale (1939-1945) : les conséquences",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+      "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-militaire-et-diplomatique"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5140,8 +5589,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'euro est devenu la monnaie officielle de la France le 1er janvier 2002, remplaçant le franc français pour les transactions courantes.",
-    "relatedFicheIds": [],
+    "explanation": "L'euro est devenu la monnaie officielle de la France le 1er janvier 2002, remplaçant le franc français pour les transactions courantes.\nPour en savoir plus, consultez la fiche : Recomposition de l’ordre mondial : la construction européenne",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+      "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5171,8 +5623,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Paris a été libérée le 25 août 1944, lors de l'insurrection parisienne soutenue par les troupes alliées et la 2e division blindée du général Leclerc.",
-    "relatedFicheIds": [],
+    "explanation": "Paris a été libérée le 25 août 1944, lors de l'insurrection parisienne soutenue par les troupes alliées et la 2e division blindée du général Leclerc.\nPour en savoir plus, consultez la fiche : Focus sur la Seconde Guerre mondiale - la Résistance et la Libération",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-3"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5202,8 +5657,12 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Nantes était le principal port français impliqué dans la traite négrière au XVIIIe siècle, suivi de Bordeaux et La Rochelle.",
-    "relatedFicheIds": [],
+    "explanation": "Nantes était le principal port français impliqué dans la traite négrière au XVIIIe siècle, suivi de Bordeaux et La Rochelle.\nPour en savoir plus, consultez la fiche : Pays de la Loire",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--pays-de-la-loire",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution",
+      "droits-et-devoirs--droits-fondamentaux--la-diginite-humaine"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -5233,8 +5692,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Voltaire, célèbre philosophe des Lumières du XVIIIe siècle, a dénoncé l'esclavage notamment dans « Candide » (1759).",
-    "relatedFicheIds": [],
+    "explanation": "Voltaire, célèbre philosophe des Lumières du XVIIIe siècle, a dénoncé l'esclavage notamment dans « Candide » (1759).\nPour en savoir plus, consultez la fiche : L'Ancien Régime (jusqu'en 1789)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5264,8 +5725,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Claude Monet est un peintre français, fondateur de l'impressionnisme, célèbre pour ses Nymphéas et ses paysages.",
-    "relatedFicheIds": [],
+    "explanation": "Claude Monet est un peintre français, fondateur de l'impressionnisme, célèbre pour ses Nymphéas et ses paysages.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les peintres",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-peintres",
+      "histoire-geographie-culture--culture--une-puissance-culturelle"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5295,8 +5759,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Le bœuf bourguignon est une spécialité de la cuisine française traditionnelle, originaire de Bourgogne.",
-    "relatedFicheIds": [],
+    "explanation": "Le bœuf bourguignon est une spécialité de la cuisine française traditionnelle, originaire de Bourgogne.\nPour en savoir plus, consultez la fiche : Patrimoine français : sites emblématiques et gastronomie de Bourgogne-Franche-Comté",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-bourgogne-franche-comte",
+      "histoire-geographie-culture--les-regions-francaises--bourgogne-franche-comte"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5326,8 +5793,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Marie Curie (1867-1934) était une physicienne et chimiste d'origine polonaise naturalisée française, double lauréate du prix Nobel (physique 1903, chimie 1911).",
-    "relatedFicheIds": [],
+    "explanation": "Marie Curie (1867-1934) était une physicienne et chimiste d'origine polonaise naturalisée française, double lauréate du prix Nobel (physique 1903, chimie 1911).\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques devenus français",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+      "histoire-geographie-culture--culture--une-puissance-culturelle"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5357,8 +5827,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "« La liberté guidant le peuple » a été peinte par Eugène Delacroix en 1830, représentant les Trois Glorieuses (révolution de juillet 1830).",
-    "relatedFicheIds": [],
+    "explanation": "« La liberté guidant le peuple » a été peinte par Eugène Delacroix en 1830, représentant les Trois Glorieuses (révolution de juillet 1830).\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les peintres",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-peintres"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5388,8 +5860,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Joconde (Mona Lisa) de Léonard de Vinci est exposée au musée du Louvre à Paris, le plus grand musée du monde.",
-    "relatedFicheIds": [],
+    "explanation": "La Joconde (Mona Lisa) de Léonard de Vinci est exposée au musée du Louvre à Paris, le plus grand musée du monde.\nPour en savoir plus, consultez la fiche : Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+      "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5419,8 +5894,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Le château de Versailles, près de Paris, symbolise le pouvoir royal de Louis XIV (le Roi-Soleil). Il est classé au patrimoine mondial de l'UNESCO.",
-    "relatedFicheIds": [],
+    "explanation": "Le château de Versailles, près de Paris, symbolise le pouvoir royal de Louis XIV (le Roi-Soleil). Il est classé au patrimoine mondial de l'UNESCO.\nPour en savoir plus, consultez la fiche : Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5450,8 +5927,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La grotte de Lascaux, en Dordogne, contient des peintures préhistoriques datant d'environ 17 000 ans. Elle est surnommée la « chapelle Sixtine de la Préhistoire ».",
-    "relatedFicheIds": [],
+    "explanation": "La grotte de Lascaux, en Dordogne, contient des peintures préhistoriques datant d'environ 17 000 ans. Elle est surnommée la « chapelle Sixtine de la Préhistoire ».\nPour en savoir plus, consultez la fiche : Patrimoine français : sites emblématiques et gastronomie de Nouvelle-Aquitaine",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-nouvelle-aquitaine"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5481,8 +5960,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Claude Monet a peint les célèbres Nymphéas, une série de 250 peintures à l'huile représentant son jardin à Giverny.",
-    "relatedFicheIds": [],
+    "explanation": "Claude Monet a peint les célèbres Nymphéas, une série de 250 peintures à l'huile représentant son jardin à Giverny.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les peintres",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-peintres"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5512,8 +5993,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Les Journées européennes du patrimoine, en septembre, permettent de visiter gratuitement des lieux culturels et historiques habituellement fermés au public.",
-    "relatedFicheIds": [],
+    "explanation": "Les Journées européennes du patrimoine, en septembre, permettent de visiter gratuitement des lieux culturels et historiques habituellement fermés au public.\nPour en savoir plus, consultez la fiche : Patrimoine français : l’accès à la culture",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5543,8 +6026,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le 1er mai symbolise la fête du travail et des travailleurs. C'est un jour férié depuis 1947 en France, associé au muguet.",
-    "relatedFicheIds": [],
+    "explanation": "Le 1er mai symbolise la fête du travail et des travailleurs. C'est un jour férié depuis 1947 en France, associé au muguet.\nPour en savoir plus, consultez la fiche : La fête nationale",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5574,8 +6059,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Claude Joseph Rouget de Lisle est le compositeur de la Marseillaise en 1792, devenue hymne national français.",
-    "relatedFicheIds": [],
+    "explanation": "Claude Joseph Rouget de Lisle est le compositeur de la Marseillaise en 1792, devenue hymne national français.\nPour en savoir plus, consultez la fiche : L'hymne français",
+    "relatedFicheIds": [
+      "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5605,8 +6092,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Tour Eiffel a été construite pour l'Exposition universelle de 1889 à Paris, centenaire de la Révolution française. Elle a été conçue par Gustave Eiffel.",
-    "relatedFicheIds": [],
+    "explanation": "La Tour Eiffel a été construite pour l'Exposition universelle de 1889 à Paris, centenaire de la Révolution française. Elle a été conçue par Gustave Eiffel.\nPour en savoir plus, consultez la fiche : Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5636,8 +6125,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les Alpes sont la chaîne de montagnes située entre la France et l'Italie, avec le Mont-Blanc comme point culminant (4 808 m).",
-    "relatedFicheIds": [],
+    "explanation": "Les Alpes sont la chaîne de montagnes située entre la France et l'Italie, avec le Mont-Blanc comme point culminant (4 808 m).\nPour en savoir plus, consultez la fiche : Les frontières de la France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5667,8 +6158,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Molière (1622-1673) était un dramaturge et comédien du XVIIe siècle, auteur de comédies célèbres comme Le Malade imaginaire, Tartuffe et L'Avare.",
-    "relatedFicheIds": [],
+    "explanation": "Molière (1622-1673) était un dramaturge et comédien du XVIIe siècle, auteur de comédies célèbres comme Le Malade imaginaire, Tartuffe et L'Avare.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les auteurs (1/3)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5698,8 +6191,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Charles Baudelaire (1821-1867) était un poète français du XIXe siècle, célèbre pour son recueil Les Fleurs du mal.",
-    "relatedFicheIds": [],
+    "explanation": "Charles Baudelaire (1821-1867) était un poète français du XIXe siècle, célèbre pour son recueil Les Fleurs du mal.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5729,8 +6224,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "George Sand (1804-1876) était une romancière française du XIXe siècle, pionnière du féminisme, connue pour ses romans champêtres et son engagement social.",
-    "relatedFicheIds": [],
+    "explanation": "George Sand (1804-1876) était une romancière française du XIXe siècle, pionnière du féminisme, connue pour ses romans champêtres et son engagement social.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5760,8 +6257,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Simone de Beauvoir (1908-1986) était une philosophe et écrivaine féministe, auteure du Deuxième Sexe (1949), œuvre majeure du féminisme.",
-    "relatedFicheIds": [],
+    "explanation": "Simone de Beauvoir (1908-1986) était une philosophe et écrivaine féministe, auteure du Deuxième Sexe (1949), œuvre majeure du féminisme.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les auteurs (3/3)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5791,8 +6290,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Albert Camus (1913-1960) était un écrivain et philosophe franco-algérien, prix Nobel de littérature en 1957, auteur de L'Étranger et La Peste.",
-    "relatedFicheIds": [],
+    "explanation": "Albert Camus (1913-1960) était un écrivain et philosophe franco-algérien, prix Nobel de littérature en 1957, auteur de L'Étranger et La Peste.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les auteurs (3/3)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5822,8 +6323,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Marguerite Yourcenar (1903-1987) fut la première femme élue à l'Académie française en 1980, auteure des Mémoires d'Hadrien.",
-    "relatedFicheIds": [],
+    "explanation": "Marguerite Yourcenar (1903-1987) fut la première femme élue à l'Académie française en 1980, auteure des Mémoires d'Hadrien.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les auteurs (3/3)",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -5853,8 +6356,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Paul Cézanne (1839-1906) était un peintre postimpressionniste français, considéré comme le précurseur du cubisme. Il est célèbre pour ses natures mortes et paysages provençaux.",
-    "relatedFicheIds": [],
+    "explanation": "Paul Cézanne (1839-1906) était un peintre postimpressionniste français, considéré comme le précurseur du cubisme. Il est célèbre pour ses natures mortes et paysages provençaux.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les peintres",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-peintres"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5884,8 +6389,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Auguste Rodin (1840-1917) était un sculpteur français, auteur d'œuvres célèbres comme Le Penseur et Les Bourgeois de Calais.",
-    "relatedFicheIds": [],
+    "explanation": "Auguste Rodin (1840-1917) était un sculpteur français, auteur d'œuvres célèbres comme Le Penseur et Les Bourgeois de Calais.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les sculpteurs",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5915,8 +6422,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Claude Debussy (1862-1918) était un célèbre compositeur français, créateur de Clair de lune et La Mer, figure majeure de la musique impressionniste.",
-    "relatedFicheIds": [],
+    "explanation": "Claude Debussy (1862-1918) était un célèbre compositeur français, créateur de Clair de lune et La Mer, figure majeure de la musique impressionniste.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques dans l’univers de la musique",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -5946,8 +6455,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Auguste Renoir (1841-1919) était un peintre impressionniste français, célèbre pour Le Bal du moulin de la Galette et Le Déjeuner des canotiers.",
-    "relatedFicheIds": [],
+    "explanation": "Auguste Renoir (1841-1919) était un peintre impressionniste français, célèbre pour Le Bal du moulin de la Galette et Le Déjeuner des canotiers.\nPour en savoir plus, consultez la fiche : Patrimoine français : des artistes emblématiques parmi les peintres",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-peintres"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -5977,8 +6488,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Le musée du Louvre est situé à Paris. C'est le plus grand musée d'art du monde et le plus visité.",
-    "relatedFicheIds": [],
+    "explanation": "Le musée du Louvre est situé à Paris. C'est le plus grand musée d'art du monde et le plus visité.\nPour en savoir plus, consultez la fiche : Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+      "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6008,8 +6522,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le Mont-Saint-Michel est un monument historique situé sur une île en Normandie, classé au patrimoine mondial de l'UNESCO.",
-    "relatedFicheIds": [],
+    "explanation": "Le Mont-Saint-Michel est un monument historique situé sur une île en Normandie, classé au patrimoine mondial de l'UNESCO.\nPour en savoir plus, consultez la fiche : Patrimoine français : sites emblématiques et gastronomie de Normandie",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-normandie"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6039,8 +6555,11 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Marseille fait partie des 10 plus grandes métropoles de France. C'est la deuxième ville de France par sa population.",
-    "relatedFicheIds": [],
+    "explanation": "Marseille fait partie des 10 plus grandes métropoles de France. C'est la deuxième ville de France par sa population.\nPour en savoir plus, consultez la fiche : La France : aire urbaine et métropolisation",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+      "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6070,8 +6589,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Guadeloupe fait partie des Antilles françaises, située dans la mer des Caraïbes, avec la Martinique.",
-    "relatedFicheIds": [],
+    "explanation": "La Guadeloupe fait partie des Antilles françaises, située dans la mer des Caraïbes, avec la Martinique.\nPour en savoir plus, consultez la fiche : Guadeloupe",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--guadeloupe",
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6101,8 +6623,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Martinique est une île française des Antilles, département et région d'outre-mer (DROM).",
-    "relatedFicheIds": [],
+    "explanation": "La Martinique est une île française des Antilles, département et région d'outre-mer (DROM).\nPour en savoir plus, consultez la fiche : Martinique",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--martinique",
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6132,8 +6657,11 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Le Mont Blanc, dans les Alpes, est la plus haute montagne de France et d'Europe occidentale avec 4 808 mètres d'altitude.",
-    "relatedFicheIds": [],
+    "explanation": "Le Mont Blanc, dans les Alpes, est la plus haute montagne de France et d'Europe occidentale avec 4 808 mètres d'altitude.\nPour en savoir plus, consultez la fiche : Les frontières de la France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+      "histoire-geographie-culture--les-regions-francaises--auvergne-rhone-alpes"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6163,8 +6691,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Réunion est une île française située dans l'océan Indien, à l'est de Madagascar. C'est un département et une région d'outre-mer.",
-    "relatedFicheIds": [],
+    "explanation": "La Réunion est une île française située dans l'océan Indien, à l'est de Madagascar. C'est un département et une région d'outre-mer.\nPour en savoir plus, consultez la fiche : La Réunion",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--la-reunion",
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6194,8 +6725,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Guyane française est le seul département français d'outre-mer situé en Amérique du Sud, partageant une frontière avec le Brésil.",
-    "relatedFicheIds": [],
+    "explanation": "La Guyane française est le seul département français d'outre-mer situé en Amérique du Sud, partageant une frontière avec le Brésil.\nPour en savoir plus, consultez la fiche : Guyane",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--guyane",
+      "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6225,8 +6759,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La fusée Ariane décolle de Kourou, en Guyane française, où se trouve le Centre spatial guyanais.",
-    "relatedFicheIds": [],
+    "explanation": "La fusée Ariane décolle de Kourou, en Guyane française, où se trouve le Centre spatial guyanais.\nPour en savoir plus, consultez la fiche : Guyane",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--guyane",
+      "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-guyane"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6256,8 +6793,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "L'océan Atlantique borde la France métropolitaine à l'ouest. La France est aussi bordée par la Manche au nord et la mer Méditerranée au sud.",
-    "relatedFicheIds": [],
+    "explanation": "L'océan Atlantique borde la France métropolitaine à l'ouest. La France est aussi bordée par la Manche au nord et la mer Méditerranée au sud.\nPour en savoir plus, consultez la fiche : Les frontières de la France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6287,8 +6826,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Martinique est un département d'outre-mer (DOM) français situé dans les Antilles, dans la mer des Caraïbes.",
-    "relatedFicheIds": [],
+    "explanation": "La Martinique est un département d'outre-mer (DOM) français situé dans les Antilles, dans la mer des Caraïbes.\nPour en savoir plus, consultez la fiche : Martinique",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--martinique",
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6318,8 +6860,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La France d'outre-mer désigne l'ensemble des territoires français situés hors de la métropole (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte, etc.).",
-    "relatedFicheIds": [],
+    "explanation": "La France d'outre-mer désigne l'ensemble des territoires français situés hors de la métropole (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte, etc.).\nPour en savoir plus, consultez la fiche : Le territoire de la France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6349,8 +6893,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La population approximative de la France en 2025 est d'environ 68 millions d'habitants (métropole et outre-mer).",
-    "relatedFicheIds": [],
+    "explanation": "La population approximative de la France en 2025 est d'environ 68 millions d'habitants (métropole et outre-mer).\nPour en savoir plus, consultez la fiche : La démographie française",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6380,8 +6926,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "Marseille est le principal port maritime de France, situé sur la côte méditerranéenne. C'est aussi le plus grand port de commerce français.",
-    "relatedFicheIds": [],
+    "explanation": "Marseille est le principal port maritime de France, situé sur la côte méditerranéenne. C'est aussi le plus grand port de commerce français.\nPour en savoir plus, consultez la fiche : Les ports français",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6411,8 +6959,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Il y a 13 régions en France métropolitaine depuis la réforme territoriale de 2015.",
-    "relatedFicheIds": [],
+    "explanation": "Il y a 13 régions en France métropolitaine depuis la réforme territoriale de 2015.\nPour en savoir plus, consultez la fiche : Le territoire de la France",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6442,8 +6993,11 @@
       }
     ],
     "correctAnswer": "d",
-    "explanation": "Mayotte est une île française située au sud-est du continent africain, dans le canal du Mozambique, dans l'océan Indien.",
-    "relatedFicheIds": [],
+    "explanation": "Mayotte est une île française située au sud-est du continent africain, dans le canal du Mozambique, dans l'océan Indien.\nPour en savoir plus, consultez la fiche : Mayotte",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--mayotte",
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6473,8 +7027,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Lyon est le chef-lieu (capitale administrative) de la région Auvergne-Rhône-Alpes.",
-    "relatedFicheIds": [],
+    "explanation": "Lyon est le chef-lieu (capitale administrative) de la région Auvergne-Rhône-Alpes.\nPour en savoir plus, consultez la fiche : Auvergne-Rhône-Alpes",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--auvergne-rhone-alpes"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6504,8 +7060,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Rennes est le chef-lieu de la région Bretagne.",
-    "relatedFicheIds": [],
+    "explanation": "Rennes est le chef-lieu de la région Bretagne.\nPour en savoir plus, consultez la fiche : Bretagne",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--bretagne"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6535,8 +7093,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Marseille est le chef-lieu de la région Provence-Alpes-Côte d'Azur (PACA).",
-    "relatedFicheIds": [],
+    "explanation": "Marseille est le chef-lieu de la région Provence-Alpes-Côte d'Azur (PACA).\nPour en savoir plus, consultez la fiche : Provence-Alpes-Côte d’Azur",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6566,8 +7126,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Mayotte est devenue le 101e département français en 2011, après un référendum en 2009 où les Mahorais ont choisi la départementalisation.",
-    "relatedFicheIds": [],
+    "explanation": "Mayotte est devenue le 101e département français en 2011, après un référendum en 2009 où les Mahorais ont choisi la départementalisation.\nPour en savoir plus, consultez la fiche : Mayotte",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--mayotte",
+      "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -6597,8 +7160,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La région Auvergne-Rhône-Alpes est réputée pour ses stations de ski, avec les Alpes françaises qui accueillent de nombreuses stations (Chamonix, Val-d'Isère, etc.).",
-    "relatedFicheIds": [],
+    "explanation": "La région Auvergne-Rhône-Alpes est réputée pour ses stations de ski, avec les Alpes françaises qui accueillent de nombreuses stations (Chamonix, Val-d'Isère, etc.).\nPour en savoir plus, consultez la fiche : Auvergne-Rhône-Alpes",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--les-regions-francaises--auvergne-rhone-alpes"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6628,8 +7193,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La Seine est le fleuve qui traverse Paris. Elle mesure 776 km et se jette dans la Manche au Havre.",
-    "relatedFicheIds": [],
+    "explanation": "La Seine est le fleuve qui traverse Paris. Elle mesure 776 km et se jette dans la Manche au Havre.\nPour en savoir plus, consultez la fiche : Les fleuves français",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6659,8 +7226,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La naissance d'un enfant doit être déclarée à la mairie du lieu de naissance (service d'état civil) dans les 5 jours suivant la naissance.",
-    "relatedFicheIds": [],
+    "explanation": "La naissance d'un enfant doit être déclarée à la mairie du lieu de naissance (service d'état civil) dans les 5 jours suivant la naissance.\nPour en savoir plus, consultez la fiche : La déclaration de naissance",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance",
+      "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6690,8 +7260,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le locataire peut peindre les murs intérieurs ou faire de petits aménagements sans autorisation du propriétaire (travaux de décoration et menus aménagements).",
-    "relatedFicheIds": [],
+    "explanation": "Le locataire peut peindre les murs intérieurs ou faire de petits aménagements sans autorisation du propriétaire (travaux de décoration et menus aménagements).\nPour en savoir plus, consultez la fiche : Les démarches relatives au logement (2/2)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6721,8 +7293,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "En France, seul le mariage civil célébré à la mairie est reconnu légalement. Le mariage religieux est facultatif et ne peut avoir lieu qu'après le mariage civil.",
-    "relatedFicheIds": [],
+    "explanation": "En France, seul le mariage civil célébré à la mairie est reconnu légalement. Le mariage religieux est facultatif et ne peut avoir lieu qu'après le mariage civil.\nPour en savoir plus, consultez la fiche : La déclaration de mariage",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6752,8 +7326,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le stationnement sur une place réservée aux personnes handicapées est interdit et passible d'une amende de 135 €. Ces places sont exclusivement réservées aux titulaires d'une carte de stationnement.",
-    "relatedFicheIds": [],
+    "explanation": "Le stationnement sur une place réservée aux personnes handicapées est interdit et passible d'une amende de 135 €. Ces places sont exclusivement réservées aux titulaires d'une carte de stationnement.\nPour en savoir plus, consultez la fiche : Se conformer aux lois : les infractions (1/2)",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6783,8 +7359,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Si une machine à laver est cassée, il est possible de la faire réparer ou de la déposer dans une déchetterie. Il est interdit de l'abandonner sur la voie publique.",
-    "relatedFicheIds": [],
+    "explanation": "Si une machine à laver est cassée, il est possible de la faire réparer ou de la déposer dans une déchetterie. Il est interdit de l'abandonner sur la voie publique.\nPour en savoir plus, consultez la fiche : Adopter une attitude respectueuse vis-à-vis de l’environnement",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6814,8 +7392,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Chaque naissance doit être déclarée au service d'état civil de la mairie du lieu de naissance, dans les 5 jours suivant la naissance.",
-    "relatedFicheIds": [],
+    "explanation": "Chaque naissance doit être déclarée au service d'état civil de la mairie du lieu de naissance, dans les 5 jours suivant la naissance.\nPour en savoir plus, consultez la fiche : La déclaration de naissance",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6845,8 +7425,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La déclaration de naissance doit être faite dans les 5 jours suivant la naissance (le jour de la naissance n'est pas compté).",
-    "relatedFicheIds": [],
+    "explanation": "La déclaration de naissance doit être faite dans les 5 jours suivant la naissance (le jour de la naissance n'est pas compté).\nPour en savoir plus, consultez la fiche : La déclaration de naissance",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -6876,8 +7458,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le 17 est le numéro d'urgence pour appeler la police (police secours). Le 15 est le SAMU, le 18 les pompiers et le 112 le numéro d'urgence européen.",
-    "relatedFicheIds": [],
+    "explanation": "Le 17 est le numéro d'urgence pour appeler la police (police secours). Le 15 est le SAMU, le 18 les pompiers et le 112 le numéro d'urgence européen.\nPour en savoir plus, consultez la fiche : Annexe : les numéros d’urgence",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+      "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6907,8 +7492,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le 15 est le numéro d'urgence pour appeler le SAMU (Service d'aide médicale urgente).",
-    "relatedFicheIds": [],
+    "explanation": "Le 15 est le numéro d'urgence pour appeler le SAMU (Service d'aide médicale urgente).\nPour en savoir plus, consultez la fiche : Annexe : les numéros d’urgence",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+      "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6938,8 +7526,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les parents inscrivent leurs enfants à l'école publique auprès de la mairie de leur domicile.",
-    "relatedFicheIds": [],
+    "explanation": "Les parents inscrivent leurs enfants à l'école publique auprès de la mairie de leur domicile.\nPour en savoir plus, consultez la fiche : La liberté de choisir l’école de son enfant",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+      "vivre-societe-francaise--parentalite--le-systeme-educatif"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -6969,8 +7560,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "En cas de divorce, l'autorité parentale est exercée conjointement par les deux parents, sauf décision contraire du juge aux affaires familiales.",
-    "relatedFicheIds": [],
+    "explanation": "En cas de divorce, l'autorité parentale est exercée conjointement par les deux parents, sauf décision contraire du juge aux affaires familiales.\nPour en savoir plus, consultez la fiche : Exercice de l’autorité parentale (1/2)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7000,8 +7593,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'aide juridictionnelle permet aux personnes ayant des difficultés financières d'avoir un avocat pris en charge par l'État.",
-    "relatedFicheIds": [],
+    "explanation": "L'aide juridictionnelle permet aux personnes ayant des difficultés financières d'avoir un avocat pris en charge par l'État.\nPour en savoir plus, consultez la fiche : Se conformer aux lois - les acteurs (2/2)",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -7031,8 +7626,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le divorce peut être demandé par l'un ou l'autre des époux, ou par les deux conjointement (divorce par consentement mutuel).",
-    "relatedFicheIds": [],
+    "explanation": "Le divorce peut être demandé par l'un ou l'autre des époux, ou par les deux conjointement (divorce par consentement mutuel).\nPour en savoir plus, consultez la fiche : La déclaration de mariage",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+      "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7062,8 +7660,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les remboursements de frais de santé sont demandés auprès de la CPAM (Caisse primaire d'assurance maladie), ou de manière automatique avec la carte Vitale.",
-    "relatedFicheIds": [],
+    "explanation": "Les remboursements de frais de santé sont demandés auprès de la CPAM (Caisse primaire d'assurance maladie), ou de manière automatique avec la carte Vitale.\nPour en savoir plus, consultez la fiche : Santé : la prise en charge et le remboursement",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--sante--sante-la-prise-en-charge-les-demarches-pour-etre-rembourse"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7093,8 +7693,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La contraception est un droit accessible à tous en France. Elle est gratuite pour les moins de 26 ans et remboursée par l'Assurance maladie.",
-    "relatedFicheIds": [],
+    "explanation": "La contraception est un droit accessible à tous en France. Elle est gratuite pour les moins de 26 ans et remboursée par l'Assurance maladie.\nPour en savoir plus, consultez la fiche : Un droit fondamental : le droit de disposer de son corps",
+    "relatedFicheIds": [
+      "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7124,8 +7726,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le principe de confidentialité en santé signifie que les informations médicales du patient sont protégées par le secret médical. Le médecin ne peut pas les divulguer sans accord.",
-    "relatedFicheIds": [],
+    "explanation": "Le principe de confidentialité en santé signifie que les informations médicales du patient sont protégées par le secret médical. Le médecin ne peut pas les divulguer sans accord.\nPour en savoir plus, consultez la fiche : Santé : les droits et les devoirs du patient",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--sante--sante-les-droits-du-patient"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7155,8 +7759,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La carte Vitale sert à être remboursé de ses frais de santé. Elle atteste de l'affiliation à l'Assurance maladie et simplifie les remboursements.",
-    "relatedFicheIds": [],
+    "explanation": "La carte Vitale sert à être remboursé de ses frais de santé. Elle atteste de l'affiliation à l'Assurance maladie et simplifie les remboursements.\nPour en savoir plus, consultez la fiche : Santé : la prise en charge et le remboursement",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--sante--sante-la-prise-en-charge-les-demarches-pour-etre-rembourse"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7186,8 +7792,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Une mutuelle santé (complémentaire santé) sert à compléter les remboursements de l'Assurance maladie pour réduire le reste à charge du patient.",
-    "relatedFicheIds": [],
+    "explanation": "Une mutuelle santé (complémentaire santé) sert à compléter les remboursements de l'Assurance maladie pour réduire le reste à charge du patient.\nPour en savoir plus, consultez la fiche : La prise en charge : les différentes couvertures maladie",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--sante--la-prise-en-charge-les-differentes-couvertures-maladie"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7217,8 +7825,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le tiers payant est un système qui permet au patient de ne pas avancer les frais de santé. Le professionnel de santé est directement payé par l'Assurance maladie.",
-    "relatedFicheIds": [],
+    "explanation": "Le tiers payant est un système qui permet au patient de ne pas avancer les frais de santé. Le professionnel de santé est directement payé par l'Assurance maladie.\nPour en savoir plus, consultez la fiche : Santé : la prise en charge et le remboursement",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--sante--sante-la-prise-en-charge-les-demarches-pour-etre-rembourse"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -7248,8 +7858,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'inscription à l'Assurance maladie est obligatoire pour toute personne résidant en France de manière stable et régulière.",
-    "relatedFicheIds": [],
+    "explanation": "L'inscription à l'Assurance maladie est obligatoire pour toute personne résidant en France de manière stable et régulière.\nPour en savoir plus, consultez la fiche : Santé : la prise en charge et le remboursement",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--sante--sante-la-prise-en-charge-les-demarches-pour-etre-rembourse",
+      "vivre-societe-francaise--sante--la-prise-en-charge-les-differentes-couvertures-maladie"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7279,8 +7892,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'avortement (IVG) est un droit garanti par la loi en France depuis 1975 (loi Veil). Il est possible jusqu'à 14 semaines de grossesse et est remboursé à 100 %.",
-    "relatedFicheIds": [],
+    "explanation": "L'avortement (IVG) est un droit garanti par la loi en France depuis 1975 (loi Veil). Il est possible jusqu'à 14 semaines de grossesse et est remboursé à 100 %.\nPour en savoir plus, consultez la fiche : Focus sur la Vème République : le droit à l'avortement",
+    "relatedFicheIds": [
+      "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement",
+      "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7310,8 +7926,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Travailler sans être déclaré est illégal. C'est du travail dissimulé (travail au noir), puni par la loi pour l'employeur comme pour le salarié.",
-    "relatedFicheIds": [],
+    "explanation": "Travailler sans être déclaré est illégal. C'est du travail dissimulé (travail au noir), puni par la loi pour l'employeur comme pour le salarié.\nPour en savoir plus, consultez la fiche : Le droit du travail (5/5)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7341,8 +7959,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le SMIC est le Salaire minimum interprofessionnel de croissance. C'est le salaire horaire minimum légal en France, en dessous duquel aucun salarié ne peut être payé.",
-    "relatedFicheIds": [],
+    "explanation": "Le SMIC est le Salaire minimum interprofessionnel de croissance. C'est le salaire horaire minimum légal en France, en dessous duquel aucun salarié ne peut être payé.\nPour en savoir plus, consultez la fiche : Le droit du travail (2/5)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7372,8 +7992,8 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La première démarche pour chercher un emploi est de s'inscrire à France Travail (anciennement Pôle emploi) pour bénéficier d'un accompagnement et d'éventuelles allocations.",
-    "relatedFicheIds": [],
+    "explanation": "La première démarche pour chercher un emploi est de s'inscrire à France Travail (anciennement Pôle emploi) pour bénéficier d'un accompagnement et d'éventuelles allocations.\nPour en savoir plus, consultez la fiche : Orientation (1/5)",
+    "relatedFicheIds": ["vivre-societe-francaise--emploi--orientation-1"],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7403,8 +8023,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La durée légale du temps de travail en France est de 35 heures par semaine, depuis la loi Aubry de 2000.",
-    "relatedFicheIds": [],
+    "explanation": "La durée légale du temps de travail en France est de 35 heures par semaine, depuis la loi Aubry de 2000.\nPour en savoir plus, consultez la fiche : Le droit du travail (1/5)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7434,8 +8056,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le père ou la mère peut demander un congé parental d'éducation pour s'occuper de son enfant, sous certaines conditions d'ancienneté.",
-    "relatedFicheIds": [],
+    "explanation": "Le père ou la mère peut demander un congé parental d'éducation pour s'occuper de son enfant, sous certaines conditions d'ancienneté.\nPour en savoir plus, consultez la fiche : Le soutien à la parentalité (1/2)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--le-soutien-a-la-parentalite-1",
+      "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7465,8 +8090,8 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Une personne étrangère en situation régulière peut créer son entreprise en France dans les mêmes conditions qu'un Français.",
-    "relatedFicheIds": [],
+    "explanation": "Une personne étrangère en situation régulière peut créer son entreprise en France dans les mêmes conditions qu'un Français.\nPour en savoir plus, consultez la fiche : Types d'emploi (3/3)",
+    "relatedFicheIds": ["vivre-societe-francaise--emploi--types-emploi-3"],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7496,8 +8121,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Oui, une femme peut créer son entreprise librement en France. L'égalité homme-femme est un principe fondamental de la République.",
-    "relatedFicheIds": [],
+    "explanation": "Oui, une femme peut créer son entreprise librement en France. L'égalité homme-femme est un principe fondamental de la République.\nPour en savoir plus, consultez la fiche : Types d'emploi (3/3)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--types-emploi-3",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7527,8 +8155,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les règles au travail sont définies par le Code du travail, les conventions collectives et le contrat de travail. Ces textes protègent les droits des salariés.",
-    "relatedFicheIds": [],
+    "explanation": "Les règles au travail sont définies par le Code du travail, les conventions collectives et le contrat de travail. Ces textes protègent les droits des salariés.\nPour en savoir plus, consultez la fiche : Le droit du travail (1/5)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -7558,8 +8188,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Le conseil de prud'hommes traite les litiges entre employeurs et salariés (licenciement abusif, non-paiement de salaire, conditions de travail, etc.).",
-    "relatedFicheIds": [],
+    "explanation": "Le conseil de prud'hommes traite les litiges entre employeurs et salariés (licenciement abusif, non-paiement de salaire, conditions de travail, etc.).\nPour en savoir plus, consultez la fiche : Le droit du travail (2/5)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7589,8 +8221,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Tout salarié a le droit de se syndiquer, quelle que soit sa nationalité. La liberté syndicale est un droit fondamental garanti par la Constitution.",
-    "relatedFicheIds": [],
+    "explanation": "Tout salarié a le droit de se syndiquer, quelle que soit sa nationalité. La liberté syndicale est un droit fondamental garanti par la Constitution.\nPour en savoir plus, consultez la fiche : Le droit du travail (2/5)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7620,8 +8254,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Il est interdit de licencier une femme enceinte ou en congé maternité en raison de sa grossesse. C'est une protection prévue par le Code du travail.",
-    "relatedFicheIds": [],
+    "explanation": "Il est interdit de licencier une femme enceinte ou en congé maternité en raison de sa grossesse. C'est une protection prévue par le Code du travail.\nPour en savoir plus, consultez la fiche : Le droit du travail (3/5)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7651,8 +8288,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'instruction des enfants est obligatoire de 3 à 16 ans en France. L'obligation de formation est étendue jusqu'à 18 ans (formation, emploi ou service civique).",
-    "relatedFicheIds": [],
+    "explanation": "L'instruction des enfants est obligatoire de 3 à 16 ans en France. L'obligation de formation est étendue jusqu'à 18 ans (formation, emploi ou service civique).\nPour en savoir plus, consultez la fiche : Le système éducatif",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--le-systeme-educatif"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -7682,8 +8321,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les parents qui ne respectent pas l'obligation d'instruction risquent jusqu'à 6 mois d'emprisonnement et 7 500 € d'amende.",
-    "relatedFicheIds": [],
+    "explanation": "Les parents qui ne respectent pas l'obligation d'instruction risquent jusqu'à 6 mois d'emprisonnement et 7 500 € d'amende.\nPour en savoir plus, consultez la fiche : Le système éducatif",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--le-systeme-educatif",
+      "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+    ],
     "difficulty": "hard",
     "reviewStatus": "reviewed"
   },
@@ -7713,8 +8355,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'autorité parentale est l'ensemble des droits et devoirs des parents ayant pour finalité l'intérêt de l'enfant : protection, éducation, santé, sécurité.",
-    "relatedFicheIds": [],
+    "explanation": "L'autorité parentale est l'ensemble des droits et devoirs des parents ayant pour finalité l'intérêt de l'enfant : protection, éducation, santé, sécurité.\nPour en savoir plus, consultez la fiche : Exercice de l’autorité parentale (1/2)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7744,8 +8388,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "La maladie de l'enfant, justifiée par un certificat médical, est un motif d'absence accepté par l'école. Les absences injustifiées peuvent être signalées.",
-    "relatedFicheIds": [],
+    "explanation": "La maladie de l'enfant, justifiée par un certificat médical, est un motif d'absence accepté par l'école. Les absences injustifiées peuvent être signalées.\nPour en savoir plus, consultez la fiche : Les devoirs et le rôle des parents à l’école",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7775,8 +8421,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "L'école est obligatoire jusqu'à 16 ans en France. L'obligation de formation se poursuit jusqu'à 18 ans (formation, emploi ou service civique).",
-    "relatedFicheIds": [],
+    "explanation": "L'école est obligatoire jusqu'à 16 ans en France. L'obligation de formation se poursuit jusqu'à 18 ans (formation, emploi ou service civique).\nPour en savoir plus, consultez la fiche : Le système éducatif",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--le-systeme-educatif"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7806,8 +8454,10 @@
       }
     ],
     "correctAnswer": "a",
-    "explanation": "L'instruction obligatoire commence à 3 ans depuis la loi du 28 juillet 2019 (loi pour une école de la confiance).",
-    "relatedFicheIds": [],
+    "explanation": "L'instruction obligatoire commence à 3 ans depuis la loi du 28 juillet 2019 (loi pour une école de la confiance).\nPour en savoir plus, consultez la fiche : Le système éducatif",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--le-systeme-educatif"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -7837,8 +8487,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Après l'école élémentaire, les élèves intègrent le collège (de la 6e à la 3e), puis le lycée.",
-    "relatedFicheIds": [],
+    "explanation": "Après l'école élémentaire, les élèves intègrent le collège (de la 6e à la 3e), puis le lycée.\nPour en savoir plus, consultez la fiche : Le système éducatif",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--le-systeme-educatif"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7868,8 +8520,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les parents d'élèves peuvent participer à la vie scolaire via les associations de parents d'élèves, les conseils d'école et les conseils de classe.",
-    "relatedFicheIds": [],
+    "explanation": "Les parents d'élèves peuvent participer à la vie scolaire via les associations de parents d'élèves, les conseils d'école et les conseils de classe.\nPour en savoir plus, consultez la fiche : Les devoirs et le rôle des parents à l’école",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7899,8 +8553,10 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Les enfants qui ne parlent pas français bénéficient d'unités pédagogiques pour élèves allophones arrivants (UPE2A) pour apprendre le français tout en suivant une scolarité normale.",
-    "relatedFicheIds": [],
+    "explanation": "Les enfants qui ne parlent pas français bénéficient d'unités pédagogiques pour élèves allophones arrivants (UPE2A) pour apprendre le français tout en suivant une scolarité normale.\nPour en savoir plus, consultez la fiche : L'école pour les enfants allophones",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -7930,8 +8586,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "L'école doit accueillir les enfants en situation de handicap et adapter leur scolarité (loi du 11 février 2005 pour l'égalité des droits et des chances).",
-    "relatedFicheIds": [],
+    "explanation": "L'école doit accueillir les enfants en situation de handicap et adapter leur scolarité (loi du 11 février 2005 pour l'égalité des droits et des chances).\nPour en savoir plus, consultez la fiche : Les droits de l'enfant",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+      "vivre-societe-francaise--parentalite--le-systeme-educatif"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -7961,8 +8620,10 @@
       }
     ],
     "correctAnswer": "c",
-    "explanation": "Depuis le 1er juillet 2021, la durée du congé paternité est de 25 jours calendaires (32 pour les naissances multiples), dont 4 jours obligatoires après la naissance.",
-    "relatedFicheIds": [],
+    "explanation": "Depuis le 1er juillet 2021, la durée du congé paternité est de 25 jours calendaires (32 pour les naissances multiples), dont 4 jours obligatoires après la naissance.\nPour en savoir plus, consultez la fiche : Le soutien à la parentalité (1/2)",
+    "relatedFicheIds": [
+      "vivre-societe-francaise--parentalite--le-soutien-a-la-parentalite-1"
+    ],
     "difficulty": "medium",
     "reviewStatus": "reviewed"
   },
@@ -7992,8 +8653,11 @@
       }
     ],
     "correctAnswer": "b",
-    "explanation": "Non, il est interdit de punir physiquement ses enfants. La loi du 10 juillet 2019 interdit les violences éducatives ordinaires (fessées, gifles, etc.).",
-    "relatedFicheIds": [],
+    "explanation": "Non, il est interdit de punir physiquement ses enfants. La loi du 10 juillet 2019 interdit les violences éducatives ordinaires (fessées, gifles, etc.).\nPour en savoir plus, consultez la fiche : L'interdiction des violences faites aux enfants",
+    "relatedFicheIds": [
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--l-interdiction-des-violences-faites-aux-enfants",
+      "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+    ],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   }

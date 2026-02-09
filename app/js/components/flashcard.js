@@ -2,6 +2,7 @@
 import { getState } from "../state.js";
 import * as sr from "../services/spaced-repetition.js";
 import { recordStudyActivity } from "./dashboard.js";
+import { ficheLink } from "../helpers/fiche-link.js";
 
 let deckState = null;
 
@@ -141,6 +142,7 @@ function renderCard(el) {
               ${q.choices.find((c) => c.id === q.correctAnswer)?.text || ""}
             </p>
             <p class="text-sm">${q.explanation}</p>
+            ${ficheLink(q)}
           </div>
         </div>
       </div>

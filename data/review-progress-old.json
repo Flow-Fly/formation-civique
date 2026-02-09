@@ -1,0 +1,282 @@
+{
+  "q001": {
+    "result": [
+      "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+    ],
+    "fallback": false
+  },
+  "q002": {
+    "result": [
+      "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+    ],
+    "fallback": false
+  },
+  "q003": {
+    "result": [
+      "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus"
+    ],
+    "fallback": false
+  },
+  "q004": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+      "principes-et-valeurs--la-laicite--la-laicite-au-travail",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+      "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+    ],
+    "fallback": true
+  },
+  "q005": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+      "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-restauration-et-la-monarchie-de-juillet-1815-1848",
+      "principes-et-valeurs--la-laicite--le-blaspheme"
+    ],
+    "fallback": true
+  },
+  "q006": {
+    "result": [
+      "principes-et-valeurs--la-laicite--le-blaspheme",
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+      "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+      "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-2",
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+    ],
+    "fallback": true
+  },
+  "q007": {
+    "result": [
+      "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+      "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+    ],
+    "fallback": false
+  },
+  "q008": {
+    "result": [
+      "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+    ],
+    "fallback": false
+  },
+  "q009": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+    ],
+    "fallback": false
+  },
+  "q010": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+      "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+      "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+    ],
+    "fallback": true
+  },
+  "q011": {
+    "result": [
+      "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+    ],
+    "fallback": false
+  },
+  "q012": {
+    "result": [
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-2",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-3",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+      "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1939-1945-le-contexte"
+    ],
+    "fallback": true
+  },
+  "q013": {
+    "result": [
+      "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+    ],
+    "fallback": false
+  },
+  "q014": {
+    "result": [
+      "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+    ],
+    "fallback": false
+  },
+  "q015": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+      "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+      "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+      "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2"
+    ],
+    "fallback": true
+  },
+  "q016": {
+    "result": [
+      "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+      "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+      "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+    ],
+    "fallback": true
+  },
+  "q017": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+      "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+    ],
+    "fallback": false
+  },
+  "q018": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+    ],
+    "fallback": false
+  },
+  "q019": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+      "principes-et-valeurs--la-laicite--le-blaspheme",
+      "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+      "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+      "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+    ],
+    "fallback": true
+  },
+  "q020": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+    ],
+    "fallback": false
+  },
+  "q021": {
+    "result": [
+      "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+    ],
+    "fallback": false
+  },
+  "q022": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+      "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+      "vivre-societe-francaise--sante--sante-les-droits-du-patient",
+      "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+    ],
+    "fallback": true
+  },
+  "q023": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--definition-laicite-2"
+    ],
+    "fallback": false
+  },
+  "q024": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+    ],
+    "fallback": false
+  },
+  "q025": {
+    "result": [
+      "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-louverture-dun-compte-bancaire",
+      "vivre-societe-francaise--demarches-administratives--les-demarches-dacces-a-la-nationalite-francaise",
+      "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-la-domiciliation",
+      "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+      "vivre-societe-francaise--sante--sante-la-prise-en-charge-les-demarches-pour-etre-rembourse"
+    ],
+    "fallback": true
+  },
+  "q026": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+      "principes-et-valeurs--la-laicite--la-laicite-au-travail",
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+    ],
+    "fallback": true
+  },
+  "q027": {
+    "result": [
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+    ],
+    "fallback": false
+  },
+  "q028": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+    ],
+    "fallback": false
+  },
+  "q029": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+    ],
+    "fallback": false
+  },
+  "q030": {
+    "result": [
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+    ],
+    "fallback": false
+  },
+  "q031": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+      "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+      "principes-et-valeurs--la-laicite--la-laicite-dans-espace-public"
+    ],
+    "fallback": true
+  },
+  "q032": {
+    "result": [
+      "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+    ],
+    "fallback": false
+  },
+  "q033": {
+    "result": [
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--la-laicite-au-travail"
+    ],
+    "fallback": true
+  },
+  "q034": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+      "principes-et-valeurs--la-laicite--la-laicite-au-travail",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+    ],
+    "fallback": false
+  },
+  "q035": {
+    "result": [
+      "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+      "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+      "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+      "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+    ],
+    "fallback": true
+  }
+}

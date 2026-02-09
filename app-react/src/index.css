@@ -1,0 +1,299 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-dsfr-success: var(--dsfr-success);
+  --color-dsfr-success-bg: var(--dsfr-success-bg);
+  --color-dsfr-warning: var(--dsfr-warning);
+  --color-dsfr-error: var(--dsfr-error);
+  --color-dsfr-error-bg: var(--dsfr-error-bg);
+  --font-family-sans: "Marianne", system-ui, -apple-system, sans-serif;
+}
+
+/* DSFR-inspired light theme */
+:root {
+  --radius: 0.5rem;
+  /* Blue France #000091 */
+  --primary: oklch(0.211 0.12 264);
+  --primary-foreground: oklch(1 0 0);
+  /* Light grey background */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.2 0 0);
+  /* Card */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0 0);
+  /* Popover */
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0 0);
+  /* Secondary */
+  --secondary: oklch(0.965 0 0);
+  --secondary-foreground: oklch(0.2 0 0);
+  /* Muted */
+  --muted: oklch(0.965 0 0);
+  --muted-foreground: oklch(0.5 0 0);
+  /* Accent (interactive backgrounds) */
+  --accent: oklch(0.935 0.02 264);
+  --accent-foreground: oklch(0.211 0.12 264);
+  /* Red Marianne #e1000f */
+  --destructive: oklch(0.5 0.2 25);
+  /* Borders */
+  --border: oklch(0.91 0 0);
+  --input: oklch(0.91 0 0);
+  --ring: oklch(0.211 0.12 264);
+  /* Charts */
+  --chart-1: oklch(0.211 0.12 264);
+  --chart-2: oklch(0.45 0.1 155);
+  --chart-3: oklch(0.55 0.15 40);
+  --chart-4: oklch(0.65 0.15 85);
+  --chart-5: oklch(0.7 0.15 300);
+  /* Sidebar */
+  --sidebar: oklch(0.985 0 0);
+  --sidebar-foreground: oklch(0.2 0 0);
+  --sidebar-primary: oklch(0.211 0.12 264);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.965 0 0);
+  --sidebar-accent-foreground: oklch(0.2 0 0);
+  --sidebar-border: oklch(0.91 0 0);
+  --sidebar-ring: oklch(0.211 0.12 264);
+  /* DSFR semantic tokens */
+  --dsfr-success: oklch(0.45 0.14 155);
+  --dsfr-success-bg: oklch(0.92 0.05 155);
+  --dsfr-warning: oklch(0.55 0.15 50);
+  --dsfr-error: oklch(0.5 0.2 25);
+  --dsfr-error-bg: oklch(0.92 0.04 25);
+}
+
+/* DSFR-inspired dark theme */
+.dark {
+  /* Blue France light #8585f6 */
+  --primary: oklch(0.65 0.17 270);
+  --primary-foreground: oklch(0.15 0 0);
+  /* Dark backgrounds */
+  --background: oklch(0.17 0 0);
+  --foreground: oklch(0.95 0 0);
+  /* Card */
+  --card: oklch(0.22 0 0);
+  --card-foreground: oklch(0.95 0 0);
+  /* Popover */
+  --popover: oklch(0.22 0 0);
+  --popover-foreground: oklch(0.95 0 0);
+  /* Secondary */
+  --secondary: oklch(0.28 0 0);
+  --secondary-foreground: oklch(0.95 0 0);
+  /* Muted */
+  --muted: oklch(0.28 0 0);
+  --muted-foreground: oklch(0.6 0 0);
+  /* Accent */
+  --accent: oklch(0.25 0.03 264);
+  --accent-foreground: oklch(0.65 0.17 270);
+  /* Red lighter for dark mode #ff6b6b */
+  --destructive: oklch(0.65 0.18 22);
+  /* Borders */
+  --border: oklch(0.3 0 0);
+  --input: oklch(0.3 0 0);
+  --ring: oklch(0.65 0.17 270);
+  /* Charts */
+  --chart-1: oklch(0.65 0.17 270);
+  --chart-2: oklch(0.6 0.15 162);
+  --chart-3: oklch(0.7 0.15 70);
+  --chart-4: oklch(0.6 0.2 304);
+  --chart-5: oklch(0.65 0.2 16);
+  /* Sidebar */
+  --sidebar: oklch(0.22 0 0);
+  --sidebar-foreground: oklch(0.95 0 0);
+  --sidebar-primary: oklch(0.65 0.17 270);
+  --sidebar-primary-foreground: oklch(0.15 0 0);
+  --sidebar-accent: oklch(0.28 0 0);
+  --sidebar-accent-foreground: oklch(0.95 0 0);
+  --sidebar-border: oklch(0.3 0 0);
+  --sidebar-ring: oklch(0.65 0.17 270);
+  /* DSFR semantic tokens (dark) */
+  --dsfr-success: oklch(0.6 0.16 155);
+  --dsfr-success-bg: oklch(0.22 0.04 155);
+  --dsfr-warning: oklch(0.65 0.15 50);
+  --dsfr-error: oklch(0.65 0.18 22);
+  --dsfr-error-bg: oklch(0.22 0.04 22);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Marianne", system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* 3D Flashcard flip animation */
+.flashcard-container {
+  perspective: 1000px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.flashcard {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.flashcard.flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+/* Timer pulse animation */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-timer-pulse {
+  animation: pulse 1s infinite;
+}
+
+/* Score circle */
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 6px solid;
+  margin: 0 auto;
+}
+
+/* Animated score ring (SVG) */
+.score-ring-circle {
+  transition: stroke-dashoffset 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Confetti */
+@keyframes confetti-fall {
+  0% { transform: translateY(-100%) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+@keyframes confetti-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(15px); }
+  75% { transform: translateX(-15px); }
+}
+.confetti-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 100;
+}
+.confetti-piece {
+  position: absolute;
+  top: -10px;
+  width: 10px;
+  height: 10px;
+  animation: confetti-fall 3s ease-in forwards, confetti-shake 0.5s ease-in-out infinite;
+}
+
+/* Fade in up (entry animation) */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up {
+  animation: fade-in-up 0.4s ease-out both;
+}
+
+/* Progress bar shimmer */
+@keyframes progress-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Button press feedback */
+.active-scale:active {
+  transform: scale(0.96);
+  transition: transform 0.1s;
+}
+.active-scale {
+  transition: transform 0.1s;
+}
+
+/* Gentle pulse glow for CTA */
+@keyframes gentle-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 var(--color-primary, oklch(0.211 0.12 264)); }
+  50% { box-shadow: 0 0 0 6px color-mix(in oklch, var(--color-primary, oklch(0.211 0.12 264)) 25%, transparent); }
+}
+.animate-gentle-pulse {
+  animation: gentle-pulse 2s ease-in-out infinite;
+}
+
+/* Quiz choice selection bounce */
+@keyframes choice-pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+.animate-choice-pop {
+  animation: choice-pop 0.25s ease-out;
+}

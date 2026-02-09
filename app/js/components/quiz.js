@@ -5,6 +5,7 @@ import * as storage from "../services/storage.js";
 import * as engine from "../services/quiz-engine.js";
 import * as sr from "../services/spaced-repetition.js";
 import { recordStudyActivity } from "./dashboard.js";
+import { ficheLink } from "../helpers/fiche-link.js";
 
 let quizState = null;
 let timerInterval = null;
@@ -162,6 +163,7 @@ function renderQuestion(el) {
         <div class="mt-md" style="padding: var(--sp-md); background: ${selectedChoice === q.correctAnswer ? "var(--success-bg)" : "var(--error-bg)"}; border-radius: var(--radius-md);">
           <strong>${selectedChoice === q.correctAnswer ? "Bonne reponse !" : "Mauvaise reponse"}</strong>
           <p class="mt-sm text-sm">${q.explanation}</p>
+          ${ficheLink(q)}
         </div>
       `
         : ""}
