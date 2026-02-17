@@ -5547,11 +5547,11 @@
       },
       {
         "id": "c",
-        "text": "L'Union européenne (traité de Rome de 1957)"
+        "text": "L'Union européenne"
       },
       {
         "id": "d",
-        "text": "La Croix-Rouge (organisation humanitaire de 1863)"
+        "text": "La Croix-Rouge"
       }
     ],
     "correctAnswer": "b",
@@ -5743,11 +5743,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le hamburger américain"
+        "text": "Le hamburger"
       },
       {
         "id": "b",
-        "text": "Le couscous marocain"
+        "text": "Le couscous"
       },
       {
         "id": "c",
@@ -5755,7 +5755,7 @@
       },
       {
         "id": "d",
-        "text": "La pizza napolitaine"
+        "text": "La pizza"
       }
     ],
     "correctAnswer": "c",
@@ -5886,7 +5886,7 @@
       },
       {
         "id": "c",
-        "text": "Le château de Versailles"
+        "text": "Le château de Rambouillet"
       },
       {
         "id": "d",
@@ -5911,7 +5911,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "À Paris, dans les salles du musée du Louvre"
+        "text": "Dans les salles du musée du Louvre"
       },
       {
         "id": "b",
@@ -5919,7 +5919,7 @@
       },
       {
         "id": "c",
-        "text": "Au château de Versailles, dans les Yvelines"
+        "text": "Dans les Alpes, autour du Mont Blanc"
       },
       {
         "id": "d",
@@ -6043,7 +6043,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un général de la Révolution"
+        "text": "Le fils caché de Napoléon"
       },
       {
         "id": "b",
@@ -6055,7 +6055,7 @@
       },
       {
         "id": "d",
-        "text": "Un philosophe des Lumières"
+        "text": "L'inventeur du drapeau tricolore"
       }
     ],
     "correctAnswer": "b",
