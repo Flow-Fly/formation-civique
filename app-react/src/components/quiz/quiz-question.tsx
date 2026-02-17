@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Card, CardContent } from "@/components/ui/card.tsx";
@@ -6,6 +7,8 @@ import { FicheLink } from "@/components/study/fiche-link.tsx";
 import { QuizTimer } from "./quiz-timer.tsx";
 import { ArrowRight } from "lucide-react";
 import type { Question } from "@/types/index.ts";
+
+const DISPLAY_LABELS = ["A", "B", "C", "D"];
 
 interface QuizQuestionProps {
   question: Question;
@@ -37,6 +40,16 @@ export function QuizQuestion({
   const q = question;
   const isCorrect = selectedChoice === q.correctAnswer;
 
+  // Shuffle choices once per question (stable across re-renders and feedback)
+  const shuffledChoices = useMemo(() => {
+    const arr = [...q.choices];
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }, [q.id]);
+
   return (
     <div className="space-y-4">
       <div className="flex justify-between items-center">
@@ -54,7 +67,7 @@ export function QuizQuestion({
           <h2 className="text-lg font-semibold">{q.questionText}</h2>
 
           <div className="space-y-2">
-            {q.choices.map((c) => {
+            {shuffledChoices.map((c, i) => {
               let variant = "default";
               if (showingFeedback && c.id === q.correctAnswer) variant = "correct";
               if (showingFeedback && c.id === selectedChoice && c.id !== q.correctAnswer)
@@ -85,7 +98,7 @@ export function QuizQuestion({
                           : "bg-muted"
                     }`}
                   >
-                    {c.id.toUpperCase()}
+                    {DISPLAY_LABELS[i]}
                   </span>
                   <span className="text-sm pt-0.5">{c.text}</span>
                 </button>
