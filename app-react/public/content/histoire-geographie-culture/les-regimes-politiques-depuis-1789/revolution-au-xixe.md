@@ -41,22 +41,6 @@ _Sur la droite, portrait du marquis de La Fayette peint par Joseph-Désiré Cour
 
 ![Portrait du marquis de La Fayette peint par Joseph-Désiré Court.](/images/fiches/SLIDE_3_Gilbert_du_Motier_Marquis_de_Lafayette.original.jpg)
 
-#### Comment prend fin la monarchie avec la Révolution ?
-
-Entre 1789 et 1792, la France connaît plusieurs années de transition politique qui mèneront de la monarchie à la République.
-
-La Révolution française (1789-1799) démarre avec la convocation des États généraux (le clergé, la noblesse et le tiers état) par le roi. Le **17 juin 1789**, le tiers état proclame l’Assemblée nationale et **met fin à la monarchie absolue.** La Déclaration des droits de l’homme et du citoyen est adoptée quelques semaines plus tard.
-
-En 1791, une **monarchie constitutionnelle** est instaurée. Les pouvoirs du roi sont limités, mais la fuite du roi Louis XVI à l’étranger et les tensions sociales dressent le peuple contre lui. Le 10 août 1792, le roi est renversé.
-
-**Personnage clé :** Le **marquis de La Fayette** joue un rôle central pendant la Révolution française. Il contribue notamment à la rédaction de la Déclaration des droits de l’homme et du citoyen de 1789.
-
-* * *
-
-_Sur la droite, portrait du marquis de La Fayette peint par Joseph-Désiré Court._
-
-![Portrait du marquis de La Fayette peint par Joseph-Désiré Court.](/images/fiches/SLIDE_3_Gilbert_du_Motier_Marquis_de_Lafayette.original.jpg)
-
 #### Quels sont les droits des citoyens pendant cette période ?
 
 La **Déclaration des droits de l’homme et du citoyen** de 1789 affirme des principes universels, comme la liberté ou l’égalité devant la loi.
@@ -80,22 +64,6 @@ _Source : GrandPalaisRmn (Château de Versailles) / image GrandPalaisRmn._
 ---
 
 ## La Ière République (1792-1804)
-
-#### Qu’est-ce que la Ière République ?
-
-La Ière République est la période qui succède à la monarchie constitutionnelle. Héritière de la Révolution française, elle est proclamée le **22 septembre 1792.**
-
-À cette époque, la France est confrontée à de nombreuses menaces : des guerres avec d’autres pays et des révoltes à l’intérieur du pays. Pour protéger la République, le gouvernement met en place la **Terreur**. Il surveille strictement les ennemis de la Révolution et utilise la guillotine contre ceux qu’il considère comme des traîtres. Louis XVI est ainsi exécuté en 1793.
-
-En 1799, Napoléon Bonaparte prend le pouvoir et la période du Consulat s'ouvre. La Ière République disparaît le **18 mai 1804**, lorsqu’il est **proclamé empereur**.
-
-**Personnage clé :** **Maximilien Robespierre** est une figure centrale de la Révolution française. Il est célèbre pour son engagement en faveur de l’égalité et de la République, mais aussi pour avoir dirigé la Terreur.
-
-* * *
-
-_Sur la droite, portrait de Maximilien Robespierre en habit de député du tiers état peint par Pierre-Roch Vigneron (copie d'après le portrait au pastel d'Adélaïde Labille-Guiard exposé au Salon de 1791)._
-
-![Portrait de Robespierre en habit de député du tiers état, d’après Adélaïde Labille-Guiard.](/images/fiches/SLIDE_4Maximilien_Robespierre.original.jpg)
 
 #### Qu’est-ce que la Ière République ?
 
@@ -153,22 +121,6 @@ _Sur la droite, portrait de Napoléon Bonaparte, premier consul, par Marie-Guill
 
 ![Portrait de Napoléon Bonaparte, premier consul, par Marie-Guillemine Benoist. Tableau offert par Bonaparte à la ville de Gand en 1804.](/images/fiches/First_Consul_Napoleon_Bonaparte_by_Marie-Guille.original.jpg)
 
-#### Qu’est-ce que le Consulat ?
-
-Le Consulat est le régime établi le **13 décembre 1799**, après le coup d’État de Napoléon Bonaparte. Pendant cette période, le pouvoir exécutif est confié à trois consuls.
-
-Napoléon Bonaparte, nommé Premier Consul, concentre entre ses mains l’**essentiel du pouvoir**. Il dispose de l’autorité exécutive, militaire et diplomatique et peut même proposer des lois.
-
-Le régime du Consulat prend fin le **18 mai 1804**, lorsque Napoléon proclame le Premier Empire.
-
-**Personnage clé :** **Napoléon Bonaparte** qui, en tant que Premier Consul, exerce l’autorité exécutive et réorganise l’administration française.
-
-* * *
-
-_Sur la droite, portrait de Napoléon Bonaparte, premier consul, par Marie-Guillemine Benoist._
-
-![Portrait de Napoléon Bonaparte, premier consul, par Marie-Guillemine Benoist. Tableau offert par Bonaparte à la ville de Gand en 1804.](/images/fiches/First_Consul_Napoleon_Bonaparte_by_Marie-Guille.original.jpg)
-
 #### Quels sont les droits des citoyens pendant cette période ?
 
 Sous le Consulat, le pouvoir législatif est affaibli car il est partagé entre plusieurs assemblées. Le **pouvoir exécutif est donc plus fort que le pouvoir législatif**.
@@ -188,20 +140,6 @@ _Source photo : Guy Stair Sainty et al., Marie-Guillemine Benoist, Les adieux de
 ---
 
 ## Le 1er Empire (1804-1815)
-
-#### Qu’est-ce que le 1er Empire ?
-
-Le 1er Empire correspond à la période où Napoléon 1er est au pouvoir. Il commence le **18 mai 1804**, date à laquelle Napoléon est nommé empereur.
-
-Pendant cette période, Napoléon 1er **mène plusieurs guerres en Europe** pour étendre son empire et **centralise le pouvoir en contrôlant la presse et les opposants**. Affaibli par ses défaites, notamment en Russie en 1812, l’empereur abdique en 1814, puis définitivement le **7 juillet 1815 après la bataille de Waterloo**. Le 1er Empire prend fin et la monarchie est rétablie.
-
-**Personnage clé :** **Napoléon Bonaparte** est le fondateur et le chef du 1er Empire, sous le nom de Napoléon 1er. Il concentre entre ses mains le pouvoir politique, militaire et administratif et incarne l’autorité impériale en France.
-
-* * *
-
-_Sur la droite, portrait de Napoléon_ Bonaparte _en costume de sacre peint par François Gérard._
-
-![Portrait de Napoléon Bonaparte en costume de sacre peint par François Gérard.](/images/fiches/SLIDE_5_Napoleon_Bonaparte.original.jpg)
 
 #### Qu’est-ce que le 1er Empire ?
 
@@ -291,20 +229,6 @@ _Sur la doite, Louis-Napoléon Bonaparte par Lafosse, d’après nature._
 
 ![Portrait de Louis-Napoléon Bonaparte par Lafosse](/images/fiches/SLIDE_8_Bonaparte.original.png)
 
-#### Qu’est-ce que la IIème République ?
-
-La IIème République succède à la période de retour de la monarchie. Elle est proclamée le **24 février 1848**, après l’abdication du roi Louis-Philippe. Un gouvernement provisoire est d’abord nommé, puis **Louis-Napoléon Bonaparte** est élu président de la République.
-
-De nombreux Français sont au chômage à cette époque et le gouvernement crée les “Ateliers nationaux”, destinés à fournir du travail aux chômeurs parisiens. Mais les tensions sociales et politiques persistent et, le **2 décembre 1851**, Louis-Napoléon organise un **coup d’État** qui met fin à la IIème République.
-
-**Personnage clé :** **Louis-Napoléon Bonaparte**, neveu de Napoléon Ier, est élu président en 1848. Il incarne un espoir de renouveau démocratique mais devient vite un dirigeant autoritaire.
-
-* * *
-
-_Sur la doite, Louis-Napoléon Bonaparte par Lafosse, d’après nature._
-
-![Portrait de Louis-Napoléon Bonaparte par Lafosse](/images/fiches/SLIDE_8_Bonaparte.original.png)
-
 #### Quels sont les droits des citoyens pendant cette période ?
 
 Le **droit de vote est élargi** : le suffrage censitaire (réservé à une élite) est remplacé par le suffrage universel pour tous les hommes âgés d’au moins 21 ans.
@@ -330,22 +254,6 @@ _Source photo : La Documentation française._
 ---
 
 ## Le 2nd Empire (1852-1870)
-
-#### Qu’est-ce que le Second Empire ?
-
-Louis-Napoléon Bonaparte organise un coup d’État en décembre 1851 et **devient empereur des Français sous le nom de Napoléon III, le 2 décembre 1852**.
-
-Le Second Empire est d’abord un régime autoritaire, avant de se libéraliser dans les années 1860 : les libertés sont alors plus importantes et le pouvoir du Parlement est renforcé. Pendant cette période, l’économie se modernise et la France s’ouvre à l’Europe.
-
-Le Second Empire s’achève le **4 septembre 1870**, après la défaite des troupes françaises contre la Prusse.
-
-**Personnage clé :** Louis-Napoléon Bonaparte, qui gouverne sous le nom de **Napoléon III**, est le neveu de Napoléon Ier. Il concentre les pouvoirs et limite les libertés. Malgré quelques réformes, son autorité diminue jusqu’à sa chute après la défaite contre la Prusse en 1870.
-
-* * *
-
-_Sur la droite, copie du grand portrait officiel en pied de l’empereur Napoléon III, d’après Franz Xaver Winterhalter, 1853._
-
-![Portrait officiel en pied de l’empereur Napoléon III.](/images/fiches/SLIDE_9_Napoleon_III.original.jpg)
 
 #### Qu’est-ce que le Second Empire ?
 

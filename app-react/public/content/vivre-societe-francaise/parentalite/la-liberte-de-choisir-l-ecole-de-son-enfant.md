@@ -23,18 +23,6 @@ L’École républicaine, gratuite, laïque et obligatoire, est au cœur de la t
 
 ![](/images/fiches/SLIDE_56_et_57_enseignements-fondammentaux.original.png)
 
-### **L’école publique**
-
-Les parents sont libres d'inscrire leur enfant dans une école publique ou privée.
-
-**Pour inscrire son enfant à l’école publique, il suffit de contacter la mairie,** ou l’école située à proximité de son domicile.
-
-Les diplômes délivrés par les écoles publiques ont tous une valeur officielle.
-
-L’École républicaine, gratuite, laïque et obligatoire, est au cœur de la transmission des valeurs de la République, telles que la citoyenneté, la laïcité, la culture de l’engagement et la lutte contre toutes les formes de discrimination.
-
-![](/images/fiches/SLIDE_56_et_57_enseignements-fondammentaux.original.png)
-
 ### L'école privée
 
 Les parents peuvent inscrire leur enfant dans une école privée, sans contrainte liée à leur lieu de domicile.

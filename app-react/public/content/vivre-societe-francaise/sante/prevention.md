@@ -25,16 +25,6 @@ Un dispositif de prévention de santé est un ensemble d’actions, de mesures e
 
 ![](/images/fiches/vaccination.original.png)
 
-#### Les dispositifs de prévention de santé, c’est quoi ?
-
-Un dispositif de prévention de santé est un ensemble d’actions, de mesures et d’outils (exemple : dépistage ou la vaccination) mis en place pour :
-
--   empêcher l’apparition de maladies ;
--   détecter et limiter la progression de symptômes ;
--   promouvoir un mode de vie sain.
-
-![](/images/fiches/vaccination.original.png)
-
 #### Le dépistage, c’est quoi ?
 
 Le dépistage sert à repérer une maladie chez une personne qui ne présente pas encore de symptômes. C’est une méthode de prévention efficace qui permet de détecter les maladies tôt et, par conséquent, d’augmenter les chances de guérison grâce à un traitement rapide.
@@ -71,18 +61,6 @@ L’entrée dans les structures collectives pour les enfants (crèches, écoles�
 
 ![](/images/fiches/vaccination.original.png)
 
-#### La vaccination, c’est quoi ?
-
-**La vaccination est un moyen simple, sûr et efficace de se protéger des maladies dangereuses et des séquelles qu’elles peuvent laisser.** Elle utilise les défenses naturelles de l’organisme pour renforcer le système immunitaire.
-
-**Certains vaccins sont obligatoires pour protéger la santé de la population.**
-
-Pour optimiser son efficacité pour moi et pour les autres, il est important de respecter les obligations vaccinales et le calendrier des vaccinations. La liste des vaccins recommandés ou obligatoires est indiquée dans le carnet de santé et est mise à jour par le médecin à chaque consultation.
-
-L’entrée dans les structures collectives pour les enfants (crèches, écoles…) est conditionnée à la réalisation de certains vaccins.
-
-![](/images/fiches/vaccination.original.png)
-
 #### Mon Bilan Prévention, c’est quoi ?
 
 “Mon Bilan Prévention” permet de faire un point global sur sa santé (en dehors de toute maladie) :
@@ -104,14 +82,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Prévention et promotion de la santé : la santé mentale
-
-#### La santé mentale, c’est quoi ?
-
-La santé mentale désigne un état de bien-être psychique, émotionnel et social. C’est quand une personne se sent bien dans sa tête (exemple : elle sait gérer son stress) et avec les autres.
-
-Avoir une bonne santé mentale, ce n’est pas seulement l’absence de troubles psychiques graves ; quand on a une bonne santé mentale, on peut affronter les problèmes de la vie, avoir des relations sociales équilibrées avec les autres, travailler et contribuer à la vie en société.
-
-![](/images/fiches/sante-mentale-psychiatrie.original.png)
 
 #### La santé mentale, c’est quoi ?
 

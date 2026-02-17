@@ -18,12 +18,6 @@ La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que *
 
 ![Cette image représente la séparation entre l’État et les religions.](/images/fiches/laicite.original.png)
 
-### La laïcité : qu’est-ce que c’est ?
-
-La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que **chaque personne est libre d’avoir ou de ne pas avoir de religion,** d’en changer ou de ne plus en avoir.
-
-![Cette image représente la séparation entre l’État et les religions.](/images/fiches/laicite.original.png)
-
 ### La liberté de (ne pas) pratiquer une religion
 
 La liberté de conscience a pour conséquence la **liberté de pratiquer une religion**, sans troubler l’ordre public (c’est-à-dire en respectant les règles de la vie en société : pas de bruit pendant la nuit, pas d’attroupement dans la rue…).

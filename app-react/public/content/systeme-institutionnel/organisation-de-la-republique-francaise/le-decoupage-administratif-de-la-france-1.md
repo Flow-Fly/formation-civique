@@ -54,26 +54,6 @@ Le département et la région ont des compétences précises et définies.
 
 La réforme constitutionnelle de 2003 consacre "l'organisation décentralisée de la République".
 
-Fermer
-
-## Transcription
-
-Qu'est-ce que la décentralisation ? (territoriale)
-
-C'est un mode d'organisation d'un État unitaire qui consiste à transférer des compétences de l'État vers des collectivités territoriales :
-
--   communes;
--   départements;
--   régions;
--   collectivités d'outre-mer;
--   collectivités à statut particulier (Paris, Corse, Nouvelle Calédonie, etc.).
-
-La commune peut intervenir dans tous les domaines ayant un intérêt local en vertu de la clause générale de compétence (hors compétence de l'État ou d'une autre collectivité).
-
-Le département et la région ont des compétences précises et définies.
-
-La réforme constitutionnelle de 2003 consacre "l'organisation décentralisée de la République".
-
 ### Pour aller plus loin
 
 [ Collectivités territoriales | vie-publique.fr](https://www.vie-publique.fr/fiches/collectivites-territoriales)

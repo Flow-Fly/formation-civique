@@ -26,21 +26,6 @@ Une cantine est accessible à tous les enfants qui le souhaitent dans tous les �
 
 ![](/images/fiches/SLIDE_56_et_57_enseignements-fondammentaux.original.png)
 
-### L’organisation de l’école en France
-
-Français ou étrangers, **tous les enfants âgés** **de 3 à 16 ans,** qui habitent en France, doivent aller à l’école. **C’est une obligation.**
-
-L’école est organisée en 4 temps :
-
--   **la maternelle, (de 3 à 6 ans).** Il y a 3 niveaux : petite section, moyenne section, et grande section ;
--   **le cours élémentaire (de 6 à 11 ans).** Il y a 5 niveaux : CP, CE1, CE2, CM1 et CM2 ;
--   **le collège (de 11 à 15 ans).** Il y a 4 niveaux : 6e, 5e, 4e et 3e. À la fin du collège, l’enfant passe un diplôme qui s’appelle le brevet des collèges, ou diplôme national du brevet (DNB) ;
--   **le lycée (de 15 à 18 ans).** Il y a 3 niveaux : Seconde, Première, Terminale. À la fin du lycée l’enfant passe un diplôme qui s’appelle le baccalauréat (BAC), qui permet de poursuivre des études et d’être orienté vers de nombreux parcours dans l’enseignement supérieur.
-
-Une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires.
-
-![](/images/fiches/SLIDE_56_et_57_enseignements-fondammentaux.original.png)
-
 ### Pourquoi aller à l’école dès l’âge de 3 ans ?
 
 L’école maternelle permet aux enfants de s’intégrer dans la société :

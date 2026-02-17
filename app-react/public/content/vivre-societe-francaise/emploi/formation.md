@@ -39,29 +39,6 @@ Attention : Si l'employeur est un particulier (pas une entreprise), les règles 
 
 ![](/images/fiches/SLIDE_37.original.png)
 
-#### Comment se former au français quand on est salarié et signataire du CIR ?
-
-Deux options sont possibles pour suivre une formation au français :
-
-1.  **Avec l'aide de l'employeur :**
-
--   le salarié peut suivre une formation de français sur son temps de travail avec le maintien du salaire ;
--   pendant maximum 80 heures. La répartition des heures de formation peut être discutée avec l'employeur. Il est possible de prendre jusqu’à 10 % de votre temps de travail par semaine (environ 1/2 journée si le salarié travaille 35 heures par semaine) ;
--   le salarié doit informer l'employeur et discuter avec lui des jours d'absence.
-
-Attention : Si l'employeur est un particulier (pas une entreprise), les règles sont différentes.
-
-  
-**2\. Avec le Compte Personnel de Formation (CPF) :**
-
--   le salarié peut utiliser son CPF pour acheter une formation au français : il a le droit à une absence de 28 heures (4 jours de travail à plein temps) pour suivre la formation ;
--   toute personne qui travaille a un CPF ;
--   le CPF augmente de 500 € maximum à la fin de chaque année de travail.
-
-**Si le salarié n'est pas signataire du CIR, son employeur peut aussi proposer des formations :** il faut se renseigner auprès du service des ressources humaines.
-
-![](/images/fiches/SLIDE_37.original.png)
-
 _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.gouv.fr/documentation/banque-de-pictogrammes-facile-lire-et-comprendre-falc?tca=8uwjAYyR6HE9Fqj3abVSqaLaXJWlRxEyCKeAL5Q7rs0)
 
 #### Pour aller plus loin
@@ -71,19 +48,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Formation (2/3)
-
-#### La reconnaissance en France d’un diplôme obtenu à l’étranger
-
-Vous souhaitez étudier ou travailler en France ? Vous pouvez faire reconnaître votre diplôme obtenu dans un autre pays que la France.
-
-Les critères sont différents :
-
--   **selon votre parcours et les exigences de la formation souhaitée**, si vous voulez étudier en France ;
--   **selon le métier** que vous souhaitez exercer en France.
-
-La reconnaissance du diplôme est délivrée uniquement par l’organisation où vous souhaitez étudier, ou par l’employeur où vous souhaitez travailler.
-
-![](/images/fiches/SLIDE_38_et_39_certificat_-diplome.original.png)
 
 #### La reconnaissance en France d’un diplôme obtenu à l’étranger
 
@@ -132,16 +96,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Formation (3/3)
-
-#### La VAE, qu’est-ce que c’est ?
-
-La Validation des Acquis de l'Expérience (VAE) permet de faire reconnaître vos compétences de manière officielle, comme un diplôme reçu après une formation.
-
-Toutes les personnes peuvent obtenir une VAE. Peu importe votre âge, votre nationalité, votre niveau de formation…
-
-Pour demander une VAE, vous devez avoir une expérience d’au moins un an qui a un lien direct avec le diplôme visé.
-
-![](/images/fiches/SLIDE_38_et_39_certificat_-diplome.original.png)
 
 #### La VAE, qu’est-ce que c’est ?
 

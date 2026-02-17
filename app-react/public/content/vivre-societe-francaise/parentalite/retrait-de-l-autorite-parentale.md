@@ -20,14 +20,6 @@ Le retrait de l’autorité parentale est une décision prise par un tribunal.
 
 ![](/images/fiches/SLIDE__52_et_53_et_54_et_59_famille_.original.png)
 
-### Qui décide du retrait de l’autorité parentale ?
-
-Un parent ne peut pas renoncer à son autorité parentale. Mais l’autorité parentale peut être retirée à un parent, ou aux deux parents, en cas de mise en danger de l’enfant ou désintérêt pour l’enfant.
-
-Le retrait de l’autorité parentale est une décision prise par un tribunal.
-
-![](/images/fiches/SLIDE__52_et_53_et_54_et_59_famille_.original.png)
-
 ### Dans quelles situations ?
 
 Exemples de situations qui peuvent entraîner un retrait de l’autorité parentale :

@@ -24,12 +24,6 @@ La domiciliation est une adresse administrative attribuée aux personnes qui ne 
 
 ![](/images/fiches/SLIDE_1-courrier.original.png)
 
-#### La domiciliation, c’est quoi ?
-
-La domiciliation est une adresse administrative attribuée aux personnes qui ne peuvent pas recevoir leur courrier de façon constante et confidentielle à une adresse stable. Les personnes sans domicile fixe, en habitat mobile ou précaire sont concernées.
-
-![](/images/fiches/SLIDE_1-courrier.original.png)
-
 #### La domiciliation, à quoi ça sert ?
 
 Il est indispensable d'avoir une adresse pour recevoir son courrier. La domiciliation est une adresse administrative qui permet de bénéficier de droits civils, civiques et sociaux (sous conditions) et d’un accès :
@@ -59,15 +53,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Les démarches du quotidien comme l’ouverture d’un compte bancaire
-
-#### Un compte bancaire, pour quoi faire ?
-
-Le compte bancaire est très utile :
-
--   l’argent y est en sécurité (pas de perte ou de vol) ;
--   il est obligatoire pour réaliser beaucoup de démarches administratives, pour travailler (pour recevoir son salaire).
-
-![](/images/fiches/SLIDE_2_banque.original.png)
 
 #### Un compte bancaire, pour quoi faire ?
 
@@ -125,18 +110,6 @@ L’entretien d’une voiture est obligatoire tous les 2 ans (pour les véhicule
 
 ![](/images/fiches/Slide_3_assurance.original.png)
 
-#### Peut-on conduire en France ?
-
-Si vous avez une voiture personnelle, il est obligatoire d’avoir :
-
--   un permis de conduire valide ;
--   une carte grise du véhicule à jour ;
--   une assurance automobile.
-
-L’entretien d’une voiture est obligatoire tous les 2 ans (pour les véhicules de plus de 4 ans).
-
-![](/images/fiches/Slide_3_assurance.original.png)
-
 #### Comment passer son permis en France ?
 
 Pour passer son permis, rendez-vous en auto-école ou inscrivez-vous en candidat libre. Il est nécessaire d'avoir 17 ans au minimum et être résident en France pour passer l'examen du permis de conduire.
@@ -172,16 +145,6 @@ Plusieurs dispositifs peuvent aider à financer le permis de conduire :
 
 ![](/images/fiches/Slide_4prefecture-logo.original.jpg)
 
-#### Comment payer son permis de conduire français ?
-
-Plusieurs dispositifs peuvent aider à financer le permis de conduire :
-
--   le permis à 1 € par jour (pour les 15-25 ans) ;
--   des aides de France Travail (selon la situation) ;
--   le Compte Personnel de Formation (qui peut financer tout ou partie du permis).
-
-![](/images/fiches/Slide_4prefecture-logo.original.jpg)
-
 #### Peut-on conduire en France avec un permis de conduire étranger ?
 
 Pour savoir si votre permis de conduire est valable en France, rendez-vous en préfecture ou sur [ service-public.fr](http://service-public.fr).
@@ -205,21 +168,6 @@ _Source photo : Ministère de l'Intérieur_
 ---
 
 ## Les démarches du quotidien comme l’assurance responsabilité civile
-
-#### La responsabilité civile, c’est quoi ?
-
-La responsabilité civile, c’est l’obligation de chacun de réparer les dommages matériels, corporels ou moraux que l’on peut causer sans le vouloir à d’autres personnes.
-
-Ces dommages peuvent survenir à différents moments :
-
--   à son domicile ;
--   en conduisant un véhicule ;
--   dans le cadre de la vie quotidienne (activités privées) ;
--   dans le cadre professionnel…
-
-Si un enfant mineur, un animal domestique, un objet sous votre responsabilité causent des dommages, alors votre responsabilité civile est aussi engagée.
-
-![](/images/fiches/SLIDE_5formalites-administratives.original.png)
 
 #### La responsabilité civile, c’est quoi ?
 

@@ -20,18 +20,6 @@ En France, environ **9 personnes sur 10 vivent dans une aire urbaine**.
 
 ![](/images/fiches/aire-urbaine.original.png)
 
-### Qu’est-ce qu’une aire urbaine ?
-
-La majorité de la population française vit en ville et plus précisément dans ce qu’on appelle des aires urbaines. Une aire urbaine est un espace géographique formé de 3 parties :
-
-1.  la **ville-centre**, qui regroupe le cœur des activités économiques, administratives et culturelles ;
-2.  la **banlieue**, qui entoure la ville-centre ;
-3.  et la **couronne périurbaine**, composée de communes plus rurales, où les habitants se déplacent chaque jour pour aller travailler dans la ville.
-
-En France, environ **9 personnes sur 10 vivent dans une aire urbaine**.
-
-![](/images/fiches/aire-urbaine.original.png)
-
 ### Qu’est-ce que la métropolisation ?
 
 Une métropole est une grande ville, à la tête d’une vaste aire urbaine. Les métropoles jouent un rôle important dans l’organisation du territoire, car elles regroupent des fonctions de commandement :

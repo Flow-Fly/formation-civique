@@ -33,22 +33,6 @@ Parmi ces droits, nous pouvons trouver :
 
 ![](/images/fiches/dignite-humaine.original.png)
 
-### Dans quel texte de loi, la dignité humaine est-elle inscrite ?
-
-La dignité humaine est un principe fondamental qui constitue le **socle de tous les droits fondamentaux**.
-
-Ce principe est inscrit dans le premier chapitre de la Charte des droits fondamentaux de l’Union européenne de 2000 parmi 5 droits essentiels liés au respect de la personne humaine.
-
-Parmi ces droits, nous pouvons trouver :
-
--   la dignité humaine (article 1) ;
--   le droit à la vie (article 2) ;
--   le droit à l’intégrité de la personne (article 3) ;
--   l’interdiction de la torture et des traitements inhumains ou dégradants (article 4) ;
--   l’interdiction de l’esclavage et du travail forcé (article 5).
-
-![](/images/fiches/dignite-humaine.original.png)
-
 ### Le droit à l’intégrité de la personne, c’est quoi ?
 
 Toute personne a droit à son intégrité physique et mentale, peu importe son état de santé.

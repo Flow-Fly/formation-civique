@@ -38,14 +38,6 @@ Définition : une règle juridique organise la vie sociale. Si une règle n’e
 
 ![](/images/fiches/droit-du-travail.original.png)
 
-#### Le droit du travail, qu’est-ce que c’est ?
-
-Le droit du travail, c’est l’ensemble des **règles juridiques qui concernent les relations professionnelles entre les salariés et les employeurs**.
-
-Définition : une règle juridique organise la vie sociale. Si une règle n’est pas respectée, l’État peut punir par une sanction.
-
-![](/images/fiches/droit-du-travail.original.png)
-
 #### Où trouver ces règles juridiques ?
 
 Les règles sont écrites dans trois types de document :
@@ -77,18 +69,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Le droit du travail (2/5)
-
-#### Le salaire
-
-**Le salaire est l’argent versé par l’employeur au salarié, en échange du travail qu’il a fourni.**
-
-Il est interdit de verser un salaire inférieur au salaire minimum de croissance ( [**SMIC**](https://www.service-public.gouv.fr/particuliers/vosdroits/F2300)), qui est le salaire horaire minimum en France et qui s'élève à 1 801,80 € brut environ.
-
-Au moment du versement du salaire, l’employeur doit fournir au salarié un **bulletin de paie**. Ce document comporte des informations obligatoires (période de travail, nombre d’heures de travail…). À l’inverse, d’autres informations sont interdites, par exemple les heures ou journées de grève du salarié.
-
-L’employeur peut fournir le bulletin de paie sous forme électronique, sauf si le salarié le refuse.
-
-![](/images/fiches/SLIDE_47_argent.original.png)
 
 #### Le salaire
 
@@ -150,14 +130,6 @@ Toutes les personnes qui travaillent dans une entreprise (salarié, stagiaire, a
 
 ![](/images/fiches/egalite-homme-femme.original.png)
 
-#### La discrimination au travail, qu’est-ce que c’est ?
-
-**On parle de discrimination au travail quand une personne est moins bien traitée que les autres par l’employeur** en raison d’un des critères interdits par la loi, par exemple son origine, son sexe, son âge...
-
-Toutes les personnes qui travaillent dans une entreprise (salarié, stagiaire, apprenti) sont protégées contre la discrimination. Cette protection implique que la personne peut signaler la discrimination pour obtenir, dans certains cas, une réparation.
-
-![](/images/fiches/egalite-homme-femme.original.png)
-
 #### Quelles sont les situations de discrimination ?
 
 Il peut y avoir de la discrimination au travail à différents moments.
@@ -199,14 +171,6 @@ Elle informe et conseille les employeurs, les salariés et les représentants du
 
 ![](/images/fiches/SLIDE_49_chercher-loupe.original.png)
 
-#### À quoi sert l’inspection du travail ?
-
-L'inspection du travail est un service de l’État qui veille au respect du droit du travail.
-
-Elle informe et conseille les employeurs, les salariés et les représentants du personnel.
-
-![](/images/fiches/SLIDE_49_chercher-loupe.original.png)
-
 #### Ses missions
 
 -   **Informer** sur les lois et des règles du droit du travail.
@@ -233,16 +197,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Le droit du travail (5/5)
-
-#### Le travail non déclaré, qu’est-ce que c’est ?
-
-**Le travail non déclaré (on l’appelle aussi travail dissimulé), c’est une activité professionnelle pour laquelle il n’y a pas de déclaration officielle.** Par exemple : pas de déclaration avant l’embauche d’un salarié, mention sur le bulletin de paie d’un nombre d’heures de travail inférieur à celui qui a été réalisé.
-
-**Le travail non déclaré est interdit par la loi.**
-
-Travailler ou faire travailler de manière non déclarée peut sembler pratique ou économique. Mais cela peut entraîner de graves conséquences pour l’employeur et le salarié.
-
-![](/images/fiches/SLIDE_50_alerte-danger-rouge.original.png)
 
 #### Le travail non déclaré, qu’est-ce que c’est ?
 

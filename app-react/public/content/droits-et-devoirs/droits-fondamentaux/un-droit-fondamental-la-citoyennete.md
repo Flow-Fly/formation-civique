@@ -28,23 +28,6 @@ Les personnes étrangères qui vivent dans le pays dont elles n'ont pas la natio
 
 ![Passeport numérique simplifié dessinés en bleu.](/images/fiches/SLIDE_8.original.png)
 
-### **Un citoyen, c’est quoi ?**
-
-Le citoyen français a la nationalité française. Il bénéficie de la protection de l’État et doit respecter ses lois. On dit qu’il est “ressortissant” du pays.
-
-Le citoyen a des droits civiques et politiques (comme le droit de vote entre autres) et des devoirs (respecter les lois, payer les impôts, remplir ses devoirs militaires…). 
-
-La citoyenneté est un droit fondamental. Elle est associée à la liberté. Le citoyen est libre :
-
--   d’exprimer ses opinions (liberté d’expression) ;
--   de voter ;
--   de s’engager ;
--   de voyager…
-
-Les personnes étrangères qui vivent dans le pays dont elles n'ont pas la nationalité n'ont pas tous ces droits et devoirs.
-
-![Passeport numérique simplifié dessinés en bleu.](/images/fiches/SLIDE_8.original.png)
-
 ### **Quel texte garantit ce droit fondamental ?**
 
 La citoyenneté française est un droit fondamental inscrit dans la Déclaration des droits de l’homme et du citoyen de 1789.

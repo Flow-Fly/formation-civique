@@ -24,19 +24,6 @@ Le transport aérien joue un rôle clé en France pour :
 
 ![](/images/fiches/SLIDE_52_.original.png)
 
-### Pourquoi le transport aérien est-il un secteur stratégique en France ?
-
-Le transport aérien facilite la circulation internationale des personnes et des marchandises. La France occupe une place centrale dans ces échanges grâce à un **réseau aérien performant et bien connecté**. En 2024, plus de 151 millions de passagers ont voyagé entre la France et l’international.
-
-Le transport aérien joue un rôle clé en France pour :
-
--   le tourisme ;
--   l’économie ;
--   la logistique ;
--   et les relations internationales.
-
-![](/images/fiches/SLIDE_52_.original.png)
-
 ### Quels sont les grands aéroports français ?
 
 Le **réseau aérien français est dense**, avec environ 120 aéroports. Situé en Île-de-France, l’aéroport de **Paris-Charles de Gaulle** (CDG) est le premier aéroport français et le deuxième aéroport d’Europe, en nombre de passagers. Il accueille plus de 70 millions de passagers chaque année et dessert 300 destinations dans le monde entier.

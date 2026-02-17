@@ -74,33 +74,6 @@ Site web : defenseurdesdroits.fr
 
 Défenseur des droits – République Française
 
-Fermer
-
-## Transcription
-
-**12 PRINCIPAUX DROITS DE L’ENFANT**  
-Ces droits sont inscrits dans la Convention internationale des droits de l’enfant (CIDE), adoptée par l’ONU le 20 novembre 1989.
-
-1.  droit à l’égalité;
-2.  droit d’avoir une identité;
-3.  droit de vivre en famille;
-4.  droit à la santé;
-5.  droit à l’éducation et aux loisirs;
-6.  droit à la protection de la vie privée;
-7.  droit à une justice adaptée à son âge;
-8.  droit d’être protégé en temps de guerre;
-9.  droit d’être protégé contre toutes les formes de violences;
-10.  droit d’être protégé contre toutes les formes d’exploitation;
-11.  droit de s’exprimer et d’être entendu sur les questions qui le concernent;
-12.  droit de l’enfant en situation de handicap de vivre avec et comme les autres.  
-     
-
-En cas de problème, contactez le Défenseur des droits :  
-Téléphone : 09 69 39 00 00  
-Site web : defenseurdesdroits.fr
-
-Défenseur des droits – République Française
-
 ### Pour aller plus loin
 
 [ La Convention Internationale des Droits de l'Enfant (CIDE) – UNICEF](https://www.unicef.fr/convention-droits-enfants/)

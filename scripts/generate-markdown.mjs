@@ -364,8 +364,8 @@ function htmlToMarkdown(htmlContent) {
   $(".cmsfr-block-item_grid").remove();
   $("main h1").first().remove();
 
-  // Process content blocks in order
-  $("main .fr-container").each((_i, container) => {
+  // Process content blocks in order (direct children of main only, to avoid nested duplicates)
+  $("main").children(".fr-container").each((_i, container) => {
     const $c = $(container);
 
     // Skip empty hr blocks

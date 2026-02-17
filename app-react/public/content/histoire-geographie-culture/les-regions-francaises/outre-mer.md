@@ -20,12 +20,6 @@ La Guadeloupe est une **île située dans les Caraïbes**, au sein des Petites A
 
 ![](/images/fiches/SLIDE_69_Region_Guadeloupe_-_OM.original.png)
 
-#### Où est située la Guadeloupe ?
-
-La Guadeloupe est une **île située dans les Caraïbes**, au sein des Petites Antilles.
-
-![](/images/fiches/SLIDE_69_Region_Guadeloupe_-_OM.original.png)
-
 #### **Quels sont les départements et les grandes villes de la Guadeloupe ?**
 
 La Guadeloupe est à la fois un Département et une Région d’Outre-Mer (DROM).
@@ -53,12 +47,6 @@ Le taux de chômage est élevé. L’activité économique se concentre autour d
 ---
 
 ## Martinique
-
-#### Où est située la Martinique ?
-
-La Martinique est une **île située dans les Caraïbes**, au sein de l’archipel des Petites Antilles.
-
-![](/images/fiches/SLIDE_68_Region_Martinique_-_OM.original.png)
 
 #### Où est située la Martinique ?
 
@@ -100,12 +88,6 @@ La Guyane est située en **Amérique du Sud**, sur la côte atlantique.
 
 ![](/images/fiches/SLIDE_70_Region_Guyane_-_OM.original.png)
 
-#### Où est située la Guyane ?
-
-La Guyane est située en **Amérique du Sud**, sur la côte atlantique.
-
-![](/images/fiches/SLIDE_70_Region_Guyane_-_OM.original.png)
-
 #### Quels sont les départements et les grandes villes de la Guyane ?
 
 La Guyane est à la fois un Département et une Région d’Outre-Mer (DROM).
@@ -140,12 +122,6 @@ La Réunion est une **île volcanique située dans l’océan Indien**, à l’e
 
 ![](/images/fiches/SLIDE_72_Region_La_Reunion_-_OM.original.png)
 
-#### Où est située La Réunion ?
-
-La Réunion est une **île volcanique située dans l’océan Indien**, à l’est de Madagascar et au sud-ouest de l’île Maurice.
-
-![](/images/fiches/SLIDE_72_Region_La_Reunion_-_OM.original.png)
-
 #### Quels sont les départements et les grandes villes de La Réunion ?
 
 La Réunion est à la fois un Département et une Région d’Outre-Mer (DROM).
@@ -173,12 +149,6 @@ Le taux de chômage est élevé (environ 19 % de la population active). Les in�
 ---
 
 ## Mayotte
-
-#### Où est située Mayotte ?
-
-Mayotte est une **île** **située dans l’océan Indien**, entre Madagascar et le continent africain (Mozambique). Elle fait partie de l’archipel des Comores.
-
-![](/images/fiches/SLIDE_71_Region_Mayotte_-_OM.original.png)
 
 #### Où est située Mayotte ?
 

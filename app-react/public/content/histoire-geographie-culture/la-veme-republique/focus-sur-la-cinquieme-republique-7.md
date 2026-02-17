@@ -14,12 +14,6 @@ Avant 2013, les couples de même sexe pouvaient seulement conclure un **PACS** (
 
 ![mariage-union](/images/fiches/mariage-union.original.png)
 
-### Avant 2013, les couples de même sexe avaient des droits limités.
-
-Avant 2013, les couples de même sexe pouvaient seulement conclure un **PACS** (Pacte Civil de Solidarité). Il donne quelques droits, mais pas autant que le mariage.
-
-![mariage-union](/images/fiches/mariage-union.original.png)
-
 ### Un débat politique et sociétal majeur
 
 La question du mariage pour tous est dans le débat public. Les Pays-Bas, la Belgique ou l’Espagne, ont déjà adopté le mariage homosexuel, créant le débat en France.

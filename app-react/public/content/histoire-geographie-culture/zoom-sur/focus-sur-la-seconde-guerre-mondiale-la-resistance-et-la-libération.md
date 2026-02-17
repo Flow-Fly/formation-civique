@@ -89,45 +89,6 @@ Zone fermée, retour interdit aux réfugiés.
 
 -   Villes principales : Lille, Dunkerque.
 
-Fermer
-
-## Transcription
-
-### Zone occupée (en rose) - Occupation militaire allemande
-
--   À partir de novembre 1942 : "Zone Nord".
--   Inclut les grandes villes comme : Paris, Bordeaux, Brest.
--   Comprend la Zone militaire littorale : "Mur de l'Atlantique", entrée interdite.
-
-### Zone libre (en violet)
-
--   À partir de novembre 1942 : "Zone Sud"
--   Vichy (de facto siège du Gouvernement)
--   Inclut les grandes villes comme : Vichy, Lyon, Marseille.
--   Frontière avec la zone occupée marquée comme Ligne de démarcation (pointillés bleus).
-
-#### Zone d'occupation italienne (hachurée violet-blanc)
-
--   De novembre 1942 à septembre 1943.
--   Villes incluses : Toulon, Ajaccio, Bastia
-
-### Territoires annexés au Reich (en rouge vif à l’est)
-
-Villes notables : Strasbourg.
-
-### Zone de peuplement allemand.
-
-Zone fermée, retour interdit aux réfugiés.
-
-### Zone démilitarisée (en vert pâle)
-
--   Bande de 50 km.
--   Proche de Grenoble et Lyon.
-
-### Zone sous administration militaire allemande de la Belgique et du Nord (rouge foncé au nord)
-
--   Villes principales : Lille, Dunkerque.
-
 ### Pour aller plus loin
 
 [ Vichy et la Résistance (1940-1944) : deux légitimités concurrentes | vie-publique.fr](https://www.vie-publique.fr/fiches/268978-regime-de-vichy-et-resistance-1940-1944)

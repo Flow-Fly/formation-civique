@@ -26,21 +26,6 @@ Les droits fondamentaux garantissent à chacun :
 
 ![](/images/fiches/15-4-justice.original.png)
 
-### Les droits fondamentaux, c’est quoi ?
-
-Les droits fondamentaux (ou libertés fondamentales) sont les droits et les libertés élémentaires que tout le monde doit respecter pour assurer le bien-être de chacun.
-
-Ces droits sont les mêmes pour tout le monde, peu importe le sexe, l'âge (avant ou après 18 ans), les croyances ou la façon de vivre.
-
-Les droits fondamentaux garantissent à chacun :
-
--   la dignité ;
--   le respect ;
--   l’égalité ;
--   la justice.
-
-![](/images/fiches/15-4-justice.original.png)
-
 ### Quelles sont les différentes catégories de droits fondamentaux ?
 
 Ces droits fondamentaux peuvent être répartis en 3 catégories :

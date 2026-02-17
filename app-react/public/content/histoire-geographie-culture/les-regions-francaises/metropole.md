@@ -28,12 +28,6 @@ La région de l’Auvergne-Rhône-Alpes est située dans le **sud-est de la Fran
 
 ![](/images/fiches/SLIDE_55_Region_ARA-_Metropole.original.png)
 
-#### Où est située la région de l’Auvergne-Rhône-Alpes ?
-
-La région de l’Auvergne-Rhône-Alpes est située dans le **sud-est de la France**. Elle est bordée par la Suisse et l’Italie et s’étend des Alpes au Massif central.
-
-![](/images/fiches/SLIDE_55_Region_ARA-_Metropole.original.png)
-
 #### Quels sont les départements et les grandes villes de l’Auvergne-Rhône-Alpes ?
 
 L’Auvergne-Rhône-Alpes compte 12 départements : Ain, Allier, Ardèche, Cantal, Drôme, Haute-Loire, Haute-Savoie, Isère, Loire, Puy-de-Dôme, Rhône, Savoie.
@@ -61,12 +55,6 @@ Le taux de chômage est légèrement inférieur à la moyenne nationale. L’éc
 ---
 
 ## Bourgogne-Franche-Comté
-
-#### Où est située la région de la Bourgogne-Franche-Comté ?
-
-La région de la Bourgogne-Franche-Comté est située à l’**est de la France**, à la frontière avec la Suisse. Elle s’étend entre le Bassin parisien et le massif du Jura.
-
-![](/images/fiches/SLIDE_56_Region_BFC_-_Metropole.original.png)
 
 #### Où est située la région de la Bourgogne-Franche-Comté ?
 
@@ -108,12 +96,6 @@ La région de la Bretagne est située à l’extrême **ouest de la France**. Bo
 
 ![](/images/fiches/SLIDE_57_Region_Bretagne_-_Metropole.original.png)
 
-#### Où est située la région de la Bretagne ?
-
-La région de la Bretagne est située à l’extrême **ouest de la France**. Bordée par la Manche et l’océan Atlantique, c’est une péninsule avec un long littoral.
-
-![](/images/fiches/SLIDE_57_Region_Bretagne_-_Metropole.original.png)
-
 #### Quels sont les départements et les grandes villes de la Bretagne ?
 
 La Bretagne compte 4 départements : Côtes-d’Armor, Finistère, Ille-et-Vilaine, Morbihan.
@@ -141,12 +123,6 @@ Le taux de chômage est inférieur à la moyenne nationale. Le marché de l’em
 ---
 
 ## Centre-Val de Loire
-
-#### Où est située la région du Centre-Val de Loire ?
-
-La région du Centre-Val de Loire est située au **centre-nord de la France**, entre l’Île-de-France et le Massif central. Elle est traversée par le fleuve de la Loire.
-
-![](/images/fiches/SLIDE_58_Region_Centre_Val_de_Loire_-_Metropole.original.png)
 
 #### Où est située la région du Centre-Val de Loire ?
 
@@ -188,12 +164,6 @@ La région de la Corse est une **île située dans la mer Méditerranée**, au s
 
 ![](/images/fiches/SLIDE_59_Region_Corse_-_Metropole.original.png)
 
-#### Où est située la région de la Corse ?
-
-La région de la Corse est une **île située dans la mer Méditerranée**, au sud-est de la France continentale.
-
-![](/images/fiches/SLIDE_59_Region_Corse_-_Metropole.original.png)
-
 #### Quels sont les départements et les grandes villes de la Corse ?
 
 La Corse compte 2 départements : Corse-du-Sud et Haute-Corse.
@@ -221,12 +191,6 @@ Le taux de chômage est supérieur à la moyenne nationale, surtout en dehors de
 ---
 
 ## Grand Est
-
-#### Où est située la région du Grand Est ?
-
-La région du Grand Est est située à l’**est de la France**, à la frontière avec la Belgique, le Luxembourg, l’Allemagne et la Suisse. C’est un carrefour européen.
-
-![](/images/fiches/SLIDE_60_Region_Grand-Est_Metropole.original.png)
 
 #### Où est située la région du Grand Est ?
 
@@ -268,12 +232,6 @@ La région des Hauts-de-France est située au **nord de la France**, à la front
 
 ![](/images/fiches/SLIDE_61_Region_Hauts-de-France_-_Metropole.original.png)
 
-#### Où est située la région des Hauts-de-France ?
-
-La région des Hauts-de-France est située au **nord de la France**, à la frontière avec la Belgique. Elle est bordée par la Manche et reliée au Royaume-Uni par le tunnel sous la Manche.
-
-![](/images/fiches/SLIDE_61_Region_Hauts-de-France_-_Metropole.original.png)
-
 #### Quels sont les départements et les grandes villes des Hauts-de-France ?
 
 Les Hauts-de-France comptent 5 départements : Aisne, Nord, Oise, Pas-de-Calais, Somme.
@@ -301,12 +259,6 @@ Le taux de chômage est supérieur à la moyenne nationale. La région connaît 
 ---
 
 ## Île-de-France
-
-#### Où est située la région de l’Île-de-France ?
-
-La région de l’Île-de-France est située au **centre-nord de la France**, autour de Paris. C’est le cœur politique, économique et administratif du pays.
-
-![Carte de France indiquant la localisation de la région Île-de-France.](/images/fiches/SLIDE_62_Region_IdF_-_Metropole.original.png)
 
 #### Où est située la région de l’Île-de-France ?
 
@@ -348,12 +300,6 @@ La région de la Normandie est située au **nord-ouest de la France** et bordée
 
 ![](/images/fiches/SLIDE_63_Region_Normandie_-_Metropole.original.png)
 
-#### Où est située la région de la Normandie ?
-
-La région de la Normandie est située au **nord-ouest de la France** et bordée par la Manche. Elle est proche de l’Île-de-France et du Royaume-Uni.
-
-![](/images/fiches/SLIDE_63_Region_Normandie_-_Metropole.original.png)
-
 #### Quels sont les départements et les grandes villes de la Normandie ?
 
 La Normandie compte 5 départements : Calvados, Eure, Manche, Orne, Seine-Maritime.
@@ -381,12 +327,6 @@ Le taux de chômage est proche de la moyenne nationale. Les pôles d’activité
 ---
 
 ## Nouvelle-Aquitaine
-
-#### Où est située la région de la Nouvelle-Aquitaine ?
-
-La région de la Nouvelle-Aquitaine est située dans le **sud-ouest de la France**. Elle borde l’océan Atlantique et est proche de l’Espagne. C’est la plus grande région métropolitaine française.
-
-![](/images/fiches/SLIDE_64_Region_Nouvelle-Aquitaine_-_Metropole.original.png)
 
 #### Où est située la région de la Nouvelle-Aquitaine ?
 
@@ -428,12 +368,6 @@ La région de l’Occitanie est située dans le **sud de la France.** Elle est b
 
 ![](/images/fiches/SLIDE_65_Region_Occitanie_-_Metropole.original.png)
 
-#### Où est située la région de l’Occitanie ?
-
-La région de l’Occitanie est située dans le **sud de la France.** Elle est bordée par la mer Méditerranée à l’est et l’Espagne au sud-ouest. C’est une région vaste, qui comprend à la fois des côtes, des montagnes (les Pyrénées) et des plaines agricoles.
-
-![](/images/fiches/SLIDE_65_Region_Occitanie_-_Metropole.original.png)
-
 #### Quels sont les départements et les grandes villes de l’Occitanie ?
 
 L’Occitanie compte 13 départements : Ariège, Aude, Aveyron, Gard, Gers, Haute-Garonne, Hautes-Pyrénées, Hérault, Lot, Lozère, Pyrénées-Orientales, Tarn, Tarn-et-Garonne.
@@ -468,12 +402,6 @@ La région des Pays de la Loire est située à l’**ouest de la France**. Elle 
 
 ![Carte de France indiquant la localisation de la région Pays de la Loire.](/images/fiches/SLIDE_66_Region_Pays_de_la_Loire_-_Metropole.original.png)
 
-#### Où est située la région des Pays de la Loire ?
-
-La région des Pays de la Loire est située à l’**ouest de la France**. Elle est bordée par l’océan Atlantique et proche de la Bretagne, du Centre-Val de Loire et de la Nouvelle-Aquitaine.
-
-![Carte de France indiquant la localisation de la région Pays de la Loire.](/images/fiches/SLIDE_66_Region_Pays_de_la_Loire_-_Metropole.original.png)
-
 #### Quels sont les départements et les grandes villes des Pays de la Loire ?
 
 Les Pays de la Loire comptent 5 départements : Loire-Atlantique, Maine-et-Loire, Mayenne, Sarthe, Vendée.
@@ -501,12 +429,6 @@ Le taux de chômage est inférieur à la moyenne nationale. L’économie est dy
 ---
 
 ## Provence-Alpes-Côte d’Azur
-
-#### Où est située la région de la Provence-Alpes-Côte d’Azur ?
-
-La région de la Provence-Alpes-Côte d’Azur est située dans le **sud-est de la France**. Elle est bordée par l’Italie et la mer Méditerranée. C’est une région à la fois côtière et montagneuse (Alpes du Sud).
-
-![](/images/fiches/SLIDE_67_Region_PACA_-_Metropole.original.png)
 
 #### Où est située la région de la Provence-Alpes-Côte d’Azur ?
 

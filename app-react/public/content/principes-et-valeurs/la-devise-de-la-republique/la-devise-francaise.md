@@ -29,24 +29,6 @@ _Sur la droite, photo de la façade de la préfecture du Finistère._
 
 ![](/images/fiches/devise-facade-prefecture-finistere.original.jpg)
 
-### Qu’est-ce qu’une devise ?
-
-**La devise de la République française** est :  
-**"Liberté, Égalité, Fraternité"**.
-
-Elle est officielle depuis **1848** et fait partie de notre **patrimoine national**.  
-Elle exprime **les valeurs** auxquelles les Français sont attachés :
-
--   la liberté pour chacun ;
--   l’égalité entre tous ;
--   la fraternité, c’est-à-dire la solidarité entre les citoyens.
-
-* * *
-
-_Sur la droite, photo de la façade de la préfecture du Finistère._
-
-![](/images/fiches/devise-facade-prefecture-finistere.original.jpg)
-
 ### D’où vient cette devise ?
 
 La devise apparaît pendant la **Révolution française**, en **1789**.  

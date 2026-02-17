@@ -54,29 +54,6 @@ Source : Europa.eu
 Cartographie : Dario Ingiusto et Floriane Picard  
 Copyright : DILA 2021, vie-publique.fr
 
-Fermer
-
-## Transcription
-
-**La Construction Européenne**
-
-Date d'adhésion à l'Union Européenne (CEE jusqu'en 1993) :
-
--   1er janvier 1958 : Allemagne; Belgique; France; Italie; Luxembourg; Pays-Bas
--   1973 : Danemark; Irlande; Royaume-Uni
--   1981 : Grèce
--   1986 : Espagne; Portugal
--   1990 : Allemagne (réunification)
--   1995 : Autriche; Finlande; Suède
--   2004 : Chypre; Estonie; Hongrie; Lettonie; Lituanie; Malte; Pologne; République tchèque; Slovaquie; Slovénie
--   2007:  Bulgarie; Roumanie
--   2013 : Croatie
--   31 janvier 2020 : Brexit (sortie du Royaume-Uni). La période de transition post-Brexit s'est achevée le 21 décembre 2020, après la conclusion, le 24 décembre 2020, d'un accord régissant les nouvelles relations commerciales entre l'UE et le Royaume-Uni
-
-Source : Europa.eu  
-Cartographie : Dario Ingiusto et Floriane Picard  
-Copyright : DILA 2021, vie-publique.fr
-
 ### Pour aller plus loin
 
 [ La construction européenne | vie-publique.fr](https://www.vie-publique.fr/carte/270697-la-construction-europeenne)

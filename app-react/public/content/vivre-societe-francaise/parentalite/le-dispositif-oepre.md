@@ -26,44 +26,9 @@ C’est une démarche volontaire pour les parents qui souhaitent s’inscrire au
 
 ![](/images/fiches/SLIDE_60_aux-parents-pour-la-reussite-des-enfan.original.png)
 
-### OEPRE, qu’est-ce c’est ?
-
-OEPRE, signifie "Ouvrir l’École aux Parents pour la Réussite des Enfants". **C'est un dispositif** du Ministère de l'Intérieur et du Ministère de l’Éducation Nationale **pour les parents étrangers.**
-
-Cette formation permet aux parents de travailler :
-
--   la langue française ;
--   les valeurs de la République française ;
--   le fonctionnement de l’école.
-
-C’est une démarche volontaire pour les parents qui souhaitent s’inscrire aux ateliers.
-
-![](/images/fiches/SLIDE_60_aux-parents-pour-la-reussite-des-enfan.original.png)
-
 Transcription
 
 Agrandir
-
-Fermer
-
-## Transcription
-
-**GOUVERNEMENT**  
-RÉPUBLIQUE FRANÇAISE  
-Liberté – Égalité – Fraternité
-
-**ATELIERS OEPRE**
-
-**OUVRIR L’ÉCOLE AUX PARENTS POUR LA RÉUSSITE DES ENFANTS**
-
-✅ Votre établissement souhaite ouvrir un atelier OEPRE  
-✅ Vos professeurs souhaitent animer un atelier OEPRE
-
-**LE PARCOURS D’INTÉGRATION RÉPUBLICAINE**
-
-**MINISTÈRE DE L’ÉDUCATION NATIONALE ET DE LA JEUNESSE** **POUR L’ÉCOLE DE LA CONFIANCE**
-
-_(Illustration : dessin violet représentant un adulte et deux enfants bras levés)_
 
 Fermer
 

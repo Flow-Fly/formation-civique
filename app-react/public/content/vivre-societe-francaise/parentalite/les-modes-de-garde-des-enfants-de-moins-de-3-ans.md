@@ -23,18 +23,6 @@ Ces lieux gardent des enfants à partir de 2 mois et demi. Dans certains cas, il
 
 ![](/images/fiches/SLIDE_55_creche.original.png)
 
-### Faire garder son enfant par des professionnels
-
-Les enfants de moins de 3 ans qui ne vont pas encore à l’école peuvent être gardés par des professionnels spécialisés dans la garde d’enfant.
-
-Ce service est payant, mais il existe des aides financières pour les personnes à faibles revenus.
-
-Il existe différents lieux de garde d’enfant. Un des avantages : les enfants sont en contact avec d’autres enfants.
-
-Ces lieux gardent des enfants à partir de 2 mois et demi. Dans certains cas, ils gardent des enfants jusqu’à 6 ans.
-
-![](/images/fiches/SLIDE_55_creche.original.png)
-
 ### Où faire garder son enfant ?
 
 -   **La crèche** est un endroit qui garde de nombreux enfants, de manière régulière. Diverses activités favorisent le bon développement des enfants. Il existe différents types de crèches : crèche collective (gérée par une association, une commune…), crèche dans une entreprise, crèche parentale (les parents se partagent les temps de garde)…

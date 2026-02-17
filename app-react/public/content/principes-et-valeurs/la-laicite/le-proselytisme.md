@@ -17,12 +17,6 @@ Une personne qui fait du prosélytisme religieux cherche à convaincre d’autre
 
 ![Le prosélytisme, qu’est-ce que c’est ? Une personne qui fait du prosélytisme religieux cherche à convaincre d’autres personnes de choisir sa religion. Cela peut se traduire par différentes actions : parler avec une personne, distribuer des documents, ou inviter une personne à une pratique religieuse (prière, culte…).](/images/fiches/laicite.original.png)
 
-## Le prosélytisme, qu’est-ce que c’est ?
-
-Une personne qui fait du prosélytisme religieux cherche à convaincre d’autres personnes de choisir sa religion. Cela peut se traduire par différentes actions : parler avec une personne, distribuer des documents, ou inviter une personne à une pratique religieuse (prière, culte…).
-
-![Le prosélytisme, qu’est-ce que c’est ? Une personne qui fait du prosélytisme religieux cherche à convaincre d’autres personnes de choisir sa religion. Cela peut se traduire par différentes actions : parler avec une personne, distribuer des documents, ou inviter une personne à une pratique religieuse (prière, culte…).](/images/fiches/laicite.original.png)
-
 ### Le prosélytisme, une attitude autorisée en France
 
 En France, le prosélytisme religieux est autorisé, car chaque personne a la liberté d’avoir une religion ou pas.

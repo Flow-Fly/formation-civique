@@ -19,17 +19,6 @@ La **moitié du territoire français est utilisé pour l’agriculture**. Celle-
 
 ![](/images/fiches/slide_41_-_Agriculture.original.png)
 
-### Pourquoi la France est-elle une terre d’agriculture ?
-
-La France est un pays agricole majeur, en Europe et dans le monde.
-
--   Elle est la **première puissance agricole de l’Union Européenne** (UE), avec 18% de la production totale de l’UE.
--   Elle exporte dans le monde de nombreux produits comme le **blé**, le **vin**, les **produits laitiers** ou la **viande**. Elle importe des fruits et légumes et des produits transformés.
-
-La **moitié du territoire français est utilisé pour l’agriculture**. Celle-ci façonne les paysages et l’économie du pays.
-
-![](/images/fiches/slide_41_-_Agriculture.original.png)
-
 ### Quelles sont les régions agricoles de la France ?
 
 La France possède des régions agricoles variées, grâce à des climats, des reliefs et des sols très différents :

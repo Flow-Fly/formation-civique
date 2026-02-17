@@ -16,23 +16,6 @@ La France abrite, par exemple, 55% des espèces européennes d’amphibiens et 5
 
 ![](/images/fiches/10-3-biocarburant.original.png)
 
-### Pourquoi la France a-t-elle un rôle important dans la biodiversité européenne ?
-
-La France possède l’un des plus vastes territoires d’Europe et des paysages très variés : montagnes, prairies, forêts, littoraux… Avec ses territoires d’outre-mer, elle couvre des zones allant de la région subarctique aux tropiques. Cette grande diversité de milieux naturels et de climats fait de la France le pays européen le plus **riche en espèces animales et végétales**.
-
-La France abrite, par exemple, 55% des espèces européennes d’amphibiens et 58% des oiseaux nicheurs d’Europe. Elle joue donc un rôle majeur pour protéger la nature et la biodiversité de l’Europe.
-
-![](/images/fiches/10-3-biocarburant.original.png)
-
-### Comment l’Europe et la France protègent-elles l’environnement ?
-
-La France et les autres pays de l’Union européenne appliquent des règles communes pour protéger l’environnement, via des directives et des conventions.
-
--   Les sites **Natura 2000** sont des sites naturels protégés dans toute l’Europe. La France fait partie des pays qui contribuent le plus au réseau Natura 2000, avec plus de 1 700 espaces protégés sur son territoire.
--   Les **trames écologiques** ont pour objectif de relier les espaces naturels entre eux pour que les espèces animales et végétales puissent se déplacer et interagir. La France a créé sa **trame verte et bleue** ("verte" fait référence aux milieux terrestres et "bleue" aux milieux aquatiques et humides).
-
-![](/images/fiches/10-18-protection-environnement.original.png)
-
 ### Comment l’Europe et la France protègent-elles l’environnement ?
 
 La France et les autres pays de l’Union européenne appliquent des règles communes pour protéger l’environnement, via des directives et des conventions.

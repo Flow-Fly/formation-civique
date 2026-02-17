@@ -20,18 +20,6 @@ Des juges indépendants contrôlent les autorités publiques.
 
 ![](/images/fiches/egalite.original.png)
 
-### L’État de droit, c’est quoi ?
-
-Un État de droit est un système dans lequel la loi est la même pour tous, y compris pour l’État. Le droit est donc supérieur aux pouvoirs et aux autorités politiques. Ce système garantit le respect des droits fondamentaux et de la démocratie.
-
-Exemple : le droit à la sûreté protège les individus contre les arrestations et les emprisonnements arbitraires des autorités publiques.
-
-**L’État de droit est donc une condition de la démocratie, et c'est le contraire de l’État arbitraire puisque les autorités publiques agissent toujours en respectant la loi.**
-
-Des juges indépendants contrôlent les autorités publiques.
-
-![](/images/fiches/egalite.original.png)
-
 ### Les principes de l’État de droit, quels sont-ils ?
 
 On définit l’État de droit selon 6 principes :

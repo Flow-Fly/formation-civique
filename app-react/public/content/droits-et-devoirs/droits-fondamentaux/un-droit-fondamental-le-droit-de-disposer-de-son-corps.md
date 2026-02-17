@@ -34,29 +34,9 @@ La **contraception d’urgence** est délivrée sans ordonnance en pharmacie. Po
 
 ![50-ans-loi-autorisang-IVG](/images/fiches/50-ans-loi-autorisang-IVG.original.jpg)
 
-### La contraception, c’est quoi ?
-
-La contraception, c’est l’ensemble des **moyens visant à éviter une grossesse**.
-
-Il existe différents moyens de contraception. Les plus connus sont la pilule contraceptive (qui s’adresse aux femmes) et le préservatif. Certains contraceptifs nécessitent la **prescription** d’un médecin ou d’une sage-femme et sont alors délivrés en pharmacie. Les consultations et prescriptions de contraception aux moins de 18 ans (mineurs) peuvent être anonymes et gratuites sur demande du "secret".
-
-La contraception des femmes assurées sociales de moins de 26 ans est prise en charge par l’Assurance Maladie sans avance de frais. Les préservatifs pour les hommes de moins de 26 ans sont disponibles gratuitement dans les pharmacies, dans les centres de santé sexuelle et dans les centres gratuits d'information, de dépistage et de diagnostic (CeGGID).
-
-La **contraception d’urgence** est délivrée sans ordonnance en pharmacie. Pour les mineurs (moins de 18 ans), elle peut être obtenue gratuitement et de façon anonyme en pharmacie, auprès de l’infirmière scolaire ou dans un centre de santé sexuelle.
-
-![50-ans-loi-autorisang-IVG](/images/fiches/50-ans-loi-autorisang-IVG.original.jpg)
-
 Transcription
 
 Agrandir
-
-Fermer
-
-## Transcription
-
-50 ans de la loi autorisant l'IVG
-
-Loi n°75-17 du 17 janvier 1975 relative à l'interruption volontaire de la grossesse.
 
 Fermer
 

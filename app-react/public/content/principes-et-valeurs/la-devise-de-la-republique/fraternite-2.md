@@ -21,19 +21,6 @@ Cet engagement peut prendre différentes formes :
 
 ![](/images/fiches/personnes-handicapees.original.png)
 
-### Les différentes formes de l’engagement
-
-En France, chaque personne - française ou étrangère - peut **s’engager librement**. Ce droit, que l’on appelle "liberté d’association", est inscrit dans une loi qui date de 1901.
-
-Cet engagement peut prendre différentes formes :
-
--   travailler dans **une association** (culture, sport, aide humanitaire…) ;
--   mener une action pour les autres, sur son temps libre, sans être payé (**bénévolat**), par exemple pour une association ;
--   adhérer à **un syndicat** (pour défendre les droits des travailleurs) ;
--   adhérer à un parti **politique**, participer à une campagne électorale…
-
-![](/images/fiches/personnes-handicapees.original.png)
-
 ### Pourquoi s’engager dans une association ?
 
 S’engager dans une association permet de :

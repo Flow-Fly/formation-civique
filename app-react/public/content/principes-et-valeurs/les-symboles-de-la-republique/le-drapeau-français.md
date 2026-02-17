@@ -25,20 +25,6 @@ _Sur la droite, façade de la sous-préfecture de Montbrison._
 
 ![](/images/fiches/slide_8_drapeau_fr_Facade_de_la_sous-prefecture.original.jpg)
 
-### **Les couleurs**
-
-Le drapeau français est un symbole officiel de la République française.
-
--   Le drapeau est composé de trois bandes verticales : **bleu, blanc** et **rouge.**
--   Chaque couleur a une signification : le bleu et le rouge étaient les couleurs de la ville de Paris, tandis que le blanc était la couleur du roi.
--   L'alliance des trois couleurs était donc le symbole de l'alliance du roi et du peuple et reste le symbole d'une France unie.
-
-* * *
-
-_Sur la droite, façade de la sous-préfecture de Montbrison._
-
-![](/images/fiches/slide_8_drapeau_fr_Facade_de_la_sous-prefecture.original.jpg)
-
 ### **L'histoire du drapeau français**
 
 -   En **juillet 1789**, pendant **la Révolution française**, les gardes nationaux parisiens portent **une cocarde** bleue et rouge, les couleurs de la ville de Paris.

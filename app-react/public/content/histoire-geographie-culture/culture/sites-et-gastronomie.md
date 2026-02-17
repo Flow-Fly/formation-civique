@@ -68,22 +68,6 @@ Des millions de visiteurs la visitent chaque année.
 
 ![](/images/fiches/SLIDE_75_Region_ARA_Gastronomie_et_Monument.original.png)
 
-#### La basilique de Fourvière : le symbole de Lyon
-
-La basilique de Fourvière se situe sur la colline Fourvière la plus haute de la ville.
-
-Œuvre de l'architecte Pierre Bossan, elle a été construite entre 1872 et 1884.
-
-Cette basilique est connue pour son **style original** et la richesse de sa **décoration intérieure** (mosaïques, vitraux, marbres).
-
-La basilique est un lieu incontournable de la ville de Lyon et de sa région. Depuis son esplanade, on peut voir un panorama exceptionnel sur Lyon.
-
-Au mois de décembre, pendant la **Fête des Lumières**, la basilique et toute la ville de Lyon sont illuminées par des projections et lumières.
-
-Des millions de visiteurs la visitent chaque année.
-
-![](/images/fiches/SLIDE_75_Region_ARA_Gastronomie_et_Monument.original.png)
-
 #### La fondue savoyarde, spécialité traditionnelle de la région alpine
 
 La fondue savoyarde est un plat de montagne populaire dans les Alpes françaises.
@@ -119,18 +103,6 @@ C’est un site touristique important en Bourgogne.
 
 ![](/images/fiches/SLIDE_76_Region_BFC_Monument_et_Gastronomie.original.png)
 
-#### L’abbaye de Fontenay, monument emblématique de Bourgogne
-
-L’abbaye de Fontenay se situe au nord de la Bourgogne, en pleine nature.
-
-Fondée par Saint Bernard de Clairvaux en 1118, l’abbaye est l’**un des plus anciens monastères de France** encore existant. Son état de conservation est remarquable.
-
-L’abbaye est **classée au patrimoine mondial de l’UNESCO depuis 1981**. Le parc paysager a été classé “Jardin remarquable” en 2004.
-
-C’est un site touristique important en Bourgogne.
-
-![](/images/fiches/SLIDE_76_Region_BFC_Monument_et_Gastronomie.original.png)
-
 #### Le bœuf bourguignon, plat typique de la gastronomie bourguignonne
 
 Le bœuf bourguignon est une spécialité culinaire qui vient de **Bourgogne**.
@@ -150,18 +122,6 @@ _Sources photos du monument et du plat : images générées par une intelligence
 ---
 
 ## Patrimoine français : sites emblématiques et gastronomie de Bretagne
-
-#### Le Fort de Saint-Malo, un lieu historique en Bretagne
-
-Le Fort National de Saint-Malo a été construit au 17ème siècle pour **protéger la ville**.
-
-Installé sur un ilôt rocheux, il a une vue panoramique exceptionnelle sur la côte.
-
-Les grands remparts et canons du fort militaire montrent que Saint-Malo était **un port régional important**.
-
-Aujourd’hui, on peut le visiter et y découvrir l’histoire maritime et militaire de la région. C’est une **destination touristique prisée**.
-
-![](/images/fiches/SLIDE_77_Region_Bretagne_Monument_et_Gastronomi.original.png)
 
 #### Le Fort de Saint-Malo, un lieu historique en Bretagne
 
@@ -212,18 +172,6 @@ Le château accueille plus d’1 million de visiteurs chaque année.
 
 ![Image détourée de la tarte tatin et du château de Chambord dans une assiette](/images/fiches/SLIDE_78_Centre_Val_de_Loire_Monument_et_Gastro.original.png)
 
-#### Le château de Chambord, magnifique château de la Loire
-
-Le château de Chambord a été construit au bord de la Loire, près de Blois, sur ordre de François 1er.
-
-Édifié vers 1500, ce très grand château est célèbre pour son **architecture de style Renaissance** et son escalier en spirale.
-
-Le château est classé au patrimoine mondial de l’UNESCO depuis 1981.
-
-Le château accueille plus d’1 million de visiteurs chaque année.
-
-![Image détourée de la tarte tatin et du château de Chambord dans une assiette](/images/fiches/SLIDE_78_Centre_Val_de_Loire_Monument_et_Gastro.original.png)
-
 #### La tarte Tatin, spécialité du Centre-Val de Loire
 
 La tarte Tatin a été inventée par accident dans la région du Centre-Val de Loire.
@@ -257,16 +205,6 @@ Aujourd’hui, les touristes viennent nombreux découvrir la citadelle corse et 
 
 ![](/images/fiches/SLIDE_79_Region_Corse_Gastronomie_et_Monument.original.png)
 
-#### La citadelle de Bonifacio, la forteresse historique perchée sur la falaise
-
-La citadelle de Bonifacio a été construite au sommet de falaises surplombant la mer Méditerranée au sud de la Corse.
-
-Au **Moyen Âge**, cette forteresse **protégeait la ville des attaques maritimes**.
-
-Aujourd’hui, les touristes viennent nombreux découvrir la citadelle corse et sa vue sur la mer.
-
-![](/images/fiches/SLIDE_79_Region_Corse_Gastronomie_et_Monument.original.png)
-
 #### Le brocciu, fromage frais typique de Corse
 
 Le brocciu est un **fromage frais traditionnel** fabriqué en Corse à partir du lait de brebis ou de chèvre.
@@ -288,18 +226,6 @@ _Sources photos du monument et du plat : images générées par une intelligence
 ---
 
 ## Patrimoine français : sites emblématiques et gastronomie du Grand Est
-
-#### La place Stanislas, un lieu emblématique de Nancy 
-
-La **place Stanislas** est une grande place située au cœur de la ville de Nancy et est classée au patrimoine mondial de l’UNESCO depuis 1983.
-
-Elle a été construite au milieu du 18ème siècle avec une architecture classique de l’époque.
-
-La "place Stan" est connue pour ses grilles dorées, ses fontaines et pour les bâtiments élégants qui l’entourent : hôtel de ville, Opéra, musée des Beaux-Arts…
-
-Appréciée par ses habitants, elle accueille de nombreux événements.
-
-![](/images/fiches/region-grand-est-gastronomie-monument.original.jpg)
 
 #### La place Stanislas, un lieu emblématique de Nancy 
 
@@ -348,18 +274,6 @@ Lieu important pour les habitants, le beffroi de Lille est classé au patrimoine
 
 ![](/images/fiches/region-Hauts-de-France_Gastronomie-Monument.original.jpg)
 
-#### Le beffroi de Lille, symbole fort de la ville
-
-Le beffroi de Lille est une **grande tour de l’hôtel de ville** de Lille. 
-
-Inauguré en 1932, il est le plus haut beffroi civil d’Europe. Sa hauteur offre une **vue panoramique exceptionnelle**.
-
-Son style architectural moderne et traditionnel reflète son histoire : il a été créé lors de la reconstruction de l’hôtel de ville détruit pendant la Première Guerre mondiale.
-
-Lieu important pour les habitants, le beffroi de Lille est classé au patrimoine mondial de l’UNESCO depuis 2005.
-
-![](/images/fiches/region-Hauts-de-France_Gastronomie-Monument.original.jpg)
-
 #### Le maroilles, fromage traditionnel des Hauts-de-France
 
 Le maroilles est un fromage à pâte molle, fabriqué en Hauts-de-France.
@@ -392,15 +306,6 @@ D’abord critiquée, la Tour Eiffel est aujourd’hui un symbole de la France e
 
 ![region-idf-gastronomie-monument](/images/fiches/region-idf-gastronomie-monument.original.jpg)
 
-#### La Tour Eiffel, symbole de Paris
-
-La Tour Eiffel se trouve à Paris. Elle est construite en 2 ans par l’ingénieur Gustave Eiffel pour l’Exposition universelle de 1889 qui fêtait les 100 ans de la Révolution française. Elle y représentait le **génie industriel de la France**.  
-Haute de 312 mètres (330 avec les antennes), **elle a longtemps été le plus haut monument du monde**. Elle offre une vue spectaculaire sur Paris.
-
-D’abord critiquée, la Tour Eiffel est aujourd’hui un symbole de la France et un repère parisien.
-
-![region-idf-gastronomie-monument](/images/fiches/region-idf-gastronomie-monument.original.jpg)
-
 #### Le brie de Meaux, "Roi des Fromages" d’Île-de-France
 
 Le brie de Meaux est un **fromage à pâte molle, fabriqué en Île-de-France depuis le Moyen-Âge**.
@@ -423,20 +328,6 @@ _Sources photos :_
 ---
 
 ## Patrimoine français : sites emblématiques et gastronomie de Normandie
-
-#### Le Mont Saint-Michel, un site unique et emblématique 
-
-Le Mont Saint-Michel est une île rocheuse située sur la côte normande. Il est célèbre pour son abbaye construite au sommet des rochers.
-
-La construction de l’abbaye du Mont-Saint-Michel s’est étalée sur plusieurs siècles du Moyen Âge, mêlant les styles architecturaux. 
-
-Le Mont est aussi connu pour ses marées impressionnantes : à marée haute, l’île est entourée d’eau.
-
-Le Mont Saint-Michel et sa baie sont classés au patrimoine mondial de l'UNESCO.
-
-Il est un symbole fort de la Normandie, aux portes de la Bretagne, mêlant histoire, culture et nature.
-
-![](/images/fiches/region-normandie-gastronomie-monument.original.jpg)
 
 #### Le Mont Saint-Michel, un site unique et emblématique 
 
@@ -488,19 +379,6 @@ Entre mer et forêt, elle attire plus d’1 million de visiteurs chaque année.
 
 ![](/images/fiches/region-nouvelle-aquitaine-gastronomie-monument.original.jpg)
 
-#### La Dune du Pilat, paysage emblématique de la côte atlantique
-
-La dune du Pilat est au bord du bassin d’Arcachon.
-
-La dune du Pilat est **la plus haute dune d’Europe** avec plus de 100 mètres de hauteur et 3 kilomètres de long. Formée par les vents et les marées, la dune est en mouvement permanent, avançant lentement vers l’intérieur des terres.
-
-Elle offre une vue panoramique sur l’Atlantique, la forêt des Landes et le banc de sable d’Arguin.
-
-La dune du Pilat est un **site naturel protégé**.  
-Entre mer et forêt, elle attire plus d’1 million de visiteurs chaque année.
-
-![](/images/fiches/region-nouvelle-aquitaine-gastronomie-monument.original.jpg)
-
 #### Le foie gras du Périgord, spécialité culinaire du Sud-Ouest
 
 Le foie gras du Périgord est une **spécialité de la Nouvelle-Aquitaine**.
@@ -522,16 +400,6 @@ _Sources photos :_
 ---
 
 ## Patrimoine français : sites emblématiques et gastronomie d’Occitanie
-
-#### Le pont du Gard, monument historique d’Occitanie
-
-Le pont du Gard est un **aqueduc**, un canal en pierre. Il a été construit au 1er siècle **par les Romains** pour transporter de l’eau sur 50 kilomètres jusqu’à la ville de Nîmes. C’est une **prouesse technique** et esthétique.
-
-Le pont du Gard est **un des aqueducs les mieux conservés au monde**.
-
-Il est inscrit au patrimoine mondial de l’UNESCO.
-
-![](/images/fiches/region-occitanie-gastronomie-monument.original.jpg)
 
 #### Le pont du Gard, monument historique d’Occitanie
 
@@ -578,18 +446,6 @@ Le château des ducs de Bretagne abrite aujourd’hui un musée sur l’histoire
 
 ![](/images/fiches/pays-de-la-loire-monument-gastronomie.original.png)
 
-#### Le château des ducs de Bretagne, un morceau de Bretagne au cœur de Nantes
-
-Le château des ducs de Bretagne est un monument historique situé à Nantes. Il a été construit à la fin du 15ème siècle. 
-
-En 1532, le territoire de l’actuelle Loire-Atlantique est rattaché au royaume de France. **Le “château des ducs de Bretagne” devient celui des rois de France**. 
-
-Les murailles et tours du château médiéval sont bien conservées.
-
-Le château des ducs de Bretagne abrite aujourd’hui un musée sur l’histoire de Nantes et de Bretagne.
-
-![](/images/fiches/pays-de-la-loire-monument-gastronomie.original.png)
-
 #### La brioche vendéenne, spécialité de Vendée
 
 La brioche vendéenne est une **pâtisserie traditionnelle de la Vendée**.  
@@ -613,16 +469,6 @@ _Sources photos_
 ---
 
 ## Patrimoine français : sites emblématiques et gastronomie de Provence-Alpes-Côte d’Azur
-
-#### La promenade des Anglais, un symbole emblématique de Nice 
-
-La promenade des Anglais est **une grande avenue** de bord de mer à Nice. Elle a été inaugurée en 1834.
-
-Célèbre pour ses palmiers, ses plages, ses hôtels de luxe, on peut s’y promener à pied, à vélo ou en roller.
-
-La Promenade des Anglais est un **symbole fort de la ville de Nice** qui accueille les grands événements, comme le carnaval de Nice ou le Tour de France.
-
-![](/images/fiches/region-PACA-gastronomie-monument.original.jpg)
 
 #### La promenade des Anglais, un symbole emblématique de Nice 
 
@@ -671,18 +517,6 @@ Aujourd’hui, ce fort est symbole de la lutte pour la liberté.
 
 ![](/images/fiches/region-guadeloupe_Gastronomie-Monument.original.jpg)
 
-#### Le Fort Delgrès, un lieu historique chargé de mémoire à Basse-Terre 
-
-Le Fort Delgrès est une forteresse située dans la ville de Basse-Terre en Guadeloupe. Elle a été construite au 17ème siècle pour protéger l’île des attaques.
-
-Les grands remparts en pierre volcanique et sa vue sur les Caraïbes sont impressionnants.
-
-Le fort tient son nom de Louis Delgrès, un officier guadeloupéen, résistant contre le rétablissement de l’esclavage.
-
-Aujourd’hui, ce fort est symbole de la lutte pour la liberté.
-
-![](/images/fiches/region-guadeloupe_Gastronomie-Monument.original.jpg)
-
 #### Le colombo de poulet, plat typique guadeloupéen
 
 Le colombo de poulet est un plat typique de la cuisine guadeloupéenne.
@@ -717,15 +551,6 @@ Encore en activité, on peut seulement visiter une partie du Fort Saint-Louis, q
 
 ![](/images/fiches/region-guadeloupe_Gastronomie-Monument.original.jpg)
 
-#### Le Fort Saint-Louis, monument historique à Fort-de-France
-
-Le Fort Saint-Louis est situé à Fort-de-France, au bord de la mer des Caraïbes. Il a été construit au 17ème siècle par les Français pour défendre l’île contre les attaques ennemies.  
-Ce fort militaire à l’architecture défensive coloniale a une vue magnifique sur la baie.
-
-Encore en activité, on peut seulement visiter une partie du Fort Saint-Louis, qui retrace l’histoire de la Martinique.
-
-![](/images/fiches/region-guadeloupe_Gastronomie-Monument.original.jpg)
-
 #### Les accras de morue, spécialité typique des Antilles
 
 Les accras de morue sont des beignets traditionnels de la culture culinaire antillaise.
@@ -750,18 +575,6 @@ _Sources photos_
 ---
 
 ## Patrimoine français : sites emblématiques et gastronomie de Guyane
-
-#### Le centre spatial de Kourou, un site scientifique majeur au cœur de l’Amazonie
-
-Le centre spatial de Kourou est situé sur la côte atlantique de la Guyane. C’est l’une des bases de lancement de fusées parmi les plus importantes au monde.
-
-Inauguré en 1968, il est utilisé par l’Agence spatiale européenne pour envoyer des satellites.
-
-Ce site moderne attire des chercheurs et ingénieurs du monde entier.
-
-Moteur économique de la région, le centre spatial de Kourou donne une place de choix à la Guyane dans les domaines de la recherche et de la technologie spatiale.
-
-![](/images/fiches/region-guyane_Gastronomie-monument.original.jpg)
 
 #### Le centre spatial de Kourou, un site scientifique majeur au cœur de l’Amazonie
 
@@ -812,20 +625,6 @@ Le Piton de la Fournaise est inscrit au patrimoine mondial de l’UNESCO dans le
 
 ![](/images/fiches/region-la-reunion_Gastronomie_et_Monument.original.jpg)
 
-#### Le Piton de la Fournaise, un volcan actif spectaculaire
-
-Le Piton de la Fournaise est l’un des volcans les plus actifs au monde. 
-
-Il se situe dans le sud-est de l’île de La Réunion et culmine à plus de 2 600 mètres d’altitude. 
-
-Facilement accessible, il attire de nombreux visiteurs et randonneurs fascinés par ses paysages lunaires, ses cratères et ses coulées de lave.
-
-Spectaculaire lors de ses éruptions (souvent sans danger pour la population), il est un symbole fort de l’île.
-
-Le Piton de la Fournaise est inscrit au patrimoine mondial de l’UNESCO dans le cadre du parc national de La Réunion.
-
-![](/images/fiches/region-la-reunion_Gastronomie_et_Monument.original.jpg)
-
 #### Le cari de poisson, un plat typique de l’île
 
 Le cari de poisson est une **recette populaire à La Réunion**.
@@ -849,18 +648,6 @@ _Source photos du lieu et du plat : images générées par une intelligence arti
 ---
 
 ## Patrimoine français : sites emblématiques et gastronomie de Mayotte
-
-#### Le lac Dziani, un lac situé dans un ancien volcan
-
-Le **lac Dziani est situé sur l’île de Petite-Terre.** 
-
-Il **s’est formé dans le cratère d’un ancien volcan éteint**, au milieu d’une végétation tropicale. On peut en faire le tour grâce à un sentier de randonnée qui offre de beaux points de vue sur le lac, sur Petite-Terre et sur le lagon de Mayotte.
-
-Son eau saumâtre (mélange d’eau douce et d’eau salée) verte doit sa couleur à ses algues et minéraux.
-
-**C’est l’un des plus beaux sites de Mayotte,** chargé de légendes locales, qui représente un symbole fort du patrimoine naturel de l’île. Préservé, **il est interdit de s’y baigner ou d’y pêcher**.
-
-![](/images/fiches/region-Mayotte_Gastronomie-Monument.original.jpg)
 
 #### Le lac Dziani, un lac situé dans un ancien volcan
 

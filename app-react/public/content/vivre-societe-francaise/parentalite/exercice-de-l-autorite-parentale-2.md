@@ -20,14 +20,6 @@ Exemple : le principe d’égalité entre les filles et les garçons doit être
 
 ![](/images/fiches/SLIDE__52_et_53_et_54_et_59_famille_.original.png)
 
-### La loi française prime sur les valeurs culturelles et familiales
-
-La loi française est prioritaire sur les valeurs culturelles et familiales. Cela signifie que si des valeurs culturelles et familiales contredisent la loi française, elles ne peuvent pas être transmises ou appliquées.
-
-Exemple : le principe d’égalité entre les filles et les garçons doit être respecté, même dans la sphère privée.
-
-![](/images/fiches/SLIDE__52_et_53_et_54_et_59_famille_.original.png)
-
 ### Les devoirs sur les biens de l’enfant
 
 Les parents ont le droit et le devoir de gérer les biens de leur enfant, par exemple un appartement issu d’un héritage.

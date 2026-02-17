@@ -22,16 +22,6 @@ Les électeurs votent pour des listes de partis politiques, et non pour des cand
 
 ![](/images/fiches/electionUE.original.jpg)
 
-### Qui élit-on lors des élections européennes ?
-
-Les élections européennes sont organisées **tous les cinq ans**. Les citoyens et les citoyennes de l’Union européenne votent pour désigner les membres du **Parlement européen.** On les appelle les députés européens, ou eurodéputés.
-
-Le nombre d’eurodéputés par État dépend de la population du pays. Depuis les élections de 2024, la France compte **81 eurodéputés**.
-
-Les électeurs votent pour des listes de partis politiques, et non pour des candidats uniques.
-
-![](/images/fiches/electionUE.original.jpg)
-
 ### Qui peut voter ?
 
 Pour avoir le droit de voter en France lors des élections européennes, il faut :

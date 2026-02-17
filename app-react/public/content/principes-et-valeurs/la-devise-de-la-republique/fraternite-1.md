@@ -16,14 +16,6 @@ La fraternité est présente dans la Déclaration universelle des droits de l’
 
 ![](/images/fiches/personnes-agees.original.png)
 
-### La fraternité : qu’est-ce que c’est ?
-
-La fraternité, c’est **la solidarité entre les citoyens.** C’est ce qui permet aux personnes de **vivre ensemble** avec harmonie et de **former une société**.
-
-La fraternité est présente dans la Déclaration universelle des droits de l’homme de 1948 : il est écrit que les personnes doivent agir les unes envers les autres "_dans un esprit de fraternité_".
-
-![](/images/fiches/personnes-agees.original.png)
-
 ### L’histoire du concept de fraternité
 
 La fraternité a longtemps été considérée comme une simple valeur morale, contrairement aux principes de liberté et d’égalité. Elle n’est pas présente dans la Déclaration des droits de l’homme et du citoyen de 1789, alors que la liberté et l’égalité y sont inscrites.

@@ -127,3 +127,35 @@ export interface Settings {
 export type Quality = 0 | 2 | 3 | 5;
 
 export type RatingName = "again" | "hard" | "good" | "easy";
+
+// ─── Content index types (markdown-based fiches) ────────────────────
+
+export interface ContentPageMeta {
+  id: string;
+  title: string;
+  path: string; // relative to public/content/
+  originalFicheIds: string[];
+}
+
+export interface SubcategoryGroupIndex {
+  id: string;
+  name: string;
+  pages: ContentPageMeta[];
+}
+
+export interface ContentSubcategoryIndex {
+  id: string;
+  name: string;
+  pages?: ContentPageMeta[]; // ungrouped pages
+  groups?: SubcategoryGroupIndex[]; // grouped pages
+}
+
+export interface ContentThemeIndex {
+  id: string;
+  name: string;
+  subcategories: ContentSubcategoryIndex[];
+}
+
+export interface ContentIndex {
+  themes: ContentThemeIndex[];
+}

@@ -35,18 +35,6 @@ _Source photo : Mascotte coq des Jeux Olympiques posant devant le vestiaire du s
 
 ![](/images/fiches/mascotte-coq-des-jeux-olympiques.original.jpg)
 
-### Les principales utilisations du coq
-
--   **Diplomatie économique et culturelle** : logo de La French Tech, communication de Business France, pavillon de la France lors des expositions universelles…
--   **Institutions de la République** : frontons de certaines mairies ou de monuments aux morts…
--   **Sport** : maillots des équipes nationales.
-
-* * *
-
-_Source photo : Mascotte coq des Jeux Olympiques posant devant le vestiaire du stand du ministère au Club France Paris / F.Balsamo_
-
-![](/images/fiches/mascotte-coq-des-jeux-olympiques.original.jpg)
-
 ### Pour aller plus loin
 
 [ Le coq | Élysée](https://www.elysee.fr/la-presidence/le-coq)

@@ -22,17 +22,6 @@ Ces informations sont transmises de manière régulière par l’intermédiaire 
 
 ![](/images/fiches/SLIDE__52_et_53_et_54_et_59_famille_.original.png)
 
-### L’information des parents
-
-L’école doit informer régulièrement les parents :
-
--   des résultats de leur enfant lors des évaluations ;
--   de son comportement à l’école.
-
-Ces informations sont transmises de manière régulière par l’intermédiaire du livret scolaire (pendant le cours élémentaire) puis du bulletin scolaire (pendant le collège et le lycée).
-
-![](/images/fiches/SLIDE__52_et_53_et_54_et_59_famille_.original.png)
-
 ### Les devoirs des parents
 
 Les parents ont des devoirs pour accompagner la scolarité de leur enfant :

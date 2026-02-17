@@ -23,18 +23,6 @@ La justice judiciaire comprend :
 
 ![Pictogrammes DSFR — Institutions — Justice](/images/fiches/Pictogrammes_DSFR__Institutions__Justice_uV6Dzx.original.svg)
 
-### Quelle justice pour quel conflit ?
-
-La justice protège, décide et sanctionne impartialement. Selon les parties qui s’opposent, le pouvoir judiciaire s’exerce différemment, réparti entre deux ordres : la justice judiciaire et la justice administrative.
-
-La justice judiciaire comprend :
-
--   la **justice civile**, qui s’occupe des litiges entre citoyens (exemple : un conflit entre locataire et propriétaire) ;
--   la **justice pénale**, qui punit les infractions des citoyens à la loi (exemple : un vol, un excès de vitesse en voiture).
--   la **justice administrative** juge les litiges entre les citoyens (individus) et l’État (administrations et collectivités publiques) (exemple : une fausse déclaration à la CAF).
-
-![Pictogrammes DSFR — Institutions — Justice](/images/fiches/Pictogrammes_DSFR__Institutions__Justice_uV6Dzx.original.svg)
-
 ### Comment sont organisées ces institutions judiciaires ?
 
 Les tribunaux de chaque ordre sont organisés en pyramide :

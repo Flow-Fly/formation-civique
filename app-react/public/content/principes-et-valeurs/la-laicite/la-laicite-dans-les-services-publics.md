@@ -32,16 +32,6 @@ _Source photo :_ [ Le portail de la fonction publique](https://www.fonction-publ
 
 ![Charte de la laïcité des services publics](/images/fiches/charte-laicite-services-publics.original.png)
 
-### La charte de la laïcité dans les services publics
-
-Il existe un document qui rappelle **les droits et les devoirs** pour respecter la laïcité dans les services publics. Il s’adresse aux usagers et aux personnes qui travaillent dans ces services. C’est la Charte de la laïcité dans les services publics.
-
-* * *
-
-_Source photo :_ [ Le portail de la fonction publique](https://www.fonction-publique.gouv.fr/etre-agent-public/mes-droits-et-obligations/laicite-et-neutralite-de-la-fonction-publique)
-
-![Charte de la laïcité des services publics](/images/fiches/charte-laicite-services-publics.original.png)
-
 ### Pour aller plus loin
 
 [ Comprendre la laïcité | info.gouv.fr](https://www.info.gouv.fr/upload/media/organization/0001/01/sites_default_files_contenu_piece-jointe_2023_12_comprendre_la_laicite_-_fonction_publique_vdef.pdf)

@@ -52,34 +52,6 @@ _Source :_ [ Banque de pictogrammes FALC](https://kiosque.communication.gouv.fr/
 
 ![](/images/fiches/profession-medicale.original.png)
 
-#### Que faire en cas de problème de santé en France ?
-
-Selon l’urgence de votre problème de santé, vous pouvez :
-
--   **Consulter un médecin**
-
-Pour un **problème de santé courant**, on commence généralement par consulter un médecin traitant (médecin généraliste de référence pour le patient).
-
-C’est ce qu’on appelle le **parcours de soins coordonnés** : c’est le fait de consulter d'abord son médecin traitant, qui va ensuite orienter le patient vers d'autres professionnels de santé si nécessaire, notamment des médecins spécialistes (exemples : cardiologue, dermatologue…).
-
--   **Aller à l’hôpital**
-
-En cas de **situation grave** (accident, douleurs violentes, malaise grave…), on se rend à l’hôpital, en urgence ou sur rendez-vous. En effet, beaucoup de spécialistes reçoivent leurs patients dans les locaux d’un hôpital.
-
--   **Aller en pharmacie**
-
-Le pharmacien peut vous donner des conseils pour les **douleurs du quotidien**.
-
-Une pharmacie est un établissement médical où vous pouvez récupérer et acheter des médicaments et autres produits de santé (compléments alimentaires, dispositifs médicaux…).
-
-Après la consultation avec votre médecin, rendez-vous en pharmacie avec la **prescription médicale** pour que le pharmacien vous délivre les traitements (médicaments et dispositifs médicaux) prescrits et vous conseille sur leur utilisation.
-
-* * *
-
-_Source :_ [ Banque de pictogrammes FALC](https://kiosque.communication.gouv.fr/documentation/banque-de-pictogrammes-facile-lire-et-comprendre-falc?tca=8uwjAYyR6HE9Fqj3abVSqaLaXJWlRxEyCKeAL5Q7rs0)
-
-![](/images/fiches/profession-medicale.original.png)
-
 #### Pour aller plus loin
 
 [ Le rôle du médecin traitant et le parcours de soins coordonnés](https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/medecin-traitant-parcours-soins-coordonnes)
@@ -87,12 +59,6 @@ _Source :_ [ Banque de pictogrammes FALC](https://kiosque.communication.gouv.fr/
 ---
 
 ## Accès aux soins : le médecin généraliste
-
-#### Pourquoi consulter un médecin généraliste ?
-
-Le médecin généraliste est formé pour assurer des soins de premier recours (prévention, dépistage, diagnostic, traitement, orientation, éducation pour la santé). Il prend en charge des patients de tout âge, pour des problèmes courants ou chroniques.
-
-![](/images/fiches/SLIDE_16_et_17_soins-de-sante.original.png)
 
 #### Pourquoi consulter un médecin généraliste ?
 
@@ -130,14 +96,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Accès aux soins : le médecin spécialiste
-
-#### Pourquoi consulter un médecin spécialiste ?
-
-Le médecin spécialiste est un professionnel de santé qui possède une formation approfondie dans un domaine médical précis. Exemple : la cardiologie, la dermatologie, la gynécologie ou la neurologie.
-
-Il intervient généralement pour diagnostiquer et traiter des problèmes spécifiques ou complexes qui nécessitent des compétences particulières.
-
-![](/images/fiches/SLIDE_16_et_17_soins-de-sante.original.png)
 
 #### Pourquoi consulter un médecin spécialiste ?
 
@@ -188,14 +146,6 @@ Certaines structures sont généralistes, d’autres spécialisées pour un type
 
 ![](/images/fiches/affiche-pass.original.jpg)
 
-#### Une structure d’accueil gratuite, c’est quoi ?
-
-En France, de nombreuses structures permettent d’être soigné sans payer. Elles font partie du service public proposé par l’État.
-
-Certaines structures sont généralistes, d’autres spécialisées pour un type d’accompagnement.
-
-![](/images/fiches/affiche-pass.original.jpg)
-
 #### Vers quelle structure me diriger ?
 
 ##### Soins généralistes
@@ -234,14 +184,6 @@ Ce service accueille toute personne en situation d’urgence (y compris psychiat
 
 ![](/images/fiches/urgences.original.png)
 
-#### Les services d’urgence, c’est quoi ?
-
-Les services d’urgence des hôpitaux sont destinés uniquement aux **détresses et urgences les plus graves**.
-
-Ce service accueille toute personne en situation d’urgence (y compris psychiatriques) et la prend en charge. Les services d’urgence sont ouverts 24h/24 et 7j/7 afin de prendre en charge les **urgences vitales** et les **blessures graves** qui nécessitent une prise en charge immédiate.
-
-![](/images/fiches/urgences.original.png)
-
 #### Qui contacter en cas d’urgence ?
 
 Il faut agir selon la gravité de l’urgence médicale.
@@ -270,22 +212,6 @@ _Source photo :_ [ _Banque de pictogrammes FALC_](https://kiosque.communication.
 ---
 
 ## Accès aux soins : les médecins et pharmacies de garde
-
-#### Les médecins de garde, c’est quoi ?
-
-Un médecin de garde est un médecin généraliste qui fait des consultations en dehors des heures d’ouverture des cabinets médicaux (soir, nuits, week-ends, jours fériés).
-
-Il prend en charge rapidement les problèmes de santé urgents mais non vitaux (afin de ne pas surcharger les services d’urgence hospitaliers, destinés en priorité aux urgences vitales).
-
-Selon le cas, le médecin de garde peut :
-
--   se déplacer à domicile ;
--   accueillir le patient dans un centre de garde ;
--   donner des conseils médicaux par téléphone si une consultation n’est pas nécessaire.
-
-Pour contacter un médecin de garde, appelez le 15 (SAMU) ou le numéro spécifique pour la permanence des soins mis en place dans votre région.
-
-![](/images/fiches/sante.original.png)
 
 #### Les médecins de garde, c’est quoi ?
 

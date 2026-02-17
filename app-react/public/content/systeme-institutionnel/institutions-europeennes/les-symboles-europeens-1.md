@@ -21,16 +21,6 @@ Ce drapeau est présent sur les façades des institutions européennes, sur les 
 
 ![](/images/fiches/drapeau-europeen.original.jpg)
 
-### Quelle est la signification du drapeau européen ?
-
-Le drapeau européen est un des symboles de l’Union européenne.
-
-Sur un fond bleu, douze étoiles jaunes forment un cercle. Ce cercle d’étoiles symbolise l’**unité**, la **solidarité** et l’**harmonie** entre les peuples d’Europe.
-
-Ce drapeau est présent sur les façades des institutions européennes, sur les passeports et cartes d’identité de certains États européens…
-
-![](/images/fiches/drapeau-europeen.original.jpg)
-
 ### **Les dates clés du drapeau européen**
 
 -   **1955** : le drapeau devient l’emblème officiel du Conseil de l’Europe.

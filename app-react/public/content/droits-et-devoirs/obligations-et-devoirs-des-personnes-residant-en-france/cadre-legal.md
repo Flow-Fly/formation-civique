@@ -31,14 +31,6 @@ Cependant, ces droits et libertés ont une limite pour protéger la vie en soci�
 
 ![droits et devoirs-alerte-danger-bleu-rouge](/images/fiches/droits_et_devoirs-alerte-danger-bleu-rouge.original.png)
 
-#### Que dit la Déclaration des Droits de l’Homme et du Citoyen ?
-
-De **nombreux droits et libertés nous sont accordés** par la Déclaration des Droits de l’Homme et du Citoyen et les autres textes fondamentaux. Il est écrit que nos droits sont “imprescriptibles” (article 2 de la DDHC), ce qui signifie qu’ils ne peuvent pas nous être retirés.
-
-Cependant, ces droits et libertés ont une limite pour protéger la vie en société. Nos droits et libertés individuels sont limités par les droits des autres : "La liberté consiste à faire tout ce qui ne nuit pas à autrui" (article 4 de la DDHC).
-
-![droits et devoirs-alerte-danger-bleu-rouge](/images/fiches/droits_et_devoirs-alerte-danger-bleu-rouge.original.png)
-
 #### Quelles sont les limites de nos droits et libertés ?
 
 Nos droits et libertés individuels sont limités par :
@@ -69,16 +61,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Se conformer aux lois : les infractions (1/2)
-
-#### Une infraction, qu’est-ce que c’est ?
-
-Tout le monde doit respecter les lois. Elles garantissent l’ordre public et la sécurité de tous.
-
-Les infractions pénales désignent des actes ou des comportements interdits par la loi.
-
-Le non-respect des lois peut entraîner des sanctions. Les sanctions sont prononcées par le juge selon la gravité.
-
-![](/images/fiches/15-5-loi-bulle-roug.original.png)
 
 #### Une infraction, qu’est-ce que c’est ?
 
@@ -134,44 +116,6 @@ Institutions distinctes, elles agissent sur des périmètres différents :
 
 ![Badge en tissus brodé de la Direction générale de la Police Nationale française.](/images/fiches/police-nationale.original.jpg)
 
-#### Qui est chargé de faire respecter la loi ?
-
-La police et la gendarmerie sont des forces de l’ordre. Ces deux institutions assurent le respect des lois en France.  
-  
-Institutions distinctes, elles agissent sur des périmètres différents :
-
--   la **police** assure le respect des lois en **ville** ;
--   la **gendarmerie** agit en **zone rurale et périurbaine** (campagne) et sur les **axes de circulation**. Les gendarmes ont le statut de militaires.
-
-![Badge en tissus brodé de la Direction générale de la Police Nationale française.](/images/fiches/police-nationale.original.jpg)
-
-#### Quel est leur rôle ?
-
-La police et la gendarmerie exercent les mêmes missions mais dans des zones différentes.
-
-Elles se chargent de :
-
--   la prévention des infractions ;
--   le maintien de l’ordre public ;
--   la protection des personnes et des biens ;
--   l’investigation ou enquête sur les infractions ;
--   la protection du pays en cas de menace extérieure ou de terrorisme.
-
-Les policiers et les gendarmes peuvent donner des amendes, recueillir le témoignage d’une infraction sous forme de procès-verbaux ou constater et signaler des faits à la justice.
-
-Les 2 institutions travaillent parfois ensemble pour assurer la sécurité et l’ordre public.
-
-* * *
-
-_Sources photos :_
-
--   _Logo de la police  
-    _[ _licence Creative Commons Attribution-Share Alike 4.0 International - Auteur : Rundvald_](https://commons.wikimedia.org/wiki/File:Badge-tissus-Police-Nationale-Direction-Generale.png)_, aucun changement n'a été apporté_
--   _Logo de la gendarmerie  
-    _[ _Gendarmerie Nationale Française / Vector graphic : Futurhit12_](https://commons.wikimedia.org/wiki/File:Gendarmerie_nationale_logo.svg)
-
-![Logo Gendarmerie Nationale Française.](/images/fiches/gendarmerie-nationale.original.png)
-
 #### Quel est leur rôle ?
 
 La police et la gendarmerie exercent les mêmes missions mais dans des zones différentes.
@@ -206,18 +150,6 @@ _Sources photos :_
 ---
 
 ## Les obligations en tant que résident français
-
-#### Vivre en France : vivre ensemble selon des règles communes à tous
-
-Toute personne qui habite en France (peu importe sa nationalité, citoyen français ou non) doit respecter certaines obligations légales envers l’État et certaines règles qui relèvent du vivre-ensemble et du **respect de la société**.  
-  
-Les obligations des résidents français garantissent :
-
--   la **cohésion sociale** ;
--   la **sécurité** ;
--   le **bon fonctionnement de la société**.
-
-![](/images/fiches/SLIDE_6_impot.original.png)
 
 #### Vivre en France : vivre ensemble selon des règles communes à tous
 
@@ -268,16 +200,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Les obligations en tant que citoyen français
-
-#### Quelles sont les obligations que doit respecter le citoyen français ?
-
-En plus des règles précédemment énoncées, le citoyen français doit respecter la loi (française et européenne).
-
-Il doit aussi tout mettre en œuvre pour essayer de la faire respecter par les autres.
-
-Les citoyens, qui ont le droit de vote, sont indirectement auteurs des lois. En effet, ils ont élu des représentants qui ont voté les lois. Les citoyens doivent donc d’autant plus respecter ces règles qu’ils se sont indirectement fixés à eux-mêmes.
-
-![](/images/fiches/15-5-loi-bulle-roug.original.png)
 
 #### Quelles sont les obligations que doit respecter le citoyen français ?
 

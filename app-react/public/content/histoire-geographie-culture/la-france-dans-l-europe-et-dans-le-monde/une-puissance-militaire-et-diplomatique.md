@@ -27,16 +27,6 @@ La France joue un rôle majeur dans les relations internationales grâce à son 
 
 ![](/images/fiches/SLIDE_49_-_Drapeau_fr_ONU.original.jpg)
 
-### Pourquoi la France est-elle une puissance diplomatique ?
-
-La France joue un rôle majeur dans les relations internationales grâce à son histoire, son réseau et sa capacité à défendre ses positions.
-
--   Elle est **membre permanent du Conseil de sécurité des Nations unies** (ONU), aux côtés des États-Unis, de la Chine, de la Russie et du Royaume-Uni. Ce statut lui donne un droit de veto lors des grandes décisions internationales et renforce son influence.
--   Elle est présente dans plus de 150 pays, grâce à son **réseau d’ambassades et de consulats**. C’est l’un des plus denses au monde.
--   Elle est un **membre actif de nombreuses organisations internationales** : l’Union européenne, l’ONU, mais aussi l’Organisation du Traité de l’Atlantique Nord (OTAN), le G7, le G20, l’Organisation internationale de la Francophonie…
-
-![](/images/fiches/SLIDE_49_-_Drapeau_fr_ONU.original.jpg)
-
 _Source photo : Image générée par intelligence artificielle_
 
 ### Pour aller plus loin

@@ -73,22 +73,6 @@ _Sur la droite, une photo du maréchal Philippe Pétain._
 
 ![Photo du maréchal Philippe Pétain par Henri Manuel](/images/fiches/SLIDE_11_Philippe_Petain_-_photo_Henri_Manuel.original.jpg)
 
-#### Qu’est-ce que le régime de Vichy ?
-
-On appelle “régime de Vichy” le régime dirigé par le maréchal Pétain à partir du **10 juillet 1940**, après la défaite de la France face à l’Allemagne. Installé à Vichy, le gouvernement abolit la République et instaure un **régime autoritaire et collaborationniste** avec l’occupant nazi.
-
-Le régime de Vichy supprime les libertés et persécute les opposants et les minorités, en particulier les Juifs.
-
-Il prend fin le **22 août 1944** avec la Libération.
-
-**Personnage clé :** le **maréchal Philippe Pétain,** héros de la Première Guerre mondiale, devient chef de l’État français en 1940 et dirige le régime autoritaire de Vichy.
-
-* * *
-
-_Sur la droite, une photo du maréchal Philippe Pétain._
-
-![Photo du maréchal Philippe Pétain par Henri Manuel](/images/fiches/SLIDE_11_Philippe_Petain_-_photo_Henri_Manuel.original.jpg)
-
 #### Quels sont les droits des citoyens pendant cette période ?
 
 Les **libertés et droits fondamentaux** (liberté d’expression, de réunion, de la presse, droit de vote) **sont supprimés**.
@@ -110,22 +94,6 @@ _Source photo : Henri Manuel._
 ---
 
 ## Le Gouvernement provisoire de la République française (1944-1946)
-
-#### Qu’est-ce que le Gouvernement provisoire de la République française ? (1944-1946)
-
-Le Gouvernement provisoire de la République française (GPRF) est mis en place après la Libération, le **25 août 1944**, pour **rétablir la République**. Il met fin au régime de Vichy.
-
-Le GPRF représente **la France dans les négociations de paix** et réaffirme la souveraineté nationale sur la scène internationale. Il lance aussi la **reconstruction du pays** après la Seconde Guerre mondiale, en modernisant l’économie, les infrastructures et les services publics. Il met en place d’importantes réformes économiques et sociales, comme les nationalisations d’entreprises et la préparation de la sécurité sociale.
-
-Le GPRF prend fin le **27 octobre 1946**, quand commence la IVème République.
-
-**Personnage clé :** Le **général Charles de Gaulle** est la figure centrale du GPRF, qu’il dirige jusqu’en janvier 1946. Il incarne l’autorité de l’État et la continuité de la République.
-
-* * *
-
-_Sur la droite, photo du ministre de l'Information Pierre-Henri Teitgen, du général Charles de Gaulle et du ministre des Affaires étrangères Georges Bidault photographiés durant un conseil des ministres du Gouvernement provisoire de la République française, le 2 novembre 1945._
-
-![Photo du Général Charles de Gaulle durant un conseil des ministres du Gouvernement provisoire de la République française, le 2 novembre 1945](/images/fiches/Charles_de_Gaulle_-_Gouvernement_provisoire_de_.original.jpg)
 
 #### Qu’est-ce que le Gouvernement provisoire de la République française ? (1944-1946)
 

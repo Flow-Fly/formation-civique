@@ -30,25 +30,6 @@ La France est un **carrefour géographique** entre le nord et le sud, entre l’
 
 ![](/images/fiches/SLIDE_44_Fr_dans_lEurope.original.jpg)
 
-### Quelle est la position géographique de la France en Europe ?
-
-La France est située à l’**ouest de l’Europe**. Elle partage ses frontières terrestres avec **8 pays européens** :
-
-1.  la Belgique ;
-2.  le Luxembourg ;
-3.  l’Allemagne ;
-4.  la Suisse ;
-5.  l’Italie ;
-6.  l’Espagne ;
-7.  Andorre ;
-8.  et Monaco.
-
-Côté mer, elle est bordée par plus de **5 500 km de côtes** ouvertes sur la Manche, la mer du Nord, l’océan Atlantique et la mer Méditerranée.
-
-La France est un **carrefour géographique** entre le nord et le sud, entre l’est et l’ouest de l’Europe.
-
-![](/images/fiches/SLIDE_44_Fr_dans_lEurope.original.jpg)
-
 ### Combien y a-t-il d’habitants en France par rapport aux autres pays européens ?
 
 La France est le **deuxième pays le plus peuplé d’Europe**. Les cinq pays avec le plus grand nombre d’habitants sont :

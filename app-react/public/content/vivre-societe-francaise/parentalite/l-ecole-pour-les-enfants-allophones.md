@@ -19,14 +19,6 @@ Plus d’un tiers des enfants qui vont à l’école parlent une autre langue qu
 
 ![Cette image signifie que tous les enfants peuvent réussir à l’école.](/images/fiches/SLIDE_58_Unicef_Allophones_c2_RVB-1536x1097.original.jpg)
 
-### L’école accueille tous les enfants
-
-En France, tous les enfants **de 3 à 16 ans** doivent aller à l’école. Cette obligation concerne donc aussi les enfants non francophones (c’est-à-dire ceux dont la langue maternelle n’est pas le français).
-
-Plus d’un tiers des enfants qui vont à l’école parlent une autre langue que le français à la maison.
-
-![Cette image signifie que tous les enfants peuvent réussir à l’école.](/images/fiches/SLIDE_58_Unicef_Allophones_c2_RVB-1536x1097.original.jpg)
-
 ### Des cours adaptés pour apprendre le français
 
 Au moment de l’entrée dans l’école, l’enfant qui ne parle pas bien (ou pas du tout) le français passe un test de positionnement pour déterminer son niveau en français et l'orienter vers l'un des dispositifs suivants :

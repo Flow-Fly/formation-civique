@@ -62,32 +62,6 @@ Fermer
 
 Source : Shom - Réalisation : IGN France / Atelier de cartographie thématique. Sur le site de l’IGN.
 
-Fermer
-
-## Transcription
-
-### **La France des Océans**
-
-**1 % Part de la ZEE**
-
-**10,2 millions de km² d’espaces maritimes français dans le monde  
-****_(hors extensions du plateau continental)_**
-
-#### **Répartition des espaces maritimes français (ZEE) dans le monde**
-
--   **France métropolitaine** : 3 %
--   **Saint-Pierre-et-Miquelon** : 0 ,01%
--   **Antilles françaises** : 1 %
--   **Guyane** : 1 %
--   **La Réunion - Mayotte - Îles Éparses** : 10 %
--   **Nouvelle-Calédonie** : 13 %
--   **Wallis-et-Futuna** : 3 %
--   **Polynésie française** : 47 %
--   **Clipperton** : 5 %
--   **TAAF (hors Îles Éparses)** : 17 %
-
-Source : Shom - Réalisation : IGN France / Atelier de cartographie thématique. Sur le site de l’IGN.
-
 ### Pour aller plus loin
 
 [ Espaces maritimes français | Limites maritimes](https://limitesmaritimes.gouv.fr/thematiques/espaces-maritimes-francais)

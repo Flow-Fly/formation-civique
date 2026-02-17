@@ -26,21 +26,6 @@ Ces droits fondamentaux sont des libertés fondamentales inaltérables (c'est-à
 
 ![](/images/fiches/15-4-justice.original.png)
 
-### Les droits liés à la personne humaine (dits “les droits de” quelqu’un), c’est quoi ?
-
-Les droits liés à la personne sont “les droits de” tous les êtres humains. Ce sont des droits naturels que chaque individu possède simplement parce qu’il est un être humain.
-
-Ce sont des droits individuels, civiques et politiques. Chaque personne a droit à :
-
--   l’égalité devant la loi (tout être humain doit être traité de la même façon par la loi) ;
--   la liberté ;
--   la sûreté (la sécurité) ;
--   la résistance à l’oppression.
-
-Ces droits fondamentaux sont des libertés fondamentales inaltérables (c'est-à-dire qu'elles ne sont pas modifiables).
-
-![](/images/fiches/15-4-justice.original.png)
-
 ### Quels sont les droits qui découlent des droits individuels ?
 
 L’application des droits fondamentaux liés à la personne humaine cités précédemment (égalité, liberté, sûreté et résistance à l'oppression) entraîne des droits fondamentaux dans une société.

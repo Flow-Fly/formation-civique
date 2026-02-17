@@ -20,18 +20,6 @@ En France, l'égalité s’applique de différentes manières :
 
 ![](/images/fiches/egalite-hommes.original.png)
 
-### L’égalité : qu’est-ce que c’est ?
-
-**L’égalité est un principe fondamental de la République française** : elle est inscrite dans la Constitution de 1958. Elle est aussi présente dans la Déclaration des droits de l’homme et du citoyen.
-
-En France, l'égalité s’applique de différentes manières :
-
--   **l'égalité devant la loi :** la loi est la même pour toutes les personnes ;
--   **l'égalité des droits civiques :** tous les citoyens français ont les mêmes droits civiques : voter, se présenter à une élection, participer à un conseil municipal…
--   **l'égalité des droits sociaux** : ces droits sont accessibles à tous : éducation, santé, logement, emploi...
-
-![](/images/fiches/egalite-hommes.original.png)
-
 ### L’égalité de tous devant les services publics
 
 Chaque personne peut - et doit - bénéficier des services publics dont elle a besoin : santé, éducation, sécurité… Par conséquent, chacun a le devoir de respecter les règles qui organisent le fonctionnement de ces services publics.

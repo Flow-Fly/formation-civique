@@ -64,24 +64,6 @@ Le peuple français proclame solennellement non attachement aux Droits de l'homm
 
 En vertu de ces principes et de celui de la libre détermination des peuples, la République offre aux territoires d'Outre-Mer qui manifestent la volonté d'y adhérer des institutions nouvelles fondées sur l'idéal commun de liberté, d'égalité et de fraternité et conçues en vue de leur évolution démocratiques.
 
-Fermer
-
-## Transcription
-
-Constitution
-
-Le Gouvernement de la République conformément à la loi constitutionnelle du 3 juin 1958 a proposé
-
-Le Peuple français a adopté
-
-Le Président de la République prolugue la loi constitutionnelle dont le teneur suit
-
-Préambule
-
-Le peuple français proclame solennellement non attachement aux Droits de l'homme et aux principes de la souveraineté nationale tels qu'ils ont été définis par la Déclaration de 1789, confirmée et complétée par le préambule de la Constitution de 1946.
-
-En vertu de ces principes et de celui de la libre détermination des peuples, la République offre aux territoires d'Outre-Mer qui manifestent la volonté d'y adhérer des institutions nouvelles fondées sur l'idéal commun de liberté, d'égalité et de fraternité et conçues en vue de leur évolution démocratiques.
-
 ### Pour aller plus loin
 
 [ Le texte de la Constitution de la Vème République](https://www.decouvronsnotreconstitution.fr/15-ans-le-texte-de-la-constitution-de-la-ve-republique)

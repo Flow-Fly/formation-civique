@@ -20,18 +20,6 @@ Cela signifie qu’une personne peut :
 
 ![Cette image représente la séparation entre l’État et les religions.](/images/fiches/laicite.original.png)
 
-### Manifester sa religion, c’est possible…
-
-En France, toute personne a le droit de manifester sa religion dans l’espace public, c’est-à-dire dans les lieux ouverts à tous : rues, restaurants, marchés, magasins, transports...
-
-Cela signifie qu’une personne peut :
-
--   porter des signes religieux (voile, kippa, croix, turban...) ;
--   participer à des célébrations ou rassemblements religieux ;
--   exprimer ses convictions religieuses, dans le respect des lois de la République française.
-
-![Cette image représente la séparation entre l’État et les religions.](/images/fiches/laicite.original.png)
-
 ### … dans certaines limites
 
 **Les personnes qui travaillent dans les services publics** ne peuvent pas exprimer leur religion dans le cadre de leur travail.

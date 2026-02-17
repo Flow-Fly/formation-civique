@@ -29,20 +29,6 @@ L’argent récolté par les impôts est redistribué pour permettre la solidari
 
 ![](/images/fiches/SLIDE_6_impot.original.png)
 
-#### **Qu'est ce que l'impôt et pourquoi doit-on déclarer ses revenus ?**
-
-**L'impôt en France :**
-
--   permet à l’État de développer et de faire fonctionner son pays : services publics gratuits, aides sociales, gestion des routes...
--   l’impôt sur le revenu dépend des revenus du foyer, cela signifie que plus les revenus sont importants, plus la part prélevée par l’État l’est également. Le prélèvement et la redistribution de l’impôt permettent de réduire l’écart de richesse ;
--   des impôts locaux existent (taxe foncière sur les propriétés, enlèvement des ordures ménagères...).
-
-En France, **il est obligatoire de déclarer ses revenus** (argent que vous avez gagné) même si vous ne travaillez pas. Ne pas faire sa déclaration peut entraîner des pénalités financières, le remboursement des aides perçues et des difficultés pour accéder à certains droits (aides sociales…) et peut aller jusqu'à une peine de prison.
-
-L’argent récolté par les impôts est redistribué pour permettre la solidarité (aides sociales, écoles, routes…).
-
-![](/images/fiches/SLIDE_6_impot.original.png)
-
 #### **Qui doit déclarer ses impôts ?**
 
 **Toute personne de plus de 18 ans, résidant en France** (citoyen français ou pas) doit déclarer ses revenus, même si ses revenus sont faibles ou nuls (il faut indiquer “0 euro”).
@@ -68,23 +54,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Les démarches relatives au séjour en France
-
-#### **Quel type de titre de séjour ?**
-
-**Tout étranger doit disposer d’un titre de séjour valide qui correspond à sa situation.**
-
-Le type de titre de séjour varie en fonction de la durée et du motif (la raison) de l’installation en France.
-
-Pour savoir quel type de titre de séjour vous correspond, rendez-vous :
-
--   en présentiel, dans une maison France Service ou dans un point d’accueil numérique (PAN) en préfecture ;
--   en ligne, sur le site de la préfecture la plus proche ou le site de l’ANEF (l’Administration Numérique des Étrangers en France) : [ administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/](http://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/) ;
--   par téléphone, contactez le centre de contact citoyen pour les démarches en lien avec l’ANEF : 0806 001 620.
-
-**À NOTER  
-**Vous devez informer la Préfecture de tout changement d’adresse ou de domiciliation.
-
-![](/images/fiches/SLIDE_7_communication-electronique.original.png)
 
 #### **Quel type de titre de séjour ?**
 
@@ -141,29 +110,6 @@ L'adhésion aux principes et valeurs essentiels de la République est une condit
 
 ![](/images/fiches/SLIDE_8.original.png)
 
-#### **Quel type de démarche ?**
-
-Il existe deux procédures principales pour demander la nationalité française pour les étrangers adultes en France :
-
--   par décret de naturalisation (en ligne sur l'ANEF) après au moins 5 ans de résidence en France, si la personne remplit les conditions prévues et que l’État accepte sa demande ;
--   par déclaration (auprès de sa plateforme de naturalisation en préfecture) : en cas de mariage avec un Français ou en tant qu'ascendant, frère ou sœur de Français.
-
-L'adhésion aux principes et valeurs essentiels de la République est une condition pour devenir français, vérifiée lors de l'entretien d'assimilation organisé à la préfecture.
-
-![](/images/fiches/SLIDE_8.original.png)
-
-#### **Où obtenir des informations sur l'accès à la nationalité française ?**
-
-Pour obtenir des informations sur l'accès à la nationalité française, rendez-vous en ligne :
-
--   sur le site [ service-public.fr](https://www.service-public.gouv.fr/) ;
--   sur le site internet de la préfecture la plus proche ;
--   en ligne, sur le site de la préfecture la plus proche ou le site de l’ANEF (l’Administration Numérique des Étrangers en France) : [ administration-etrangers-en-france.interieur.gouv.fr/particuliers/](http://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/)
-
-En cas de difficulté avec les démarches en lignes, vous pouvez bénéficier d'un accompagnement auprès du centre de contact citoyens de l'ANTS (par téléphone au 0806 001 620) ou vous rendre dans un point d’accueil numérique (PAN) en préfecture.
-
-![republique-francaise](/images/fiches/republique-francaise.original.png)
-
 #### **Où obtenir des informations sur l'accès à la nationalité française ?**
 
 Pour obtenir des informations sur l'accès à la nationalité française, rendez-vous en ligne :
@@ -214,20 +160,6 @@ Cet acte de naissance permet :
 
 ![declaration-naissance](/images/fiches/declaration-naissance.original.png)
 
-#### La déclaration de naissance, à quoi ça sert ?
-
-La déclaration de naissance est obligatoire. Elle doit être réalisée dans les 5 jours qui suivent la naissance, par le père, la mère ou par une personne qui a assisté à l’accouchement.
-
-La déclaration de naissance doit être faite à la mairie du lieu de naissance. Elle permet à l'officier d'état civil d'établir l'**acte de naissance** de l'enfant.
-
-Cet acte de naissance permet :
-
--   d’obtenir des droits sociaux (allocations, Sécurité sociale…) ;
--   de demander des documents d’identité ;
--   d’inscrire l’enfant à l’école.
-
-![declaration-naissance](/images/fiches/declaration-naissance.original.png)
-
 #### Quels documents sont nécessaires à la déclaration d’une naissance ?
 
 Pour faire la déclaration de naissance, vous devez présenter :
@@ -250,18 +182,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## La déclaration de mariage
-
-#### Quelles conditions respecter pour se marier civilement en France ?
-
-Le mariage civil est le seul mariage reconnu en France.
-
-Deux personnes, de sexe différent ou de même sexe, peuvent se marier si ces personnes :
-
--   **ont plus de 18 ans** (ou moins de 18 ans, mais vous avez l’accord d’au moins un de vos parents ou l’autorisation vous a été accordée par le procureur de la République) ;
--   n'ont **pas de lien de parenté ou d’alliance** (exemple : le mariage entre cousins germains est interdit) ;
--   et qu’elles peuvent donner un **consentement libre et éclairé** au mariage.
-
-![](/images/fiches/mariage-union.original.png)
 
 #### Quelles conditions respecter pour se marier civilement en France ?
 
@@ -305,14 +225,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## La déclaration de décès
-
-#### La déclaration de décès en France
-
-La déclaration de décès est obligatoire, gratuite et doit être faite à la mairie dès que possible après la constatation du décès. Elle permet d’officialiser le décès et de débuter les obsèques.
-
-La déclaration du décès à la mairie peut être faite par toute personne majeure qui possède des renseignements sur l’état civil du défunt.
-
-![](/images/fiches/decla_deces.original.jpg)
 
 #### La déclaration de décès en France
 

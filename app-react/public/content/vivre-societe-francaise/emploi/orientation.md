@@ -31,14 +31,6 @@ Cette inscription permet à la personne d’être accompagnée **pour trouver un
 
 ![logo-RF-france-travail](/images/fiches/SLIDE_FT_32_33_et_34__et_35.original.jpg)
 
-#### S’inscrire à France Travail, à quoi ça sert ?
-
-Chaque personne étrangère qui est en situation régulière (c’est-à-dire qui a un titre de séjour, qui est réfugiée, ou qui bénéficie de la protection internationale), et qui n’a pas de travail, **doit être inscrite à France Travail.** C'est un organisme public qui accompagne les personnes à la recherche d'un emploi.
-
-Cette inscription permet à la personne d’être accompagnée **pour trouver un travail ou suivre une formation.** Les solutions proposées sont adaptées à sa situation et à ses besoins.
-
-![logo-RF-france-travail](/images/fiches/SLIDE_FT_32_33_et_34__et_35.original.jpg)
-
 #### Le questionnaire d’orientation, qu’est-ce que c’est ?
 
 Le questionnaire d’orientation permet de **faire un premier point sur les besoins** de la personne.
@@ -74,14 +66,6 @@ _Source photo :_ [ France Travail](https://www.francetravail.fr/accueil/)
 ---
 
 ## Orientation (2/5)
-
-#### L’inscription automatique
-
-L’inscription à France Travail est automatique pour deux catégories de personnes. Ces personnes n’ont aucune démarche à faire pour s’inscrire.
-
-Cette fiche présente la première catégorie.
-
-![](/images/fiches/SLIDE_FT_32_33_et_34__et_35.original.jpg)
 
 #### L’inscription automatique
 
@@ -127,14 +111,6 @@ Cette fiche présente la deuxième catégorie.
 
 ![logo-RF-france-travail](/images/fiches/SLIDE_FT_32_33_et_34__et_35.original.jpg)
 
-#### L’inscription automatique
-
-L’inscription à France Travail est automatique pour deux catégories de personnes. Ces personnes n’ont aucune démarche à faire pour s’inscrire.
-
-Cette fiche présente la deuxième catégorie.
-
-![logo-RF-france-travail](/images/fiches/SLIDE_FT_32_33_et_34__et_35.original.jpg)
-
 #### Êtes-vous concerné ?
 
 Votre inscription à France Travail est automatique si :
@@ -160,14 +136,6 @@ _Source photo :_ [ France Travail](https://www.francetravail.fr/accueil/)
 ---
 
 ## Orientation (4/5)
-
-#### S’inscrire France Travail
-
-L’inscription à France Travail est automatique pour les personnes bénéficiaires du RSA ou inscrites en Mission locale.
-
-Les autres personnes doivent s’inscrire par elles-mêmes.
-
-![](/images/fiches/SLIDE_FT_32_33_et_34__et_35.original.jpg)
 
 #### S’inscrire France Travail
 
@@ -205,13 +173,6 @@ _Source photo :_ [ France Travail](https://www.francetravail.fr/accueil/)
 ---
 
 ## Orientation (5/5)
-
-#### Au niveau national
-
--   **France Travail** aide les personnes à trouver un travail et aide les entreprises qui recrutent.
--   **L’Office Français de l’Immigration et de l’Intégration (OFII)** organise le parcours d’intégration et oriente les personnes vers des structures d’accompagnement à l’emploi.
-
-![](/images/fiches/SLIDE_36_types_demploi_contrats_de_travail.original.png)
 
 #### Au niveau national
 

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { LayoutDashboard, BookOpen, CheckCircle, Layers, Settings } from "lucide-react";
+import { LayoutDashboard, BookOpen, CheckCircle, Layers, Settings, Search } from "lucide-react";
 
 const links = [
   { to: "/dashboard", label: "Tableau", icon: LayoutDashboard },
@@ -9,33 +9,51 @@ const links = [
   { to: "/settings", label: "Config", icon: Settings },
 ] as const;
 
-export function NavHeader() {
+const isMac = typeof navigator !== "undefined" && /Mac|iPod|iPhone|iPad/.test(navigator.userAgent);
+
+interface NavHeaderProps {
+  onSearchClick: () => void;
+}
+
+export function NavHeader({ onSearchClick }: NavHeaderProps) {
   return (
     <header className="fixed top-0 left-0 right-0 h-14 bg-primary text-primary-foreground flex items-center justify-between px-4 z-50 shadow-md">
       <NavLink to="/dashboard" className="text-lg font-bold text-primary-foreground no-underline hover:no-underline whitespace-nowrap">
         Formation Civique
       </NavLink>
-      <nav>
-        <ul className="flex gap-1 list-none">
-          {links.map(({ to, label, icon: Icon }) => (
-            <li key={to}>
-              <NavLink
-                to={to}
-                className={({ isActive }) =>
-                  `flex items-center gap-1 px-2 py-1 rounded text-sm font-medium no-underline transition-colors ${
-                    isActive
-                      ? "bg-white/25 text-white border-b-2 border-white"
-                      : "text-white/80 hover:bg-white/15 hover:text-white"
-                  }`
-                }
-              >
-                <Icon className="w-4 h-4" />
-                <span className="hidden sm:inline">{label}</span>
-              </NavLink>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <div className="flex items-center gap-2">
+        <button
+          onClick={onSearchClick}
+          className="flex items-center gap-1.5 px-2 py-1 rounded text-sm text-white/80 hover:bg-white/15 hover:text-white transition-colors cursor-pointer"
+          aria-label="Rechercher"
+        >
+          <Search className="w-4 h-4" />
+          <kbd className="hidden sm:inline-flex items-center gap-0.5 rounded border border-white/30 bg-white/10 px-1.5 py-0.5 text-xs font-mono">
+            {isMac ? "⌘" : "Ctrl+"}K
+          </kbd>
+        </button>
+        <nav>
+          <ul className="flex gap-1 list-none">
+            {links.map(({ to, label, icon: Icon }) => (
+              <li key={to}>
+                <NavLink
+                  to={to}
+                  className={({ isActive }) =>
+                    `flex items-center gap-1 px-2 py-1 rounded text-sm font-medium no-underline transition-colors ${
+                      isActive
+                        ? "bg-white/25 text-white border-b-2 border-white"
+                        : "text-white/80 hover:bg-white/15 hover:text-white"
+                    }`
+                  }
+                >
+                  <Icon className="w-4 h-4" />
+                  <span className="hidden sm:inline">{label}</span>
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }

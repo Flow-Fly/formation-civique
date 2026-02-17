@@ -62,21 +62,6 @@ Fermer
 **66,4 millions** en France métropolitaine  
 **2,3 millions** dans les DOM
 
-Fermer
-
-## Transcription
-
-**Population au 1er janvier 2025**  
-**Démographie  
-**
-
-**Au 1er janvier 2025 : 68,6 millions** (à arrondis près)  
-**+0,25 % en un an  
-**
-
-**66,4 millions** en France métropolitaine  
-**2,3 millions** dans les DOM
-
 ### Pour aller plus loin
 
 [ Bilan démographique 2024 | Insee](https://www.insee.fr/fr/statistiques/8327319)

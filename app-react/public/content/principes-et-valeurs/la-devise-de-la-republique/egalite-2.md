@@ -16,14 +16,6 @@ Cela signifie que les femmes et les hommes ont les mêmes droits et les mêmes d
 
 ![](/images/fiches/egalite-homme-femme.original.png)
 
-### L’égalité femmes-hommes, qu’est-ce que cela signifie ?
-
-L’égalité entre les femmes et les hommes est inscrite dans le Préambule de la Constitution de 1946 : "l_a loi garantit à la femme, dans tous les domaines, des droits égaux à ceux de l’homme_".
-
-Cela signifie que les femmes et les hommes ont les mêmes droits et les mêmes devoirs dans tous les aspects de la vie : éducation, travail, santé, vie politique…
-
-![](/images/fiches/egalite-homme-femme.original.png)
-
 ### Des inégalités existent entre les femmes et les hommes
 
 Malgré ce que dit la loi, il existe dans la vie de tous les jours des inégalités entre les femmes et les hommes. Ces inégalités sont moins fortes que dans le passé, mais elles sont encore présentes.

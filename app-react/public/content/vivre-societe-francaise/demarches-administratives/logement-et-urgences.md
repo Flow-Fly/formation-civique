@@ -26,16 +26,6 @@ Vous devrez notamment présenter votre pièce d’identité, un avis d’imposit
 
 ![](/images/fiches/SLIDE_12_famille-maison.original.png)
 
-#### Comment trouver un logement ?
-
-Pour trouver un **logement privé**, consultez les annonces des agences immobilières ou celles des sites spécialisés.  
-Vous devrez notamment présenter une pièce d’identité, un justificatif de revenus, les quittances de loyer précédentes…
-
-Pour un **logement social**, faites une demande en ligne sur le site [ demande-logement-social.gouv.fr](https://www.demande-logement-social.gouv.fr/).  
-Vous devrez notamment présenter votre pièce d’identité, un avis d’imposition, un justificatif de situation familiale…
-
-![](/images/fiches/SLIDE_12_famille-maison.original.png)
-
 #### Le bail, contrat de location, à quoi ça sert ?
 
 Le bail est un contrat écrit entre le bailleur (le plus souvent le propriétaire) et le locataire dans lequel :
@@ -65,22 +55,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Les démarches relatives au logement (2/2)
-
-#### Quels sont les droits et devoirs du bailleur (propriétaire) ?
-
-Le propriétaire a pour droits de :
-
--   recevoir le loyer et les charges convenus ;
--   interrompre le bail ou empêcher son renouvellement, sous certaines conditions.
-
-  
-Le propriétaire a pour obligations de :
-
--   louer un logement "décent", qui respecte la sécurité et la santé du locataire ;
--   donner au locataire les documents obligatoires lors de la signature du contrat de location et en cours de bail : contrat de bail, état des lieux, diagnostics techniques...
--   assurer les réparations majeures et l'entretien du logement.
-
-![](/images/fiches/SLIDE_13_siganture-papier.original.png)
 
 #### Quels sont les droits et devoirs du bailleur (propriétaire) ?
 
@@ -164,37 +138,6 @@ Ajoutez-le à vos contacts sous l'appellation “Services d’urgence” : vous 
 Transcription
 
 Agrandir
-
-Fermer
-
-### Transcription
-
-**Urgence**
-
-**Qui appeler ?**
-
-**15 – Samu**  
-Urgence médicale
-
-**17 – Police secours**  
-Signaler une infraction
-
-**18 – Pompiers**  
-Situation de péril ou accident
-
-**114 – Urgence 114**  
-Accessible par application, internet et SMS  
-→ Pour les personnes sourdes, sourdaveugles, malentendantes et aphasiques.
-
-**196 et canal 16 – En mer**  
-Sauvetage en mer  
-→ Depuis le littoral : appelez le 196 ou le 112.  
-→ En mer : privilégiez le canal 16 de la radio VHF.
-
-**112 – Europe**  
-Urgence médicale – Infraction – Péril
-
-**Service-Public.fr**
 
 Fermer
 

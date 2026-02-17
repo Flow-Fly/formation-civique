@@ -22,20 +22,6 @@ Elle a pour mission de défendre les personnes dont les droits ne sont pas respe
 
 ![Logo du Défenseur des droits, autorité indépendante française sur lequel on retrouve le bleu et le rouge du drapeau français.](/images/fiches/defenseur-des-droits.original.jpg)
 
-Le [ **Défenseur des droits**](https://www.defenseurdesdroits.fr/) est une autorité administrative indépendante chargée de veiller au respect des droits.
-
-  
-Elle a pour mission de défendre les personnes dont les droits ne sont pas respectés et de permettre l’égalité pour tous (lutte contre la discrimination). Elle intervient pour régler les conflits entre un service public et un usager. Elle vous accueille dans des structures publiques locales (mairie, CAF, France Travail, préfecture…).
-
-![Logo du Défenseur des droits, autorité indépendante française sur lequel on retrouve le bleu et le rouge du drapeau français.](/images/fiches/defenseur-des-droits.original.jpg)
-
-Les **maisons de justice et du droit** orientent et conseillent les personnes dans leurs démarches juridiques.
-
-  
-Elles assurent des permanences gratuites grâce à des associations spécialisées, sous la Coordination des conseils Départementaux d’Accès au Droit (CDAD).
-
-![Devanture de la maison de justice du Drouai : un bâtiment institutionnel de style classique avec 3 grandes portes en bois et 4 colonnes blanches.](/images/fiches/maison-de-justice-dreux.original.jpg)
-
 Les **maisons de justice et du droit** orientent et conseillent les personnes dans leurs démarches juridiques.
 
   
@@ -50,18 +36,6 @@ Quand vous déposez une plainte, une procédure est ouverte. Différents acteurs
 -   [ **Un conciliateur**](https://www.service-public.gouv.fr/particuliers/vosdroits/F1736) **ou** [ **un médiateur**](https://www.justice.gouv.fr/justice-france/acteurs-justice/professionnels-du-droit/mediateur) **:** il contacte les deux parties et essaye de trouver un accord à l’amiable afin d’éviter un procès.
 
 ![mediateur](/images/fiches/mediateur.original.png)
-
-### **Quels sont les autres acteurs qui peuvent vous accompagner ?**
-
-Quand vous déposez une plainte, une procédure est ouverte. Différents acteurs peuvent vous accompagner dans cette procédure judiciaire : 
-
--   [ **Un conciliateur**](https://www.service-public.gouv.fr/particuliers/vosdroits/F1736) **ou** [ **un médiateur**](https://www.justice.gouv.fr/justice-france/acteurs-justice/professionnels-du-droit/mediateur) **:** il contacte les deux parties et essaye de trouver un accord à l’amiable afin d’éviter un procès.
-
-![mediateur](/images/fiches/mediateur.original.png)
-
--   **Un avocat** : il informe, conseille et défend devant la justice. Pour les personnes aux faibles ressources, une prise en charge des frais de justice est possible.
-
-![avocat](/images/fiches/avocat.original.png)
 
 -   **Un avocat** : il informe, conseille et défend devant la justice. Pour les personnes aux faibles ressources, une prise en charge des frais de justice est possible.
 

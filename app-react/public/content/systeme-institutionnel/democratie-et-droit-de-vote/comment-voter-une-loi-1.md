@@ -67,38 +67,6 @@ Eléction législatives 2017.
 
 Ministère de l'Intérieur.
 
-Fermer
-
-## Transcription
-
-Affiche gouvernementale retraçant le parcours d’une loi.
-
-**Le parcours d'une loi.**
-
-**Initiative de la loi**
-
--   Sous le contrôle du Premier ministre, un ministère prépare un texte, examiné par le Conseil d’État, puis adopté en Conseil des ministres. Le gouvernement dépose ensuite **ce projet de loi à l'Assemblée nationale ou au Sénat.**
--   **Un ou plusieurs députés (ou sénateurs)** déposent **une proposition de loi à l'Assemblée nationale ou au Sénat**.
-
-**Examen de la loi**
-
--   **Le texte est examiné en commission, puis discuté, amendé et voté en séance publique**, à l’Assemblée nationale et au Sénat.
-
-**Navette parlementaire**
-
--   **Le texte revient ensuite à l’Assemblée nationale, puis au Sénat**. Il peut toujours être discuté et amendé.
--   **En cas de désaccord entre les deux chambres**, une commission mixte paritaire, **composée de 7 députés et 7 sénateurs**, est mise en place pour arriver à un texte de compromis.
--   Si la commission ne parvient pas à trouver un accord, l’**Assemblée nationale a le dernier mot**.
-
-**Promulgation de la loi**
-
--   **Le Conseil constitutionnel** peut être saisi par 60 députés ou 60 sénateurs pour **vérifier la conformité du texte de loi à la Constitution.**
--   **La loi est promulguée par le Président de la République**, puis publiée au Journal Officiel.
-
-Eléction législatives 2017.
-
-Ministère de l'Intérieur.
-
 ### Pour aller plus loin
 
 [ Quelles sont les étapes du vote d’une loi ? | vie-publique.fr](https://www.vie-publique.fr/fiches/19521-quelles-sont-les-etapes-du-vote-dune-loi)

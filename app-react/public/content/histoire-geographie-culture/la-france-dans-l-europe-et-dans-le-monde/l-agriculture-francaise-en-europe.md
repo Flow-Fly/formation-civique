@@ -63,38 +63,6 @@ Fermer
 -   **3e** producteur européen de porcins
 -   **5e** producteur européen de fruits et légumes
 
-Fermer
-
-## Transcription
-
-## **Palmarès des produits agricoles et agroalimentaires français**
-
--   **1er** producteur européen de viande bovine
--   **1er** exportateur mondial de vins et spiritueux (valeur)
--   **1er** exportateur mondial de semences agricoles
--   **1er** exportateur mondial de pommes de terre
--   **1er** producteur européen de céréales
--   **3e** producteur européen de légumes en conserve
--   **1er** producteur européen de graines oléagineuses
--   **1 200** variétés de fromages
--   **1er** producteur mondial de lin fibre
--   **1er** producteur européen d’œufs
--   **1er** exportateur mondial de malt
--   **La plus grande** diversité de races bovines au monde
--   **1er** exportateur européen de céréales
--   **1er** exportateur mondial d’eaux minérales naturelles
--   **2e** exportateur mondial d'animaux vivants et de génétique
--   **4e** producteur européen de légumes surgelés
--   **2e** producteur européen de sucre de betterave
--   **1er** producteur européen d'huîtres
--   **2e** exportateur mondial d’orge brassicole
--   **1er** producteur européen d'amidon\*
--   **2e** producteur mondial de vins
--   **2e** collecte européenne de lait de vache
--   **3e** fabricant européen de produits chocolatés
--   **3e** producteur européen de porcins
--   **5e** producteur européen de fruits et légumes
-
 ### Pour aller plus loin
 
 [ L’agriculture française en quelques chiffres | RPUE - Représentation permanente de la France auprès de l’Union européenne](https://ue.delegfrance.org/l-agriculture-francaise-en-3038)

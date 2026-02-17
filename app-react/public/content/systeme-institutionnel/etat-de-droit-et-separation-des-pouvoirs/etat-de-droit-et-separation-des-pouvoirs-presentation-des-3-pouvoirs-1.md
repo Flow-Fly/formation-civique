@@ -70,21 +70,6 @@ Infographie illustrant les 3 pouvoirs :
 **Pouvoir judiciaire  
 **Contrôle et sanction en cas de non-respect de la loi
 
-Fermer
-
-## Transcription
-
-Infographie illustrant les 3 pouvoirs :
-
-**Pouvoir législatif  
-**Élaboration de la loi
-
-**Pouvoir exécutif  
-**Application de la loi
-
-**Pouvoir judiciaire  
-**Contrôle et sanction en cas de non-respect de la loi
-
 ### Pour aller plus loin
 
 [ La séparation des pouvoirs en France | Le droit en schémas, par Inès Stanojevic](https://droitenschemas.com/separation-des-pouvoirs/)

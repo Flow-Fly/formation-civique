@@ -25,14 +25,6 @@ Le site internet de **France travail** est la référence pour trouver un travai
 
 ![](/images/fiches/SLIDE_43_travailleur.original.png)
 
-#### Sur le site internet de France Travail
-
-Vous pouvez transmettre votre candidature en utilisant un des nombreux **sites internet généralistes** qui diffusent des offres de travail dans la plupart des secteurs d’activité et partout en France.
-
-Le site internet de **France travail** est la référence pour trouver un travail en France. Environ 160 000 offres sont mises à jour chaque jour. Il vous propose aussi des conseils et des informations utiles pour trouver un travail (fiches de présentation de métiers, témoignages de personnes exerçant un métier...)
-
-![](/images/fiches/SLIDE_43_travailleur.original.png)
-
 #### **Sur des sites internet spécialisés**
 
 Il existe aussi des **sites internet spécialisés**. Certains diffusent des offres limitées à un secteur géographique proche de chez vous. D’autres diffusent des offres dans un secteur professionnel.
@@ -79,23 +71,6 @@ L'envoi d'un CV n'est pas obligatoire.
 
 ![](/images/fiches/Pictogrammes_DSFR__Document__Document_YQb3wMr.original.svg)
 
-#### Le CV, à quoi ça sert ?
-
-Le Curriculum Vitae (CV) est un document qu'une personne envoie à une entreprise dans le but d'être embauché dans cette entreprise.
-
-Il présente la personne à l’employeur :
-
--   son expérience professionnelle ;
--   son parcours de formation ;
--   ses compétences ;
--   ses qualités.
-
-Il permet à l'entreprise d'évaluer les capacités de la personne à réaliser le travail attendu.
-
-L'envoi d'un CV n'est pas obligatoire.
-
-![](/images/fiches/Pictogrammes_DSFR__Document__Document_YQb3wMr.original.svg)
-
 #### Les informations importantes du CV
 
 Il est important de réaliser un CV en fonction des informations demandées par l’entreprise dans son offre.
@@ -124,14 +99,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Recrutement (3/3)
-
-#### La lettre de motivation, à quoi ça sert ?
-
-Dans une lettre de motivation, la personne explique à l’entreprise pourquoi elle répond à l’offre de travail. L’objectif de cette lettre est d’obtenir un rendez-vous avec l’employeur.
-
-Les personnes qui se chargent des recrutements lisent une lettre de motivation en 30 secondes environ. Il est donc très important de faire passer des messages clés dans cette lettre.
-
-![](/images/fiches/SLIDE_45_conversation-dialogue.original.png)
 
 #### La lettre de motivation, à quoi ça sert ?
 

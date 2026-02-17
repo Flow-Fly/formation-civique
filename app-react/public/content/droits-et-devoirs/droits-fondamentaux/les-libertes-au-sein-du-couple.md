@@ -19,14 +19,6 @@ Qu’ils soient en concubinage, pacsés ou mariés, les deux partenaires du coup
 
 ![Dessin en lignes épaisses bleues sans détails réaliste de deux figures humaines simplifiées non genrées dans une maison avec une cheminée.](/images/fiches/picto-couple.original.jpg)
 
-### Qu’est-ce qu’un couple ?
-
-Un couple est une union entre deux personnes de sexe différent ou de même sexe, qui ont une vie commune.
-
-Qu’ils soient en concubinage, pacsés ou mariés, les deux partenaires du couple ont chacun des libertés individuelles fondamentales reconnues par la loi. Ces droits les protègent et garantissent le respect de l’autonomie de chacun d’eux.
-
-![Dessin en lignes épaisses bleues sans détails réaliste de deux figures humaines simplifiées non genrées dans une maison avec une cheminée.](/images/fiches/picto-couple.original.jpg)
-
 ### La liberté conjugale, c’est quoi ?
 
 En France, chacun est **libre de choisir son conjoint** (quel que soit son sexe).

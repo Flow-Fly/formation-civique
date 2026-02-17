@@ -31,17 +31,6 @@ Il existe différents types de contrat de travail selon leur durée, la nature 
 
 ![](/images/fiches/SLIDE_40__et_41contrat.original.png)
 
-#### Un contrat de travail, qu’est-ce que c’est ?
-
-Le contrat de travail est nécessaire pour toute personne qui s’engage dans un travail payé sous forme de salaire (le salarié), pour le compte d’une autre personne (l’employeur).
-
--   Il précise le salaire, les compétences et connaissances nécessaires, la durée du travail, les tâches du salarié.
--   Il entraîne des obligations pour le salarié et pour l’employeur.
-
-Il existe différents types de contrat de travail selon leur durée, la nature du travail à réaliser...
-
-![](/images/fiches/SLIDE_40__et_41contrat.original.png)
-
 #### Le contrat à durée indéterminée (CDI)
 
 C’est le contrat de travail le plus courant en France.
@@ -95,18 +84,6 @@ Ce contrat doit être écrit et signé.
 
 ![](/images/fiches/SLIDE_40__et_41contrat.original.png)
 
-#### Les autres types de contrat de travail
-
-**Le contrat temporaire (on l’appelle aussi le contrat d’intérim) :** il est conclu entre un salarié, une entreprise de travail temporaire et une entreprise où le salarié réalise sa mission.  
-Ce contrat est utilisé uniquement pour une mission de courte durée (quelques jours, quelques mois).  
-Ce contrat doit être écrit et signé.
-
-**Le contrat de professionnalisation :** il est conclu entre un salarié et un employeur, dans le cadre de certaines formations.
-
-**Le CDD d’usage (on l’appelle aussi le contrat d'extra)** : c’est un CDD particulier. Il permet à l’employeur d’embaucher une personne pour réaliser une tâche précise et temporaire pendant une très courte durée (quelques heures, une journée ou quelques journées qui se suivent sans interruption).
-
-![](/images/fiches/SLIDE_40__et_41contrat.original.png)
-
 #### Peut-on cumuler plusieurs contrats de travail ?
 
 Un salarié peut cumuler plusieurs contrats de travail (CDI, CDD...), chez un ou plusieurs employeurs. Dans ce cas, il y a des règles à respecter.
@@ -128,20 +105,6 @@ _Source photo :_ [ Banque de pictogrammes FALC](https://kiosque.communication.go
 ---
 
 ## Types d'emploi (3/3)
-
-#### Qui peut créer une entreprise en France ?
-
-Vous pouvez créer une entreprise en France, même si vous n’avez pas la nationalité française.
-
-Vous n’avez pas besoin de diplôme, sauf pour certaines activités (exemple : coiffure…).
-
-Il est important d’avoir de l’expérience dans l’activité de la future entreprise, et de connaître des personnes qui pourront vous aider.
-
-Partout en France, il y a des associations pour vous aider à définir votre projet et trouver de l’argent.
-
-Il y a des aides financières comme [ l'aide à la création ou à la reprise d'une entreprise (ACRE)](https://www.autoentrepreneur.urssaf.fr/portail/accueil/une-question/toutes-les-fiches-pratiques/demander-lacre.html) ou [ des aides régionales](https://www.aides-entreprises.fr/).
-
-![](/images/fiches/SLIDE_42-travaux-artisan.original.png)
 
 #### Qui peut créer une entreprise en France ?
 

@@ -30,25 +30,6 @@ _Sur la droite, photo du camp d’Auschwitz-Birkenau en 1944._
 
 ![Photo du camp d’Auschwitz-Birkenau en 1944 montrant des soldats et déportés juifs hongrois à la descente d’un train.](/images/fiches/Selection_on_the_ramp_at_Auschwitz-Birkenau_194.original.jpg)
 
-### Qu’est-ce que la Shoah ?
-
-La Shoah désigne le **génocide des Juifs** organisé par l’Allemagne nazie pendant la Seconde Guerre mondiale. Environ **6 millions de Juifs** ont été assassinés par le régime nazi et ses collaborateurs.
-
-La politique nazie passe par plusieurs étapes :
-
--   exclusion des Juifs dès 1935 (lois de Nuremberg)  ;
--   enfermement dans des ghettos (comme à Varsovie, en Pologne)  ;
--   massacres par fusillade menés par les Einsatzgruppen (unités d’extermination nazies) à partir de 1941 (comme le massacre de Babi Yar en Ukraine) ;
--   puis mise en œuvre de la “solution finale” en 1942.
-
-La **“solution finale”** est le nom donné par les nazis à leur plan d’extermination des Juifs d’Europe : les Juifs sont arrêtés, déportés dans des trains de marchandises et envoyés dans des camps de concentration et des camps d’extermination (camps d’Auschwitz-Birkenau, de Treblinka, de Sobibor, de Belzec, de Chelmno et de Majdanek). À leur arrivée, la majorité des déportés sont gazés immédiatement, les autres sont soumis au travail forcé, à la faim, au froid, aux violences et aux humiliations.
-
-* * *
-
-_Sur la droite, photo du camp d’Auschwitz-Birkenau en 1944._
-
-![Photo du camp d’Auschwitz-Birkenau en 1944 montrant des soldats et déportés juifs hongrois à la descente d’un train.](/images/fiches/Selection_on_the_ramp_at_Auschwitz-Birkenau_194.original.jpg)
-
 ### Quel est le rôle du régime de Vichy en France ?
 
 En France, le régime de Vichy (qui rejette les valeurs républicaines et la démocratie), dirigé par le maréchal Pétain, met en place une politique autoritaire, antisémite et **collabore avec l’Allemagne nazie**. Le gouvernement du maréchal adopte dès octobre 1940 **plusieurs lois sur le statut des Juifs**. Il exclut les Juifs de nombreux métiers et de la fonction publique, organise leur recensement et confisque leurs biens.

@@ -76,29 +76,6 @@ Carte montrant les pays faisant partie de la première colonisation et de la sec
     -   Nouvelle Calédonie
     -   Wallis et Futuna
 
-Fermer
-
-## Transcription
-
-Carte montrant les pays faisant partie de la première colonisation et de la seconde colonisation de la France
-
--   Première colonisation (17ème-18ème siècle)
-    -   Nouvelle France
-    -   Antilles
-    -   Guyane
--   Deuxième colonisation (19ème-20ème siècle)
-    -   Afrique française
-    -   Madagascar
-    -   Indochine
-    -   Djibouti
-    -   Archipel Crozet
-    -   Comptoir des Indes
-    -   Liban
-    -   Syrie
-    -   Vanuatu
-    -   Nouvelle Calédonie
-    -   Wallis et Futuna
-
 ### Pour aller plus loin
 
 [ Les fonds ministériels | Archives nationales d’outre-mer](https://archives-nationales-outre-mer.culture.gouv.fr/faire-une-recherche/les-fonds-ministeriels)

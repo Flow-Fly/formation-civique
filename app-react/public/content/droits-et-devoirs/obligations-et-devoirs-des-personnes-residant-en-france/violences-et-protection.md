@@ -36,14 +36,6 @@ Les violences sont des actes violents commis contre une autre personne.
 
 ![](/images/fiches/11-14-violences.original.png)
 
-#### Les violences, c’est quoi ?
-
-Les violences sont des actes violents commis contre une autre personne.
-
-**Les violences, qu'elles soient au sein du couple, au sein de la famille, au travail, dans la rue sont strictement interdites en France.**
-
-![](/images/fiches/11-14-violences.original.png)
-
 #### Quelles sont les types de violences ?
 
 ##### La violence psychologique
@@ -127,22 +119,6 @@ Le mieux, c’est d’en parler !
 
 **www.allo119.gouv.fr**
 
-Fermer
-
-### Transcription
-
-**Enfants en danger ?**  
-**Parents en difficulté ?**
-
-Le mieux, c’est d’en parler !
-
-**119**
-
-**24H/24** – **APPEL GRATUIT** – **7 jours/7**  
-**ALLÔ ENFANCE EN DANGER**
-
-**www.allo119.gouv.fr**
-
 #### Pour aller plus loin
 
 [ Enfant victime de maltraitance | Service-Public.fr](https://www.service-public.fr/particuliers/vosdroits/F952)
@@ -204,28 +180,6 @@ _(En bas de l’affiche, logos partenaires)_
 -   **Toutes et tous égaux**
 -   **excision parlons-en !**
 
-Fermer
-
-### Transcription
-
-**excision, parlons-en | pour ne plus en entendre parler**
-
-**LES VACANCES, C’EST FAIT POUR S’AMUSER, PAS POUR ÊTRE MUTILÉE.**
-
-Toutes les **4 minutes**, une fille est excisée dans le monde.
-
-**L’excision ne doit jamais faire partie du voyage.**  
-Grâce à de nombreux parents, cette pratique dangereuse et traumatisante recule.  
-Parlons-mutilations.
-
-**EN CAS D’URGENCE, APPELEZ LE 17**
-
-_(En bas de l’affiche, logos partenaires)_
-
--   **Ministère chargé de l’Égalité entre les femmes et les hommes, de la Diversité et de l’Égalité des chances**
--   **Toutes et tous égaux**
--   **excision parlons-en !**
-
 #### Pour aller plus loin
 
 [ Mutilations sexuelles féminines | Arrêtons les violences](https://arretonslesviolences.gouv.fr/besoin-d-aide/mutilations-sexuelles)
@@ -235,12 +189,6 @@ _(En bas de l’affiche, logos partenaires)_
 ## L'interdition des violences sexuelles
 
 **En France, les violences sexuelles, qu'elles soient conjugales ou pas, sont interdites.**
-
-#### La violence sexuelle, une violence interdite
-
-La violence sexuelle désigne tous les actes commis avec violence, contrainte, menace ou surprise en rapport avec une partie du corps considérée comme intime et sexuelle (la bouche, la poitrine, le sexe, les fesses et les cuisses).
-
-![](/images/fiches/11-14-violences.original.png)
 
 #### La violence sexuelle, une violence interdite
 
@@ -302,14 +250,6 @@ Il existe un accompagnement pour les personnes qui souhaitent sortir de la prost
 Transcription
 
 Agrandir
-
-Fermer
-
-### Transcription
-
-**L’achat d’actes sexuels est interdit en France**
-
-_(En bas, logo du Gouvernement français avec Marianne sur fond bleu, blanc, rouge)_
 
 Fermer
 
@@ -388,26 +328,6 @@ Fermer
 
 _(En bas, logo du Gouvernement français avec Marianne sur fond bleu, blanc, rouge)_
 
-Fermer
-
-### Transcription
-
-**Numéros d’urgence**
-
-**15** – SAMU  
-**17** – Police secours  
-**18** – Sapeurs-pompiers  
-**112** – Appels d’urgence européen  
-**115** – Hébergement d’urgence  
-**119** – Enfance maltraitée  
-**196** – Secours en mer  
-**3919** – Violences conjugales
-
-**3018** – Harcèlement scolaire  
-**114** – par SMS pour les personnes malentendantes
-
-_(En bas, logo du Gouvernement français avec Marianne sur fond bleu, blanc, rouge)_
-
 #### Pour aller plus loin
 
 [ J'ai besoin d'aide | Arrêtons les violences](https://arretonslesviolences.gouv.fr/besoin-d-aide)
@@ -434,25 +354,6 @@ Il est important d’agir, sans mettre la victime ou vous-mêmes en danger.
 Transcription
 
 Agrandir
-
-Fermer
-
-### Transcription
-
-**Numéros d’urgence**
-
-**15** – SAMU  
-**17** – Police secours  
-**18** – Sapeurs-pompiers  
-**112** – Appels d’urgence européen  
-**115** – Hébergement d’urgence  
-**119** – Enfance maltraitée  
-**196** – Secours en mer  
-**3919** – Violences conjugales  
-**3018** – Harcèlement scolaire  
-**114** – par SMS pour les personnes malentendantes
-
-_(En bas, logo du Gouvernement français avec Marianne sur fond bleu, blanc, rouge)_
 
 Fermer
 
@@ -505,16 +406,6 @@ Elle s’inscrit dans le **respect des valeurs républicaines** :
 Transcription
 
 Agrandir
-
-Fermer
-
-### Transcription
-
-Faites bonne impression
-
-Recyclez c'est d'abord bien jeter ses déchets
-
-BercyLab mobilisé pour un monde plus vert
 
 Fermer
 

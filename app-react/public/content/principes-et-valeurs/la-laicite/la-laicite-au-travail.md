@@ -14,12 +14,6 @@ La laïcité ne s’applique pas de la même manière aux personnes qui travaill
 
 ![](/images/fiches/droit-du-travail.original.png)
 
-### La neutralité au travail
-
-La laïcité ne s’applique pas de la même manière aux personnes qui travaillent dans les services publics (les agents publics) et à celles qui travaillent dans les entreprises privées (les salariés).
-
-![](/images/fiches/droit-du-travail.original.png)
-
 ### Comment s’applique la laïcité pour les agents publics ?
 
 Comme tout citoyen français, l’agent du service public est libre d’avoir une religion.

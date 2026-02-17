@@ -21,15 +21,6 @@ En France, **la liberté d’expression** est un droit fondamental. Elle est gar
 
 ![Cette image représente la séparation entre l’État et les religions.](/images/fiches/laicite.original.png)
 
-### **Les bases : qu’est-ce que la liberté d’expression ?**
-
-En France, **la liberté d’expression** est un droit fondamental. Elle est garantie par la **Déclaration des droits de l'homme et du citoyen** de 1789 :
-
--   chacun a le droit d’avoir ses opinions, même religieuses, **à condition que cela ne trouble pas l’ordre public ;**
--   chacun peut **parler, écrire et publier librement.**
-
-![Cette image représente la séparation entre l’État et les religions.](/images/fiches/laicite.original.png)
-
 ### **Le blasphème, c’est quoi ?**
 
 Le **blasphème**, c’est quand on **critique ou se moque** d’une religion, d’un dieu ou de ce que certains considèrent comme sacré.  
