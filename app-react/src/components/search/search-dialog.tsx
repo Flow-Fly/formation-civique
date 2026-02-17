@@ -46,6 +46,14 @@ interface ProcessedResult {
   snippet: SnippetPart[];
 }
 
+interface StoredResult {
+  id: string;
+  title: string;
+  path: string;
+  themeName: string;
+  subcategoryName: string;
+}
+
 interface SubcategoryGroup {
   key: string;
   subcategoryName: string;
@@ -177,10 +185,8 @@ function findMatchingSection(
 export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
   const navigate = useNavigate();
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<
-    { id: string; title: string; path: string; themeName: string; subcategoryName: string }[]
-  >([]);
-  const miniSearchRef = useRef<MiniSearch | null>(null);
+  const [results, setResults] = useState<StoredResult[]>([]);
+  const miniSearchRef = useRef<MiniSearch<SearchEntry> | null>(null);
   const entriesMapRef = useRef<Map<string, SearchEntry>>(new Map());
   const loadedRef = useRef(false);
 
@@ -210,7 +216,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
         miniSearchRef.current = ms;
 
         if (query) {
-          setResults(ms.search(normalizeTerm(query)) as typeof results);
+          setResults(ms.search(normalizeTerm(query)) as unknown as StoredResult[]);
         }
       })
       .catch((err) => console.error("Failed to load search index:", err));
@@ -223,7 +229,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
       return;
     }
     setResults(
-      miniSearchRef.current.search(normalizeTerm(value)) as typeof results,
+      miniSearchRef.current.search(normalizeTerm(value)) as unknown as StoredResult[],
     );
   }, []);
 
