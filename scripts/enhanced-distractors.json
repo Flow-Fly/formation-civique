@@ -1,0 +1,582 @@
+{
+  "q187": {
+    "a": "Un compositeur d'origine algérienne, directeur du Conservatoire de Paris",
+    "c": "Un peintre postimpressionniste né en Algérie, exposé au Salon d'automne",
+    "d": "Un homme politique franco-algérien, député de la IVe République en 1954"
+  },
+  "q190": {
+    "a": "Un peintre néoclassique, auteur de fresques au plafond du Louvre",
+    "c": "Un compositeur romantique, auteur de l'opéra Carmen à Paris",
+    "d": "Un architecte du XIXe siècle, concepteur de la gare d'Orsay"
+  },
+  "q192": {
+    "a": "Un sculpteur néoclassique, auteur du Monument aux morts de Bordeaux",
+    "c": "Un architecte du XIXe siècle, concepteur du palais du Trocadéro",
+    "d": "Un photographe pionnier, inventeur du procédé de la photogravure"
+  },
+  "q188": {
+    "a": "Une chanteuse d'opéra reconnue internationalement, primée au festival de Bayreuth",
+    "c": "Une scientifique spécialiste de la biologie moléculaire, lauréate du prix Nobel en 1962",
+    "d": "Une femme politique, première ministre de l'Éducation nationale sous la Ve République"
+  },
+  "q189": {
+    "a": "Un sculpteur néoclassique, formé à l'École des beaux-arts",
+    "c": "Un compositeur romantique, auteur de sonates pour violoncelle",
+    "d": "Un architecte provençal, concepteur de la gare Saint-Charles"
+  },
+  "q186": {
+    "a": "Une actrice de cinéma et de théâtre, récompensée au festival de Cannes",
+    "c": "Une physicienne, chercheuse au CNRS et lauréate du prix Nobel en 1953",
+    "d": "Une femme politique, première sénatrice élue sous la IVe République"
+  },
+  "q064": {
+    "a": "La police (un commissaire de quartier)",
+    "b": "Le maire (en tant qu'officier public)",
+    "d": "Le préfet (le représentant de l'État)"
+  },
+  "q076": {
+    "a": "Voter les lois au Parlement et contrôler le budget annuel de la nation",
+    "c": "Gérer les communes et les départements en tant que chef de l'administration",
+    "d": "Rendre la justice et présider les audiences de la Cour de cassation"
+  },
+  "q129": {
+    "a": "Uniquement les juges professionnels diplômés de l'École nationale de la magistrature",
+    "c": "Uniquement les avocats inscrits au barreau ayant au moins cinq ans d'exercice",
+    "d": "Les policiers et gendarmes ayant au moins dix ans d'ancienneté dans leur corps"
+  },
+  "q183": {
+    "a": "Un roi de France du XVIIe siècle, connu pour la révocation de l'édit de Nantes en 1685",
+    "c": "Un peintre du XVIIe siècle, célèbre pour ses portraits de la cour de Versailles",
+    "d": "Un général des armées, commandant de la Grande Armée lors de la campagne d'Italie"
+  },
+  "q078": {
+    "a": "Voter les lois relatives à la protection des libertés fondamentales au Parlement",
+    "c": "Commander les forces armées et coordonner la défense nationale du territoire",
+    "d": "Gérer les finances publiques et contrôler l'exécution du budget annuel de l'État"
+  },
+  "q105": {
+    "a": "Le Code civil de 1804, rédigé sous la direction de Napoléon Bonaparte",
+    "c": "Le Code du travail, adopté par l'Assemblée nationale en 1910",
+    "d": "Le Code pénal de 1791, promulgué lors de la Révolution française"
+  },
+  "q184": {
+    "a": "Un peintre du XIXe siècle, figure du mouvement réaliste",
+    "c": "Un compositeur du XIXe siècle, auteur d'opéras lyriques",
+    "d": "Un homme politique, ministre de l'Intérieur en 1848"
+  },
+  "q114": {
+    "a": "Aider uniquement sa famille et ses proches, sans obligation envers la collectivité nationale",
+    "c": "Donner une partie de ses revenus aux associations caritatives reconnues d'utilité publique",
+    "d": "Travailler bénévolement dans les services publics au moins quinze heures par mois"
+  },
+  "q043": {
+    "a": "Obligatoire et nécessite une démarche en préfecture",
+    "b": "Interdite aux étrangers même résidents permanents",
+    "d": "Payante et soumise à une taxe d'inscription annuelle"
+  },
+  "q042": {
+    "a": "Les sénateurs du département concerné",
+    "b": "Les députés de la circonscription locale",
+    "d": "Le préfet et les sous-préfets de région"
+  },
+  "q228": {
+    "a": "À la mairie du lieu de résidence du patient",
+    "c": "Au commissariat de police de son quartier",
+    "d": "À la préfecture du département de résidence"
+  },
+  "q137": {
+    "a": "Écrit les paroles de la Marseillaise lors de la Révolution française en 1792",
+    "c": "Fondé la Ve République et rédigé la Constitution française de 1958",
+    "d": "Aboli l'esclavage dans les colonies françaises par le décret du 27 avril 1848"
+  },
+  "q047": {
+    "a": "Organiser les élections nationales, superviser les bureaux de vote et valider les résultats",
+    "c": "Voter les lois au Parlement et proposer des amendements aux projets du gouvernement",
+    "d": "Diriger la police nationale et coordonner les forces de l'ordre sur tout le territoire"
+  },
+  "q185": {
+    "a": "Une reine de France au XVIIIe siècle, épouse de Louis XVI",
+    "c": "Une scientifique du XIXe siècle, pionnière de la biologie",
+    "d": "Une chanteuse d'opéra, vedette des scènes lyriques européennes"
+  },
+  "q155": {
+    "a": "La fin de la Première Guerre mondiale et la signature de l'armistice en novembre 1918",
+    "c": "La Révolution française et la prise de la Bastille par le peuple de Paris en juillet 1789",
+    "d": "La fête du travail et les droits des travailleurs obtenus par les syndicats le 1er mai 1886"
+  },
+  "q123": {
+    "a": "Pour empêcher les citoyens de critiquer les décisions du gouvernement et de ses représentants",
+    "c": "Pour empêcher les opposants politiques de s'exprimer lors des campagnes électorales nationales",
+    "d": "Pour favoriser une religion officielle et interdire l'expression des autres convictions"
+  },
+  "q103": {
+    "a": "Des droits réservés aux citoyens français de naissance, inscrits dans le Code civil depuis 1804",
+    "c": "Des droits économiques uniquement, liés au travail et à la propriété, définis par le Code du commerce",
+    "d": "Des droits accordés par le Président de la République aux citoyens méritants par décret officiel"
+  },
+  "q165": {
+    "a": "L'OTAN (Alliance militaire de l'Atlantique Nord)",
+    "c": "L'Union européenne (traité de Rome de 1957)",
+    "d": "La Croix-Rouge (organisation humanitaire de 1863)"
+  },
+  "q232": {
+    "a": "À remplacer entièrement l'Assurance maladie pour tous les soins médicaux",
+    "c": "À payer les impôts sur les revenus et les cotisations sociales obligatoires",
+    "d": "À obtenir un logement social auprès des organismes d'habitation à loyer modéré"
+  },
+  "q254": {
+    "a": "Ne rien faire, car les parents n'ont aucun rôle officiel dans le fonctionnement de l'école",
+    "c": "Donner des cours aux élèves en remplacement des enseignants absents, sur autorisation",
+    "d": "Choisir les enseignants de la classe de son enfant et demander leur remplacement"
+  },
+  "q102": {
+    "a": "Avoir un passeport délivré par les autorités consulaires de cet État",
+    "c": "Payer des impôts uniquement, sans bénéficier de droits fondamentaux",
+    "d": "Être né sur le territoire de cet État et y résider en permanence"
+  },
+  "q128": {
+    "a": "Le droit de ne pas utiliser internet ni les outils numériques, garanti par la Constitution",
+    "c": "Le droit d'être totalement anonyme sur internet, sans possibilité d'identification par l'État",
+    "d": "L'accès gratuit et illimité à internet pour tous les citoyens, financé par les impôts nationaux"
+  },
+  "q004": {
+    "a": "Les impôts financent uniquement l'armée et la défense nationale, pas les services de santé",
+    "c": "Seuls les citoyens les plus riches paient des impôts, les autres en sont entièrement exonérés",
+    "d": "Les impôts sont volontaires en France et chaque citoyen choisit librement sa contribution"
+  },
+  "q233": {
+    "a": "Un impôt prélevé sur les soins médicaux et les consultations",
+    "c": "Une assurance voyage obligatoire pour les déplacements à l'étranger",
+    "d": "Un type de mutuelle réservé aux fonctionnaires et agents publics"
+  },
+  "q227": {
+    "a": "Uniquement le mari, en tant que chef de famille reconnu",
+    "c": "Uniquement la femme, après cinq ans de mariage minimum",
+    "d": "Le juge uniquement, après une enquête sociale obligatoire"
+  },
+  "q095": {
+    "a": "À exprimer un mécontentement politique contre le gouvernement par des manifestations",
+    "c": "À bloquer les routes et les transports pour protester contre les décisions de l'État",
+    "d": "À ne plus payer ses impôts en cas de désaccord avec la politique fiscale du gouvernement"
+  },
+  "q219": {
+    "a": "La jeter dans la rue devant son domicile pour le ramassage",
+    "c": "La brûler dans son jardin ou sur un terrain public à proximité",
+    "d": "L'abandonner dans une forêt ou un terrain vague à proximité"
+  },
+  "q156": {
+    "a": "La création de l'ONU et du Conseil de sécurité en 1945",
+    "c": "Le traité de Maastricht instituant l'Union européenne",
+    "d": "L'adoption de l'euro comme monnaie commune des pays membres"
+  },
+  "q248": {
+    "a": "Une amende de 135 € et un rappel à la loi par le juge",
+    "c": "Un avertissement écrit de l'inspection académique",
+    "d": "Aucune sanction, l'instruction n'est pas obligatoire"
+  },
+  "q045": {
+    "a": "Être de nationalité française uniquement, sans possibilité pour les citoyens européens",
+    "c": "Être né dans la commune et y avoir résidé de manière continue depuis sa naissance",
+    "d": "Résider dans la commune depuis au moins dix ans et y payer des impôts locaux"
+  },
+  "q099": {
+    "a": "La France est une monarchie constitutionnelle héréditaire et parlementaire",
+    "c": "La France est un État fédéral composé de régions autonomes et souveraines",
+    "d": "La France est une théocratie fondée sur les principes du droit canonique"
+  },
+  "q130": {
+    "a": "L'obligation de visiter des musées et des mémoriaux au moins une fois par an pour chaque citoyen",
+    "c": "L'obligation d'étudier l'histoire de France à l'école pendant la scolarité obligatoire",
+    "d": "Le devoir de conserver et restaurer les monuments historiques aux frais des communes"
+  },
+  "q034": {
+    "a": "L'Église catholique et les autres lieux de culte",
+    "c": "Les entreprises privées et les commerces de proximité",
+    "d": "Les associations sportives et les clubs de loisirs"
+  },
+  "q023": {
+    "a": "Non, c'est interdit par la Constitution et le changement de religion est puni par la loi",
+    "c": "Seulement avec l'autorisation de l'État, après une demande officielle auprès de la préfecture",
+    "d": "Uniquement pour les citoyens français de naissance, les étrangers doivent garder leur religion"
+  },
+  "q112": {
+    "a": "Dans un hôpital, sauf dans les chambres des patients",
+    "c": "Dans une école, en dehors des heures de cours",
+    "d": "Dans un restaurant fermé, avec accord du gérant"
+  },
+  "q147": {
+    "a": "Un mouvement artistique né en Europe centrale dans les années 1920",
+    "c": "Une bataille décisive de la Première Guerre mondiale sur le front de l'Est",
+    "d": "Un traité de paix signé entre la France et l'Allemagne après la Grande Guerre"
+  },
+  "q221": {
+    "a": "Dans les 30 jours suivant la naissance",
+    "c": "Dans les 3 mois suivant la naissance",
+    "d": "Dans l'année civile suivant la naissance"
+  },
+  "q215": {
+    "a": "À l'hôpital (service d'obstétrique)",
+    "c": "À la préfecture (bureau des familles)",
+    "d": "Au commissariat (service des mineurs)"
+  },
+  "q018": {
+    "a": "Le droit de créer un parti politique et de se présenter aux élections législatives",
+    "c": "Le droit de manifester dans les rues et de bloquer la circulation sans autorisation",
+    "d": "Le droit de créer une entreprise commerciale et d'exercer une activité économique"
+  },
+  "q250": {
+    "a": "Un voyage familial non prévu, à la demande des parents",
+    "c": "L'anniversaire d'un membre de la famille de l'enfant",
+    "d": "Du mauvais temps (pluie, vent fort ou température basse)"
+  },
+  "q201": {
+    "a": "Toulouse, en Occitanie",
+    "c": "Marseille, dans les Bouches-du-Rhône",
+    "d": "Bordeaux, en Nouvelle-Aquitaine"
+  },
+  "q216": {
+    "a": "Casser un mur porteur pour agrandir une pièce du logement",
+    "c": "Changer les fenêtres et modifier l'isolation extérieure",
+    "d": "Modifier la plomberie principale et les canalisations de l'immeuble"
+  },
+  "q104": {
+    "a": "Le droit de vote et la participation aux élections",
+    "b": "La liberté d'expression et le droit d'opinion",
+    "d": "Le droit au travail et à la formation professionnelle"
+  },
+  "q172": {
+    "a": "Une femme politique française, première élue à l'Assemblée nationale",
+    "c": "Une écrivaine française, lauréate du prix Goncourt pour ses romans",
+    "d": "Une chanteuse célèbre, ambassadrice de la culture française en Europe"
+  },
+  "q249": {
+    "a": "Le droit exclusif de punir physiquement ses enfants dans le cadre de l'éducation familiale",
+    "c": "Le droit de choisir la religion et les convictions politiques de son enfant jusqu'à sa majorité",
+    "d": "L'obligation de scolariser son enfant dans l'établissement public le plus proche du domicile"
+  },
+  "q052": {
+    "a": "Oui, si on n'est pas d'accord avec elle et qu'on la conteste publiquement",
+    "c": "Oui, si la loi date de plus de cinquante ans et n'a pas été révisée",
+    "d": "Seulement les lois locales et les arrêtés municipaux peuvent être ignorés"
+  },
+  "q008": {
+    "a": "L'aigle impérial doré de Napoléon Ier",
+    "b": "La fleur de lys des rois de France",
+    "d": "La croix de Lorraine du général de Gaulle"
+  },
+  "q096": {
+    "a": "Au nom de la religion officielle de la République",
+    "c": "Au nom de l'économie et des intérêts financiers",
+    "d": "Au nom de la tradition et des coutumes ancestrales"
+  },
+  "q093": {
+    "a": "Les gouvernements des États membres lors de sommets européens",
+    "c": "Les parlements nationaux de chaque État membre de l'Union",
+    "d": "La Commission européenne sur proposition du Conseil des ministres"
+  },
+  "q122": {
+    "a": "Aller à la préfecture avec un justificatif de domicile et un acte de naissance certifié",
+    "c": "Avoir un emploi stable depuis au moins un an et fournir un contrat de travail en cours",
+    "d": "Être propriétaire d'un logement et fournir un acte notarié attestant de cette propriété"
+  },
+  "q026": {
+    "a": "Des lieux de culte privés et des constructions religieuses nouvelles dans les villes",
+    "c": "Les salaires des prêtres, des imams et des rabbins officiant dans les communes françaises",
+    "d": "La construction de nouvelles églises, mosquées et synagogues sur le territoire national"
+  },
+  "q159": {
+    "a": "L'armistice de la Seconde Guerre mondiale signé le 8 mai 1945",
+    "c": "La fête nationale française commémorant la prise de la Bastille",
+    "d": "La Révolution française et la Déclaration des droits de l'homme"
+  },
+  "q176": {
+    "a": "À Paris, dans les salles du musée du Louvre",
+    "c": "Au château de Versailles, dans les Yvelines",
+    "d": "Au musée d'Orsay, sur la rive gauche de Paris"
+  },
+  "q243": {
+    "a": "Uniquement le contrat de travail signé entre l'employeur et le salarié",
+    "c": "Uniquement la Constitution et les décrets publiés au Journal officiel",
+    "d": "Les règlements internes de l'entreprise, sans autre cadre juridique national"
+  },
+  "q035": {
+    "a": "L'interdiction de toute religion sur le territoire de la République française",
+    "c": "La religion officielle de la France, inscrite dans la Constitution de 1958",
+    "d": "L'obligation d'être athée imposée à tous les citoyens par la loi de 1905"
+  },
+  "q136": {
+    "a": "La fin de la Seconde Guerre mondiale et la libération du territoire",
+    "c": "La Révolution française et l'abolition de la monarchie absolue",
+    "d": "L'entrée dans l'Union européenne et l'adoption de l'euro comme monnaie"
+  },
+  "q258": {
+    "a": "Oui, c'est un droit reconnu par le Code civil aux parents",
+    "c": "Oui, si c'est dans un but éducatif et de manière modérée",
+    "d": "Oui, mais uniquement de manière légère et sans laisser de traces"
+  },
+  "q134": {
+    "a": "L'anniversaire de Napoléon Bonaparte et le début du Premier Empire",
+    "c": "La fin de la Seconde Guerre mondiale et la libération de la France",
+    "d": "La création de la Ve République et l'adoption de la Constitution"
+  },
+  "q204": {
+    "a": "Les anciennes colonies françaises devenues indépendantes depuis 1960",
+    "c": "Les pays francophones d'Afrique et d'Asie liés à la France par traité",
+    "d": "Les départements du sud de la France situés au bord de la Méditerranée"
+  },
+  "q025": {
+    "a": "Porter un signe religieux ostentatoire lors de ses démarches administratives",
+    "c": "Faire du prosélytisme religieux auprès des agents et des autres usagers",
+    "d": "Refuser d'être servi par un agent public en raison de son sexe ou son origine"
+  },
+  "q022": {
+    "a": "Tout le monde doit gagner le même salaire, quel que soit son métier ou son expérience",
+    "c": "Seuls les hommes ont des droits civiques, les femmes en sont exclues par la loi",
+    "d": "Chacun est libre de faire ce qu'il veut, sans aucune obligation envers les autres"
+  },
+  "q071": {
+    "a": "Voter les lois de la République",
+    "c": "Diriger le gouvernement et les ministères",
+    "d": "Commander l'armée et la défense nationale"
+  },
+  "q120": {
+    "a": "Sans conséquence juridique pour le conducteur",
+    "c": "Toléré en zone rurale et dans les petites communes",
+    "d": "Uniquement sanctionné le week-end et les jours fériés"
+  },
+  "q056": {
+    "a": "Un État où le président dispose de tous les pouvoirs sans contrôle",
+    "c": "Un État sans gouvernement central, organisé en communes autonomes",
+    "d": "Un État dirigé exclusivement par des juges et des magistrats"
+  },
+  "q231": {
+    "a": "À payer ses impôts auprès du Trésor public",
+    "c": "À voyager gratuitement dans les transports",
+    "d": "À obtenir un emploi auprès de France Travail"
+  },
+  "q015": {
+    "a": "La richesse partagée entre tous les Français",
+    "c": "L'obligation de se marier entre citoyens français",
+    "d": "Le droit de vote accordé à chaque citoyen majeur"
+  },
+  "q009": {
+    "a": "Uniquement sur les billets de banque et les pièces de monnaie",
+    "c": "Uniquement dans les musées nationaux et les expositions",
+    "d": "Seulement le 14 juillet, sur les décorations officielles"
+  },
+  "q108": {
+    "a": "Le droit de dire tout ce qu'on veut sans aucune limite, y compris des propos diffamatoires",
+    "c": "Le droit de ne s'exprimer qu'en français sur le territoire de la République française",
+    "d": "Le droit réservé aux journalistes professionnels accrédités par le ministère de la Culture"
+  },
+  "q121": {
+    "a": "Un vol simple à l'étalage dans un magasin",
+    "c": "Un excès de vitesse sur une route nationale",
+    "d": "Un stationnement interdit en centre-ville"
+  },
+  "q145": {
+    "a": "Le roi Louis XIV",
+    "b": "L'empereur Napoléon",
+    "d": "Le roi franc Clovis"
+  },
+  "q237": {
+    "a": "Le salaire moyen en France calculé chaque trimestre",
+    "c": "Le salaire maximum autorisé dans la fonction publique",
+    "d": "Le salaire des fonctionnaires fixé par décret annuel"
+  },
+  "q255": {
+    "a": "Aucune instruction spécifique, ils doivent apprendre seuls le français",
+    "c": "Ils sont exclus de l'école publique jusqu'à la maîtrise du français",
+    "d": "Ils sont renvoyés dans leur pays d'origine pour y suivre leur scolarité"
+  },
+  "q019": {
+    "a": "Un devoir imposé par l'État à chaque citoyen pour contribuer au bien commun",
+    "b": "Le droit de faire tout ce que l'on veut sans aucune limite légale ni contrainte",
+    "d": "Un privilège réservé aux citoyens français, excluant les résidents étrangers"
+  },
+  "q044": {
+    "b": "Avoir 16 ans et résider en France depuis cinq ans",
+    "c": "Être né en France, même sans nationalité française",
+    "d": "Avoir un emploi déclaré en France depuis deux ans"
+  },
+  "q171": {
+    "a": "Le hamburger américain",
+    "b": "Le couscous marocain",
+    "d": "La pizza napolitaine"
+  },
+  "q238": {
+    "a": "Écrire au Président de la République pour demander un emploi",
+    "c": "Aller à la mairie pour demander une aide à l'emploi locale",
+    "d": "Publier une annonce dans le journal officiel de la commune"
+  },
+  "q033": {
+    "a": "La Constitution de la Ve République adoptée en 1958",
+    "c": "La Déclaration des Droits de l'Homme et du Citoyen de 1789",
+    "d": "Le Code civil de Napoléon Bonaparte, promulgué en 1804"
+  },
+  "q036": {
+    "a": "Imposer une religion officielle aux élèves de l'enseignement public",
+    "c": "Interdire de parler de religion dans l'ensemble des cours et activités",
+    "d": "Supprimer les cours d'histoire des religions du programme scolaire officiel"
+  },
+  "q014": {
+    "a": "Une couronne de laurier",
+    "c": "Un chapeau tricolore",
+    "d": "Un béret républicain"
+  },
+  "q101": {
+    "a": "De voyager uniquement en France métropolitaine et en outre-mer",
+    "c": "De conduire sans permis sur l'ensemble du territoire national",
+    "d": "De franchir les frontières européennes sans aucun document officiel"
+  },
+  "q131": {
+    "a": "Elle peut toujours voter aux élections locales et nationales",
+    "c": "Elle peut être élue au Parlement mais ne peut pas voter",
+    "d": "Elle garde tous ses droits civiques pendant cette période"
+  },
+  "q054": {
+    "a": "Le Président de la République par décret",
+    "c": "Le Premier ministre et son gouvernement",
+    "d": "Le Conseil constitutionnel de la République"
+  },
+  "q106": {
+    "a": "La Constitution de la Ve République française de 1958",
+    "c": "La Déclaration universelle des droits de l'homme adoptée en 1948",
+    "d": "Le Code civil de Napoléon Bonaparte promulgué en 1804"
+  },
+  "q086": {
+    "a": "Les chefs d'État des pays membres de l'Union",
+    "c": "Les commissaires européens nommés par Bruxelles",
+    "d": "Les ambassadeurs des États membres de l'Union"
+  },
+  "q082": {
+    "a": "Vivaldi",
+    "c": "Debussy",
+    "d": "Berlioz"
+  },
+  "q002": {
+    "a": "Sa religion et ses convictions",
+    "c": "Son origine ethnique ou culturelle",
+    "d": "Son appartenance à un syndicat"
+  },
+  "q065": {
+    "a": "Les communes",
+    "c": "Les régions",
+    "d": "L'État central"
+  },
+  "q244": {
+    "a": "Les affaires criminelles et les délits graves",
+    "c": "Les affaires de divorce et de droit familial",
+    "d": "Les infractions routières et les contraventions"
+  },
+  "q024": {
+    "a": "L'État impose une religion officielle à l'ensemble des citoyens",
+    "c": "L'État interdit toutes les religions et les pratiques spirituelles",
+    "d": "L'État favorise la religion majoritaire et lui accorde des subventions"
+  },
+  "q069": {
+    "b": "Un décret du Président de la République publié au Journal officiel",
+    "c": "Un vote de l'Assemblée nationale seule, sans accord du Sénat",
+    "d": "Une décision unilatérale du Conseil constitutionnel en séance"
+  },
+  "q197": {
+    "a": "L'île Maurice",
+    "c": "La Sardaigne",
+    "d": "Les Bermudes"
+  },
+  "q098": {
+    "a": "On peut faire absolument tout ce qu'on veut, il n'y a aucune restriction",
+    "c": "Il n'y a aucune limite à la liberté individuelle dans une démocratie",
+    "d": "Seul l'État peut décider des limites de la liberté de chaque citoyen"
+  },
+  "q006": {
+    "a": "Totale et sans aucune limite légale",
+    "b": "Interdite et punie par la loi",
+    "d": "Réservée aux journalistes accrédités"
+  },
+  "q245": {
+    "a": "Uniquement les salariés de nationalité française",
+    "c": "Uniquement les fonctionnaires de la fonction publique",
+    "d": "Uniquement les cadres et les dirigeants d'entreprise"
+  },
+  "q072": {
+    "a": "Être âgé de plus de quarante ans révolus",
+    "c": "Être membre d'un parti politique officiel reconnu",
+    "d": "Avoir été député ou sénateur au moins une fois"
+  },
+  "q074": {
+    "b": "En provinces, cantons et bailliages",
+    "c": "En États fédérés autonomes et souverains",
+    "d": "En arrondissements et en cantons uniquement"
+  },
+  "q217": {
+    "a": "Le mariage religieux célébré à l'église",
+    "c": "Le mariage coutumier devant la famille",
+    "d": "Le mariage par contrat privé entre époux"
+  },
+  "q091": {
+    "a": "La Marseillaise de Rouget de Lisle",
+    "c": "God Save the King, hymne anglais",
+    "d": "La Neuvième Symphonie de Mozart"
+  },
+  "q090": {
+    "a": "La Grèce en 2015",
+    "b": "La Norvège en 2018",
+    "d": "La Suisse en 2019"
+  },
+  "q196": {
+    "a": "L'île de Cuba",
+    "c": "L'île de la Réunion",
+    "d": "L'île de Mayotte"
+  },
+  "q241": {
+    "a": "Non, c'est interdit par le Code du commerce",
+    "c": "Seulement après dix ans de résidence en France",
+    "d": "Uniquement dans certains secteurs définis par la loi"
+  },
+  "q242": {
+    "a": "Non, c'est un droit réservé aux hommes par le Code civil",
+    "c": "Seulement avec l'accord de son mari ou d'un tuteur légal",
+    "d": "Uniquement dans certains secteurs autorisés pour les femmes"
+  },
+  "q029": {
+    "a": "La supériorité d'une religion officielle sur toutes les autres",
+    "c": "L'interdiction totale de pratiquer une religion en France",
+    "d": "L'obligation d'être athée pour tous les citoyens français"
+  },
+  "q063": {
+    "a": "Non, c'est interdit par la loi depuis 1958",
+    "c": "Seulement pour les fonctionnaires de l'État",
+    "d": "Uniquement avec l'autorisation du préfet du département"
+  },
+  "q135": {
+    "a": "Interdire tout enseignement religieux en France",
+    "c": "Créer des universités privées réservées à l'élite",
+    "d": "Fermer les écoles publiques et favoriser le privé"
+  },
+  "q224": {
+    "a": "À la préfecture du département",
+    "c": "Au commissariat de leur quartier",
+    "d": "À l'inspection académique de zone"
+  },
+  "q230": {
+    "a": "Le médecin peut partager les informations médicales du patient avec son employeur",
+    "c": "Le patient ne peut pas accéder à son propre dossier médical ni en obtenir une copie",
+    "d": "Les données de santé de chaque patient sont accessibles à tous les citoyens"
+  },
+  "q028": {
+    "a": "La République reconnaît et subventionne tous les cultes présents sur son territoire",
+    "c": "La République interdit toutes les pratiques religieuses sur le territoire national",
+    "d": "La République impose une religion d'État à l'ensemble de ses citoyens"
+  },
+  "q039": {
+    "a": "Il est élu au suffrage universel direct par les citoyens",
+    "c": "Il est élu par les députés de l'Assemblée nationale",
+    "d": "Il est désigné par le Sénat à la majorité absolue"
+  },
+  "q148": {
+    "a": "Don Quichotte",
+    "c": "Les Fleurs du mal",
+    "d": "Madame Bovary"
+  }
+}
