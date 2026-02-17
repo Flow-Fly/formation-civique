@@ -8,13 +8,14 @@ export function StudyPage() {
   const [searchParams] = useSearchParams();
   const ficheId = searchParams.get("fiche");
 
-  if (loading || !fichesData) {
+  if (loading) {
     return <div className="text-center py-16 text-muted-foreground">Chargement des fiches...</div>;
   }
 
-  if (ficheId) {
+  // Legacy route: ?fiche=... still renders the old FicheReader
+  if (ficheId && fichesData) {
     return <FicheReader ficheId={ficheId} fichesData={fichesData} questions={questions} />;
   }
 
-  return <ThemeBrowser fichesData={fichesData} />;
+  return <ThemeBrowser />;
 }

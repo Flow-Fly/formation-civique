@@ -8,8 +8,9 @@ import {
 import { Badge } from "@/components/ui/badge.tsx";
 import { Card } from "@/components/ui/card.tsx";
 import { ChevronRight, CheckCircle } from "lucide-react";
-import type { FichesData } from "@/types/index.ts";
+import { useData } from "@/context/data-context.tsx";
 import * as storage from "@/services/storage.ts";
+import type { ContentPageMeta } from "@/types/index.ts";
 
 const dotColors = [
   "bg-chart-1",
@@ -19,26 +20,48 @@ const dotColors = [
   "bg-chart-5",
 ];
 
-interface ThemeBrowserProps {
-  fichesData: FichesData;
+function pageLink(page: ContentPageMeta): string {
+  const parts = page.path.replace(/\.md$/, "").split("/");
+  return `/study/${parts.join("/")}`;
 }
 
-export function ThemeBrowser({ fichesData }: ThemeBrowserProps) {
+function countPages(subcat: { pages?: ContentPageMeta[]; groups?: { pages: ContentPageMeta[] }[] }): number {
+  let count = (subcat.pages || []).length;
+  if (subcat.groups) {
+    for (const g of subcat.groups) {
+      count += g.pages.length;
+    }
+  }
+  return count;
+}
+
+function isPageRead(page: ContentPageMeta, readFiches: Record<string, number>): boolean {
+  // A page is read if any of its original fiche IDs is marked read, or the content page itself
+  if (readFiches[`content:${page.id}`]) return true;
+  return page.originalFicheIds.some((id) => readFiches[id]);
+}
+
+export function ThemeBrowser() {
+  const { contentIndex } = useData();
   const readFiches = storage.load<Record<string, number>>("fiches_read", {});
+
+  if (!contentIndex) {
+    return <div className="text-center py-16 text-muted-foreground">Chargement des fiches...</div>;
+  }
 
   return (
     <div className="space-y-4">
       <h1 className="text-2xl font-bold">Fiches d'etude</h1>
       <Card className="p-0 overflow-hidden">
         <Accordion type="multiple">
-          {fichesData.index.themes.map((theme, i) => (
+          {contentIndex.themes.map((theme, i) => (
             <AccordionItem key={theme.id} value={theme.id}>
               <AccordionTrigger className="px-4">
                 <span className="flex items-center gap-2">
                   <span className={`w-2 h-2 rounded-full ${dotColors[i % dotColors.length]}`} />
                   <strong>{theme.name}</strong>
                   <Badge variant="secondary" className="ml-1">
-                    {theme.subcategories.reduce((a, s) => a + s.fiches.length, 0)} fiches
+                    {theme.subcategories.reduce((a, s) => a + countPages(s), 0)} fiches
                   </Badge>
                 </span>
               </AccordionTrigger>
@@ -48,23 +71,22 @@ export function ThemeBrowser({ fichesData }: ThemeBrowserProps) {
                     <h3 className="mt-3 mb-2 text-xs text-muted-foreground uppercase tracking-wider font-medium">
                       {subcat.name}
                     </h3>
-                    {subcat.fiches.map((f) => (
-                      <Link
-                        key={f.id}
-                        to={`/study?fiche=${encodeURIComponent(f.id)}`}
-                        className="flex items-center justify-between py-2 px-3 -mx-1 rounded hover:bg-accent hover:translate-x-0.5 no-underline text-foreground border-b border-border last:border-b-0 transition-all"
-                      >
-                        <span className="flex items-center gap-2 text-sm">
-                          {f.title}
-                          {readFiches[f.id] && (
-                            <Badge variant="outline" className="text-dsfr-success border-dsfr-success">
-                              <CheckCircle className="w-3 h-3 mr-1" />
-                              Lu
-                            </Badge>
-                          )}
-                        </span>
-                        <ChevronRight className="w-4 h-4 text-muted-foreground" />
-                      </Link>
+
+                    {/* Ungrouped pages */}
+                    {subcat.pages?.map((page) => (
+                      <PageLink key={page.id} page={page} isRead={isPageRead(page, readFiches)} />
+                    ))}
+
+                    {/* Grouped pages */}
+                    {subcat.groups?.map((group) => (
+                      <div key={group.id}>
+                        <p className="mt-3 mb-1 text-xs font-semibold text-muted-foreground/80 pl-2">
+                          {group.name}
+                        </p>
+                        {group.pages.map((page) => (
+                          <PageLink key={page.id} page={page} isRead={isPageRead(page, readFiches)} />
+                        ))}
+                      </div>
                     ))}
                   </div>
                 ))}
@@ -74,5 +96,25 @@ export function ThemeBrowser({ fichesData }: ThemeBrowserProps) {
         </Accordion>
       </Card>
     </div>
+  );
+}
+
+function PageLink({ page, isRead }: { page: ContentPageMeta; isRead: boolean }) {
+  return (
+    <Link
+      to={pageLink(page)}
+      className="flex items-center justify-between py-2 px-3 -mx-1 rounded hover:bg-accent hover:translate-x-0.5 no-underline text-foreground border-b border-border last:border-b-0 transition-all"
+    >
+      <span className="flex items-center gap-2 text-sm">
+        {page.title}
+        {isRead && (
+          <Badge variant="outline" className="text-dsfr-success border-dsfr-success">
+            <CheckCircle className="w-3 h-3 mr-1" />
+            Lu
+          </Badge>
+        )}
+      </span>
+      <ChevronRight className="w-4 h-4 text-muted-foreground" />
+    </Link>
   );
 }

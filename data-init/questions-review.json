@@ -42,7 +42,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Sa religion"
+        "text": "Sa religion et ses convictions"
       },
       {
         "id": "b",
@@ -50,11 +50,11 @@
       },
       {
         "id": "c",
-        "text": "Son origine ethnique"
+        "text": "Son origine ethnique ou culturelle"
       },
       {
         "id": "d",
-        "text": "Son appartenance syndicale"
+        "text": "Son appartenance à un syndicat"
       }
     ],
     "correctAnswer": "b",
@@ -108,7 +108,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Les impôts financent uniquement l'armée"
+        "text": "Les impôts financent uniquement l'armée et la défense nationale, pas les services de santé"
       },
       {
         "id": "b",
@@ -116,11 +116,11 @@
       },
       {
         "id": "c",
-        "text": "Seuls les riches paient des impôts"
+        "text": "Seuls les citoyens les plus riches paient des impôts, les autres en sont entièrement exonérés"
       },
       {
         "id": "d",
-        "text": "Les impôts sont volontaires en France"
+        "text": "Les impôts sont volontaires en France et chaque citoyen choisit librement sa contribution"
       }
     ],
     "correctAnswer": "b",
@@ -175,11 +175,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "Totale et sans limites"
+        "text": "Totale et sans aucune limite légale"
       },
       {
         "id": "b",
-        "text": "Interdite"
+        "text": "Interdite et punie par la loi"
       },
       {
         "id": "c",
@@ -187,7 +187,7 @@
       },
       {
         "id": "d",
-        "text": "Réservée aux journalistes"
+        "text": "Réservée aux journalistes accrédités"
       }
     ],
     "correctAnswer": "c",
@@ -242,11 +242,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'aigle impérial"
+        "text": "L'aigle impérial doré de Napoléon Ier"
       },
       {
         "id": "b",
-        "text": "La fleur de lys"
+        "text": "La fleur de lys des rois de France"
       },
       {
         "id": "c",
@@ -254,7 +254,7 @@
       },
       {
         "id": "d",
-        "text": "La croix de Lorraine"
+        "text": "La croix de Lorraine du général de Gaulle"
       }
     ],
     "correctAnswer": "c",
@@ -275,7 +275,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Uniquement sur les billets de banque"
+        "text": "Uniquement sur les billets de banque et les pièces de monnaie"
       },
       {
         "id": "b",
@@ -283,11 +283,11 @@
       },
       {
         "id": "c",
-        "text": "Uniquement dans les musées"
+        "text": "Uniquement dans les musées nationaux et les expositions"
       },
       {
         "id": "d",
-        "text": "Seulement le 14 juillet"
+        "text": "Seulement le 14 juillet, sur les décorations officielles"
       }
     ],
     "correctAnswer": "b",
@@ -441,7 +441,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Une couronne"
+        "text": "Une couronne de laurier"
       },
       {
         "id": "b",
@@ -449,11 +449,11 @@
       },
       {
         "id": "c",
-        "text": "Un chapeau"
+        "text": "Un chapeau tricolore"
       },
       {
         "id": "d",
-        "text": "Un béret"
+        "text": "Un béret républicain"
       }
     ],
     "correctAnswer": "b",
@@ -474,7 +474,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La richesse partagée entre tous"
+        "text": "La richesse partagée entre tous les Français"
       },
       {
         "id": "b",
@@ -482,11 +482,11 @@
       },
       {
         "id": "c",
-        "text": "L'obligation de se marier"
+        "text": "L'obligation de se marier entre citoyens français"
       },
       {
         "id": "d",
-        "text": "Le droit de vote"
+        "text": "Le droit de vote accordé à chaque citoyen majeur"
       }
     ],
     "correctAnswer": "b",
@@ -573,7 +573,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le droit de créer un parti politique"
+        "text": "Le droit de créer un parti politique et de se présenter aux élections législatives"
       },
       {
         "id": "b",
@@ -581,11 +581,11 @@
       },
       {
         "id": "c",
-        "text": "Le droit de manifester"
+        "text": "Le droit de manifester dans les rues et de bloquer la circulation sans autorisation"
       },
       {
         "id": "d",
-        "text": "Le droit de créer une entreprise"
+        "text": "Le droit de créer une entreprise commerciale et d'exercer une activité économique"
       }
     ],
     "correctAnswer": "b",
@@ -607,11 +607,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un devoir envers l'État"
+        "text": "Un devoir imposé par l'État à chaque citoyen pour contribuer au bien commun"
       },
       {
         "id": "b",
-        "text": "Le droit de faire tout ce que l'on veut sans limite"
+        "text": "Le droit de faire tout ce que l'on veut sans aucune limite légale ni contrainte"
       },
       {
         "id": "c",
@@ -619,7 +619,7 @@
       },
       {
         "id": "d",
-        "text": "Un privilège réservé aux citoyens"
+        "text": "Un privilège réservé aux citoyens français, excluant les résidents étrangers"
       }
     ],
     "correctAnswer": "c",
@@ -708,7 +708,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Tout le monde doit gagner le même salaire"
+        "text": "Tout le monde doit gagner le même salaire, quel que soit son métier ou son expérience"
       },
       {
         "id": "b",
@@ -716,11 +716,11 @@
       },
       {
         "id": "c",
-        "text": "Seuls les hommes ont des droits"
+        "text": "Seuls les hommes ont des droits civiques, les femmes en sont exclues par la loi"
       },
       {
         "id": "d",
-        "text": "Chacun est libre de faire ce qu'il veut"
+        "text": "Chacun est libre de faire ce qu'il veut, sans aucune obligation envers les autres"
       }
     ],
     "correctAnswer": "b",
@@ -741,7 +741,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Non, c'est interdit"
+        "text": "Non, c'est interdit par la Constitution et le changement de religion est puni par la loi"
       },
       {
         "id": "b",
@@ -749,11 +749,11 @@
       },
       {
         "id": "c",
-        "text": "Seulement avec l'autorisation de l'État"
+        "text": "Seulement avec l'autorisation de l'État, après une demande officielle auprès de la préfecture"
       },
       {
         "id": "d",
-        "text": "Uniquement pour les citoyens français"
+        "text": "Uniquement pour les citoyens français de naissance, les étrangers doivent garder leur religion"
       }
     ],
     "correctAnswer": "b",
@@ -775,7 +775,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'État impose une religion officielle"
+        "text": "L'État impose une religion officielle à l'ensemble des citoyens"
       },
       {
         "id": "b",
@@ -783,11 +783,11 @@
       },
       {
         "id": "c",
-        "text": "L'État interdit toutes les religions"
+        "text": "L'État interdit toutes les religions et les pratiques spirituelles"
       },
       {
         "id": "d",
-        "text": "L'État favorise la religion majoritaire"
+        "text": "L'État favorise la religion majoritaire et lui accorde des subventions"
       }
     ],
     "correctAnswer": "b",
@@ -809,7 +809,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Porter un signe religieux ostentatoire"
+        "text": "Porter un signe religieux ostentatoire lors de ses démarches administratives"
       },
       {
         "id": "b",
@@ -817,11 +817,11 @@
       },
       {
         "id": "c",
-        "text": "Faire du prosélytisme"
+        "text": "Faire du prosélytisme religieux auprès des agents et des autres usagers"
       },
       {
         "id": "d",
-        "text": "Refuser d'être servi par un agent public"
+        "text": "Refuser d'être servi par un agent public en raison de son sexe ou son origine"
       }
     ],
     "correctAnswer": "b",
@@ -842,7 +842,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Des lieux de culte"
+        "text": "Des lieux de culte privés et des constructions religieuses nouvelles dans les villes"
       },
       {
         "id": "b",
@@ -850,11 +850,11 @@
       },
       {
         "id": "c",
-        "text": "Les salaires des prêtres et imams"
+        "text": "Les salaires des prêtres, des imams et des rabbins officiant dans les communes françaises"
       },
       {
         "id": "d",
-        "text": "La construction de nouvelles églises et mosquées"
+        "text": "La construction de nouvelles églises, mosquées et synagogues sur le territoire national"
       }
     ],
     "correctAnswer": "b",
@@ -909,7 +909,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La République reconnaît et subventionne les cultes"
+        "text": "La République reconnaît et subventionne tous les cultes présents sur son territoire"
       },
       {
         "id": "b",
@@ -917,11 +917,11 @@
       },
       {
         "id": "c",
-        "text": "La République interdit les pratiques religieuses"
+        "text": "La République interdit toutes les pratiques religieuses sur le territoire national"
       },
       {
         "id": "d",
-        "text": "La République impose une religion d'État"
+        "text": "La République impose une religion d'État à l'ensemble de ses citoyens"
       }
     ],
     "correctAnswer": "b",
@@ -943,7 +943,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La supériorité d'une religion sur les autres"
+        "text": "La supériorité d'une religion officielle sur toutes les autres"
       },
       {
         "id": "b",
@@ -951,11 +951,11 @@
       },
       {
         "id": "c",
-        "text": "L'interdiction de pratiquer une religion"
+        "text": "L'interdiction totale de pratiquer une religion en France"
       },
       {
         "id": "d",
-        "text": "L'obligation d'être athée"
+        "text": "L'obligation d'être athée pour tous les citoyens français"
       }
     ],
     "correctAnswer": "b",
@@ -1076,7 +1076,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La Constitution de 1958"
+        "text": "La Constitution de la Ve République adoptée en 1958"
       },
       {
         "id": "b",
@@ -1084,11 +1084,11 @@
       },
       {
         "id": "c",
-        "text": "La Déclaration des Droits de l'Homme de 1789"
+        "text": "La Déclaration des Droits de l'Homme et du Citoyen de 1789"
       },
       {
         "id": "d",
-        "text": "Le Code civil de 1804"
+        "text": "Le Code civil de Napoléon Bonaparte, promulgué en 1804"
       }
     ],
     "correctAnswer": "b",
@@ -1110,7 +1110,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'Église catholique"
+        "text": "L'Église catholique et les autres lieux de culte"
       },
       {
         "id": "b",
@@ -1118,11 +1118,11 @@
       },
       {
         "id": "c",
-        "text": "Les entreprises privées"
+        "text": "Les entreprises privées et les commerces de proximité"
       },
       {
         "id": "d",
-        "text": "Les associations"
+        "text": "Les associations sportives et les clubs de loisirs"
       }
     ],
     "correctAnswer": "b",
@@ -1143,7 +1143,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'interdiction de toute religion"
+        "text": "L'interdiction de toute religion sur le territoire de la République française"
       },
       {
         "id": "b",
@@ -1151,11 +1151,11 @@
       },
       {
         "id": "c",
-        "text": "La religion officielle de la France"
+        "text": "La religion officielle de la France, inscrite dans la Constitution de 1958"
       },
       {
         "id": "d",
-        "text": "L'obligation d'être athée"
+        "text": "L'obligation d'être athée imposée à tous les citoyens par la loi de 1905"
       }
     ],
     "correctAnswer": "b",
@@ -1176,7 +1176,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Imposer une religion aux élèves"
+        "text": "Imposer une religion officielle aux élèves de l'enseignement public"
       },
       {
         "id": "b",
@@ -1184,11 +1184,11 @@
       },
       {
         "id": "c",
-        "text": "Interdire de parler de religion"
+        "text": "Interdire de parler de religion dans l'ensemble des cours et activités"
       },
       {
         "id": "d",
-        "text": "Supprimer les cours d'histoire des religions"
+        "text": "Supprimer les cours d'histoire des religions du programme scolaire officiel"
       }
     ],
     "correctAnswer": "b",
@@ -1276,7 +1276,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Il est élu au suffrage universel direct"
+        "text": "Il est élu au suffrage universel direct par les citoyens"
       },
       {
         "id": "b",
@@ -1284,11 +1284,11 @@
       },
       {
         "id": "c",
-        "text": "Il est élu par les députés"
+        "text": "Il est élu par les députés de l'Assemblée nationale"
       },
       {
         "id": "d",
-        "text": "Il est désigné par le Sénat"
+        "text": "Il est désigné par le Sénat à la majorité absolue"
       }
     ],
     "correctAnswer": "b",
@@ -1376,11 +1376,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "Les sénateurs"
+        "text": "Les sénateurs du département concerné"
       },
       {
         "id": "b",
-        "text": "Les députés"
+        "text": "Les députés de la circonscription locale"
       },
       {
         "id": "c",
@@ -1388,7 +1388,7 @@
       },
       {
         "id": "d",
-        "text": "Le préfet"
+        "text": "Le préfet et les sous-préfets de région"
       }
     ],
     "correctAnswer": "c",
@@ -1410,11 +1410,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "Obligatoire"
+        "text": "Obligatoire et nécessite une démarche en préfecture"
       },
       {
         "id": "b",
-        "text": "Interdite aux étrangers"
+        "text": "Interdite aux étrangers même résidents permanents"
       },
       {
         "id": "c",
@@ -1422,7 +1422,7 @@
       },
       {
         "id": "d",
-        "text": "Payante"
+        "text": "Payante et soumise à une taxe d'inscription annuelle"
       }
     ],
     "correctAnswer": "c",
@@ -1447,15 +1447,15 @@
       },
       {
         "id": "b",
-        "text": "Avoir 16 ans et résider en France"
+        "text": "Avoir 16 ans et résider en France depuis cinq ans"
       },
       {
         "id": "c",
-        "text": "Être né en France"
+        "text": "Être né en France, même sans nationalité française"
       },
       {
         "id": "d",
-        "text": "Avoir un emploi en France"
+        "text": "Avoir un emploi déclaré en France depuis deux ans"
       }
     ],
     "correctAnswer": "a",
@@ -1476,7 +1476,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Être de nationalité française uniquement"
+        "text": "Être de nationalité française uniquement, sans possibilité pour les citoyens européens"
       },
       {
         "id": "b",
@@ -1484,11 +1484,11 @@
       },
       {
         "id": "c",
-        "text": "Être né dans la commune"
+        "text": "Être né dans la commune et y avoir résidé de manière continue depuis sa naissance"
       },
       {
         "id": "d",
-        "text": "Résider dans la commune depuis 10 ans"
+        "text": "Résider dans la commune depuis au moins dix ans et y payer des impôts locaux"
       }
     ],
     "correctAnswer": "b",
@@ -1542,7 +1542,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Organiser les élections nationales"
+        "text": "Organiser les élections nationales, superviser les bureaux de vote et valider les résultats"
       },
       {
         "id": "b",
@@ -1550,11 +1550,11 @@
       },
       {
         "id": "c",
-        "text": "Voter les lois"
+        "text": "Voter les lois au Parlement et proposer des amendements aux projets du gouvernement"
       },
       {
         "id": "d",
-        "text": "Diriger la police nationale"
+        "text": "Diriger la police nationale et coordonner les forces de l'ordre sur tout le territoire"
       }
     ],
     "correctAnswer": "b",
@@ -1708,7 +1708,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Oui, si on n'est pas d'accord"
+        "text": "Oui, si on n'est pas d'accord avec elle et qu'on la conteste publiquement"
       },
       {
         "id": "b",
@@ -1716,11 +1716,11 @@
       },
       {
         "id": "c",
-        "text": "Oui, si la loi est ancienne"
+        "text": "Oui, si la loi date de plus de cinquante ans et n'a pas été révisée"
       },
       {
         "id": "d",
-        "text": "Seulement les lois locales"
+        "text": "Seulement les lois locales et les arrêtés municipaux peuvent être ignorés"
       }
     ],
     "correctAnswer": "b",
@@ -1776,7 +1776,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le Président de la République"
+        "text": "Le Président de la République par décret"
       },
       {
         "id": "b",
@@ -1784,11 +1784,11 @@
       },
       {
         "id": "c",
-        "text": "Le Premier ministre"
+        "text": "Le Premier ministre et son gouvernement"
       },
       {
         "id": "d",
-        "text": "Le Conseil constitutionnel"
+        "text": "Le Conseil constitutionnel de la République"
       }
     ],
     "correctAnswer": "b",
@@ -1844,7 +1844,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un État où le président a tous les pouvoirs"
+        "text": "Un État où le président dispose de tous les pouvoirs sans contrôle"
       },
       {
         "id": "b",
@@ -1852,11 +1852,11 @@
       },
       {
         "id": "c",
-        "text": "Un État sans gouvernement"
+        "text": "Un État sans gouvernement central, organisé en communes autonomes"
       },
       {
         "id": "d",
-        "text": "Un État dirigé par des juges"
+        "text": "Un État dirigé exclusivement par des juges et des magistrats"
       }
     ],
     "correctAnswer": "b",
@@ -2077,7 +2077,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Non, c'est interdit"
+        "text": "Non, c'est interdit par la loi depuis 1958"
       },
       {
         "id": "b",
@@ -2085,11 +2085,11 @@
       },
       {
         "id": "c",
-        "text": "Seulement pour les fonctionnaires"
+        "text": "Seulement pour les fonctionnaires de l'État"
       },
       {
         "id": "d",
-        "text": "Uniquement avec l'autorisation du préfet"
+        "text": "Uniquement avec l'autorisation du préfet du département"
       }
     ],
     "correctAnswer": "b",
@@ -2110,11 +2110,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "La police"
+        "text": "La police (un commissaire de quartier)"
       },
       {
         "id": "b",
-        "text": "Le maire"
+        "text": "Le maire (en tant qu'officier public)"
       },
       {
         "id": "c",
@@ -2122,7 +2122,7 @@
       },
       {
         "id": "d",
-        "text": "Le préfet"
+        "text": "Le préfet (le représentant de l'État)"
       }
     ],
     "correctAnswer": "c",
@@ -2144,7 +2144,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La commune"
+        "text": "Les communes"
       },
       {
         "id": "b",
@@ -2152,11 +2152,11 @@
       },
       {
         "id": "c",
-        "text": "La région"
+        "text": "Les régions"
       },
       {
         "id": "d",
-        "text": "L'État"
+        "text": "L'État central"
       }
     ],
     "correctAnswer": "b",
@@ -2280,15 +2280,15 @@
       },
       {
         "id": "b",
-        "text": "Un décret du Président"
+        "text": "Un décret du Président de la République publié au Journal officiel"
       },
       {
         "id": "c",
-        "text": "Un vote de l'Assemblée nationale seule"
+        "text": "Un vote de l'Assemblée nationale seule, sans accord du Sénat"
       },
       {
         "id": "d",
-        "text": "Une décision du Conseil constitutionnel"
+        "text": "Une décision unilatérale du Conseil constitutionnel en séance"
       }
     ],
     "correctAnswer": "a",
@@ -2344,7 +2344,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Voter les lois"
+        "text": "Voter les lois de la République"
       },
       {
         "id": "b",
@@ -2352,11 +2352,11 @@
       },
       {
         "id": "c",
-        "text": "Diriger le gouvernement"
+        "text": "Diriger le gouvernement et les ministères"
       },
       {
         "id": "d",
-        "text": "Commander l'armée"
+        "text": "Commander l'armée et la défense nationale"
       }
     ],
     "correctAnswer": "b",
@@ -2378,7 +2378,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Être âgé de plus de 40 ans"
+        "text": "Être âgé de plus de quarante ans révolus"
       },
       {
         "id": "b",
@@ -2386,11 +2386,11 @@
       },
       {
         "id": "c",
-        "text": "Être membre d'un parti politique"
+        "text": "Être membre d'un parti politique officiel reconnu"
       },
       {
         "id": "d",
-        "text": "Avoir été député ou sénateur"
+        "text": "Avoir été député ou sénateur au moins une fois"
       }
     ],
     "correctAnswer": "b",
@@ -2449,15 +2449,15 @@
       },
       {
         "id": "b",
-        "text": "En provinces et cantons"
+        "text": "En provinces, cantons et bailliages"
       },
       {
         "id": "c",
-        "text": "En États fédérés"
+        "text": "En États fédérés autonomes et souverains"
       },
       {
         "id": "d",
-        "text": "En arrondissements uniquement"
+        "text": "En arrondissements et en cantons uniquement"
       }
     ],
     "correctAnswer": "a",
@@ -2512,7 +2512,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Voter les lois"
+        "text": "Voter les lois au Parlement et contrôler le budget annuel de la nation"
       },
       {
         "id": "b",
@@ -2520,11 +2520,11 @@
       },
       {
         "id": "c",
-        "text": "Gérer les communes"
+        "text": "Gérer les communes et les départements en tant que chef de l'administration"
       },
       {
         "id": "d",
-        "text": "Rendre la justice"
+        "text": "Rendre la justice et présider les audiences de la Cour de cassation"
       }
     ],
     "correctAnswer": "b",
@@ -2579,7 +2579,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Voter les lois"
+        "text": "Voter les lois relatives à la protection des libertés fondamentales au Parlement"
       },
       {
         "id": "b",
@@ -2587,11 +2587,11 @@
       },
       {
         "id": "c",
-        "text": "Commander l'armée"
+        "text": "Commander les forces armées et coordonner la défense nationale du territoire"
       },
       {
         "id": "d",
-        "text": "Gérer les finances publiques"
+        "text": "Gérer les finances publiques et contrôler l'exécution du budget annuel de l'État"
       }
     ],
     "correctAnswer": "b",
@@ -2713,7 +2713,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Mozart"
+        "text": "Vivaldi"
       },
       {
         "id": "b",
@@ -2721,11 +2721,11 @@
       },
       {
         "id": "c",
-        "text": "Bach"
+        "text": "Debussy"
       },
       {
         "id": "d",
-        "text": "Chopin"
+        "text": "Berlioz"
       }
     ],
     "correctAnswer": "b",
@@ -2846,7 +2846,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Les chefs d'État"
+        "text": "Les chefs d'État des pays membres de l'Union"
       },
       {
         "id": "b",
@@ -2854,11 +2854,11 @@
       },
       {
         "id": "c",
-        "text": "Les commissaires européens"
+        "text": "Les commissaires européens nommés par Bruxelles"
       },
       {
         "id": "d",
-        "text": "Les ambassadeurs des États membres"
+        "text": "Les ambassadeurs des États membres de l'Union"
       }
     ],
     "correctAnswer": "b",
@@ -2982,11 +2982,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "La Grèce"
+        "text": "La Grèce en 2015"
       },
       {
         "id": "b",
-        "text": "La Norvège"
+        "text": "La Norvège en 2018"
       },
       {
         "id": "c",
@@ -2994,7 +2994,7 @@
       },
       {
         "id": "d",
-        "text": "La Suisse"
+        "text": "La Suisse en 2019"
       }
     ],
     "correctAnswer": "c",
@@ -3016,7 +3016,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La Marseillaise"
+        "text": "La Marseillaise de Rouget de Lisle"
       },
       {
         "id": "b",
@@ -3024,11 +3024,11 @@
       },
       {
         "id": "c",
-        "text": "God Save the King"
+        "text": "God Save the King, hymne anglais"
       },
       {
         "id": "d",
-        "text": "La Neuvième de Mozart"
+        "text": "La Neuvième Symphonie de Mozart"
       }
     ],
     "correctAnswer": "b",
@@ -3083,7 +3083,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Les gouvernements des États membres"
+        "text": "Les gouvernements des États membres lors de sommets européens"
       },
       {
         "id": "b",
@@ -3091,11 +3091,11 @@
       },
       {
         "id": "c",
-        "text": "Les parlements nationaux"
+        "text": "Les parlements nationaux de chaque État membre de l'Union"
       },
       {
         "id": "d",
-        "text": "La Commission européenne"
+        "text": "La Commission européenne sur proposition du Conseil des ministres"
       }
     ],
     "correctAnswer": "b",
@@ -3151,7 +3151,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "À exprimer un mécontentement politique"
+        "text": "À exprimer un mécontentement politique contre le gouvernement par des manifestations"
       },
       {
         "id": "b",
@@ -3159,11 +3159,11 @@
       },
       {
         "id": "c",
-        "text": "À bloquer les routes"
+        "text": "À bloquer les routes et les transports pour protester contre les décisions de l'État"
       },
       {
         "id": "d",
-        "text": "À ne plus payer ses impôts"
+        "text": "À ne plus payer ses impôts en cas de désaccord avec la politique fiscale du gouvernement"
       }
     ],
     "correctAnswer": "b",
@@ -3185,7 +3185,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Au nom de la religion"
+        "text": "Au nom de la religion officielle de la République"
       },
       {
         "id": "b",
@@ -3193,11 +3193,11 @@
       },
       {
         "id": "c",
-        "text": "Au nom de l'économie"
+        "text": "Au nom de l'économie et des intérêts financiers"
       },
       {
         "id": "d",
-        "text": "Au nom de la tradition"
+        "text": "Au nom de la tradition et des coutumes ancestrales"
       }
     ],
     "correctAnswer": "b",
@@ -3252,7 +3252,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "On peut faire absolument tout ce qu'on veut"
+        "text": "On peut faire absolument tout ce qu'on veut, il n'y a aucune restriction"
       },
       {
         "id": "b",
@@ -3260,11 +3260,11 @@
       },
       {
         "id": "c",
-        "text": "Il n'y a aucune limite à la liberté"
+        "text": "Il n'y a aucune limite à la liberté individuelle dans une démocratie"
       },
       {
         "id": "d",
-        "text": "Seul l'État peut limiter la liberté"
+        "text": "Seul l'État peut décider des limites de la liberté de chaque citoyen"
       }
     ],
     "correctAnswer": "b",
@@ -3286,7 +3286,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La France est une monarchie"
+        "text": "La France est une monarchie constitutionnelle héréditaire et parlementaire"
       },
       {
         "id": "b",
@@ -3294,11 +3294,11 @@
       },
       {
         "id": "c",
-        "text": "La France est un État fédéral"
+        "text": "La France est un État fédéral composé de régions autonomes et souveraines"
       },
       {
         "id": "d",
-        "text": "La France est une théocratie"
+        "text": "La France est une théocratie fondée sur les principes du droit canonique"
       }
     ],
     "correctAnswer": "b",
@@ -3354,7 +3354,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "De voyager uniquement en France"
+        "text": "De voyager uniquement en France métropolitaine et en outre-mer"
       },
       {
         "id": "b",
@@ -3362,11 +3362,11 @@
       },
       {
         "id": "c",
-        "text": "De conduire sans permis"
+        "text": "De conduire sans permis sur l'ensemble du territoire national"
       },
       {
         "id": "d",
-        "text": "De franchir les frontières sans passeport"
+        "text": "De franchir les frontières européennes sans aucun document officiel"
       }
     ],
     "correctAnswer": "b",
@@ -3388,7 +3388,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Avoir un passeport"
+        "text": "Avoir un passeport délivré par les autorités consulaires de cet État"
       },
       {
         "id": "b",
@@ -3396,11 +3396,11 @@
       },
       {
         "id": "c",
-        "text": "Payer des impôts uniquement"
+        "text": "Payer des impôts uniquement, sans bénéficier de droits fondamentaux"
       },
       {
         "id": "d",
-        "text": "Être né dans cet État"
+        "text": "Être né sur le territoire de cet État et y résider en permanence"
       }
     ],
     "correctAnswer": "b",
@@ -3422,7 +3422,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Des droits réservés aux Français"
+        "text": "Des droits réservés aux citoyens français de naissance, inscrits dans le Code civil depuis 1804"
       },
       {
         "id": "b",
@@ -3430,11 +3430,11 @@
       },
       {
         "id": "c",
-        "text": "Des droits économiques uniquement"
+        "text": "Des droits économiques uniquement, liés au travail et à la propriété, définis par le Code du commerce"
       },
       {
         "id": "d",
-        "text": "Des droits accordés par le Président"
+        "text": "Des droits accordés par le Président de la République aux citoyens méritants par décret officiel"
       }
     ],
     "correctAnswer": "b",
@@ -3456,11 +3456,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le droit de vote"
+        "text": "Le droit de vote et la participation aux élections"
       },
       {
         "id": "b",
-        "text": "La liberté d'expression"
+        "text": "La liberté d'expression et le droit d'opinion"
       },
       {
         "id": "c",
@@ -3468,7 +3468,7 @@
       },
       {
         "id": "d",
-        "text": "Le droit au travail"
+        "text": "Le droit au travail et à la formation professionnelle"
       }
     ],
     "correctAnswer": "c",
@@ -3490,7 +3490,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le Code civil"
+        "text": "Le Code civil de 1804, rédigé sous la direction de Napoléon Bonaparte"
       },
       {
         "id": "b",
@@ -3498,11 +3498,11 @@
       },
       {
         "id": "c",
-        "text": "Le Code du travail"
+        "text": "Le Code du travail, adopté par l'Assemblée nationale en 1910"
       },
       {
         "id": "d",
-        "text": "Le Code pénal"
+        "text": "Le Code pénal de 1791, promulgué lors de la Révolution française"
       }
     ],
     "correctAnswer": "b",
@@ -3524,7 +3524,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La Constitution de 1958"
+        "text": "La Constitution de la Ve République française de 1958"
       },
       {
         "id": "b",
@@ -3532,11 +3532,11 @@
       },
       {
         "id": "c",
-        "text": "La Déclaration universelle des droits de l'homme de 1948"
+        "text": "La Déclaration universelle des droits de l'homme adoptée en 1948"
       },
       {
         "id": "d",
-        "text": "Le Code civil de 1804"
+        "text": "Le Code civil de Napoléon Bonaparte promulgué en 1804"
       }
     ],
     "correctAnswer": "b",
@@ -3592,7 +3592,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le droit de dire tout ce qu'on veut sans aucune limite"
+        "text": "Le droit de dire tout ce qu'on veut sans aucune limite, y compris des propos diffamatoires"
       },
       {
         "id": "b",
@@ -3600,11 +3600,11 @@
       },
       {
         "id": "c",
-        "text": "Le droit de ne parler qu'en français"
+        "text": "Le droit de ne s'exprimer qu'en français sur le territoire de la République française"
       },
       {
         "id": "d",
-        "text": "Le droit réservé aux journalistes"
+        "text": "Le droit réservé aux journalistes professionnels accrédités par le ministère de la Culture"
       }
     ],
     "correctAnswer": "b",
@@ -3728,7 +3728,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Dans un hôpital"
+        "text": "Dans un hôpital, sauf dans les chambres des patients"
       },
       {
         "id": "b",
@@ -3736,11 +3736,11 @@
       },
       {
         "id": "c",
-        "text": "Dans une école"
+        "text": "Dans une école, en dehors des heures de cours"
       },
       {
         "id": "d",
-        "text": "Dans un restaurant fermé"
+        "text": "Dans un restaurant fermé, avec accord du gérant"
       }
     ],
     "correctAnswer": "b",
@@ -3796,7 +3796,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Aider uniquement sa famille"
+        "text": "Aider uniquement sa famille et ses proches, sans obligation envers la collectivité nationale"
       },
       {
         "id": "b",
@@ -3804,11 +3804,11 @@
       },
       {
         "id": "c",
-        "text": "Donner tout son argent"
+        "text": "Donner une partie de ses revenus aux associations caritatives reconnues d'utilité publique"
       },
       {
         "id": "d",
-        "text": "Travailler bénévolement"
+        "text": "Travailler bénévolement dans les services publics au moins quinze heures par mois"
       }
     ],
     "correctAnswer": "b",
@@ -4000,7 +4000,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Sans conséquence"
+        "text": "Sans conséquence juridique pour le conducteur"
       },
       {
         "id": "b",
@@ -4008,11 +4008,11 @@
       },
       {
         "id": "c",
-        "text": "Toléré en zone rurale"
+        "text": "Toléré en zone rurale et dans les petites communes"
       },
       {
         "id": "d",
-        "text": "Uniquement sanctionné le week-end"
+        "text": "Uniquement sanctionné le week-end et les jours fériés"
       }
     ],
     "correctAnswer": "b",
@@ -4034,7 +4034,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un vol simple"
+        "text": "Un vol simple à l'étalage dans un magasin"
       },
       {
         "id": "b",
@@ -4042,11 +4042,11 @@
       },
       {
         "id": "c",
-        "text": "Un excès de vitesse"
+        "text": "Un excès de vitesse sur une route nationale"
       },
       {
         "id": "d",
-        "text": "Le stationnement interdit"
+        "text": "Un stationnement interdit en centre-ville"
       }
     ],
     "correctAnswer": "b",
@@ -4068,7 +4068,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Aller à la préfecture avec un justificatif de domicile"
+        "text": "Aller à la préfecture avec un justificatif de domicile et un acte de naissance certifié"
       },
       {
         "id": "b",
@@ -4076,11 +4076,11 @@
       },
       {
         "id": "c",
-        "text": "Avoir un emploi"
+        "text": "Avoir un emploi stable depuis au moins un an et fournir un contrat de travail en cours"
       },
       {
         "id": "d",
-        "text": "Être propriétaire d'un logement"
+        "text": "Être propriétaire d'un logement et fournir un acte notarié attestant de cette propriété"
       }
     ],
     "correctAnswer": "b",
@@ -4102,7 +4102,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Pour critiquer le gouvernement"
+        "text": "Pour empêcher les citoyens de critiquer les décisions du gouvernement et de ses représentants"
       },
       {
         "id": "b",
@@ -4110,11 +4110,11 @@
       },
       {
         "id": "c",
-        "text": "Pour empêcher les élections"
+        "text": "Pour empêcher les opposants politiques de s'exprimer lors des campagnes électorales nationales"
       },
       {
         "id": "d",
-        "text": "Pour favoriser une religion"
+        "text": "Pour favoriser une religion officielle et interdire l'expression des autres convictions"
       }
     ],
     "correctAnswer": "b",
@@ -4272,7 +4272,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le droit de ne pas utiliser internet"
+        "text": "Le droit de ne pas utiliser internet ni les outils numériques, garanti par la Constitution"
       },
       {
         "id": "b",
@@ -4280,11 +4280,11 @@
       },
       {
         "id": "c",
-        "text": "Le droit d'être anonyme sur internet"
+        "text": "Le droit d'être totalement anonyme sur internet, sans possibilité d'identification par l'État"
       },
       {
         "id": "d",
-        "text": "L'accès gratuit à internet"
+        "text": "L'accès gratuit et illimité à internet pour tous les citoyens, financé par les impôts nationaux"
       }
     ],
     "correctAnswer": "b",
@@ -4306,7 +4306,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Uniquement les juges"
+        "text": "Uniquement les juges professionnels diplômés de l'École nationale de la magistrature"
       },
       {
         "id": "b",
@@ -4314,11 +4314,11 @@
       },
       {
         "id": "c",
-        "text": "Uniquement les avocats"
+        "text": "Uniquement les avocats inscrits au barreau ayant au moins cinq ans d'exercice"
       },
       {
         "id": "d",
-        "text": "Les policiers"
+        "text": "Les policiers et gendarmes ayant au moins dix ans d'ancienneté dans leur corps"
       }
     ],
     "correctAnswer": "b",
@@ -4340,7 +4340,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'obligation de visiter des musées"
+        "text": "L'obligation de visiter des musées et des mémoriaux au moins une fois par an pour chaque citoyen"
       },
       {
         "id": "b",
@@ -4348,11 +4348,11 @@
       },
       {
         "id": "c",
-        "text": "L'obligation d'étudier l'histoire à l'école"
+        "text": "L'obligation d'étudier l'histoire de France à l'école pendant la scolarité obligatoire"
       },
       {
         "id": "d",
-        "text": "Le devoir de conserver les monuments"
+        "text": "Le devoir de conserver et restaurer les monuments historiques aux frais des communes"
       }
     ],
     "correctAnswer": "b",
@@ -4374,7 +4374,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Elle peut voter aux élections"
+        "text": "Elle peut toujours voter aux élections locales et nationales"
       },
       {
         "id": "b",
@@ -4382,11 +4382,11 @@
       },
       {
         "id": "c",
-        "text": "Elle peut être élue mais pas voter"
+        "text": "Elle peut être élue au Parlement mais ne peut pas voter"
       },
       {
         "id": "d",
-        "text": "Elle garde tous ses droits"
+        "text": "Elle garde tous ses droits civiques pendant cette période"
       }
     ],
     "correctAnswer": "b",
@@ -4476,7 +4476,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'anniversaire de Napoléon"
+        "text": "L'anniversaire de Napoléon Bonaparte et le début du Premier Empire"
       },
       {
         "id": "b",
@@ -4484,11 +4484,11 @@
       },
       {
         "id": "c",
-        "text": "La fin de la Seconde Guerre mondiale"
+        "text": "La fin de la Seconde Guerre mondiale et la libération de la France"
       },
       {
         "id": "d",
-        "text": "La création de la Ve République"
+        "text": "La création de la Ve République et l'adoption de la Constitution"
       }
     ],
     "correctAnswer": "b",
@@ -4510,7 +4510,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Interdire l'enseignement religieux"
+        "text": "Interdire tout enseignement religieux en France"
       },
       {
         "id": "b",
@@ -4518,11 +4518,11 @@
       },
       {
         "id": "c",
-        "text": "Créer des universités privées"
+        "text": "Créer des universités privées réservées à l'élite"
       },
       {
         "id": "d",
-        "text": "Fermer les écoles publiques"
+        "text": "Fermer les écoles publiques et favoriser le privé"
       }
     ],
     "correctAnswer": "b",
@@ -4545,7 +4545,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La fin de la Seconde Guerre mondiale"
+        "text": "La fin de la Seconde Guerre mondiale et la libération du territoire"
       },
       {
         "id": "b",
@@ -4553,11 +4553,11 @@
       },
       {
         "id": "c",
-        "text": "La Révolution française"
+        "text": "La Révolution française et l'abolition de la monarchie absolue"
       },
       {
         "id": "d",
-        "text": "L'entrée dans l'Union européenne"
+        "text": "L'entrée dans l'Union européenne et l'adoption de l'euro comme monnaie"
       }
     ],
     "correctAnswer": "b",
@@ -4579,7 +4579,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Écrit la Marseillaise"
+        "text": "Écrit les paroles de la Marseillaise lors de la Révolution française en 1792"
       },
       {
         "id": "b",
@@ -4587,11 +4587,11 @@
       },
       {
         "id": "c",
-        "text": "Fondé la Ve République"
+        "text": "Fondé la Ve République et rédigé la Constitution française de 1958"
       },
       {
         "id": "d",
-        "text": "Aboli l'esclavage"
+        "text": "Aboli l'esclavage dans les colonies françaises par le décret du 27 avril 1848"
       }
     ],
     "correctAnswer": "b",
@@ -4854,11 +4854,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "Louis XIV"
+        "text": "Le roi Louis XIV"
       },
       {
         "id": "b",
-        "text": "Napoléon Ier"
+        "text": "L'empereur Napoléon"
       },
       {
         "id": "c",
@@ -4866,7 +4866,7 @@
       },
       {
         "id": "d",
-        "text": "Clovis"
+        "text": "Le roi franc Clovis"
       }
     ],
     "correctAnswer": "c",
@@ -4924,7 +4924,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un mouvement artistique"
+        "text": "Un mouvement artistique né en Europe centrale dans les années 1920"
       },
       {
         "id": "b",
@@ -4932,11 +4932,11 @@
       },
       {
         "id": "c",
-        "text": "Une bataille de la Première Guerre mondiale"
+        "text": "Une bataille décisive de la Première Guerre mondiale sur le front de l'Est"
       },
       {
         "id": "d",
-        "text": "Un traité de paix"
+        "text": "Un traité de paix signé entre la France et l'Allemagne après la Grande Guerre"
       }
     ],
     "correctAnswer": "b",
@@ -4966,11 +4966,11 @@
       },
       {
         "id": "c",
-        "text": "Hamlet"
+        "text": "Les Fleurs du mal"
       },
       {
         "id": "d",
-        "text": "L'Odyssée"
+        "text": "Madame Bovary"
       }
     ],
     "correctAnswer": "b",
@@ -5196,19 +5196,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "La fin de la Première Guerre mondiale"
+        "text": "La fin de la Première Guerre mondiale et la signature de l'armistice"
       },
       {
         "id": "b",
-        "text": "La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe (8 mai 1945)"
+        "text": "La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe en mai 1945"
       },
       {
         "id": "c",
-        "text": "La Révolution française"
+        "text": "La Révolution française et la prise de la Bastille par le peuple de Paris en 1789"
       },
       {
         "id": "d",
-        "text": "La fête du travail"
+        "text": "La fête du travail et les droits des travailleurs obtenus par les syndicats en mai 1886"
       }
     ],
     "correctAnswer": "b",
@@ -5230,7 +5230,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La création de l'ONU"
+        "text": "La création de l'ONU et du Conseil de sécurité"
       },
       {
         "id": "b",
@@ -5238,11 +5238,11 @@
       },
       {
         "id": "c",
-        "text": "Le traité de Maastricht"
+        "text": "Le traité de Maastricht instituant l'Union européenne"
       },
       {
         "id": "d",
-        "text": "L'adoption de l'euro"
+        "text": "L'adoption de l'euro comme monnaie commune des pays membres"
       }
     ],
     "correctAnswer": "b",
@@ -5332,19 +5332,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'armistice de la Seconde Guerre mondiale"
+        "text": "L'armistice de la Seconde Guerre mondiale signée en 1945"
       },
       {
         "id": "b",
-        "text": "L'armistice de la Première Guerre mondiale (11 novembre 1918)"
+        "text": "L'armistice de la Première Guerre mondiale signée en 1918"
       },
       {
         "id": "c",
-        "text": "La fête nationale"
+        "text": "La fête nationale française commémorant la prise de la Bastille"
       },
       {
         "id": "d",
-        "text": "La Révolution française"
+        "text": "La Révolution française et la Déclaration des droits de l'Homme"
       }
     ],
     "correctAnswer": "b",
@@ -5539,7 +5539,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'OTAN"
+        "text": "L'OTAN (Alliance militaire de l'Atlantique Nord)"
       },
       {
         "id": "b",
@@ -5777,7 +5777,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Une femme politique française"
+        "text": "Une femme politique française, première élue à l'Assemblée nationale"
       },
       {
         "id": "b",
@@ -5785,11 +5785,11 @@
       },
       {
         "id": "c",
-        "text": "Une écrivaine française"
+        "text": "Une écrivaine française, lauréate du prix Goncourt pour ses romans"
       },
       {
         "id": "d",
-        "text": "Une chanteuse célèbre"
+        "text": "Une chanteuse célèbre, ambassadrice de la culture française en Europe"
       }
     ],
     "correctAnswer": "b",
@@ -5886,7 +5886,7 @@
       },
       {
         "id": "c",
-        "text": "Le château de Versailles"
+        "text": "Le château de Rambouillet"
       },
       {
         "id": "d",
@@ -5911,7 +5911,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "À Paris, dans le métro"
+        "text": "Dans les salles du musée du Louvre"
       },
       {
         "id": "b",
@@ -5919,11 +5919,11 @@
       },
       {
         "id": "c",
-        "text": "À Versailles"
+        "text": "Dans les Alpes, autour du Mont Blanc"
       },
       {
         "id": "d",
-        "text": "Au musée du Louvre"
+        "text": "Au musée d'Orsay, sur la rive gauche de Paris"
       }
     ],
     "correctAnswer": "b",
@@ -6043,7 +6043,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un général de la Révolution"
+        "text": "Le fils caché de Napoléon"
       },
       {
         "id": "b",
@@ -6055,7 +6055,7 @@
       },
       {
         "id": "d",
-        "text": "Un philosophe des Lumières"
+        "text": "L'inventeur du drapeau tricolore"
       }
     ],
     "correctAnswer": "b",
@@ -6142,7 +6142,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un roi de France"
+        "text": "Un roi de France du XVIIe siècle, connu pour la révocation de l'édit de Nantes en 1685"
       },
       {
         "id": "b",
@@ -6150,11 +6150,11 @@
       },
       {
         "id": "c",
-        "text": "Un peintre impressionniste"
+        "text": "Un peintre du XVIIe siècle, célèbre pour ses portraits de la cour de Versailles"
       },
       {
         "id": "d",
-        "text": "Un général de Napoléon"
+        "text": "Un général des armées, commandant de la Grande Armée lors de la campagne d'Italie"
       }
     ],
     "correctAnswer": "b",
@@ -6175,7 +6175,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un peintre"
+        "text": "Un peintre du XIXe siècle, figure du mouvement réaliste"
       },
       {
         "id": "b",
@@ -6183,11 +6183,11 @@
       },
       {
         "id": "c",
-        "text": "Un musicien"
+        "text": "Un compositeur du XIXe siècle, auteur d'opéras lyriques"
       },
       {
         "id": "d",
-        "text": "Un homme politique"
+        "text": "Un homme politique, ministre de l'Intérieur en 1848"
       }
     ],
     "correctAnswer": "b",
@@ -6208,7 +6208,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Une reine de France"
+        "text": "Une reine de France au XVIIIe siècle, épouse de Louis XVI"
       },
       {
         "id": "b",
@@ -6216,11 +6216,11 @@
       },
       {
         "id": "c",
-        "text": "Une scientifique"
+        "text": "Une scientifique du XIXe siècle, pionnière de la biologie"
       },
       {
         "id": "d",
-        "text": "Une chanteuse"
+        "text": "Une chanteuse d'opéra, vedette des scènes lyriques européennes"
       }
     ],
     "correctAnswer": "b",
@@ -6241,7 +6241,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Une actrice"
+        "text": "Une actrice de cinéma et de théâtre, récompensée au festival de Cannes"
       },
       {
         "id": "b",
@@ -6249,11 +6249,11 @@
       },
       {
         "id": "c",
-        "text": "Une scientifique"
+        "text": "Une physicienne, chercheuse au CNRS et lauréate du prix Nobel en 1953"
       },
       {
         "id": "d",
-        "text": "Une femme politique"
+        "text": "Une femme politique, première sénatrice élue sous la IVe République"
       }
     ],
     "correctAnswer": "b",
@@ -6274,7 +6274,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un musicien"
+        "text": "Un compositeur d'origine algérienne, directeur du Conservatoire de Paris"
       },
       {
         "id": "b",
@@ -6282,11 +6282,11 @@
       },
       {
         "id": "c",
-        "text": "Un peintre"
+        "text": "Un peintre postimpressionniste né en Algérie, exposé au Salon d'automne"
       },
       {
         "id": "d",
-        "text": "Un homme politique"
+        "text": "Un homme politique franco-algérien, député de la IVe République en 1954"
       }
     ],
     "correctAnswer": "b",
@@ -6307,7 +6307,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Une chanteuse"
+        "text": "Une chanteuse d'opéra reconnue internationalement, primée au festival de Bayreuth"
       },
       {
         "id": "b",
@@ -6315,11 +6315,11 @@
       },
       {
         "id": "c",
-        "text": "Une scientifique"
+        "text": "Une scientifique spécialiste de la biologie moléculaire, lauréate du prix Nobel en 1962"
       },
       {
         "id": "d",
-        "text": "Une femme politique"
+        "text": "Une femme politique, première ministre de l'Éducation nationale sous la Ve République"
       }
     ],
     "correctAnswer": "b",
@@ -6340,7 +6340,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un sculpteur"
+        "text": "Un sculpteur néoclassique, formé à l'École des beaux-arts"
       },
       {
         "id": "b",
@@ -6348,11 +6348,11 @@
       },
       {
         "id": "c",
-        "text": "Un musicien"
+        "text": "Un compositeur romantique, auteur de sonates pour violoncelle"
       },
       {
         "id": "d",
-        "text": "Un architecte"
+        "text": "Un architecte provençal, concepteur de la gare Saint-Charles"
       }
     ],
     "correctAnswer": "b",
@@ -6373,7 +6373,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un peintre"
+        "text": "Un peintre néoclassique, auteur de fresques au plafond du Louvre"
       },
       {
         "id": "b",
@@ -6381,11 +6381,11 @@
       },
       {
         "id": "c",
-        "text": "Un musicien"
+        "text": "Un compositeur romantique, auteur de l'opéra Carmen à Paris"
       },
       {
         "id": "d",
-        "text": "Un architecte"
+        "text": "Un architecte du XIXe siècle, concepteur de la gare d'Orsay"
       }
     ],
     "correctAnswer": "b",
@@ -6439,7 +6439,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un sculpteur"
+        "text": "Un sculpteur néoclassique, auteur du Monument aux morts de Bordeaux"
       },
       {
         "id": "b",
@@ -6447,11 +6447,11 @@
       },
       {
         "id": "c",
-        "text": "Un architecte"
+        "text": "Un architecte du XIXe siècle, concepteur du palais du Trocadéro"
       },
       {
         "id": "d",
-        "text": "Un photographe"
+        "text": "Un photographe pionnier, inventeur du procédé de la photogravure"
       }
     ],
     "correctAnswer": "b",
@@ -6573,7 +6573,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La Corse"
+        "text": "L'île de Cuba"
       },
       {
         "id": "b",
@@ -6581,11 +6581,11 @@
       },
       {
         "id": "c",
-        "text": "La Réunion"
+        "text": "L'île de la Réunion"
       },
       {
         "id": "d",
-        "text": "Mayotte"
+        "text": "L'île de Mayotte"
       }
     ],
     "correctAnswer": "b",
@@ -6607,7 +6607,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Madagascar"
+        "text": "L'île Maurice"
       },
       {
         "id": "b",
@@ -6615,11 +6615,11 @@
       },
       {
         "id": "c",
-        "text": "La Corse"
+        "text": "La Sardaigne"
       },
       {
         "id": "d",
-        "text": "Tahiti"
+        "text": "Les Bermudes"
       }
     ],
     "correctAnswer": "b",
@@ -6743,7 +6743,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Paris"
+        "text": "Toulouse, en Occitanie"
       },
       {
         "id": "b",
@@ -6751,11 +6751,11 @@
       },
       {
         "id": "c",
-        "text": "Toulouse"
+        "text": "Marseille, dans les Bouches-du-Rhône"
       },
       {
         "id": "d",
-        "text": "Bordeaux"
+        "text": "Bordeaux, en Nouvelle-Aquitaine"
       }
     ],
     "correctAnswer": "b",
@@ -6844,7 +6844,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Les anciennes colonies françaises"
+        "text": "Les anciennes colonies françaises devenues indépendantes depuis 1960"
       },
       {
         "id": "b",
@@ -6852,11 +6852,11 @@
       },
       {
         "id": "c",
-        "text": "Les pays francophones"
+        "text": "Les pays francophones d'Afrique et d'Asie liés à la France par traité"
       },
       {
         "id": "d",
-        "text": "Les départements du sud de la France"
+        "text": "Les départements du sud de la France situés au bord de la Méditerranée"
       }
     ],
     "correctAnswer": "b",
@@ -7210,7 +7210,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "À l'hôpital"
+        "text": "À l'hôpital (service d'obstétrique)"
       },
       {
         "id": "b",
@@ -7218,11 +7218,11 @@
       },
       {
         "id": "c",
-        "text": "À la préfecture"
+        "text": "À la préfecture (bureau des familles)"
       },
       {
         "id": "d",
-        "text": "Au commissariat"
+        "text": "Au commissariat (service des mineurs)"
       }
     ],
     "correctAnswer": "b",
@@ -7244,7 +7244,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Casser un mur porteur"
+        "text": "Casser un mur porteur pour agrandir une pièce du logement"
       },
       {
         "id": "b",
@@ -7252,11 +7252,11 @@
       },
       {
         "id": "c",
-        "text": "Changer les fenêtres"
+        "text": "Changer les fenêtres et modifier l'isolation extérieure"
       },
       {
         "id": "d",
-        "text": "Modifier la plomberie principale"
+        "text": "Modifier la plomberie principale et les canalisations de l'immeuble"
       }
     ],
     "correctAnswer": "b",
@@ -7277,7 +7277,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le mariage religieux"
+        "text": "Le mariage religieux célébré à l'église"
       },
       {
         "id": "b",
@@ -7285,11 +7285,11 @@
       },
       {
         "id": "c",
-        "text": "Le mariage coutumier"
+        "text": "Le mariage coutumier devant la famille"
       },
       {
         "id": "d",
-        "text": "Le mariage par contrat privé"
+        "text": "Le mariage par contrat privé entre époux"
       }
     ],
     "correctAnswer": "b",
@@ -7343,7 +7343,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La jeter dans la rue"
+        "text": "La jeter dans la rue devant son domicile pour le ramassage"
       },
       {
         "id": "b",
@@ -7351,11 +7351,11 @@
       },
       {
         "id": "c",
-        "text": "La brûler"
+        "text": "La brûler dans son jardin ou sur un terrain public à proximité"
       },
       {
         "id": "d",
-        "text": "L'abandonner sur le trottoir"
+        "text": "L'abandonner dans une forêt ou un terrain vague à proximité"
       }
     ],
     "correctAnswer": "b",
@@ -7409,7 +7409,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Dans les 30 jours"
+        "text": "Dans les 30 jours suivant la naissance"
       },
       {
         "id": "b",
@@ -7417,11 +7417,11 @@
       },
       {
         "id": "c",
-        "text": "Dans les 3 mois"
+        "text": "Dans les 3 mois suivant la naissance"
       },
       {
         "id": "d",
-        "text": "Dans l'année"
+        "text": "Dans l'année civile suivant la naissance"
       }
     ],
     "correctAnswer": "b",
@@ -7510,7 +7510,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "À la préfecture"
+        "text": "À la préfecture du département"
       },
       {
         "id": "b",
@@ -7518,11 +7518,11 @@
       },
       {
         "id": "c",
-        "text": "Au commissariat"
+        "text": "Au commissariat de leur quartier"
       },
       {
         "id": "d",
-        "text": "À l'inspection académique"
+        "text": "À l'inspection académique de zone"
       }
     ],
     "correctAnswer": "b",
@@ -7610,7 +7610,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Uniquement le mari"
+        "text": "Uniquement le mari, en tant que chef de famille reconnu"
       },
       {
         "id": "b",
@@ -7618,11 +7618,11 @@
       },
       {
         "id": "c",
-        "text": "Uniquement la femme"
+        "text": "Uniquement la femme, après cinq ans de mariage minimum"
       },
       {
         "id": "d",
-        "text": "Le juge uniquement"
+        "text": "Le juge uniquement, après une enquête sociale obligatoire"
       }
     ],
     "correctAnswer": "b",
@@ -7644,7 +7644,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "À la mairie"
+        "text": "À la mairie du lieu de résidence du patient"
       },
       {
         "id": "b",
@@ -7652,11 +7652,11 @@
       },
       {
         "id": "c",
-        "text": "Au commissariat"
+        "text": "Au commissariat de police de son quartier"
       },
       {
         "id": "d",
-        "text": "À la préfecture"
+        "text": "À la préfecture du département de résidence"
       }
     ],
     "correctAnswer": "b",
@@ -7710,7 +7710,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le médecin peut partager les informations avec l'employeur"
+        "text": "Le médecin peut partager les informations médicales du patient avec son employeur"
       },
       {
         "id": "b",
@@ -7718,11 +7718,11 @@
       },
       {
         "id": "c",
-        "text": "Le patient ne peut pas accéder à son dossier médical"
+        "text": "Le patient ne peut pas accéder à son propre dossier médical ni en obtenir une copie"
       },
       {
         "id": "d",
-        "text": "Les données de santé sont publiques"
+        "text": "Les données de santé de chaque patient sont accessibles à tous les citoyens"
       }
     ],
     "correctAnswer": "b",
@@ -7743,7 +7743,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "À payer ses impôts"
+        "text": "À payer ses impôts auprès du Trésor public"
       },
       {
         "id": "b",
@@ -7751,11 +7751,11 @@
       },
       {
         "id": "c",
-        "text": "À voyager gratuitement"
+        "text": "À voyager gratuitement dans les transports"
       },
       {
         "id": "d",
-        "text": "À obtenir un emploi"
+        "text": "À obtenir un emploi auprès de France Travail"
       }
     ],
     "correctAnswer": "b",
@@ -7776,7 +7776,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "À remplacer l'Assurance maladie"
+        "text": "À remplacer entièrement l'Assurance maladie pour tous les soins médicaux"
       },
       {
         "id": "b",
@@ -7784,11 +7784,11 @@
       },
       {
         "id": "c",
-        "text": "À payer les impôts"
+        "text": "À payer les impôts sur les revenus et les cotisations sociales obligatoires"
       },
       {
         "id": "d",
-        "text": "À obtenir un logement"
+        "text": "À obtenir un logement social auprès des organismes d'habitation à loyer modéré"
       }
     ],
     "correctAnswer": "b",
@@ -7809,7 +7809,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un impôt sur les soins"
+        "text": "Un impôt prélevé sur les soins médicaux et les consultations"
       },
       {
         "id": "b",
@@ -7817,11 +7817,11 @@
       },
       {
         "id": "c",
-        "text": "Une assurance voyage"
+        "text": "Une assurance voyage obligatoire pour les déplacements à l'étranger"
       },
       {
         "id": "d",
-        "text": "Un type de mutuelle"
+        "text": "Un type de mutuelle réservé aux fonctionnaires et agents publics"
       }
     ],
     "correctAnswer": "b",
@@ -7943,7 +7943,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le salaire moyen en France"
+        "text": "Le salaire moyen en France calculé chaque trimestre"
       },
       {
         "id": "b",
@@ -7951,11 +7951,11 @@
       },
       {
         "id": "c",
-        "text": "Le salaire maximum autorisé"
+        "text": "Le salaire maximum autorisé dans la fonction publique"
       },
       {
         "id": "d",
-        "text": "Le salaire des fonctionnaires"
+        "text": "Le salaire des fonctionnaires fixé par décret annuel"
       }
     ],
     "correctAnswer": "b",
@@ -7976,7 +7976,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Écrire au Président de la République"
+        "text": "Écrire au Président de la République pour demander un emploi"
       },
       {
         "id": "b",
@@ -7984,11 +7984,11 @@
       },
       {
         "id": "c",
-        "text": "Aller à la mairie"
+        "text": "Aller à la mairie pour demander une aide à l'emploi locale"
       },
       {
         "id": "d",
-        "text": "Publier une annonce dans le journal"
+        "text": "Publier une annonce dans le journal officiel de la commune"
       }
     ],
     "correctAnswer": "b",
@@ -8074,7 +8074,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Non, c'est interdit"
+        "text": "Non, c'est interdit par le Code du commerce"
       },
       {
         "id": "b",
@@ -8082,11 +8082,11 @@
       },
       {
         "id": "c",
-        "text": "Seulement après 10 ans de résidence"
+        "text": "Seulement après dix ans de résidence en France"
       },
       {
         "id": "d",
-        "text": "Uniquement dans certains secteurs"
+        "text": "Uniquement dans certains secteurs définis par la loi"
       }
     ],
     "correctAnswer": "b",
@@ -8105,7 +8105,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Non, c'est réservé aux hommes"
+        "text": "Non, c'est un droit réservé aux hommes par le Code civil"
       },
       {
         "id": "b",
@@ -8113,11 +8113,11 @@
       },
       {
         "id": "c",
-        "text": "Seulement avec l'accord de son mari"
+        "text": "Seulement avec l'accord de son mari ou d'un tuteur légal"
       },
       {
         "id": "d",
-        "text": "Uniquement dans certains secteurs"
+        "text": "Uniquement dans certains secteurs autorisés pour les femmes"
       }
     ],
     "correctAnswer": "b",
@@ -8139,7 +8139,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Uniquement le contrat de travail"
+        "text": "Uniquement le contrat de travail signé entre l'employeur et le salarié"
       },
       {
         "id": "b",
@@ -8147,11 +8147,11 @@
       },
       {
         "id": "c",
-        "text": "Uniquement la Constitution"
+        "text": "Uniquement la Constitution et les décrets publiés au Journal officiel"
       },
       {
         "id": "d",
-        "text": "Les règlements de l'entreprise uniquement"
+        "text": "Les règlements internes de l'entreprise, sans autre cadre juridique national"
       }
     ],
     "correctAnswer": "b",
@@ -8172,7 +8172,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Les affaires criminelles"
+        "text": "Les affaires criminelles et les délits graves"
       },
       {
         "id": "b",
@@ -8180,11 +8180,11 @@
       },
       {
         "id": "c",
-        "text": "Les affaires de divorce"
+        "text": "Les affaires de divorce et de droit familial"
       },
       {
         "id": "d",
-        "text": "Les infractions routières"
+        "text": "Les infractions routières et les contraventions"
       }
     ],
     "correctAnswer": "b",
@@ -8205,7 +8205,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Uniquement les salariés français"
+        "text": "Uniquement les salariés de nationalité française"
       },
       {
         "id": "b",
@@ -8213,11 +8213,11 @@
       },
       {
         "id": "c",
-        "text": "Uniquement les fonctionnaires"
+        "text": "Uniquement les fonctionnaires de la fonction publique"
       },
       {
         "id": "d",
-        "text": "Uniquement les cadres"
+        "text": "Uniquement les cadres et les dirigeants d'entreprise"
       }
     ],
     "correctAnswer": "b",
@@ -8305,7 +8305,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Une amende de 135 €"
+        "text": "Une amende de 135 € et un rappel à la loi par le juge"
       },
       {
         "id": "b",
@@ -8313,11 +8313,11 @@
       },
       {
         "id": "c",
-        "text": "Un avertissement"
+        "text": "Un avertissement écrit de l'inspection académique"
       },
       {
         "id": "d",
-        "text": "Aucune sanction"
+        "text": "Aucune sanction, l'instruction n'est pas obligatoire"
       }
     ],
     "correctAnswer": "b",
@@ -8339,7 +8339,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Le droit de punir ses enfants"
+        "text": "Le droit exclusif de punir physiquement ses enfants dans le cadre de l'éducation familiale"
       },
       {
         "id": "b",
@@ -8347,11 +8347,11 @@
       },
       {
         "id": "c",
-        "text": "Le droit de choisir la religion de son enfant"
+        "text": "Le droit de choisir la religion et les convictions politiques de son enfant jusqu'à sa majorité"
       },
       {
         "id": "d",
-        "text": "L'obligation de scolariser son enfant"
+        "text": "L'obligation de scolariser son enfant dans l'établissement public le plus proche du domicile"
       }
     ],
     "correctAnswer": "b",
@@ -8372,7 +8372,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Un voyage familial non prévu"
+        "text": "Un voyage familial non prévu, à la demande des parents"
       },
       {
         "id": "b",
@@ -8380,11 +8380,11 @@
       },
       {
         "id": "c",
-        "text": "Un anniversaire"
+        "text": "L'anniversaire d'un membre de la famille de l'enfant"
       },
       {
         "id": "d",
-        "text": "Du mauvais temps"
+        "text": "Du mauvais temps (pluie, vent fort ou température basse)"
       }
     ],
     "correctAnswer": "b",
@@ -8504,7 +8504,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Rien, les parents n'ont pas de rôle à l'école"
+        "text": "Ne rien faire, car les parents n'ont aucun rôle officiel dans le fonctionnement de l'école"
       },
       {
         "id": "b",
@@ -8512,11 +8512,11 @@
       },
       {
         "id": "c",
-        "text": "Donner des cours aux élèves"
+        "text": "Donner des cours aux élèves en remplacement des enseignants absents, sur autorisation"
       },
       {
         "id": "d",
-        "text": "Choisir les enseignants"
+        "text": "Choisir les enseignants de la classe de son enfant et demander leur remplacement"
       }
     ],
     "correctAnswer": "b",
@@ -8537,7 +8537,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Aucune, ils doivent apprendre seuls"
+        "text": "Aucune instruction spécifique, ils doivent apprendre seuls le français"
       },
       {
         "id": "b",
@@ -8545,11 +8545,11 @@
       },
       {
         "id": "c",
-        "text": "Ils sont exclus de l'école"
+        "text": "Ils sont exclus de l'école publique jusqu'à la maîtrise du français"
       },
       {
         "id": "d",
-        "text": "Ils sont renvoyés dans leur pays d'origine"
+        "text": "Ils sont renvoyés dans leur pays d'origine pour y suivre leur scolarité"
       }
     ],
     "correctAnswer": "b",
@@ -8637,7 +8637,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "Oui, c'est un droit des parents"
+        "text": "Oui, c'est un droit reconnu par le Code civil aux parents"
       },
       {
         "id": "b",
@@ -8645,11 +8645,11 @@
       },
       {
         "id": "c",
-        "text": "Oui, si c'est pour l'éduquer"
+        "text": "Oui, si c'est dans un but éducatif et de manière modérée"
       },
       {
         "id": "d",
-        "text": "Oui, mais légèrement"
+        "text": "Oui, mais uniquement de manière légère et sans laisser de traces"
       }
     ],
     "correctAnswer": "b",

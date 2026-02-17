@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -296,4 +297,18 @@
 }
 .animate-choice-pop {
   animation: choice-pop 0.25s ease-out;
+}
+
+/* Section highlight flash (from search navigation) */
+@keyframes section-highlight-flash {
+  0% { background-color: oklch(0.8 0.1 264 / 0.3); }
+  70% { background-color: oklch(0.8 0.1 264 / 0.15); }
+  100% { background-color: transparent; }
+}
+.section-highlight {
+  animation: section-highlight-flash 2.5s ease-out;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
