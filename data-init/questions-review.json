@@ -5196,19 +5196,19 @@
     "choices": [
       {
         "id": "a",
-        "text": "La fin de la Première Guerre mondiale et la signature de l'armistice en novembre 1918"
+        "text": "La fin de la Première Guerre mondiale et la signature de l'armistice"
       },
       {
         "id": "b",
-        "text": "La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe (8 mai 1945)"
+        "text": "La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe en mai 1945"
       },
       {
         "id": "c",
-        "text": "La Révolution française et la prise de la Bastille par le peuple de Paris en juillet 1789"
+        "text": "La Révolution française et la prise de la Bastille par le peuple de Paris en 1789"
       },
       {
         "id": "d",
-        "text": "La fête du travail et les droits des travailleurs obtenus par les syndicats le 1er mai 1886"
+        "text": "La fête du travail et les droits des travailleurs obtenus par les syndicats en mai 1886"
       }
     ],
     "correctAnswer": "b",
@@ -5230,7 +5230,7 @@
     "choices": [
       {
         "id": "a",
-        "text": "La création de l'ONU et du Conseil de sécurité en 1945"
+        "text": "La création de l'ONU et du Conseil de sécurité"
       },
       {
         "id": "b",
@@ -5332,11 +5332,11 @@
     "choices": [
       {
         "id": "a",
-        "text": "L'armistice de la Seconde Guerre mondiale signé le 8 mai 1945"
+        "text": "L'armistice de la Seconde Guerre mondiale signée en 1945"
       },
       {
         "id": "b",
-        "text": "L'armistice de la Première Guerre mondiale (11 novembre 1918)"
+        "text": "L'armistice de la Première Guerre mondiale signée en 1918"
       },
       {
         "id": "c",
@@ -5344,7 +5344,7 @@
       },
       {
         "id": "d",
-        "text": "La Révolution française et la Déclaration des droits de l'homme"
+        "text": "La Révolution française et la Déclaration des droits de l'Homme"
       }
     ],
     "correctAnswer": "b",
@@ -7993,9 +7993,7 @@
     ],
     "correctAnswer": "b",
     "explanation": "La première démarche pour chercher un emploi est de s'inscrire à France Travail (anciennement Pôle emploi) pour bénéficier d'un accompagnement et d'éventuelles allocations.\nPour en savoir plus, consultez la fiche : Orientation (1/5)",
-    "relatedFicheIds": [
-      "vivre-societe-francaise--emploi--orientation-1"
-    ],
+    "relatedFicheIds": ["vivre-societe-francaise--emploi--orientation-1"],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },
@@ -8093,9 +8091,7 @@
     ],
     "correctAnswer": "b",
     "explanation": "Une personne étrangère en situation régulière peut créer son entreprise en France dans les mêmes conditions qu'un Français.\nPour en savoir plus, consultez la fiche : Types d'emploi (3/3)",
-    "relatedFicheIds": [
-      "vivre-societe-francaise--emploi--types-emploi-3"
-    ],
+    "relatedFicheIds": ["vivre-societe-francaise--emploi--types-emploi-3"],
     "difficulty": "easy",
     "reviewStatus": "reviewed"
   },

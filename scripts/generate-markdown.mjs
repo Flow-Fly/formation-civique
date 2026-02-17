@@ -27,6 +27,130 @@ const BASE_URL = "https://formation-civique.interieur.gouv.fr";
 // ─── Group definitions for large subcategories ──────────────────────
 
 const GROUP_DEFINITIONS = {
+  "principes-et-valeurs": {
+    "la-devise-de-la-republique": [
+      {
+        id: "egalite",
+        name: "L'égalité",
+        slugs: ["egalite-1", "egalite-2", "egalite-3"],
+      },
+      {
+        id: "fraternite",
+        name: "La fraternité",
+        slugs: ["fraternite-1", "fraternite-2"],
+      },
+    ],
+    "la-laicite": [
+      {
+        id: "definition-laicite",
+        name: "La définition de la laïcité",
+        slugs: ["la-definition-de-la-laicite-1", "definition-laicite-2"],
+      },
+      {
+        id: "laicite-ecole",
+        name: "La laïcité à l'école",
+        slugs: ["la-laicite-a-ecole-1", "la-laicite-a-ecole-2"],
+      },
+    ],
+  },
+  "systeme-institutionnel": {
+    "etat-de-droit-et-separation-des-pouvoirs": [
+      {
+        id: "presentation-3-pouvoirs",
+        name: "Présentation des 3 pouvoirs",
+        slugs: [
+          "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+        ],
+      },
+    ],
+    "democratie-et-droit-de-vote": [
+      {
+        id: "democratie-et-republique",
+        name: "La démocratie et la République",
+        slugs: [
+          "democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        ],
+      },
+      {
+        id: "conditions-pour-voter",
+        name: "Les conditions pour voter en France",
+        slugs: [
+          "democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        ],
+      },
+      {
+        id: "comment-voter-une-loi",
+        name: "Comment voter une loi",
+        slugs: ["comment-voter-une-loi-1", "comment-voter-une-loi-2"],
+      },
+    ],
+    "organisation-de-la-republique-francaise": [
+      {
+        id: "decoupage-administratif",
+        name: "Le découpage administratif de la France",
+        slugs: [
+          "le-decoupage-administratif-de-la-france-1",
+          "le-decoupage-administratif-de-la-france-2",
+          "le-decoupage-administratif-de-la-france-3",
+        ],
+      },
+    ],
+    "institutions-europeennes": [
+      {
+        id: "symboles-europeens",
+        name: "Les symboles européens",
+        slugs: ["les-symboles-europeens-1", "les-symboles-europeens-2"],
+      },
+      {
+        id: "fonctionnement-europeen",
+        name: "Le fonctionnement européen",
+        slugs: ["le-fonctionnement-europeen-1", "le-fonctionnement-europeen-2"],
+      },
+    ],
+  },
+  "droits-et-devoirs": {
+    "droits-fondamentaux": [
+      {
+        id: "principaux-textes",
+        name: "Présentation des principaux textes",
+        slugs: [
+          "les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+          "les-principaux-textes-la-constitution-de-la-5-republique",
+          "les-principaux-textes-la-charte-de-lenvironnement",
+        ],
+      },
+    ],
+    "obligations-et-devoirs-des-personnes-residant-en-france": [
+      {
+        id: "cadre-legal",
+        name: "Cadre légal",
+        slugs: [
+          "la-limite-des-libertes-individuelles",
+          "se-conformer-aux-lois-les-infractions",
+          "se-conformer-aux-lois-les-acteurs",
+          "les-obligations-en-tant-que-resident-francais",
+          "les-obligations-en-tant-que-citoyen-francais",
+        ],
+      },
+      {
+        id: "violences-et-protection",
+        name: "Violences et protection",
+        slugs: [
+          "linterdiction-de-toutes-les-formes-de-violences",
+          "l-interdiction-des-violences-faites-aux-enfants",
+          "linterdiction-des-mutilations-sexuelles-f%C3%A9minines",
+          "linterdiction-des-violences-sexuelles",
+          "la-traite-des-etres-humains-et-la-prostitution",
+          "la-protection-des-victimes-de-violences",
+          "le-role-des-temoins-en-cas-de-violences",
+          "obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        ],
+      },
+    ],
+  },
   "histoire-geographie-culture": {
     culture: [
       {
@@ -116,6 +240,27 @@ const GROUP_DEFINITIONS = {
           "le-gouvernement-provisoire-de-la-republique-francaise-1944-1946",
           "la-quatrieme-republique-1946-1958",
           "la-cinquieme-republique",
+        ],
+      },
+    ],
+    "les-conflits-mondiaux-et-le-nouvel-ordre-mondial": [
+      {
+        id: "seconde-guerre-mondiale",
+        name: "La Seconde Guerre mondiale (1939-1945)",
+        slugs: [
+          "la-seconde-guerre-mondiale-1",
+          "la-seconde-guerre-mondiale-2",
+          "la-seconde-guerre-mondiale-3",
+        ],
+      },
+    ],
+    "zoom-sur": [
+      {
+        id: "territoire-francais-dans-le-temps",
+        name: "Le territoire français dans le temps",
+        slugs: [
+          "le-territoire-francais-dans-le-temps-1",
+          "le-territoire-francais-dans-le-temps-2",
         ],
       },
     ],
@@ -261,32 +406,21 @@ const GROUP_DEFINITIONS = {
         ],
       },
     ],
-  },
-  "droits-et-devoirs": {
-    "obligations-et-devoirs-des-personnes-residant-en-france": [
+    parentalite: [
       {
-        id: "cadre-legal",
-        name: "Cadre légal",
+        id: "autorite-parentale",
+        name: "Exercice de l'autorité parentale",
         slugs: [
-          "la-limite-des-libertes-individuelles",
-          "se-conformer-aux-lois-les-infractions",
-          "se-conformer-aux-lois-les-acteurs",
-          "les-obligations-en-tant-que-resident-francais",
-          "les-obligations-en-tant-que-citoyen-francais",
+          "exercice-de-l-autorite-parentale-1",
+          "exercice-de-l-autorite-parentale-2",
         ],
       },
       {
-        id: "violences-et-protection",
-        name: "Violences et protection",
+        id: "soutien-parentalite",
+        name: "Le soutien à la parentalité",
         slugs: [
-          "linterdiction-de-toutes-les-formes-de-violences",
-          "l-interdiction-des-violences-faites-aux-enfants",
-          "linterdiction-des-mutilations-sexuelles-f%C3%A9minines",
-          "linterdiction-des-violences-sexuelles",
-          "la-traite-des-etres-humains-et-la-prostitution",
-          "la-protection-des-victimes-de-violences",
-          "le-role-des-temoins-en-cas-de-violences",
-          "obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+          "le-soutien-a-la-parentalite-1",
+          "le-soutien-a-la-parentalite-2",
         ],
       },
     ],

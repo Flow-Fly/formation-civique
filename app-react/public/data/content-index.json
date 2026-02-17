@@ -23,45 +23,38 @@
               "originalFicheIds": [
                 "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
               ]
-            },
+            }
+          ],
+          "groups": [
             {
-              "id": "egalite-1",
-              "title": "L'égalité (1/3)",
-              "path": "principes-et-valeurs/la-devise-de-la-republique/egalite-1.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+              "id": "egalite",
+              "name": "L'égalité",
+              "pages": [
+                {
+                  "id": "egalite",
+                  "title": "L'égalité",
+                  "path": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                  "originalFicheIds": [
+                    "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+                    "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+                    "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+                  ]
+                }
               ]
             },
             {
-              "id": "egalite-2",
-              "title": "L'égalité (2/3)",
-              "path": "principes-et-valeurs/la-devise-de-la-republique/egalite-2.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-devise-de-la-republique--egalite-2"
-              ]
-            },
-            {
-              "id": "egalite-3",
-              "title": "L'égalité (3/3)",
-              "path": "principes-et-valeurs/la-devise-de-la-republique/egalite-3.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
-              ]
-            },
-            {
-              "id": "fraternite-1",
-              "title": "La fraternité (1/2)",
-              "path": "principes-et-valeurs/la-devise-de-la-republique/fraternite-1.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-devise-de-la-republique--fraternite-1"
-              ]
-            },
-            {
-              "id": "fraternite-2",
-              "title": "La fraternité (2/2)",
-              "path": "principes-et-valeurs/la-devise-de-la-republique/fraternite-2.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+              "id": "fraternite",
+              "name": "La fraternité",
+              "pages": [
+                {
+                  "id": "fraternite",
+                  "title": "La fraternité",
+                  "path": "principes-et-valeurs/la-devise-de-la-republique/fraternite.md",
+                  "originalFicheIds": [
+                    "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+                    "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+                  ]
+                }
               ]
             }
           ]
@@ -117,22 +110,6 @@
           "name": "La laïcité",
           "pages": [
             {
-              "id": "la-definition-de-la-laicite-1",
-              "title": "La définition de la laïcité (1/2)",
-              "path": "principes-et-valeurs/la-laicite/la-definition-de-la-laicite-1.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
-              ]
-            },
-            {
-              "id": "definition-laicite-2",
-              "title": "La définition de la laïcité (2/2)",
-              "path": "principes-et-valeurs/la-laicite/definition-laicite-2.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-laicite--definition-laicite-2"
-              ]
-            },
-            {
               "id": "histoire-de-la-laicite",
               "title": "Histoire de la laïcité",
               "path": "principes-et-valeurs/la-laicite/histoire-de-la-laicite.md",
@@ -179,21 +156,37 @@
               "originalFicheIds": [
                 "principes-et-valeurs--la-laicite--la-laicite-au-travail"
               ]
-            },
+            }
+          ],
+          "groups": [
             {
-              "id": "la-laicite-a-ecole-1",
-              "title": "La laïcité à l'école (1/2)",
-              "path": "principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+              "id": "definition-laicite",
+              "name": "La définition de la laïcité",
+              "pages": [
+                {
+                  "id": "definition-laicite",
+                  "title": "La définition de la laïcité",
+                  "path": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                  "originalFicheIds": [
+                    "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                    "principes-et-valeurs--la-laicite--definition-laicite-2"
+                  ]
+                }
               ]
             },
             {
-              "id": "la-laicite-a-ecole-2",
-              "title": "La laïcité à l'école (2/2)",
-              "path": "principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.md",
-              "originalFicheIds": [
-                "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+              "id": "laicite-ecole",
+              "name": "La laïcité à l'école",
+              "pages": [
+                {
+                  "id": "laicite-ecole",
+                  "title": "La laïcité à l'école",
+                  "path": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                  "originalFicheIds": [
+                    "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                    "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+                  ]
+                }
               ]
             }
           ]
@@ -243,21 +236,22 @@
               "originalFicheIds": [
                 "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
               ]
-            },
+            }
+          ],
+          "groups": [
             {
-              "id": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
-              "title": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
-              "path": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
-              ]
-            },
-            {
-              "id": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
-              "title": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (2/2)",
-              "path": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+              "id": "presentation-3-pouvoirs",
+              "name": "Présentation des 3 pouvoirs",
+              "pages": [
+                {
+                  "id": "presentation-3-pouvoirs",
+                  "title": "Présentation des 3 pouvoirs",
+                  "path": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                    "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+                  ]
+                }
               ]
             }
           ]
@@ -267,59 +261,58 @@
           "name": "Démocratie et droit de vote",
           "pages": [
             {
-              "id": "democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
-              "title": "La démocratie et la République (1/2)",
-              "path": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-1.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
-              ]
-            },
-            {
-              "id": "democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
-              "title": "La démocratie et la République (2/2)",
-              "path": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
-              ]
-            },
-            {
-              "id": "democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
-              "title": "Les conditions pour voter en France (1/2)",
-              "path": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
-              ]
-            },
-            {
-              "id": "democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
-              "title": "Les conditions pour voter en France (2/2)",
-              "path": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
-              ]
-            },
-            {
               "id": "democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
               "title": "Le principe de pluralité des partis",
               "path": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis.md",
               "originalFicheIds": [
                 "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis"
               ]
-            },
+            }
+          ],
+          "groups": [
             {
-              "id": "comment-voter-une-loi-1",
-              "title": "Comment voter une loi (1/2)",
-              "path": "systeme-institutionnel/democratie-et-droit-de-vote/comment-voter-une-loi-1.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+              "id": "democratie-et-republique",
+              "name": "La démocratie et la République",
+              "pages": [
+                {
+                  "id": "democratie-et-republique",
+                  "title": "La démocratie et la République",
+                  "path": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+                    "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+                  ]
+                }
               ]
             },
             {
-              "id": "comment-voter-une-loi-2",
-              "title": "Comment voter une loi (2/2)",
-              "path": "systeme-institutionnel/democratie-et-droit-de-vote/comment-voter-une-loi-2.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-2"
+              "id": "conditions-pour-voter",
+              "name": "Les conditions pour voter en France",
+              "pages": [
+                {
+                  "id": "conditions-pour-voter",
+                  "title": "Les conditions pour voter en France",
+                  "path": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                    "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "comment-voter-une-loi",
+              "name": "Comment voter une loi",
+              "pages": [
+                {
+                  "id": "comment-voter-une-loi",
+                  "title": "Comment voter une loi",
+                  "path": "systeme-institutionnel/democratie-et-droit-de-vote/comment-voter-une-loi.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+                    "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-2"
+                  ]
+                }
               ]
             }
           ]
@@ -327,29 +320,21 @@
         {
           "id": "organisation-de-la-republique-francaise",
           "name": "Organisation de la République Française",
-          "pages": [
+          "groups": [
             {
-              "id": "le-decoupage-administratif-de-la-france-1",
-              "title": "Le découpage administratif de la France (1/3)",
-              "path": "systeme-institutionnel/organisation-de-la-republique-francaise/le-decoupage-administratif-de-la-france-1.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
-              ]
-            },
-            {
-              "id": "le-decoupage-administratif-de-la-france-2",
-              "title": "Le découpage administratif de la France (2/3)",
-              "path": "systeme-institutionnel/organisation-de-la-republique-francaise/le-decoupage-administratif-de-la-france-2.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
-              ]
-            },
-            {
-              "id": "le-decoupage-administratif-de-la-france-3",
-              "title": "Le découpage administratif de la France (3/3)",
-              "path": "systeme-institutionnel/organisation-de-la-republique-francaise/le-decoupage-administratif-de-la-france-3.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+              "id": "decoupage-administratif",
+              "name": "Le découpage administratif de la France",
+              "pages": [
+                {
+                  "id": "decoupage-administratif",
+                  "title": "Le découpage administratif de la France",
+                  "path": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                    "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+                    "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+                  ]
+                }
               ]
             }
           ]
@@ -367,43 +352,43 @@
               ]
             },
             {
-              "id": "les-symboles-europeens-1",
-              "title": "Les symboles européens (1/2)",
-              "path": "systeme-institutionnel/institutions-europeennes/les-symboles-europeens-1.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1"
-              ]
-            },
-            {
-              "id": "les-symboles-europeens-2",
-              "title": "Les symboles européens (2/2)",
-              "path": "systeme-institutionnel/institutions-europeennes/les-symboles-europeens-2.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2"
-              ]
-            },
-            {
-              "id": "le-fonctionnement-europeen-1",
-              "title": "Le fonctionnement européen (1/2)",
-              "path": "systeme-institutionnel/institutions-europeennes/le-fonctionnement-europeen-1.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
-              ]
-            },
-            {
-              "id": "le-fonctionnement-europeen-2",
-              "title": "Le fonctionnement européen (2/2)",
-              "path": "systeme-institutionnel/institutions-europeennes/le-fonctionnement-europeen-2.md",
-              "originalFicheIds": [
-                "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-2"
-              ]
-            },
-            {
               "id": "les-elections-europeennes",
               "title": "Les élections européennes",
               "path": "systeme-institutionnel/institutions-europeennes/les-elections-europeennes.md",
               "originalFicheIds": [
                 "systeme-institutionnel--institutions-europeennes--les-elections-europeennes"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "symboles-europeens",
+              "name": "Les symboles européens",
+              "pages": [
+                {
+                  "id": "symboles-europeens",
+                  "title": "Les symboles européens",
+                  "path": "systeme-institutionnel/institutions-europeennes/symboles-europeens.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1",
+                    "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fonctionnement-europeen",
+              "name": "Le fonctionnement européen",
+              "pages": [
+                {
+                  "id": "fonctionnement-europeen",
+                  "title": "Le fonctionnement européen",
+                  "path": "systeme-institutionnel/institutions-europeennes/fonctionnement-europeen.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1",
+                    "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-2"
+                  ]
+                }
               ]
             }
           ]
@@ -475,35 +460,29 @@
               ]
             },
             {
-              "id": "les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
-              "title": "Présentation des principaux textes (1/3) : La Déclaration des droits de l'homme et du citoyen",
-              "path": "droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen.md",
-              "originalFicheIds": [
-                "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
-              ]
-            },
-            {
-              "id": "les-principaux-textes-la-constitution-de-la-5-republique",
-              "title": "Présentation des principaux textes (2/3) : La Constitution de la Vème République",
-              "path": "droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique.md",
-              "originalFicheIds": [
-                "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
-              ]
-            },
-            {
-              "id": "les-principaux-textes-la-charte-de-lenvironnement",
-              "title": "Présentation des principaux textes (3/3) : La Charte de l'environnement",
-              "path": "droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-charte-de-lenvironnement.md",
-              "originalFicheIds": [
-                "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-charte-de-lenvironnement"
-              ]
-            },
-            {
               "id": "les-acteurs-institutionnels",
               "title": "Les acteurs institutionnels",
               "path": "droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels.md",
               "originalFicheIds": [
                 "droits-et-devoirs--droits-fondamentaux--les-acteurs-institutionnels"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "principaux-textes",
+              "name": "Présentation des principaux textes",
+              "pages": [
+                {
+                  "id": "principaux-textes",
+                  "title": "Présentation des principaux textes",
+                  "path": "droits-et-devoirs/droits-fondamentaux/principaux-textes.md",
+                  "originalFicheIds": [
+                    "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+                    "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+                    "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-charte-de-lenvironnement"
+                  ]
+                }
               ]
             }
           ]
@@ -686,30 +665,6 @@
               ]
             },
             {
-              "id": "la-seconde-guerre-mondiale-1",
-              "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (1/3)",
-              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1.md",
-              "originalFicheIds": [
-                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1"
-              ]
-            },
-            {
-              "id": "la-seconde-guerre-mondiale-2",
-              "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (2/3)",
-              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-2.md",
-              "originalFicheIds": [
-                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-2"
-              ]
-            },
-            {
-              "id": "la-seconde-guerre-mondiale-3",
-              "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (3/3)",
-              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-3.md",
-              "originalFicheIds": [
-                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-3"
-              ]
-            },
-            {
               "id": "les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
               "title": "La Seconde Guerre mondiale (1939-1945) : les conséquences",
               "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences.md",
@@ -733,28 +688,30 @@
                 "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
               ]
             }
+          ],
+          "groups": [
+            {
+              "id": "seconde-guerre-mondiale",
+              "name": "La Seconde Guerre mondiale (1939-1945)",
+              "pages": [
+                {
+                  "id": "seconde-guerre-mondiale",
+                  "title": "La Seconde Guerre mondiale (1939-1945)",
+                  "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/seconde-guerre-mondiale.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+                    "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-2",
+                    "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-3"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
           "id": "zoom-sur",
           "name": "Zoom sur",
           "pages": [
-            {
-              "id": "le-territoire-francais-dans-le-temps-1",
-              "title": "Le territoire français dans le temps (1/2)",
-              "path": "histoire-geographie-culture/zoom-sur/le-territoire-francais-dans-le-temps-1.md",
-              "originalFicheIds": [
-                "histoire-geographie-culture--zoom-sur--le-territoire-francais-dans-le-temps-1"
-              ]
-            },
-            {
-              "id": "le-territoire-francais-dans-le-temps-2",
-              "title": "Le territoire français dans le temps (2/2)",
-              "path": "histoire-geographie-culture/zoom-sur/le-territoire-francais-dans-le-temps-2.md",
-              "originalFicheIds": [
-                "histoire-geographie-culture--zoom-sur--le-territoire-francais-dans-le-temps-2"
-              ]
-            },
             {
               "id": "l-immigration",
               "title": "L'immigration",
@@ -777,6 +734,23 @@
               "path": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-libération.md",
               "originalFicheIds": [
                 "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "territoire-francais-dans-le-temps",
+              "name": "Le territoire français dans le temps",
+              "pages": [
+                {
+                  "id": "territoire-francais-dans-le-temps",
+                  "title": "Le territoire français dans le temps",
+                  "path": "histoire-geographie-culture/zoom-sur/territoire-francais-dans-le-temps.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--zoom-sur--le-territoire-francais-dans-le-temps-1",
+                    "histoire-geographie-culture--zoom-sur--le-territoire-francais-dans-le-temps-2"
+                  ]
+                }
               ]
             }
           ]
@@ -1303,22 +1277,6 @@
               ]
             },
             {
-              "id": "exercice-de-l-autorite-parentale-1",
-              "title": "Exercice de l’autorité parentale (1/2)",
-              "path": "vivre-societe-francaise/parentalite/exercice-de-l-autorite-parentale-1.md",
-              "originalFicheIds": [
-                "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
-              ]
-            },
-            {
-              "id": "exercice-de-l-autorite-parentale-2",
-              "title": "Exercice de l’autorité parentale (2/2)",
-              "path": "vivre-societe-francaise/parentalite/exercice-de-l-autorite-parentale-2.md",
-              "originalFicheIds": [
-                "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2"
-              ]
-            },
-            {
               "id": "retrait-de-l-autorite-parentale",
               "title": "Retrait de l’autorité parentale",
               "path": "vivre-societe-francaise/parentalite/retrait-de-l-autorite-parentale.md",
@@ -1373,21 +1331,37 @@
               "originalFicheIds": [
                 "vivre-societe-francaise--parentalite--le-dispositif-oepre"
               ]
-            },
+            }
+          ],
+          "groups": [
             {
-              "id": "le-soutien-a-la-parentalite-1",
-              "title": "Le soutien à la parentalité (1/2)",
-              "path": "vivre-societe-francaise/parentalite/le-soutien-a-la-parentalite-1.md",
-              "originalFicheIds": [
-                "vivre-societe-francaise--parentalite--le-soutien-a-la-parentalite-1"
+              "id": "autorite-parentale",
+              "name": "Exercice de l'autorité parentale",
+              "pages": [
+                {
+                  "id": "autorite-parentale",
+                  "title": "Exercice de l'autorité parentale",
+                  "path": "vivre-societe-francaise/parentalite/autorite-parentale.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+                    "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2"
+                  ]
+                }
               ]
             },
             {
-              "id": "le-soutien-a-la-parentalite-2",
-              "title": "Le soutien à la parentalité (2/2)",
-              "path": "vivre-societe-francaise/parentalite/le-soutien-a-la-parentalite-2.md",
-              "originalFicheIds": [
-                "vivre-societe-francaise--parentalite--le-soutien-a-la-parentalite-2"
+              "id": "soutien-parentalite",
+              "name": "Le soutien à la parentalité",
+              "pages": [
+                {
+                  "id": "soutien-parentalite",
+                  "title": "Le soutien à la parentalité",
+                  "path": "vivre-societe-francaise/parentalite/soutien-parentalite.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--parentalite--le-soutien-a-la-parentalite-1",
+                    "vivre-societe-francaise--parentalite--le-soutien-a-la-parentalite-2"
+                  ]
+                }
               ]
             }
           ]
