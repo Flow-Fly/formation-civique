@@ -2,43 +2,65 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.t
 import { Button } from "@/components/ui/button.tsx";
 import { Clock, Sparkles, BookOpen, Layers, PartyPopper } from "lucide-react";
 import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import { StatCard } from "@/components/dashboard/stat-card.tsx";
 import * as sr from "@/services/spaced-repetition.ts";
-import type { Question } from "@/types/index.ts";
+import * as materializer from "@/services/question-materializer.ts";
+import type { QuestionInstance } from "@/types/index.ts";
 
 interface DeckSetupProps {
-  onStart: (cards: Question[]) => void;
+  onStart: (cards: QuestionInstance[]) => void;
 }
 
 export function DeckSetup({ onStart }: DeckSetupProps) {
-  const { questions } = useData();
-  const dueCards = sr.getDueCards(questions);
-  const newCards = sr.getNewCards(questions);
-  const themes = [...new Map(questions.map((q) => [q.themeId, q.themeName])).entries()];
+  const { questionBank } = useData();
+  const { activeExam } = useExam();
+
+  const examQuestions = questionBank.filter(
+    (q) => q.exams.includes(activeExam) && materializer.isQuestionMaterializable(q),
+  );
+
+  const dueCards = sr.getDueCards(examQuestions, activeExam);
+  const newCards = sr.getNewCards(examQuestions, activeExam);
+  const themes = [...new Map(examQuestions.map((q) => [q.themeId, q.themeName])).entries()];
+
+  function materialize(cards: typeof examQuestions): QuestionInstance[] {
+    const sessionSeed = `${activeExam}|flashcards|${Date.now()}`;
+    return materializer.materializeQuestions(cards, activeExam, sessionSeed);
+  }
 
   function startDeck(deck: string, themeId?: string) {
-    let cards: Question[];
+    let cards: typeof examQuestions;
     if (deck === "due") cards = dueCards;
     else if (deck === "new") cards = newCards.slice(0, 20);
-    else if (deck === "theme")
-      cards = questions.filter((q) => q.themeId === themeId).sort(() => Math.random() - 0.5);
-    else cards = [...questions].sort(() => Math.random() - 0.5);
+    else if (deck === "theme") {
+      cards = examQuestions.filter((q) => q.themeId === themeId).sort(() => Math.random() - 0.5);
+    } else {
+      cards = [...examQuestions].sort(() => Math.random() - 0.5);
+    }
 
     if (cards.length === 0) {
       alert("Aucune carte disponible.");
       return;
     }
-    onStart(cards);
+
+    onStart(materialize(cards));
   }
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Cartes memoire</h1>
+      <h1 className="text-2xl font-bold">Cartes memoire ({activeExam})</h1>
 
       <div className="grid grid-cols-3 gap-3">
         <StatCard value={dueCards.length} label="A reviser" icon={Clock} color="orange" delay={0} />
         <StatCard value={newCards.length} label="Nouvelles" icon={Sparkles} color="blue" delay={75} />
-        <StatCard value={questions.length - newCards.length} label="Etudiees" icon={BookOpen} color="green" delay={150} />
+        <StatCard
+          value={examQuestions.length - newCards.length}
+          label="Etudiees"
+          icon={BookOpen}
+          color="green"
+          delay={150}
+        />
       </div>
 
       <Card>
@@ -64,7 +86,7 @@ export function DeckSetup({ onStart }: DeckSetupProps) {
           </Button>
           <Button variant="outline" className="w-full active-scale" onClick={() => startDeck("all")}>
             <Layers className="w-4 h-4 mr-1.5" />
-            Toutes ({questions.length})
+            Toutes ({examQuestions.length})
           </Button>
         </CardContent>
       </Card>
@@ -75,7 +97,7 @@ export function DeckSetup({ onStart }: DeckSetupProps) {
         </CardHeader>
         <CardContent className="space-y-2">
           {themes.map(([id, name]) => {
-            const count = questions.filter((q) => q.themeId === id).length;
+            const count = examQuestions.filter((q) => q.themeId === id).length;
             return (
               <Button
                 key={id}

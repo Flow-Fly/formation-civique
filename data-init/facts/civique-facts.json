@@ -1,0 +1,23 @@
+{
+  "idOverrides": {
+    "q203": {
+      "correct": [
+        "La Martinique",
+        "La Guadeloupe",
+        "Mayotte"
+      ],
+      "distractors": [
+        "La Corse",
+        "La Bretagne",
+        "La Normandie",
+        "L'Île-de-France"
+      ],
+      "explanationByCorrect": {
+        "La Martinique": "La Martinique est un département d'outre-mer français (DROM).",
+        "La Guadeloupe": "La Guadeloupe est un département d'outre-mer français (DROM).",
+        "Mayotte": "Mayotte est un département d'outre-mer français (DROM)."
+      }
+    }
+  },
+  "questionTextOverrides": {}
+}

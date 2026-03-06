@@ -5,6 +5,7 @@ import { BookOpen, Check, Lightbulb } from "lucide-react";
 import { Button } from "@/components/ui/button.tsx";
 import { generateHeadingId } from "@/hooks/use-fiche-content.ts";
 import type { Frontmatter } from "@/hooks/use-fiche-content.ts";
+import { useExam } from "@/context/exam-context.tsx";
 import * as storage from "@/services/storage.ts";
 
 interface FicheContentProps {
@@ -22,20 +23,21 @@ export function FicheContent({
   showMarkAsRead = true,
   className,
 }: FicheContentProps) {
+  const { activeExam } = useExam();
   const [markedRead, setMarkedRead] = useState(false);
 
   useEffect(() => {
-    const read = storage.load<Record<string, number>>("fiches_read", {});
+    const read = storage.load<Record<string, number>>("fiches_read", {}, activeExam);
     setMarkedRead(`content:${slug}` in read);
-  }, [slug]);
+  }, [slug, activeExam]);
 
   function handleMarkRead() {
-    const read = storage.load<Record<string, number>>("fiches_read", {});
+    const read = storage.load<Record<string, number>>("fiches_read", {}, activeExam);
     for (const ficheId of frontmatter.originalFicheIds) {
       read[ficheId] = Date.now();
     }
     read[`content:${slug}`] = Date.now();
-    storage.save("fiches_read", read);
+    storage.save("fiches_read", read, activeExam);
     setMarkedRead(true);
   }
 

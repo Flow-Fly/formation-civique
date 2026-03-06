@@ -1,46 +1,43 @@
 #!/usr/bin/env node
 
 /**
- * Bundle questions from data-init/questions-review.json to:
- * - data/questions.json
- * - app-react/public/data/questions.json
- * Strips review-only fields.
+ * Bundle canonical question data to runtime targets.
+ *
+ * Inputs:
+ * - data-init/question-bank.json
+ * - data-init/exam-config.json
+ *
+ * Outputs:
+ * - app-react/public/data/question-bank.json
+ * - app-react/public/data/exam-config.json
  */
 
-import { readFileSync, writeFileSync, statSync } from 'fs';
-import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { readFileSync, writeFileSync, statSync } from "fs";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dirname, '..');
+const ROOT = join(__dirname, "..");
 
-const questions = JSON.parse(
-  readFileSync(join(ROOT, 'data-init', 'questions-review.json'), 'utf-8')
-);
+const bank = JSON.parse(readFileSync(join(ROOT, "data-init", "question-bank.json"), "utf-8"));
+const examConfig = JSON.parse(readFileSync(join(ROOT, "data-init", "exam-config.json"), "utf-8"));
 
-const cleanQuestions = questions.map((q) => ({
-  id: q.id,
-  themeId: q.themeId,
-  themeName: q.themeName,
-  questionText: q.questionText,
-  choices: q.choices,
-  correctAnswer: q.correctAnswer,
-  explanation: q.explanation,
-  relatedFicheIds: q.relatedFicheIds,
-  difficulty: q.difficulty,
-}));
+function writeTargets(relPath, json) {
+  const targets = [
+    join(ROOT, "app-react", "public", "data", relPath),
+  ];
 
-const output = JSON.stringify(cleanQuestions);
-
-const targets = [
-  join(ROOT, 'data', 'questions.json'),
-  join(ROOT, 'app-react', 'public', 'data', 'questions.json'),
-];
-
-for (const target of targets) {
-  writeFileSync(target, output, 'utf-8');
-  const size = (statSync(target).size / 1024).toFixed(0);
-  console.log(`Written ${target} (${size}KB)`);
+  for (const target of targets) {
+    writeFileSync(target, json, "utf-8");
+    const size = (statSync(target).size / 1024).toFixed(0);
+    console.log(`Written ${target} (${size}KB)`);
+  }
 }
 
-console.log(`\nBundled ${cleanQuestions.length} questions`);
+const bankJson = JSON.stringify(bank);
+const configJson = JSON.stringify(examConfig);
+
+writeTargets("question-bank.json", bankJson);
+writeTargets("exam-config.json", configJson);
+
+console.log(`\nBundled ${bank.length} canonical questions`);

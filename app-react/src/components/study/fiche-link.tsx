@@ -2,10 +2,10 @@ import { useState } from "react";
 import { BookOpen } from "lucide-react";
 import { useData } from "@/context/data-context.tsx";
 import { FicheModal } from "./fiche-modal.tsx";
-import type { Question, ContentPageMeta } from "@/types/index.ts";
+import type { ContentPageMeta, EvidencePointer } from "@/types/index.ts";
 
 interface FicheLinkProps {
-  question: Question;
+  question: { relatedFicheIds: string[]; correctEvidence?: EvidencePointer[] };
 }
 
 function findContentPage(
@@ -28,19 +28,53 @@ function findContentPage(
   return null;
 }
 
+function findContentPageByPath(
+  contentPath: string,
+  contentIndex: { themes: { subcategories: { pages?: ContentPageMeta[]; groups?: { pages: ContentPageMeta[] }[] }[] }[] } | null,
+): ContentPageMeta | null {
+  if (!contentIndex) return null;
+  for (const theme of contentIndex.themes) {
+    for (const subcat of theme.subcategories) {
+      for (const page of subcat.pages || []) {
+        if (page.path === contentPath) return page;
+      }
+      for (const group of subcat.groups || []) {
+        for (const page of group.pages) {
+          if (page.path === contentPath) return page;
+        }
+      }
+    }
+  }
+  return null;
+}
+
 export function FicheLink({ question }: FicheLinkProps) {
   const { fichesData, contentIndex } = useData();
   const [modalOpen, setModalOpen] = useState(false);
-  const ids = question.relatedFicheIds;
-  if (!ids || ids.length === 0 || !fichesData) return null;
+  const ids = question.relatedFicheIds || [];
 
-  const fiche = fichesData.fiches.find((f) => f.id === ids[0]);
-  if (!fiche) return null;
+  const directEvidence = (question.correctEvidence || []).find((e) => e.contentPath && e.sectionId);
+  let contentPage: ContentPageMeta | null = null;
+  let initialSectionId: string | undefined;
+  let modalTitle = "";
 
-  const contentPage = findContentPage(fiche.id, contentIndex);
-  if (!contentPage) return null;
+  if (directEvidence) {
+    contentPage = findContentPageByPath(directEvidence.contentPath, contentIndex);
+    initialSectionId = directEvidence.sectionId;
+    modalTitle = directEvidence.sectionTitle || "";
+  }
 
-  const slug = contentPage.path.replace(/\.md$/, "").split("/").pop()!;
+  if (!contentPage) {
+    if (!ids || ids.length === 0 || !fichesData) return null;
+    const fiche = fichesData.fiches.find((f) => f.id === ids[0]);
+    if (!fiche) return null;
+    contentPage = findContentPage(fiche.id, contentIndex);
+    if (!contentPage) return null;
+    modalTitle = contentPage.title;
+  }
+
+  const slug = contentPage.path.replace(/\.md$/, "").split("/").pop() || "";
+  const pageTitle = modalTitle || contentPage.title;
 
   return (
     <>
@@ -58,7 +92,8 @@ export function FicheLink({ question }: FicheLinkProps) {
         onOpenChange={setModalOpen}
         contentPath={contentPage.path}
         slug={slug}
-        pageTitle={contentPage.title}
+        pageTitle={pageTitle}
+        initialSectionId={initialSectionId}
       />
     </>
   );

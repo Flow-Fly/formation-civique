@@ -4,7 +4,7 @@ import { ThemeBrowser } from "./theme-browser.tsx";
 import { FicheReader } from "./fiche-reader.tsx";
 
 export function StudyPage() {
-  const { fichesData, questions, loading } = useData();
+  const { fichesData, questionBank, loading } = useData();
   const [searchParams] = useSearchParams();
   const ficheId = searchParams.get("fiche");
 
@@ -14,7 +14,7 @@ export function StudyPage() {
 
   // Legacy route: ?fiche=... still renders the old FicheReader
   if (ficheId && fichesData) {
-    return <FicheReader ficheId={ficheId} fichesData={fichesData} questions={questions} />;
+    return <FicheReader ficheId={ficheId} fichesData={fichesData} questions={questionBank} />;
   }
 
   return <ThemeBrowser />;

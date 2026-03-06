@@ -9,9 +9,9 @@
  *   3. Article pages → structured fiche content
  *
  * Output:
- *   data/fiches/{theme}/{subcategory}/{article}.json
- *   data/fiches/index.json
- *   data/site-map.json
+ *   data-init/fiches/{theme}/{subcategory}/{article}.json
+ *   data-init/fiches/index.json
+ *   data-init/site-map.json
  */
 
 import { load } from "cheerio";
@@ -21,8 +21,8 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
-const DATA_DIR = join(ROOT, "data");
-const FICHES_DIR = join(DATA_DIR, "fiches");
+const DATA_INIT_DIR = join(ROOT, "data-init");
+const FICHES_DIR = join(DATA_INIT_DIR, "fiches");
 const CACHE_DIR = join(ROOT, ".cache", "html");
 
 const BASE_URL = "https://formation-civique.interieur.gouv.fr";
@@ -363,7 +363,7 @@ async function extractFiche(article) {
 
 async function main() {
   console.log("Formation Civique Scraper\n");
-  ensureDir(DATA_DIR);
+  ensureDir(DATA_INIT_DIR);
   ensureDir(FICHES_DIR);
 
   const allFiches = [];
@@ -446,7 +446,7 @@ async function main() {
   console.log(`\nIndex written: ${indexPath}`);
 
   // Write site map
-  const siteMapPath = join(DATA_DIR, "site-map.json");
+  const siteMapPath = join(DATA_INIT_DIR, "site-map.json");
   writeFileSync(siteMapPath, JSON.stringify(siteMap, null, 2), "utf-8");
   console.log(`Site map written: ${siteMapPath}`);
 

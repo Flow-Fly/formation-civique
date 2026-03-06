@@ -6,6 +6,7 @@ import { ContentPage } from "@/components/study/content-page.tsx";
 import { QuizPage } from "@/components/quiz/quiz-page.tsx";
 import { FlashcardsPage } from "@/components/flashcards/flashcards-page.tsx";
 import { SettingsPage } from "@/components/settings/settings-page.tsx";
+import { QuestionsPage } from "@/components/questions/questions-page.tsx";
 
 /** Constrains child routes to 960px — used for all pages except fiche content */
 function NarrowContainer() {
@@ -29,6 +30,7 @@ const router = createHashRouter([
           { path: "study", element: <StudyPage /> },
           { path: "quiz", element: <QuizPage /> },
           { path: "flashcards", element: <FlashcardsPage /> },
+          { path: "questions", element: <QuestionsPage /> },
           { path: "settings", element: <SettingsPage /> },
         ],
       },

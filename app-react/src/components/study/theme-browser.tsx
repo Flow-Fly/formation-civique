@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge.tsx";
 import { Card } from "@/components/ui/card.tsx";
 import { ChevronRight, CheckCircle } from "lucide-react";
 import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import * as storage from "@/services/storage.ts";
 import type { ContentPageMeta } from "@/types/index.ts";
 
@@ -43,7 +44,8 @@ function isPageRead(page: ContentPageMeta, readFiches: Record<string, number>): 
 
 export function ThemeBrowser() {
   const { contentIndex } = useData();
-  const readFiches = storage.load<Record<string, number>>("fiches_read", {});
+  const { activeExam } = useExam();
+  const readFiches = storage.load<Record<string, number>>("fiches_read", {}, activeExam);
 
   if (!contentIndex) {
     return <div className="text-center py-16 text-muted-foreground">Chargement des fiches...</div>;

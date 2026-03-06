@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { Card, CardContent } from "@/components/ui/card.tsx";
@@ -40,16 +39,6 @@ export function QuizQuestion({
   const q = question;
   const isCorrect = selectedChoice === q.correctAnswer;
 
-  // Shuffle choices once per question (stable across re-renders and feedback)
-  const shuffledChoices = useMemo(() => {
-    const arr = [...q.choices];
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
-    return arr;
-  }, [q.id]);
-
   return (
     <div className="space-y-4">
       <div className="flex justify-between items-center">
@@ -67,7 +56,7 @@ export function QuizQuestion({
           <h2 className="text-lg font-semibold">{q.questionText}</h2>
 
           <div className="space-y-2">
-            {shuffledChoices.map((c, i) => {
+            {q.choices.map((c, i) => {
               let variant = "default";
               if (showingFeedback && c.id === q.correctAnswer) variant = "correct";
               if (showingFeedback && c.id === selectedChoice && c.id !== q.correctAnswer)

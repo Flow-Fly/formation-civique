@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 
 /**
- * Merge parsed questions with answer data and output questions-review.json
+ * Merge legacy answer modules into data-init/question-bank.json.
+ *
+ * This script is useful when answer choices are maintained in scripts/answers/*.mjs
+ * and should hydrate the canonical bank pools.
  */
 
 import { readFileSync, writeFileSync } from "fs";
@@ -16,38 +19,58 @@ import { answers as t5 } from "./answers/theme5-vivre-societe.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
+const BANK_PATH = join(ROOT, "data-init", "question-bank.json");
 
 const allAnswers = [...t1, ...t2, ...t3, ...t4, ...t5];
 const answerMap = new Map(allAnswers.map((a) => [a.id, a]));
 
-const questions = JSON.parse(
-  readFileSync(join(ROOT, "data", "questions-review.json"), "utf-8")
-);
-
-let merged = 0;
-let missing = 0;
-
-for (const q of questions) {
-  const answer = answerMap.get(q.id);
-  if (answer) {
-    q.choices = answer.choices;
-    q.correctAnswer = answer.correctAnswer;
-    q.explanation = answer.explanation;
-    q.difficulty = answer.difficulty;
-    q.reviewStatus = "reviewed";
-    merged++;
-  } else {
-    console.warn(`Missing answer for ${q.id}: ${q.questionText}`);
-    missing++;
+function dedupe(values) {
+  const out = [];
+  const seen = new Set();
+  for (const value of values || []) {
+    const txt = String(value || "").trim();
+    if (!txt) continue;
+    const key = txt.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(txt);
   }
+  return out;
 }
 
-writeFileSync(
-  join(ROOT, "data", "questions-review.json"),
-  JSON.stringify(questions, null, 2),
-  "utf-8"
-);
+const bank = JSON.parse(readFileSync(BANK_PATH, "utf-8"));
 
-console.log(`Merged ${merged} answers, ${missing} missing`);
-console.log(`Total answers provided: ${allAnswers.length}`);
-console.log("Written to data/questions-review.json");
+let merged = 0;
+for (const q of bank) {
+  const answer = answerMap.get(q.id);
+  if (!answer) continue;
+
+  const correctChoice = answer.choices.find((c) => c.id === answer.correctAnswer);
+  const distractors = answer.choices.filter((c) => c.id !== answer.correctAnswer).map((c) => c.text);
+
+  q.answerPools = q.answerPools || { correct: [], distractors: [] };
+  q.answerPools.correct = dedupe([...(q.answerPools.correct || []), correctChoice?.text || ""]);
+  q.answerPools.distractors = dedupe([...(q.answerPools.distractors || []), ...distractors]);
+
+  q.explanationByCorrect = q.explanationByCorrect || {};
+  if (correctChoice?.text) {
+    q.explanationByCorrect[correctChoice.text] = answer.explanation;
+  }
+  if (!q.explanationTemplate) q.explanationTemplate = answer.explanation;
+
+  q.difficultyByExam = q.difficultyByExam || {};
+  for (const exam of q.exams || []) {
+    if (!q.difficultyByExam[exam]) q.difficultyByExam[exam] = answer.difficulty || "medium";
+  }
+
+  if ((q.exams || []).includes("CR")) {
+    q.reviewStatus = "reviewed";
+  }
+
+  merged += 1;
+}
+
+writeFileSync(BANK_PATH, JSON.stringify(bank, null, 2) + "\n", "utf-8");
+
+console.log(`Merged answers into ${merged} question-bank entries`);
+console.log(`Written ${BANK_PATH}`);

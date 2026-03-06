@@ -3,6 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Progress } from "@/components/ui/progress.tsx";
 import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import { useFlashcards } from "@/hooks/use-flashcards.ts";
 import { useKeyboard } from "@/hooks/use-keyboard.ts";
 import { FlashcardCard } from "./flashcard-card.tsx";
@@ -10,23 +11,33 @@ import { RatingButtons } from "./rating-buttons.tsx";
 import { DeckSetup } from "./deck-setup.tsx";
 import { DeckSummary } from "./deck-summary.tsx";
 import * as sr from "@/services/spaced-repetition.ts";
+import * as materializer from "@/services/question-materializer.ts";
 import type { Quality } from "@/types/index.ts";
 
 export function FlashcardsPage() {
-  const { questions, loading } = useData();
+  const { questionBank, loading } = useData();
+  const { activeExam } = useExam();
   const deck = useFlashcards();
   const [searchParams] = useSearchParams();
 
+  const examQuestions = useMemo(
+    () =>
+      questionBank.filter(
+        (q) => q.exams.includes(activeExam) && materializer.isQuestionMaterializable(q),
+      ),
+    [questionBank, activeExam],
+  );
+
   // Auto-start due deck if param present
   useEffect(() => {
-    if (searchParams.get("deck") === "due" && deck.state.phase === "setup" && questions.length > 0) {
-      const dueCards = sr.getDueCards(questions);
+    if (searchParams.get("deck") === "due" && deck.state.phase === "setup" && examQuestions.length > 0) {
+      const dueCards = sr.getDueCards(examQuestions, activeExam);
       if (dueCards.length > 0) {
-        deck.start(dueCards);
+        const sessionSeed = `${activeExam}|flashcards|due|${Date.now()}`;
+        deck.start(materializer.materializeQuestions(dueCards, activeExam, sessionSeed), activeExam);
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams, questions.length]);
+  }, [searchParams, examQuestions, activeExam, deck]);
 
   const keyMap = useMemo((): Record<string, () => void> => {
     if (deck.state.phase !== "active") return {};
@@ -42,7 +53,7 @@ export function FlashcardsPage() {
       "3": () => deck.rate(3 as Quality),
       "4": () => deck.rate(5 as Quality),
     };
-  }, [deck.state.phase, deck.state.flipped, deck]);
+  }, [deck]);
 
   useKeyboard(keyMap, deck.state.phase === "active");
 
@@ -68,7 +79,9 @@ export function FlashcardsPage() {
           <span className="text-sm text-muted-foreground">
             Carte {deck.state.current + 1}/{deck.state.cards.length}
           </span>
-          <Badge>{q.themeName}</Badge>
+          <Badge>
+            {activeExam} · {q.themeName}
+          </Badge>
         </div>
 
         <Progress value={(deck.state.current / deck.state.cards.length) * 100} />
@@ -84,5 +97,5 @@ export function FlashcardsPage() {
     );
   }
 
-  return <DeckSetup onStart={deck.start} />;
+  return <DeckSetup onStart={(cards) => deck.start(cards, activeExam)} />;
 }

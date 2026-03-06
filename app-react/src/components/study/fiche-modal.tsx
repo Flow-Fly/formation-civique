@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import {
   Dialog,
   DialogContent,
@@ -13,6 +14,7 @@ interface FicheModalProps {
   contentPath: string;
   slug: string;
   pageTitle: string;
+  initialSectionId?: string;
 }
 
 export function FicheModal({
@@ -21,10 +23,28 @@ export function FicheModal({
   contentPath,
   slug,
   pageTitle,
+  initialSectionId,
 }: FicheModalProps) {
   const { frontmatter, body, loading, error } = useFicheContent(
     open ? contentPath : null,
   );
+  const containerRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (!open || loading || !frontmatter || !initialSectionId) return;
+
+    const timer = setTimeout(() => {
+      const container = containerRef.current;
+      const target = container?.querySelector<HTMLElement>(`#${CSS.escape(initialSectionId)}`);
+      if (!target) return;
+
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      target.classList.add("section-highlight");
+      setTimeout(() => target.classList.remove("section-highlight"), 2200);
+    }, 120);
+
+    return () => clearTimeout(timer);
+  }, [open, loading, frontmatter, initialSectionId]);
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
@@ -33,7 +53,7 @@ export function FicheModal({
           <DialogTitle>{pageTitle}</DialogTitle>
         </DialogHeader>
 
-        <div className="flex-1 overflow-y-auto pr-2">
+        <div ref={containerRef} className="flex-1 overflow-y-auto pr-2">
           {loading && (
             <div className="text-center py-8 text-muted-foreground">
               Chargement...

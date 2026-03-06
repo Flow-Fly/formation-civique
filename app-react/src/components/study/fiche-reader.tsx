@@ -4,8 +4,9 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { ArrowLeft, ArrowRight, Lightbulb, BookOpen, Check, HelpCircle } from "lucide-react";
-import type { Fiche, FichesData, Question } from "@/types/index.ts";
+import type { Fiche, FichesData, QuestionBankItem } from "@/types/index.ts";
 import * as storage from "@/services/storage.ts";
+import { useExam } from "@/context/exam-context.tsx";
 
 function renderSectionContent(content: string): ReactNode[] {
   return content.split("\n\n").map((p, i) => {
@@ -35,7 +36,7 @@ function renderSectionContent(content: string): ReactNode[] {
 interface FicheReaderProps {
   ficheId: string;
   fichesData: FichesData;
-  questions: Question[];
+  questions: QuestionBankItem[];
 }
 
 export function FicheReader({
@@ -43,6 +44,7 @@ export function FicheReader({
   fichesData,
   questions,
 }: FicheReaderProps) {
+  const { activeExam } = useExam();
   const fiche = fichesData.fiches.find((f) => f.id === ficheId);
   const [markedRead, setMarkedRead] = useState(false);
 
@@ -55,7 +57,7 @@ export function FicheReader({
   }
 
   const relatedQ = questions
-    .filter((q) => q.themeId === fiche.themeId)
+    .filter((q) => q.themeId === fiche.themeId && q.exams.includes(activeExam))
     .slice(0, 5);
 
   const sameSub = fichesData.fiches.filter(
@@ -67,9 +69,9 @@ export function FicheReader({
   const next = idx < sameSub.length - 1 ? sameSub[idx + 1] : null;
 
   function handleMarkRead() {
-    const read = storage.load<Record<string, number>>("fiches_read", {});
+    const read = storage.load<Record<string, number>>("fiches_read", {}, activeExam);
     read[ficheId] = Date.now();
-    storage.save("fiches_read", read);
+    storage.save("fiches_read", read, activeExam);
     setMarkedRead(true);
   }
 

@@ -1,30 +1,42 @@
-import type { CardState, MasteryStats, Question, Quality, ThemeMastery } from "@/types/index.ts";
+import type {
+  CardState,
+  MasteryStats,
+  Quality,
+  ThemeMastery,
+  ExamCode,
+} from "@/types/index.ts";
 import * as storage from "./storage.ts";
 
 const STORAGE_KEY = "sm2_data";
 
-function getAll(): Record<string, CardState> {
-  return storage.load<Record<string, CardState>>(STORAGE_KEY, {});
+interface MinimalQuestion {
+  id: string;
+  themeId: string;
+  themeName: string;
 }
 
-function saveAll(data: Record<string, CardState>): void {
-  storage.save(STORAGE_KEY, data);
+function getAll(exam: ExamCode): Record<string, CardState> {
+  return storage.load<Record<string, CardState>>(STORAGE_KEY, {}, exam);
 }
 
-export function getCardState(questionId: string): CardState | null {
-  const all = getAll();
+function saveAll(data: Record<string, CardState>, exam: ExamCode): void {
+  storage.save(STORAGE_KEY, data, exam);
+}
+
+export function getCardState(questionId: string, exam: ExamCode): CardState | null {
+  const all = getAll(exam);
   return all[questionId] || null;
 }
 
-export function getAllCardStates(): Record<string, CardState> {
-  return getAll();
+export function getAllCardStates(exam: ExamCode): Record<string, CardState> {
+  return getAll(exam);
 }
 
-export function rateCard(questionId: string, quality: Quality): CardState {
-  const all = getAll();
+export function rateCard(questionId: string, quality: Quality, exam: ExamCode): CardState {
+  const all = getAll(exam);
   const now = Date.now();
 
-  let card: CardState = all[questionId] || {
+  const card: CardState = all[questionId] || {
     easeFactor: 2.5,
     interval: 0,
     repetitions: 0,
@@ -50,18 +62,18 @@ export function rateCard(questionId: string, quality: Quality): CardState {
 
   card.easeFactor = Math.max(
     1.3,
-    card.easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
+    card.easeFactor + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02)),
   );
 
   card.nextReview = now + card.interval * 24 * 60 * 60 * 1000;
 
   all[questionId] = card;
-  saveAll(all);
+  saveAll(all, exam);
   return card;
 }
 
-export function getDueCards(questions: Question[]): Question[] {
-  const all = getAll();
+export function getDueCards<T extends MinimalQuestion>(questions: T[], exam: ExamCode): T[] {
+  const all = getAll(exam);
   const now = Date.now();
 
   return questions.filter((q) => {
@@ -71,17 +83,17 @@ export function getDueCards(questions: Question[]): Question[] {
   });
 }
 
-export function getNewCards(questions: Question[]): Question[] {
-  const all = getAll();
+export function getNewCards<T extends MinimalQuestion>(questions: T[], exam: ExamCode): T[] {
+  const all = getAll(exam);
   return questions.filter((q) => !all[q.id]);
 }
 
-export function getStudiedCount(): number {
-  return Object.keys(getAll()).length;
+export function getStudiedCount(exam: ExamCode): number {
+  return Object.keys(getAll(exam)).length;
 }
 
-export function getMasteryStats(questions: Question[]): MasteryStats {
-  const all = getAll();
+export function getMasteryStats<T extends MinimalQuestion>(questions: T[], exam: ExamCode): MasteryStats {
+  const all = getAll(exam);
   let mastered = 0;
   let learning = 0;
 
@@ -100,8 +112,8 @@ export function getMasteryStats(questions: Question[]): MasteryStats {
   };
 }
 
-export function getThemeMastery(questions: Question[]): ThemeMastery {
-  const all = getAll();
+export function getThemeMastery<T extends MinimalQuestion>(questions: T[], exam: ExamCode): ThemeMastery {
+  const all = getAll(exam);
   const themes: ThemeMastery = {};
 
   for (const q of questions) {
@@ -119,11 +131,15 @@ export function getThemeMastery(questions: Question[]): ThemeMastery {
   return themes;
 }
 
-export function recordStudyActivity(): void {
-  const data = storage.load<{ count: number; lastDate: string | null }>("streak", {
-    count: 0,
-    lastDate: null,
-  });
+export function recordStudyActivity(exam: ExamCode): void {
+  const data = storage.load<{ count: number; lastDate: string | null }>(
+    "streak",
+    {
+      count: 0,
+      lastDate: null,
+    },
+    exam,
+  );
   const today = new Date().toISOString().slice(0, 10);
 
   if (data.lastDate === today) return;
@@ -135,5 +151,5 @@ export function recordStudyActivity(): void {
     data.count = 1;
   }
   data.lastDate = today;
-  storage.save("streak", data);
+  storage.save("streak", data, exam);
 }

@@ -1,20 +1,21 @@
 import { useCallback, useReducer } from "react";
-import type { Question, Quality, RatingName } from "@/types/index.ts";
+import type { QuestionInstance, Quality, RatingName, ExamCode } from "@/types/index.ts";
 import * as sr from "@/services/spaced-repetition.ts";
 
 type DeckPhase = "setup" | "active" | "summary";
 
 interface DeckState {
   phase: DeckPhase;
-  cards: Question[];
+  cards: QuestionInstance[];
   current: number;
   flipped: boolean;
   reviewed: number;
+  exam: ExamCode | null;
   ratings: Record<RatingName, number>;
 }
 
 type DeckAction =
-  | { type: "START"; cards: Question[] }
+  | { type: "START"; cards: QuestionInstance[]; exam: ExamCode }
   | { type: "FLIP" }
   | { type: "RATE"; quality: Quality }
   | { type: "RESET" };
@@ -25,6 +26,7 @@ const initialState: DeckState = {
   current: 0,
   flipped: false,
   reviewed: 0,
+  exam: null,
   ratings: { again: 0, hard: 0, good: 0, easy: 0 },
 };
 
@@ -42,6 +44,7 @@ function reducer(state: DeckState, action: DeckAction): DeckState {
         ...initialState,
         phase: "active",
         cards: action.cards,
+        exam: action.exam,
       };
 
     case "FLIP":
@@ -49,8 +52,9 @@ function reducer(state: DeckState, action: DeckAction): DeckState {
 
     case "RATE": {
       const q = state.cards[state.current];
-      sr.rateCard(q.id, action.quality);
-      sr.recordStudyActivity();
+      const exam = state.exam || q.exam || "CR";
+      sr.rateCard(q.id, action.quality, exam);
+      sr.recordStudyActivity(exam);
 
       const ratingName = qualityToRating[action.quality];
       const newRatings = { ...state.ratings, [ratingName]: state.ratings[ratingName] + 1 };
@@ -86,7 +90,10 @@ function reducer(state: DeckState, action: DeckAction): DeckState {
 export function useFlashcards() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
-  const start = useCallback((cards: Question[]) => dispatch({ type: "START", cards }), []);
+  const start = useCallback(
+    (cards: QuestionInstance[], exam: ExamCode) => dispatch({ type: "START", cards, exam }),
+    [],
+  );
   const flip = useCallback(() => dispatch({ type: "FLIP" }), []);
   const rate = useCallback((quality: Quality) => dispatch({ type: "RATE", quality }), []);
   const reset = useCallback(() => dispatch({ type: "RESET" }), []);

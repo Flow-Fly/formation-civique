@@ -4,14 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Formation Civique is a French civics education app with spaced repetition, quizzes, and flashcards. It covers 226 fiches across 5 themes and 258 MCQ questions scraped from formation-civique.interieur.gouv.fr.
+Formation Civique is a French civics education app with spaced repetition, quizzes, and flashcards. It covers 226 fiches and a canonical multi-exam question bank (CSP/CR/NAT).
 
 ## Repository Layout
 
 - **app-react/** — Primary app: React 19 + Vite + TypeScript + Tailwind v4 + Shadcn/UI
-- **app/** — Original vanilla JS app (no build step, ES modules, deprecated)
 - **scripts/** — Node.js data pipeline (scraper, parser, validator, bundler)
-- **data/** — Bundled JSON data files consumed by the web apps
+- **data-init/** — Canonical editable datasets (fiches, questions, facts, suggestions)
+- **app-react/public/data/** — Runtime JSON files consumed by the React app
 
 ## Commands
 
@@ -28,11 +28,18 @@ npm run preview    # Preview production build
 Data pipeline scripts run from the repo root:
 
 ```bash
-node scripts/scraper.mjs           # Crawl source site into data/
-node scripts/parse-questions.mjs   # Parse questions markdown → JSON
-node scripts/validate-data.mjs     # Validate all 258 Q&A entries
-node scripts/bundle-data.mjs       # Bundle fiches + questions for web app
-node scripts/link-questions-fiches.mjs  # Link questions to fiches via keyword scoring
+node scripts/scraper.mjs           # Crawl source site into data-init/
+node scripts/parse-questions.mjs   # Parse multi-exam markdown sources
+node scripts/bootstrap-question-bank.mjs  # Build data-init/question-bank.json
+node scripts/build-fiche-section-index.mjs # Build section-level fiche index
+node scripts/build-question-context.mjs --status pending --pending-index 1 --out /tmp/q1.prompt.md
+node scripts/generate-answer-pool-suggestions.mjs --status pending
+node scripts/generate-answer-pool-suggestions.mjs --status pending --run-id lot2-all --provider all --fast --concurrency 3
+node scripts/validate-answer-pool-suggestions.mjs
+node scripts/apply-answer-pool-suggestions.mjs
+node scripts/pipeline-complete.mjs --status pending --run-id lot2-all --limit 20 --provider all --fast --concurrency 3
+node scripts/validate-question-bank.mjs
+node scripts/bundle-data.mjs       # Bundle data-init/* to app-react/public/data/*
 ```
 
 No test framework is configured.
@@ -40,18 +47,27 @@ No test framework is configured.
 ## Architecture (app-react/)
 
 ### Routing
-React Router v7 with `createHashRouter` — all routes use `#/` prefix for GitHub Pages compatibility. Routes: dashboard, study, quiz, flashcards, settings.
+React Router v7 with `createHashRouter` — all routes use `#/` prefix for GitHub Pages compatibility. Routes: dashboard, study, quiz, flashcards, questions, settings.
 
 ### State Management
-- **Context**: `DataProvider` (loads fiches + questions via fetch), `ThemeProvider` (dark mode)
+- **Context**: `DataProvider` (loads fiches + question-bank via fetch), `ExamProvider` (active exam), `ThemeProvider` (dark mode)
 - **Hooks with useReducer**: `useQuiz` and `useFlashcards` manage multi-phase flows (setup → active → results/summary)
 - **Services** (pure functions, no state): `storage.ts`, `spaced-repetition.ts`, `quiz-engine.ts`
 
 ### Data Flow
-1. `DataProvider` fetches `public/data/fiches.json` + `questions.json` at startup
+1. `DataProvider` fetches `public/data/fiches.json` + `question-bank.json` + `exam-config.json` at startup
 2. Components access data via `useData()` hook
 3. Quiz/flashcard hooks dispatch actions through reducers
-4. Services persist to localStorage with `fc_` prefix (cross-compatible with original app)
+4. Services persist to localStorage with `fc_` prefix
+
+### Suggested Pipeline
+1. Parse and bootstrap: `parse-questions` -> `bootstrap-question-bank`
+2. Build section index: `build-fiche-section-index`
+3. Generate constrained LLM suggestions: `generate-answer-pool-suggestions`
+4. Validate suggestions: `validate-answer-pool-suggestions`
+5. Human review / acceptance in suggestions JSON
+6. Apply accepted suggestions: `apply-answer-pool-suggestions`
+7. Validate bank and bundle runtime JSON: `validate-question-bank` -> `bundle-data`
 
 ### Spaced Repetition (SM-2)
 Simplified 4-button rating: Again (0), Hard (2), Good (3), Easy (5). Card mastery threshold: interval >= 21 days. State stored in `fc_sm2_data`.
@@ -71,7 +87,7 @@ All in `src/components/`: `layout/`, `dashboard/`, `study/`, `quiz/`, `flashcard
 - **Import extensions**: Include `.tsx`/`.ts` extensions in import paths
 - **TypeScript**: Strict mode, no `any`, discriminated unions for reducer actions
 - **Types**: Centralized in `src/types/index.ts`
-- **localStorage keys**: Always prefixed with `fc_` (e.g., `fc_sm2_data`, `fc_quiz_history`, `fc_streak`, `fc_settings`)
+- **localStorage keys**: Always prefixed with `fc_`; question progression keys are exam-scoped (e.g., `fc_sm2_data__CR`, `fc_quiz_history__CSP`)
 
 ## Deployment
 

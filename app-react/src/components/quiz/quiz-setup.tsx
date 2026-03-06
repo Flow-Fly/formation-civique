@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
 import { Button } from "@/components/ui/button.tsx";
@@ -9,17 +9,24 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select.tsx";
-import { Zap, GraduationCap, ArrowRight } from "lucide-react";
+import { Alert, AlertDescription } from "@/components/ui/alert.tsx";
+import { Zap, GraduationCap, ArrowRight, AlertCircle } from "lucide-react";
 import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import * as engine from "@/services/quiz-engine.ts";
-import type { Question } from "@/types/index.ts";
+import * as materializer from "@/services/question-materializer.ts";
+import type { ExamCode, QuestionInstance } from "@/types/index.ts";
 
 interface QuizSetupProps {
-  onStart: (questions: Question[], options: { timed: boolean; timeLimit?: number; isExam: boolean }) => void;
+  onStart: (
+    questions: QuestionInstance[],
+    options: { timed: boolean; timeLimit?: number; isExam: boolean; exam: ExamCode },
+  ) => void;
 }
 
 export function QuizSetup({ onStart }: QuizSetupProps) {
-  const { questions } = useData();
+  const { questionBank, examConfig } = useData();
+  const { activeExam } = useExam();
   const [searchParams] = useSearchParams();
   const mode = searchParams.get("mode") || "practice";
   const defaultTheme = searchParams.get("theme") || "";
@@ -27,15 +34,36 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
   const [themeId, setThemeId] = useState(defaultTheme);
   const [count, setCount] = useState("20");
 
-  const themes = [...new Map(questions.map((q) => [q.themeId, q.themeName])).entries()];
+  const examQuestions = useMemo(
+    () =>
+      questionBank.filter(
+        (q) => q.exams.includes(activeExam) && materializer.isQuestionMaterializable(q),
+      ),
+    [questionBank, activeExam],
+  );
+
+  const themes = [...new Map(examQuestions.map((q) => [q.themeId, q.themeName])).entries()];
+  const rules = examConfig?.[activeExam];
+
+  function materializeSelection(selected: typeof examQuestions): QuestionInstance[] {
+    const seed = `${activeExam}|quiz|${mode}|${Date.now()}`;
+    return materializer.materializeQuestions(selected, activeExam, seed);
+  }
 
   function handleStartExam() {
-    const selected = engine.selectQuestions(questions, { count: 40 });
-    onStart(selected, { timed: true, timeLimit: 45 * 60, isExam: true });
+    if (!rules) return;
+    const selected = engine.selectQuestions(examQuestions, { count: rules.questionCount });
+    const instances = materializeSelection(selected);
+    onStart(instances, {
+      timed: true,
+      timeLimit: rules.timeLimitMinutes * 60,
+      isExam: true,
+      exam: activeExam,
+    });
   }
 
   function handleStartPractice() {
-    const selected = engine.selectQuestions(questions, {
+    const selected = engine.selectQuestions(examQuestions, {
       count: parseInt(count, 10),
       themeId: themeId && themeId !== "all" ? themeId : null,
     });
@@ -43,14 +71,22 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
       alert("Aucune question disponible pour ce theme.");
       return;
     }
-    onStart(selected, { timed: false, isExam: false });
+    onStart(materializeSelection(selected), { timed: false, isExam: false, exam: activeExam });
   }
 
   return (
     <div className="space-y-4">
       <h1 className="text-2xl font-bold">
-        {mode === "exam" ? "Simulation d'examen" : "Quiz"}
+        {mode === "exam" ? `Simulation d'examen (${activeExam})` : `Quiz (${activeExam})`}
       </h1>
+
+      <Alert>
+        <AlertCircle className="h-4 w-4" />
+        <AlertDescription>
+          Simulation basée sur les questions de connaissance publiques; les mises en situation
+          officielles ne sont pas publiées.
+        </AlertDescription>
+      </Alert>
 
       <Card className={mode === "exam" ? "border-l-4 border-l-destructive" : ""}>
         <CardHeader>
@@ -60,8 +96,9 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
           {mode === "exam" ? (
             <>
               <p>
-                Simulation de l'examen civique : <strong>40 questions</strong>,{" "}
-                <strong>45 minutes</strong>, seuil de reussite : <strong>80%</strong>.
+                Simulation de l'examen civique : <strong>{rules?.questionCount ?? 40} questions</strong>,{" "}
+                <strong>{rules?.timeLimitMinutes ?? 45} minutes</strong>, seuil de reussite :{" "}
+                <strong>{rules?.passScorePercent ?? 80}%</strong>.
               </p>
               <Button className="w-full active-scale" size="lg" onClick={handleStartExam}>
                 Commencer l'examen

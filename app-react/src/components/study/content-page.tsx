@@ -29,10 +29,10 @@ export function ContentPage() {
   const contentPath = `${theme}/${subcategory}/${slug}.md`;
   const { frontmatter, body, loading, error } = useFicheContent(contentPath);
 
-  // Reset scroll flag on slug change
+  // Reset scroll flag when page or anchor changes
   useEffect(() => {
     scrolledRef.current = false;
-  }, [slug]);
+  }, [slug, location.hash]);
 
   // Scroll to section when navigating from search (URL has #section-id)
   useEffect(() => {

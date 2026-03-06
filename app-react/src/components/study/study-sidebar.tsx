@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/accordion.tsx";
 import { CheckCircle } from "lucide-react";
 import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import * as storage from "@/services/storage.ts";
 import type { ContentPageMeta } from "@/types/index.ts";
 
@@ -46,7 +47,8 @@ export function StudySidebar({
   onNavigate,
 }: StudySidebarProps) {
   const { contentIndex } = useData();
-  const readFiches = storage.load<Record<string, number>>("fiches_read", {});
+  const { activeExam } = useExam();
+  const readFiches = storage.load<Record<string, number>>("fiches_read", {}, activeExam);
   const activeRef = useRef<HTMLAnchorElement>(null);
 
   // Scroll active fiche into view on mount

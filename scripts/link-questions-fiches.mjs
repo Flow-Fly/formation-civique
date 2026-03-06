@@ -127,7 +127,7 @@ function scoreFiche(questionKeywords, questionBigrams, questionThemeId, ficheIdx
 // --- Load all fiches ---
 
 function loadAllFiches() {
-  const fichesDir = join(ROOT, "data", "fiches");
+  const fichesDir = join(ROOT, "data-init", "fiches");
   const fiches = [];
 
   function walkDir(dir) {
@@ -157,7 +157,7 @@ function main() {
   const ficheIndexes = fiches.map(buildFicheIndex);
 
   console.log("Loading questions...");
-  const questionsPath = join(ROOT, "data", "questions-review.json");
+  const questionsPath = join(ROOT, "data-init", "question-bank.json");
   const questions = JSON.parse(readFileSync(questionsPath, "utf-8"));
   console.log(`  ${questions.length} questions loaded`);
 
@@ -166,12 +166,15 @@ function main() {
   const scoreStats = { min: Infinity, max: 0, total: 0 };
 
   for (const q of questions) {
-    // Build keywords from question text + correct answer + explanation
-    const correctChoice = q.choices.find((c) => c.id === q.correctAnswer);
+    // Build keywords from question text + primary correct candidate + explanation
+    const primaryCorrect = (q.answerPools?.correct || [])[0] || "";
+    const explanation =
+      q.explanationTemplate ||
+      (q.explanationByCorrect ? Object.values(q.explanationByCorrect)[0] || "" : "");
     const questionText = [
       q.questionText,
-      correctChoice ? correctChoice.text : "",
-      q.explanation || "",
+      primaryCorrect,
+      explanation,
     ].join(" ");
 
     const keywords = extractKeywords(questionText);
@@ -205,12 +208,15 @@ function main() {
       scoreStats.max = Math.max(scoreStats.max, topScore);
       scoreStats.total += topScore;
 
-      // Enrich explanation with primary fiche reference
+      // Enrich explanation template with primary fiche reference
       const primaryTitle = matches[0].title;
       const learnMore = `Pour en savoir plus, consultez la fiche : ${primaryTitle}`;
-
-      if (!q.explanation.includes("Pour en savoir plus, consultez la fiche")) {
-        q.explanation = q.explanation.trimEnd() + "\n" + learnMore;
+      if (
+        !q.explanationTemplate ||
+        !q.explanationTemplate.includes("Pour en savoir plus, consultez la fiche")
+      ) {
+        const base = q.explanationTemplate || "La bonne réponse est : {{correct}}.";
+        q.explanationTemplate = base.trimEnd() + "\n" + learnMore;
         enriched++;
       }
     }

@@ -1,0 +1,709 @@
+{
+  "generatedAt": "2026-02-27T14:45:42.624Z",
+  "statusFilter": "pending",
+  "providerMode": "delegated-single-agent",
+  "modelHint": "claude-sonnet",
+  "source": "qcm-batch-pool-review-scratch-b1",
+  "items": [
+    {
+      "questionId": "crx002",
+      "questionText": "Que garantit la liberté d’expression ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.618Z",
+      "accepted": true,
+      "suggestion": {
+        "correct": [
+          "Le droit d'exprimer librement ses opinions et convictions, y compris de critiquer les religions, dans les limites de l'ordre public"
+        ],
+        "distractors": [
+          "L'interdiction du blasphème pour protéger les croyants de toute offense à leur religion",
+          "Le droit de tenir des propos haineux envers des personnes au nom de la critique des idées",
+          "La liberté de pratiquer sa religion en tout lieu et sans restriction, y compris dans les espaces publics"
+        ],
+        "explanationByCorrect": {
+          "Le droit d'exprimer librement ses opinions et convictions, y compris de critiquer les religions, dans les limites de l'ordre public": "La liberté d'expression permet d'exprimer librement ses convictions et autorise la critique des religions — le blasphème n'est pas interdit en France. Elle s'exerce cependant dans le respect des droits d'autrui et de l'ordre public : les propos haineux envers des personnes, l'incitation à la haine raciale ou ethnique et la négation de la Shoah restent punis par la loi."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Le droit d'exprimer librement ses opinions et convictions, y compris de critiquer les religions, dans les limites de l'ordre public",
+            "normalizedAnswer": "le droit d exprimer librement ses opinions et convictions y compris de critiquer les religions dans les limites de l ordre public",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "quelles-sont-les-limites",
+                "sectionTitle": "Quelles sont les limites ?",
+                "quote": "Au nom de la liberté d'expression, même si le blasphème n'est pas interdit, on ne peut pas dire tout et n'importe quoi."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-1-2",
+                "sectionTitle": "La laïcité à l'école (1/2)",
+                "quote": "Elle permet la libre expression de ses convictions religieuses, dans le respect de celles des autres et dans les limites de l'ordre public."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "charte-de-la-laicite-a-l-ecole",
+                "sectionTitle": "Charte de la laïcité à l'école",
+                "quote": "La laïcité garantit la liberté de conscience à tous. Chacun est libre de croire ou de ne pas croire. Elle permet la libre expression de ses convictions, dans le respect de celles d'autrui et dans les limites de l'ordre public."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+            "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+            "sectionId": "quelles-sont-les-limites",
+            "sectionTitle": "Quelles sont les limites ?",
+            "quote": "Au nom de la liberté d'expression, même si le blasphème n'est pas interdit, on ne peut pas dire tout et n'importe quoi. Certains propos sont punis par la loi, par exemple : les insultes ou propos haineux envers des personnes à cause de leur religion ; l'encouragement à commettre certains crimes ou délits contre une religion ; l'incitation à la haine raciale ou ethnique, à la violence ou à la discrimination religieuse ; la négation de la Shoah."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "charte-de-la-laicite-a-l-ecole",
+            "sectionTitle": "Charte de la laïcité à l'école",
+            "quote": "Elle permet la libre expression de ses convictions, dans le respect de celles d'autrui et dans les limites de l'ordre public."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--le-blaspheme",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "qualityFlags": []
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "questionId": "crx003",
+      "questionText": "À quoi sert un titre de séjour ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.623Z",
+      "accepted": true,
+      "suggestion": {
+        "correct": [
+          "Autoriser légalement un étranger à résider sur le territoire français"
+        ],
+        "distractors": [
+          "Permettre à un étranger d'acquérir automatiquement la nationalité française après cinq ans de résidence",
+          "Attester du droit de vote aux élections municipales pour tous les ressortissants étrangers",
+          "Remplacer le passeport pour circuler librement dans l'espace Schengen sans contrôle aux frontières"
+        ],
+        "explanationByCorrect": {
+          "Autoriser légalement un étranger à résider sur le territoire français": "Tout étranger doit disposer d'un titre de séjour valide correspondant à sa situation et au motif de son installation pour être en situation régulière en France. Il conditionne aussi la liberté de se déplacer sur le territoire national."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Autoriser légalement un étranger à résider sur le territoire français",
+            "normalizedAnswer": "autoriser legalement un etranger a resider sur le territoire francais",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                "sectionId": "les-demarches-relatives-au-sejour-en-france",
+                "sectionTitle": "Les démarches relatives au séjour en France",
+                "quote": "Tout étranger doit disposer d'un titre de séjour valide qui correspond à sa situation. Le type de titre de séjour varie en fonction de la durée et du motif (la raison) de l'installation en France."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "les-differents-types-de-liberte",
+                "sectionTitle": "Les différents types de liberté",
+                "quote": "se déplacer dans le territoire grâce à son titre de séjour"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+            "sectionId": "les-demarches-relatives-au-sejour-en-france",
+            "sectionTitle": "Les démarches relatives au séjour en France",
+            "quote": "Tout étranger doit disposer d'un titre de séjour valide qui correspond à sa situation."
+          },
+          {
+            "ficheId": "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain",
+            "contentPath": "principes-et-valeurs/le-contrat-d-engagement-a-respecter-les-principes-de-la-republique/le-contrat-engagement-republicain.md",
+            "sectionId": "le-contrat-d-engagement-republicain-qu-est-ce-que-c-est",
+            "sectionTitle": "Le contrat d'engagement républicain, qu'est-ce que c'est ?",
+            "quote": "Aucun titre de séjour ne peut être délivré sans ce contrat signé. Si la personne ne respecte pas un principe républicain, le titre de séjour peut être retiré ou non renouvelé."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--emploi--orientation-1",
+            "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+            "sectionId": "orientation-1-5",
+            "sectionTitle": "Orientation (1/5)",
+            "quote": "Chaque personne étrangère qui est en situation régulière (c'est-à-dire qui a un titre de séjour, qui est réfugiée, ou qui bénéficie de la protection internationale)"
+          }
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+          "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain",
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "vivre-societe-francaise--emploi--orientation-1"
+        ],
+        "qualityFlags": []
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "questionId": "crx004",
+      "questionText": "La liberté de circulation permet à toute personne de :",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.623Z",
+      "accepted": false,
+      "suggestion": {
+        "correct": [
+          "aller et venir librement sur le territoire national et à l'étranger"
+        ],
+        "distractors": [
+          "s'associer librement avec d'autres personnes pour défendre des intérêts communs",
+          "s'installer définitivement dans n'importe quel pays étranger sans titre de séjour",
+          "franchir les frontières européennes sans document d'identité ni contrôle"
+        ],
+        "explanationByCorrect": {
+          "aller et venir librement sur le territoire national et à l'étranger": "La liberté de circulation est un droit fondamental qui garantit à toute personne la possibilité de se déplacer librement à l'intérieur du territoire français et de le quitter ou d'y revenir, dans les limites posées par la loi pour protéger l'ordre public et les droits d'autrui."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "aller et venir librement sur le territoire national et à l'étranger",
+            "normalizedAnswer": "aller et venir librement sur le territoire national et a l etranger",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "la-limite-des-libertes-individuelles",
+                "sectionTitle": "La limite des libertés individuelles",
+                "quote": "De nombreux droits et libertés nous sont accordés par la Déclaration des Droits de l'Homme et du Citoyen et les autres textes fondamentaux. Il est écrit que nos droits sont \"imprescriptibles\" (article 2 de la DDHC), ce qui signifie qu'ils ne peuvent pas nous être retirés."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+                "contentPath": "principes-et-valeurs/la-laicite/histoire-de-la-laicite.md",
+                "sectionId": "transcription",
+                "sectionTitle": "Transcription",
+                "quote": "Les représentants du peuple français [...] ont résolu d'exposer, dans une déclaration solennelle, les droits naturels, inaliénables et sacrés de l'homme"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "la-limite-des-libertes-individuelles",
+            "sectionTitle": "La limite des libertés individuelles",
+            "quote": "Nos droits et libertés individuels sont limités par : l'intérêt général ; les libertés des autres ; la défense de l'ordre public"
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--histoire-de-la-laicite",
+            "contentPath": "principes-et-valeurs/la-laicite/histoire-de-la-laicite.md",
+            "sectionId": "transcription",
+            "sectionTitle": "Transcription",
+            "quote": "droits naturels, inaliénables et sacrés de l'homme"
+          }
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+          "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [
+        "manual review required"
+      ],
+      "errors": []
+    },
+    {
+      "questionId": "crx005",
+      "questionText": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.623Z",
+      "accepted": false,
+      "suggestion": {
+        "correct": [
+          "service-public.fr"
+        ],
+        "distractors": [
+          "gouvernement.fr",
+          "legifrance.gouv.fr",
+          "elysee.fr"
+        ],
+        "explanationByCorrect": {
+          "service-public.fr": "Le portail officiel de l'administration française service-public.fr présente les symboles de la République (Marianne, drapeau tricolore, devise nationale, hymne…) dans ses pages dédiées à la citoyenneté et aux institutions."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "service-public.fr",
+            "normalizedAnswer": "service public fr",
+            "evidence": []
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-coq.md",
+            "sectionId": "un-symbole-non-officiel",
+            "sectionTitle": "Un symbole non officiel",
+            "quote": "Le coq n'est pas reconnu de manière officielle comme un symbole de la République française, contrairement au drapeau tricolore, à Marianne ou à la devise nationale."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+        ],
+        "qualityFlags": [
+          "manual_review_required",
+          "missing_correct_evidence"
+        ]
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [
+        "manual review required"
+      ],
+      "errors": []
+    },
+    {
+      "questionId": "crx006",
+      "questionText": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.624Z",
+      "accepted": false,
+      "suggestion": {
+        "correct": [
+          "citoyens"
+        ],
+        "distractors": [
+          "soldats",
+          "patriotes",
+          "républicains"
+        ],
+        "explanationByCorrect": {
+          "citoyens": "Le refrain de la Marseillaise est : « Aux armes, citoyens ! Formez vos bataillons ! » Le mot manquant est 'citoyens', qui souligne l'appel à l'engagement civique de l'ensemble des habitants de la République."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "citoyens",
+            "normalizedAnswer": "citoyens",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-coq.md",
+                "sectionId": "un-symbole-non-officiel",
+                "sectionTitle": "Un symbole non officiel",
+                "quote": "Le coq n'est pas reconnu de manière officielle comme un symbole de la République française, contrairement au drapeau tricolore, à Marianne ou à la devise nationale."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-coq.md",
+            "sectionId": "un-symbole-non-officiel",
+            "sectionTitle": "Un symbole non officiel",
+            "quote": "Le coq n'est pas reconnu de manière officielle comme un symbole de la République française, contrairement au drapeau tricolore, à Marianne ou à la devise nationale."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [
+        "manual review required"
+      ],
+      "errors": []
+    },
+    {
+      "questionId": "crx007",
+      "questionText": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.624Z",
+      "accepted": true,
+      "suggestion": {
+        "correct": [
+          "Choisir librement de pratiquer une religion ou de ne pas en avoir"
+        ],
+        "distractors": [
+          "Pratiquer sa religion en public sans être tenue de respecter les règles de l'ordre public",
+          "Refuser un enseignement obligatoire à l'école en raison de ses convictions religieuses",
+          "Exercer une activité professionnelle non déclarée si l'employeur et le salarié y consentent"
+        ],
+        "explanationByCorrect": {
+          "Choisir librement de pratiquer une religion ou de ne pas en avoir": "La laïcité garantit la liberté de conscience : chaque personne est libre d'avoir ou de ne pas avoir de religion, d'en changer ou de ne plus en avoir. C'est une application directe de la liberté individuelle reconnue par la République française."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Choisir librement de pratiquer une religion ou de ne pas en avoir",
+            "normalizedAnswer": "choisir librement de pratiquer une religion ou de ne pas en avoir",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La laïcité garantit la liberté de conscience pour tous, c'est-à-dire que chaque personne est libre d'avoir ou de ne pas avoir de religion, d'en changer ou de ne plus en avoir."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-2-2",
+                "sectionTitle": "La définition de la laïcité (2/2)",
+                "quote": "Chaque personne a la liberté de pratiquer la religion de son choix, dans le respect des autres."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine.md",
+            "sectionId": "quels-sont-les-droits-qui-decoulent-des-droits-individuels",
+            "sectionTitle": "Quels sont les droits qui découlent des droits individuels ?",
+            "quote": "Le principe de liberté confère à chacun : la liberté d'expression (liberté de penser et de dire ce que l'on pense) ; la liberté de culte ou de religion ; le droit de grève (droit pour une personne employée de cesser le travail pour exprimer un désaccord)."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience pour tous, c'est-à-dire que chaque personne est libre d'avoir ou de ne pas avoir de religion, d'en changer ou de ne plus en avoir."
+          }
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "qualityFlags": []
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "questionId": "crx008",
+      "questionText": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.624Z",
+      "accepted": true,
+      "suggestion": {
+        "correct": [
+          "La pratique d'une religion est libre, à condition de ne pas troubler l'ordre public"
+        ],
+        "distractors": [
+          "Un salarié peut s'absenter pour une fête religieuse sans avoir à demander l'autorisation de son employeur",
+          "Il est interdit de porter des signes religieux dans tous les lieux de travail, qu'ils soient publics ou privés",
+          "La dissimulation du visage est interdite dans tous les espaces, y compris dans les lieux de culte ouverts au public"
+        ],
+        "explanationByCorrect": {
+          "La pratique d'une religion est libre, à condition de ne pas troubler l'ordre public": "La laïcité garantit la liberté de conscience, ce qui implique la liberté de pratiquer une religion de son choix, dans le respect des règles de la vie en société (pas de bruit la nuit, pas d'attroupement dans la rue…). Cette liberté est garantie par le principe de laïcité."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "La pratique d'une religion est libre, à condition de ne pas troubler l'ordre public",
+            "normalizedAnswer": "la pratique d une religion est libre a condition de ne pas troubler l ordre public",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La liberté de conscience a pour conséquence la liberté de pratiquer une religion, sans troubler l'ordre public (c'est-à-dire en respectant les règles de la vie en société : pas de bruit pendant la nuit, pas d'attroupement dans la rue…)."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-2-2",
+                "sectionTitle": "La définition de la laïcité (2/2)",
+                "quote": "Chaque personne a la liberté de pratiquer la religion de son choix, dans le respect des autres."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience pour tous, c'est-à-dire que chaque personne est libre d'avoir ou de ne pas avoir de religion, d'en changer ou de ne plus en avoir."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-au-travail",
+            "contentPath": "principes-et-valeurs/la-laicite/la-laicite-au-travail.md",
+            "sectionId": "comment-s-applique-la-laicite-pour-les-salaries",
+            "sectionTitle": "Comment s'applique la laïcité pour les salariés ?",
+            "quote": "Un salarié doit obtenir l'autorisation de son employeur pour s'absenter pour une fête religieuse."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-dans-espace-public",
+            "contentPath": "principes-et-valeurs/la-laicite/la-laicite-dans-espace-public.md",
+            "sectionId": "la-dissimulation-du-visage-un-interdit",
+            "sectionTitle": "La dissimulation du visage : un interdit",
+            "quote": "Depuis le 11 octobre 2010, il est interdit de dissimuler son visage dans l'espace public (cagoule, masque, voile intégral...). Cette loi ne s'applique pas dans les lieux de culte ouverts au public (églises, mosquées, synagogues…)."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2",
+          "principes-et-valeurs--la-laicite--la-laicite-au-travail",
+          "principes-et-valeurs--la-laicite--la-laicite-dans-espace-public",
+          "principes-et-valeurs--la-laicite--le-proselytisme"
+        ],
+        "qualityFlags": []
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "questionId": "crx009",
+      "questionText": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.624Z",
+      "accepted": true,
+      "suggestion": {
+        "correct": [
+          "Non, la laïcité interdit de refuser un cours du programme scolaire pour des motifs religieux, y compris la mixité des cours de sport"
+        ],
+        "distractors": [
+          "Oui, un parent peut obtenir une dispense en invoquant ses convictions religieuses auprès du directeur d'école",
+          "Oui, à condition de fournir une demande écrite motivée par des raisons philosophiques ou culturelles",
+          "Oui, si l'enfant pratique ce sport de manière intensive en dehors du cadre scolaire"
+        ],
+        "explanationByCorrect": {
+          "Non, la laïcité interdit de refuser un cours du programme scolaire pour des motifs religieux, y compris la mixité des cours de sport": "La charte de la laïcité à l'école stipule explicitement qu'il n'est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme. La mixité des cours de sport est une règle de fonctionnement scolaire ; l'invoquer pour des motifs religieux ou culturels contrevient directement au principe de laïcité qui garantit l'égalité de traitement de tous les élèves."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Non, la laïcité interdit de refuser un cours du programme scolaire pour des motifs religieux, y compris la mixité des cours de sport",
+            "normalizedAnswer": "non la laicite interdit de refuser un cours du programme scolaire pour des motifs religieux y compris la mixite des cours de sport",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-2-2",
+                "sectionTitle": "La laïcité à l'école (2/2)",
+                "quote": "À l'école, il n'est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme. C'est l'une des règles d'application de la laïcité dans les écoles."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-2-2",
+                "sectionTitle": "La laïcité à l'école (2/2)",
+                "quote": "La laïcité garantit l'égalité de traitement de tous les élèves au sein des écoles."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-2-2",
+            "sectionTitle": "La laïcité à l'école (2/2)",
+            "quote": "À l'école, il n'est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme. C'est l'une des règles d'application de la laïcité dans les écoles."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-1-2",
+            "sectionTitle": "La laïcité à l'école (1/2)",
+            "quote": "Les écoles publiques sont neutres vis-à-vis des religions. Cette neutralité permet à chaque élève de penser librement et de construire lui-même ses opinions."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "qualityFlags": []
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "questionId": "crx010",
+      "questionText": "Quelle est la devise de la France ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.624Z",
+      "accepted": true,
+      "suggestion": {
+        "correct": [
+          "Liberté, Égalité, Fraternité"
+        ],
+        "distractors": [
+          "Liberté, Égalité, Laïcité",
+          "Liberté, Démocratie, Fraternité",
+          "Unité, Égalité, Fraternité"
+        ],
+        "explanationByCorrect": {
+          "Liberté, Égalité, Fraternité": "La devise officielle de la République française est « Liberté, Égalité, Fraternité ». Elle est officielle depuis 1848 et inscrite dans la Constitution de 1958."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Liberté, Égalité, Fraternité",
+            "normalizedAnswer": "liberte egalite fraternite",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+                "sectionId": "qu-est-ce-qu-une-devise",
+                "sectionTitle": "Qu'est-ce qu'une devise ?",
+                "quote": "La devise de la République française est : \"Liberté, Égalité, Fraternité\". Elle est officielle depuis 1848 et fait partie de notre patrimoine national."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+                "sectionId": "d-ou-vient-cette-devise",
+                "sectionTitle": "D'où vient cette devise ?",
+                "quote": "Les révolutionnaires veulent une société plus juste, fondée sur ces trois valeurs : liberté, égalité, fraternité."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+            "sectionId": "qu-est-ce-qu-une-devise",
+            "sectionTitle": "Qu'est-ce qu'une devise ?",
+            "quote": "La devise de la République française est : \"Liberté, Égalité, Fraternité\"."
+          },
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-coq.md",
+            "sectionId": "un-symbole-non-officiel",
+            "sectionTitle": "Un symbole non officiel",
+            "quote": "contrairement au drapeau tricolore, à Marianne ou à la devise nationale."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+          "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+        ],
+        "qualityFlags": []
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [],
+      "errors": []
+    },
+    {
+      "questionId": "crx011",
+      "questionText": "La répudiation de sa femme est :",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-02-27T14:45:42.624Z",
+      "accepted": false,
+      "suggestion": {
+        "correct": [
+          "Interdite en France, car contraire au principe d'égalité entre les femmes et les hommes"
+        ],
+        "distractors": [
+          "Autorisée si les deux époux y consentent mutuellement",
+          "Reconnue par les tribunaux français pour les couples mariés à l'étranger selon leur droit national",
+          "Soumise à validation préalable par un juge aux affaires familiales"
+        ],
+        "explanationByCorrect": {
+          "Interdite en France, car contraire au principe d'égalité entre les femmes et les hommes": "La répudiation est un acte unilatéral par lequel un homme met fin au mariage sans que sa femme dispose des mêmes droits. Elle est contraire au principe d'égalité femmes-hommes inscrit dans le Préambule de la Constitution de 1946 et à l'ordre public français ; elle n'est donc ni autorisée ni reconnue par le droit français."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Interdite en France, car contraire au principe d'égalité entre les femmes et les hommes",
+            "normalizedAnswer": "interdite en france car contraire au principe d egalite entre les femmes et les hommes",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-2-3",
+                "sectionTitle": "L'égalité (2/3)",
+                "quote": "L'égalité entre les femmes et les hommes est inscrite dans le Préambule de la Constitution de 1946 : \"la loi garantit à la femme, dans tous les domaines, des droits égaux à ceux de l'homme\"."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-2-3",
+            "sectionTitle": "L'égalité (2/3)",
+            "quote": "L'égalité entre les femmes et les hommes est inscrite dans le Préambule de la Constitution de 1946 : \"la loi garantit à la femme, dans tous les domaines, des droits égaux à ceux de l'homme\". Cela signifie que les femmes et les hommes ont les mêmes droits et les mêmes devoirs dans tous les aspects de la vie."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      },
+      "attemptedProviders": [
+        "delegated-agent:claude-sonnet"
+      ],
+      "providerUsed": "delegated-agent",
+      "modelUsed": "claude-sonnet",
+      "warnings": [
+        "manual review required"
+      ],
+      "errors": []
+    }
+  ]
+}

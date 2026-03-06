@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button.tsx";
 import { Progress } from "@/components/ui/progress.tsx";
 import { TrendingUp, BookOpen, Clock, Flame, Zap, Trophy } from "lucide-react";
 import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import { useSpacedRepetition } from "@/hooks/use-spaced-repetition.ts";
 import { StatCard } from "./stat-card.tsx";
 import { ThemeProgress } from "./theme-progress.tsx";
@@ -12,6 +13,7 @@ import type { QuizHistoryEntry } from "@/types/index.ts";
 
 export function DashboardPage() {
   const { loading } = useData();
+  const { activeExam } = useExam();
   const { stats, themeMastery, dueCards, streak } = useSpacedRepetition();
 
   if (loading) {
@@ -27,12 +29,12 @@ export function DashboardPage() {
     Math.round((stats.mastered / stats.total) * 100 * 1.25)
   );
 
-  const quizHistory = storage.load<QuizHistoryEntry[]>("quiz_history", []);
+  const quizHistory = storage.load<QuizHistoryEntry[]>("quiz_history", [], activeExam);
   const lastQuiz = quizHistory.length > 0 ? quizHistory[quizHistory.length - 1] : null;
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Tableau de bord</h1>
+      <h1 className="text-2xl font-bold">Tableau de bord ({activeExam})</h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <StatCard value={`${masteryPct}%`} label="Progression" icon={TrendingUp} color="blue" delay={0} />

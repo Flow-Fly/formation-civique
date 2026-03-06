@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
 import { Button } from "@/components/ui/button.tsx";
 import { RefreshCw, LayoutDashboard, BookOpen } from "lucide-react";
-import { useData } from "@/context/data-context.tsx";
-import type { QuizAnswer, QuizScore } from "@/types/index.ts";
-import type { Question } from "@/types/index.ts";
+import type { QuizAnswer, QuizScore, QuestionInstance } from "@/types/index.ts";
 
 const CONFETTI_COLORS = [
   "#000091", "#e1000f", "#009081", "#6a6af4", "#ff6b6b",
@@ -42,7 +40,7 @@ function Confetti({ count = 40 }: { count?: number }) {
 
 function ScoreRing({ percentage, passed }: { percentage: number; passed: boolean }) {
   const [offset, setOffset] = useState(283);
-  const circumference = 283; // 2 * PI * 45
+  const circumference = 283;
   const target = circumference - (circumference * percentage) / 100;
 
   useEffect(() => {
@@ -55,7 +53,11 @@ function ScoreRing({ percentage, passed }: { percentage: number; passed: boolean
       <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
         <circle cx="50" cy="50" r="45" fill="none" strokeWidth="6" className="stroke-muted" />
         <circle
-          cx="50" cy="50" r="45" fill="none" strokeWidth="6"
+          cx="50"
+          cy="50"
+          r="45"
+          fill="none"
+          strokeWidth="6"
           strokeDasharray={circumference}
           strokeDashoffset={offset}
           strokeLinecap="round"
@@ -72,19 +74,27 @@ function ScoreRing({ percentage, passed }: { percentage: number; passed: boolean
 interface QuizResultsProps {
   score: QuizScore;
   answers: QuizAnswer[];
+  questions: QuestionInstance[];
   isExam: boolean;
   onRetry: () => void;
-  onReviewMistakes: (questions: Question[]) => void;
+  onReviewMistakes: (questions: QuestionInstance[]) => void;
 }
 
-export function QuizResults({ score, answers, isExam, onRetry, onReviewMistakes }: QuizResultsProps) {
-  const { questions } = useData();
+export function QuizResults({
+  score,
+  answers,
+  questions,
+  isExam,
+  onRetry,
+  onReviewMistakes,
+}: QuizResultsProps) {
   const mistakes = answers.filter((a) => !a.isCorrect);
 
   function handleReviewMistakes() {
+    const questionMap = new Map(questions.map((q) => [q.id, q]));
     const mistakeQuestions = mistakes
-      .map((m) => questions.find((q) => q.id === m.questionId))
-      .filter((q): q is Question => q !== undefined);
+      .map((m) => questionMap.get(m.questionId))
+      .filter((q): q is QuestionInstance => q !== undefined);
     onReviewMistakes(mistakeQuestions);
   }
 
@@ -125,13 +135,7 @@ export function QuizResults({ score, answers, isExam, onRetry, onReviewMistakes 
           {Object.entries(score.themes).map(([id, t]) => (
             <div key={id} className="flex justify-between text-sm">
               <span>{t.name}</span>
-              <span
-                className={
-                  t.correct === t.total
-                    ? "text-dsfr-success font-medium"
-                    : ""
-                }
-              >
+              <span className={t.correct === t.total ? "text-dsfr-success font-medium" : ""}>
                 {t.correct}/{t.total}
               </span>
             </div>

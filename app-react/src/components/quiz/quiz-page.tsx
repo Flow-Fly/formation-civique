@@ -1,12 +1,14 @@
 import { useQuiz } from "@/hooks/use-quiz.ts";
 import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import { QuizSetup } from "./quiz-setup.tsx";
 import { QuizQuestion } from "./quiz-question.tsx";
 import { QuizResults } from "./quiz-results.tsx";
-import type { Question } from "@/types/index.ts";
+import type { QuestionInstance } from "@/types/index.ts";
 
 export function QuizPage() {
   const { loading } = useData();
+  const { activeExam } = useExam();
   const quiz = useQuiz();
 
   if (loading) {
@@ -18,10 +20,11 @@ export function QuizPage() {
       <QuizResults
         score={quiz.state.score}
         answers={quiz.state.answers}
+        questions={quiz.state.questions}
         isExam={quiz.state.isExam}
         onRetry={quiz.reset}
-        onReviewMistakes={(questions: Question[]) => {
-          quiz.start(questions, { timed: false, isExam: false });
+        onReviewMistakes={(questions: QuestionInstance[]) => {
+          quiz.start(questions, { timed: false, isExam: false, exam: activeExam });
         }}
       />
     );

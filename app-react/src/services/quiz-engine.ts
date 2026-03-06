@@ -1,11 +1,11 @@
-import type { Question, QuizAnswer, QuizScore } from "@/types/index.ts";
+import type { QuizAnswer, QuizScore } from "@/types/index.ts";
 
-export function selectQuestions(
-  allQuestions: Question[],
-  options: { count?: number; themeId?: string | null; shuffle?: boolean } = {}
-): Question[] {
+export function selectQuestions<T extends { themeId: string }>(
+  allQuestions: T[],
+  options: { count?: number; themeId?: string | null; shuffle?: boolean } = {},
+): T[] {
   const { count = 20, themeId = null, shuffle = true } = options;
-  let pool = themeId
+  const pool = themeId
     ? allQuestions.filter((q) => q.themeId === themeId)
     : [...allQuestions];
 

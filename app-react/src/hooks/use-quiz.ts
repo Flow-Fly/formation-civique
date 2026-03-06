@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useReducer, useRef } from "react";
-import type { Question, QuizAnswer, QuizScore } from "@/types/index.ts";
+import type { QuestionInstance, QuizAnswer, QuizScore, ExamCode } from "@/types/index.ts";
 import * as engine from "@/services/quiz-engine.ts";
 import * as sr from "@/services/spaced-repetition.ts";
 import * as storage from "@/services/storage.ts";
@@ -8,23 +8,31 @@ type QuizPhase = "setup" | "active" | "results";
 
 interface QuizState {
   phase: QuizPhase;
-  questions: Question[];
+  questions: QuestionInstance[];
   current: number;
   answers: QuizAnswer[];
   timed: boolean;
   timeLimit: number;
   timeRemaining: number;
   isExam: boolean;
+  exam: ExamCode | null;
   showingFeedback: boolean;
   selectedChoice: string | null;
   score: QuizScore | null;
 }
 
 type QuizAction =
-  | { type: "START"; questions: Question[]; timed: boolean; timeLimit: number; isExam: boolean }
-  | { type: "SELECT_CHOICE"; choiceId: string; question: Question }
+  | {
+      type: "START";
+      questions: QuestionInstance[];
+      timed: boolean;
+      timeLimit: number;
+      isExam: boolean;
+      exam: ExamCode;
+    }
+  | { type: "SELECT_CHOICE"; choiceId: string; question: QuestionInstance }
   | { type: "NEXT_QUESTION" }
-  | { type: "SKIP"; question: Question }
+  | { type: "SKIP"; question: QuestionInstance }
   | { type: "TICK" }
   | { type: "FINISH" }
   | { type: "RESET" };
@@ -38,6 +46,7 @@ const initialState: QuizState = {
   timeLimit: 0,
   timeRemaining: 0,
   isExam: false,
+  exam: null,
   showingFeedback: false,
   selectedChoice: null,
   score: null,
@@ -45,14 +54,15 @@ const initialState: QuizState = {
 
 function finishQuiz(state: QuizState): QuizState {
   const score = engine.calculateScore(state.answers);
-  const history = storage.load<Array<Record<string, unknown>>>("quiz_history", []);
+  const exam = state.exam || "CR";
+  const history = storage.load<Array<Record<string, unknown>>>("quiz_history", [], exam);
   history.push({
     date: new Date().toISOString(),
     ...score,
     isExam: state.isExam,
   });
-  storage.save("quiz_history", history);
-  sr.recordStudyActivity();
+  storage.save("quiz_history", history, exam);
+  sr.recordStudyActivity(exam);
 
   return { ...state, phase: "results", score };
 }
@@ -68,6 +78,7 @@ function reducer(state: QuizState, action: QuizAction): QuizState {
         timeLimit: action.timeLimit,
         timeRemaining: action.timeLimit,
         isExam: action.isExam,
+        exam: action.exam,
       };
 
     case "SELECT_CHOICE": {
@@ -81,7 +92,7 @@ function reducer(state: QuizState, action: QuizAction): QuizState {
         correct: q.correctAnswer,
         isCorrect,
       };
-      sr.rateCard(q.id, isCorrect ? 3 : 0);
+      sr.rateCard(q.id, isCorrect ? 3 : 0, state.exam || q.exam);
 
       const newAnswers = [...state.answers, answer];
 
@@ -181,30 +192,31 @@ export function useQuiz() {
   }, [state.phase]);
 
   const start = useCallback(
-    (questions: Question[], options: { timed: boolean; timeLimit?: number; isExam: boolean }) => {
+    (
+      questions: QuestionInstance[],
+      options: { timed: boolean; timeLimit?: number; isExam: boolean; exam: ExamCode },
+    ) => {
       dispatch({
         type: "START",
         questions,
         timed: options.timed,
         timeLimit: options.timeLimit || 0,
         isExam: options.isExam,
+        exam: options.exam,
       });
     },
-    []
+    [],
   );
 
   const selectChoice = useCallback(
-    (choiceId: string, question: Question) => {
+    (choiceId: string, question: QuestionInstance) => {
       dispatch({ type: "SELECT_CHOICE", choiceId, question });
     },
-    []
+    [],
   );
 
   const nextQuestion = useCallback(() => dispatch({ type: "NEXT_QUESTION" }), []);
-  const skip = useCallback(
-    (question: Question) => dispatch({ type: "SKIP", question }),
-    []
-  );
+  const skip = useCallback((question: QuestionInstance) => dispatch({ type: "SKIP", question }), []);
   const reset = useCallback(() => dispatch({ type: "RESET" }), []);
 
   return { state, start, selectChoice, nextQuestion, skip, reset };
