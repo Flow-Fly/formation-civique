@@ -7,13 +7,14 @@
  * 1) parse-questions
  * 2) bootstrap-question-bank
  * 3) build-fiche-section-index
- * 4) generate-answer-pool-suggestions
- * 5) validate-answer-pool-suggestions
+ * 4) suggest-question-fiche-links (for pending questions without fiche link)
+ * 5) generate-answer-pool-suggestions (linked questions only)
+ * 6) validate-answer-pool-suggestions
  *
  * Optional apply flow:
- * 6) apply-answer-pool-suggestions --accept-all (if requested)
- * 7) validate-question-bank
- * 8) bundle-data
+ * 7) apply-answer-pool-suggestions --accept-all (if requested)
+ * 8) validate-question-bank
+ * 9) bundle-data
  */
 
 import { spawnSync } from "child_process";
@@ -28,9 +29,9 @@ function parseArgs(argv) {
     status: "pending",
     runId: "",
     limit: 0,
-    provider: "auto",
+    provider: process.env.FC_QCM_PROVIDER || "copilot",
     model: "",
-    concurrency: 4,
+    concurrency: 1,
     fast: false,
     resume: false,
     apply: false,
@@ -111,10 +112,21 @@ function main() {
     `data-init/suggestions/answer-pools.${args.status}${args.runId ? `.${args.runId}` : ""}`;
   const suggestionsJson = `${suggestionsBase}.json`;
   const validatedJson = `${suggestionsBase}.validated.json`;
+  const linkSuggestionsBase =
+    `data-init/suggestions/question-fiche-links.${args.status}${args.runId ? `.${args.runId}` : ""}.json`;
 
   runStep("Parse questions", "node", ["scripts/parse-questions.mjs"]);
   runStep("Bootstrap question-bank", "node", ["scripts/bootstrap-question-bank.mjs"]);
   runStep("Build section index", "node", ["scripts/build-fiche-section-index.mjs"]);
+
+  const linkArgs = [
+    "scripts/suggest-question-fiche-links.mjs",
+    "--status",
+    args.status,
+  ];
+  if (args.runId) linkArgs.push("--run-id", args.runId);
+  if (args.limit > 0) linkArgs.push("--limit", String(args.limit));
+  runStep("Suggest fiche links", "node", linkArgs);
 
   const generateArgs = [
     "scripts/generate-answer-pool-suggestions.mjs",
@@ -145,6 +157,7 @@ function main() {
 
   if (!args.apply) {
     console.log("\nPipeline stopped before apply step (review mode).");
+    console.log(`Fiche-link review JSON: ${linkSuggestionsBase}`);
     console.log(`Review JSON: ${validatedJson}`);
     console.log(`Review Markdown: ${validatedJson.replace(/\.json$/, ".md")}`);
     console.log("Rerun with --apply to merge accepted suggestions.");

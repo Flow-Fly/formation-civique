@@ -1,0 +1,987 @@
+{
+  "generatedAt": "2026-03-06T12:00:00.000Z",
+  "statusFilter": "pending",
+  "providerMode": "manual-curation",
+  "modelHint": "",
+  "source": "manual-batch-001",
+  "items": [
+    {
+      "questionId": "crx001",
+      "questionText": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "suggestion": {
+        "correct": [
+          "Faire du bénévolat dans une association"
+        ],
+        "distractors": [
+          "Payer ses impôts dans les délais",
+          "Connaître la devise de la République",
+          "Renouveler son titre de séjour"
+        ],
+        "explanationByCorrect": {
+          "Faire du bénévolat dans une association": "Le bénévolat fait partie des formes d'engagement qui permettent de participer à la vie collective, à la solidarité et à la démocratie."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Faire du bénévolat dans une association",
+            "normalizedAnswer": "faire du benevolat dans une association",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/fraternite.md",
+                "sectionId": "la-fraternite-2-2",
+                "sectionTitle": "La fraternité (2/2)",
+                "quote": "mener une action pour les autres, sur son temps libre, sans être payé (bénévolat), par exemple pour une association"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/fraternite.md",
+            "sectionId": "la-fraternite-2-2",
+            "sectionTitle": "La fraternité (2/2)",
+            "quote": "L’engagement est aussi une manière de participer à la vie collective, à la solidarité et à la démocratie."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+        ],
+        "qualityFlags": [],
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 39,
+          "distractorCharLengths": [
+            32,
+            36,
+            30
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            6,
+            5
+          ],
+          "charLengthRatio": 1.1938775510204083,
+          "tokenLengthRatio": 1.0588235294117647,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx002",
+      "questionText": "Que garantit la liberté d’expression ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "suggestion": {
+        "correct": [
+          "Exprimer ses opinions, parler, écrire et publier librement, dans les limites de la loi"
+        ],
+        "distractors": [
+          "Dire n'importe quoi sans que la loi puisse intervenir",
+          "Empêcher les autres d'exprimer une opinion contraire",
+          "Obliger un média à publier toutes les opinions"
+        ],
+        "explanationByCorrect": {
+          "Exprimer ses opinions, parler, écrire et publier librement, dans les limites de la loi": "La liberté d'expression protège le fait d'avoir des opinions, de parler, d'écrire et de publier librement, tout en restant encadrée par la loi."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Exprimer ses opinions, parler, écrire et publier librement, dans les limites de la loi",
+            "normalizedAnswer": "exprimer ses opinions parler ecrire et publier librement dans les limites de la loi",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+                "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+                "quote": "chacun a le droit d’avoir ses opinions, même religieuses"
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+                "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+                "quote": "chacun peut parler, écrire et publier librement."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "le-blaspheme-c-est-quoi",
+                "sectionTitle": "Le blasphème, c’est quoi ?",
+                "quote": "on a le droit de critiquer une religion"
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "quelles-sont-les-limites",
+                "sectionTitle": "Quelles sont les limites ?",
+                "quote": "Au nom de la liberté d'expression, même si le blasphème n’est pas interdit, on ne peut pas dire tout et n’importe quoi."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+            "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+            "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+            "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+            "quote": "En France, la liberté d’expression est un droit fondamental."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--le-blaspheme"
+        ],
+        "qualityFlags": [
+          "weak_distractors",
+          "manual_review_required"
+        ],
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--le-blaspheme",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 86,
+          "distractorCharLengths": [
+            53,
+            52,
+            46
+          ],
+          "correctTokenLength": 14,
+          "distractorTokenLengths": [
+            10,
+            8,
+            8
+          ],
+          "charLengthRatio": 1.7086092715231787,
+          "tokenLengthRatio": 1.6153846153846154,
+          "obviousLengthCue": true,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "obvious_length_cue"
+        ]
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx003",
+      "questionText": "À quoi sert un titre de séjour ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+        "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain",
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "suggestion": {
+        "correct": [
+          "Séjourner régulièrement en France"
+        ],
+        "distractors": [
+          "Obtenir immédiatement la nationalité française",
+          "Faire reconnaître automatiquement ses diplômes",
+          "Voyager partout en Europe sans passeport"
+        ],
+        "explanationByCorrect": {
+          "Séjourner régulièrement en France": "Le titre de séjour sert à justifier un séjour régulier en France, avec un titre qui correspond à la situation et au motif d'installation de la personne."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Séjourner régulièrement en France",
+            "normalizedAnswer": "sejourner regulierement en france",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                "sectionId": "les-demarches-relatives-au-sejour-en-france",
+                "sectionTitle": "Les démarches relatives au séjour en France",
+                "quote": "Tout étranger doit disposer d’un titre de séjour valide qui correspond à sa situation."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "les-differents-types-de-liberte",
+                "sectionTitle": "Les différents types de liberté",
+                "quote": "se déplacer dans le territoire grâce à son titre de séjour"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+            "sectionId": "les-demarches-relatives-au-sejour-en-france",
+            "sectionTitle": "Les démarches relatives au séjour en France",
+            "quote": "Tout étranger doit disposer d’un titre de séjour valide qui correspond à sa situation."
+          }
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "qualityFlags": [],
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+          "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain",
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 33,
+          "distractorCharLengths": [
+            46,
+            46,
+            40
+          ],
+          "correctTokenLength": 4,
+          "distractorTokenLengths": [
+            5,
+            5,
+            6
+          ],
+          "charLengthRatio": 0.75,
+          "tokenLengthRatio": 0.75,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx004",
+      "questionText": "La liberté de circulation permet à toute personne de :",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+        "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france"
+      ],
+      "suggestion": {
+        "correct": [
+          "Aller et venir librement"
+        ],
+        "distractors": [
+          "Exprimer une opinion librement",
+          "Adhérer à un syndicat",
+          "Refuser un cours obligatoire"
+        ],
+        "explanationByCorrect": {
+          "Aller et venir librement": "La liberté de circulation renvoie à la liberté d'aller et venir. La fiche sur la liberté évoque aussi le fait de se déplacer dans le territoire."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Aller et venir librement",
+            "normalizedAnswer": "aller et venir librement",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "la-limite-des-libertes-individuelles",
+                "sectionTitle": "La limite des libertés individuelles",
+                "quote": "La mise en place de l'état d'urgence sanitaire contre le Covid-19 en mars 2020 a limité la liberté d'aller et venir"
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "les-differents-types-de-liberte",
+                "sectionTitle": "Les différents types de liberté",
+                "quote": "se déplacer dans le territoire grâce à son titre de séjour"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "la-limite-des-libertes-individuelles",
+            "sectionTitle": "La limite des libertés individuelles",
+            "quote": "Dans le cadre de la lutte contre le terrorisme certaines libertés individuelles (liberté de circulation, par exemple) ont été restreintes."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+        ],
+        "qualityFlags": [],
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+          "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 24,
+          "distractorCharLengths": [
+            30,
+            21,
+            28
+          ],
+          "correctTokenLength": 4,
+          "distractorTokenLengths": [
+            4,
+            4,
+            4
+          ],
+          "charLengthRatio": 0.9113924050632912,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx005",
+      "questionText": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "website",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "suggestion": {
+        "correct": [
+          "info.gouv.fr"
+        ],
+        "distractors": [
+          "service-public.fr",
+          "france-vae.fr",
+          "vie-publique.fr"
+        ],
+        "explanationByCorrect": {
+          "info.gouv.fr": "La fiche Marianne renvoie explicitement vers une ressource \"La petite histoire de Marianne\" sur info.gouv.fr."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "info.gouv.fr",
+            "normalizedAnswer": "info.gouv.fr",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+                "sectionId": "pour-aller-plus-loin",
+                "sectionTitle": "Pour aller plus loin",
+                "quote": "La petite histoire de Marianne info.gouv.fr"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+            "sectionId": "que-signifie-le-symbole-marianne",
+            "sectionTitle": "Que signifie le symbole Marianne ?",
+            "quote": "De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "qualityFlags": [],
+        "questionProfile": "website",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+          "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "styleMetrics": {
+          "questionProfile": "website",
+          "correctCharLength": 12,
+          "distractorCharLengths": [
+            17,
+            13,
+            15
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 0.8,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx006",
+      "questionText": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": false,
+      "questionProfile": "quote",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "suggestion": {
+        "correct": [
+          "citoyens"
+        ],
+        "distractors": [
+          "Français",
+          "soldats",
+          "patriotes"
+        ],
+        "explanationByCorrect": {
+          "citoyens": "La réponse attendue est bien \"citoyens\", mais la fiche locale sur l'hymne ne contient pas encore les paroles exactes, ce qui impose une revue manuelle."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "citoyens",
+            "normalizedAnswer": "citoyens",
+            "evidence": []
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+            "sectionId": "le-titre-de-l-hymne-francais",
+            "sectionTitle": "Le titre de l’hymne français",
+            "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "qualityFlags": [
+          "missing_correct_evidence",
+          "manual_review_required"
+        ],
+        "questionProfile": "quote",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "styleMetrics": {
+          "questionProfile": "quote",
+          "correctCharLength": 8,
+          "distractorCharLengths": [
+            8,
+            7,
+            9
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 1,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 0,
+          "optionCount": 4,
+          "mismatchedOptions": [
+            "citoyens",
+            "Français",
+            "soldats",
+            "patriotes"
+          ]
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "missing evidence pointers for \"citoyens\"",
+          "missing_required_correct_evidence",
+          "visible_type_mismatch"
+        ]
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": false,
+        "errors": [
+          "missing evidence pointers for \"citoyens\""
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx007",
+      "questionText": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "suggestion": {
+        "correct": [
+          "Vivre avec la personne de son choix"
+        ],
+        "distractors": [
+          "Refuser un cours obligatoire pour motif religieux",
+          "Imposer ses convictions aux agents d'une mairie",
+          "Troubler l'ordre public au nom de sa religion"
+        ],
+        "explanationByCorrect": {
+          "Vivre avec la personne de son choix": "La fiche sur la liberté cite explicitement le fait de vivre avec la personne de son choix parmi les libertés de chaque personne."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Vivre avec la personne de son choix",
+            "normalizedAnswer": "vivre avec la personne de son choix",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "les-differents-types-de-liberte",
+                "sectionTitle": "Les différents types de liberté",
+                "quote": "vivre avec la personne de son choix"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+            "sectionId": "la-liberte-qu-est-ce-que-c-est",
+            "sectionTitle": "La liberté : qu’est-ce que c’est ?",
+            "quote": "En France, chaque personne peut penser, s’exprimer et vivre comme elle le souhaite."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "qualityFlags": [],
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 35,
+          "distractorCharLengths": [
+            49,
+            47,
+            45
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            7,
+            8,
+            9
+          ],
+          "charLengthRatio": 0.7446808510638298,
+          "tokenLengthRatio": 0.875,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx008",
+      "questionText": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "suggestion": {
+        "correct": [
+          "Pratiquer la religion de son choix, sans troubler l'ordre public"
+        ],
+        "distractors": [
+          "Imposer à ses proches les règles de sa religion",
+          "Exiger qu'un service public change ses règles",
+          "Bloquer la voie publique pour un rite religieux"
+        ],
+        "explanationByCorrect": {
+          "Pratiquer la religion de son choix, sans troubler l'ordre public": "La laïcité garantit la liberté de conscience et la liberté de pratiquer une religion, à condition de respecter l'ordre public."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Pratiquer la religion de son choix, sans troubler l'ordre public",
+            "normalizedAnswer": "pratiquer la religion de son choix sans troubler l ordre public",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La liberté de conscience a pour conséquence la liberté de pratiquer une religion, sans troubler l’ordre public"
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-2-2",
+                "sectionTitle": "La définition de la laïcité (2/2)",
+                "quote": "Chaque personne a la liberté de pratiquer la religion de son choix, dans le respect des autres."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2"
+        ],
+        "qualityFlags": [],
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 64,
+          "distractorCharLengths": [
+            47,
+            45,
+            47
+          ],
+          "correctTokenLength": 11,
+          "distractorTokenLengths": [
+            9,
+            8,
+            8
+          ],
+          "charLengthRatio": 1.3812949640287768,
+          "tokenLengthRatio": 1.3199999999999998,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx009",
+      "questionText": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "yes_no",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "suggestion": {
+        "correct": [
+          "Non, un cours du programme ne peut pas être refusé pour un motif religieux."
+        ],
+        "distractors": [
+          "Oui, la mixité du sport permet aux parents de demander une dispense.",
+          "Oui, si l'enfant n'affiche aucun signe religieux à l'école.",
+          "Non, sauf dans une école privée sous contrat avec l'État."
+        ],
+        "explanationByCorrect": {
+          "Non, un cours du programme ne peut pas être refusé pour un motif religieux.": "Les règles de l'école publique s'appliquent à tous et un cours prévu dans le programme ne peut pas être refusé pour un motif religieux."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Non, un cours du programme ne peut pas être refusé pour un motif religieux.",
+            "normalizedAnswer": "non un cours du programme ne peut pas etre refuse pour un motif religieux.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-1-2",
+                "sectionTitle": "La laïcité à l'école (1/2)",
+                "quote": "Il n’est pas possible de refuser de suivre un cours prévu dans le programme (sports, sortie scolaire...) pour des motifs religieux."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-2-2",
+                "sectionTitle": "La laïcité à l'école (2/2)",
+                "quote": "À l’école, il n’est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-1-2",
+            "sectionTitle": "La laïcité à l'école (1/2)",
+            "quote": "Il n’est pas possible de refuser de suivre un cours prévu dans le programme (sports, sortie scolaire...) pour des motifs religieux."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "qualityFlags": [],
+        "questionProfile": "yes_no",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "styleMetrics": {
+          "questionProfile": "yes_no",
+          "correctCharLength": 75,
+          "distractorCharLengths": [
+            68,
+            59,
+            57
+          ],
+          "correctTokenLength": 14,
+          "distractorTokenLengths": [
+            12,
+            12,
+            11
+          ],
+          "charLengthRatio": 1.2228260869565217,
+          "tokenLengthRatio": 1.2,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "questionId": "crx010",
+      "questionText": "Quelle est la devise de la France ?",
+      "reviewStatusBefore": "pending",
+      "createdAt": "2026-03-06T12:00:00.000Z",
+      "accepted": true,
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-1"
+      ],
+      "suggestion": {
+        "correct": [
+          "Liberté, Égalité, Fraternité"
+        ],
+        "distractors": [
+          "Liberté, Sûreté, Propriété",
+          "Travail, Famille, Patrie",
+          "Unité, Justice, Solidarité"
+        ],
+        "explanationByCorrect": {
+          "Liberté, Égalité, Fraternité": "C'est la devise officielle de la République française, telle qu'elle apparaît dans la fiche dédiée."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Liberté, Égalité, Fraternité",
+            "normalizedAnswer": "liberte egalite fraternite",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+                "sectionId": "qu-est-ce-qu-une-devise",
+                "sectionTitle": "Qu’est-ce qu’une devise ?",
+                "quote": "La devise de la République française est : \n\"Liberté, Égalité, Fraternité\"."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+            "sectionId": "qu-est-ce-qu-une-devise",
+            "sectionTitle": "Qu’est-ce qu’une devise ?",
+            "quote": "La devise de la République française est : \n\"Liberté, Égalité, Fraternité\"."
+          }
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+        ],
+        "qualityFlags": [],
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-1"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 28,
+          "distractorCharLengths": [
+            26,
+            24,
+            26
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            3,
+            3,
+            3
+          ],
+          "charLengthRatio": 1.105263157894737,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "providerUsed": "manual",
+      "modelUsed": "manual",
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "validatedAt": "2026-03-06T15:11:10.622Z",
+  "validationSummary": {
+    "total": 10,
+    "valid": 9,
+    "invalid": 1,
+    "errorCount": 1,
+    "warningCount": 0
+  }
+}

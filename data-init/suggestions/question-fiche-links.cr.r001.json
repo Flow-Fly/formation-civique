@@ -1,0 +1,355 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r001",
+  "generatedAt": "2026-03-07T04:32:05.033Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx001",
+      "questionText": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+      ],
+      "reasons": [
+        "La fiche sur l'engagement décrit des formes concrètes de participation: bénévolat, association, syndicat, campagne électorale.",
+        "La fiche sur la liberté complète avec des libertés collectives comme manifester ou adhérer à un syndicat."
+      ]
+    },
+    {
+      "questionId": "crx002",
+      "questionText": "Que garantit la liberté d’expression ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "reasons": [
+        "La fiche sur le blasphème définit explicitement la liberté d'expression: avoir ses opinions, parler, écrire et publier librement.",
+        "La fiche sur la DDHC rappelle l'article 11 sur la libre communication des pensées et des opinions."
+      ]
+    },
+    {
+      "questionId": "crx004",
+      "questionText": "La liberté de circulation permet à toute personne de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "reasons": [
+        "La fiche sur la liberté cite explicitement le fait de se déplacer dans le territoire grâce à son titre de séjour.",
+        "Le libellé emploie exactement le champ de la liberté de circulation."
+      ]
+    },
+    {
+      "questionId": "crx005",
+      "questionText": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+      "questionProfile": "website",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "reasons": [
+        "Au singulier, 'le symbole de la Republique francaise' renvoie le plus naturellement a Marianne, decrite comme un symbole officiel.",
+        "La fiche Marianne renvoie explicitement vers des ressources officielles sur info.gouv.fr et sur le site de l'Elysee."
+      ]
+    },
+    {
+      "questionId": "crx006",
+      "questionText": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+      "questionProfile": "quote",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "reasons": [
+        "La fiche identifie la Marseillaise comme l'hymne national et donne son contexte historique.",
+        "Le libellé demande de compléter des paroles de la Marseillaise."
+      ]
+    },
+    {
+      "questionId": "crx007",
+      "questionText": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "reasons": [
+        "La fiche 'La liberté' énumère des libertés individuelles concrètes: exprimer une opinion, avoir une religion, vivre avec la personne de son choix.",
+        "La fiche sur les droits liés à la personne humaine rappelle la protection de la liberté individuelle."
+      ]
+    },
+    {
+      "questionId": "crx008",
+      "questionText": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "principes-et-valeurs--la-laicite--la-laicite-dans-espace-public"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "reasons": [
+        "La définition de la laïcité explique qu'on peut pratiquer une religion sans troubler l'ordre public.",
+        "La deuxième fiche précise que chacun peut pratiquer la religion de son choix dans le respect des autres."
+      ]
+    },
+    {
+      "questionId": "crx009",
+      "questionText": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "reasons": [
+        "La fiche école (1/2) dit explicitement qu'on ne peut pas refuser un cours prévu au programme, y compris le sport, pour des motifs religieux.",
+        "La fiche école (2/2) reformule qu'aucune règle ou aucun cours du programme ne peut être refusé en raison de la religion."
+      ]
+    },
+    {
+      "questionId": "crx010",
+      "questionText": "Quelle est la devise de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+        "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+      ],
+      "reasons": [
+        "La fiche donne directement la devise: 'Liberte, Egalite, Fraternite'.",
+        "Le contrat d'engagement republicain la cite aussi parmi les principes a respecter."
+      ]
+    },
+    {
+      "questionId": "crx011",
+      "questionText": "La répudiation de sa femme est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+        "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "reasons": [
+        "L'egalite femmes-hommes exclut qu'un seul conjoint dispose unilateralement de l'autre.",
+        "La fiche sur les libertes au sein du couple rappelle le consentement libre au mariage et le divorce comme voie legale pour mettre fin a l'union.",
+        "Le terme 'repudiation' n'apparait pas tel quel dans les fiches; le rattachement se fait par les principes d'egalite et de liberte conjugale."
+      ]
+    },
+    {
+      "questionId": "crx012",
+      "questionText": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus"
+      ],
+      "reasons": [
+        "Les deux fiches expliquent que l'impot finance les services publics et participe a la solidarite.",
+        "La fiche sur l'impot ajoute le lien avec la redistribution et la declaration de revenus."
+      ]
+    },
+    {
+      "questionId": "crx013",
+      "questionText": "Que fait l’État pour lutter contre les discriminations ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "reasons": [
+        "La fiche 'Egalite (3/3)' dit explicitement que l'Etat lutte activement contre plusieurs formes de discrimination.",
+        "Elle cite des exemples de racisme, antisemitisme, discrimination religieuse, sexisme et haine anti-LGBT+."
+      ]
+    },
+    {
+      "questionId": "crx014",
+      "questionText": "Que représente Marianne ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "reasons": [
+        "La fiche Marianne explique qu'elle represente la Republique fondee sur la volonte du peuple et la democratie.",
+        "Elle relie aussi le bonnet phrygien a l'idee de liberte."
+      ]
+    },
+    {
+      "questionId": "crx015",
+      "questionText": "Qu'est-ce que la liberté ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "reasons": [
+        "La fiche definit la liberte comme le fait de penser, s'exprimer et vivre comme on le souhaite, dans la limite de ne pas empecher autrui d'en faire autant.",
+        "La DDHC reprise dans les fiches rappelle que la liberte s'arrete la ou elle nuit a autrui."
+      ]
+    },
+    {
+      "questionId": "crx016",
+      "questionText": "Qu'est-ce que la Marseillaise ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "reasons": [
+        "La fiche indique que la Marseillaise est l'hymne national de la France.",
+        "Elle en rappelle l'origine revolutionnaire et la valeur symbolique."
+      ]
+    },
+    {
+      "questionId": "crx017",
+      "questionText": "Un employeur refuse d’embaucher des femmes dans son entreprise. Que dit la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "reasons": [
+        "La discrimination au travail vise explicitement les refus d'embauche fondes sur le sexe.",
+        "La fiche sur l'egalite femmes-hommes pose le principe des memes droits et devoirs dans tous les domaines, dont le travail.",
+        "La fiche 'Egalite (3/3)' classe aussi ce type de refus dans les discriminations punies par la loi."
+      ]
+    },
+    {
+      "questionId": "crx018",
+      "questionText": "Quelle est la place de la langue française dans la République ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "reasons": [
+        "La fiche cite la formule constitutionnelle: 'la langue de la Republique est le francais'.",
+        "Elle explique que le francais est la seule langue officielle utilisee dans l'ecole, l'administration, la justice et la vie publique."
+      ]
+    },
+    {
+      "questionId": "crx019",
+      "questionText": "Quels sont des symboles officiels de la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "reasons": [
+        "Le drapeau est presente comme un symbole officiel de la Republique.",
+        "La Marseillaise est l'hymne national.",
+        "Marianne est decrite comme un symbole officiel de la Republique."
+      ]
+    },
+    {
+      "questionId": "crx020",
+      "questionText": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "reasons": [
+        "La fiche 'Egalite (3/3)' definit la discrimination selon des criteres comme le handicap, l'apparence, le sexe ou la religion.",
+        "Elle donne les insultes comme exemple de manifestation discriminatoire et rappelle les sanctions.",
+        "La fiche sur le blaspheme confirme aussi que les insultes visant des personnes a cause de leur religion sont punies."
+      ]
+    },
+    {
+      "questionId": "crx021",
+      "questionText": "Le régime de la France est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "reasons": [
+        "La fiche 'La democratie et la Republique' explique que la France est a la fois une democratie et une Republique.",
+        "La fiche sur la laicite rappelle la formule constitutionnelle 'Republique indivisible, laique, democratique et sociale'.",
+        "La fiche sur la Veme Republique situe le regime politique actuel."
+      ]
+    }
+  ]
+}

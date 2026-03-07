@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 
-const BANK_PATH = join(ROOT, "data-init", "question-bank.json");
+const DEFAULT_BANK_PATH = join(ROOT, "data-init", "question-bank.json");
 const VALID_THEMES = new Set([
   "principes-et-valeurs",
   "systeme-institutionnel",
@@ -40,7 +40,16 @@ function normalize(text) {
 }
 
 function main() {
-  const bank = JSON.parse(readFileSync(BANK_PATH, "utf-8"));
+  const argv = process.argv.slice(2);
+  let bankPath = DEFAULT_BANK_PATH;
+  for (let i = 0; i < argv.length; i += 1) {
+    if (argv[i] === "--bank" && argv[i + 1]) {
+      bankPath = argv[i + 1];
+      i += 1;
+    }
+  }
+
+  const bank = JSON.parse(readFileSync(bankPath, "utf-8"));
 
   let errors = 0;
 
@@ -77,8 +86,8 @@ function main() {
     const correct = Array.isArray(pools.correct) ? pools.correct : [];
     const distractors = Array.isArray(pools.distractors) ? pools.distractors : [];
 
-    if (correct.length < 1) err(`${prefix} Must have at least one correct candidate`);
-    if (distractors.length < 3) err(`${prefix} Must have at least three distractors`);
+    if (correct.length !== 1) err(`${prefix} Must have exactly one correct candidate`);
+    if (distractors.length !== 3) err(`${prefix} Must have exactly three distractors`);
 
     const correctSet = new Set(correct.map((c) => normalize(c)));
     for (const d of distractors) {
@@ -145,6 +154,29 @@ function main() {
         if (!VALID_EXAMS.has(exam)) err(`${prefix} Invalid difficultyByExam key: ${exam}`);
         if (!VALID_DIFFICULTIES.has(diff)) err(`${prefix} Invalid difficulty "${diff}" for exam ${exam}`);
       }
+    }
+
+    if (q.questionProfile != null) {
+      const validProfiles = new Set([
+        "yes_no",
+        "date_year",
+        "number_unit",
+        "website",
+        "person",
+        "place",
+        "institution",
+        "definition",
+        "quote",
+      ]);
+      if (!validProfiles.has(q.questionProfile)) err(`${prefix} Invalid questionProfile: ${q.questionProfile}`);
+    }
+
+    if (q.reviewBucket != null && !["high_confidence", "manual_review_required"].includes(q.reviewBucket)) {
+      err(`${prefix} Invalid reviewBucket: ${q.reviewBucket}`);
+    }
+
+    if (q.reviewReasons != null && !Array.isArray(q.reviewReasons)) {
+      err(`${prefix} reviewReasons must be an array`);
     }
   }
 

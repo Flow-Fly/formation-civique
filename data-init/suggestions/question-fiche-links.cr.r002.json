@@ -1,0 +1,359 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r002",
+  "generatedAt": "2026-03-07T13:12:51.045Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx022",
+      "questionText": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "reasons": [
+        "La fiche ecole (2/2) explique que la laicite est indispensable au respect, a la fraternite et a l'exercice de la citoyennete.",
+        "La fiche ecole (1/2) ajoute que la neutralite de l'ecole permet a chaque eleve de penser librement et protege la liberte de conscience."
+      ]
+    },
+    {
+      "questionId": "crx023",
+      "questionText": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "reasons": [
+        "La definition de la laicite dit explicitement que chacun est libre d'avoir ou de ne pas avoir de religion.",
+        "La deuxieme fiche reformule que ne pas avoir de religion ou choisir de ne plus en avoir est un droit."
+      ]
+    },
+    {
+      "questionId": "crx024",
+      "questionText": "Quel droit est garanti par la laïcité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "reasons": [
+        "La laicite garantit d'abord la liberte de conscience.",
+        "La fiche ecole (1/2) precise qu'elle protege la liberte de croire ou de ne pas croire."
+      ]
+    },
+    {
+      "questionId": "crx025",
+      "questionText": "À l'école publique, qui peut porter des signes religieux très visibles ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "reasons": [
+        "La fiche ecole (1/2) dit qu'il est interdit de porter un signe ou un vetement montrant sa religion de maniere ostensible dans l'ecole publique.",
+        "La charte reprise dans les fiches confirme cette interdiction pour les etablissements scolaires publics."
+      ]
+    },
+    {
+      "questionId": "crx026",
+      "questionText": "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+      ],
+      "reasons": [
+        "La fiche sur les services publics explique que les personnes qui y travaillent ne peuvent pas exprimer ou montrer leurs convictions religieuses.",
+        "Elle distingue clairement les agents publics des usagers, qui ne sont pas soumis a la meme neutralite."
+      ]
+    },
+    {
+      "questionId": "crx027",
+      "questionText": "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+      ],
+      "reasons": [
+        "La neutralite est imposee aux agents publics pour traiter les usagers de maniere equitable.",
+        "La fiche dit explicitement que cette neutralite ne concerne pas les usagers."
+      ]
+    },
+    {
+      "questionId": "crx028",
+      "questionText": "A-t-on le droit de changer de religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "reasons": [
+        "La laicite garantit la possibilite d'avoir une religion, d'en changer ou de ne plus en avoir.",
+        "La deuxieme fiche consacre une section entiere au droit de changer de religion."
+      ]
+    },
+    {
+      "questionId": "crx029",
+      "questionText": "Que représente la laïcité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "reasons": [
+        "La fiche de definition presente la laicite comme un principe constitutionnel fonde sur la liberte de conscience et la separation entre l'Etat et les religions.",
+        "La fiche ecole (2/2) ajoute que la laicite a un but positif: permettre a chacun d'etre libre de croire ou de ne pas croire."
+      ]
+    },
+    {
+      "questionId": "crx030",
+      "questionText": "Qu'est ce qui est interdit par la Charte de la laïcité à l'école ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "reasons": [
+        "La charte de la laicite a l'ecole interdit notamment les signes religieux ostensibles.",
+        "Les fiches ecole rappellent aussi qu'on ne peut pas invoquer une conviction religieuse pour refuser une regle ou un cours du programme."
+      ]
+    },
+    {
+      "questionId": "crx031",
+      "questionText": "Que dit l'article 1er de la Constitution française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "reasons": [
+        "La fiche de definition cite textuellement l'article 1: 'La France est une Republique indivisible, laique, democratique et sociale'.",
+        "La charte reprise dans la fiche ecole rappelle la meme formule constitutionnelle."
+      ]
+    },
+    {
+      "questionId": "crx032",
+      "questionText": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "reasons": [
+        "L'Etat de droit signifie que la loi est la meme pour tous, y compris pour l'Etat et ses representants.",
+        "La separation des pouvoirs empeche l'exercice arbitraire du pouvoir et la fiche donne l'exemple d'un membre de l'executif sanctionne comme tout citoyen."
+      ]
+    },
+    {
+      "questionId": "crx033",
+      "questionText": "La loi est l'expression de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "reasons": [
+        "La fiche 'Comment voter une loi (1/2)' dit explicitement: 'La loi est l'expression de la volonte generale'.",
+        "Le lien au Parlement et au vote de la loi ancre directement le libelle."
+      ]
+    },
+    {
+      "questionId": "crx034",
+      "questionText": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "reasons": [
+        "La fiche sur la democratie au niveau local dit que le maire et les conseillers municipaux sont elus pour 6 ans.",
+        "La fiche sur le decoupage administratif rattache ces elus a la commune."
+      ]
+    },
+    {
+      "questionId": "crx035",
+      "questionText": "Que garantit l’État de droit ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "reasons": [
+        "La fiche sur l'Etat de droit dit qu'il garantit le respect des droits fondamentaux et de la democratie.",
+        "Elle ajoute que des juges independants controlent les autorites publiques."
+      ]
+    },
+    {
+      "questionId": "crx036",
+      "questionText": "Une personne peut-elle voter à la place d'une autre ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "reasons": [
+        "La fiche sur les conditions de vote dit que le vote n'est possible pour une autre personne que dans le cadre d'une procuration.",
+        "La deuxieme fiche rappelle aussi que le vote est strictement personnel."
+      ]
+    },
+    {
+      "questionId": "crx037",
+      "questionText": "Est-ce que le vote est obligatoire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "reasons": [
+        "La fiche sur le suffrage universel dit explicitement que le vote n'est pas obligatoire.",
+        "Elle precise que le vote est un droit et non un devoir."
+      ]
+    },
+    {
+      "questionId": "crx038",
+      "questionText": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "reasons": [
+        "La democratie repose sur la consultation reguliere du peuple par les elections.",
+        "La fiche sur les acteurs nationaux rappelle que le president est elu pour 5 ans: il ne decide donc pas seul de prolonger son mandat."
+      ]
+    },
+    {
+      "questionId": "crx039",
+      "questionText": "Qui nomme le Premier ministre ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "reasons": [
+        "Les deux fiches disent explicitement que le Premier ministre est nomme par le president de la Republique.",
+        "La fiche sur les trois pouvoirs rattache cette nomination au pouvoir executif."
+      ]
+    },
+    {
+      "questionId": "crx040",
+      "questionText": "Quelle est l'organisation administrative de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "reasons": [
+        "Les fiches de decoupage administratif decrivent l'organisation entre Etat, ministeres et collectivites territoriales.",
+        "Elles enumerent les principaux niveaux territoriaux: communes, departements, regions, ainsi que les statuts particuliers."
+      ]
+    },
+    {
+      "questionId": "crx041",
+      "questionText": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "reasons": [
+        "La fiche sur les trois pouvoirs dit que le pouvoir legislatif est exerce par le Parlement.",
+        "Elle precise que ce pouvoir propose, negocie et vote la loi, ce que detaille aussi la fiche sur le vote d'une loi."
+      ]
+    }
+  ]
+}

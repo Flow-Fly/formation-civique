@@ -17,6 +17,12 @@ import { readFileSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
+import {
+  DEFAULT_STATE_REL_PATH,
+  markSuggestionFileApplied,
+  syncWorkflowState,
+} from "./lib/qcm-workflow-state.mjs";
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 
@@ -53,6 +59,7 @@ function parseArgs(argv) {
     input: DEFAULT_INPUT,
     bank: DEFAULT_BANK,
     acceptAll: false,
+    state: join(ROOT, DEFAULT_STATE_REL_PATH),
   };
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -70,6 +77,11 @@ function parseArgs(argv) {
     }
     if (a === "--accept-all") {
       args.acceptAll = true;
+      continue;
+    }
+    if (a === "--state" && next) {
+      args.state = next;
+      i += 1;
       continue;
     }
   }
@@ -144,6 +156,16 @@ function sanitizeSuggestion(suggestion) {
     questionEvidence,
     relatedFicheIds: dedupe([...relatedFromSuggestion, ...relatedFromEvidence]),
     qualityFlags,
+    questionProfile: typeof suggestion?.questionProfile === "string" ? suggestion.questionProfile : undefined,
+    styleMetrics:
+      suggestion?.styleMetrics && typeof suggestion.styleMetrics === "object"
+        ? suggestion.styleMetrics
+        : undefined,
+    reviewBucket:
+      suggestion?.reviewBucket === "high_confidence" || suggestion?.reviewBucket === "manual_review_required"
+        ? suggestion.reviewBucket
+        : undefined,
+    reviewReasons: dedupe(Array.isArray(suggestion?.reviewReasons) ? suggestion.reviewReasons : []),
   };
 }
 
@@ -184,7 +206,7 @@ function main() {
     }
 
     const clean = sanitizeSuggestion(item.suggestion || {});
-    if (clean.correct.length < 1 || clean.distractors.length < 3) {
+    if (clean.correct.length !== 1 || clean.distractors.length !== 3) {
       item.apply = {
         applied: false,
         reason: "sanitized_pools_invalid",
@@ -207,6 +229,10 @@ function main() {
     q.answerEvidence = clean.answerEvidence;
     q.questionEvidence = clean.questionEvidence;
     q.qualityFlags = clean.qualityFlags;
+    if (clean.questionProfile) q.questionProfile = clean.questionProfile;
+    if (clean.styleMetrics) q.styleMetrics = clean.styleMetrics;
+    if (clean.reviewBucket) q.reviewBucket = clean.reviewBucket;
+    if (clean.reviewReasons?.length) q.reviewReasons = clean.reviewReasons;
 
     const hasStrictEvidence = clean.answerEvidence.every((entry) => (entry.evidence || []).length > 0);
     if (hasStrictEvidence) q.reviewStatus = "reviewed";
@@ -231,10 +257,26 @@ function main() {
   writeFileSync(args.bank, JSON.stringify(bank, null, 2) + "\n", "utf-8");
   writeFileSync(args.input, JSON.stringify(suggestionsPayload, null, 2) + "\n", "utf-8");
 
+  syncWorkflowState({
+    rootDir: ROOT,
+    statePath: args.state,
+    bankPath: args.bank,
+    suggestionsDir: join(ROOT, "data-init", "suggestions"),
+  });
+  markSuggestionFileApplied(
+    args.state,
+    args.input,
+    ROOT,
+    (suggestionsPayload.items || [])
+      .filter((item) => item?.apply?.applied === true)
+      .map((item) => item.questionId),
+  );
+
   console.log(`Applied ${applied} suggestion(s)`);
   console.log(`Skipped ${skipped}, missing questions ${missing}`);
   console.log(`Updated ${args.bank}`);
   console.log(`Updated ${args.input}`);
+  console.log(`Updated ${args.state}`);
 }
 
 main();

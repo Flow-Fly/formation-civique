@@ -1,0 +1,65 @@
+{
+  "updatedAt": "2026-03-06T15:31:21.226Z",
+  "items": {
+    "answer-pools.pending.manual-batch-001.validated.json::crx002": {
+      "sourceFile": "answer-pools.pending.manual-batch-001.validated.json",
+      "questionId": "crx002",
+      "overallVerdict": "revise",
+      "overallComment": "La question ne mentionne pas la religion; la bonne réponse et les distracteurs doivent être plus généraux.",
+      "optionFeedback": [
+        {
+          "optionText": "Exprimer ses opinions, parler, écrire et publier librement, dans les limites de la loi",
+          "normalizedOption": "exprimer ses opinions parler ecrire et publier librement dans les limites de la loi",
+          "role": "correct",
+          "verdict": "rewrite",
+          "comment": "Trop tiré vers la fiche laïcité par ses preuves; il faut une formulation plus générale."
+        },
+        {
+          "optionText": "Dire n'importe quoi sans que la loi puisse intervenir",
+          "normalizedOption": "dire n importe quoi sans que la loi puisse intervenir",
+          "role": "distractor",
+          "verdict": "keep",
+          "comment": "À revoir éventuellement une fois la bonne réponse recentrée."
+        }
+      ],
+      "updatedAt": "2026-03-06T15:12:16.131Z"
+    },
+    "answer-pools.pending.batch-v25.json::crx001": {
+      "sourceFile": "answer-pools.pending.batch-v25.json",
+      "questionId": "crx001",
+      "overallVerdict": "ready",
+      "overallComment": "",
+      "optionFeedback": [
+        {
+          "optionText": "Faire du bénévolat dans une association",
+          "normalizedOption": "faire du benevolat dans une association",
+          "role": "correct",
+          "verdict": "keep",
+          "comment": ""
+        },
+        {
+          "optionText": "Payer ses impôts en respectant les délais légaux",
+          "normalizedOption": "payer ses impots en respectant les delais legaux",
+          "role": "distractor",
+          "verdict": "keep",
+          "comment": ""
+        },
+        {
+          "optionText": "Connaître les symboles officiels de la République française",
+          "normalizedOption": "connaitre les symboles officiels de la republique francaise",
+          "role": "distractor",
+          "verdict": "keep",
+          "comment": ""
+        },
+        {
+          "optionText": "Se conformer aux règles du vivre-ensemble en société",
+          "normalizedOption": "se conformer aux regles du vivre ensemble en societe",
+          "role": "distractor",
+          "verdict": "keep",
+          "comment": ""
+        }
+      ],
+      "updatedAt": "2026-03-06T15:31:21.225Z"
+    }
+  }
+}

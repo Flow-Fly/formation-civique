@@ -32,13 +32,15 @@ node scripts/scraper.mjs           # Crawl source site into data-init/
 node scripts/parse-questions.mjs   # Parse multi-exam markdown sources
 node scripts/bootstrap-question-bank.mjs  # Build data-init/question-bank.json
 node scripts/build-fiche-section-index.mjs # Build section-level fiche index
+node scripts/suggest-question-fiche-links.mjs --status pending
 node scripts/build-question-context.mjs --status pending --pending-index 1 --out /tmp/q1.prompt.md
-node scripts/generate-answer-pool-suggestions.mjs --status pending
-node scripts/generate-answer-pool-suggestions.mjs --status pending --run-id lot2-all --provider all --fast --concurrency 3
-node scripts/validate-answer-pool-suggestions.mjs
-node scripts/apply-answer-pool-suggestions.mjs
-node scripts/pipeline-complete.mjs --status pending --run-id lot2-all --limit 20 --provider all --fast --concurrency 3
+node scripts/build-question-context.mjs --id crx005 --candidate-fiche-ids fiche-a,fiche-b
+node scripts/generate-answer-pool-suggestions.mjs --status pending --provider copilot --model gpt-5
+node scripts/validate-answer-pool-suggestions.mjs --input data-init/suggestions/answer-pools.pending.json
+node scripts/apply-answer-pool-suggestions.mjs --input data-init/suggestions/answer-pools.pending.validated.json
+node scripts/pipeline-complete.mjs --status pending --run-id lot2 --limit 20 --provider copilot --model gpt-5
 node scripts/validate-question-bank.mjs
+node scripts/test-qcm-workflow.mjs
 node scripts/bundle-data.mjs       # Bundle data-init/* to app-react/public/data/*
 ```
 
@@ -63,11 +65,13 @@ React Router v7 with `createHashRouter` — all routes use `#/` prefix for GitHu
 ### Suggested Pipeline
 1. Parse and bootstrap: `parse-questions` -> `bootstrap-question-bank`
 2. Build section index: `build-fiche-section-index`
-3. Generate constrained LLM suggestions: `generate-answer-pool-suggestions`
-4. Validate suggestions: `validate-answer-pool-suggestions`
-5. Human review / acceptance in suggestions JSON
-6. Apply accepted suggestions: `apply-answer-pool-suggestions`
-7. Validate bank and bundle runtime JSON: `validate-question-bank` -> `bundle-data`
+3. Suggest fiche links for pending unlinked questions: `suggest-question-fiche-links`
+4. Human review / apply fiche shortlist in admin
+5. Generate mono-provider QCM suggestions for linked questions: `generate-answer-pool-suggestions`
+6. Validate suggestions: `validate-answer-pool-suggestions`
+7. Human review / acceptance in admin
+8. Apply accepted suggestions: `apply-answer-pool-suggestions`
+9. Validate bank and bundle runtime JSON: `validate-question-bank` -> `bundle-data`
 
 ### Spaced Repetition (SM-2)
 Simplified 4-button rating: Again (0), Hard (2), Good (3), Easy (5). Card mastery threshold: interval >= 21 days. State stored in `fc_sm2_data`.
