@@ -1,0 +1,305 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r004",
+  "generatedAt": "2026-03-07T13:59:50Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx062",
+      "questionText": "Quel État n'est pas membre de l'Union européenne ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+      ],
+      "reasons": [
+        "La fiche énumère les États entrés dans la CEE puis l’UE depuis 1957.",
+        "Elle mentionne aussi la sortie du Royaume-Uni en 2020, ce qui aide à distinguer les États membres des non-membres."
+      ]
+    },
+    {
+      "questionId": "crx063",
+      "questionText": "Quand célèbre-t-on la journée de l'Europe ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2"
+      ],
+      "reasons": [
+        "La section « La Journée de l’Europe » donne directement la date du 9 mai."
+      ]
+    },
+    {
+      "questionId": "crx064",
+      "questionText": "À quelle fréquence les élections européennes sont-elles organisées ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-elections-europeennes"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-elections-europeennes"
+      ],
+      "reasons": [
+        "La fiche indique explicitement que les élections européennes sont organisées tous les cinq ans."
+      ]
+    },
+    {
+      "questionId": "crx065",
+      "questionText": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-elections-europeennes"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-elections-europeennes"
+      ],
+      "reasons": [
+        "La section « Qui peut voter ? » liste les conditions de vote en France aux élections européennes."
+      ]
+    },
+    {
+      "questionId": "crx066",
+      "questionText": "Quel pays est un pays fondateur de l'Union européenne ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+      ],
+      "reasons": [
+        "La fiche précise que la CEE est créée avec six pays fondateurs : Allemagne de l’Ouest, Belgique, France, Italie, Luxembourg et Pays-Bas."
+      ]
+    },
+    {
+      "questionId": "crx067",
+      "questionText": "À quelle liberté la PMA fait-elle référence ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "reasons": [
+        "La PMA est présentée dans la section « La liberté d’avoir des enfants »."
+      ]
+    },
+    {
+      "questionId": "crx068",
+      "questionText": "Concernant le droit de se marier, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+      ],
+      "reasons": [
+        "La fiche sur le couple indique que chacun choisit son conjoint, quel que soit son sexe, et que le consentement libre est indispensable.",
+        "La fiche « mariage pour tous » confirme l’ouverture du mariage aux couples de même sexe en 2013."
+      ]
+    },
+    {
+      "questionId": "crx069",
+      "questionText": "Est-il toujours possible de divorcer ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "reasons": [
+        "La fiche précise que le divorce met fin au mariage sans avoir besoin d’une faute."
+      ]
+    },
+    {
+      "questionId": "crx070",
+      "questionText": "La peine de mort est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5"
+      ],
+      "reasons": [
+        "La fiche explique que la peine de mort est totalement abolie en 1981 et inscrite dans la Constitution en 2017."
+      ]
+    },
+    {
+      "questionId": "crx071",
+      "questionText": "Le recours à l'avortement est-il autorisé ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+      ],
+      "reasons": [
+        "La fiche sur le droit de disposer de son corps présente l’IVG comme une possibilité ouverte à toutes les femmes dans un cadre légal.",
+        "La fiche historique rappelle la dépénalisation de l’avortement en 1975 puis son inscription dans la Constitution le 4 mars 2024."
+      ]
+    },
+    {
+      "questionId": "crx072",
+      "questionText": "Que contient la Constitution ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "reasons": [
+        "La fiche définit le contenu de la Constitution : organisation de l’État, régime politique, droits et libertés fondamentaux et garanties associées."
+      ]
+    },
+    {
+      "questionId": "crx073",
+      "questionText": "Que prévoit la Charte de l'environnement ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-charte-de-lenvironnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-charte-de-lenvironnement"
+      ],
+      "reasons": [
+        "La fiche expose les droits et devoirs prévus par la Charte de l’environnement : protection, prévention, réparation et développement durable."
+      ]
+    },
+    {
+      "questionId": "crx074",
+      "questionText": "Que signifie la dignité humaine ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--la-diginite-humaine"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--la-diginite-humaine"
+      ],
+      "reasons": [
+        "La fiche définit la dignité humaine comme la valeur et le respect dus à toute personne, qui ne doit jamais être traitée comme un objet."
+      ]
+    },
+    {
+      "questionId": "crx075",
+      "questionText": "Que signifie le droit de manifester ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "reasons": [
+        "La fiche classe la participation à une manifestation parmi les libertés collectives garanties à chacun."
+      ]
+    },
+    {
+      "questionId": "crx076",
+      "questionText": "Que signifie PMA ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "reasons": [
+        "La fiche explicite l’acronyme PMA comme « Procréation Médicalement Assistée »."
+      ]
+    },
+    {
+      "questionId": "crx077",
+      "questionText": "Quel texte est le plus difficile à modifier ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "reasons": [
+        "La fiche affirme explicitement que la Constitution est un texte très difficile à modifier."
+      ]
+    },
+    {
+      "questionId": "crx078",
+      "questionText": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "reasons": [
+        "La fiche sur la laïcité nomme la liberté de conscience comme liberté d’avoir, de ne pas avoir ou de changer de religion.",
+        "La fiche suivante reformule cette idée en indiquant que chacun peut pratiquer la religion de son choix."
+      ]
+    },
+    {
+      "questionId": "crx079",
+      "questionText": "Qu'est-ce que le droit de grève ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+      ],
+      "reasons": [
+        "La fiche définit le droit de grève comme le droit pour une personne employée de cesser le travail pour exprimer un désaccord."
+      ]
+    },
+    {
+      "questionId": "crx080",
+      "questionText": "Qu'est-ce que la Constitution ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "reasons": [
+        "La fiche donne une définition générale de la Constitution comme acte fondateur qui organise l’État et garantit les droits et libertés."
+      ]
+    },
+    {
+      "questionId": "crx081",
+      "questionText": "Qui peut demander à avorter ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+      ],
+      "reasons": [
+        "Les deux fiches indiquent que chaque femme, sans condition d’âge, peut recourir à l’IVG.",
+        "Elles précisent aussi la règle particulière pour les mineures : pas d’autorisation parentale, mais accompagnement par une personne majeure de leur choix."
+      ]
+    }
+  ]
+}

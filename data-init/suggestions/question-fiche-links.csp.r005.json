@@ -1,0 +1,316 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "runId": "r005",
+  "generatedAt": "2026-03-07T14:23:56.583Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/csp.md"
+  },
+  "items": [
+    {
+      "questionId": "cspx044",
+      "questionText": "Quelle est la monnaie utilisée en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur la construction européenne indique qu’en 2002 l’euro devient la monnaie officielle de plusieurs pays membres.",
+        "La fiche sur le fonctionnement européen relie la création de la Banque centrale européenne à la création de l’euro comme monnaie unique.",
+        "Aucune fiche lue n’énonce directement que l’euro est la monnaie utilisée en France ; je laisse donc `relatedFicheIds` vide."
+      ]
+    },
+    {
+      "questionId": "cspx046",
+      "questionText": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur les obligations du résident français décrit des obligations communes à toute personne qui habite en France, mais elle ne nomme pas un texte unique qui énoncerait à la fois droits et devoirs.",
+        "Le contrat d’engagement républicain est un document signé pour la demande d’un titre de séjour, pas un texte général pour toutes les personnes résidant en France.",
+        "La DDHC traite des droits de l’homme et du citoyen ; son périmètre ne correspond pas explicitement à toutes les personnes résidant en France."
+      ]
+    },
+    {
+      "questionId": "crx070",
+      "questionText": "La peine de mort est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+        "droits-et-devoirs--droits-fondamentaux--la-diginite-humaine"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5"
+      ],
+      "reasons": [
+        "La fiche indique que la peine de mort est totalement abolie en France depuis 1981.",
+        "Elle ajoute que l’article 66-1 de la Constitution affirme qu’aucune personne ne peut être condamnée à mort.",
+        "La fiche sur la dignité humaine éclaire le fondement de cette interdiction, présenté comme un pilier du respect de la personne."
+      ]
+    },
+    {
+      "questionId": "cspx056",
+      "questionText": "Concernant les limites aux libertés individuelles, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "reasons": [
+        "La fiche explique que les libertés individuelles sont limitées par l’intérêt général, les libertés des autres, l’ordre public et la dignité humaine.",
+        "Elle cite aussi l’article 4 de la DDHC : la liberté s’arrête là où elle nuit à autrui."
+      ]
+    },
+    {
+      "questionId": "cspx057",
+      "questionText": "En France, est-ce légal d'être marié à plusieurs personnes en même temps ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "reasons": [
+        "La fiche sur la déclaration de mariage définit le mariage civil reconnu en France comme l’union de deux personnes, ce qui ancre le cadre monogame.",
+        "La fiche sur les libertés au sein du couple définit aussi le couple comme une union entre deux personnes et rappelle la liberté de se marier dans ce cadre légal."
+      ]
+    },
+    {
+      "questionId": "cspx058",
+      "questionText": "Faut-il réduire ses déchets ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "reasons": [
+        "La fiche dit que toutes les personnes qui habitent en France ont le devoir de protéger l’environnement.",
+        "Elle donne comme action concrète le fait de trier ses déchets et de réduire ses déchets plastiques."
+      ]
+    },
+    {
+      "questionId": "cspx059",
+      "questionText": "Jeter une bouteille dans la rue est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "reasons": [
+        "La fiche demande de respecter les espaces communs et de ne pas y jeter de déchets.",
+        "Jeter une bouteille dans la rue entre directement dans cet exemple de comportement contraire au devoir de protéger l’environnement."
+      ]
+    },
+    {
+      "questionId": "cspx060",
+      "questionText": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "reasons": [
+        "La fiche précise que ces limites existent pour protéger la vie en société.",
+        "Elle énumère l’intérêt général, les libertés des autres, l’ordre public et la dignité humaine."
+      ]
+    },
+    {
+      "questionId": "cspx061",
+      "questionText": "Que doit faire une personne en cas d’accident ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "reasons": [
+        "La fiche sur les obligations du résident rappelle l’assistance à personne en danger : il faut aider une personne en danger, sinon on risque une condamnation pour non-assistance.",
+        "L’annexe des numéros d’urgence précise qu’en cas d’accident on appelle le 15, le 18 ou le 112."
+      ]
+    },
+    {
+      "questionId": "cspx062",
+      "questionText": "Que permet la citoyenneté française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+      ],
+      "reasons": [
+        "La fiche indique que la citoyenneté donne des droits civiques et politiques, notamment le droit de vote.",
+        "Elle ajoute qu’un citoyen français peut exprimer ses opinions, s’engager, voyager et bénéficie de la protection de l’État."
+      ]
+    },
+    {
+      "questionId": "cspx063",
+      "questionText": "Que risque une personne qui ne respecte pas la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "reasons": [
+        "La fiche indique que le non-respect des lois peut entraîner des sanctions.",
+        "Elle détaille que la peine dépend de la gravité de l’infraction : amende, emprisonnement, voire perpétuité pour les crimes les plus graves."
+      ]
+    },
+    {
+      "questionId": "cspx064",
+      "questionText": "Quel est le rôle de la gendarmerie ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "reasons": [
+        "La fiche explique que la gendarmerie est une force de l’ordre qui agit en zone rurale, périurbaine et sur les axes de circulation.",
+        "Elle participe à la prévention des infractions, au maintien de l’ordre public, à la protection des personnes et des biens, et aux enquêtes."
+      ]
+    },
+    {
+      "questionId": "crx091",
+      "questionText": "Quel est le rôle de la police ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "reasons": [
+        "La fiche explique que la police est une force de l’ordre chargée du respect des lois en ville.",
+        "Elle mène la prévention des infractions, le maintien de l’ordre public, la protection des personnes et des biens et les enquêtes."
+      ]
+    },
+    {
+      "questionId": "cspx065",
+      "questionText": "Qu'est-ce qu'une infraction ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "reasons": [
+        "La fiche définit les infractions pénales comme des actes ou des comportements interdits par la loi.",
+        "Elle précise aussi qu’il existe trois niveaux de gravité : contravention, délit et crime."
+      ]
+    },
+    {
+      "questionId": "cspx066",
+      "questionText": "Comment peut-on réduire ses déchets ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "reasons": [
+        "La fiche donne comme gestes concrets le fait de trier ses déchets et de réduire ses déchets plastiques.",
+        "Elle ajoute d’éviter le gaspillage et de respecter les espaces communs."
+      ]
+    },
+    {
+      "questionId": "cspx067",
+      "questionText": "Déposer une machine à laver cassée sur le trottoir est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "reasons": [
+        "La fiche demande de respecter les espaces communs et de ne pas y jeter de déchets.",
+        "Elle renvoie aussi à la réutilisation et au recyclage, ce qui exclut l’abandon d’un gros appareil sur le trottoir."
+      ]
+    },
+    {
+      "questionId": "cspx068",
+      "questionText": "En quoi consiste la traite des êtres humains ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution"
+      ],
+      "reasons": [
+        "La fiche définit la traite comme le fait de recruter, transporter, transférer, héberger ou accueillir une personne pour l’exploiter.",
+        "Elle cite parmi les formes d’exploitation le proxénétisme, la réduction en esclavage, les services forcés ou la mendicité."
+      ]
+    },
+    {
+      "questionId": "crx089",
+      "questionText": "Que doit faire une victime de violences ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+      ],
+      "reasons": [
+        "La fiche dit qu’une victime doit en parler, se faire accompagner et peut déposer plainte ou signaler les faits.",
+        "Elle précise aussi que la victime de violences n’est jamais responsable."
+      ]
+    },
+    {
+      "questionId": "cspx069",
+      "questionText": "Qui était Napoléon Ier ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-consulat-1799-1804"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815"
+      ],
+      "reasons": [
+        "La fiche sur le 1er Empire dit explicitement que Napoléon Bonaparte est le fondateur et le chef du 1er Empire, sous le nom de Napoléon Ier.",
+        "La fiche sur le Consulat complète son parcours avant 1804, quand il exerce déjà l’autorité exécutive comme Premier Consul."
+      ]
+    },
+    {
+      "questionId": "cspx070",
+      "questionText": "Lequel de ces personnages historiques est français ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Le libellé ne nomme aucun personnage et le fichier source consulté ne donne pas les propositions de réponse.",
+        "Sans les options, aucune fiche précise ne peut être retenue de façon justifiée pour identifier quel personnage historique est visé."
+      ]
+    }
+  ]
+}

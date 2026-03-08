@@ -1,0 +1,2134 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "batchId": "csp-b007",
+  "generatedAt": "2026-03-07T20:21:12.433Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx097",
+      "questionText": "Dans quelle ville se trouve la tour Eiffel ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+        ],
+        "correct": [
+          "Paris"
+        ],
+        "distractors": [
+          "Lyon",
+          "Lille",
+          "Marseille"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Paris",
+            "normalizedAnswer": "paris",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+                "contentPath": "histoire-geographie-culture/culture/sites-et-gastronomie.md",
+                "sectionId": "patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+                "sectionTitle": "Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+                "quote": "La Tour Eiffel se trouve à Paris."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+            "contentPath": "histoire-geographie-culture/culture/sites-et-gastronomie.md",
+            "sectionId": "patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+            "sectionTitle": "Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+            "quote": "La Tour Eiffel se trouve à Paris. Elle est construite en 2 ans par l’ingénieur Gustave Eiffel pour l’Exposition universelle de 1889."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "place",
+          "correctCharLength": 5,
+          "distractorCharLengths": [
+            4,
+            5,
+            9
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 0.8333333333333334,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.450Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx099",
+      "questionText": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+        ],
+        "correct": [
+          "Le 18"
+        ],
+        "distractors": [
+          "Le 15",
+          "Le 17",
+          "Le 119"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le 18",
+            "normalizedAnswer": "le 18",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+                "sectionId": "annexe-les-numeros-d-urgence",
+                "sectionTitle": "Annexe : les numéros d’urgence",
+                "quote": "Les numéros d’urgence principaux sont : le 15, le numéro du SAMU, en cas d’urgence médicale ; le 17, la police, pour signaler une infraction ; le 18, les pompiers, si une situation de péril ou d’accident se présente ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+            "sectionId": "annexe-les-numeros-d-urgence",
+            "sectionTitle": "Annexe : les numéros d’urgence",
+            "quote": "Les numéros d’urgence principaux sont : le 15, le numéro du SAMU, en cas d’urgence médicale ; le 17, la police, pour signaler une infraction ; le 18, les pompiers, si une situation de péril ou d’accident se présente ;"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 5,
+          "distractorCharLengths": [
+            5,
+            5,
+            6
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 0.9375,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Le 18\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.453Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx100",
+      "questionText": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+          "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+          "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile"
+        ],
+        "correct": [
+          "Prendre une assurance automobile"
+        ],
+        "distractors": [
+          "Passer l’épreuve du code",
+          "Suivre 20 heures de conduite",
+          "S’inscrire en auto-école"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Prendre une assurance automobile",
+            "normalizedAnswer": "prendre une assurance automobile",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/quotidien.md",
+                "sectionId": "les-demarches-du-quotidien-comme-le-permis-de-conduire-1-2",
+                "sectionTitle": "Les démarches du quotidien comme le permis de conduire (1/2)",
+                "quote": "Une fois le permis de conduire obtenu, il est nécessaire de prendre une assurance avant de pouvoir conduire sa voiture."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/quotidien.md",
+                "sectionId": "les-demarches-du-quotidien-comme-l-assurance-responsabilite-civile",
+                "sectionTitle": "Les démarches du quotidien comme l’assurance responsabilité civile",
+                "quote": "L’assurance responsabilité civile est payante et obligatoire. Il existe différents types d’assurances : habitation, automobile…"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/quotidien.md",
+            "sectionId": "les-demarches-du-quotidien-comme-le-permis-de-conduire-1-2",
+            "sectionTitle": "Les démarches du quotidien comme le permis de conduire (1/2)",
+            "quote": "Une fois le permis de conduire obtenu, il est nécessaire de prendre une assurance avant de pouvoir conduire sa voiture."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/quotidien.md",
+            "sectionId": "les-demarches-du-quotidien-comme-le-permis-de-conduire-1-2",
+            "sectionTitle": "Les démarches du quotidien comme le permis de conduire (1/2)",
+            "quote": "Si vous avez une voiture personnelle, il est obligatoire d’avoir : un permis de conduire valide ; une carte grise du véhicule à jour ; une assurance automobile."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 32,
+          "distractorCharLengths": [
+            24,
+            28,
+            24
+          ],
+          "correctTokenLength": 4,
+          "distractorTokenLengths": [
+            5,
+            5,
+            4
+          ],
+          "charLengthRatio": 1.2631578947368423,
+          "tokenLengthRatio": 0.8571428571428571,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Prendre une assurance automobile\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.454Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx101",
+      "questionText": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage"
+        ],
+        "correct": [
+          "S’il s’agit d’un mariage civil"
+        ],
+        "distractors": [
+          "S’il manque un acte de naissance",
+          "S’il se fait sans consentement libre",
+          "S’il a lieu entre cousins germains"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "S’il s’agit d’un mariage civil",
+            "normalizedAnswer": "s’il s’agit d’un mariage civil",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                "sectionId": "la-declaration-de-mariage",
+                "sectionTitle": "La déclaration de mariage",
+                "quote": "Le mariage civil est le seul mariage reconnu en France."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+            "sectionId": "la-declaration-de-mariage",
+            "sectionTitle": "La déclaration de mariage",
+            "quote": "Le mariage civil est le seul mariage reconnu en France. Deux personnes peuvent se marier si elles n’ont pas de lien de parenté ou d’alliance et peuvent donner un consentement libre et éclairé au mariage."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 30,
+          "distractorCharLengths": [
+            32,
+            36,
+            34
+          ],
+          "correctTokenLength": 8,
+          "distractorTokenLengths": [
+            7,
+            7,
+            7
+          ],
+          "charLengthRatio": 0.8823529411764706,
+          "tokenLengthRatio": 1.1428571428571428,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.454Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx102",
+      "questionText": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance"
+        ],
+        "correct": [
+          "Dans les 5 jours suivant la naissance"
+        ],
+        "distractors": [
+          "Dans les 10 jours suivant la naissance",
+          "Dans les 15 jours suivant la naissance",
+          "Dans le mois suivant la naissance"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Dans les 5 jours suivant la naissance",
+            "normalizedAnswer": "dans les 5 jours suivant la naissance",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                "sectionId": "la-declaration-de-naissance",
+                "sectionTitle": "La déclaration de naissance",
+                "quote": "La déclaration de naissance est obligatoire. Elle doit être réalisée dans les 5 jours qui suivent la naissance."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+            "sectionId": "la-declaration-de-naissance",
+            "sectionTitle": "La déclaration de naissance",
+            "quote": "La déclaration de naissance est obligatoire. Elle doit être réalisée dans les 5 jours qui suivent la naissance, par le père, la mère ou par une personne qui a assisté à l’accouchement."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 37,
+          "distractorCharLengths": [
+            38,
+            38,
+            33
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            7,
+            7,
+            6
+          ],
+          "charLengthRatio": 1.018348623853211,
+          "tokenLengthRatio": 1.05,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Dans les 5 jours suivant la naissance\""
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.454Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx103",
+      "questionText": "Le travail non déclaré est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+        ],
+        "correct": [
+          "une activité professionnelle interdite par la loi"
+        ],
+        "distractors": [
+          "une activité professionnelle déclarée à l’avance",
+          "une activité professionnelle protégée par l’État",
+          "une activité professionnelle réservée aux mineurs"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "une activité professionnelle interdite par la loi",
+            "normalizedAnswer": "une activité professionnelle interdite par la loi",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-5",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-5-5",
+                "sectionTitle": "Le droit du travail (5/5)",
+                "quote": "Le travail non déclaré (on l’appelle aussi travail dissimulé), c’est une activité professionnelle pour laquelle il n’y a pas de déclaration officielle. Le travail non déclaré est interdit par la loi."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-5",
+            "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+            "sectionId": "le-droit-du-travail-5-5",
+            "sectionTitle": "Le droit du travail (5/5)",
+            "quote": "Le travail non déclaré (on l’appelle aussi travail dissimulé), c’est une activité professionnelle pour laquelle il n’y a pas de déclaration officielle."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 49,
+          "distractorCharLengths": [
+            48,
+            48,
+            49
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            7,
+            7,
+            6
+          ],
+          "charLengthRatio": 1.013793103448276,
+          "tokenLengthRatio": 1.05,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"une activité professionnelle interdite par la loi\""
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.454Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx104",
+      "questionText": "Que doit faire un employeur pour fixer un salaire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+        ],
+        "correct": [
+          "Respecter le SMIC et éviter toute discrimination"
+        ],
+        "distractors": [
+          "Choisir le salaire selon l’âge du salarié",
+          "Choisir le salaire selon l’origine du salarié",
+          "Verser un salaire inférieur au SMIC"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Respecter le SMIC et éviter toute discrimination",
+            "normalizedAnswer": "respecter le smic et éviter toute discrimination",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-2-5",
+                "sectionTitle": "Le droit du travail (2/5)",
+                "quote": "Il est interdit de verser un salaire inférieur au salaire minimum de croissance (SMIC), qui est le salaire horaire minimum en France."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-3-5",
+                "sectionTitle": "Le droit du travail (3/5)",
+                "quote": "Il peut y avoir de la discrimination au travail à différents moments, par exemple au moment de la fixation du salaire."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+            "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+            "sectionId": "le-droit-du-travail-2-5",
+            "sectionTitle": "Le droit du travail (2/5)",
+            "quote": "Il est interdit de verser un salaire inférieur au salaire minimum de croissance (SMIC), qui est le salaire horaire minimum en France."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+            "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+            "sectionId": "le-droit-du-travail-3-5",
+            "sectionTitle": "Le droit du travail (3/5)",
+            "quote": "Il peut y avoir de la discrimination au travail à différents moments, par exemple au moment de la fixation du salaire."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 48,
+          "distractorCharLengths": [
+            41,
+            45,
+            35
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            8,
+            8,
+            6
+          ],
+          "charLengthRatio": 1.1900826446280992,
+          "tokenLengthRatio": 0.9545454545454546,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Respecter le SMIC et éviter toute discrimination\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.454Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx105",
+      "questionText": "Qui est aidé par France Travail ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-5"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-5"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--orientation-1",
+          "vivre-societe-francaise--emploi--orientation-5"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--orientation-1",
+          "vivre-societe-francaise--emploi--orientation-5"
+        ],
+        "correct": [
+          "Les personnes à la recherche d’un emploi"
+        ],
+        "distractors": [
+          "Les seules personnes âgées de 16 à 25 ans",
+          "Les seules personnes en situation de handicap",
+          "Les seuls parents qui cherchent une école"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Les personnes à la recherche d’un emploi",
+            "normalizedAnswer": "les personnes à la recherche d’un emploi",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--orientation-1",
+                "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+                "sectionId": "orientation-1-5",
+                "sectionTitle": "Orientation (1/5)",
+                "quote": "France Travail est un organisme public qui accompagne les personnes à la recherche d’un emploi."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--emploi--orientation-5",
+                "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+                "sectionId": "orientation-5-5",
+                "sectionTitle": "Orientation (5/5)",
+                "quote": "France Travail aide les personnes à trouver un travail et aide les entreprises qui recrutent."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--emploi--orientation-1",
+            "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+            "sectionId": "orientation-1-5",
+            "sectionTitle": "Orientation (1/5)",
+            "quote": "Chaque personne étrangère qui est en situation régulière et qui n’a pas de travail doit être inscrite à France Travail. C’est un organisme public qui accompagne les personnes à la recherche d’un emploi."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--emploi--orientation-5",
+            "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+            "sectionId": "orientation-5-5",
+            "sectionTitle": "Orientation (5/5)",
+            "quote": "France Travail aide les personnes à trouver un travail et aide les entreprises qui recrutent."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "person",
+          "correctCharLength": 40,
+          "distractorCharLengths": [
+            41,
+            45,
+            41
+          ],
+          "correctTokenLength": 8,
+          "distractorTokenLengths": [
+            9,
+            7,
+            7
+          ],
+          "charLengthRatio": 0.9448818897637795,
+          "tokenLengthRatio": 1.0434782608695652,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Les personnes à la recherche d’un emploi\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.455Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx106",
+      "questionText": "À partir de quel âge un mineur peut-il travailler ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+        ],
+        "correct": [
+          "Dès 16 ans"
+        ],
+        "distractors": [
+          "Dès 14 ans",
+          "Dès 15 ans",
+          "Dès 18 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Dès 16 ans",
+            "normalizedAnswer": "dès 16 ans",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-1-5",
+                "sectionTitle": "Le droit du travail (1/5)",
+                "quote": "Il est possible de travailler dès l'âge de 16 ans. Tout mineur doit y être autorisé par son représentant légal, sauf s'il est émancipé."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+            "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+            "sectionId": "le-droit-du-travail-1-5",
+            "sectionTitle": "Le droit du travail (1/5)",
+            "quote": "Il est possible de travailler dès l'âge de 16 ans. Tout mineur doit y être autorisé par son représentant légal, sauf s'il est émancipé."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 10,
+          "distractorCharLengths": [
+            10,
+            10,
+            10
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            3,
+            3,
+            3
+          ],
+          "charLengthRatio": 1,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Dès 16 ans\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.455Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx107",
+      "questionText": "Qu’est-ce qu’un numéro d’urgence ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+        "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+          "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+        ],
+        "correct": [
+          "Un numéro gratuit pour les urgences"
+        ],
+        "distractors": [
+          "Un numéro payant pour des conseils",
+          "Un numéro scolaire pour les absences",
+          "Un numéro bancaire pour les virements"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un numéro gratuit pour les urgences",
+            "normalizedAnswer": "un numéro gratuit pour les urgences",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+                "sectionId": "annexe-les-numeros-d-urgence",
+                "sectionTitle": "Annexe : les numéros d’urgence",
+                "quote": "En cas d’urgence, les services d’urgence et d’autres services peuvent être contactés 24h/24 et 7j/7 par téléphone. Ces appels sont gratuits."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+            "sectionId": "annexe-les-numeros-d-urgence",
+            "sectionTitle": "Annexe : les numéros d’urgence",
+            "quote": "En cas d’urgence, les services d’urgence et d’autres services peuvent être contactés 24h/24 et 7j/7 par téléphone. Ces appels sont gratuits."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 35,
+          "distractorCharLengths": [
+            34,
+            36,
+            37
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            6,
+            6
+          ],
+          "charLengthRatio": 0.9813084112149534,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.455Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx135",
+      "questionText": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+        "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+          "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+          "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+        ],
+        "correct": [
+          "Pour un problème courant, on consulte d’abord son médecin traitant."
+        ],
+        "distractors": [
+          "Pour un problème courant, on va d’abord aux urgences.",
+          "Pour un problème courant, on choisit d’abord un spécialiste.",
+          "Pour un problème courant, on évite toute consultation."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Pour un problème courant, on consulte d’abord son médecin traitant.",
+            "normalizedAnswer": "pour un problème courant, on consulte d’abord son médecin traitant.",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-le-parcours-de-sante",
+                "sectionTitle": "Accès aux soins : le parcours de santé",
+                "quote": "Pour un problème de santé courant, on commence généralement par consulter un médecin traitant."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-le-medecin-generaliste",
+                "sectionTitle": "Accès aux soins : le médecin généraliste",
+                "quote": "Le médecin traitant est celui qu’il faut consulter en premier pour un avis sur sa santé."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-le-parcours-de-sante",
+            "sectionTitle": "Accès aux soins : le parcours de santé",
+            "quote": "Pour un problème de santé courant, on commence généralement par consulter un médecin traitant. C’est ce qu’on appelle le parcours de soins coordonnés."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-le-medecin-generaliste",
+            "sectionTitle": "Accès aux soins : le médecin généraliste",
+            "quote": "Le médecin traitant est celui qu’il faut consulter en premier pour un avis sur sa santé et qui s’assure que le suivi médical est optimal."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 67,
+          "distractorCharLengths": [
+            53,
+            60,
+            54
+          ],
+          "correctTokenLength": 11,
+          "distractorTokenLengths": [
+            10,
+            10,
+            8
+          ],
+          "charLengthRatio": 1.2035928143712575,
+          "tokenLengthRatio": 1.1785714285714286,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Pour un problème courant, on consulte d’abord son médecin traitant.\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.455Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx108",
+      "questionText": "En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-medecins-et-pharmacies-de-garde"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+          "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+          "vivre-societe-francaise--sante--acces-aux-soins-les-medecins-et-pharmacies-de-garde"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+          "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste"
+        ],
+        "correct": [
+          "À son médecin traitant"
+        ],
+        "distractors": [
+          "Aux urgences de l’hôpital",
+          "À un médecin spécialiste",
+          "À la police secours"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "À son médecin traitant",
+            "normalizedAnswer": "à son médecin traitant",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-le-parcours-de-sante",
+                "sectionTitle": "Accès aux soins : le parcours de santé",
+                "quote": "Pour un problème de santé courant, on commence généralement par consulter un médecin traitant."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-le-medecin-generaliste",
+                "sectionTitle": "Accès aux soins : le médecin généraliste",
+                "quote": "Le médecin traitant est celui qu’il faut consulter en premier pour un avis sur sa santé."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-le-parcours-de-sante",
+            "sectionTitle": "Accès aux soins : le parcours de santé",
+            "quote": "Pour un problème de santé courant, on commence généralement par consulter un médecin traitant."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-le-medecin-generaliste",
+            "sectionTitle": "Accès aux soins : le médecin généraliste",
+            "quote": "Le médecin traitant est celui qu’il faut consulter en premier pour un avis sur sa santé."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 22,
+          "distractorCharLengths": [
+            25,
+            24,
+            19
+          ],
+          "correctTokenLength": 4,
+          "distractorTokenLengths": [
+            5,
+            4,
+            4
+          ],
+          "charLengthRatio": 0.9705882352941176,
+          "tokenLengthRatio": 0.9230769230769231,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"À son médecin traitant\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.455Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx109",
+      "questionText": "Quel est le rôle du médecin traitant ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+        ],
+        "correct": [
+          "Suivre le patient et coordonner ses soins"
+        ],
+        "distractors": [
+          "Transporter le patient vers l’hôpital",
+          "Délivrer tous les médicaments prescrits",
+          "Décider du salaire du patient"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Suivre le patient et coordonner ses soins",
+            "normalizedAnswer": "suivre le patient et coordonner ses soins",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-le-medecin-generaliste",
+                "sectionTitle": "Accès aux soins : le médecin généraliste",
+                "quote": "Le médecin généraliste devient médecin traitant lorsqu’il est officiellement déclaré par le patient pour assurer le suivi médical et coordonner les soins."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-le-medecin-generaliste",
+                "sectionTitle": "Accès aux soins : le médecin généraliste",
+                "quote": "Le médecin traitant est celui qui soigne et suit le patient régulièrement et oriente dans le parcours de soins coordonnés."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-le-medecin-generaliste",
+            "sectionTitle": "Accès aux soins : le médecin généraliste",
+            "quote": "Le médecin généraliste devient médecin traitant lorsqu’il est officiellement déclaré par le patient pour assurer le suivi médical et coordonner les soins."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-le-medecin-generaliste",
+            "sectionTitle": "Accès aux soins : le médecin généraliste",
+            "quote": "Le médecin traitant est celui qui soigne et suit le patient régulièrement et oriente dans le parcours de soins coordonnés."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "institution",
+          "correctCharLength": 41,
+          "distractorCharLengths": [
+            37,
+            39,
+            29
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            6,
+            5,
+            5
+          ],
+          "charLengthRatio": 1.1714285714285715,
+          "tokenLengthRatio": 1.3125,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Suivre le patient et coordonner ses soins\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.455Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx110",
+      "questionText": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-medecins-et-pharmacies-de-garde"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+          "vivre-societe-francaise--sante--acces-aux-soins-les-medecins-et-pharmacies-de-garde"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+        ],
+        "correct": [
+          "En cas de danger vital ou de blessure grave"
+        ],
+        "distractors": [
+          "En cas de fièvre sans danger vital",
+          "En cas de simple conseil pour la douleur",
+          "En cas de rendez-vous pour un vaccin"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "En cas de danger vital ou de blessure grave",
+            "normalizedAnswer": "en cas de danger vital ou de blessure grave",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-services-et-numeros-d-urgence",
+                "sectionTitle": "Accès aux soins : services et numéros d’urgence",
+                "quote": "Les services d’urgence des hôpitaux sont destinés uniquement aux détresses et urgences les plus graves."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-services-et-numeros-d-urgence",
+                "sectionTitle": "Accès aux soins : services et numéros d’urgence",
+                "quote": "Les services d’urgence sont ouverts 24h/24 et 7j/7 afin de prendre en charge les urgences vitales et les blessures graves qui nécessitent une prise en charge immédiate."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-services-et-numeros-d-urgence",
+            "sectionTitle": "Accès aux soins : services et numéros d’urgence",
+            "quote": "Les services d’urgence des hôpitaux sont destinés uniquement aux détresses et urgences les plus graves."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-services-et-numeros-d-urgence",
+            "sectionTitle": "Accès aux soins : services et numéros d’urgence",
+            "quote": "En cas de danger vital, il faut appeler le SAMU au 15 ou 114. Si l’état de santé nécessite une prise en charge rapide mais permet le déplacement, vous pouvez vous rendre directement aux urgences de l’hôpital le plus proche."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 43,
+          "distractorCharLengths": [
+            34,
+            40,
+            36
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            7,
+            8,
+            7
+          ],
+          "charLengthRatio": 1.1727272727272728,
+          "tokenLengthRatio": 1.2272727272727273,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.455Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx111",
+      "questionText": "Quel est l’objectif des vaccinations obligatoires ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2",
+        "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-1",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2",
+          "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-1",
+          "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2"
+        ],
+        "correct": [
+          "Protéger la santé de la population"
+        ],
+        "distractors": [
+          "Repérer une maladie chez une personne",
+          "Faire un point global sur sa santé",
+          "Identifier les habitudes de vie"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Protéger la santé de la population",
+            "normalizedAnswer": "protéger la santé de la population",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2",
+                "contentPath": "vivre-societe-francaise/sante/prevention.md",
+                "sectionId": "prevention-et-promotion-de-la-sante-2-2",
+                "sectionTitle": "Prévention et promotion de la santé (2/2)",
+                "quote": "Certains vaccins sont obligatoires pour protéger la santé de la population."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2",
+            "contentPath": "vivre-societe-francaise/sante/prevention.md",
+            "sectionId": "prevention-et-promotion-de-la-sante-2-2",
+            "sectionTitle": "Prévention et promotion de la santé (2/2)",
+            "quote": "La vaccination est un moyen simple, sûr et efficace de se protéger des maladies dangereuses et des séquelles qu’elles peuvent laisser. Certains vaccins sont obligatoires pour protéger la santé de la population."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 34,
+          "distractorCharLengths": [
+            37,
+            34,
+            31
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            7,
+            5
+          ],
+          "charLengthRatio": 1,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.456Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx112",
+      "questionText": "L'autorité parentale prévoit l'obligation :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+          "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+        ],
+        "correct": [
+          "de veiller à l’éducation scolaire de l’enfant"
+        ],
+        "distractors": [
+          "de renoncer à la sécurité de l’enfant",
+          "d’abandonner le suivi de santé de l’enfant",
+          "de laisser l’enfant décider sans surveillance"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "de veiller à l’éducation scolaire de l’enfant",
+            "normalizedAnswer": "de veiller à l’éducation scolaire de l’enfant",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+                "contentPath": "vivre-societe-francaise/parentalite/autorite-parentale.md",
+                "sectionId": "exercice-de-l-autorite-parentale-1-2",
+                "sectionTitle": "Exercice de l’autorité parentale (1/2)",
+                "quote": "Les parents doivent veiller à l’éducation scolaire, intellectuelle, morale et éventuellement religieuse de l’enfant."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+            "contentPath": "vivre-societe-francaise/parentalite/autorite-parentale.md",
+            "sectionId": "exercice-de-l-autorite-parentale-1-2",
+            "sectionTitle": "Exercice de l’autorité parentale (1/2)",
+            "quote": "Les parents ont des droits et des devoirs vis-à-vis de leur enfant de moins de 18 ans. Les parents doivent veiller à l’éducation scolaire, intellectuelle, morale et éventuellement religieuse de l’enfant."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 45,
+          "distractorCharLengths": [
+            37,
+            42,
+            45
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            8,
+            9,
+            7
+          ],
+          "charLengthRatio": 1.0887096774193548,
+          "tokenLengthRatio": 1.125,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.456Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx114",
+      "questionText": "Quel diplôme obtient-on à la fin du lycée ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "correct": [
+          "Le baccalauréat"
+        ],
+        "distractors": [
+          "Le brevet des collèges",
+          "Le diplôme de primaire",
+          "Le certificat de maternelle"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le baccalauréat",
+            "normalizedAnswer": "le baccalauréat",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+                "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+                "sectionId": "l-organisation-de-l-ecole-en-france",
+                "sectionTitle": "L’organisation de l’école en France",
+                "quote": "À la fin du lycée l’enfant passe un diplôme qui s’appelle le baccalauréat (BAC)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+            "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+            "sectionId": "l-organisation-de-l-ecole-en-france",
+            "sectionTitle": "L’organisation de l’école en France",
+            "quote": "Le lycée va de 15 à 18 ans. À la fin du lycée l’enfant passe un diplôme qui s’appelle le baccalauréat (BAC)."
+          }
+        ],
+        "qualityFlags": [
+          "weak_distractors",
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 15,
+          "distractorCharLengths": [
+            22,
+            22,
+            27
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            4,
+            4,
+            4
+          ],
+          "charLengthRatio": 0.6338028169014084,
+          "tokenLengthRatio": 0.5,
+          "obviousLengthCue": true,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match",
+          "obvious_length_cue"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Le baccalauréat\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.456Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx115",
+      "questionText": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "correct": [
+          "Au collège puis au lycée"
+        ],
+        "distractors": [
+          "À la maternelle puis au collège",
+          "Au lycée puis au collège",
+          "À l’université puis au lycée"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Au collège puis au lycée",
+            "normalizedAnswer": "au collège puis au lycée",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+                "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+                "sectionId": "l-organisation-de-l-ecole-en-france",
+                "sectionTitle": "L’organisation de l’école en France",
+                "quote": "L’école est organisée en 4 temps : le cours élémentaire, puis le collège, puis le lycée."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+            "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+            "sectionId": "l-organisation-de-l-ecole-en-france",
+            "sectionTitle": "L’organisation de l’école en France",
+            "quote": "L’école est organisée en 4 temps : la maternelle ; le cours élémentaire ; le collège ; le lycée."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 24,
+          "distractorCharLengths": [
+            31,
+            24,
+            28
+          ],
+          "correctTokenLength": 5,
+          "distractorTokenLengths": [
+            6,
+            5,
+            6
+          ],
+          "charLengthRatio": 0.8674698795180723,
+          "tokenLengthRatio": 0.8823529411764706,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Au collège puis au lycée\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.458Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx113",
+      "questionText": "Pour qui l'école est-elle obligatoire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif",
+          "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+          "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif",
+          "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones"
+        ],
+        "correct": [
+          "Tous les enfants de 3 à 16 ans vivant en France"
+        ],
+        "distractors": [
+          "Tous les enfants de 6 à 18 ans vivant en France",
+          "Les seuls enfants français de 3 à 16 ans",
+          "Les seuls enfants parlant déjà français"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Tous les enfants de 3 à 16 ans vivant en France",
+            "normalizedAnswer": "tous les enfants de 3 à 16 ans vivant en france",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+                "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+                "sectionId": "l-organisation-de-l-ecole-en-france",
+                "sectionTitle": "L’organisation de l’école en France",
+                "quote": "Français ou étrangers, tous les enfants âgés de 3 à 16 ans, qui habitent en France, doivent aller à l’école. C’est une obligation."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+                "contentPath": "vivre-societe-francaise/parentalite/l-ecole-pour-les-enfants-allophones.md",
+                "sectionId": "l-ecole-accueille-tous-les-enfants",
+                "sectionTitle": "L’école accueille tous les enfants",
+                "quote": "En France, tous les enfants de 3 à 16 ans doivent aller à l’école. Cette obligation concerne donc aussi les enfants non francophones."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+            "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+            "sectionId": "l-organisation-de-l-ecole-en-france",
+            "sectionTitle": "L’organisation de l’école en France",
+            "quote": "Français ou étrangers, tous les enfants âgés de 3 à 16 ans, qui habitent en France, doivent aller à l’école. C’est une obligation."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+            "contentPath": "vivre-societe-francaise/parentalite/l-ecole-pour-les-enfants-allophones.md",
+            "sectionId": "l-ecole-accueille-tous-les-enfants",
+            "sectionTitle": "L’école accueille tous les enfants",
+            "quote": "Cette obligation concerne donc aussi les enfants non francophones."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 47,
+          "distractorCharLengths": [
+            47,
+            40,
+            39
+          ],
+          "correctTokenLength": 11,
+          "distractorTokenLengths": [
+            11,
+            9,
+            6
+          ],
+          "charLengthRatio": 1.119047619047619,
+          "tokenLengthRatio": 1.2692307692307694,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Tous les enfants de 3 à 16 ans vivant en France\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.460Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx117",
+      "questionText": "Les enfants qui ne parlent pas français :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "correct": [
+          "peuvent suivre des cours adaptés pour apprendre le français"
+        ],
+        "distractors": [
+          "doivent attendre de parler français pour aller à l’école",
+          "restent dans des classes séparées jusqu’à 16 ans",
+          "ne peuvent pas suivre les mêmes cours ensuite"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "peuvent suivre des cours adaptés pour apprendre le français",
+            "normalizedAnswer": "peuvent suivre des cours adaptés pour apprendre le français",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+                "contentPath": "vivre-societe-francaise/parentalite/l-ecole-pour-les-enfants-allophones.md",
+                "sectionId": "des-cours-adaptes-pour-apprendre-le-francais",
+                "sectionTitle": "Des cours adaptés pour apprendre le français",
+                "quote": "Selon son niveau, il peut suivre des cours adaptés. Entouré d’enfants et d’adultes qui parlent le français, il apprend vite la langue française dans le cadre de l’école."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+                "contentPath": "vivre-societe-francaise/parentalite/l-ecole-pour-les-enfants-allophones.md",
+                "sectionId": "des-cours-adaptes-pour-apprendre-le-francais",
+                "sectionTitle": "Des cours adaptés pour apprendre le français",
+                "quote": "Une fois qu’il maîtrise le français, il peut suivre les mêmes cours que les autres enfants."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+            "contentPath": "vivre-societe-francaise/parentalite/l-ecole-pour-les-enfants-allophones.md",
+            "sectionId": "des-cours-adaptes-pour-apprendre-le-francais",
+            "sectionTitle": "Des cours adaptés pour apprendre le français",
+            "quote": "Au moment de l’entrée dans l’école, l’enfant qui ne parle pas bien le français passe un test de positionnement pour déterminer son niveau en français. Selon son niveau, il peut suivre des cours adaptés."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+            "contentPath": "vivre-societe-francaise/parentalite/l-ecole-pour-les-enfants-allophones.md",
+            "sectionId": "des-cours-adaptes-pour-apprendre-le-francais",
+            "sectionTitle": "Des cours adaptés pour apprendre le français",
+            "quote": "Une fois qu’il maîtrise le français, il peut suivre les mêmes cours que les autres enfants."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 59,
+          "distractorCharLengths": [
+            56,
+            48,
+            45
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            10,
+            9,
+            8
+          ],
+          "charLengthRatio": 1.1879194630872483,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.460Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [],
+  "validatedAt": "2026-03-08T16:05:15.054Z",
+  "validationSummary": {
+    "total": 20,
+    "valid": 20,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 30
+  },
+  "appliedAt": "2026-03-08T16:08:02.460Z",
+  "applySummary": {
+    "applied": 20,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": true
+  }
+}

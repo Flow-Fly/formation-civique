@@ -1,0 +1,722 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "batchId": "cr-b008",
+  "generatedAt": "2026-03-08T15:59:00.000Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx142",
+      "questionText": "Qu'est-ce que l'école maternelle ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "correct": [
+          "L’école des enfants de 3 à 6 ans"
+        ],
+        "distractors": [
+          "L’école des enfants de 6 à 11 ans",
+          "L’école des enfants de 11 à 15 ans",
+          "L’école des enfants de 15 à 18 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’école des enfants de 3 à 6 ans",
+            "normalizedAnswer": "l ecole des enfants de 3 a 6 ans",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+                "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+                "sectionId": "l-organisation-de-l-ecole-en-france",
+                "sectionTitle": "L’organisation de l’école en France",
+                "quote": "la maternelle, (de 3 à 6 ans). Il y a 3 niveaux : petite section, moyenne section, et grande section ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+            "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+            "sectionId": "l-organisation-de-l-ecole-en-france",
+            "sectionTitle": "L’organisation de l’école en France",
+            "quote": "la maternelle, (de 3 à 6 ans). Il y a 3 niveaux : petite section, moyenne section, et grande section ;"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 32,
+          "distractorCharLengths": [
+            33,
+            34,
+            34
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            9,
+            9,
+            9
+          ],
+          "charLengthRatio": 0.9504950495049506,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.645Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx143",
+      "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "correct": [
+          "Le brevet des collèges"
+        ],
+        "distractors": [
+          "Le baccalauréat",
+          "Le certificat d’études",
+          "Le brevet professionnel"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le brevet des collèges",
+            "normalizedAnswer": "le brevet des colleges",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+                "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+                "sectionId": "l-organisation-de-l-ecole-en-france",
+                "sectionTitle": "L’organisation de l’école en France",
+                "quote": "À la fin du collège, l’enfant passe un diplôme qui s’appelle le brevet des collèges, ou diplôme national du brevet (DNB) ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+            "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+            "sectionId": "l-organisation-de-l-ecole-en-france",
+            "sectionTitle": "L’organisation de l’école en France",
+            "quote": "À la fin du collège, l’enfant passe un diplôme qui s’appelle le brevet des collèges, ou diplôme national du brevet (DNB) ;"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 22,
+          "distractorCharLengths": [
+            15,
+            22,
+            23
+          ],
+          "correctTokenLength": 4,
+          "distractorTokenLengths": [
+            2,
+            4,
+            3
+          ],
+          "charLengthRatio": 1.1,
+          "tokenLengthRatio": 1.3333333333333333,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.647Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx144",
+      "questionText": "Les parents d'élève ont le droit de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+          "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+          "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+          "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+        ],
+        "correct": [
+          "Rejoindre une association de parents d’élèves"
+        ],
+        "distractors": [
+          "Modifier le règlement intérieur de l’école",
+          "Supprimer un cours du programme scolaire",
+          "Choisir les sanctions des autres élèves"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Rejoindre une association de parents d’élèves",
+            "normalizedAnswer": "rejoindre une association de parents d eleves",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+                "contentPath": "vivre-societe-francaise/parentalite/droits-et-devoirs-des-parents-a-l-ecole.md",
+                "sectionId": "le-role-des-parents",
+                "sectionTitle": "Le rôle des parents",
+                "quote": "Les parents peuvent participer à la vie de l’école de plusieurs façons : - en rejoignant l’association de parents d’élèves qui défend les intérêts des enfants ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+            "contentPath": "vivre-societe-francaise/parentalite/droits-et-devoirs-des-parents-a-l-ecole.md",
+            "sectionId": "le-role-des-parents",
+            "sectionTitle": "Le rôle des parents",
+            "quote": "Les parents peuvent participer à la vie de l’école de plusieurs façons : - en rejoignant l’association de parents d’élèves qui défend les intérêts des enfants ; - en se présentant aux élections de représentants des parents d’élèves."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 45,
+          "distractorCharLengths": [
+            42,
+            40,
+            39
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            7,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.1157024793388428,
+          "tokenLengthRatio": 1.105263157894737,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.647Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx145",
+      "questionText": "Qui peut manger à la cantine scolaire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif"
+        ],
+        "correct": [
+          "Tous les enfants qui le souhaitent"
+        ],
+        "distractors": [
+          "Seulement les enfants du primaire",
+          "Seulement les enfants du collège",
+          "Seulement les enfants boursiers"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Tous les enfants qui le souhaitent",
+            "normalizedAnswer": "tous les enfants qui le souhaitent",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+                "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+                "sectionId": "l-organisation-de-l-ecole-en-france",
+                "sectionTitle": "L’organisation de l’école en France",
+                "quote": "Une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+            "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+            "sectionId": "l-organisation-de-l-ecole-en-france",
+            "sectionTitle": "L’organisation de l’école en France",
+            "quote": "Une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 34,
+          "distractorCharLengths": [
+            33,
+            32,
+            31
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            5,
+            5,
+            4
+          ],
+          "charLengthRatio": 1.0625,
+          "tokenLengthRatio": 1.2857142857142856,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.647Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx146",
+      "questionText": "Quel est l'âge de la majorité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "18 ans"
+        ],
+        "distractors": [
+          "16 ans",
+          "17 ans",
+          "21 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "18 ans",
+            "normalizedAnswer": "18 ans",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+                "contentPath": "vivre-societe-francaise/parentalite/autorite-parentale.md",
+                "sectionId": "exercice-de-l-autorite-parentale-2-2",
+                "sectionTitle": "Exercice de l’autorité parentale (2/2)",
+                "quote": "L'autorité parentale se termine : - quand l'enfant a 18 ans ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+            "contentPath": "vivre-societe-francaise/parentalite/autorite-parentale.md",
+            "sectionId": "exercice-de-l-autorite-parentale-2-2",
+            "sectionTitle": "Exercice de l’autorité parentale (2/2)",
+            "quote": "L'autorité parentale se termine : - quand l'enfant a 18 ans ;"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 6,
+          "distractorCharLengths": [
+            6,
+            6,
+            6
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 1,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.647Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx147",
+      "questionText": "À l'école, il est interdit aux parents de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "correct": [
+          "Refuser un cours pour des motifs religieux"
+        ],
+        "distractors": [
+          "Rencontrer les professeurs de l’école",
+          "Participer aux réunions de parents",
+          "Consulter le règlement intérieur"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Refuser un cours pour des motifs religieux",
+            "normalizedAnswer": "refuser un cours pour des motifs religieux",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-1-2",
+                "sectionTitle": "La laïcité à l'école (1/2)",
+                "quote": "Il n’est pas possible de refuser de suivre un cours prévu dans le programme (sports, sortie scolaire...) pour des motifs religieux."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-2-2",
+                "sectionTitle": "La laïcité à l'école (2/2)",
+                "quote": "Ce document s’adresse aux professeurs, aux élèves ainsi qu’aux parents d’élèves."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-2-2",
+            "sectionTitle": "La laïcité à l'école (2/2)",
+            "quote": "À l’école, il n’est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme. C’est l’une des règles d’application de la laïcité dans les écoles."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-2-2",
+            "sectionTitle": "La laïcité à l'école (2/2)",
+            "quote": "Ce document s’adresse aux professeurs, aux élèves ainsi qu’aux parents d’élèves."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 42,
+          "distractorCharLengths": [
+            37,
+            34,
+            32
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            6,
+            5,
+            4
+          ],
+          "charLengthRatio": 1.2233009708737863,
+          "tokenLengthRatio": 1.4,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.647Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx149",
+      "questionText": "À l'école, un enfant en situation de handicap :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+          "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+        ],
+        "correct": [
+          "Peut bénéficier d’un emploi du temps aménagé"
+        ],
+        "distractors": [
+          "Doit quitter l’école ordinaire",
+          "N’a pas accès aux mêmes services",
+          "Doit rester séparé des autres élèves"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Peut bénéficier d’un emploi du temps aménagé",
+            "normalizedAnswer": "peut beneficier d un emploi du temps amenage",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+                "contentPath": "vivre-societe-francaise/parentalite/les-droits-de-l-enfant.md",
+                "sectionId": "les-principaux-droits-de-l-enfant",
+                "sectionTitle": "Les principaux droits de l’enfant",
+                "quote": "Enfant en situation de handicap : vivre avec et comme les autres, ils peuvent bénéficier d'un emploi du temps aménagé."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+            "contentPath": "vivre-societe-francaise/parentalite/les-droits-de-l-enfant.md",
+            "sectionId": "les-principaux-droits-de-l-enfant",
+            "sectionTitle": "Les principaux droits de l’enfant",
+            "quote": "Enfant en situation de handicap : vivre avec et comme les autres, ils peuvent bénéficier d'un emploi du temps aménagé."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-1-3",
+            "sectionTitle": "L'égalité (1/3)",
+            "quote": "La loi interdit de limiter l’accès à ces services selon certains critères : homme ou femme, origine ethnique, handicap, orientation sexuelle..."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 44,
+          "distractorCharLengths": [
+            30,
+            32,
+            36
+          ],
+          "correctTokenLength": 8,
+          "distractorTokenLengths": [
+            5,
+            7,
+            6
+          ],
+          "charLengthRatio": 1.3469387755102042,
+          "tokenLengthRatio": 1.3333333333333333,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.647Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "questionId": "crx141",
+      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "blockReason": "Les fiches liées établissent l’inscription à France Travail et l’existence de cotisations chômage via le travail déclaré, mais elles n’énoncent pas les conditions d’éligibilité aux allocations chômage de façon assez complète pour isoler une seule bonne réponse."
+    },
+    {
+      "questionId": "crx148",
+      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "blockReason": "Les fiches liées décrivent l’organisation scolaire et le rôle des parents, mais aucune ne donne la période ou les dates des vacances scolaires de Noël."
+    }
+  ],
+  "validatedAt": "2026-03-08T16:05:14.673Z",
+  "validationSummary": {
+    "total": 7,
+    "valid": 7,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "appliedAt": "2026-03-08T16:07:59.647Z",
+  "applySummary": {
+    "applied": 7,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": true
+  }
+}

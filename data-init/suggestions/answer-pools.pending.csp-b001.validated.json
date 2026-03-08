@@ -1,0 +1,1934 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "batchId": "csp-b001",
+  "generatedAt": "2026-03-07T15:06:39.356Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx001",
+      "questionText": "À quoi correspond la date du 14 juillet ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "correct": [
+          "À la fête nationale française"
+        ],
+        "distractors": [
+          "À la signature du Code civil",
+          "À l’élection du président",
+          "À la rentrée scolaire nationale"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "À la fête nationale française",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+                "sectionId": "quel-est-le-jour-de-la-fete-nationale",
+                "sectionTitle": "Quel est le jour de la fête nationale ?",
+                "quote": "Le 14 juillet devient le jour de la fête nationale en 1880."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+            "sectionId": "quel-est-le-jour-de-la-fete-nationale",
+            "sectionTitle": "Quel est le jour de la fête nationale ?",
+            "quote": "Le 14 juillet devient le jour de la fête nationale en 1880."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 29,
+          "distractorCharLengths": [
+            28,
+            25,
+            31
+          ],
+          "correctTokenLength": 5,
+          "distractorTokenLengths": [
+            6,
+            5,
+            5
+          ],
+          "charLengthRatio": 1.0357142857142858,
+          "tokenLengthRatio": 0.9375,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.955Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx002",
+      "questionText": "Quel est l’un des symboles de la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "correct": [
+          "Le drapeau français"
+        ],
+        "distractors": [
+          "Le coq gaulois",
+          "La tour Eiffel",
+          "La baguette"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le drapeau français",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+                "sectionId": "les-couleurs",
+                "sectionTitle": "Les couleurs",
+                "quote": "Le drapeau français est un symbole officiel de la République française."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+            "sectionId": "les-couleurs",
+            "sectionTitle": "Les couleurs",
+            "quote": "Le drapeau français est un symbole officiel de la République française."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 19,
+          "distractorCharLengths": [
+            14,
+            14,
+            11
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            3,
+            3,
+            2
+          ],
+          "charLengthRatio": 1.4615384615384615,
+          "tokenLengthRatio": 1.125,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.957Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx003",
+      "questionText": "Le principe d’égalité signifie que :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+        ],
+        "correct": [
+          "la loi est la même pour toutes les personnes"
+        ],
+        "distractors": [
+          "les droits changent selon la religion",
+          "les services publics vont aux plus riches",
+          "les emplois publics sont héréditaires"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "la loi est la même pour toutes les personnes",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-1-3",
+                "sectionTitle": "L'égalité (1/3)",
+                "quote": "la loi est la même pour toutes les personnes"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-1-3",
+            "sectionTitle": "L'égalité (1/3)",
+            "quote": "la loi est la même pour toutes les personnes"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 44,
+          "distractorCharLengths": [
+            37,
+            41,
+            37
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            6,
+            7,
+            5
+          ],
+          "charLengthRatio": 1.1478260869565218,
+          "tokenLengthRatio": 1.5,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.957Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx004",
+      "questionText": "\"Liberté, égalité, fraternité\", c’est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+        ],
+        "correct": [
+          "la devise de la République française"
+        ],
+        "distractors": [
+          "la fête nationale française",
+          "l’hymne national français",
+          "le drapeau officiel français"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "la devise de la République française",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+                "sectionId": "qu-est-ce-qu-une-devise",
+                "sectionTitle": "Qu’est-ce qu’une devise ?",
+                "quote": "La devise de la République française est : \n\"Liberté, Égalité, Fraternité\"."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+            "sectionId": "qu-est-ce-qu-une-devise",
+            "sectionTitle": "Qu’est-ce qu’une devise ?",
+            "quote": "La devise de la République française est : \n\"Liberté, Égalité, Fraternité\"."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 36,
+          "distractorCharLengths": [
+            27,
+            25,
+            28
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            4,
+            4,
+            4
+          ],
+          "charLengthRatio": 1.3499999999999999,
+          "tokenLengthRatio": 1.5,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.957Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx020",
+      "questionText": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+        "principes-et-valeurs--la-laicite--le-blaspheme"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+          "principes-et-valeurs--la-laicite--le-blaspheme"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+        ],
+        "correct": [
+          "Non, c’est interdit par la loi."
+        ],
+        "distractors": [
+          "Oui, si cela reste une opinion.",
+          "Oui, si c’est sans violence.",
+          "Oui, si cela vise un adulte."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, c’est interdit par la loi.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-3-3",
+                "sectionTitle": "L'égalité (3/3)",
+                "quote": "Les discriminations sont punies par des amendes et diverses sanctions."
+              },
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "la-limite-des-libertes-individuelles",
+                "sectionTitle": "La limite des libertés individuelles",
+                "quote": "Nos droits et libertés individuels sont limités par les droits des autres : \"La liberté consiste à faire tout ce qui ne nuit pas à autrui\" (article 4 de la DDHC)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-3-3",
+            "sectionTitle": "L'égalité (3/3)",
+            "quote": "La loi française reconnaît plus de 26 critères de discrimination : origine, sexe, apparence physique, âge, handicap, grossesse, orientation sexuelle, opinions politiques, religion…"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 31,
+          "distractorCharLengths": [
+            31,
+            28,
+            28
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            6,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.0689655172413792,
+          "tokenLengthRatio": 1.1666666666666667,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.957Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx005",
+      "questionText": "Certains métiers peuvent-ils être réservés aux hommes ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+        ],
+        "correct": [
+          "Non, c’est une discrimination."
+        ],
+        "distractors": [
+          "Oui, pour les métiers dangereux.",
+          "Oui, dans la fonction publique.",
+          "Oui, si l’employeur le décide."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, c’est une discrimination.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-2-3",
+                "sectionTitle": "L'égalité (2/3)",
+                "quote": "Cela signifie que les femmes et les hommes ont les mêmes droits et les mêmes devoirs dans tous les aspects de la vie : éducation, travail, santé, vie politique…"
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-3-3",
+                "sectionTitle": "L'égalité (3/3)",
+                "quote": "Exemples : salaire plus bas, moqueries, refus d’accès à certains métiers."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-3-3",
+            "sectionTitle": "L'égalité (3/3)",
+            "quote": "Exemples : salaire plus bas, moqueries, refus d’accès à certains métiers."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 30,
+          "distractorCharLengths": [
+            32,
+            31,
+            30
+          ],
+          "correctTokenLength": 5,
+          "distractorTokenLengths": [
+            5,
+            5,
+            6
+          ],
+          "charLengthRatio": 0.967741935483871,
+          "tokenLengthRatio": 0.9375,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.957Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx006",
+      "questionText": "De quand date la Constitution de la Ve République ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "date_year",
+        "candidateFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+        ],
+        "correct": [
+          "1958"
+        ],
+        "distractors": [
+          "1946",
+          "1962",
+          "1974"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "1958",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/principaux-textes.md",
+                "sectionId": "presentation-des-principaux-textes-2-3-la-constitution-de-la-veme-republique",
+                "sectionTitle": "Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+                "quote": "Elle est adoptée le 4 octobre 1958."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/principaux-textes.md",
+            "sectionId": "presentation-des-principaux-textes-2-3-la-constitution-de-la-veme-republique",
+            "sectionTitle": "Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+            "quote": "La Constitution du 4 octobre 1958 est le texte fondateur de la Vème République."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "date_year",
+          "correctCharLength": 4,
+          "distractorCharLengths": [
+            4,
+            4,
+            4
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 1,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.957Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx021",
+      "questionText": "Le régime de la France est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+        ],
+        "correct": [
+          "la Vème République"
+        ],
+        "distractors": [
+          "la IVème République",
+          "la monarchie absolue",
+          "le Second Empire"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "la Vème République",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+                "sectionId": "les-regimes-politiques",
+                "sectionTitle": "Les régimes politiques",
+                "quote": "Depuis 1958, le régime politique de la France est celui de la Vème République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+            "sectionId": "les-regimes-politiques",
+            "sectionTitle": "Les régimes politiques",
+            "quote": "Depuis 1958, le régime politique de la France est celui de la Vème République."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 18,
+          "distractorCharLengths": [
+            19,
+            20,
+            16
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            3,
+            3,
+            3
+          ],
+          "charLengthRatio": 0.9818181818181819,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx007",
+      "questionText": "Lequel de ces symboles représente officiellement la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "correct": [
+          "Marianne"
+        ],
+        "distractors": [
+          "Le coq",
+          "La tour Eiffel",
+          "Le béret"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Marianne",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+                "sectionId": "que-signifie-le-symbole-marianne",
+                "sectionTitle": "Que signifie le symbole Marianne ?",
+                "quote": "De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+            "sectionId": "que-signifie-le-symbole-marianne",
+            "sectionTitle": "Que signifie le symbole Marianne ?",
+            "quote": "La figure de Marianne apparaît pendant la Révolution française pour représenter la République."
+          }
+        ],
+        "qualityFlags": [
+          "weak_distractors",
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 8,
+          "distractorCharLengths": [
+            6,
+            14,
+            8
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            2,
+            3,
+            2
+          ],
+          "charLengthRatio": 0.8571428571428571,
+          "tokenLengthRatio": 0.42857142857142855,
+          "obviousLengthCue": true,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "obvious_length_cue"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx019",
+      "questionText": "Quels sont des symboles officiels de la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "correct": [
+          "Le drapeau, Marianne et l’hymne national"
+        ],
+        "distractors": [
+          "Le coq, Marianne et la tour Eiffel",
+          "Le drapeau, le coq et le muguet",
+          "La baguette, le béret et le coq"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le drapeau, Marianne et l’hymne national",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+                "sectionId": "les-couleurs",
+                "sectionTitle": "Les couleurs",
+                "quote": "Le drapeau français est un symbole officiel de la République française."
+              },
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+                "sectionId": "que-signifie-le-symbole-marianne",
+                "sectionTitle": "Que signifie le symbole Marianne ?",
+                "quote": "De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République."
+              },
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+                "sectionId": "le-titre-de-l-hymne-francais",
+                "sectionTitle": "Le titre de l’hymne français",
+                "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+            "sectionId": "les-couleurs",
+            "sectionTitle": "Les couleurs",
+            "quote": "Le drapeau français est un symbole officiel de la République française."
+          },
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+            "sectionId": "que-signifie-le-symbole-marianne",
+            "sectionTitle": "Que signifie le symbole Marianne ?",
+            "quote": "De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République."
+          },
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+            "sectionId": "le-titre-de-l-hymne-francais",
+            "sectionTitle": "Le titre de l’hymne français",
+            "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 40,
+          "distractorCharLengths": [
+            34,
+            31,
+            31
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            7,
+            7,
+            7
+          ],
+          "charLengthRatio": 1.25,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx008",
+      "questionText": "Qu’est-ce que l’égalité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+        ],
+        "correct": [
+          "La même loi pour toutes les personnes."
+        ],
+        "distractors": [
+          "La même opinion pour tous les citoyens.",
+          "Le même salaire pour tous les métiers.",
+          "Le même vote pour tous les partis."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La même loi pour toutes les personnes.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-1-3",
+                "sectionTitle": "L'égalité (1/3)",
+                "quote": "la loi est la même pour toutes les personnes"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-1-3",
+            "sectionTitle": "L'égalité (1/3)",
+            "quote": "la loi est la même pour toutes les personnes"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 38,
+          "distractorCharLengths": [
+            39,
+            38,
+            34
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            7,
+            7,
+            7
+          ],
+          "charLengthRatio": 1.027027027027027,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx009",
+      "questionText": "Que signifie la liberté ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "correct": [
+          "Vivre, penser et s’exprimer librement."
+        ],
+        "distractors": [
+          "Suivre exactement la vie des autres.",
+          "Imposer ses choix à tout le monde.",
+          "Décider seul des règles du pays."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Vivre, penser et s’exprimer librement.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "la-liberte-qu-est-ce-que-c-est",
+                "sectionTitle": "La liberté : qu’est-ce que c’est ?",
+                "quote": "En France, chaque personne peut penser, s’exprimer et vivre comme elle le souhaite."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+            "sectionId": "la-liberte-qu-est-ce-que-c-est",
+            "sectionTitle": "La liberté : qu’est-ce que c’est ?",
+            "quote": "En France, chaque personne peut penser, s’exprimer et vivre comme elle le souhaite."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 38,
+          "distractorCharLengths": [
+            36,
+            34,
+            32
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            7,
+            6
+          ],
+          "charLengthRatio": 1.1176470588235294,
+          "tokenLengthRatio": 0.9473684210526316,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx010",
+      "questionText": "Quel animal est un symbole de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+        ],
+        "correct": [
+          "Le coq"
+        ],
+        "distractors": [
+          "Le lion",
+          "L’aigle",
+          "Le cheval"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le coq",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-coq.md",
+                "sectionId": "un-symbole-non-officiel",
+                "sectionTitle": "Un symbole non officiel",
+                "quote": "Mais comme il est très utilisé, il est devenu un symbole national fort."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-coq.md",
+            "sectionId": "un-symbole-non-officiel",
+            "sectionTitle": "Un symbole non officiel",
+            "quote": "Mais comme il est très utilisé, il est devenu un symbole national fort."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 6,
+          "distractorCharLengths": [
+            7,
+            7,
+            9
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 0.7826086956521738,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx011",
+      "questionText": "Quel est l’un des rôles des associations ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+        ],
+        "correct": [
+          "Aider les autres et participer à la société."
+        ],
+        "distractors": [
+          "Fixer les impôts pour tous les habitants.",
+          "Rendre la justice au nom de l’État.",
+          "Voter les lois à la place du Parlement."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Aider les autres et participer à la société.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/fraternite.md",
+                "sectionId": "la-fraternite-2-2",
+                "sectionTitle": "La fraternité (2/2)",
+                "quote": "défendre des idées, aider les autres ou encore participer à la société."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/fraternite.md",
+            "sectionId": "la-fraternite-2-2",
+            "sectionTitle": "La fraternité (2/2)",
+            "quote": "L’engagement est aussi une manière de participer à la vie collective, à la solidarité et à la démocratie."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 44,
+          "distractorCharLengths": [
+            41,
+            35,
+            39
+          ],
+          "correctTokenLength": 8,
+          "distractorTokenLengths": [
+            7,
+            8,
+            8
+          ],
+          "charLengthRatio": 1.1478260869565218,
+          "tokenLengthRatio": 1.0434782608695652,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx012",
+      "questionText": "Quel est le nom de l'hymne national ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "correct": [
+          "La Marseillaise"
+        ],
+        "distractors": [
+          "Le Chant du départ",
+          "La Carmagnole",
+          "Le Temps des cerises"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Marseillaise",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+                "sectionId": "le-titre-de-l-hymne-francais",
+                "sectionTitle": "Le titre de l’hymne français",
+                "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+            "sectionId": "le-titre-de-l-hymne-francais",
+            "sectionTitle": "Le titre de l’hymne français",
+            "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+          }
+        ],
+        "qualityFlags": [
+          "weak_distractors",
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 15,
+          "distractorCharLengths": [
+            18,
+            13,
+            20
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            4,
+            2,
+            4
+          ],
+          "charLengthRatio": 0.8823529411764706,
+          "tokenLengthRatio": 0.6,
+          "obviousLengthCue": true,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "obvious_length_cue"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx013",
+      "questionText": "Quel symbole de la République française est tricolore ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+        ],
+        "correct": [
+          "Le drapeau français"
+        ],
+        "distractors": [
+          "La Marseillaise",
+          "Marianne",
+          "Le coq gaulois"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le drapeau français",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+                "sectionId": "les-couleurs",
+                "sectionTitle": "Les couleurs",
+                "quote": "Le drapeau est composé de trois bandes verticales : bleu, blanc et rouge."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+            "sectionId": "les-couleurs",
+            "sectionTitle": "Les couleurs",
+            "quote": "Le drapeau est composé de trois bandes verticales : bleu, blanc et rouge."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 19,
+          "distractorCharLengths": [
+            15,
+            8,
+            14
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            2,
+            1,
+            3
+          ],
+          "charLengthRatio": 1.5405405405405406,
+          "tokenLengthRatio": 1.5,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx014",
+      "questionText": "Quelle est la date de la fête nationale française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "correct": [
+          "Le 14 juillet"
+        ],
+        "distractors": [
+          "Le 8 mai",
+          "Le 11 novembre",
+          "Le 1er mai"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le 14 juillet",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+                "sectionId": "quel-est-le-jour-de-la-fete-nationale",
+                "sectionTitle": "Quel est le jour de la fête nationale ?",
+                "quote": "Le 14 juillet devient le jour de la fête nationale en 1880."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+            "sectionId": "quel-est-le-jour-de-la-fete-nationale",
+            "sectionTitle": "Quel est le jour de la fête nationale ?",
+            "quote": "Le 14 juillet devient le jour de la fête nationale en 1880."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 13,
+          "distractorCharLengths": [
+            8,
+            14,
+            10
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            3,
+            3,
+            3
+          ],
+          "charLengthRatio": 1.21875,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx015",
+      "questionText": "Quelle est la langue officielle de la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+        ],
+        "correct": [
+          "Le français"
+        ],
+        "distractors": [
+          "L’anglais",
+          "Le latin",
+          "Le breton"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le français",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+                "contentPath": "principes-et-valeurs/la-langue-de-la-republique/la-langue-française.md",
+                "sectionId": "le-francais-l-unique-langue-officielle",
+                "sectionTitle": "Le français : l’unique langue officielle",
+                "quote": "Le français est donc la seule langue officielle en France."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+            "contentPath": "principes-et-valeurs/la-langue-de-la-republique/la-langue-française.md",
+            "sectionId": "le-francais-l-unique-langue-officielle",
+            "sectionTitle": "Le français : l’unique langue officielle",
+            "quote": "Il faut attendre 1992, au moment de la création de l’Union européenne et de la disparition de la monnaie française, pour que la langue française soit inscrite dans la Constitution : \"la langue de la République est le français\"."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 11,
+          "distractorCharLengths": [
+            9,
+            8,
+            9
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 1.2692307692307694,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx018",
+      "questionText": "Quelle est la place de la langue française dans la République ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+        ],
+        "correct": [
+          "C’est la seule langue officielle."
+        ],
+        "distractors": [
+          "C’est une langue régionale facultative.",
+          "C’est une langue réservée à l’école.",
+          "C’est une langue secondaire de l’État."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "C’est la seule langue officielle.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+                "contentPath": "principes-et-valeurs/la-langue-de-la-republique/la-langue-française.md",
+                "sectionId": "le-francais-l-unique-langue-officielle",
+                "sectionTitle": "Le français : l’unique langue officielle",
+                "quote": "Le français est donc la seule langue officielle en France."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+                "contentPath": "principes-et-valeurs/la-langue-de-la-republique/la-langue-française.md",
+                "sectionId": "le-francais-l-unique-langue-officielle",
+                "sectionTitle": "Le français : l’unique langue officielle",
+                "quote": "Elle est utilisée dans les écoles, l’administration, la justice, et plus largement dans la vie publique."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+            "contentPath": "principes-et-valeurs/la-langue-de-la-republique/la-langue-française.md",
+            "sectionId": "le-francais-l-unique-langue-officielle",
+            "sectionTitle": "Le français : l’unique langue officielle",
+            "quote": "Elle est utilisée dans les écoles, l’administration, la justice, et plus largement dans la vie publique."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 33,
+          "distractorCharLengths": [
+            39,
+            36,
+            38
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            8,
+            8
+          ],
+          "charLengthRatio": 0.8761061946902655,
+          "tokenLengthRatio": 0.8181818181818182,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx016",
+      "questionText": "Quelle liberté permet à chacun d’exprimer ses idées ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+        ],
+        "correct": [
+          "La liberté d’expression"
+        ],
+        "distractors": [
+          "La liberté de circulation",
+          "La liberté de culte",
+          "La liberté de réunion"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La liberté d’expression",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine.md",
+                "sectionId": "quels-sont-les-droits-qui-decoulent-des-droits-individuels",
+                "sectionTitle": "Quels sont les droits qui découlent des droits individuels ?",
+                "quote": "la liberté d’expression (liberté de penser et de dire ce que l’on pense)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine.md",
+            "sectionId": "quels-sont-les-droits-qui-decoulent-des-droits-individuels",
+            "sectionTitle": "Quels sont les droits qui découlent des droits individuels ?",
+            "quote": "la liberté d’expression (liberté de penser et de dire ce que l’on pense)"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 23,
+          "distractorCharLengths": [
+            25,
+            19,
+            21
+          ],
+          "correctTokenLength": 4,
+          "distractorTokenLengths": [
+            4,
+            4,
+            4
+          ],
+          "charLengthRatio": 1.0615384615384615,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:59.958Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [],
+  "validatedAt": "2026-03-08T16:05:14.725Z",
+  "validationSummary": {
+    "total": 20,
+    "valid": 20,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "appliedAt": "2026-03-08T16:07:59.958Z",
+  "applySummary": {
+    "applied": 20,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": true
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "runId": "r004",
+  "generatedAt": "2026-03-07T14:14:39.252Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/csp.md"
+  },
+  "items": [
+    {
+      "questionId": "cspx043",
+      "questionText": "Quel est le rôle du Parlement ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "reasons": [
+        "La fiche sur les trois pouvoirs dit que le Parlement exerce le pouvoir législatif, vote la loi, contrôle l’action du Gouvernement et évalue les politiques publiques.",
+        "La fiche « Comment voter une loi » montre aussi que le Parlement peut proposer une loi et que ses deux chambres examinent puis votent le texte."
+      ]
+    },
+    {
+      "questionId": "crx052",
+      "questionText": "Quel est le régime politique de la France aujourd'hui ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "reasons": [
+        "La fiche « La Vème République » dit explicitement que la Vème République est le régime politique actuel de la France.",
+        "La fiche de synthèse sur les régimes politiques confirme que depuis 1958, le régime politique français est celui de la Vème République."
+      ]
+    },
+    {
+      "questionId": "crx062",
+      "questionText": "Quel État n'est pas membre de l'Union européenne ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "reasons": [
+        "Les deux fiches listent les élargissements successifs de l’Union européenne et rappellent qu’un seul pays l’a quittée en 2020 : le Royaume-Uni.",
+        "Elles permettent donc de vérifier si un État proposé fait encore partie ou non de l’Union européenne."
+      ]
+    },
+    {
+      "questionId": "crx065",
+      "questionText": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-elections-europeennes",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-elections-europeennes",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "reasons": [
+        "La fiche sur les élections européennes détaille les conditions : nationalité d’un pays membre de l’UE, résidence en France, majorité et inscription sur les listes électorales françaises.",
+        "Les deux fiches sur les conditions pour voter en France rappellent aussi qu’un ressortissant de l’UE résidant en France peut voter aux élections européennes."
+      ]
+    },
+    {
+      "questionId": "crx064",
+      "questionText": "À quelle fréquence les élections européennes sont-elles organisées ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-elections-europeennes",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-elections-europeennes",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "reasons": [
+        "La fiche « Les élections européennes » dit explicitement qu’elles sont organisées tous les cinq ans.",
+        "La fiche sur les différents types d’élections en France redonne la même fréquence pour l’élection des députés au Parlement européen."
+      ]
+    },
+    {
+      "questionId": "crx066",
+      "questionText": "Quel pays est un pays fondateur de l'Union européenne ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "reasons": [
+        "Les deux fiches donnent la liste des six pays fondateurs de la CEE : Allemagne, Belgique, France, Italie, Luxembourg et Pays-Bas.",
+        "La question renvoie directement à cette liste des États fondateurs."
+      ]
+    },
+    {
+      "questionId": "cspx044",
+      "questionText": "Quelle est la monnaie utilisée en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur la construction européenne indique qu’en 2002 l’euro devient la monnaie officielle de plusieurs pays membres.",
+        "La fiche sur le fonctionnement européen relie la création de la Banque centrale européenne à la création de l’euro comme monnaie unique.",
+        "Aucune des fiches lues ne dit explicitement que l’euro est la monnaie utilisée en France ; je garde donc seulement des candidates sans lien retenu avec certitude."
+      ]
+    },
+    {
+      "questionId": "crx063",
+      "questionText": "Quand célèbre-t-on la journée de l'Europe ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2",
+        "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2",
+        "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1"
+      ],
+      "reasons": [
+        "La fiche « Les symboles européens (2/2) » dit explicitement que la Journée de l’Europe est célébrée chaque année le 9 mai.",
+        "La fiche « Les symboles européens (1/2) » mentionne aussi la Journée de l’Europe à propos de l’hymne européen."
+      ]
+    },
+    {
+      "questionId": "cspx045",
+      "questionText": "Comment s’appelle la Constitution actuelle de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "reasons": [
+        "La fiche sur la Constitution dit que la Constitution du 4 octobre 1958 est celle qui s’applique actuellement et qu’elle est le texte fondateur de la Vème République.",
+        "La fiche « La Vème République » relie aussi le régime actuel à la nouvelle Constitution adoptée en 1958."
+      ]
+    },
+    {
+      "questionId": "cspx046",
+      "questionText": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur les obligations du résident français vise bien toutes les personnes qui habitent en France, mais elle ne nomme pas un texte unique qui énoncerait leurs droits et devoirs.",
+        "Le contrat d’engagement républicain est un document signé lors d’une demande de titre de séjour, mais il ne s’applique pas à l’ensemble des personnes résidant en France.",
+        "La DDHC traite des droits et devoirs du citoyen, pas explicitement de toutes les personnes résidant en France ; je ne retiens donc aucun lien certain."
+      ]
+    },
+    {
+      "questionId": "cspx047",
+      "questionText": "Concernant les droits individuels, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "reasons": [
+        "La fiche sur les droits liés à la personne humaine énumère les droits individuels fondamentaux et leurs déclinaisons, comme la liberté d’expression ou de religion.",
+        "La fiche sur la limite des libertés individuelles précise que ces droits existent mais qu’ils sont limités par les droits d’autrui, l’intérêt général et l’ordre public."
+      ]
+    },
+    {
+      "questionId": "cspx048",
+      "questionText": "De quelle année date la Déclaration des droits de l’homme et du citoyen ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "reasons": [
+        "La fiche dédiée à la DDHC précise qu’elle a été adoptée le 26 août 1789.",
+        "La fiche de synthèse sur les régimes politiques rappelle aussi que la Déclaration est publiée en 1789."
+      ]
+    },
+    {
+      "questionId": "cspx049",
+      "questionText": "Lequel de ces droits est un droit fondamental ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+      ],
+      "reasons": [
+        "La fiche sur les droits liés à la personne humaine sert de base générale pour identifier ce qu’est un droit fondamental.",
+        "Les deux autres fiches donnent des exemples explicites de droits qualifiés de fondamentaux : la citoyenneté et le droit de disposer de son corps."
+      ]
+    },
+    {
+      "questionId": "cspx050",
+      "questionText": "Parmi ces textes, lequel garantit les droits et libertés en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "reasons": [
+        "La fiche sur la Constitution explique que le bloc de constitutionnalité est la référence juridique la plus haute et qu’il garantit les principaux droits et libertés fondamentaux.",
+        "La fiche sur la DDHC rappelle que ce texte fondamental affirme les droits fondamentaux de l’être humain et du citoyen."
+      ]
+    },
+    {
+      "questionId": "cspx051",
+      "questionText": "Quel droit permet à une personne de se défendre devant la justice ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "reasons": [
+        "La fiche sur les droits liés à la personne humaine rattache la défense en justice au droit à un procès équitable, au droit à un avocat et aux droits de la défense.",
+        "La fiche sur la DDHC rappelle aussi la présomption d’innocence, qui fait partie des garanties de défense devant la justice."
+      ]
+    },
+    {
+      "questionId": "cspx052",
+      "questionText": "Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "reasons": [
+        "La fiche sur la DDHC présente ce texte comme fondamental pour les droits naturels de l’être humain et les droits et devoirs civiques et politiques du citoyen.",
+        "La fiche sur la Constitution sert de contexte complémentaire car elle rappelle que la DDHC fait partie des textes fondateurs du bloc de constitutionnalité."
+      ]
+    },
+    {
+      "questionId": "cspx053",
+      "questionText": "Quel texte a été adopté pendant la Révolution française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "reasons": [
+        "La fiche DDHC dit qu’elle a été adoptée le 26 août 1789 et qu’elle fixe les objectifs de la Révolution française.",
+        "La fiche sur les régimes politiques relie aussi la publication de la DDHC à la période révolutionnaire de 1789."
+      ]
+    },
+    {
+      "questionId": "cspx054",
+      "questionText": "Quelle liberté permet à une personne de ne pas avoir de religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "reasons": [
+        "La fiche de définition de la laïcité dit explicitement que la laïcité garantit la liberté de conscience, c’est-à-dire la liberté d’avoir ou de ne pas avoir de religion.",
+        "La deuxième fiche reformule que ne pas croire, ne plus croire ou changer de religion est un droit."
+      ]
+    },
+    {
+      "questionId": "cspx055",
+      "questionText": "Une femme peut avorter :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement",
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement",
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps"
+      ],
+      "reasons": [
+        "La fiche sur le droit à l’avortement dit qu’une femme, sans condition d’âge, peut recourir à l’IVG dans un cadre réglementé.",
+        "La fiche sur le droit de disposer de son corps présente aussi l’IVG comme une liberté fondamentale accessible selon des règles précises.",
+        "La fiche sur les libertés au sein du couple complète en disant que la contraception et l’IVG sont accessibles sans autorisation du partenaire."
+      ]
+    },
+    {
+      "questionId": "crx069",
+      "questionText": "Est-il toujours possible de divorcer ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "reasons": [
+        "La fiche dit que la liberté conjugale permet à chaque conjoint de mettre fin à l’union et précise que le divorce met fin au mariage sans avoir besoin d’une faute."
+      ]
+    }
+  ]
+}

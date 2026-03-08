@@ -1,0 +1,326 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r005",
+  "generatedAt": "2026-03-07T14:02:42.391Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx082",
+      "questionText": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "reasons": [
+        "La fiche précise que peuvent voter les citoyens ayant la nationalité française, majeurs et inscrits sur les listes électorales.",
+        "Elle ajoute que le suffrage universel s’exerce sans distinction de sexe."
+      ]
+    },
+    {
+      "questionId": "crx083",
+      "questionText": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme"
+      ],
+      "reasons": [
+        "La fiche rappelle que la liberté d’expression permet de parler, écrire et publier librement.",
+        "Elle précise aussi que des propos haineux ou l’incitation à certains crimes ou délits sont punis, ce qui borne l’usage des réseaux sociaux."
+      ]
+    },
+    {
+      "questionId": "crx084",
+      "questionText": "Jeter un mégot par terre est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "reasons": [
+        "La fiche cite parmi les gestes concrets le fait de respecter les espaces communs et de ne pas y jeter de déchets.",
+        "Jeter un mégot par terre va donc à l’encontre du devoir de protéger l’environnement."
+      ]
+    },
+    {
+      "questionId": "crx085",
+      "questionText": "L'État peut-il limiter les droits et libertés ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "reasons": [
+        "La fiche dit explicitement que les droits et libertés ont des limites pour protéger la vie en société.",
+        "Elle cite l’intérêt général, les libertés des autres, l’ordre public et la dignité humaine comme fondements de ces limitations."
+      ]
+    },
+    {
+      "questionId": "crx086",
+      "questionText": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "reasons": [
+        "La fiche donne comme exemples d’actions concrètes le tri des déchets, la réduction du gaspillage et le choix de transports plus sobres.",
+        "Elle correspond directement à une question qui demande d’identifier un comportement respectueux de l’environnement."
+      ]
+    },
+    {
+      "questionId": "crx087",
+      "questionText": "Quelle proposition constitue une obligation ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "reasons": [
+        "La fiche regroupe explicitement des obligations des résidents, comme payer des impôts, assister une personne en danger et défendre l’environnement.",
+        "Elle sert donc à distinguer une obligation d’un simple droit ou d’une liberté."
+      ]
+    },
+    {
+      "questionId": "crx088",
+      "questionText": "Pourquoi doit-on trier ses déchets ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "reasons": [
+        "Le tri des déchets figure parmi les gestes concrets recommandés par la fiche pour protéger l’environnement.",
+        "Cette action est reliée au devoir de prendre part à la préservation et à l’amélioration de l’environnement."
+      ]
+    },
+    {
+      "questionId": "crx089",
+      "questionText": "Que doit faire une victime de violences ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-de-toutes-les-formes-de-violences"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+      ],
+      "reasons": [
+        "La fiche explique qu’une victime doit en parler, se faire accompagner et peut porter plainte ou signaler les faits.",
+        "Elle ajoute que l’aide peut être psychologique, juridique ou sociale et que la victime n’est jamais responsable."
+      ]
+    },
+    {
+      "questionId": "crx090",
+      "questionText": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "reasons": [
+        "L’article 7 reproduit dans la fiche précise que tout citoyen appelé ou saisi en vertu de la loi doit obéir à l’instant.",
+        "Cette base juridique éclaire directement la conduite attendue face aux ordres des policiers ou gendarmes."
+      ]
+    },
+    {
+      "questionId": "crx091",
+      "questionText": "Quel est le rôle de la police ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "reasons": [
+        "La fiche décrit la police et la gendarmerie comme les forces de l’ordre.",
+        "Elle détaille leurs missions: prévention des infractions, maintien de l’ordre public, protection des personnes et des biens, et enquêtes."
+      ]
+    },
+    {
+      "questionId": "crx092",
+      "questionText": "Quel est un exemple d’assistance à personne en danger ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "reasons": [
+        "La fiche définit l’assistance à personne en danger comme le fait de porter secours à toute personne en danger.",
+        "Elle précise qu’une personne qui n’aide pas peut être condamnée pour non-assistance à personne en danger."
+      ]
+    },
+    {
+      "questionId": "crx093",
+      "questionText": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "reasons": [
+        "La fiche donne des exemples précis de restrictions de libertés pour l’intérêt général, comme l’état d’urgence sanitaire ou l’interdiction de dissimuler son visage dans l’espace public.",
+        "Elle répond directement à une question qui demande un exemple concret de limitation de liberté."
+      ]
+    },
+    {
+      "questionId": "crx094",
+      "questionText": "Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences"
+      ],
+      "reasons": [
+        "La fiche est centrée sur la conduite du témoin: agir sans se mettre en danger, écouter et soutenir la victime, puis orienter vers les aides.",
+        "Elle mentionne aussi l’appel aux forces de l’ordre, le signalement et le témoignage comme réponses adaptées."
+      ]
+    },
+    {
+      "questionId": "crx095",
+      "questionText": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "reasons": [
+        "La fiche vise explicitement toute personne qui habite en France, peu importe sa nationalité.",
+        "Elle liste des obligations communes aux résidents, notamment payer des impôts, aider une personne en danger et défendre l’environnement."
+      ]
+    },
+    {
+      "questionId": "crx096",
+      "questionText": "Quelle proposition représente un exemple de crime ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-des-violences-sexuelles"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "reasons": [
+        "La fiche classe les infractions pénales et donne des exemples de crimes: assassinat, meurtre, viol, braquage, terrorisme.",
+        "Elle distingue clairement le crime des délits et des contraventions."
+      ]
+    },
+    {
+      "questionId": "crx097",
+      "questionText": "Quelle proposition représente un exemple de délit ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "reasons": [
+        "La fiche définit le délit comme une infraction intermédiaire.",
+        "Elle donne des exemples explicites de délits: vol, fraude fiscale, harcèlement, agression sexuelle, homicide involontaire ou non-scolarisation de l’enfant."
+      ]
+    },
+    {
+      "questionId": "crx098",
+      "questionText": "Qui veille au maintien de l’ordre public ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "reasons": [
+        "La fiche attribue à la police et à la gendarmerie la mission de maintien de l’ordre public.",
+        "Elle précise que ces deux institutions travaillent ensemble pour assurer sécurité et ordre public."
+      ]
+    },
+    {
+      "questionId": "crx099",
+      "questionText": "S'agissant des déchets, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "reasons": [
+        "La fiche explique qu’une attitude respectueuse de l’environnement passe par le tri et la réduction des déchets.",
+        "Elle fournit l’ancrage le plus direct pour une proposition correcte sur les déchets."
+      ]
+    },
+    {
+      "questionId": "crx100",
+      "questionText": "Quel était le surnom de Louis XIV ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+      ],
+      "reasons": [
+        "La fiche nomme explicitement Louis XIV et indique son surnom de Roi-Soleil.",
+        "Elle le présente comme une figure importante de l’Ancien Régime et de la monarchie absolue."
+      ]
+    },
+    {
+      "questionId": "crx101",
+      "questionText": "Quel roi de France a été exécuté pendant la Révolution française ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804"
+      ],
+      "reasons": [
+        "La fiche indique explicitement que Louis XVI est exécuté en 1793 pendant la Ière République, héritière de la Révolution française.",
+        "Elle relie directement ce roi au contexte révolutionnaire visé par la question."
+      ]
+    }
+  ]
+}

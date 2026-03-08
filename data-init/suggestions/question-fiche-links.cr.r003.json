@@ -1,0 +1,348 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r003",
+  "generatedAt": "2026-03-07T13:35:24.440Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx042",
+      "questionText": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "reasons": [
+        "La fiche sur l'Etat de droit explique que la separation des pouvoirs garantit les droits fondamentaux et empeche l'exercice arbitraire du pouvoir.",
+        "Elle precise aussi que les pouvoirs se controlent mutuellement pour conserver un equilibre democratique."
+      ]
+    },
+    {
+      "questionId": "crx043",
+      "questionText": "Quel est le rôle du gouvernement ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "reasons": [
+        "La fiche sur les trois pouvoirs dit que le Gouvernement applique et fait respecter les lois.",
+        "Elle ajoute qu'il dirige l'administration et conduit la politique nationale."
+      ]
+    },
+    {
+      "questionId": "crx044",
+      "questionText": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "reasons": [
+        "La fiche prend explicitement l'exemple d'un ministre qui ne respecte pas la loi et peut etre sanctionne comme tout citoyen.",
+        "Le libelle renvoie directement au principe d'egalite devant la loi dans l'Etat de droit."
+      ]
+    },
+    {
+      "questionId": "crx045",
+      "questionText": "Combien de députés composent l’Assemblée nationale ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "reasons": [
+        "Les deux fiches indiquent que l'Assemblee nationale compte 577 deputes.",
+        "La question vise le Parlement national et le pouvoir legislatif."
+      ]
+    },
+    {
+      "questionId": "crx046",
+      "questionText": "Qui peut voter aux élections en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "reasons": [
+        "La fiche sur les conditions de vote detaille les criteres: nationalite francaise, majorite, droits civiques et inscription sur les listes.",
+        "Elle ajoute la nuance des ressortissants de l'UE pour certaines elections."
+      ]
+    },
+    {
+      "questionId": "crx047",
+      "questionText": "Pour combien de temps sont élus les sénateurs ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "reasons": [
+        "La fiche sur les acteurs politiques nationaux dit que les senateurs sont elus pour 6 ans.",
+        "La fiche sur les conditions de vote complete avec le renouvellement par moitie tous les 3 ans."
+      ]
+    },
+    {
+      "questionId": "crx048",
+      "questionText": "Est-ce que le président de la République a tous les pouvoirs ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "reasons": [
+        "La separation des pouvoirs montre que les pouvoirs legislatif, executif et judiciaire ne sont pas entre les mains d'une seule personne.",
+        "La fiche sur la democratie rappelle aussi que le pouvoir appartient au peuple et a des representants, pas a un seul individu."
+      ]
+    },
+    {
+      "questionId": "crx049",
+      "questionText": "Qui est le préfet ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+      ],
+      "reasons": [
+        "La fiche 2/3 definit explicitement le prefet comme le representant de l'Etat dans le departement.",
+        "Elle liste aussi ses missions principales en prefecture."
+      ]
+    },
+    {
+      "questionId": "crx050",
+      "questionText": "Quelle condition est nécessaire pour voter aux élections ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "reasons": [
+        "La fiche sur les conditions de vote rassemble les conditions necessaires: etre francais, majeur, inscrit sur les listes et disposer de ses droits civiques.",
+        "Le libelle renvoie directement a cette fiche de conditions."
+      ]
+    },
+    {
+      "questionId": "crx051",
+      "questionText": "Qui dirige la commune ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "reasons": [
+        "La fiche sur le decoupage administratif dit que la commune est dirigee par des personnes elues, dont le maire.",
+        "La fiche sur la democratie locale precise le role des elus municipaux, maire et conseillers municipaux."
+      ]
+    },
+    {
+      "questionId": "crx052",
+      "questionText": "Quel est le régime politique de la France aujourd'hui ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "reasons": [
+        "La fiche sur la Veme Republique dit explicitement qu'il s'agit du regime politique actuel de la France.",
+        "La fiche sur la democratie et la Republique complete avec la nature republicaine et democratique du regime."
+      ]
+    },
+    {
+      "questionId": "crx053",
+      "questionText": "Qu'est-ce que l'Hôtel de Matignon ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "reasons": [
+        "La fiche sur le pouvoir executif dit que le Premier ministre reside a l'hotel de Matignon.",
+        "Le lieu est donc rattache directement a la fonction de chef du Gouvernement."
+      ]
+    },
+    {
+      "questionId": "crx054",
+      "questionText": "Le Parlement est composé :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "reasons": [
+        "Les deux fiches disent que le Parlement est compose de l'Assemblee nationale et du Senat.",
+        "La fiche sur le vote de la loi confirme le role des deux chambres dans l'elaboration de la loi."
+      ]
+    },
+    {
+      "questionId": "crx055",
+      "questionText": "Qui est le chef du Gouvernement ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "reasons": [
+        "Les fiches sur l'executif structurent le Gouvernement autour du Premier ministre et des ministres.",
+        "Elles indiquent aussi que le president nomme le Premier ministre, ce qui ancre son role central dans le Gouvernement."
+      ]
+    },
+    {
+      "questionId": "crx056",
+      "questionText": "Combien y a-t-il de régions en France ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "reasons": [
+        "Les deux fiches de decoupage administratif donnent le total de 18 regions en France.",
+        "La fiche 3/3 precise aussi la repartition avec 5 regions d'Outre-Mer."
+      ]
+    },
+    {
+      "questionId": "crx057",
+      "questionText": "Depuis quand l'euro est-elle la monnaie unique ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1",
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "reasons": [
+        "La fiche sur le fonctionnement europeen indique que la Banque centrale europeenne est creee en 1998 au moment de la creation de l'euro comme monnaie unique.",
+        "Le rattachement se fait donc a l'histoire institutionnelle de l'Union europeenne."
+      ]
+    },
+    {
+      "questionId": "crx058",
+      "questionText": "Quel est le rôle principal du département ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+      ],
+      "reasons": [
+        "La fiche dit que le departement agit surtout dans l'action sociale.",
+        "Elle ajoute qu'il gere aussi les colleges et partage d'autres competences avec les collectivites."
+      ]
+    },
+    {
+      "questionId": "crx059",
+      "questionText": "Quel est le rôle principal des communes ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "reasons": [
+        "La fiche 1/3 attribue aux communes les services de proximite, l'urbanisme, le logement et l'action sociale locale.",
+        "La fiche 3/3 complete avec la gestion des ecoles maternelles et primaires."
+      ]
+    },
+    {
+      "questionId": "crx060",
+      "questionText": "Combien de communes environ existe-t-il en France ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "reasons": [
+        "La fiche 1/3 parle de plus de 35 000 communes en France.",
+        "La fiche 3/3 donne le chiffre plus precis de 34 875 communes."
+      ]
+    },
+    {
+      "questionId": "crx061",
+      "questionText": "De quelle couleur est le drapeau européen ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1"
+      ],
+      "reasons": [
+        "La fiche sur les symboles europeens dit que le drapeau europeen est sur un fond bleu avec douze etoiles jaunes en cercle.",
+        "Le libelle renvoie directement a la section sur la signification du drapeau europeen."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "runId": "r006",
+  "generatedAt": "2026-03-07T14:31:46.282Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/csp.md"
+  },
+  "items": [
+    {
+      "questionId": "cspx044",
+      "questionText": "Quelle est la monnaie utilisée en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les étapes clés de la construction européenne indiquent que la France fait partie des 6 Etats fondateurs de la CEE.",
+        "La fiche historique sur la construction européenne indique qu'en 2002 l'euro devient la monnaie officielle de plusieurs pays membres.",
+        "Le fonctionnement européen relie la Banque centrale européenne à la création de l'euro comme monnaie unique, sans expliciter l'usage en France."
+      ]
+    },
+    {
+      "questionId": "cspx046",
+      "questionText": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur le resident francais traite bien des devoirs communs a toute personne qui habite en France.",
+        "La Constitution de 1958 est presentee comme le texte fondateur qui garantit des droits et libertes, mais pas comme un texte unique des residents.",
+        "La DDHC affirme des droits et devoirs de l'homme et du citoyen, pas explicitement de toutes les personnes residant en France."
+      ]
+    },
+    {
+      "questionId": "cspx070",
+      "questionText": "Lequel de ces personnages historiques est français ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Le libelle ne nomme aucun personnage historique.",
+        "Le fichier source consulte ne donne pas les propositions de reponse, donc aucune fiche precise ne peut etre retenue avec certitude."
+      ]
+    },
+    {
+      "questionId": "cspx071",
+      "questionText": "Dans quelle République est-on aujourd'hui ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "reasons": [
+        "La fiche sur la Veme Republique dit que c'est le regime politique actuel de la France.",
+        "La fiche de synthese sur les regimes politiques indique que depuis 1958 la France est dans la Veme Republique."
+      ]
+    },
+    {
+      "questionId": "cspx072",
+      "questionText": "Quel pays ou région du monde a été colonisé par la France ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "reasons": [
+        "La fiche sur la decolonisation donne des exemples explicites d'anciens territoires colonises par la France : l'Indochine, l'Algerie et l'Afrique subsaharienne francaise."
+      ]
+    },
+    {
+      "questionId": "cspx073",
+      "questionText": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "reasons": [
+        "Les etapes cles de la construction europeenne indiquent qu'en 1957 le traite de Rome cree la CEE.",
+        "La fiche historique sur la construction europeenne reprend le repere de 1957 pour la creation de la CEE."
+      ]
+    },
+    {
+      "questionId": "cspx074",
+      "questionText": "Qui a été le premier Président élu sous la Ve République ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "reasons": [
+        "La fiche des presidents ouvre la serie par Charles de Gaulle, avec un mandat debutant en 1958.",
+        "La fiche sur la Veme Republique le presente comme fondateur et premier president du regime."
+      ]
+    },
+    {
+      "questionId": "cspx075",
+      "questionText": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851"
+      ],
+      "reasons": [
+        "La fiche indique que l'esclavage est definitivement aboli dans les colonies francaises par le decret du 27 avril 1848."
+      ]
+    },
+    {
+      "questionId": "cspx076",
+      "questionText": "Combien y a-t-il eu de républiques en France ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "reasons": [
+        "La fiche de synthese enumere les Iere, IIeme, IIIeme et IVeme Republiques puis precise que depuis 1958 la France est dans la Veme Republique.",
+        "La fiche dediee a la Veme Republique confirme que le regime actuel est le cinquieme."
+      ]
+    },
+    {
+      "questionId": "cspx077",
+      "questionText": "Qui était le roi de France au moment de la Révolution française ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "reasons": [
+        "La fiche sur 1789-1792 mentionne la fuite du roi Louis XVI puis son renversement le 10 aout 1792."
+      ]
+    },
+    {
+      "questionId": "cspx078",
+      "questionText": "Qui a fondé la Ve République ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "reasons": [
+        "La fiche sur la Veme Republique nomme Charles de Gaulle comme fondateur du regime.",
+        "La fiche sur les presidents associe Charles de Gaulle a la fondation de la Veme Republique.",
+        "La fiche sur la Constitution de 1958 explique qu'elle a ete redigee par le Gouvernement du general de Gaulle."
+      ]
+    },
+    {
+      "questionId": "cspx079",
+      "questionText": "Que célèbre-t-on le 14 juillet ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "reasons": [
+        "La fiche explique que le 14 juillet commemore a la fois la prise de la Bastille en 1789 et la Fete de la Federation de 1790."
+      ]
+    },
+    {
+      "questionId": "cspx080",
+      "questionText": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+      ],
+      "reasons": [
+        "La fiche nomme explicitement la Premiere Guerre mondiale (1914-1918)."
+      ]
+    },
+    {
+      "questionId": "cspx081",
+      "questionText": "Quel fleuve coule en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+      ],
+      "reasons": [
+        "La fiche recense plusieurs fleuves francais, dont la Seine, la Loire, la Garonne, le Rhone et le Rhin."
+      ]
+    },
+    {
+      "questionId": "cspx082",
+      "questionText": "Quelle ville est française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "reasons": [
+        "La fiche Ile-de-France liste Paris parmi les principales villes francaises.",
+        "La fiche Provence-Alpes-Cote d'Azur liste Marseille, Nice et Toulon parmi les grandes villes francaises.",
+        "La fiche sur les ports francais cite aussi plusieurs villes portuaires francaises comme Le Havre, Bordeaux ou Marseille."
+      ]
+    },
+    {
+      "questionId": "cspx083",
+      "questionText": "Quel océan borde la côte ouest française ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "reasons": [
+        "Les frontieres de la France indiquent qu'a l'ouest la France est bordee par l'ocean Atlantique.",
+        "La fiche 'La France dans l'Europe' rappelle aussi que la cote francaise s'ouvre sur l'ocean Atlantique."
+      ]
+    },
+    {
+      "questionId": "cspx084",
+      "questionText": "Qu'est-ce que Paris ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "reasons": [
+        "La fiche Ile-de-France decrit Paris comme l'une des principales villes de la region et le coeur politique, economique et administratif du pays."
+      ]
+    },
+    {
+      "questionId": "cspx085",
+      "questionText": "Quelle est la capitale de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche Ile-de-France place Paris au coeur politique du pays et la cite comme principale ville.",
+        "Le territoire de la France mentionne Paris dans le decoupage administratif national.",
+        "Aucune fiche lue n'emploie explicitement la formule 'Paris est la capitale de la France', donc je laisse `relatedFicheIds` vide."
+      ]
+    },
+    {
+      "questionId": "cspx086",
+      "questionText": "Sur quel continent se situe la France métropolitaine ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "reasons": [
+        "Le territoire de la France indique que la metropole est situee en Europe.",
+        "La fiche 'La France dans l'Europe' situe la France a l'ouest de l'Europe."
+      ]
+    },
+    {
+      "questionId": "cspx087",
+      "questionText": "Quelle ville est un grand port maritime ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur"
+      ],
+      "reasons": [
+        "La fiche sur les ports francais nomme Marseille parmi les 7 grands ports en France metropolitaine.",
+        "La fiche Provence-Alpes-Cote d'Azur cite Marseille et rappelle le poids de l'industrie portuaire dans la region."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "runId": "r002",
+  "generatedAt": "2026-03-07T14:02:44.804Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/csp.md"
+  },
+  "items": [
+    {
+      "questionId": "cspx017",
+      "questionText": "Quelle proposition est correcte ? La liberté d'expression :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "principes-et-valeurs--la-laicite--le-blaspheme"
+      ],
+      "reasons": [
+        "La fiche « La liberté » dit que chacun peut penser et s’exprimer comme il le souhaite, dans la limite de ne pas empêcher autrui d’en faire autant.",
+        "La fiche « Le blasphème » précise que la liberté d’expression est un droit fondamental, mais qu’on ne peut pas dire tout et n’importe quoi."
+      ]
+    },
+    {
+      "questionId": "cspx018",
+      "questionText": "Quelles sont les couleurs du drapeau français ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+      ],
+      "reasons": [
+        "La fiche sur le drapeau français indique explicitement qu’il est composé de trois bandes verticales bleu, blanc et rouge.",
+        "Le libellé de la question renvoie directement à la section « Les couleurs » de cette fiche."
+      ]
+    },
+    {
+      "questionId": "crx016",
+      "questionText": "Qu'est-ce que la Marseillaise ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "reasons": [
+        "La fiche indique que la Marseillaise est l’hymne national de la France.",
+        "Elle en rappelle l’origine révolutionnaire et la valeur symbolique."
+      ]
+    },
+    {
+      "questionId": "cspx019",
+      "questionText": "Qu'est ce qui est traditionnellement organisé sur les Champs Élysées le 14 juillet pour célébrer la fête nationale ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "reasons": [
+        "La fiche « La fête nationale » dit qu’un défilé militaire a lieu à Paris, sur les Champs-Élysées, le 14 juillet.",
+        "Les autres fiches relèvent du même contexte symbolique, mais la fiche sur la fête nationale est la seule à nommer directement cet événement."
+      ]
+    },
+    {
+      "questionId": "cspx020",
+      "questionText": "Qui est Marianne ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "reasons": [
+        "La fiche explique que Marianne représente la République depuis la Révolution française.",
+        "Elle précise qu’elle est devenue un symbole officiel de la République."
+      ]
+    },
+    {
+      "questionId": "cspx021",
+      "questionText": "Une personne peut-elle changer librement de religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "reasons": [
+        "La définition de la laïcité dit explicitement que chacun est libre d’avoir une religion, de ne pas en avoir, d’en changer ou de ne plus en avoir.",
+        "La deuxième fiche consacre une section au droit de ne pas croire, de ne plus croire ou de changer de religion."
+      ]
+    },
+    {
+      "questionId": "cspx022",
+      "questionText": "\"La France est une République indivisible, ..., démocratique et sociale\". Complétez cette phrase extraite de l'article 1er de la Constitution :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "reasons": [
+        "La fiche de définition cite textuellement l’article 1 : « La France est une République indivisible, laïque, démocratique et sociale ».",
+        "La charte reprise dans la fiche école rappelle la même formule constitutionnelle."
+      ]
+    },
+    {
+      "questionId": "cspx023",
+      "questionText": "Que permet le principe de laïcité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "reasons": [
+        "La fiche de définition montre que la laïcité permet d’abord la liberté de conscience et la neutralité de l’État vis-à-vis des religions.",
+        "La charte reprise dans la fiche école (2/2) dit aussi que la laïcité permet l’exercice de la citoyenneté en conciliant liberté, égalité et fraternité."
+      ]
+    },
+    {
+      "questionId": "crx024",
+      "questionText": "Quel droit est garanti par la laïcité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "reasons": [
+        "La laïcité garantit d’abord la liberté de conscience.",
+        "La fiche école (1/2) précise qu’elle protège la liberté de croire ou de ne pas croire."
+      ]
+    },
+    {
+      "questionId": "crx022",
+      "questionText": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "reasons": [
+        "La fiche école (2/2) explique que la laïcité est indispensable au respect, à la fraternité et à l’exercice de la citoyenneté.",
+        "La fiche école (1/2) ajoute que la neutralité de l’école permet à chaque élève de penser librement et protège la liberté de conscience."
+      ]
+    },
+    {
+      "questionId": "cspx024",
+      "questionText": "Un enfant peut-il refuser d’aller à l’école pour une raison religieuse ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "reasons": [
+        "La fiche école (1/2) dit qu’il n’est pas possible de refuser de suivre un cours prévu dans le programme pour des motifs religieux.",
+        "La fiche école (2/2) reformule qu’on ne peut pas refuser une règle de fonctionnement ou un cours du programme en raison de sa religion."
+      ]
+    },
+    {
+      "questionId": "crx023",
+      "questionText": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "reasons": [
+        "La définition de la laïcité dit explicitement que chacun est libre d’avoir ou de ne pas avoir de religion.",
+        "La deuxième fiche reformule que ne pas avoir de religion ou choisir de ne plus en avoir est un droit."
+      ]
+    },
+    {
+      "questionId": "crx039",
+      "questionText": "Qui nomme le Premier ministre ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "reasons": [
+        "Les deux fiches disent explicitement que le Premier ministre est nommé par le président de la République.",
+        "La fiche sur les trois pouvoirs rattache cette nomination au pouvoir exécutif."
+      ]
+    },
+    {
+      "questionId": "crx054",
+      "questionText": "Le Parlement est composé :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "reasons": [
+        "Les deux fiches disent que le Parlement est composé de l’Assemblée nationale et du Sénat.",
+        "La fiche sur le vote de la loi confirme le rôle des deux chambres dans l’élaboration de la loi."
+      ]
+    },
+    {
+      "questionId": "cspx025",
+      "questionText": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "reasons": [
+        "La fiche sur les trois pouvoirs dit que le pouvoir exécutif est exercé par le président de la République et le Gouvernement.",
+        "Elle ajoute que ce pouvoir applique et fait respecter les lois et conduit la politique nationale."
+      ]
+    },
+    {
+      "questionId": "cspx026",
+      "questionText": "Les dirigeants sont élus par les citoyens dans :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "reasons": [
+        "La fiche explique que la démocratie est le régime dans lequel le pouvoir appartient au peuple et repose sur la consultation régulière du peuple par le vote.",
+        "Elle précise aussi que les citoyens votent pour choisir leurs représentants au suffrage universel."
+      ]
+    },
+    {
+      "questionId": "cspx027",
+      "questionText": "Qui doit respecter la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "reasons": [
+        "La fiche sur l’État de droit rappelle que la loi est la même pour tous, y compris pour l’État et ses représentants.",
+        "La fiche sur les infractions énonce dès l’ouverture que tout le monde doit respecter les lois."
+      ]
+    },
+    {
+      "questionId": "cspx028",
+      "questionText": "Quel est le rôle de l'autorité judiciaire ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+      ],
+      "reasons": [
+        "La fiche sur les trois pouvoirs dit que l’autorité judiciaire applique les lois, juge et rend la justice.",
+        "La fiche 2/2 précise que la justice protège, décide et sanctionne impartialement selon les conflits."
+      ]
+    },
+    {
+      "questionId": "cspx029",
+      "questionText": "Quel pouvoir détient un juge ? Le pouvoir :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "reasons": [
+        "La fiche sur la séparation des pouvoirs identifie le pouvoir judiciaire comme l’un des trois pouvoirs de la démocratie française.",
+        "La fiche sur les trois pouvoirs rattache les juges et magistrats à l’autorité judiciaire."
+      ]
+    },
+    {
+      "questionId": "cspx030",
+      "questionText": "L'autorité judiciaire est exercée par :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "reasons": [
+        "La fiche dit explicitement que l’autorité judiciaire est exercée par les juges et les magistrats.",
+        "La fiche 2/2 détaille ensuite l’organisation des institutions judiciaires relevant de cette autorité."
+      ]
+    }
+  ]
+}

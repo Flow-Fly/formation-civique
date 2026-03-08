@@ -1,0 +1,90 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r010",
+  "generatedAt": "2026-03-07T14:54:54.806Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "reasons": [
+        "La fiche « Une puissance touristique » ancre la France comme première destination touristique mondiale.",
+        "La fiche « Île-de-France » précise que Paris est un département de la région et que le tourisme est un secteur clé de l'Île-de-France.",
+        "La fiche patrimoniale d'Île-de-France ancre Paris comme principal pôle touristique avec la tour Eiffel et les grands repères parisiens.",
+        "Pour cette question officielle traitée comme connaissance générale, je retiens Paris (75) comme département le plus touristique et j'ancre la réponse sur le bloc Paris/Île-de-France."
+      ]
+    },
+    {
+      "questionId": "crx134",
+      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "reasons": [
+        "La fiche sur l'environnement demande de trier ses déchets, de recycler et de ne pas abandonner les déchets dans les espaces communs.",
+        "La fiche sur les obligations du résident relie aussi la vie quotidienne au recyclage et au ramassage des ordures.",
+        "Pour cette question pratique de culture générale, je rattache la réponse attendue a la filière déchèterie / encombrants, même si ce terme n'est pas écrit tel quel dans les fiches."
+      ]
+    },
+    {
+      "questionId": "crx141",
+      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "reasons": [
+        "Les fiches « Orientation (1/5) » et « Orientation (4/5) » ancrent l'inscription et le maintien d'inscription a France Travail.",
+        "La fiche « Le droit du travail (5/5) » ancre le fait qu'un travail déclaré ouvre des cotisations a l'assurance chômage.",
+        "Je rattache donc la question au bloc emploi / France Travail / assurance chômage.",
+        "Les conditions précises évoluent ; pour la formulation finale de la réponse, il faudra s'appuyer sur la source officielle France Travail ou Service-Public pointée par les fiches."
+      ]
+    },
+    {
+      "questionId": "crx148",
+      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "reasons": [
+        "La fiche « Le système éducatif » ancre l'organisation générale de la scolarité en France.",
+        "La fiche sur le rôle des parents a l'école ancre le suivi concret de la vie scolaire et des démarches liées a l'école.",
+        "La réponse attendue relève surtout du calendrier scolaire national ; pour cette question officielle, je la rattache au bloc école / scolarité même si la période de Noël n'est pas détaillée dans les fiches."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r007",
+  "generatedAt": "2026-03-07T14:16:50.494Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
+      ]
+    },
+    {
+      "questionId": "crx123",
+      "questionText": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+      ],
+      "reasons": [
+        "La fiche précise la gratuité des musées nationaux le 1er dimanche du mois et l'accès souvent gratuit lors des Journées européennes du patrimoine."
+      ]
+    },
+    {
+      "questionId": "crx124",
+      "questionText": "Combien de personnes parlent français dans le monde ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde"
+      ],
+      "reasons": [
+        "La fiche dédiée à la langue française dans le monde donne l'ordre de grandeur : plus de 300 millions de locuteurs."
+      ]
+    },
+    {
+      "questionId": "crx125",
+      "questionText": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde"
+      ],
+      "reasons": [
+        "La fiche indique explicitement que le français est la 5ème langue la plus parlée au monde."
+      ]
+    },
+    {
+      "questionId": "crx126",
+      "questionText": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france"
+      ],
+      "reasons": [
+        "La fiche sur la conservation du patrimoine cite la reconstruction de la cathédrale de Notre-Dame de Paris après l'incendie de 2019."
+      ]
+    },
+    {
+      "questionId": "crx127",
+      "questionText": "Qui était une écrivaine française célèbre ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+      ],
+      "reasons": [
+        "Les deux fiches recensent plusieurs écrivaine françaises célèbres, notamment George Sand, Simone de Beauvoir et Marguerite Yourcenar.",
+        "La question est trop large sans les options, donc les deux fiches restent utiles pour l'étape suivante."
+      ]
+    },
+    {
+      "questionId": "crx128",
+      "questionText": "Qui était un célèbre musicien français ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+      ],
+      "reasons": [
+        "La fiche présente des figures musicales françaises emblématiques comme Claude Debussy et Edith Piaf."
+      ]
+    },
+    {
+      "questionId": "crx129",
+      "questionText": "Quelle fête est française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "reasons": [
+        "La fiche sur l'accès à la culture mentionne la Fête de la musique, lancée par le ministère de la Culture en 1982.",
+        "La formulation reste large sans les options, et la fiche sur la fête nationale documente aussi une fête spécifiquement française."
+      ]
+    },
+    {
+      "questionId": "crx130",
+      "questionText": "Quel mariage est reconnu par l'État ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+      ],
+      "reasons": [
+        "La fiche de démarche administrative dit explicitement que le mariage civil est le seul mariage reconnu en France.",
+        "La fiche sur le mariage pour tous confirme que ce mariage civil est ouvert aux couples de même sexe depuis 2013."
+      ]
+    },
+    {
+      "questionId": "crx131",
+      "questionText": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "reasons": [
+        "La fiche indique que pour inscrire un enfant à l'école publique, il suffit de contacter la mairie ou l'école proche du domicile.",
+        "La mairie est l'institution explicitement citée."
+      ]
+    },
+    {
+      "questionId": "crx132",
+      "questionText": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-2"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1"
+      ],
+      "reasons": [
+        "La fiche précise qu'il faut avoir au moins 17 ans et être résident en France pour passer l'examen du permis."
+      ]
+    },
+    {
+      "questionId": "crx133",
+      "questionText": "Un bail locatif est valide s'il est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1"
+      ],
+      "reasons": [
+        "La fiche indique qu'un bail est un contrat écrit et qu'il n'est valide que s'il est signé par le locataire et le propriétaire."
+      ]
+    },
+    {
+      "questionId": "crx134",
+      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches parlent du tri, du recyclage et du respect de l'environnement, mais ne donnent pas le lieu précis de dépôt d'un appareil électroménager cassé.",
+        "Je ne retiens donc aucun lien sûr vers une déchèterie ou un point de collecte spécifique."
+      ]
+    },
+    {
+      "questionId": "crx135",
+      "questionText": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+      ],
+      "reasons": [
+        "La fiche sur le parcours de santé explique qu'on consulte d'abord le médecin traitant pour un problème courant, puis d'autres professionnels selon l'orientation.",
+        "La fiche sur les structures gratuites complète l'accès aux soins avec les PASS, PMI et centres spécialisés."
+      ]
+    },
+    {
+      "questionId": "crx136",
+      "questionText": "À qui est accessible la contraception ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps"
+      ],
+      "reasons": [
+        "La fiche indique que le droit de disposer de son corps vaut pour les plus et les moins de 18 ans et détaille l'accès à la contraception pour les mineurs et les moins de 26 ans."
+      ]
+    },
+    {
+      "questionId": "crx137",
+      "questionText": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+      ],
+      "reasons": [
+        "La fiche sur le droit du travail explique que le travail au-delà de 35 heures correspond à des heures supplémentaires.",
+        "Elle précise que l'employeur doit les payer ou permettre au salarié de les rattraper."
+      ]
+    },
+    {
+      "questionId": "crx138",
+      "questionText": "Quelle est la mission de France Travail ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-5"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-5"
+      ],
+      "reasons": [
+        "Les fiches présentent France Travail comme l'organisme public qui accompagne les personnes dans la recherche d'un emploi ou d'une formation.",
+        "La fiche Orientation (5/5) ajoute que France Travail aide aussi les entreprises qui recrutent."
+      ]
+    },
+    {
+      "questionId": "crx139",
+      "questionText": "Dans une entreprise, le droit syndical permet :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+      ],
+      "reasons": [
+        "La fiche sur le droit syndical dit qu'un salarié peut créer, adhérer ou participer à un syndicat.",
+        "La fiche suivante renforce le rôle des syndicats comme recours possible en cas de discrimination."
+      ]
+    },
+    {
+      "questionId": "crx140",
+      "questionText": "Dans une entreprise, le droit de grève autorise :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+      ],
+      "reasons": [
+        "La fiche sur les droits liés à la personne humaine définit le droit de grève comme le droit, pour une personne employée, de cesser le travail pour exprimer un désaccord."
+      ]
+    },
+    {
+      "questionId": "crx141",
+      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches parlent de France Travail et de l'assurance chômage, mais aucune ne détaille les conditions d'éligibilité aux allocations chômage.",
+        "Je laisse donc le lien final vide faute d'ancrage explicite sur la durée travaillée, la perte d'emploi ou l'inscription comme demandeur d'emploi."
+      ]
+    }
+  ]
+}

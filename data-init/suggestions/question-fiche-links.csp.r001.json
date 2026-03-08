@@ -1,0 +1,347 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "runId": "r001",
+  "generatedAt": "2026-03-07T13:55:58.340Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/csp.md"
+  },
+  "items": [
+    {
+      "questionId": "cspx001",
+      "questionText": "À quoi correspond la date du 14 juillet ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "reasons": [
+        "La fiche indique que le 14 juillet est le jour de la fête nationale.",
+        "Elle précise que cette date commémore les 14 juillet 1789 et 1790."
+      ]
+    },
+    {
+      "questionId": "cspx002",
+      "questionText": "Quel est l’un des symboles de la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "reasons": [
+        "Ces trois fiches couvrent des symboles républicains canoniques utilisés comme réponses possibles à une question générale.",
+        "Le drapeau et Marianne sont présentés comme symboles officiels, et l’hymne national appartient à la même série de symboles de la République."
+      ]
+    },
+    {
+      "questionId": "cspx003",
+      "questionText": "Le principe d’égalité signifie que :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "reasons": [
+        "La fiche égalité (1/3) donne la définition générale du principe : même loi pour tous, mêmes droits civiques et sociaux.",
+        "Les fiches égalité (2/3) et (3/3) servent surtout d’applications concrètes du principe."
+      ]
+    },
+    {
+      "questionId": "cspx004",
+      "questionText": "\"Liberté, égalité, fraternité\", c’est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+      ],
+      "reasons": [
+        "La fiche indique explicitement que « Liberté, Égalité, Fraternité » est la devise de la République française.",
+        "Elle précise que cette devise est officielle depuis 1848."
+      ]
+    },
+    {
+      "questionId": "crx020",
+      "questionText": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+        "principes-et-valeurs--la-laicite--le-blaspheme"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "reasons": [
+        "La fiche égalité (3/3) vise précisément les critères cités dans la question, comme le handicap, l’apparence physique et le sexe, et rappelle que les discriminations sont sanctionnées.",
+        "La fiche sur la limite des libertés individuelles rappelle que la liberté s’arrête lorsqu’elle nuit à autrui."
+      ]
+    },
+    {
+      "questionId": "cspx005",
+      "questionText": "Certains métiers peuvent-ils être réservés aux hommes ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "reasons": [
+        "La fiche égalité (2/3) indique que les femmes et les hommes ont les mêmes droits et les mêmes devoirs dans le travail.",
+        "La fiche égalité (3/3) cite le refus d’accès à certains métiers à cause du sexe comme une discrimination."
+      ]
+    },
+    {
+      "questionId": "cspx006",
+      "questionText": "De quand date la Constitution de la Ve République ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "reasons": [
+        "La fiche sur la Constitution indique que la Constitution de la Ve République est adoptée le 4 octobre 1958.",
+        "La fiche sur les régimes politiques confirme que la France est dans la Ve République depuis 1958."
+      ]
+    },
+    {
+      "questionId": "crx021",
+      "questionText": "Le régime de la France est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "reasons": [
+        "La fiche démocratie et République explique que la France est à la fois une démocratie et une République.",
+        "La fiche sur les régimes politiques précise que le régime actuel est la Ve République depuis 1958."
+      ]
+    },
+    {
+      "questionId": "cspx007",
+      "questionText": "Lequel de ces symboles représente officiellement la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "reasons": [
+        "La fiche Marianne dit explicitement que sa figure apparaît pour représenter la République et qu’elle devient un symbole officiel.",
+        "La fiche du coq rappelle au contraire qu’il s’agit d’un symbole non officiel, utile pour départager des distracteurs proches."
+      ]
+    },
+    {
+      "questionId": "crx019",
+      "questionText": "Quels sont des symboles officiels de la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "reasons": [
+        "Les fiches drapeau, hymne et Marianne couvrent des symboles officiels couramment mobilisés dans ce thème.",
+        "Le drapeau et Marianne le disent explicitement, et l’hymne national appartient à la même série de symboles républicains."
+      ]
+    },
+    {
+      "questionId": "cspx008",
+      "questionText": "Qu’est-ce que l’égalité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "reasons": [
+        "La fiche égalité (1/3) donne la définition générale de l’égalité comme même loi pour tous et même accès aux droits.",
+        "Les autres fiches égalité détaillent surtout des applications particulières du principe."
+      ]
+    },
+    {
+      "questionId": "cspx009",
+      "questionText": "Que signifie la liberté ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "reasons": [
+        "La fiche La liberté définit la liberté comme le fait de penser, s’exprimer et vivre comme on le souhaite.",
+        "Elle rappelle aussi que cette liberté a pour limite la liberté des autres."
+      ]
+    },
+    {
+      "questionId": "cspx010",
+      "questionText": "Quel animal est un symbole de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-coq",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+      ],
+      "reasons": [
+        "La fiche Le coq explique que le coq est devenu un symbole national fort de la France.",
+        "Elle précise qu’il n’est pas un symbole officiel de la République, ce qui colle à une question sur la France en général."
+      ]
+    },
+    {
+      "questionId": "cspx011",
+      "questionText": "Quel est l’un des rôles des associations ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+      ],
+      "reasons": [
+        "La fiche fraternité (2/2) explique qu’une association permet d’aider les autres, défendre des idées et participer à la société.",
+        "Elle rattache l’engagement associatif à la solidarité et à la démocratie."
+      ]
+    },
+    {
+      "questionId": "cspx012",
+      "questionText": "Quel est le nom de l'hymne national ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "reasons": [
+        "La fiche indique que l’hymne national de la France s’appelle La Marseillaise.",
+        "Elle rappelle aussi son statut d’hymne national."
+      ]
+    },
+    {
+      "questionId": "cspx013",
+      "questionText": "Quel symbole de la République française est tricolore ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+      ],
+      "reasons": [
+        "La fiche du drapeau précise qu’il est composé de trois bandes bleu, blanc et rouge.",
+        "C’est le seul symbole de cette série explicitement qualifié par ses trois couleurs."
+      ]
+    },
+    {
+      "questionId": "cspx014",
+      "questionText": "Quelle est la date de la fête nationale française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "reasons": [
+        "La fiche indique que le jour de la fête nationale est le 14 juillet.",
+        "Elle précise que ce choix a été officialisé en 1880."
+      ]
+    },
+    {
+      "questionId": "cspx015",
+      "questionText": "Quelle est la langue officielle de la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "reasons": [
+        "La fiche langue française dit que « la langue de la République est le français ».",
+        "Elle précise que le français est la seule langue officielle en France."
+      ]
+    },
+    {
+      "questionId": "crx018",
+      "questionText": "Quelle est la place de la langue française dans la République ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "reasons": [
+        "La fiche langue française explique sa place institutionnelle : langue unique officielle, utilisée à l’école, dans l’administration, la justice et la vie publique.",
+        "Elle relie cette place à l’égalité d’accès aux droits et à l’information."
+      ]
+    },
+    {
+      "questionId": "cspx016",
+      "questionText": "Quelle liberté permet à chacun d’exprimer ses idées ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "reasons": [
+        "La fiche sur les droits liés à la personne humaine nomme explicitement la liberté d’expression comme la liberté de penser et de dire ce que l’on pense.",
+        "La fiche sur la DDHC rattache aussi la liberté d’opinion et d’expression aux textes fondamentaux."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1253 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "batchId": "cr-b002",
+  "generatedAt": "2026-03-07T19:22:57.447Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx021",
+      "questionText": "Le régime de la France est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+        ],
+        "correct": [
+          "Une démocratie et une République"
+        ],
+        "distractors": [
+          "Une monarchie et un empire",
+          "Une dictature et une théocratie",
+          "Une fédération et un royaume"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Une démocratie et une République",
+            "normalizedAnswer": "une democratie et une republique",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-1-2",
+                "sectionTitle": "La démocratie et la République (1/2)",
+                "quote": "La France est une démocratie dans le sens où le pouvoir vient du peuple : les citoyens votent pour choisir leurs représentants au suffrage universel."
+              },
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-1-2",
+                "sectionTitle": "La démocratie et la République (1/2)",
+                "quote": "La France est une République où le pouvoir est exercé par un ensemble de représentants élus par le peuple."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+            "sectionId": "la-veme-republique",
+            "sectionTitle": "La Vème République",
+            "quote": "La Vème République est le régime politique actuel de la France."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx022",
+      "questionText": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "correct": [
+          "Pour permettre le respect et la citoyenneté"
+        ],
+        "distractors": [
+          "Pour imposer les mêmes croyances à tous",
+          "Pour réserver l'école aux religions",
+          "Pour empêcher toute discussion religieuse"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Pour permettre le respect et la citoyenneté",
+            "normalizedAnswer": "pour permettre le respect et la citoyennete",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-2-2",
+                "sectionTitle": "La laïcité à l'école (2/2)",
+                "quote": "La laïcité est une condition indispensable pour que les élèves se respectent les uns envers les autres, dans un esprit de fraternité."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-2-2",
+                "sectionTitle": "La laïcité à l'école (2/2)",
+                "quote": "Elle permet également l’exercice de la citoyenneté"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-1-2",
+            "sectionTitle": "La laïcité à l'école (1/2)",
+            "quote": "Cette neutralité permet à chaque élève de penser librement et de construire lui-même ses opinions."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx023",
+      "questionText": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2"
+        ],
+        "correct": [
+          "Oui, chacun peut ne pas croire"
+        ],
+        "distractors": [
+          "Non, chacun doit avoir un culte",
+          "Non, sauf dans l'espace privé",
+          "Non, sauf après ses 18 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, chacun peut ne pas croire",
+            "normalizedAnswer": "oui chacun peut ne pas croire",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "chaque personne est libre d’avoir ou de ne pas avoir de religion"
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-2-2",
+                "sectionTitle": "La définition de la laïcité (2/2)",
+                "quote": "Ne pas avoir de religion ou choisir de ne plus avoir de religion est aussi un droit."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience pour tous"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx024",
+      "questionText": "Quel droit est garanti par la laïcité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "correct": [
+          "La liberté de conscience"
+        ],
+        "distractors": [
+          "La religion d'État",
+          "La priorité d'un culte",
+          "La police des croyances"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La liberté de conscience",
+            "normalizedAnswer": "la liberte de conscience",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La laïcité garantit la liberté de conscience pour tous"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-1-2",
+            "sectionTitle": "La laïcité à l'école (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience et protège la liberté de croire ou de ne pas croire en une religion."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx025",
+      "questionText": "À l'école publique, qui peut porter des signes religieux très visibles ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "correct": [
+          "Aucun élève"
+        ],
+        "distractors": [
+          "Tous les élèves",
+          "Les élèves majeurs",
+          "Les personnels enseignants"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Aucun élève",
+            "normalizedAnswer": "aucun eleve",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "charte-de-la-laicite-a-l-ecole",
+                "sectionTitle": "Charte de la laïcité à l'école",
+                "quote": "Dans les établissements scolaires publics, les règles de vie des différents espaces, précisées dans le règlement intérieur, sont respectueuses de la laïcité. Le port des signes ou tenues par lesquels les élèves manifestement ostensiblement une appartenance religieuse est interdit."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-1-2",
+            "sectionTitle": "La laïcité à l'école (1/2)",
+            "quote": "Parmi ses règles, il est interdit de porter un signe ou un vêtement qui montre sa religion de manière ostensible, c’est-à-dire de manière à être vu."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx026",
+      "questionText": "Qui doit respecter le principe de neutralité religieuse dans une préfecture ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+        ],
+        "correct": [
+          "Les agents publics"
+        ],
+        "distractors": [
+          "Les usagers du guichet",
+          "Les visiteurs occasionnels",
+          "Les élus municipaux"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Les agents publics",
+            "normalizedAnswer": "les agents publics",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+                "contentPath": "principes-et-valeurs/la-laicite/la-laicite-dans-les-services-publics.md",
+                "sectionId": "la-neutralite-dans-les-services-publics",
+                "sectionTitle": "La neutralité dans les services publics",
+                "quote": "Les personnes qui travaillent dans les services publics ainsi que dans les entreprises ou associations qui ont une mission de service public ne peuvent pas exprimer ou montrer leurs convictions"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+            "contentPath": "principes-et-valeurs/la-laicite/la-laicite-dans-les-services-publics.md",
+            "sectionId": "la-neutralite-ne-concerne-pas-les-usagers",
+            "sectionTitle": "La neutralité ne concerne pas les usagers",
+            "quote": "La neutralité ne s’impose pas aux personnes qui se rendent dans un service public en tant qu’usagers."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx027",
+      "questionText": "La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+        ],
+        "correct": [
+          "Oui, pour traiter les usagers équitablement"
+        ],
+        "distractors": [
+          "Non, chacun peut montrer ses convictions",
+          "Non, cela dépend du service public",
+          "Non, seulement dans les écoles publiques"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, pour traiter les usagers équitablement",
+            "normalizedAnswer": "oui pour traiter les usagers equitablement",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+                "contentPath": "principes-et-valeurs/la-laicite/la-laicite-dans-les-services-publics.md",
+                "sectionId": "la-neutralite-dans-les-services-publics",
+                "sectionTitle": "La neutralité dans les services publics",
+                "quote": "Cela permet de traiter les usagers de manière équitable."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics",
+            "contentPath": "principes-et-valeurs/la-laicite/la-laicite-dans-les-services-publics.md",
+            "sectionId": "la-neutralite-dans-les-services-publics",
+            "sectionTitle": "La neutralité dans les services publics",
+            "quote": "Les personnes qui travaillent dans les services publics ainsi que dans les entreprises ou associations qui ont une mission de service public ne peuvent pas exprimer ou montrer leurs convictions"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx028",
+      "questionText": "A-t-on le droit de changer de religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2"
+        ],
+        "correct": [
+          "Oui, chacun peut changer de religion"
+        ],
+        "distractors": [
+          "Non, la religion est définitive",
+          "Non, sauf avec l'accord de l'État",
+          "Non, sauf après un mariage"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, chacun peut changer de religion",
+            "normalizedAnswer": "oui chacun peut changer de religion",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-2-2",
+            "sectionTitle": "La définition de la laïcité (2/2)",
+            "quote": "Le droit de ne pas croire, de ne plus croire ou de changer de religion"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx029",
+      "questionText": "Que représente la laïcité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "correct": [
+          "Un principe constitutionnel"
+        ],
+        "distractors": [
+          "Une opinion religieuse",
+          "Un culte officiel",
+          "Une coutume locale"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un principe constitutionnel",
+            "normalizedAnswer": "un principe constitutionnel",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La laïcité n'est pas une opinion : c'est un principe constitutionnel."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "Le principe de laïcité implique la séparation entre l’État et les organisations religieuses"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx030",
+      "questionText": "Qu'est ce qui est interdit par la Charte de la laïcité à l'école ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "correct": [
+          "Le port de signes ostensibles"
+        ],
+        "distractors": [
+          "Les discussions sur les religions",
+          "Les cours sur leur histoire",
+          "Les sorties du programme"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le port de signes ostensibles",
+            "normalizedAnswer": "le port de signes ostensibles",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-1-2",
+                "sectionTitle": "La laïcité à l'école (1/2)",
+                "quote": "Parmi ses règles, il est interdit de porter un signe ou un vêtement qui montre sa religion de manière ostensible, c’est-à-dire de manière à être vu."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "charte-de-la-laicite-a-l-ecole",
+            "sectionTitle": "Charte de la laïcité à l'école",
+            "quote": "Dans les établissements scolaires publics, les règles de vie des différents espaces, précisées dans le règlement intérieur, sont respectueuses de la laïcité. Le port des signes ou tenues par lesquels les élèves manifestement ostensiblement une appartenance religieuse est interdit."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx031",
+      "questionText": "Que dit l'article 1er de la Constitution française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "correct": [
+          "La France est une République indivisible, laïque, démocratique et sociale"
+        ],
+        "distractors": [
+          "La France est une monarchie indivisible, laïque, démocratique et sociale",
+          "La France est une République fédérale, laïque, démocratique et sociale",
+          "La France est une République indivisible, religieuse, démocratique et sociale"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La France est une République indivisible, laïque, démocratique et sociale",
+            "normalizedAnswer": "la france est une republique indivisible laique democratique et sociale",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La France est une République indivisible, laïque, démocratique et sociale"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "charte-de-la-laicite-a-l-ecole",
+            "sectionTitle": "Charte de la laïcité à l'école",
+            "quote": "La France est une République indivisible, laïque, démocratique et sociale."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx032",
+      "questionText": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "Il peut être sanctionné comme tout citoyen"
+        ],
+        "distractors": [
+          "Il fixe lui-même la peine applicable",
+          "Il n'est jamais concerné par la loi",
+          "Il est jugé seulement par les ministres"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Il peut être sanctionné comme tout citoyen",
+            "normalizedAnswer": "il peut etre sanctionne comme tout citoyen",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "l-etat-de-droit-c-est-quoi",
+                "sectionTitle": "L’État de droit, c’est quoi ?",
+                "quote": "la loi est la même pour tous, y compris pour l’État."
+              },
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+                "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+                "quote": "un ministre qui ne respecte pas la loi peut être sanctionné comme tout citoyen."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+            "sectionId": "les-principes-de-l-etat-de-droit-quels-sont-ils",
+            "sectionTitle": "Les principes de l’État de droit, quels sont-ils ?",
+            "quote": "le droit s’impose à tous, y compris à l’État et à ses représentants"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx033",
+      "questionText": "La loi est l'expression de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+        ],
+        "correct": [
+          "La volonté générale"
+        ],
+        "distractors": [
+          "La volonté du gouvernement",
+          "La volonté du président",
+          "La volonté des préfets"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La volonté générale",
+            "normalizedAnswer": "la volonte generale",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/comment-voter-une-loi.md",
+                "sectionId": "comment-voter-une-loi-1-2",
+                "sectionTitle": "Comment voter une loi (1/2)",
+                "quote": "La loi est l'expression de la volonté générale."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/comment-voter-une-loi.md",
+            "sectionId": "comment-voter-une-loi-1-2",
+            "sectionTitle": "Comment voter une loi (1/2)",
+            "quote": "Les deux chambres parlementaires (le Sénat et l’Assemblée nationale) doivent valider un texte de loi identique pour qu’il soit appliqué."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx034",
+      "questionText": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "6 ans"
+        ],
+        "distractors": [
+          "4 ans",
+          "5 ans",
+          "7 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "6 ans",
+            "normalizedAnswer": "6 ans",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "Les élus municipaux (maire et conseillers municipaux, élus pour 6 ans lors des élections municipales au suffrage direct)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "Qui sont les acteurs politiques au niveau local ?"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx035",
+      "questionText": "Que garantit l’État de droit ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "correct": [
+          "Les droits fondamentaux et la démocratie"
+        ],
+        "distractors": [
+          "Le pouvoir absolu du gouvernement",
+          "Les privilèges des élus devant la loi",
+          "L'absence de contrôle des autorités"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Les droits fondamentaux et la démocratie",
+            "normalizedAnswer": "les droits fondamentaux et la democratie",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "l-etat-de-droit-c-est-quoi",
+                "sectionTitle": "L’État de droit, c’est quoi ?",
+                "quote": "Ce système garantit le respect des droits fondamentaux et de la démocratie."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+            "sectionId": "l-etat-de-droit-c-est-quoi",
+            "sectionTitle": "L’État de droit, c’est quoi ?",
+            "quote": "Des juges indépendants contrôlent les autorités publiques."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx036",
+      "questionText": "Une personne peut-elle voter à la place d'une autre ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "correct": [
+          "Oui, seulement avec une procuration"
+        ],
+        "distractors": [
+          "Oui, pour un proche parent",
+          "Oui, avec sa carte électorale",
+          "Non, dans aucun cas"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, seulement avec une procuration",
+            "normalizedAnswer": "oui seulement avec une procuration",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "Il est possible de voter pour une autre personne uniquement si elle a fait une procuration de vote."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-2-2",
+            "sectionTitle": "Les conditions pour voter en France (2/2)",
+            "quote": "En France, le vote est strictement :"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx037",
+      "questionText": "Est-ce que le vote est obligatoire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+        ],
+        "correct": [
+          "Non, c'est un droit"
+        ],
+        "distractors": [
+          "Oui, dès 18 ans",
+          "Oui, à chaque élection",
+          "Oui, sauf au second tour"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, c'est un droit",
+            "normalizedAnswer": "non c est un droit",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "Le vote n'est pas obligatoire, c'est un droit et non un devoir."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-1-2",
+            "sectionTitle": "Les conditions pour voter en France (1/2)",
+            "quote": "Le droit de vote est le droit d’exprimer sa volonté à une élection."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx038",
+      "questionText": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "Non, il doit être réélu"
+        ],
+        "distractors": [
+          "Oui, jusqu'à sa démission",
+          "Oui, s'il garde la majorité",
+          "Oui, sur simple décision"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, il doit être réélu",
+            "normalizedAnswer": "non il doit etre reelu",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-1-2",
+                "sectionTitle": "La démocratie et la République (1/2)",
+                "quote": "Elle repose sur le principe de la consultation régulière du peuple"
+              },
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "Le président de la République, élu pour 5 ans au suffrage universel directement par les citoyens français."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "Le président de la République, élu pour 5 ans au suffrage universel directement par les citoyens français."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx039",
+      "questionText": "Qui nomme le Premier ministre ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "Le président de la République"
+        ],
+        "distractors": [
+          "Le Premier ministre",
+          "L'Assemblée nationale",
+          "Le Sénat"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le président de la République",
+            "normalizedAnswer": "le president de la republique",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "Il nomme le Premier ministre selon la majorité"
+              },
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le Premier ministre, qui réside à l'hôtel de Matignon, est nommé par le président de la République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "Le pouvoir exécutif est exercé par :"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx040",
+      "questionText": "Quelle est l'organisation administrative de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "correct": [
+          "Les communes, les départements et les régions"
+        ],
+        "distractors": [
+          "Les cantons, les provinces et les diocèses",
+          "Les ministères, les tribunaux et les paroisses",
+          "Les royaumes, les empires et les colonies"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Les communes, les départements et les régions",
+            "normalizedAnswer": "les communes les departements et les regions",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+                "sectionTitle": "Le découpage administratif de la France (1/3)",
+                "quote": "Il existe plusieurs niveaux de collectivités territoriales : les communes, les départements, les régions"
+              },
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-3-3",
+                "sectionTitle": "Le découpage administratif de la France (3/3)",
+                "quote": "Les collectivités territoriales :"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-3-3",
+            "sectionTitle": "Le découpage administratif de la France (3/3)",
+            "quote": "Les ministères et les collectivités territoriales sont chargés, selon leurs compétences, de gérer le pays et chacun des territoires."
+          }
+        ],
+        "qualityFlags": []
+      }
+    }
+  ],
+  "skipped": []
+}

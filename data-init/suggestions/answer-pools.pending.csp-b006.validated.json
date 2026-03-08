@@ -1,0 +1,1286 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "batchId": "csp-b006",
+  "generatedAt": "2026-03-07T20:17:35.000Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx076",
+      "questionText": "Combien y a-t-il eu de républiques en France ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+        ],
+        "correct": [
+          "Cinq Républiques"
+        ],
+        "distractors": [
+          "Trois Républiques",
+          "Quatre Républiques",
+          "Six Républiques"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Cinq Républiques",
+            "normalizedAnswer": "cinq républiques",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+                "sectionId": "les-regimes-politiques",
+                "sectionTitle": "Les régimes politiques",
+                "quote": "- 1792-1799 : Ière République ;\n- 1799-1804 : Consulat ;\n- 1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;\n- 1814-1830 : Restauration de la monarchie ;\n- 1830-1848 : Monarchie de Juillet ;\n- 1848-1851 : IIème République ;\n- 1852-1870 : 2nd Empire ;\n- 1870-1940 : IIIème République. En 1871, insurrection de la Commune de Paris ;\n- 1940-1944 : Régime de Vichy. En parallèle, la France libre puis le Comité français de libération nationale ;\n- 1944-1946 : Gouvernement provisoire de la République française ;\n- 1946-1958 : IVème République. La Sécurité sociale est créée. La Constitution garantit pour la première fois l’égalité entre les femmes et les hommes."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+                "sectionId": "la-veme-republique",
+                "sectionTitle": "La Vème République",
+                "quote": "Depuis 1958, le régime politique de la France est celui de la Vème République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+            "sectionId": "les-regimes-politiques",
+            "sectionTitle": "Les régimes politiques",
+            "quote": "- 1792-1799 : Ière République ;\n- 1799-1804 : Consulat ;\n- 1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;\n- 1814-1830 : Restauration de la monarchie ;\n- 1830-1848 : Monarchie de Juillet ;\n- 1848-1851 : IIème République ;\n- 1852-1870 : 2nd Empire ;\n- 1870-1940 : IIIème République. En 1871, insurrection de la Commune de Paris ;\n- 1940-1944 : Régime de Vichy. En parallèle, la France libre puis le Comité français de libération nationale ;\n- 1944-1946 : Gouvernement provisoire de la République française ;\n- 1946-1958 : IVème République. La Sécurité sociale est créée. La Constitution garantit pour la première fois l’égalité entre les femmes et les hommes."
+          },
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+            "sectionId": "la-veme-republique",
+            "sectionTitle": "La Vème République",
+            "quote": "Depuis 1958, le régime politique de la France est celui de la Vème République."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "number_unit",
+          "correctCharLength": 16,
+          "distractorCharLengths": [
+            17,
+            18,
+            15
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 0.96,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 0,
+          "optionCount": 4,
+          "mismatchedOptions": [
+            "Cinq Républiques",
+            "Trois Républiques",
+            "Quatre Républiques",
+            "Six Républiques"
+          ]
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match",
+          "visible_type_mismatch"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Cinq Républiques\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:01.995Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx078",
+      "questionText": "Qui a fondé la Ve République ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+          "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+          "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+        ],
+        "correct": [
+          "Charles de Gaulle"
+        ],
+        "distractors": [
+          "Georges Pompidou",
+          "Valéry Giscard d’Estaing",
+          "François Mitterrand"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Charles de Gaulle",
+            "normalizedAnswer": "charles de gaulle",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+                "sectionId": "la-veme-republique",
+                "sectionTitle": "La Vème République",
+                "quote": "Charles de Gaulle, fondateur et premier président de la Vème République, a façonné ses institutions et renforcé le pouvoir exécutif."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+                "contentPath": "histoire-geographie-culture/la-veme-republique/les-presidents-de-la-cinquieme-republique.md",
+                "sectionId": "charles-de-gaulle",
+                "sectionTitle": "Charles de Gaulle",
+                "quote": "Fondation de la Vème République."
+              },
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/principaux-textes.md",
+                "sectionId": "presentation-des-principaux-textes-2-3-la-constitution-de-la-veme-republique",
+                "sectionTitle": "Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+                "quote": "Elle a été rédigée en moins de trois mois par le Gouvernement du Général de Gaulle, dans un contexte de crise politique liée à la guerre d’Algérie."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+            "sectionId": "la-veme-republique",
+            "sectionTitle": "La Vème République",
+            "quote": "Charles de Gaulle, fondateur et premier président de la Vème République, a façonné ses institutions et renforcé le pouvoir exécutif."
+          },
+          {
+            "ficheId": "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+            "contentPath": "histoire-geographie-culture/la-veme-republique/les-presidents-de-la-cinquieme-republique.md",
+            "sectionId": "charles-de-gaulle",
+            "sectionTitle": "Charles de Gaulle",
+            "quote": "Fondation de la Vème République."
+          },
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/principaux-textes.md",
+            "sectionId": "presentation-des-principaux-textes-2-3-la-constitution-de-la-veme-republique",
+            "sectionTitle": "Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+            "quote": "Elle a été rédigée en moins de trois mois par le Gouvernement du Général de Gaulle, dans un contexte de crise politique liée à la guerre d’Algérie."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "person",
+          "correctCharLength": 17,
+          "distractorCharLengths": [
+            16,
+            24,
+            19
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            2,
+            4,
+            2
+          ],
+          "charLengthRatio": 0.8644067796610169,
+          "tokenLengthRatio": 1.125,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.003Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx083",
+      "questionText": "Quel océan borde la côte ouest française ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "correct": [
+          "L’océan Atlantique"
+        ],
+        "distractors": [
+          "La mer du Nord",
+          "La Manche",
+          "La mer Méditerranée"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’océan Atlantique",
+            "normalizedAnswer": "l’océan atlantique",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+                "contentPath": "histoire-geographie-culture/atlas-de-la-france/les-frontieres-de-la-france.md",
+                "sectionId": "quelles-sont-les-frontieres-naturelles-de-la-france",
+                "sectionTitle": "Quelles sont les frontières naturelles de la France ?",
+                "quote": "- À l’ouest : l’océan Atlantique."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+                "sectionId": "quelle-est-la-position-geographique-de-la-france-en-europe",
+                "sectionTitle": "Quelle est la position géographique de la France en Europe ?",
+                "quote": "Côté mer, elle est bordée par plus de 5 500 km de côtes ouvertes sur la Manche, la mer du Nord, l’océan Atlantique et la mer Méditerranée."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+            "contentPath": "histoire-geographie-culture/atlas-de-la-france/les-frontieres-de-la-france.md",
+            "sectionId": "quelles-sont-les-frontieres-naturelles-de-la-france",
+            "sectionTitle": "Quelles sont les frontières naturelles de la France ?",
+            "quote": "- À l’ouest : l’océan Atlantique."
+          },
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+            "sectionId": "quelle-est-la-position-geographique-de-la-france-en-europe",
+            "sectionTitle": "Quelle est la position géographique de la France en Europe ?",
+            "quote": "Côté mer, elle est bordée par plus de 5 500 km de côtes ouvertes sur la Manche, la mer du Nord, l’océan Atlantique et la mer Méditerranée."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "place",
+          "correctCharLength": 18,
+          "distractorCharLengths": [
+            14,
+            9,
+            19
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            4,
+            2,
+            3
+          ],
+          "charLengthRatio": 1.2857142857142858,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.003Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx087",
+      "questionText": "Quelle ville est un grand port maritime ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+          "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+          "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur"
+        ],
+        "correct": [
+          "Marseille"
+        ],
+        "distractors": [
+          "Toulon",
+          "Avignon",
+          "Aix-en-Provence"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Marseille",
+            "normalizedAnswer": "marseille",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/les-ports-francais.md",
+                "sectionId": "ou-sont-situes-les-grands-ports-francais",
+                "sectionTitle": "Où sont situés les grands ports français ?",
+                "quote": "7 grands ports en France métropolitaine : Dunkerque, Le Havre, Rouen, Nantes Saint-Nazaire, La Rochelle, Bordeaux et Marseille."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                "sectionId": "provence-alpes-cote-d-azur",
+                "sectionTitle": "Provence-Alpes-Côte d’Azur",
+                "quote": "Ses principales villes sont Marseille (préfecture), Nice, Toulon, Avignon, Aix-en-Provence, Gap."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/les-ports-francais.md",
+            "sectionId": "ou-sont-situes-les-grands-ports-francais",
+            "sectionTitle": "Où sont situés les grands ports français ?",
+            "quote": "7 grands ports en France métropolitaine : Dunkerque, Le Havre, Rouen, Nantes Saint-Nazaire, La Rochelle, Bordeaux et Marseille."
+          },
+          {
+            "ficheId": "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+            "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+            "sectionId": "provence-alpes-cote-d-azur",
+            "sectionTitle": "Provence-Alpes-Côte d’Azur",
+            "quote": "Ses principales villes sont Marseille (préfecture), Nice, Toulon, Avignon, Aix-en-Provence, Gap."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 9,
+          "distractorCharLengths": [
+            6,
+            7,
+            15
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 0.9642857142857142,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.003Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx088",
+      "questionText": "Quelle est la mer au sud de la France métropolitaine ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--les-regions-francaises--corse"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+          "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+          "histoire-geographie-culture--les-regions-francaises--corse"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "correct": [
+          "La mer Méditerranée"
+        ],
+        "distractors": [
+          "La mer du Nord",
+          "La Manche",
+          "L’océan Atlantique"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La mer Méditerranée",
+            "normalizedAnswer": "la mer méditerranée",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+                "sectionId": "quelle-est-la-position-geographique-de-la-france-en-europe",
+                "sectionTitle": "Quelle est la position géographique de la France en Europe ?",
+                "quote": "Côté mer, elle est bordée par plus de 5 500 km de côtes ouvertes sur la Manche, la mer du Nord, l’océan Atlantique et la mer Méditerranée."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+            "sectionId": "quelle-est-la-position-geographique-de-la-france-en-europe",
+            "sectionTitle": "Quelle est la position géographique de la France en Europe ?",
+            "quote": "Côté mer, elle est bordée par plus de 5 500 km de côtes ouvertes sur la Manche, la mer du Nord, l’océan Atlantique et la mer Méditerranée."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 19,
+          "distractorCharLengths": [
+            14,
+            9,
+            18
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            4,
+            2,
+            3
+          ],
+          "charLengthRatio": 1.3902439024390245,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.003Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx089",
+      "questionText": "Quelle ville est située au bord de la mer Méditerranée ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-provence-alpes-cote-azur"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+          "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-provence-alpes-cote-azur"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+        ],
+        "correct": [
+          "Marseille"
+        ],
+        "distractors": [
+          "Avignon",
+          "Aix-en-Provence",
+          "Gap"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Marseille",
+            "normalizedAnswer": "marseille",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                "sectionId": "provence-alpes-cote-d-azur",
+                "sectionTitle": "Provence-Alpes-Côte d’Azur",
+                "quote": "La région de la Provence-Alpes-Côte d’Azur est située dans le sud-est de la France. Elle est bordée par l’Italie et la mer Méditerranée.\nSes principales villes sont Marseille (préfecture), Nice, Toulon, Avignon, Aix-en-Provence, Gap."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/les-ports-francais.md",
+                "sectionId": "localisation-des-ports-de-commerce-francais",
+                "sectionTitle": "Localisation des ports de commerce français",
+                "quote": "Méditerranée\n- Sète : port de commerce décentralisé\n- Port-la-Nouvelle : port de commerce décentralisé\n- Port-Vendres : port de commerce décentralisé\n- Marseille : grand port maritime (GPM)\n- Toulon : port de commerce décentralisé\n- Nice : port de commerce décentralisé"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+            "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+            "sectionId": "provence-alpes-cote-d-azur",
+            "sectionTitle": "Provence-Alpes-Côte d’Azur",
+            "quote": "La région de la Provence-Alpes-Côte d’Azur est située dans le sud-est de la France. Elle est bordée par l’Italie et la mer Méditerranée.\nSes principales villes sont Marseille (préfecture), Nice, Toulon, Avignon, Aix-en-Provence, Gap."
+          },
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/les-ports-francais.md",
+            "sectionId": "localisation-des-ports-de-commerce-francais",
+            "sectionTitle": "Localisation des ports de commerce français",
+            "quote": "Méditerranée\n- Sète : port de commerce décentralisé\n- Port-la-Nouvelle : port de commerce décentralisé\n- Port-Vendres : port de commerce décentralisé\n- Marseille : grand port maritime (GPM)\n- Toulon : port de commerce décentralisé\n- Nice : port de commerce décentralisé"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 9,
+          "distractorCharLengths": [
+            7,
+            15,
+            3
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 1.0799999999999998,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"Marseille\"",
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.007Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx090",
+      "questionText": "Où se situe la Corse ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--corse",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--corse"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--corse",
+          "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--corse"
+        ],
+        "correct": [
+          "Dans la mer Méditerranée, au sud-est de la France continentale"
+        ],
+        "distractors": [
+          "Dans l’océan Atlantique, à l’ouest de la France",
+          "Dans la Manche, au nord de la France",
+          "Dans la mer du Nord, au nord-ouest de la France"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Dans la mer Méditerranée, au sud-est de la France continentale",
+            "normalizedAnswer": "dans la mer méditerranée, au sud-est de la france continentale",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--corse",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                "sectionId": "corse",
+                "sectionTitle": "Corse",
+                "quote": "La région de la Corse est une île située dans la mer Méditerranée, au sud-est de la France continentale."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regions-francaises--corse",
+            "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+            "sectionId": "corse",
+            "sectionTitle": "Corse",
+            "quote": "La région de la Corse est une île située dans la mer Méditerranée, au sud-est de la France continentale."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "place",
+          "correctCharLength": 62,
+          "distractorCharLengths": [
+            47,
+            36,
+            47
+          ],
+          "correctTokenLength": 10,
+          "distractorTokenLengths": [
+            10,
+            8,
+            10
+          ],
+          "charLengthRatio": 1.4307692307692308,
+          "tokenLengthRatio": 1.0714285714285714,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.007Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx091",
+      "questionText": "Qui était Marc Chagall ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+        ],
+        "correct": [
+          "Un peintre d’origine russe devenu français"
+        ],
+        "distractors": [
+          "Une chanteuse franco-américaine devenue française",
+          "Une résistante de la France libre",
+          "Une vedette de la Revue Nègre"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un peintre d’origine russe devenu français",
+            "normalizedAnswer": "un peintre d’origine russe devenu français",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-devenus-francais",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques devenus français",
+                "quote": "Marc Chagall, célèbre peintre installé en France (1887-1985)"
+              },
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-devenus-francais",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques devenus français",
+                "quote": "D'origine russe, Chagall s'installe à Paris en 1923 et travaille pour un marchand d'art. Il est d'abord reconnu réfugié avant d'obtenir la nationalité française en 1937."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-devenus-francais",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques devenus français",
+            "quote": "Marc Chagall, célèbre peintre installé en France (1887-1985)"
+          },
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-devenus-francais",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques devenus français",
+            "quote": "D'origine russe, Chagall s'installe à Paris en 1923 et travaille pour un marchand d'art. Il est d'abord reconnu réfugié avant d'obtenir la nationalité française en 1937."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "person",
+          "correctCharLength": 42,
+          "distractorCharLengths": [
+            49,
+            33,
+            29
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            5,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.135135135135135,
+          "tokenLengthRatio": 1.2352941176470587,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.008Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx092",
+      "questionText": "Qui était Joséphine Baker ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+        ],
+        "correct": [
+          "Une artiste et militante franco-américaine"
+        ],
+        "distractors": [
+          "Un peintre d’origine russe devenu français",
+          "Un peintre aux œuvres très colorées",
+          "Un décorateur de l’Opéra Garnier"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Une artiste et militante franco-américaine",
+            "normalizedAnswer": "une artiste et militante franco-américaine",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-devenus-francais",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques devenus français",
+                "quote": "Joséphine Baker, artiste et militante franco-américaine (1906-1975)"
+              },
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-devenus-francais",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques devenus français",
+                "quote": "En 1937, elle obtient la nationalité française. Durant la Seconde guerre mondiale, elle rejoint la Résistance comme agent des services secrets de la France libre."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-devenus-francais",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques devenus français",
+            "quote": "Joséphine Baker, artiste et militante franco-américaine (1906-1975)"
+          },
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-devenus-francais",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques devenus français",
+            "quote": "En 1937, elle obtient la nationalité française. Durant la Seconde guerre mondiale, elle rejoint la Résistance comme agent des services secrets de la France libre."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "person",
+          "correctCharLength": 42,
+          "distractorCharLengths": [
+            42,
+            35,
+            32
+          ],
+          "correctTokenLength": 5,
+          "distractorTokenLengths": [
+            7,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.1559633027522935,
+          "tokenLengthRatio": 0.7894736842105263,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.009Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx094",
+      "questionText": "Qu'est-ce que le Louvre ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "histoire-geographie-culture--culture--une-puissance-culturelle"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "histoire-geographie-culture--culture--une-puissance-culturelle"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+          "histoire-geographie-culture--culture--une-puissance-culturelle"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+          "histoire-geographie-culture--culture--une-puissance-culturelle"
+        ],
+        "correct": [
+          "Un musée prestigieux"
+        ],
+        "distractors": [
+          "Un festival de cinéma",
+          "Une maison de couture",
+          "Un office de tourisme"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un musée prestigieux",
+            "normalizedAnswer": "un musée prestigieux",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+                "contentPath": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+                "sectionId": "patrimoine-francais-l-acces-a-la-culture",
+                "sectionTitle": "Patrimoine français : l’accès à la culture",
+                "quote": "l'accès aux collections de la plupart des musées nationaux est gratuit le 1er dimanche de chaque mois. Exemple : le Musée du Louvre."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--culture--une-puissance-culturelle",
+                "contentPath": "histoire-geographie-culture/culture/puissance-et-langue.md",
+                "sectionId": "une-puissance-culturelle",
+                "sectionTitle": "Une puissance culturelle",
+                "quote": "La France abrite certains des musées les plus prestigieux au monde (le Louvre, le musée d’Orsay)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+            "contentPath": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+            "sectionId": "patrimoine-francais-l-acces-a-la-culture",
+            "sectionTitle": "Patrimoine français : l’accès à la culture",
+            "quote": "l'accès aux collections de la plupart des musées nationaux est gratuit le 1er dimanche de chaque mois. Exemple : le Musée du Louvre."
+          },
+          {
+            "ficheId": "histoire-geographie-culture--culture--une-puissance-culturelle",
+            "contentPath": "histoire-geographie-culture/culture/puissance-et-langue.md",
+            "sectionId": "une-puissance-culturelle",
+            "sectionTitle": "Une puissance culturelle",
+            "quote": "La France abrite certains des musées les plus prestigieux au monde (le Louvre, le musée d’Orsay)."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 20,
+          "distractorCharLengths": [
+            21,
+            21,
+            21
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            4,
+            4,
+            4
+          ],
+          "charLengthRatio": 0.9523809523809523,
+          "tokenLengthRatio": 0.75,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.009Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx095",
+      "questionText": "Qui était Jean de la Fontaine ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1"
+        ],
+        "correct": [
+          "Un écrivain connu pour ses fables"
+        ],
+        "distractors": [
+          "Un auteur de comédies de mœurs",
+          "Un metteur en scène de théâtre",
+          "Un comédien du XVIIe siècle"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un écrivain connu pour ses fables",
+            "normalizedAnswer": "un écrivain connu pour ses fables",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-parmi-les-auteurs-1-3",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques parmi les auteurs (1/3)",
+                "quote": "Jean de la Fontaine est un écrivain connu pour ses fables."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-parmi-les-auteurs-1-3",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques parmi les auteurs (1/3)",
+            "quote": "Jean de la Fontaine est un écrivain connu pour ses fables."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "person",
+          "correctCharLength": 33,
+          "distractorCharLengths": [
+            30,
+            30,
+            27
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            7,
+            6,
+            5
+          ],
+          "charLengthRatio": 1.1379310344827587,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.009Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "questionId": "cspx077",
+      "questionText": "Qui était le roi de France au moment de la Révolution française ?",
+      "questionProfile": "person",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "blockReason": "La fiche identifie Louis XVI, mais elle ne fournit pas trois autres personnages comparables pour fabriquer des distracteurs homogènes sans importer d’informations extérieures."
+    },
+    {
+      "questionId": "cspx079",
+      "questionText": "Que célèbre-t-on le 14 juillet ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "blockReason": "La fiche appuie plusieurs formulations correctes du 14 juillet (fête nationale, prise de la Bastille, Fête de la Fédération), ce qui ne permet pas de stabiliser une seule bonne réponse nette."
+    },
+    {
+      "questionId": "cspx080",
+      "questionText": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+      ],
+      "blockReason": "La fiche confirme la Première Guerre mondiale, mais elle ne donne pas trois autres guerres comparables pour produire des distracteurs du même type sans sortir des fiches liées."
+    },
+    {
+      "questionId": "cspx081",
+      "questionText": "Quel fleuve coule en France ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+      ],
+      "blockReason": "La fiche liste plusieurs fleuves qui coulent en France ; la question admet donc plusieurs réponses exactes avec les seules fiches liées."
+    },
+    {
+      "questionId": "cspx082",
+      "questionText": "Quelle ville est française ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "blockReason": "Les fiches liées citent plusieurs villes françaises ; la question admet donc plusieurs réponses exactes avec ce seul support."
+    },
+    {
+      "questionId": "cspx084",
+      "questionText": "Qu'est-ce que Paris ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "blockReason": "La fiche supporte plusieurs définitions vraies de Paris dans ce contexte (ville, préfecture, département), sans permettre une seule réponse univoque."
+    },
+    {
+      "questionId": "cspx086",
+      "questionText": "Sur quel continent se situe la France métropolitaine ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "blockReason": "Les fiches liées n’appuient qu’Europe et ne fournissent pas trois autres continents comparables pour construire des distracteurs homogènes sans ajouter de connaissances extérieures."
+    },
+    {
+      "questionId": "cspx093",
+      "questionText": "Qui était une chanteuse française célèbre ?",
+      "questionProfile": "person",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+      ],
+      "blockReason": "La fiche liée sur la musique ne donne qu’une chanteuse explicite et ne fournit pas trois personnages comparables du même type pour construire des distracteurs homogènes."
+    },
+    {
+      "questionId": "cspx096",
+      "questionText": "Quel écrivain est français ?",
+      "questionProfile": "person",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+      ],
+      "blockReason": "Les fiches liées présentent plusieurs écrivains français ; la question admet donc plusieurs réponses exactes sans critère supplémentaire."
+    }
+  ],
+  "validatedAt": "2026-03-08T16:05:14.997Z",
+  "validationSummary": {
+    "total": 11,
+    "valid": 11,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 4
+  },
+  "appliedAt": "2026-03-08T16:08:02.009Z",
+  "applySummary": {
+    "applied": 11,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": true
+  }
+}

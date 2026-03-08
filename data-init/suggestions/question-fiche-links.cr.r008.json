@@ -1,0 +1,187 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r008",
+  "generatedAt": "2026-03-07T14:24:52.386Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
+        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+      ]
+    },
+    {
+      "questionId": "crx134",
+      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches parlent du tri, du recyclage et du respect de l'environnement, mais ne donnent pas le lieu précis de dépôt d'un appareil électroménager cassé.",
+        "Je ne retiens donc aucun lien sûr vers une déchèterie ou un point de collecte spécifique."
+      ]
+    },
+    {
+      "questionId": "crx141",
+      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches parlent de France Travail et de l'assurance chômage, mais aucune ne détaille les conditions d'éligibilité aux allocations chômage.",
+        "Je laisse donc le lien final vide faute d'ancrage explicite sur la durée travaillée, la perte d'emploi ou l'inscription comme demandeur d'emploi."
+      ]
+    },
+    {
+      "questionId": "crx142",
+      "questionText": "Qu'est-ce que l'école maternelle ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
+        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
+      ]
+    },
+    {
+      "questionId": "crx143",
+      "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
+      ]
+    },
+    {
+      "questionId": "crx144",
+      "questionText": "Les parents d'élève ont le droit de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "reasons": [
+        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
+        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
+        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
+      ]
+    },
+    {
+      "questionId": "crx145",
+      "questionText": "Qui peut manger à la cantine scolaire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
+      ]
+    },
+    {
+      "questionId": "crx146",
+      "questionText": "Quel est l'âge de la majorité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "reasons": [
+        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
+        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
+        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
+      ]
+    },
+    {
+      "questionId": "crx147",
+      "questionText": "À l'école, il est interdit aux parents de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "reasons": [
+        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
+        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
+      ]
+    },
+    {
+      "questionId": "crx148",
+      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
+        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
+      ]
+    },
+    {
+      "questionId": "crx149",
+      "questionText": "À l'école, un enfant en situation de handicap :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "reasons": [
+        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
+        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r006",
+  "generatedAt": "2026-03-07T14:09:28.959Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx102",
+      "questionText": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-2"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah"
+      ],
+      "reasons": [
+        "La fiche consacre une section a la question du souvenir de la Shoah.",
+        "Elle dit qu'on l'etudie a l'ecole pour comprendre les consequences de la haine, du racisme et de l'antisemitisme, et pour rappeler le devoir de memoire."
+      ]
+    },
+    {
+      "questionId": "crx103",
+      "questionText": "Quel pays a été colonisé par la France ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "reasons": [
+        "La fiche cite des anciennes colonies francaises comme l'Indochine et l'Algerie.",
+        "Elle mentionne aussi l'independance des colonies francaises d'Afrique et de Madagascar, ce qui fournit les exemples attendus."
+      ]
+    },
+    {
+      "questionId": "crx104",
+      "questionText": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "reasons": [
+        "La fiche sur l'abolition de la peine de mort precise qu'en 1981 cette abolition totale est soutenue sous la presidence de Francois Mitterrand.",
+        "La fiche sur les presidents de la Veme Republique cite l'abolition de la peine de mort parmi les faits marquants du mandat de Francois Mitterrand."
+      ]
+    },
+    {
+      "questionId": "crx105",
+      "questionText": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "reasons": [
+        "La fiche sur la Iere Republique indique qu'elle est proclamee le 22 septembre 1792.",
+        "La fiche sur 1789-1792 montre la transition de la monarchie vers la Republique pendant la Revolution francaise."
+      ]
+    },
+    {
+      "questionId": "crx106",
+      "questionText": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1"
+      ],
+      "reasons": [
+        "La fiche sur les consequences de la Seconde Guerre mondiale cite explicitement la creation de l'ONU en 1945 pour maintenir la paix.",
+        "La fiche Seconde Guerre mondiale (1/3) reprend aussi ce repere dans ses dates cles."
+      ]
+    },
+    {
+      "questionId": "crx107",
+      "questionText": "Quelle peine a été supprimée en 1981 ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5"
+      ],
+      "reasons": [
+        "La fiche indique qu'en 1981 la peine de mort est totalement abolie en France.",
+        "Elle rappelle aussi que la loi du 9 octobre 1981 met definitivement fin a la peine capitale."
+      ]
+    },
+    {
+      "questionId": "crx108",
+      "questionText": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "reasons": [
+        "La fiche sur la construction europeenne dit qu'en 2002 l'euro devient la monnaie officielle de plusieurs pays membres.",
+        "Elle rattache directement l'entree en usage de l'euro au jalon historique attendu."
+      ]
+    },
+    {
+      "questionId": "crx109",
+      "questionText": "En quelle année a commencé la Première Guerre mondiale ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-2"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+      ],
+      "reasons": [
+        "La fiche de contexte precise que la Premiere Guerre mondiale est officiellement declaree en aout 1914.",
+        "Ses dates cles resumment aussi la guerre par le repere 1914-1918."
+      ]
+    },
+    {
+      "questionId": "crx110",
+      "questionText": "Où a eu lieu le débarquement en 1944 ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+      ],
+      "reasons": [
+        "La fiche Seconde Guerre mondiale (1/3) dit que le 6 juin 1944 les Allies debarquent en Normandie.",
+        "La fiche sur la Resistance et la Liberation reprend le debarquement allie en Normandie comme etape cle de la liberation du pays."
+      ]
+    },
+    {
+      "questionId": "crx111",
+      "questionText": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "reasons": [
+        "La fiche souligne que l'Afrique subsaharienne francaise obtient l'independance en 1960.",
+        "Ses dates cles citent aussi l'independance des colonies francaises d'Afrique et de Madagascar, ce qui ancre la reponse sur le continent africain."
+      ]
+    },
+    {
+      "questionId": "crx112",
+      "questionText": "Que fête-t-on le 8 mai ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+      ],
+      "reasons": [
+        "La fiche Seconde Guerre mondiale (1/3) dit que l'Allemagne capitule le 8 mai 1945 et que l'Alliance gagne en Europe.",
+        "La fiche sur la Resistance et la Liberation reprend le 8 mai 1945 comme fin de la guerre en Europe avec la capitulation de l'Allemagne."
+      ]
+    },
+    {
+      "questionId": "crx113",
+      "questionText": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "reasons": [
+        "Les deux fiches listent les huit pays europeens ayant une frontiere terrestre avec la France metropolitaine.",
+        "Elles donnent directement les voisins possibles: Belgique, Luxembourg, Allemagne, Suisse, Italie, Espagne, Andorre et Monaco."
+      ]
+    },
+    {
+      "questionId": "crx114",
+      "questionText": "Quelle ville française est un port maritime ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "reasons": [
+        "La fiche est entierement consacree aux ports maritimes francais.",
+        "Elle cite des villes-ports comme Dunkerque, Le Havre, Rouen, Nantes Saint-Nazaire, La Rochelle, Bordeaux et Marseille."
+      ]
+    },
+    {
+      "questionId": "crx115",
+      "questionText": "Quelle île française se trouve dans l'océan Indien ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--la-reunion",
+        "histoire-geographie-culture--les-regions-francaises--mayotte"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--la-reunion",
+        "histoire-geographie-culture--les-regions-francaises--mayotte"
+      ],
+      "reasons": [
+        "La fiche La Reunion dit explicitement que La Reunion est une ile situee dans l'ocean Indien.",
+        "La fiche Mayotte dit egalement que Mayotte est une ile situee dans l'ocean Indien; les deux restent donc pertinentes sans les options du QCM."
+      ]
+    },
+    {
+      "questionId": "crx116",
+      "questionText": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "reasons": [
+        "Les fiches sur les frontieres enumerent les pays qui partagent une frontiere terrestre avec la France.",
+        "La fiche La France dans l'Europe confirme la meme liste de voisins europeens."
+      ]
+    },
+    {
+      "questionId": "crx117",
+      "questionText": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "reasons": [
+        "Les fiches de frontieres donnent les voisins metropolitains du nord-est, notamment la Belgique, le Luxembourg et l'Allemagne.",
+        "Le texte seul ne departage pas davantage sans les options, mais ces fiches sont celles qui cadrent directement les pays voisins concernes."
+      ]
+    },
+    {
+      "questionId": "crx118",
+      "questionText": "Où se trouvent les principales activités économiques en France ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation"
+      ],
+      "reasons": [
+        "La fiche explique que les principales activites economiques, les emplois, les richesses et les services sont concentres dans les metropoles.",
+        "Elle precise aussi que la ville-centre regroupe le coeur des activites economiques, administratives et culturelles."
+      ]
+    },
+    {
+      "questionId": "crx119",
+      "questionText": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique"
+      ],
+      "reasons": [
+        "La fiche dit explicitement que la France est la premiere destination touristique au monde.",
+        "Elle ajoute qu'elle attire plus de 100 millions de voyageurs en 2024."
+      ]
+    },
+    {
+      "questionId": "crx120",
+      "questionText": "Où habite la majorité des Français ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+        "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+        "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+      ],
+      "reasons": [
+        "La fiche sur les aires urbaines dit que la majorite de la population francaise vit en ville et qu'environ 9 personnes sur 10 vivent dans une aire urbaine.",
+        "La fiche de demographie confirme qu'environ 81 % de la population vit en ville, surtout dans les grandes agglomerations."
+      ]
+    },
+    {
+      "questionId": "crx121",
+      "questionText": "Quelle région est la plus peuplée ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "reasons": [
+        "La fiche Ile-de-France dit explicitement que c'est la region la plus peuplee de France.",
+        "Elle donne aussi un ordre de grandeur avec environ 12,4 millions d'habitants."
+      ]
+    }
+  ]
+}

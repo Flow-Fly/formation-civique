@@ -1,0 +1,323 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "runId": "r007",
+  "generatedAt": "2026-03-07T14:41:12.920Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/csp.md"
+  },
+  "items": [
+    {
+      "questionId": "cspx044",
+      "questionText": "Quelle est la monnaie utilisée en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche historique sur la construction européenne indique qu’en 2002 l’euro devient la monnaie officielle de plusieurs pays membres.",
+        "Le fonctionnement européen (1/2) relie la création de la Banque centrale européenne à la création de l’euro comme monnaie unique.",
+        "Aucune fiche lue n’énonce explicitement que l’euro est la monnaie utilisée en France ; je garde donc seulement des candidates."
+      ]
+    },
+    {
+      "questionId": "cspx046",
+      "questionText": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur les obligations du résident français traite bien des devoirs communs aux personnes qui vivent en France.",
+        "La Constitution de 1958 est présentée comme le texte fondateur qui garantit les principaux droits et libertés fondamentaux.",
+        "La DDHC affirme des droits fondamentaux et des devoirs du citoyen, mais aucune fiche lue ne nomme un texte unique couvrant explicitement les personnes résidant en France ; je ne retiens donc pas de lien certain."
+      ]
+    },
+    {
+      "questionId": "cspx070",
+      "questionText": "Lequel de ces personnages historiques est français ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Le libellé ne nomme aucun personnage historique.",
+        "Le fichier source ne donne pas les propositions de réponse, donc aucune fiche précise ne peut être retenue avec certitude."
+      ]
+    },
+    {
+      "questionId": "cspx085",
+      "questionText": "Quelle est la capitale de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche Île-de-France situe la région autour de Paris et présente Paris comme sa principale ville.",
+        "La fiche sur le patrimoine d’Île-de-France place la tour Eiffel à Paris, ce qui renforce le repère géographique.",
+        "Aucune fiche lue n’emploie explicitement la formule « Paris est la capitale de la France » ; je laisse donc `relatedFicheIds` vide."
+      ]
+    },
+    {
+      "questionId": "cspx088",
+      "questionText": "Quelle est la mer au sud de la France métropolitaine ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--les-regions-francaises--corse"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "reasons": [
+        "La fiche « La France dans l’Europe » indique que les côtes françaises s’ouvrent notamment sur la mer Méditerranée.",
+        "Les fiches Provence-Alpes-Côte d’Azur et Corse confirment ce repère en situant ces territoires au bord ou dans la mer Méditerranée."
+      ]
+    },
+    {
+      "questionId": "cspx089",
+      "questionText": "Quelle ville est située au bord de la mer Méditerranée ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-provence-alpes-cote-azur"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "reasons": [
+        "La fiche Provence-Alpes-Côte d’Azur cite Marseille, Nice et Toulon parmi les principales villes d’une région bordée par la mer Méditerranée.",
+        "La fiche sur les ports français liste plusieurs villes méditerranéennes, notamment Marseille, Toulon, Nice et Sète.",
+        "La fiche culturelle sur la région renforce ces repères avec Nice et Marseille, deux villes liées au littoral méditerranéen."
+      ]
+    },
+    {
+      "questionId": "cspx090",
+      "questionText": "Où se situe la Corse ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--corse",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--corse"
+      ],
+      "reasons": [
+        "La fiche Corse dit explicitement que la Corse est une île située dans la mer Méditerranée, au sud-est de la France continentale.",
+        "La fiche culturelle sur la Corse confirme ce repère en situant Bonifacio au sud de l’île sur la Méditerranée."
+      ]
+    },
+    {
+      "questionId": "cspx091",
+      "questionText": "Qui était Marc Chagall ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "reasons": [
+        "La fiche consacre une section à Marc Chagall et le présente comme un célèbre peintre installé en France.",
+        "Elle précise qu’il a obtenu la nationalité française en 1937 puis l’a retrouvée après la guerre."
+      ]
+    },
+    {
+      "questionId": "cspx092",
+      "questionText": "Qui était Joséphine Baker ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "reasons": [
+        "La fiche consacre une section à Joséphine Baker et la présente comme une artiste et militante franco-américaine.",
+        "Elle indique qu’elle s’installe à Paris, se lance dans la chanson et obtient la nationalité française en 1937."
+      ]
+    },
+    {
+      "questionId": "cspx093",
+      "questionText": "Qui était une chanteuse française célèbre ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+      ],
+      "reasons": [
+        "La fiche sur la musique présente Edith Piaf comme l’une des plus grandes chanteuses du 20e siècle.",
+        "La fiche sur les artistes devenus français présente aussi Joséphine Baker comme chanteuse et artiste de scène.",
+        "Les deux fiches sont donc pertinentes pour une question demandant d’identifier une chanteuse française célèbre."
+      ]
+    },
+    {
+      "questionId": "cspx094",
+      "questionText": "Qu'est-ce que le Louvre ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "histoire-geographie-culture--culture--une-puissance-culturelle"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "histoire-geographie-culture--culture--une-puissance-culturelle"
+      ],
+      "reasons": [
+        "La fiche sur l’accès à la culture cite explicitement le Musée du Louvre comme exemple de musée national.",
+        "La fiche « Une puissance culturelle » classe aussi le Louvre parmi les musées les plus prestigieux au monde."
+      ]
+    },
+    {
+      "questionId": "cspx095",
+      "questionText": "Qui était Jean de la Fontaine ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1"
+      ],
+      "reasons": [
+        "La fiche présente Jean de La Fontaine comme un célèbre poète et fabuliste du 17e siècle.",
+        "Elle explique qu’il est un écrivain connu pour ses fables."
+      ]
+    },
+    {
+      "questionId": "cspx096",
+      "questionText": "Quel écrivain est français ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+      ],
+      "reasons": [
+        "Les trois fiches d’auteurs recensent plusieurs écrivains français ou écrivaines françaises : Jean de La Fontaine, Victor Hugo, George Sand, Simone de Beauvoir, Albert Camus ou Marguerite Yourcenar.",
+        "Ces fiches sont donc directement utiles pour identifier une proposition correspondant à un écrivain français."
+      ]
+    },
+    {
+      "questionId": "cspx097",
+      "questionText": "Dans quelle ville se trouve la tour Eiffel ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "reasons": [
+        "La fiche sur le patrimoine d’Île-de-France dit explicitement que la Tour Eiffel se trouve à Paris.",
+        "La fiche Île-de-France place Paris au centre de la région concernée."
+      ]
+    },
+    {
+      "questionId": "cspx098",
+      "questionText": "Quand célèbre-t-on Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Aucune fiche lue ne mentionne Noël ni la date du 25 décembre.",
+        "Sans fiche dédiée aux fêtes du calendrier, aucun lien justifié ne peut être retenu."
+      ]
+    },
+    {
+      "questionId": "cspx099",
+      "questionText": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "reasons": [
+        "La fiche des numéros d’urgence indique explicitement que le 18 permet d’appeler les pompiers."
+      ]
+    },
+    {
+      "questionId": "cspx100",
+      "questionText": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile"
+      ],
+      "reasons": [
+        "La fiche sur le permis dit qu’une fois le permis obtenu, il faut prendre une assurance avant de pouvoir conduire sa voiture.",
+        "La fiche sur l’assurance responsabilité civile confirme que l’assurance automobile est obligatoire."
+      ]
+    },
+    {
+      "questionId": "cspx101",
+      "questionText": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage"
+      ],
+      "reasons": [
+        "La fiche indique que le mariage civil est le seul mariage reconnu en France.",
+        "Elle précise les conditions : majorité sauf exception, absence de lien de parenté ou d’alliance interdit, et consentement libre et éclairé."
+      ]
+    },
+    {
+      "questionId": "cspx102",
+      "questionText": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance"
+      ],
+      "reasons": [
+        "La fiche sur la déclaration de naissance indique qu’elle doit être faite dans les 5 jours qui suivent la naissance.",
+        "Elle précise que la déclaration se fait à la mairie du lieu de naissance pour établir l’acte de naissance."
+      ]
+    },
+    {
+      "questionId": "cspx103",
+      "questionText": "Le travail non déclaré est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "reasons": [
+        "La fiche définit le travail non déclaré comme une activité professionnelle sans déclaration officielle.",
+        "Elle précise que le travail non déclaré, appelé aussi travail dissimulé, est interdit par la loi."
+      ]
+    }
+  ]
+}

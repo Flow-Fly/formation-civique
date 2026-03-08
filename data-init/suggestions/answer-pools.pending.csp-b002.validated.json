@@ -1,0 +1,1988 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "batchId": "csp-b002",
+  "generatedAt": "2026-03-07T19:20:13.082Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx017",
+      "questionText": "Quelle proposition est correcte ? La liberté d'expression :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "principes-et-valeurs--la-laicite--le-blaspheme"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "principes-et-valeurs--la-laicite--le-blaspheme",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "principes-et-valeurs--la-laicite--le-blaspheme"
+        ],
+        "correct": [
+          "est un droit fondamental, mais elle a des limites."
+        ],
+        "distractors": [
+          "est interdite quand elle parle de religion.",
+          "est réservée aux citoyens français majeurs.",
+          "permet d'insulter librement une personne."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "est un droit fondamental, mais elle a des limites.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+                "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+                "quote": "En France, la liberté d’expression est un droit fondamental."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "la-liberte-qu-est-ce-que-c-est",
+                "sectionTitle": "La liberté : qu’est-ce que c’est ?",
+                "quote": "L’État français protège cette liberté et pose les limites pour que la liberté des uns n'empêche pas celle des autres."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+            "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+            "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+            "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+            "quote": "En France, la liberté d’expression est un droit fondamental."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+            "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+            "sectionId": "quelles-sont-les-limites",
+            "sectionTitle": "Quelles sont les limites ?",
+            "quote": "Au nom de la liberté d'expression, même si le blasphème n’est pas interdit, on ne peut pas dire tout et n’importe quoi."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 50,
+          "distractorCharLengths": [
+            43,
+            43,
+            41
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            7,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.1811023622047243,
+          "tokenLengthRatio": 1.4210526315789473,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.322Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx018",
+      "questionText": "Quelles sont les couleurs du drapeau français ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+        ],
+        "correct": [
+          "Bleu, blanc et rouge"
+        ],
+        "distractors": [
+          "Vert, blanc et rouge",
+          "Bleu, jaune et rouge",
+          "Bleu, blanc et vert"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Bleu, blanc et rouge",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+                "sectionId": "les-couleurs",
+                "sectionTitle": "Les couleurs",
+                "quote": "Le drapeau est composé de trois bandes verticales : bleu, blanc et rouge."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+            "sectionId": "les-couleurs",
+            "sectionTitle": "Les couleurs",
+            "quote": "Le drapeau est composé de trois bandes verticales : bleu, blanc et rouge."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 20,
+          "distractorCharLengths": [
+            20,
+            20,
+            19
+          ],
+          "correctTokenLength": 4,
+          "distractorTokenLengths": [
+            4,
+            4,
+            4
+          ],
+          "charLengthRatio": 1.0169491525423728,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.323Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx016",
+      "questionText": "Qu'est-ce que la Marseillaise ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "correct": [
+          "L'hymne national de la France"
+        ],
+        "distractors": [
+          "La devise officielle de la République",
+          "Le drapeau tricolore de l’État",
+          "La fête nationale du 14 juillet"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L'hymne national de la France",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+                "sectionId": "le-titre-de-l-hymne-francais",
+                "sectionTitle": "Le titre de l’hymne français",
+                "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+            "sectionId": "le-titre-de-l-hymne-francais",
+            "sectionTitle": "Le titre de l’hymne français",
+            "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 29,
+          "distractorCharLengths": [
+            37,
+            30,
+            31
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            6,
+            6
+          ],
+          "charLengthRatio": 0.8877551020408164,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.323Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx019",
+      "questionText": "Qu'est ce qui est traditionnellement organisé sur les Champs Élysées le 14 juillet pour célébrer la fête nationale ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "correct": [
+          "Un défilé militaire"
+        ],
+        "distractors": [
+          "Un conseil des ministres",
+          "Un vote du Parlement",
+          "Un forum des associations"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un défilé militaire",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+                "sectionId": "quelle-est-la-signification-de-cette-journee",
+                "sectionTitle": "Quelle est la signification de cette journée ?",
+                "quote": "C’est un moment institutionnel qui rappelle les fondements de la République : un défilé militaire a lieu à Paris, sur les Champs-Élysées, en présence du président de la République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+            "sectionId": "quelle-est-la-signification-de-cette-journee",
+            "sectionTitle": "Quelle est la signification de cette journée ?",
+            "quote": "C’est un moment institutionnel qui rappelle les fondements de la République : un défilé militaire a lieu à Paris, sur les Champs-Élysées, en présence du président de la République."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 19,
+          "distractorCharLengths": [
+            24,
+            20,
+            25
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            4,
+            4,
+            4
+          ],
+          "charLengthRatio": 0.8260869565217391,
+          "tokenLengthRatio": 0.75,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.323Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx020",
+      "questionText": "Qui est Marianne ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "correct": [
+          "La figure qui représente la République."
+        ],
+        "distractors": [
+          "La devise qui résume la République.",
+          "Le chant qui accompagne la République.",
+          "La date qui célèbre la République."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La figure qui représente la République.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+                "sectionId": "que-signifie-le-symbole-marianne",
+                "sectionTitle": "Que signifie le symbole Marianne ?",
+                "quote": "La figure de Marianne apparaît pendant la Révolution française pour représenter la République."
+              },
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+                "sectionId": "que-signifie-le-symbole-marianne",
+                "sectionTitle": "Que signifie le symbole Marianne ?",
+                "quote": "De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+            "sectionId": "que-signifie-le-symbole-marianne",
+            "sectionTitle": "Que signifie le symbole Marianne ?",
+            "quote": "La figure de Marianne apparaît pendant la Révolution française pour représenter la République."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "person",
+          "correctCharLength": 39,
+          "distractorCharLengths": [
+            35,
+            38,
+            34
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.0934579439252337,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.323Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx021",
+      "questionText": "Une personne peut-elle changer librement de religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2"
+        ],
+        "correct": [
+          "Oui, chacun peut en changer librement."
+        ],
+        "distractors": [
+          "Oui, seulement à sa majorité.",
+          "Non, c'est interdit par la loi.",
+          "Non, sauf avec l'accord de l'État."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, chacun peut en changer librement.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-2-2",
+                "sectionTitle": "La définition de la laïcité (2/2)",
+                "quote": "Ne pas avoir de religion ou choisir de ne plus avoir de religion est aussi un droit."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 38,
+          "distractorCharLengths": [
+            29,
+            31,
+            34
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            5,
+            7,
+            8
+          ],
+          "charLengthRatio": 1.2127659574468086,
+          "tokenLengthRatio": 0.8999999999999999,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.323Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx022",
+      "questionText": "\"La France est une République indivisible, ..., démocratique et sociale\". Complétez cette phrase extraite de l'article 1er de la Constitution :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "correct": [
+          "laïque"
+        ],
+        "distractors": [
+          "fédérale",
+          "parlementaire",
+          "souveraine"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "laïque",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La laïcité n'est pas une opinion : c'est un principe constitutionnel. L'article 1 de la Constitution de 1958 précise que \"La France est une République indivisible, laïque, démocratique et sociale\"."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité n'est pas une opinion : c'est un principe constitutionnel. L'article 1 de la Constitution de 1958 précise que \"La France est une République indivisible, laïque, démocratique et sociale\"."
+          }
+        ],
+        "qualityFlags": [
+          "weak_distractors",
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 6,
+          "distractorCharLengths": [
+            8,
+            13,
+            10
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 0.5806451612903225,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": true,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "obvious_length_cue"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.323Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx023",
+      "questionText": "Que permet le principe de laïcité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "correct": [
+          "La liberté de conscience pour tous."
+        ],
+        "distractors": [
+          "La priorité donnée à un culte.",
+          "Le contrôle public des croyances.",
+          "L'obligation d'avoir une religion."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La liberté de conscience pour tous.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-2-2",
+                "sectionTitle": "La laïcité à l'école (2/2)",
+                "quote": "Au contraire, la laïcité a un but positif : permettre à chaque personne d’être libre de toute contrainte dans sa façon de penser, de vivre, de croire ou de ne pas croire à une religion."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 35,
+          "distractorCharLengths": [
+            30,
+            33,
+            34
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            5,
+            6
+          ],
+          "charLengthRatio": 1.0824742268041236,
+          "tokenLengthRatio": 1.0588235294117647,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx024",
+      "questionText": "Quel droit est garanti par la laïcité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "correct": [
+          "Le droit de croire ou de ne pas croire."
+        ],
+        "distractors": [
+          "Le droit de voter avant 18 ans.",
+          "Le droit de choisir les juges.",
+          "Le droit d'ignorer les lois."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le droit de croire ou de ne pas croire.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-2-2",
+                "sectionTitle": "La définition de la laïcité (2/2)",
+                "quote": "Ne pas avoir de religion ou choisir de ne plus avoir de religion est aussi un droit."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 39,
+          "distractorCharLengths": [
+            31,
+            30,
+            28
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            7,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.3146067415730336,
+          "tokenLengthRatio": 1.4210526315789473,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "evidence_outside_shortlist"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "answer evidence references fiche outside shortlist: principes-et-valeurs--la-laicite--definition-laicite-2"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx022",
+      "questionText": "Pourquoi le principe de laïcité doit-il être respecté à l'école ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "correct": [
+          "Pour permettre à chaque élève de penser librement."
+        ],
+        "distractors": [
+          "Pour imposer la même religion à tous.",
+          "Pour supprimer tous les débats en classe.",
+          "Pour laisser les cultes fixer les programmes."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Pour permettre à chaque élève de penser librement.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-1-2",
+                "sectionTitle": "La laïcité à l'école (1/2)",
+                "quote": "Les écoles publiques sont neutres vis-à-vis des religions. Cette neutralité permet à chaque élève de penser librement et de construire lui-même ses opinions."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-1-2",
+            "sectionTitle": "La laïcité à l'école (1/2)",
+            "quote": "Les écoles publiques sont neutres vis-à-vis des religions. Cette neutralité permet à chaque élève de penser librement et de construire lui-même ses opinions."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 50,
+          "distractorCharLengths": [
+            37,
+            41,
+            45
+          ],
+          "correctTokenLength": 8,
+          "distractorTokenLengths": [
+            7,
+            7,
+            7
+          ],
+          "charLengthRatio": 1.2195121951219512,
+          "tokenLengthRatio": 1.1428571428571428,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx024",
+      "questionText": "Un enfant peut-il refuser d’aller à l’école pour une raison religieuse ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "correct": [
+          "Non, pour aucun motif religieux."
+        ],
+        "distractors": [
+          "Oui, avec l'accord des parents.",
+          "Oui, pour un cours de sport.",
+          "Oui, pendant une fête religieuse."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, pour aucun motif religieux.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-1-2",
+                "sectionTitle": "La laïcité à l'école (1/2)",
+                "quote": "Il n’est pas possible de refuser de suivre un cours prévu dans le programme (sports, sortie scolaire...) pour des motifs religieux."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-2-2",
+                "sectionTitle": "La laïcité à l'école (2/2)",
+                "quote": "À l’école, il n’est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-2-2",
+            "sectionTitle": "La laïcité à l'école (2/2)",
+            "quote": "À l’école, il n’est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 32,
+          "distractorCharLengths": [
+            31,
+            28,
+            33
+          ],
+          "correctTokenLength": 5,
+          "distractorTokenLengths": [
+            6,
+            6,
+            5
+          ],
+          "charLengthRatio": 1.0434782608695652,
+          "tokenLengthRatio": 0.8823529411764706,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx023",
+      "questionText": "Une personne a-t-elle le droit de ne pas croire en une religion ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2"
+        ],
+        "correct": [
+          "Oui, ne pas croire est un droit."
+        ],
+        "distractors": [
+          "Oui, mais seulement en privé.",
+          "Non, il faut choisir une religion.",
+          "Non, il faut garder celle des parents."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, ne pas croire est un droit.",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-2-2",
+                "sectionTitle": "La définition de la laïcité (2/2)",
+                "quote": "Ne pas avoir de religion ou choisir de ne plus avoir de religion est aussi un droit."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-2-2",
+            "sectionTitle": "La définition de la laïcité (2/2)",
+            "quote": "Ne pas avoir de religion ou choisir de ne plus avoir de religion est aussi un droit."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 32,
+          "distractorCharLengths": [
+            29,
+            34,
+            38
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            5,
+            6,
+            7
+          ],
+          "charLengthRatio": 0.9504950495049506,
+          "tokenLengthRatio": 1.1666666666666667,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx039",
+      "questionText": "Qui nomme le Premier ministre ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "Le président de la République"
+        ],
+        "distractors": [
+          "Le président de l'Assemblée nationale",
+          "Le président du Sénat",
+          "Le Conseil des ministres"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le président de la République",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "Le président de la République, élu pour 5 ans au suffrage universel directement par les citoyens français. Il nomme le Premier ministre selon la majorité ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "Il nomme le Premier ministre selon la majorité ;"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "institution",
+          "correctCharLength": 29,
+          "distractorCharLengths": [
+            37,
+            21,
+            24
+          ],
+          "correctTokenLength": 5,
+          "distractorTokenLengths": [
+            6,
+            4,
+            4
+          ],
+          "charLengthRatio": 1.0609756097560976,
+          "tokenLengthRatio": 1.0714285714285714,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx054",
+      "questionText": "Le Parlement est composé :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "de l'Assemblée nationale et du Sénat"
+        ],
+        "distractors": [
+          "du président et du Gouvernement",
+          "des maires et des préfets",
+          "des juges et des procureurs"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "de l'Assemblée nationale et du Sénat",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "L’Assemblée nationale et le Sénat forment le Parlement."
+              },
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le pouvoir législatif est exercé par le Parlement, composé de 2 entités, qu’on appelle “chambres” :"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "L’Assemblée nationale et le Sénat forment le Parlement."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 36,
+          "distractorCharLengths": [
+            31,
+            25,
+            27
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            5,
+            5,
+            5
+          ],
+          "charLengthRatio": 1.3012048192771084,
+          "tokenLengthRatio": 1.4,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx025",
+      "questionText": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "qui applique et fait respecter les lois"
+        ],
+        "distractors": [
+          "qui vote et négocie les lois",
+          "qui juge et rend la justice",
+          "qui contrôle les autorités publiques"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "qui applique et fait respecter les lois",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le président de la République et le Gouvernement appliquent et font respecter les lois (créées par le pouvoir législatif)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "Le pouvoir exécutif est exercé par :"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 39,
+          "distractorCharLengths": [
+            28,
+            27,
+            36
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            6,
+            6,
+            5
+          ],
+          "charLengthRatio": 1.2857142857142858,
+          "tokenLengthRatio": 1.2352941176470587,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx026",
+      "questionText": "Les dirigeants sont élus par les citoyens dans :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "une démocratie"
+        ],
+        "distractors": [
+          "une dictature",
+          "une monarchie",
+          "un empire"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "une démocratie",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-1-2",
+                "sectionTitle": "La démocratie et la République (1/2)",
+                "quote": "La démocratie est le régime politique dans lequel le pouvoir appartient au peuple sans distinction de sexe, de religion, de richesse ou d'origine sociale."
+              },
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-1-2",
+                "sectionTitle": "La démocratie et la République (1/2)",
+                "quote": "La France est une démocratie dans le sens où le pouvoir vient du peuple : les citoyens votent pour choisir leurs représentants au suffrage universel."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-1-2",
+            "sectionTitle": "La démocratie et la République (1/2)",
+            "quote": "La France est une démocratie dans le sens où le pouvoir vient du peuple : les citoyens votent pour choisir leurs représentants au suffrage universel."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 14,
+          "distractorCharLengths": [
+            13,
+            13,
+            9
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 1.2,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx027",
+      "questionText": "Qui doit respecter la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+        ],
+        "correct": [
+          "Tout le monde, y compris l'État."
+        ],
+        "distractors": [
+          "Seulement les citoyens majeurs.",
+          "Seulement les élus du Parlement.",
+          "Seulement les agents publics."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Tout le monde, y compris l'État.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "l-etat-de-droit-c-est-quoi",
+                "sectionTitle": "L’État de droit, c’est quoi ?",
+                "quote": "Un État de droit est un système dans lequel la loi est la même pour tous, y compris pour l’État."
+              },
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+                "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+                "quote": "Tout le monde doit respecter les lois."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+            "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+            "quote": "Tout le monde doit respecter les lois."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 32,
+          "distractorCharLengths": [
+            31,
+            32,
+            29
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            4,
+            5,
+            4
+          ],
+          "charLengthRatio": 1.0434782608695652,
+          "tokenLengthRatio": 1.6153846153846154,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.324Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx028",
+      "questionText": "Quel est le rôle de l'autorité judiciaire ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+        ],
+        "correct": [
+          "Appliquer les lois et rendre la justice."
+        ],
+        "distractors": [
+          "Voter les lois et les négocier.",
+          "Diriger le pays et l'administration.",
+          "Élire les députés et les sénateurs."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Appliquer les lois et rendre la justice.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Les juges et les magistrats appliquent les lois. Ils jugent et rendent la justice."
+              },
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (2/2)",
+                "quote": "La justice protège, décide et sanctionne impartialement."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "Les juges et les magistrats appliquent les lois. Ils jugent et rendent la justice."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "institution",
+          "correctCharLength": 40,
+          "distractorCharLengths": [
+            31,
+            36,
+            35
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            6,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.1764705882352942,
+          "tokenLengthRatio": 1.1666666666666667,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.325Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx029",
+      "questionText": "Quel pouvoir détient un juge ? Le pouvoir :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "judiciaire"
+        ],
+        "distractors": [
+          "législatif",
+          "exécutif",
+          "municipal"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "judiciaire",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+                "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+                "quote": "En France, la séparation des 3 pouvoirs signifie que les pouvoirs législatif (le Parlement vote les lois), exécutif (le Gouvernement applique et fait respecter la loi) et judiciaire (l’autorité judiciaire contrôle l’application des lois) ne sont pas entre les mains des mêmes personnes."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "L'autorité judiciaire, c’est quoi ?"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 10,
+          "distractorCharLengths": [
+            10,
+            8,
+            9
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 1.1111111111111112,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.326Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx030",
+      "questionText": "L'autorité judiciaire est exercée par :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "les juges et les magistrats"
+        ],
+        "distractors": [
+          "les députés et les sénateurs",
+          "le président et les ministres",
+          "les maires et les préfets"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "les juges et les magistrats",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "L'autorité judiciaire est exercée par les juges et les magistrats (recrutés par concours et non choisis par le pouvoir)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "L'autorité judiciaire est exercée par les juges et les magistrats (recrutés par concours et non choisis par le pouvoir)."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 27,
+          "distractorCharLengths": [
+            28,
+            29,
+            25
+          ],
+          "correctTokenLength": 5,
+          "distractorTokenLengths": [
+            5,
+            5,
+            5
+          ],
+          "charLengthRatio": 0.9878048780487805,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:00.326Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [],
+  "validatedAt": "2026-03-08T16:05:14.779Z",
+  "validationSummary": {
+    "total": 20,
+    "valid": 20,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 1
+  },
+  "appliedAt": "2026-03-08T16:08:00.326Z",
+  "applySummary": {
+    "applied": 20,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": true
+  }
+}

@@ -1,0 +1,1086 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "batchId": "cr-b006",
+  "generatedAt": "2026-03-07T20:17:17.882Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx101",
+      "questionText": "Quel roi de France a été exécuté pendant la Révolution française ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804"
+        ],
+        "correct": [
+          "Louis XVI"
+        ],
+        "distractors": [
+          "Louis XIV",
+          "Louis XV",
+          "Louis XVIII"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Louis XVI",
+            "normalizedAnswer": "Louis XVI",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+                "sectionId": "la-iere-republique-1792-1804",
+                "sectionTitle": "La Ière République (1792-1804)",
+                "quote": "Louis XVI est ainsi exécuté en 1793."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+            "sectionId": "la-iere-republique-1792-1804",
+            "sectionTitle": "La Ière République (1792-1804)",
+            "quote": "Louis XVI est ainsi exécuté en 1793."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx102",
+      "questionText": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-2"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah",
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-2"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah"
+        ],
+        "correct": [
+          "Pour comprendre les conséquences de la haine, du racisme et de l’antisémitisme"
+        ],
+        "distractors": [
+          "Pour comparer les stratégies militaires des armées européennes",
+          "Pour expliquer la création des institutions de la Ve République",
+          "Pour retracer le développement des grands ports français"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Pour comprendre les conséquences de la haine, du racisme et de l’antisémitisme",
+            "normalizedAnswer": "Pour comprendre les conséquences de la haine, du racisme et de l’antisémitisme",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah",
+                "contentPath": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah.md",
+                "sectionId": "pourquoi-se-souvenir-de-la-shoah",
+                "sectionTitle": "Pourquoi se souvenir de la Shoah ?",
+                "quote": "On étudie aujourd’hui la Shoah à l’école pour comprendre les conséquences de la haine, du racisme et de l’antisémitisme, et pour rappeler l’importance du devoir de mémoire."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah",
+            "contentPath": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah.md",
+            "sectionId": "pourquoi-se-souvenir-de-la-shoah",
+            "sectionTitle": "Pourquoi se souvenir de la Shoah ?",
+            "quote": "On étudie aujourd’hui la Shoah à l’école pour comprendre les conséquences de la haine, du racisme et de l’antisémitisme, et pour rappeler l’importance du devoir de mémoire."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx103",
+      "questionText": "Quel pays a été colonisé par la France ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+        ],
+        "correct": [
+          "Madagascar"
+        ],
+        "distractors": [
+          "La Norvège",
+          "La Suède",
+          "Le Danemark"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Madagascar",
+            "normalizedAnswer": "Madagascar",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation.md",
+                "sectionId": "dates-cles",
+                "sectionTitle": "Dates clés",
+                "quote": "1960 : indépendance des colonies françaises d’Afrique ainsi que Madagascar."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation.md",
+            "sectionId": "dates-cles",
+            "sectionTitle": "Dates clés",
+            "quote": "1960 : indépendance des colonies françaises d’Afrique ainsi que Madagascar."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx104",
+      "questionText": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+          "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+          "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+        ],
+        "correct": [
+          "François Mitterrand"
+        ],
+        "distractors": [
+          "Georges Pompidou",
+          "Valéry Giscard d’Estaing",
+          "Jacques Chirac"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "François Mitterrand",
+            "normalizedAnswer": "François Mitterrand",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+                "contentPath": "histoire-geographie-culture/la-veme-republique/focus-sur-la-cinquieme-republique-5.md",
+                "sectionId": "quand-la-peine-de-mort-a-t-elle-ete-abolie",
+                "sectionTitle": "Quand la peine de mort a-t-elle été abolie ?",
+                "quote": "C’est Robert Badinter, qui était ministre de la Justice de François Mitterrand, le président de la République à ce moment-là, qui a soutenu cette abolition totale."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+                "contentPath": "histoire-geographie-culture/la-veme-republique/les-presidents-de-la-cinquieme-republique.md",
+                "sectionId": "francois-mitterrand",
+                "sectionTitle": "François Mitterrand",
+                "quote": "- Abolition de la peine de mort."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+            "contentPath": "histoire-geographie-culture/la-veme-republique/focus-sur-la-cinquieme-republique-5.md",
+            "sectionId": "quand-la-peine-de-mort-a-t-elle-ete-abolie",
+            "sectionTitle": "Quand la peine de mort a-t-elle été abolie ?",
+            "quote": "En 1981, sous la Vème République, la peine de mort est totalement abolie."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx105",
+      "questionText": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+        ],
+        "correct": [
+          "La Ière République"
+        ],
+        "distractors": [
+          "Le Consulat",
+          "Le 1er Empire",
+          "La monarchie constitutionnelle"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Ière République",
+            "normalizedAnswer": "La Ière République",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+                "sectionId": "la-iere-republique-1792-1804",
+                "sectionTitle": "La Ière République (1792-1804)",
+                "quote": "La Ière République est la période qui succède à la monarchie constitutionnelle. Héritière de la Révolution française, elle est proclamée le 22 septembre 1792."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+            "sectionId": "la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+            "sectionTitle": "La fin de la monarchie absolue et le début de la Ière République (1789-1792)",
+            "quote": "Entre 1789 et 1792, la France connaît plusieurs années de transition politique qui mèneront de la monarchie à la République."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx106",
+      "questionText": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1"
+        ],
+        "correct": [
+          "L’ONU"
+        ],
+        "distractors": [
+          "L’OTAN",
+          "La CEE",
+          "Le G7"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’ONU",
+            "normalizedAnswer": "L’ONU",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences.md",
+                "sectionId": "quelles-sont-les-consequences-de-la-seconde-guerre-mondiale",
+                "sectionTitle": "Quelles sont les conséquences de la Seconde Guerre mondiale ?",
+                "quote": "création de l’ONU en 1945 pour maintenir la paix"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences.md",
+            "sectionId": "quelles-sont-les-consequences-de-la-seconde-guerre-mondiale",
+            "sectionTitle": "Quelles sont les conséquences de la Seconde Guerre mondiale ?",
+            "quote": "création de l’ONU en 1945 pour maintenir la paix"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx107",
+      "questionText": "Quelle peine a été supprimée en 1981 ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+          "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5"
+        ],
+        "correct": [
+          "La peine de mort"
+        ],
+        "distractors": [
+          "La peine d’amende",
+          "La peine de prison",
+          "La peine de sursis"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La peine de mort",
+            "normalizedAnswer": "La peine de mort",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+                "contentPath": "histoire-geographie-culture/la-veme-republique/focus-sur-la-cinquieme-republique-5.md",
+                "sectionId": "quand-la-peine-de-mort-a-t-elle-ete-abolie",
+                "sectionTitle": "Quand la peine de mort a-t-elle été abolie ?",
+                "quote": "En 1981, sous la Vème République, la peine de mort est totalement abolie."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5",
+            "contentPath": "histoire-geographie-culture/la-veme-republique/focus-sur-la-cinquieme-republique-5.md",
+            "sectionId": "quand-la-peine-de-mort-a-t-elle-ete-abolie",
+            "sectionTitle": "Quand la peine de mort a-t-elle été abolie ?",
+            "quote": "En 1981, sous la Vème République, la peine de mort est totalement abolie."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx108",
+      "questionText": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "date_year",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+        ],
+        "correct": [
+          "2002"
+        ],
+        "distractors": [
+          "1992",
+          "1995",
+          "2004"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "2002",
+            "normalizedAnswer": "2002",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne.md",
+                "sectionId": "comment-l-union-europeenne-s-est-elle-construite",
+                "sectionTitle": "Comment l’Union européenne s’est-elle construite ?",
+                "quote": "en 2002, l’euro devient la monnaie officielle de plusieurs pays membres."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne.md",
+            "sectionId": "comment-l-union-europeenne-s-est-elle-construite",
+            "sectionTitle": "Comment l’Union européenne s’est-elle construite ?",
+            "quote": "en 2002, l’euro devient la monnaie officielle de plusieurs pays membres."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx109",
+      "questionText": "En quelle année a commencé la Première Guerre mondiale ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-2"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "date_year",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-2"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+        ],
+        "correct": [
+          "1914"
+        ],
+        "distractors": [
+          "1915",
+          "1916",
+          "1918"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "1914",
+            "normalizedAnswer": "1914",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1.md",
+                "sectionId": "quelles-sont-les-grandes-phases-de-la-premiere-guerre-mondiale",
+                "sectionTitle": "Quelles sont les grandes phases de la Première Guerre mondiale ?",
+                "quote": "La Première Guerre mondiale est officiellement déclarée en août 1914."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1.md",
+            "sectionId": "dates-cles",
+            "sectionTitle": "Dates clés",
+            "quote": "Dates de la Première Guerre mondiale : 1914-1918."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx110",
+      "questionText": "Où a eu lieu le débarquement en 1944 ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+          "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+          "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+        ],
+        "correct": [
+          "La Normandie"
+        ],
+        "distractors": [
+          "La Bretagne",
+          "L’Alsace",
+          "La Corse"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Normandie",
+            "normalizedAnswer": "La Normandie",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/seconde-guerre-mondiale.md",
+                "sectionId": "comment-la-seconde-guerre-mondiale-prend-elle-fin",
+                "sectionTitle": "Comment la Seconde Guerre mondiale prend-elle fin ?",
+                "quote": "Le 6 juin 1944, le débarquement des Alliés en Normandie marque le début de la Libération de la France et de l'Europe."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+            "contentPath": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-libération.md",
+            "sectionId": "comment-est-liberee-la-france",
+            "sectionTitle": "Comment est libérée la France ?",
+            "quote": "La libération de la France s’accélère en 1944 avec le débarquement allié en Normandie en juin"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx111",
+      "questionText": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+        ],
+        "correct": [
+          "L’Afrique"
+        ],
+        "distractors": [
+          "L’Asie",
+          "L’Europe",
+          "L’Océanie"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’Afrique",
+            "normalizedAnswer": "L’Afrique",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation.md",
+                "sectionId": "comment-les-colonies-deviennent-elles-independantes",
+                "sectionTitle": "Comment les colonies deviennent-elles indépendantes ?",
+                "quote": "Exemple : l’Afrique subsaharienne française obtient l’indépendance en 1960."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation.md",
+                "sectionId": "dates-cles",
+                "sectionTitle": "Dates clés",
+                "quote": "1960 : indépendance des colonies françaises d’Afrique ainsi que Madagascar."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation.md",
+            "sectionId": "comment-les-colonies-deviennent-elles-independantes",
+            "sectionTitle": "Comment les colonies deviennent-elles indépendantes ?",
+            "quote": "Exemple : l’Afrique subsaharienne française obtient l’indépendance en 1960."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx112",
+      "questionText": "Que fête-t-on le 8 mai ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+          "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+          "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+        ],
+        "correct": [
+          "La fin de la guerre en Europe"
+        ],
+        "distractors": [
+          "L’armistice de 1918",
+          "La fête nationale",
+          "La Libération de Paris"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La fin de la guerre en Europe",
+            "normalizedAnswer": "La fin de la guerre en Europe",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+                "contentPath": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-libération.md",
+                "sectionId": "comment-est-liberee-la-france",
+                "sectionTitle": "Comment est libérée la France ?",
+                "quote": "La guerre se termine le 8 mai 1945 en Europe avec la capitulation de l’Allemagne."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+            "contentPath": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-libération.md",
+            "sectionId": "comment-est-liberee-la-france",
+            "sectionTitle": "Comment est libérée la France ?",
+            "quote": "La guerre se termine le 8 mai 1945 en Europe avec la capitulation de l’Allemagne."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx113",
+      "questionText": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "correct": [
+          "La Belgique"
+        ],
+        "distractors": [
+          "Le Portugal",
+          "Le Danemark",
+          "L’Irlande"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Belgique",
+            "normalizedAnswer": "La Belgique",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+                "contentPath": "histoire-geographie-culture/atlas-de-la-france/les-frontieres-de-la-france.md",
+                "sectionId": "quelles-sont-les-frontieres-de-la-france",
+                "sectionTitle": "Quelles sont les frontières de la France ?",
+                "quote": "En Europe, la France partage des frontières terrestres avec 8 pays : la Belgique, le Luxembourg, l’Allemagne, la Suisse, l’Italie et l’Espagne, ainsi que les principautés d’Andorre et de Monaco."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+            "sectionId": "quelle-est-la-position-geographique-de-la-france-en-europe",
+            "sectionTitle": "Quelle est la position géographique de la France en Europe ?",
+            "quote": "Elle partage ses frontières terrestres avec 8 pays européens :"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx114",
+      "questionText": "Quelle ville française est un port maritime ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+        ],
+        "correct": [
+          "Marseille"
+        ],
+        "distractors": [
+          "Toulouse",
+          "Limoges",
+          "Dijon"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Marseille",
+            "normalizedAnswer": "Marseille",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/les-ports-francais.md",
+                "sectionId": "ou-sont-situes-les-grands-ports-francais",
+                "sectionTitle": "Où sont situés les grands ports français ?",
+                "quote": "7 grands ports en France métropolitaine : Dunkerque, Le Havre, Rouen, Nantes Saint-Nazaire, La Rochelle, Bordeaux et Marseille."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/les-ports-francais.md",
+            "sectionId": "ou-sont-situes-les-grands-ports-francais",
+            "sectionTitle": "Où sont situés les grands ports français ?",
+            "quote": "La France compte 66 ports de commerce maritime, dont 12 ports d’État"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx116",
+      "questionText": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "correct": [
+          "L’Allemagne"
+        ],
+        "distractors": [
+          "Le Portugal",
+          "La Pologne",
+          "La Suède"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’Allemagne",
+            "normalizedAnswer": "L’Allemagne",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+                "sectionId": "quelle-est-la-position-geographique-de-la-france-en-europe",
+                "sectionTitle": "Quelle est la position géographique de la France en Europe ?",
+                "quote": "3. l’Allemagne ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+            "contentPath": "histoire-geographie-culture/atlas-de-la-france/les-frontieres-de-la-france.md",
+            "sectionId": "quelles-sont-les-frontieres-de-la-france",
+            "sectionTitle": "Quelles sont les frontières de la France ?",
+            "quote": "En Europe, la France partage des frontières terrestres avec 8 pays"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx118",
+      "questionText": "Où se trouvent les principales activités économiques en France ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation"
+        ],
+        "correct": [
+          "Dans les métropoles"
+        ],
+        "distractors": [
+          "Dans les zones rurales",
+          "Dans les massifs montagneux",
+          "Dans les villages isolés"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Dans les métropoles",
+            "normalizedAnswer": "Dans les métropoles",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+                "contentPath": "histoire-geographie-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation.md",
+                "sectionId": "qu-est-ce-que-la-metropolisation",
+                "sectionTitle": "Qu’est-ce que la métropolisation ?",
+                "quote": "En France, la population, les principales activités économiques, les emplois, les richesses et les services sont donc concentrés dans les métropoles."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+            "contentPath": "histoire-geographie-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation.md",
+            "sectionId": "qu-est-ce-que-la-metropolisation",
+            "sectionTitle": "Qu’est-ce que la métropolisation ?",
+            "quote": "les principales activités économiques, les emplois, les richesses et les services sont donc concentrés dans les métropoles"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx119",
+      "questionText": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique"
+        ],
+        "correct": [
+          "La France"
+        ],
+        "distractors": [
+          "L’Italie",
+          "L’Espagne",
+          "L’Allemagne"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La France",
+            "normalizedAnswer": "La France",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/une-puissance-touristique.md",
+                "sectionId": "quels-sont-les-atouts-touristiques-de-la-france",
+                "sectionTitle": "Quels sont les atouts touristiques de la France ?",
+                "quote": "La France est la première destination touristique au monde."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/une-puissance-touristique.md",
+            "sectionId": "quels-sont-les-atouts-touristiques-de-la-france",
+            "sectionTitle": "Quels sont les atouts touristiques de la France ?",
+            "quote": "La France est la première destination touristique au monde."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx120",
+      "questionText": "Où habite la majorité des Français ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+        "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+        "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+          "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+          "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+        ],
+        "correct": [
+          "Dans les aires urbaines"
+        ],
+        "distractors": [
+          "Dans les zones rurales",
+          "Dans les massifs montagneux",
+          "Dans les villages isolés"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Dans les aires urbaines",
+            "normalizedAnswer": "Dans les aires urbaines",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+                "contentPath": "histoire-geographie-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation.md",
+                "sectionId": "qu-est-ce-qu-une-aire-urbaine",
+                "sectionTitle": "Qu’est-ce qu’une aire urbaine ?",
+                "quote": "En France, environ 9 personnes sur 10 vivent dans une aire urbaine."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation",
+            "contentPath": "histoire-geographie-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation.md",
+            "sectionId": "qu-est-ce-qu-une-aire-urbaine",
+            "sectionTitle": "Qu’est-ce qu’une aire urbaine ?",
+            "quote": "La majorité de la population française vit en ville et plus précisément dans ce qu’on appelle des aires urbaines."
+          },
+          {
+            "ficheId": "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise",
+            "contentPath": "histoire-geographie-culture/atlas-de-la-france/la-demographie-francaise.md",
+            "sectionId": "comment-se-repartit-geographiquement-la-population",
+            "sectionTitle": "Comment se répartit géographiquement la population ?",
+            "quote": "Environ 81 % de la population vit en ville."
+          }
+        ],
+        "qualityFlags": []
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "questionId": "crx115",
+      "questionText": "Quelle île française se trouve dans l'océan Indien ?",
+      "questionProfile": "place",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--la-reunion",
+        "histoire-geographie-culture--les-regions-francaises--mayotte"
+      ],
+      "blockReason": "Les fiches liées indiquent toutes deux qu’une île française de l’océan Indien peut être correcte, sans élément pour en privilégier une seule entre La Réunion et Mayotte."
+    },
+    {
+      "questionId": "crx117",
+      "questionText": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+      "questionProfile": "place",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "blockReason": "Les fiches liées listent plusieurs voisins compatibles avec « au nord-est » et ne permettent pas d’isoler une réponse unique sans les options d’origine."
+    }
+  ]
+}

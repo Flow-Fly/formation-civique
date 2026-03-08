@@ -1,0 +1,1845 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "batchId": "cr-b001",
+  "generatedAt": "2026-03-07T15:06:39.357Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx001",
+      "questionText": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+        ],
+        "correct": [
+          "Faire du bénévolat dans une association"
+        ],
+        "distractors": [
+          "Renouveler son titre de séjour",
+          "Payer son loyer chaque mois",
+          "Changer d'adresse à la préfecture"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Faire du bénévolat dans une association",
+            "normalizedAnswer": "faire du benevolat dans une association",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/fraternite.md",
+                "sectionId": "la-fraternite-2-2",
+                "sectionTitle": "La fraternité (2/2)",
+                "quote": "mener une action pour les autres, sur son temps libre, sans être payé (bénévolat), par exemple pour une association"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--fraternite-2",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/fraternite.md",
+            "sectionId": "la-fraternite-2-2",
+            "sectionTitle": "La fraternité (2/2)",
+            "quote": "L’engagement est aussi une manière de participer à la vie collective, à la solidarité et à la démocratie."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 39,
+          "distractorCharLengths": [
+            30,
+            27,
+            33
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            5,
+            5,
+            6
+          ],
+          "charLengthRatio": 1.3,
+          "tokenLengthRatio": 1.125,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.377Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx002",
+      "questionText": "Que garantit la liberté d’expression ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--le-blaspheme",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--le-blaspheme",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+        ],
+        "correct": [
+          "Exprimer librement ses opinions par la parole et l'écrit"
+        ],
+        "distractors": [
+          "Tenir librement des propos haineux contre des personnes",
+          "Interdire toute critique publique d'une religion",
+          "Publier des appels publics à la discrimination"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Exprimer librement ses opinions par la parole et l'écrit",
+            "normalizedAnswer": "exprimer librement ses opinions par la parole et l ecrit",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+                "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+                "quote": "chacun a le droit d’avoir ses opinions, même religieuses"
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+                "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+                "quote": "chacun peut parler, écrire et publier librement."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+            "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+            "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+            "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+            "quote": "chacun peut parler, écrire et publier librement."
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+            "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+            "sectionId": "quelles-sont-les-limites",
+            "sectionTitle": "Quelles sont les limites ?",
+            "quote": "Au nom de la liberté d'expression, même si le blasphème n’est pas interdit, on ne peut pas dire tout et n’importe quoi."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 56,
+          "distractorCharLengths": [
+            55,
+            48,
+            46
+          ],
+          "correctTokenLength": 10,
+          "distractorTokenLengths": [
+            8,
+            7,
+            7
+          ],
+          "charLengthRatio": 1.12751677852349,
+          "tokenLengthRatio": 1.3636363636363638,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.383Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx003",
+      "questionText": "À quoi sert un titre de séjour ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france"
+        ],
+        "correct": [
+          "Résider légalement en France selon sa situation"
+        ],
+        "distractors": [
+          "Obtenir automatiquement la nationalité française",
+          "Voter à toutes les élections françaises",
+          "Circuler sans jamais renouveler ses papiers"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Résider légalement en France selon sa situation",
+            "normalizedAnswer": "resider legalement en france selon sa situation",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                "sectionId": "les-demarches-relatives-au-sejour-en-france",
+                "sectionTitle": "Les démarches relatives au séjour en France",
+                "quote": "Tout étranger doit disposer d’un titre de séjour valide qui correspond à sa situation."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+            "sectionId": "les-demarches-relatives-au-sejour-en-france",
+            "sectionTitle": "Les démarches relatives au séjour en France",
+            "quote": "Le type de titre de séjour varie en fonction de la durée et du motif (la raison) de l’installation en France."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 47,
+          "distractorCharLengths": [
+            48,
+            39,
+            43
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            5,
+            6,
+            6
+          ],
+          "charLengthRatio": 1.0846153846153845,
+          "tokenLengthRatio": 1.2352941176470587,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.383Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx004",
+      "questionText": "La liberté de circulation permet à toute personne de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "correct": [
+          "Se déplacer dans le territoire grâce à son titre de séjour"
+        ],
+        "distractors": [
+          "Ignorer les règles communes de circulation",
+          "Empêcher les autres de se déplacer",
+          "Décider seul des limites de l'ordre public"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Se déplacer dans le territoire grâce à son titre de séjour",
+            "normalizedAnswer": "se deplacer dans le territoire grace a son titre de sejour",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "les-differents-types-de-liberte",
+                "sectionTitle": "Les différents types de liberté",
+                "quote": "se déplacer dans le territoire grâce à son titre de séjour"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+            "sectionId": "les-differents-types-de-liberte",
+            "sectionTitle": "Les différents types de liberté",
+            "quote": "Il existe deux types de libertés : les libertés de chaque personne et les libertés qui concernent plusieurs personnes."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 58,
+          "distractorCharLengths": [
+            42,
+            34,
+            42
+          ],
+          "correctTokenLength": 11,
+          "distractorTokenLengths": [
+            6,
+            6,
+            8
+          ],
+          "charLengthRatio": 1.4745762711864405,
+          "tokenLengthRatio": 1.65,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.383Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx005",
+      "questionText": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+      "questionProfile": "website",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "website",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "correct": [
+          "info.gouv.fr"
+        ],
+        "distractors": [
+          "service-public.fr",
+          "ameli.fr",
+          "impots.gouv.fr"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "info.gouv.fr",
+            "normalizedAnswer": "info.gouv.fr",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+                "sectionId": "pour-aller-plus-loin",
+                "sectionTitle": "Pour aller plus loin",
+                "quote": "La petite histoire de Marianne info.gouv.fr"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+            "sectionId": "que-signifie-le-symbole-marianne",
+            "sectionTitle": "Que signifie le symbole Marianne ?",
+            "quote": "De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République."
+          },
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+            "sectionId": "pour-aller-plus-loin",
+            "sectionTitle": "Pour aller plus loin",
+            "quote": "La petite histoire de Marianne info.gouv.fr"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "website",
+          "correctCharLength": 12,
+          "distractorCharLengths": [
+            17,
+            8,
+            14
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 0.9230769230769231,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.383Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx007",
+      "questionText": "En application de la liberté individuelle, quelle proposition est correcte ? Une personne peut :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "correct": [
+          "Vivre avec la personne de son choix"
+        ],
+        "distractors": [
+          "Choisir la religion des autres personnes",
+          "Empêcher autrui d'exprimer une opinion",
+          "Refuser toute limite fixée par la loi"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Vivre avec la personne de son choix",
+            "normalizedAnswer": "vivre avec la personne de son choix",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "les-differents-types-de-liberte",
+                "sectionTitle": "Les différents types de liberté",
+                "quote": "vivre avec la personne de son choix"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+            "sectionId": "les-differents-types-de-liberte",
+            "sectionTitle": "Les différents types de liberté",
+            "quote": "les libertés de chaque personne : se déplacer dans le territoire grâce à son titre de séjour, avoir ou ne pas avoir une religion, exprimer une opinion, vivre avec la personne de son choix..."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 35,
+          "distractorCharLengths": [
+            40,
+            38,
+            37
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            6,
+            6,
+            7
+          ],
+          "charLengthRatio": 0.9130434782608695,
+          "tokenLengthRatio": 1.105263157894737,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.383Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx008",
+      "questionText": "Concernant la pratique de la religion, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "principes-et-valeurs--la-laicite--la-laicite-dans-espace-public"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+        "principes-et-valeurs--la-laicite--definition-laicite-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2",
+          "principes-et-valeurs--la-laicite--la-laicite-dans-espace-public"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+          "principes-et-valeurs--la-laicite--definition-laicite-2"
+        ],
+        "correct": [
+          "Pratiquer la religion de son choix"
+        ],
+        "distractors": [
+          "Imposer sa religion à toute sa famille",
+          "Troubler l'ordre public au nom de sa foi",
+          "Obliger les autres à suivre ses règles"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Pratiquer la religion de son choix",
+            "normalizedAnswer": "pratiquer la religion de son choix",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--definition-laicite-2",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-2-2",
+                "sectionTitle": "La définition de la laïcité (2/2)",
+                "quote": "Chaque personne a la liberté de pratiquer la religion de son choix, dans le respect des autres."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                "sectionId": "la-definition-de-la-laicite-1-2",
+                "sectionTitle": "La définition de la laïcité (1/2)",
+                "quote": "La liberté de conscience a pour conséquence la liberté de pratiquer une religion, sans troubler l’ordre public"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+            "contentPath": "principes-et-valeurs/la-laicite/definition-laicite.md",
+            "sectionId": "la-definition-de-la-laicite-1-2",
+            "sectionTitle": "La définition de la laïcité (1/2)",
+            "quote": "La laïcité garantit la liberté de conscience pour tous, c’est-à-dire que chaque personne est libre d’avoir ou de ne pas avoir de religion, d’en changer ou de ne plus en avoir."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 34,
+          "distractorCharLengths": [
+            38,
+            40,
+            38
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            7,
+            9,
+            7
+          ],
+          "charLengthRatio": 0.8793103448275863,
+          "tokenLengthRatio": 0.7826086956521738,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.383Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx009",
+      "questionText": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+          "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+          "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+        ],
+        "correct": [
+          "Non, un cours prévu au programme ne peut pas être refusé"
+        ],
+        "distractors": [
+          "Oui, un parent peut l’interdire pour raison religieuse",
+          "Oui, si le cours réunit des filles et des garçons",
+          "Oui, si l'élève préfère éviter le sport"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, un cours prévu au programme ne peut pas être refusé",
+            "normalizedAnswer": "non un cours prevu au programme ne peut pas etre refuse",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "la-laicite-a-l-ecole-1-2",
+                "sectionTitle": "La laïcité à l'école (1/2)",
+                "quote": "Il n’est pas possible de refuser de suivre un cours prévu dans le programme (sports, sortie scolaire...) pour des motifs religieux."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                "sectionId": "charte-de-la-laicite-a-l-ecole",
+                "sectionTitle": "Charte de la laïcité à l'école",
+                "quote": "Nul ne peut se prévaloir de son appartenance religieuse pour refuser de se conformer aux règles applicables dans l’École de la République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+            "contentPath": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+            "sectionId": "la-laicite-a-l-ecole-2-2",
+            "sectionTitle": "La laïcité à l'école (2/2)",
+            "quote": "À l’école, il n’est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 56,
+          "distractorCharLengths": [
+            54,
+            49,
+            39
+          ],
+          "correctTokenLength": 11,
+          "distractorTokenLengths": [
+            9,
+            10,
+            8
+          ],
+          "charLengthRatio": 1.1830985915492958,
+          "tokenLengthRatio": 1.2222222222222223,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.384Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx010",
+      "questionText": "Quelle est la devise de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+        "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+          "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+        ],
+        "correct": [
+          "Liberté, Égalité, Fraternité"
+        ],
+        "distractors": [
+          "Travail, Famille, Patrie",
+          "Unité, Neutralité, Fraternité",
+          "Liberté, Autorité, Solidarité"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Liberté, Égalité, Fraternité",
+            "normalizedAnswer": "liberte egalite fraternite",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+                "sectionId": "qu-est-ce-qu-une-devise",
+                "sectionTitle": "Qu’est-ce qu’une devise ?",
+                "quote": "La devise de la République française est : \"Liberté, Égalité, Fraternité\"."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+            "sectionId": "qu-est-ce-qu-une-devise",
+            "sectionTitle": "Qu’est-ce qu’une devise ?",
+            "quote": "Elle exprime les valeurs auxquelles les Français sont attachés : la liberté pour chacun ; l’égalité entre tous ; la fraternité, c’est-à-dire la solidarité entre les citoyens."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 28,
+          "distractorCharLengths": [
+            24,
+            29,
+            29
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            3,
+            3,
+            3
+          ],
+          "charLengthRatio": 1.024390243902439,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "questionEvidence uses fuzzy quote match"
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.384Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx012",
+      "questionText": "Les impôts permettent de financer les dépenses publiques. Quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+          "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+          "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus"
+        ],
+        "correct": [
+          "Ils financent les services publics et la solidarité"
+        ],
+        "distractors": [
+          "Ils servent seulement à payer les routes",
+          "Ils rendent la déclaration de revenus facultative",
+          "Ils sont réservés aux seuls citoyens français"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Ils financent les services publics et la solidarité",
+            "normalizedAnswer": "ils financent les services publics et la solidarite",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "les-obligations-en-tant-que-resident-francais",
+                "sectionTitle": "Les obligations en tant que résident français",
+                "quote": "L’impôt permet à l’État de développer et de faire fonctionner son pays."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                "sectionId": "l-impot-en-france-et-la-declaration-de-revenus",
+                "sectionTitle": "L'impôt en France et la déclaration de revenus",
+                "quote": "L’argent récolté par les impôts est redistribué pour permettre la solidarité (aides sociales, écoles, routes…)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "les-obligations-en-tant-que-resident-francais",
+            "sectionTitle": "Les obligations en tant que résident français",
+            "quote": "La participation à l’effort commun, adaptée selon ses revenus, est nécessaire pour rendre les services publics gratuits (exemples : police, justice, éducation, hôpitaux, ramassage des ordures…)."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 51,
+          "distractorCharLengths": [
+            40,
+            49,
+            45
+          ],
+          "correctTokenLength": 8,
+          "distractorTokenLengths": [
+            7,
+            7,
+            7
+          ],
+          "charLengthRatio": 1.1417910447761195,
+          "tokenLengthRatio": 1.1428571428571428,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx013",
+      "questionText": "Que fait l’État pour lutter contre les discriminations ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+        ],
+        "correct": [
+          "Il combat plusieurs formes de discrimination"
+        ],
+        "distractors": [
+          "Il accepte certains refus d’embauche liés au sexe",
+          "Il réserve des services publics selon la religion",
+          "Il laisse sans sanction les insultes discriminatoires"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Il combat plusieurs formes de discrimination",
+            "normalizedAnswer": "il combat plusieurs formes de discrimination",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-3-3",
+                "sectionTitle": "L'égalité (3/3)",
+                "quote": "L’État lutte activement contre plusieurs formes de discrimination"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-3-3",
+            "sectionTitle": "L'égalité (3/3)",
+            "quote": "Les discriminations sont punies par des amendes et diverses sanctions. Des peines de prison sont possibles en cas de récidive."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 44,
+          "distractorCharLengths": [
+            49,
+            49,
+            53
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            9,
+            8,
+            7
+          ],
+          "charLengthRatio": 0.8741721854304635,
+          "tokenLengthRatio": 0.75,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx014",
+      "questionText": "Que représente Marianne ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "correct": [
+          "La République fondée sur la volonté du peuple"
+        ],
+        "distractors": [
+          "La monarchie fondée sur le droit divin",
+          "Le gouvernement local de chaque mairie",
+          "L’armée chargée de défendre le territoire"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La République fondée sur la volonté du peuple",
+            "normalizedAnswer": "la republique fondee sur la volonte du peuple",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+                "sectionId": "que-signifie-le-symbole-marianne",
+                "sectionTitle": "Que signifie le symbole Marianne ?",
+                "quote": "elle symbolise le fait que la République est fondée sur la volonté du peuple et la démocratie."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+            "sectionId": "que-signifie-le-symbole-marianne",
+            "sectionTitle": "Que signifie le symbole Marianne ?",
+            "quote": "La figure de Marianne apparaît pendant la Révolution française pour représenter la République."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 45,
+          "distractorCharLengths": [
+            38,
+            38,
+            41
+          ],
+          "correctTokenLength": 8,
+          "distractorTokenLengths": [
+            7,
+            6,
+            7
+          ],
+          "charLengthRatio": 1.1538461538461537,
+          "tokenLengthRatio": 1.2,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx015",
+      "questionText": "Qu'est-ce que la liberté ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+          "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+        ],
+        "correct": [
+          "Penser, s’exprimer et vivre sans nuire aux autres"
+        ],
+        "distractors": [
+          "Agir sans tenir compte des droits d'autrui",
+          "Imposer ses choix au reste de la société",
+          "Faire tout ce qui nous plaît sans aucune limite"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Penser, s’exprimer et vivre sans nuire aux autres",
+            "normalizedAnswer": "penser s exprimer et vivre sans nuire aux autres",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "la-liberte-qu-est-ce-que-c-est",
+                "sectionTitle": "La liberté : qu’est-ce que c’est ?",
+                "quote": "En France, chaque personne peut penser, s’exprimer et vivre comme elle le souhaite."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+                "sectionId": "la-liberte-qu-est-ce-que-c-est",
+                "sectionTitle": "La liberté : qu’est-ce que c’est ?",
+                "quote": "La seule limite est de ne pas empêcher une autre personne d’en faire autant."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+            "sectionId": "la-liberte-qu-est-ce-que-c-est",
+            "sectionTitle": "La liberté : qu’est-ce que c’est ?",
+            "quote": "Cette liberté est une valeur fondamentale qui est garantie par la Déclaration des droits de l’homme et du citoyen de 1789."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 49,
+          "distractorCharLengths": [
+            42,
+            40,
+            47
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            8,
+            8,
+            9
+          ],
+          "charLengthRatio": 1.1395348837209303,
+          "tokenLengthRatio": 1.0799999999999998,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx016",
+      "questionText": "Qu'est-ce que la Marseillaise ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "correct": [
+          "L'hymne national de la France"
+        ],
+        "distractors": [
+          "La devise officielle de la République",
+          "Le drapeau tricolore de l’État",
+          "La fête nationale du 14 juillet"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L'hymne national de la France",
+            "normalizedAnswer": "l hymne national de la france",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+                "sectionId": "le-titre-de-l-hymne-francais",
+                "sectionTitle": "Le titre de l’hymne français",
+                "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+            "sectionId": "le-titre-de-l-hymne-francais",
+            "sectionTitle": "Le titre de l’hymne français",
+            "quote": "La Marseillaise représente les valeurs de liberté, de résistance et d’unité du peuple français."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 29,
+          "distractorCharLengths": [
+            37,
+            30,
+            31
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            6,
+            6,
+            6
+          ],
+          "charLengthRatio": 0.8877551020408164,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx017",
+      "questionText": "Un employeur refuse d’embaucher des femmes dans son entreprise. Que dit la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+        ],
+        "correct": [
+          "C’est une discrimination interdite par la loi"
+        ],
+        "distractors": [
+          "C'est un choix libre laissé à l'employeur",
+          "C'est autorisé si l'entreprise est privée",
+          "C'est obligatoire dans certains métiers"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "C’est une discrimination interdite par la loi",
+            "normalizedAnswer": "c est une discrimination interdite par la loi",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-3-5",
+                "sectionTitle": "Le droit du travail (3/5)",
+                "quote": "On parle de discrimination au travail quand une personne est moins bien traitée que les autres par l’employeur en raison d’un des critères interdits par la loi, par exemple son origine, son sexe, son âge..."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-3-5",
+                "sectionTitle": "Le droit du travail (3/5)",
+                "quote": "Il peut y avoir de la discrimination au travail à différents moments. Par exemple : au moment de l’embauche ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-2-3",
+            "sectionTitle": "L'égalité (2/3)",
+            "quote": "Cela signifie que les femmes et les hommes ont les mêmes droits et les mêmes devoirs dans tous les aspects de la vie : éducation, travail, santé, vie politique…"
+          },
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-3-3",
+            "sectionTitle": "L'égalité (3/3)",
+            "quote": "Exemples : refus d’embauche, insultes."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 45,
+          "distractorCharLengths": [
+            41,
+            41,
+            39
+          ],
+          "correctTokenLength": 8,
+          "distractorTokenLengths": [
+            9,
+            8,
+            6
+          ],
+          "charLengthRatio": 1.1157024793388428,
+          "tokenLengthRatio": 1.0434782608695652,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "non_exact_quote_match"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": [
+          "fuzzy quote match for \"C’est une discrimination interdite par la loi\""
+        ]
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx018",
+      "questionText": "Quelle est la place de la langue française dans la République ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+        ],
+        "correct": [
+          "Le français est la seule langue officielle"
+        ],
+        "distractors": [
+          "Le français et le latin sont langues officielles",
+          "Le français n’est qu’une langue régionale",
+          "Le français est réservé aux documents judiciaires"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le français est la seule langue officielle",
+            "normalizedAnswer": "le francais est la seule langue officielle",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+                "contentPath": "principes-et-valeurs/la-langue-de-la-republique/la-langue-française.md",
+                "sectionId": "le-francais-l-unique-langue-officielle",
+                "sectionTitle": "Le français : l’unique langue officielle",
+                "quote": "\"la langue de la République est le français\". Le français est donc la seule langue officielle en France."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise",
+            "contentPath": "principes-et-valeurs/la-langue-de-la-republique/la-langue-française.md",
+            "sectionId": "le-francais-l-unique-langue-officielle",
+            "sectionTitle": "Le français : l’unique langue officielle",
+            "quote": "Elle est utilisée dans les écoles, l’administration, la justice, et plus largement dans la vie publique."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 42,
+          "distractorCharLengths": [
+            48,
+            41,
+            49
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            8,
+            8,
+            7
+          ],
+          "charLengthRatio": 0.9130434782608695,
+          "tokenLengthRatio": 0.9130434782608695,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx019",
+      "questionText": "Quels sont des symboles officiels de la République française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+        "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+          "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+        ],
+        "correct": [
+          "Le drapeau, Marianne et la Marseillaise"
+        ],
+        "distractors": [
+          "Le coq gaulois, la baguette et le béret",
+          "La Tour Eiffel, le Louvre et Notre-Dame",
+          "Le 1er mai, le métro et la gastronomie"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le drapeau, Marianne et la Marseillaise",
+            "normalizedAnswer": "le drapeau marianne et la marseillaise",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+                "sectionId": "les-couleurs",
+                "sectionTitle": "Les couleurs",
+                "quote": "Le drapeau français est un symbole officiel de la République française."
+              },
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+                "sectionId": "que-signifie-le-symbole-marianne",
+                "sectionTitle": "Que signifie le symbole Marianne ?",
+                "quote": "De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République."
+              },
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+                "sectionId": "le-titre-de-l-hymne-francais",
+                "sectionTitle": "Le titre de l’hymne français",
+                "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+            "sectionId": "les-couleurs",
+            "sectionTitle": "Les couleurs",
+            "quote": "Le drapeau français est un symbole officiel de la République française."
+          },
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--marianne",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+            "sectionId": "que-signifie-le-symbole-marianne",
+            "sectionTitle": "Que signifie le symbole Marianne ?",
+            "quote": "De plus en plus utilisée au fil du temps, elle finit par devenir un symbole officiel de la République."
+          },
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+            "sectionId": "le-titre-de-l-hymne-francais",
+            "sectionTitle": "Le titre de l’hymne français",
+            "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 39,
+          "distractorCharLengths": [
+            39,
+            39,
+            38
+          ],
+          "correctTokenLength": 6,
+          "distractorTokenLengths": [
+            8,
+            7,
+            8
+          ],
+          "charLengthRatio": 1.0086206896551724,
+          "tokenLengthRatio": 0.7826086956521738,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx020",
+      "questionText": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+          "principes-et-valeurs--la-laicite--le-blaspheme",
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+        ],
+        "correct": [
+          "Non, ces insultes peuvent être punies par la loi"
+        ],
+        "distractors": [
+          "Oui, si cela vise seulement l'apparence physique",
+          "Oui, si la personne insultée répond aussi",
+          "Oui, si l’insulte est prononcée en public"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, ces insultes peuvent être punies par la loi",
+            "normalizedAnswer": "non ces insultes peuvent etre punies par la loi",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-3-3",
+                "sectionTitle": "L'égalité (3/3)",
+                "quote": "La loi française reconnaît plus de 26 critères de discrimination : origine, sexe, apparence physique, âge, handicap, grossesse, orientation sexuelle, opinions politiques, religion…"
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-3-3",
+                "sectionTitle": "L'égalité (3/3)",
+                "quote": "Les discriminations sont punies par des amendes et diverses sanctions. Des peines de prison sont possibles en cas de récidive."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-3",
+            "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+            "sectionId": "l-egalite-3-3",
+            "sectionTitle": "L'égalité (3/3)",
+            "quote": "Exemples : refus d’embauche, insultes."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 48,
+          "distractorCharLengths": [
+            48,
+            41,
+            41
+          ],
+          "correctTokenLength": 9,
+          "distractorTokenLengths": [
+            8,
+            7,
+            8
+          ],
+          "charLengthRatio": 1.1076923076923075,
+          "tokenLengthRatio": 1.1739130434782608,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:07:57.385Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "questionId": "crx006",
+      "questionText": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+      "questionProfile": "quote",
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "blockReason": "La fiche identifie la Marseillaise et son histoire, mais ne contient pas les paroles à compléter ni un extrait permettant de valider une seule bonne réponse."
+    },
+    {
+      "questionId": "crx011",
+      "questionText": "La répudiation de sa femme est :",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "blockReason": "Les fiches établissent l’égalité entre les époux et le divorce comme voie légale pour mettre fin à une union, mais ne mentionnent pas explicitement la répudiation ni sa qualification juridique."
+    }
+  ],
+  "validatedAt": "2026-03-08T16:07:32.223Z",
+  "validationSummary": {
+    "total": 18,
+    "valid": 18,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 3
+  },
+  "appliedAt": "2026-03-08T16:07:57.385Z",
+  "applySummary": {
+    "applied": 18,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": true
+  }
+}

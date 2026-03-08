@@ -1,0 +1,335 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "runId": "r008",
+  "generatedAt": "2026-03-07T14:50:31.760Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/csp.md"
+  },
+  "items": [
+    {
+      "questionId": "cspx044",
+      "questionText": "Quelle est la monnaie utilisée en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur la construction européenne indique qu’en 2002 l’euro devient la monnaie officielle de plusieurs pays membres.",
+        "Le fonctionnement européen (1/2) relie la création de la Banque centrale européenne à la création de l’euro comme monnaie unique.",
+        "Aucune fiche lue n’énonce explicitement que l’euro est la monnaie utilisée en France ; je laisse donc le lien retenu vide."
+      ]
+    },
+    {
+      "questionId": "cspx046",
+      "questionText": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur les obligations du résident français vise bien toute personne qui habite en France, mais elle ne nomme pas un texte unique sur les droits et devoirs.",
+        "La Constitution de 1958 est présentée comme le texte fondateur qui garantit les principaux droits et libertés fondamentaux.",
+        "La DDHC affirme des droits fondamentaux et des devoirs du citoyen, mais aucune fiche lue ne nomme un texte unique couvrant explicitement les personnes résidant en France."
+      ]
+    },
+    {
+      "questionId": "cspx070",
+      "questionText": "Lequel de ces personnages historiques est français ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Le libellé ne nomme aucun personnage historique.",
+        "Le fichier source consulté ne donne pas les propositions de réponse ; aucune fiche précise ne peut donc être retenue avec certitude."
+      ]
+    },
+    {
+      "questionId": "cspx085",
+      "questionText": "Quelle est la capitale de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche Île-de-France situe la région autour de Paris et présente Paris comme sa principale ville.",
+        "Le territoire de la France cite Paris dans le découpage administratif national.",
+        "Aucune fiche lue n’emploie explicitement la formule « Paris est la capitale de la France » ; je laisse donc le lien retenu vide."
+      ]
+    },
+    {
+      "questionId": "cspx098",
+      "questionText": "Quand célèbre-t-on Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Aucune fiche lue ne mentionne Noël ni la date du 25 décembre.",
+        "Sans fiche dédiée aux fêtes du calendrier, aucun lien justifié ne peut être retenu."
+      ]
+    },
+    {
+      "questionId": "cspx104",
+      "questionText": "Que doit faire un employeur pour fixer un salaire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+      ],
+      "reasons": [
+        "Le droit du travail (1/5) explique que le Code du travail et les conventions collectives encadrent notamment le salaire.",
+        "Le droit du travail (2/5) rappelle qu’un salaire ne peut pas être inférieur au SMIC.",
+        "Le droit du travail (3/5) ajoute que la fixation du salaire ne peut pas reposer sur une discrimination."
+      ]
+    },
+    {
+      "questionId": "cspx105",
+      "questionText": "Qui est aidé par France Travail ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-5"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-5"
+      ],
+      "reasons": [
+        "Orientation (1/5) présente France Travail comme un organisme public qui accompagne les personnes à la recherche d’un emploi.",
+        "Orientation (5/5) indique que France Travail aide les personnes à trouver un travail et les entreprises qui recrutent."
+      ]
+    },
+    {
+      "questionId": "cspx106",
+      "questionText": "À partir de quel âge un mineur peut-il travailler ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+      ],
+      "reasons": [
+        "Le droit du travail (1/5) indique qu’il est possible de travailler dès l’âge de 16 ans.",
+        "La même fiche précise qu’un mineur doit être autorisé par son représentant légal, sauf émancipation."
+      ]
+    },
+    {
+      "questionId": "cspx107",
+      "questionText": "Qu’est-ce qu’un numéro d’urgence ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+        "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "reasons": [
+        "L’annexe définit les numéros d’urgence comme des numéros joignables 24h/24 et 7j/7 pour contacter gratuitement les secours.",
+        "La fiche santé sur les services et numéros d’urgence donne des exemples d’usages médicaux de ces numéros."
+      ]
+    },
+    {
+      "questionId": "crx135",
+      "questionText": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+        "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+      ],
+      "reasons": [
+        "La fiche sur le parcours de santé explique les différentes portes d’entrée du système de soins selon le degré d’urgence.",
+        "La fiche sur le médecin généraliste précise le rôle du médecin traitant dans le parcours de soins coordonnés.",
+        "La fiche sur les services d’urgence permet de distinguer les situations relevant des urgences hospitalières."
+      ]
+    },
+    {
+      "questionId": "cspx108",
+      "questionText": "En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-medecins-et-pharmacies-de-garde"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste"
+      ],
+      "reasons": [
+        "Le parcours de santé indique que, pour un problème courant, on commence généralement par consulter un médecin traitant.",
+        "La fiche sur le médecin généraliste précise que c’est lui qu’il faut consulter en premier pour un avis sur sa santé.",
+        "La fiche sur les médecins de garde aide à distinguer les situations urgentes mais non vitales en dehors des horaires habituels."
+      ]
+    },
+    {
+      "questionId": "cspx109",
+      "questionText": "Quel est le rôle du médecin traitant ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+      ],
+      "reasons": [
+        "La fiche sur le médecin généraliste détaille le rôle du médecin traitant : suivi régulier, coordination des soins, dossier médical et prévention.",
+        "Le parcours de santé indique qu’il oriente ensuite le patient vers d’autres professionnels si nécessaire."
+      ]
+    },
+    {
+      "questionId": "cspx110",
+      "questionText": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-medecins-et-pharmacies-de-garde"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante"
+      ],
+      "reasons": [
+        "La fiche sur les services d’urgence réserve les urgences hospitalières aux détresses, urgences vitales et blessures graves.",
+        "Le parcours de santé renvoie à l’hôpital en cas de situation grave comme un accident, des douleurs violentes ou un malaise grave.",
+        "La fiche sur les médecins de garde distingue les urgences non vitales des urgences hospitalières."
+      ]
+    },
+    {
+      "questionId": "cspx111",
+      "questionText": "Quel est l’objectif des vaccinations obligatoires ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2",
+        "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-1",
+        "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2"
+      ],
+      "reasons": [
+        "Prévention et promotion de la santé (2/2) explique que certains vaccins sont obligatoires pour protéger la santé de la population.",
+        "Prévention et promotion de la santé (1/2) situe la vaccination parmi les dispositifs de prévention.",
+        "La fiche sur le médecin traitant rappelle qu’il assure le suivi de la vaccination."
+      ]
+    },
+    {
+      "questionId": "cspx112",
+      "questionText": "L'autorité parentale prévoit l'obligation :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+      ],
+      "reasons": [
+        "Exercice de l’autorité parentale (1/2) définit l’autorité parentale comme l’ensemble des droits et devoirs des parents envers leur enfant mineur.",
+        "La même fiche précise que les parents exercent ces devoirs dans l’intérêt de l’enfant et sans violence.",
+        "Exercice de l’autorité parentale (2/2) complète le cadre juridique et les limites de cette autorité."
+      ]
+    },
+    {
+      "questionId": "cspx114",
+      "questionText": "Quel diplôme obtient-on à la fin du lycée ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "Le système éducatif indique qu’à la fin du lycée l’enfant passe le baccalauréat."
+      ]
+    },
+    {
+      "questionId": "cspx115",
+      "questionText": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "Le système éducatif présente l’ordre des établissements : après l’école élémentaire, l’enfant va au collège puis au lycée."
+      ]
+    },
+    {
+      "questionId": "cspx113",
+      "questionText": "Pour qui l'école est-elle obligatoire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones"
+      ],
+      "reasons": [
+        "Le système éducatif indique que tous les enfants de 3 à 16 ans qui habitent en France doivent aller à l’école, qu’ils soient français ou étrangers.",
+        "La fiche sur les enfants allophones précise que cette obligation concerne aussi les enfants non francophones.",
+        "La fiche sur la liberté de choisir l’école rappelle que l’école républicaine est obligatoire."
+      ]
+    },
+    {
+      "questionId": "cspx116",
+      "questionText": "Un enfant inscrit à l'école :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Le libellé est incomplet : sans les propositions, on ne sait pas si la question vise une obligation, un droit ou une modalité de scolarité.",
+        "Les fiches sur le système éducatif, les droits de l’enfant et le rôle des parents à l’école sont plausibles, mais aucune ne peut être retenue avec certitude pour l’énoncé exact."
+      ]
+    },
+    {
+      "questionId": "cspx117",
+      "questionText": "Les enfants qui ne parlent pas français :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones",
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "La fiche sur les enfants allophones indique que les enfants non francophones vont à l’école et peuvent suivre des cours adaptés pour apprendre le français.",
+        "Le système éducatif rappelle que l’école maternelle permet d’apprendre le français à ceux qui ne le parlent pas encore."
+      ]
+    }
+  ]
+}

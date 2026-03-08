@@ -1,0 +1,1204 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "batchId": "csp-b005",
+  "generatedAt": "2026-03-07T19:56:42.315Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx057",
+      "questionText": "En France, est-ce légal d'être marié à plusieurs personnes en même temps ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+          "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+          "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+        ],
+        "correct": [
+          "Non, le mariage civil reconnu unit deux personnes"
+        ],
+        "distractors": [
+          "Oui, si chaque conjoint donne son consentement",
+          "Oui, pour un mariage célébré à l’étranger",
+          "Oui, si la mairie accepte tous les conjoints"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, le mariage civil reconnu unit deux personnes",
+            "normalizedAnswer": "non, le mariage civil reconnu unit deux personnes",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                "sectionId": "la-declaration-de-mariage",
+                "sectionTitle": "La déclaration de mariage",
+                "quote": "Deux personnes, de sexe différent ou de même sexe, peuvent se marier"
+              },
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple.md",
+                "sectionId": "qu-est-ce-qu-un-couple",
+                "sectionTitle": "Qu’est-ce qu’un couple ?",
+                "quote": "Un couple est une union entre deux personnes de sexe différent ou de même sexe"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+            "sectionId": "la-declaration-de-mariage",
+            "sectionTitle": "La déclaration de mariage",
+            "quote": "Deux personnes, de sexe différent ou de même sexe, peuvent se marier"
+          },
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple.md",
+            "sectionId": "qu-est-ce-qu-un-couple",
+            "sectionTitle": "Qu’est-ce qu’un couple ?",
+            "quote": "Un couple est une union entre deux personnes de sexe différent ou de même sexe"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx058",
+      "questionText": "Faut-il réduire ses déchets ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "correct": [
+          "Oui, il faut réduire ses déchets plastiques"
+        ],
+        "distractors": [
+          "Non, cela concerne seulement les entreprises",
+          "Non, seul l’État doit réduire les déchets",
+          "Non, c’est inutile si l’on trie déjà"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, il faut réduire ses déchets plastiques",
+            "normalizedAnswer": "oui, il faut reduire ses dechets plastiques",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "trier ses déchets et réduire ses déchets plastiques"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "trier ses déchets et réduire ses déchets plastiques"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx059",
+      "questionText": "Jeter une bouteille dans la rue est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "correct": [
+          "Un geste qui ne respecte pas les espaces communs"
+        ],
+        "distractors": [
+          "Un geste qui aide à garder la rue propre",
+          "Un geste toléré dans tout l’espace public",
+          "Un geste qui remplace le tri des déchets"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un geste qui ne respecte pas les espaces communs",
+            "normalizedAnswer": "un geste qui ne respecte pas les espaces communs",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "respecter les espaces communs et ne pas y jeter de déchets"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "respecter les espaces communs et ne pas y jeter de déchets"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx060",
+      "questionText": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+        ],
+        "correct": [
+          "Pour protéger la vie en société et les droits des autres"
+        ],
+        "distractors": [
+          "Pour laisser l’État décider de toute la vie privée",
+          "Pour empêcher chacun d’avoir des opinions personnelles",
+          "Pour supprimer durablement la liberté de circuler"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Pour protéger la vie en société et les droits des autres",
+            "normalizedAnswer": "pour proteger la vie en societe et les droits des autres",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "la-limite-des-libertes-individuelles",
+                "sectionTitle": "La limite des libertés individuelles",
+                "quote": "ces droits et libertés ont une limite pour protéger la vie en société. Nos droits et libertés individuels sont limités par les droits des autres"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "la-limite-des-libertes-individuelles",
+            "sectionTitle": "La limite des libertés individuelles",
+            "quote": "ces droits et libertés ont une limite pour protéger la vie en société. Nos droits et libertés individuels sont limités par les droits des autres"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx061",
+      "questionText": "Que doit faire une personne en cas d’accident ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+          "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+          "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+        ],
+        "correct": [
+          "Porter secours et appeler le 15, le 18 ou le 112"
+        ],
+        "distractors": [
+          "Attendre les secours sans aider la personne blessée",
+          "Filmer la scène puis prévenir seulement ses proches",
+          "Quitter les lieux pour éviter tout problème"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Porter secours et appeler le 15, le 18 ou le 112",
+            "normalizedAnswer": "porter secours et appeler le 15, le 18 ou le 112",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "les-obligations-en-tant-que-resident-francais",
+                "sectionTitle": "Les obligations en tant que résident français",
+                "quote": "Assurer l’assistance à personne en danger, c’est porter secours à toute personne en danger."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+                "sectionId": "annexe-les-numeros-d-urgence",
+                "sectionTitle": "Annexe : les numéros d’urgence",
+                "quote": "Malaise, accident de la route, incendie, personne blessée : 15, 18 ou 112"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "les-obligations-en-tant-que-resident-francais",
+            "sectionTitle": "Les obligations en tant que résident français",
+            "quote": "Assurer l’assistance à personne en danger, c’est porter secours à toute personne en danger."
+          },
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+            "sectionId": "annexe-les-numeros-d-urgence",
+            "sectionTitle": "Annexe : les numéros d’urgence",
+            "quote": "Malaise, accident de la route, incendie, personne blessée : 15, 18 ou 112"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx062",
+      "questionText": "Que permet la citoyenneté française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+        ],
+        "correct": [
+          "D’avoir des droits civiques et politiques comme voter"
+        ],
+        "distractors": [
+          "D’éviter les lois et les impôts du pays",
+          "D’obtenir un emploi public sans condition",
+          "D’être dispensé de toute règle collective"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "D’avoir des droits civiques et politiques comme voter",
+            "normalizedAnswer": "d avoir des droits civiques et politiques comme voter",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-la-citoyennete.md",
+                "sectionId": "un-citoyen-c-est-quoi",
+                "sectionTitle": "Un citoyen, c’est quoi ?",
+                "quote": "Le citoyen a des droits civiques et politiques (comme le droit de vote entre autres)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-la-citoyennete.md",
+            "sectionId": "un-citoyen-c-est-quoi",
+            "sectionTitle": "Un citoyen, c’est quoi ?",
+            "quote": "Le citoyen a des droits civiques et politiques (comme le droit de vote entre autres)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx063",
+      "questionText": "Que risque une personne qui ne respecte pas la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+        ],
+        "correct": [
+          "Des sanctions prononcées par le juge selon la gravité"
+        ],
+        "distractors": [
+          "Un simple rappel sans aucune conséquence",
+          "Un changement automatique de nationalité",
+          "Une dispense générale de ses obligations"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Des sanctions prononcées par le juge selon la gravité",
+            "normalizedAnswer": "des sanctions prononcees par le juge selon la gravite",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+                "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+                "quote": "Le non-respect des lois peut entraîner des sanctions. Les sanctions sont prononcées par le juge selon la gravité."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+            "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+            "quote": "Le non-respect des lois peut entraîner des sanctions. Les sanctions sont prononcées par le juge selon la gravité."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx064",
+      "questionText": "Quel est le rôle de la gendarmerie ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "correct": [
+          "Assurer le respect des lois en zone rurale et périurbaine"
+        ],
+        "distractors": [
+          "Assurer le vote des lois à l’Assemblée nationale",
+          "Assurer les soins médicaux dans les hôpitaux",
+          "Assurer l’enseignement obligatoire dans les écoles"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Assurer le respect des lois en zone rurale et périurbaine",
+            "normalizedAnswer": "assurer le respect des lois en zone rurale et periurbaine",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+                "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+                "quote": "la gendarmerie agit en zone rurale et périurbaine (campagne) et sur les axes de circulation"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+            "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+            "quote": "la gendarmerie agit en zone rurale et périurbaine (campagne) et sur les axes de circulation"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx091",
+      "questionText": "Quel est le rôle de la police ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "correct": [
+          "Assurer le respect des lois en ville"
+        ],
+        "distractors": [
+          "Assurer le vote des lois au Parlement",
+          "Assurer les soins urgents à l’hôpital",
+          "Assurer l’enseignement public au collège"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Assurer le respect des lois en ville",
+            "normalizedAnswer": "assurer le respect des lois en ville",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+                "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+                "quote": "la police assure le respect des lois en ville"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+            "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+            "quote": "la police assure le respect des lois en ville"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx065",
+      "questionText": "Qu'est-ce qu'une infraction ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+        ],
+        "correct": [
+          "Un acte ou un comportement interdit par la loi"
+        ],
+        "distractors": [
+          "Un droit reconnu par la loi à chacun",
+          "Un conseil donné par la police locale",
+          "Un conflit réglé hors du cadre légal"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un acte ou un comportement interdit par la loi",
+            "normalizedAnswer": "un acte ou un comportement interdit par la loi",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+                "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+                "quote": "Les infractions pénales désignent des actes ou des comportements interdits par la loi."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+            "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+            "quote": "Les infractions pénales désignent des actes ou des comportements interdits par la loi."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx066",
+      "questionText": "Comment peut-on réduire ses déchets ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "correct": [
+          "En triant ses déchets et en réduisant le plastique"
+        ],
+        "distractors": [
+          "En achetant plus d’objets jetables neufs",
+          "En laissant ses emballages dans la rue",
+          "En changeant souvent d’appareil encore utile"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "En triant ses déchets et en réduisant le plastique",
+            "normalizedAnswer": "en triant ses dechets et en reduisant le plastique",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "trier ses déchets et réduire ses déchets plastiques"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "trier ses déchets et réduire ses déchets plastiques"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx067",
+      "questionText": "Déposer une machine à laver cassée sur le trottoir est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "correct": [
+          "Un geste qui ne respecte pas les espaces communs"
+        ],
+        "distractors": [
+          "Un geste prévu pour faciliter le recyclage",
+          "Un geste autorisé devant tous les immeubles",
+          "Un geste utile pour libérer la déchèterie"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un geste qui ne respecte pas les espaces communs",
+            "normalizedAnswer": "un geste qui ne respecte pas les espaces communs",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "respecter les espaces communs et ne pas y jeter de déchets"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "respecter les espaces communs et ne pas y jeter de déchets"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx068",
+      "questionText": "En quoi consiste la traite des êtres humains ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution"
+        ],
+        "correct": [
+          "Recruter ou héberger une personne pour l’exploiter"
+        ],
+        "distractors": [
+          "Louer un logement à une personne étrangère",
+          "Transporter un salarié vers son lieu de travail",
+          "Accueillir un proche pour quelques semaines"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Recruter ou héberger une personne pour l’exploiter",
+            "normalizedAnswer": "recruter ou heberger une personne pour l exploiter",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "la-traite-des-etres-humains-et-la-prostitution",
+                "sectionTitle": "La traite des êtres humains et la prostitution",
+                "quote": "La traite des êtres humains c'est le fait de recruter une personne, la transporter, la transférer, l’héberger ou l’accueillir pour l’exploiter."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "la-traite-des-etres-humains-et-la-prostitution",
+            "sectionTitle": "La traite des êtres humains et la prostitution",
+            "quote": "La traite des êtres humains c'est le fait de recruter une personne, la transporter, la transférer, l’héberger ou l’accueillir pour l’exploiter."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx089",
+      "questionText": "Que doit faire une victime de violences ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+        ],
+        "correct": [
+          "En parler, se faire accompagner et porter plainte"
+        ],
+        "distractors": [
+          "Se taire, attendre et éviter toute aide",
+          "Effacer les preuves et changer de ville",
+          "N’agir qu’en cas de blessure grave"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "En parler, se faire accompagner et porter plainte",
+            "normalizedAnswer": "en parler, se faire accompagner et porter plainte",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "la-protection-des-victimes-de-violences",
+                "sectionTitle": "La protection des victimes de violences",
+                "quote": "Il ne faut pas rester seul. Exprimer sa souffrance permet de sortir de l’isolement"
+              },
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "la-protection-des-victimes-de-violences",
+                "sectionTitle": "La protection des victimes de violences",
+                "quote": "déposer plainte auprès de tous les commissariats ou les gendarmeries"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "la-protection-des-victimes-de-violences",
+            "sectionTitle": "La protection des victimes de violences",
+            "quote": "Il ne faut pas rester seul. Exprimer sa souffrance permet de sortir de l’isolement"
+          },
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "la-protection-des-victimes-de-violences",
+            "sectionTitle": "La protection des victimes de violences",
+            "quote": "déposer plainte auprès de tous les commissariats ou les gendarmeries"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx069",
+      "questionText": "Qui était Napoléon Ier ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-consulat-1799-1804"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-consulat-1799-1804"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815"
+        ],
+        "correct": [
+          "Le fondateur et le chef du 1er Empire"
+        ],
+        "distractors": [
+          "Le président élu de la IIème République",
+          "Le roi restauré après la Révolution française",
+          "Le chef du régime de Vichy en 1940"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le fondateur et le chef du 1er Empire",
+            "normalizedAnswer": "le fondateur et le chef du 1er empire",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+                "sectionId": "le-1er-empire-1804-1815",
+                "sectionTitle": "Le 1er Empire (1804-1815)",
+                "quote": "Napoléon Bonaparte est le fondateur et le chef du 1er Empire, sous le nom de Napoléon 1er."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+            "sectionId": "le-1er-empire-1804-1815",
+            "sectionTitle": "Le 1er Empire (1804-1815)",
+            "quote": "Napoléon Bonaparte est le fondateur et le chef du 1er Empire, sous le nom de Napoléon 1er."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx071",
+      "questionText": "Dans quelle République est-on aujourd'hui ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+        ],
+        "correct": [
+          "La Vème République"
+        ],
+        "distractors": [
+          "La IIIème République",
+          "La IVème République",
+          "La IIème République"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Vème République",
+            "normalizedAnswer": "la veme republique",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+                "sectionId": "la-veme-republique",
+                "sectionTitle": "La Vème République",
+                "quote": "La Vème République est le régime politique actuel de la France."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+                "sectionId": "les-regimes-politiques",
+                "sectionTitle": "Les régimes politiques",
+                "quote": "Depuis 1958, le régime politique de la France est celui de la Vème République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+            "sectionId": "la-veme-republique",
+            "sectionTitle": "La Vème République",
+            "quote": "La Vème République est le régime politique actuel de la France."
+          },
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+            "sectionId": "les-regimes-politiques",
+            "sectionTitle": "Les régimes politiques",
+            "quote": "Depuis 1958, le régime politique de la France est celui de la Vème République."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx072",
+      "questionText": "Quel pays ou région du monde a été colonisé par la France ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+        ],
+        "correct": [
+          "L’Indochine française"
+        ],
+        "distractors": [
+          "Le Brésil",
+          "La Suède",
+          "Le Japon"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’Indochine française",
+            "normalizedAnswer": "l indochine francaise",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation.md",
+                "sectionId": "comment-les-colonies-deviennent-elles-independantes",
+                "sectionTitle": "Comment les colonies deviennent-elles indépendantes ?",
+                "quote": "la défaite de la France à la guerre d’Indochine (1946-1954) entraîne la fin de l'Indochine française"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation.md",
+            "sectionId": "comment-les-colonies-deviennent-elles-independantes",
+            "sectionTitle": "Comment les colonies deviennent-elles indépendantes ?",
+            "quote": "la défaite de la France à la guerre d’Indochine (1946-1954) entraîne la fin de l'Indochine française"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx073",
+      "questionText": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "date_year",
+        "candidateFicheIds": [
+          "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+        ],
+        "correct": [
+          "1957"
+        ],
+        "distractors": [
+          "1951",
+          "1992",
+          "2002"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "1957",
+            "normalizedAnswer": "1957",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+                "contentPath": "systeme-institutionnel/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne.md",
+                "sectionId": "l-elargissement-des-domaines-d-action",
+                "sectionTitle": "L’élargissement des domaines d’action",
+                "quote": "En 1957, le traité de Rome crée la CEE"
+              },
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne.md",
+                "sectionId": "comment-l-union-europeenne-s-est-elle-construite",
+                "sectionTitle": "Comment l’Union européenne s’est-elle construite ?",
+                "quote": "en 1957, ils fondent la Communauté Économique Européenne (CEE) avec le traité de Rome"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne",
+            "contentPath": "systeme-institutionnel/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne.md",
+            "sectionId": "l-elargissement-des-domaines-d-action",
+            "sectionTitle": "L’élargissement des domaines d’action",
+            "quote": "En 1957, le traité de Rome crée la CEE"
+          },
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne.md",
+            "sectionId": "comment-l-union-europeenne-s-est-elle-construite",
+            "sectionTitle": "Comment l’Union européenne s’est-elle construite ?",
+            "quote": "en 1957, ils fondent la Communauté Économique Européenne (CEE) avec le traité de Rome"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx074",
+      "questionText": "Qui a été le premier Président élu sous la Ve République ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+        ],
+        "correct": [
+          "Charles de Gaulle"
+        ],
+        "distractors": [
+          "Georges Pompidou",
+          "Vincent Auriol",
+          "François Mitterrand"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Charles de Gaulle",
+            "normalizedAnswer": "charles de gaulle",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+                "sectionId": "la-veme-republique",
+                "sectionTitle": "La Vème République",
+                "quote": "Charles de Gaulle, fondateur et premier président de la Vème République"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+            "sectionId": "la-veme-republique",
+            "sectionTitle": "La Vème République",
+            "quote": "Charles de Gaulle, fondateur et premier président de la Vème République"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx075",
+      "questionText": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "date_year",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851"
+        ],
+        "correct": [
+          "1848"
+        ],
+        "distractors": [
+          "1789",
+          "1804",
+          "1870"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "1848",
+            "normalizedAnswer": "1848",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+                "sectionId": "la-iieme-republique-1848-1851",
+                "sectionTitle": "La IIème République (1848-1851)",
+                "quote": "l’esclavage est définitivement aboli dans les colonies françaises, grâce au décret du 27 avril 1848"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+            "sectionId": "la-iieme-republique-1848-1851",
+            "sectionTitle": "La IIème République (1848-1851)",
+            "quote": "l’esclavage est définitivement aboli dans les colonies françaises, grâce au décret du 27 avril 1848"
+          }
+        ],
+        "qualityFlags": []
+      }
+    }
+  ],
+  "skipped": []
+}

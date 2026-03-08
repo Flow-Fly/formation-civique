@@ -1,0 +1,76 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "naturalisation",
+  "runId": "r001",
+  "generatedAt": "2026-03-07T13:55:58.342Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/naturalisation.md"
+  },
+  "items": [
+    {
+      "questionId": "natx001",
+      "questionText": "Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre État de l'Union ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "reasons": [
+        "La fiche indique qu'un ressortissant d'un pays membre de l'Union européenne residant en France peut voter aux elections municipales s'il est inscrit sur la liste electorale.",
+        "Ce passage confirme le principe vise par la question pour les elections locales dans un autre Etat membre."
+      ]
+    },
+    {
+      "questionId": "natx002",
+      "questionText": "Parmi ces textes, lequel a été adopté sous Napoléon ler?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "reasons": [
+        "La fiche sur le 1er Empire associe le Code civil de 1804 a la periode ou Napoleon Ier est au pouvoir.",
+        "La fiche de synthese des regimes politiques rattache explicitement le Code civil au 1er Empire de Napoleon."
+      ]
+    },
+    {
+      "questionId": "natx003",
+      "questionText": "Quel est l'objectif des lois scolaires de la Ille République ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+      ],
+      "reasons": [
+        "La fiche indique que les lois de Jules Ferry generalisent l'ecole publique gratuite en 1881 puis l'ecole laique et obligatoire en 1882.",
+        "Ce passage donne l'objectif des lois scolaires de la IIIe Republique : organiser une ecole publique, gratuite, laique et obligatoire."
+      ]
+    },
+    {
+      "questionId": "natx004",
+      "questionText": "En quelle année Napoléon ler est-il devenu empereur?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "reasons": [
+        "La fiche du 1er Empire donne la date de debut du regime : le 18 mai 1804, quand Napoleon est nomme empereur.",
+        "La fiche de synthese situe aussi le 1er Empire a partir de 1804."
+      ]
+    }
+  ]
+}

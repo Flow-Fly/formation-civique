@@ -1,0 +1,628 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "batchId": "csp-b008",
+  "generatedAt": "2026-03-08T16:33:13.000Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx044",
+      "questionText": "Quelle est la monnaie utilisée en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+          "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+          "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+        ],
+        "correct": [
+          "L’euro"
+        ],
+        "distractors": [
+          "Le dollar",
+          "Le franc suisse",
+          "La livre sterling"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’euro",
+            "normalizedAnswer": "l euro",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne.md",
+                "sectionId": "comment-l-union-europeenne-s-est-elle-construite",
+                "sectionTitle": "Comment l’Union européenne s’est-elle construite ?",
+                "quote": "en 2002, l’euro devient la monnaie officielle de plusieurs pays membres."
+              },
+              {
+                "ficheId": "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1",
+                "contentPath": "systeme-institutionnel/institutions-europeennes/fonctionnement-europeen.md",
+                "sectionId": "le-fonctionnement-europeen-1-2",
+                "sectionTitle": "Le fonctionnement européen (1/2)",
+                "quote": "La Banque centrale européenne est créée en 1998, au moment de la création de l’euro comme monnaie unique."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne.md",
+            "sectionId": "comment-l-union-europeenne-s-est-elle-construite",
+            "sectionTitle": "Comment l’Union européenne s’est-elle construite ?",
+            "quote": "en 2002, l’euro devient la monnaie officielle de plusieurs pays membres."
+          }
+        ],
+        "qualityFlags": [
+          "weak_distractors",
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 6,
+          "distractorCharLengths": [
+            9,
+            15,
+            17
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            3,
+            3
+          ],
+          "charLengthRatio": 0.43902439024390244,
+          "tokenLengthRatio": 0.75,
+          "obviousLengthCue": true,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "obvious_length_cue"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:35:14.058Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx046",
+      "questionText": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "correct": [
+          "La Déclaration des droits de l’homme et du citoyen"
+        ],
+        "distractors": [
+          "La Constitution de la Vème République",
+          "La Charte de l’environnement de 2004",
+          "La Convention internationale des droits de l’enfant"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Déclaration des droits de l’homme et du citoyen",
+            "normalizedAnswer": "la declaration des droits de l homme et du citoyen",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/principaux-textes.md",
+                "sectionId": "presentation-des-principaux-textes-1-3-la-declaration-des-droits-de-l-homme-et-du-citoyen",
+                "sectionTitle": "Présentation des principaux textes (1/3) : La Déclaration des droits de l'homme et du citoyen",
+                "quote": "La Déclaration des Droits de l'Homme et du Citoyen (DDHC) est un texte fondamental qui affirme les droits fondamentaux de l’être humain : des droits naturels, universels (pour tous les hommes, femmes, enfants…) et inaliénables (ils ne peuvent être donnés à quelqu’un d’autre, ils lui appartiennent) et du citoyen (des droits et devoirs civiques et politiques)."
+              },
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "les-obligations-en-tant-que-resident-francais",
+                "sectionTitle": "Les obligations en tant que résident français",
+                "quote": "L’obligation de payer des impôts est inscrite dans la Déclaration des droits de l'homme et du citoyen de 1789."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "les-obligations-en-tant-que-resident-francais",
+            "sectionTitle": "Les obligations en tant que résident français",
+            "quote": "L’obligation de payer des impôts est inscrite dans la Déclaration des droits de l'homme et du citoyen de 1789."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 50,
+          "distractorCharLengths": [
+            37,
+            36,
+            51
+          ],
+          "correctTokenLength": 10,
+          "distractorTokenLengths": [
+            6,
+            7,
+            8
+          ],
+          "charLengthRatio": 1.2096774193548387,
+          "tokenLengthRatio": 1.4285714285714286,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:35:14.067Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx070",
+      "questionText": "Lequel de ces personnages historiques est français ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+        ],
+        "correct": [
+          "Charles de Gaulle"
+        ],
+        "distractors": [
+          "Winston Churchill",
+          "Nelson Mandela",
+          "Mahatma Gandhi"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Charles de Gaulle",
+            "normalizedAnswer": "charles de gaulle",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+                "contentPath": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-libération.md",
+                "sectionId": "a-retenir",
+                "sectionTitle": "À retenir",
+                "quote": "Charles de Gaulle : lance un appel à la résistance. À la Libération, il devient chef du Gouvernement provisoire."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+                "sectionId": "la-veme-republique",
+                "sectionTitle": "La Vème République",
+                "quote": "Charles de Gaulle, chef du Gouvernement provisoire après la Libération, revient au pouvoir."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+            "contentPath": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-libération.md",
+            "sectionId": "a-retenir",
+            "sectionTitle": "À retenir",
+            "quote": "Charles de Gaulle : lance un appel à la résistance. À la Libération, il devient chef du Gouvernement provisoire."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "person",
+          "correctCharLength": 17,
+          "distractorCharLengths": [
+            17,
+            14,
+            14
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 1.1333333333333333,
+          "tokenLengthRatio": 1.5,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:35:14.071Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx085",
+      "questionText": "Quelle est la capitale de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+          "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+          "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+        ],
+        "correct": [
+          "Paris"
+        ],
+        "distractors": [
+          "Lyon",
+          "Lille",
+          "Nantes"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Paris",
+            "normalizedAnswer": "paris",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                "sectionId": "ile-de-france",
+                "sectionTitle": "Île-de-France",
+                "quote": "Ses principales villes sont Paris (préfecture), Boulogne-Billancourt, Saint-Denis, Versailles, Nanterre, Créteil, Évry et Cergy."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+            "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+            "sectionId": "ile-de-france",
+            "sectionTitle": "Île-de-France",
+            "quote": "La région de l’Île-de-France est située au centre-nord de la France, autour de Paris. C’est le cœur politique, économique et administratif du pays."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "place",
+          "correctCharLength": 5,
+          "distractorCharLengths": [
+            4,
+            5,
+            6
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 1,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:35:14.072Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx098",
+      "questionText": "Quand célèbre-t-on Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "histoire-geographie-culture--culture--une-puissance-culturelle"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "histoire-geographie-culture--culture--une-puissance-culturelle"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "date_year",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--definition-laicite-2",
+          "histoire-geographie-culture--culture--une-puissance-culturelle",
+          "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--definition-laicite-2",
+          "histoire-geographie-culture--culture--une-puissance-culturelle",
+          "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+        ],
+        "correct": [
+          "Le 25 décembre"
+        ],
+        "distractors": [
+          "Le 1er janvier",
+          "Le 9 mai",
+          "Le 14 juillet"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le 25 décembre",
+            "normalizedAnswer": "le 25 decembre",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+                "contentPath": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+                "sectionId": "patrimoine-francais-l-acces-a-la-culture",
+                "sectionTitle": "Patrimoine français : l’accès à la culture",
+                "quote": "la fête des Lumières se fonde sur la fête religieuse de la fête de l’Immaculée Conception du 8 décembre. Elle se déroule chaque année à Lyon pendant 4 jours autour de cette date"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+            "contentPath": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+            "sectionId": "patrimoine-francais-l-acces-a-la-culture",
+            "sectionTitle": "Patrimoine français : l’accès à la culture",
+            "quote": "la fête des Lumières se fonde sur la fête religieuse de la fête de l’Immaculée Conception du 8 décembre. Elle se déroule chaque année à Lyon pendant 4 jours autour de cette date"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "date_year",
+          "correctCharLength": 14,
+          "distractorCharLengths": [
+            14,
+            8,
+            13
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            3,
+            3,
+            3
+          ],
+          "charLengthRatio": 1.2,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 2,
+          "optionCount": 4,
+          "mismatchedOptions": [
+            "Le 25 décembre",
+            "Le 1er janvier"
+          ]
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "visible_type_mismatch"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:35:14.072Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx116",
+      "questionText": "Un enfant inscrit à l'école :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif",
+          "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+          "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif",
+          "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+        ],
+        "correct": [
+          "doit aller à l’école de 3 à 16 ans"
+        ],
+        "distractors": [
+          "peut arrêter l’école à 11 ans",
+          "travaille à temps plein dès 14 ans",
+          "choisit librement d’y aller ou non"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "doit aller à l’école de 3 à 16 ans",
+            "normalizedAnswer": "doit aller a l ecole de 3 a 16 ans",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+                "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+                "sectionId": "l-organisation-de-l-ecole-en-france",
+                "sectionTitle": "L’organisation de l’école en France",
+                "quote": "Français ou étrangers, tous les enfants âgés de 3 à 16 ans, qui habitent en France, doivent aller à l’école. C’est une obligation."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+            "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+            "sectionId": "l-organisation-de-l-ecole-en-france",
+            "sectionTitle": "L’organisation de l’école en France",
+            "quote": "Français ou étrangers, tous les enfants âgés de 3 à 16 ans, qui habitent en France, doivent aller à l’école. C’est une obligation."
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 34,
+          "distractorCharLengths": [
+            29,
+            34,
+            34
+          ],
+          "correctTokenLength": 10,
+          "distractorTokenLengths": [
+            7,
+            7,
+            7
+          ],
+          "charLengthRatio": 1.0515463917525771,
+          "tokenLengthRatio": 1.4285714285714286,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:35:14.073Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [],
+  "validatedAt": "2026-03-08T16:35:04.991Z",
+  "validationSummary": {
+    "total": 6,
+    "valid": 6,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "appliedAt": "2026-03-08T16:35:14.073Z",
+  "applySummary": {
+    "applied": 6,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": true
+  }
+}

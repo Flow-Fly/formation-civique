@@ -1,0 +1,553 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "batchId": "csp-b009",
+  "generatedAt": "2026-03-08T16:37:53.000Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx077",
+      "questionText": "Qui était le roi de France au moment de la Révolution française ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792"
+        ],
+        "correct": [
+          "Louis XVI"
+        ],
+        "distractors": [
+          "Napoléon Ier",
+          "Louis-Philippe",
+          "Charles X"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Louis XVI",
+            "normalizedAnswer": "louis xvi",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+                "sectionId": "la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+                "sectionTitle": "La fin de la monarchie absolue et le début de la Ière République (1789-1792)",
+                "quote": "En 1791, une monarchie constitutionnelle est instaurée. Les pouvoirs du roi sont limités, mais la fuite du roi Louis XVI à l’étranger et les tensions sociales dressent le peuple contre lui. Le 10 août 1792, le roi est renversé."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+            "sectionId": "la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+            "sectionTitle": "La fin de la monarchie absolue et le début de la Ière République (1789-1792)",
+            "quote": "En 1791, une monarchie constitutionnelle est instaurée. Les pouvoirs du roi sont limités, mais la fuite du roi Louis XVI à l’étranger et les tensions sociales dressent le peuple contre lui. Le 10 août 1792, le roi est renversé."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx079",
+      "questionText": "Que célèbre-t-on le 14 juillet ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "correct": [
+          "La fête nationale"
+        ],
+        "distractors": [
+          "La fête de la musique",
+          "La journée de l’Europe",
+          "La Fête des Lumières"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La fête nationale",
+            "normalizedAnswer": "la fete nationale",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+                "sectionId": "quel-est-le-jour-de-la-fete-nationale",
+                "sectionTitle": "Quel est le jour de la fête nationale ?",
+                "quote": "Le 14 juillet devient le jour de la fête nationale en 1880."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+            "sectionId": "quel-est-le-jour-de-la-fete-nationale",
+            "sectionTitle": "Quel est le jour de la fête nationale ?",
+            "quote": "Le 14 juillet devient le jour de la fête nationale en 1880. Ce choix commémore deux événements fondateurs de la République française : le 14 juillet 1789 et le 14 juillet 1790."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx080",
+      "questionText": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+        ],
+        "correct": [
+          "La Première Guerre mondiale"
+        ],
+        "distractors": [
+          "La Seconde Guerre mondiale",
+          "La guerre d’Algérie",
+          "La Révolution française"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Première Guerre mondiale",
+            "normalizedAnswer": "la premiere guerre mondiale",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+                "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1.md",
+                "sectionId": "dates-cles",
+                "sectionTitle": "Dates clés",
+                "quote": "Dates de la Première Guerre mondiale : 1914-1918."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1",
+            "contentPath": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1.md",
+            "sectionId": "dates-cles",
+            "sectionTitle": "Dates clés",
+            "quote": "Dates de la Première Guerre mondiale : 1914-1918."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx081",
+      "questionText": "Quel fleuve coule en France ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+        ],
+        "correct": [
+          "La Seine"
+        ],
+        "distractors": [
+          "Le Danube",
+          "Le Nil",
+          "L’Amazone"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Seine",
+            "normalizedAnswer": "la seine",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais",
+                "contentPath": "histoire-geographie-culture/atlas-de-la-france/les-fleuves-français.md",
+                "sectionId": "la-seine",
+                "sectionTitle": "La Seine",
+                "quote": "La Seine prend sa source en Bourgogne, près de Dijon, et se jette dans la Manche."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais",
+            "contentPath": "histoire-geographie-culture/atlas-de-la-france/les-fleuves-français.md",
+            "sectionId": "la-seine",
+            "sectionTitle": "La Seine",
+            "quote": "La Seine prend sa source en Bourgogne, près de Dijon, et se jette dans la Manche."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx082",
+      "questionText": "Quelle ville est française ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+          "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+        ],
+        "correct": [
+          "Marseille"
+        ],
+        "distractors": [
+          "Bruxelles",
+          "Genève",
+          "Lisbonne"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Marseille",
+            "normalizedAnswer": "marseille",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                "sectionId": "provence-alpes-cote-d-azur",
+                "sectionTitle": "Provence-Alpes-Côte d’Azur",
+                "quote": "Ses principales villes sont Marseille (préfecture), Nice, Toulon, Avignon, Aix-en-Provence, Gap."
+              },
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/les-ports-francais.md",
+                "sectionId": "ou-sont-situes-les-grands-ports-francais",
+                "sectionTitle": "Où sont situés les grands ports français ?",
+                "quote": "7 grands ports en France métropolitaine : Dunkerque, Le Havre, Rouen, Nantes Saint-Nazaire, La Rochelle, Bordeaux et Marseille."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur",
+            "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+            "sectionId": "provence-alpes-cote-d-azur",
+            "sectionTitle": "Provence-Alpes-Côte d’Azur",
+            "quote": "Ses principales villes sont Marseille (préfecture), Nice, Toulon, Avignon, Aix-en-Provence, Gap."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx084",
+      "questionText": "Qu'est-ce que Paris ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+        ],
+        "correct": [
+          "Une ville"
+        ],
+        "distractors": [
+          "Un fleuve",
+          "Une montagne",
+          "Un océan"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Une ville",
+            "normalizedAnswer": "une ville",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                "sectionId": "ile-de-france",
+                "sectionTitle": "Île-de-France",
+                "quote": "Ses principales villes sont Paris (préfecture), Boulogne-Billancourt, Saint-Denis, Versailles, Nanterre, Créteil, Évry et Cergy."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+            "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+            "sectionId": "ile-de-france",
+            "sectionTitle": "Île-de-France",
+            "quote": "La région de l’Île-de-France est située au centre-nord de la France, autour de Paris. C’est le cœur politique, économique et administratif du pays."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx086",
+      "questionText": "Sur quel continent se situe la France métropolitaine ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "correct": [
+          "L’Europe"
+        ],
+        "distractors": [
+          "L’Asie",
+          "L’Afrique",
+          "L’Océanie"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’Europe",
+            "normalizedAnswer": "l europe",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+                "contentPath": "histoire-geographie-culture/atlas-de-la-france/le-territoire-de-la-france.md",
+                "sectionId": "comment-se-compose-le-territoire-francais",
+                "sectionTitle": "Comment se compose le territoire français ?",
+                "quote": "d’un territoire situé en Europe (c’est la France hexagonale, aussi nommée “la métropole”)"
+              },
+              {
+                "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+                "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+                "sectionId": "quelle-est-la-position-geographique-de-la-france-en-europe",
+                "sectionTitle": "Quelle est la position géographique de la France en Europe ?",
+                "quote": "La France est située à l’ouest de l’Europe."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+            "contentPath": "histoire-geographie-culture/atlas-de-la-france/le-territoire-de-la-france.md",
+            "sectionId": "comment-se-compose-le-territoire-francais",
+            "sectionTitle": "Comment se compose le territoire français ?",
+            "quote": "d’un territoire situé en Europe (c’est la France hexagonale, aussi nommée “la métropole”)"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx093",
+      "questionText": "Qui était une chanteuse française célèbre ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+        ],
+        "correct": [
+          "Édith Piaf"
+        ],
+        "distractors": [
+          "Claude Debussy",
+          "Victor Hugo",
+          "Auguste Rodin"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Édith Piaf",
+            "normalizedAnswer": "edith piaf",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-dans-l-univers-de-la-musique",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques dans l’univers de la musique",
+                "quote": "Edith Piaf est célèbre pour sa voix puissante et émotive, et ses chansons sur l’amour, la douleur et l’espoir."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-dans-l-univers-de-la-musique",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques dans l’univers de la musique",
+            "quote": "Edith Piaf, une des plus grandes chanteuses du 20ème siècle (1915-1963)"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx096",
+      "questionText": "Quel écrivain est français ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2"
+        ],
+        "correct": [
+          "Victor Hugo"
+        ],
+        "distractors": [
+          "Claude Debussy",
+          "Édith Piaf",
+          "Auguste Rodin"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Victor Hugo",
+            "normalizedAnswer": "victor hugo",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-parmi-les-auteurs-2-3",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+                "quote": "Victor Hugo est un écrivain engagé, poète, dramaturge et romancier."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-parmi-les-auteurs-2-3",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+            "quote": "Victor Hugo, écrivain majeur du romantisme français (1802-1885)"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ]
+      }
+    }
+  ],
+  "skipped": []
+}

@@ -1,0 +1,1286 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "batchId": "cr-b003",
+  "generatedAt": "2026-03-07T19:35:04.149Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx041",
+      "questionText": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+        ],
+        "correct": [
+          "qui vote la loi"
+        ],
+        "distractors": [
+          "qui applique la loi",
+          "qui rend la justice",
+          "qui dirige l'administration"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "qui vote la loi",
+            "normalizedAnswer": "qui vote la loi",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le Parlement vote la loi."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "Le pouvoir législatif est exercé par le Parlement, composé de 2 entités, qu’on appelle “chambres” :"
+          },
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/comment-voter-une-loi.md",
+            "sectionId": "comment-voter-une-loi-1-2",
+            "sectionTitle": "Comment voter une loi (1/2)",
+            "quote": "Les deux chambres parlementaires (le Sénat et l’Assemblée nationale) doivent valider un texte de loi identique pour qu’il soit appliqué."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx042",
+      "questionText": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "correct": [
+          "Pour garantir les droits et l'équilibre"
+        ],
+        "distractors": [
+          "Pour accélérer l'action de l'État",
+          "Pour concentrer l'autorité dans un chef",
+          "Pour supprimer le contrôle des juges"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Pour garantir les droits et l'équilibre",
+            "normalizedAnswer": "pour garantir les droits et l equilibre",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+                "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+                "quote": "Ce principe permet de garantir les droits fondamentaux et de conserver un équilibre : les pouvoirs se contrôlent mutuellement, ils sont neutres et ne peuvent s’exercer de façon arbitraire."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+            "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+            "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+            "quote": "En France, la séparation des 3 pouvoirs signifie que les pouvoirs législatif, exécutif et judiciaire ne sont pas entre les mains des mêmes personnes."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx043",
+      "questionText": "Quel est le rôle du gouvernement ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "Appliquer les lois et conduire la politique nationale"
+        ],
+        "distractors": [
+          "Voter les lois et contrôler le Gouvernement",
+          "Juger les litiges et rendre la justice",
+          "Élire les députés et les sénateurs"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Appliquer les lois et conduire la politique nationale",
+            "normalizedAnswer": "appliquer les lois et conduire la politique nationale",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le président de la République et le Gouvernement appliquent et font respecter les lois."
+              },
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le président de la République et le Gouvernement doivent aussi conduire la politique nationale (intérieure et extérieure)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "Le pouvoir exécutif est exercé par le président de la République et le Gouvernement."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx044",
+      "questionText": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "correct": [
+          "Il peut être sanctionné comme tout citoyen"
+        ],
+        "distractors": [
+          "Il garde une immunité devant la loi",
+          "Il est jugé seulement par le Sénat",
+          "Il peut modifier la loi lui-même"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Il peut être sanctionné comme tout citoyen",
+            "normalizedAnswer": "il peut etre sanctionne comme tout citoyen",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+                "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+                "quote": "Exemple : un ministre qui ne respecte pas la loi peut être sanctionné comme tout citoyen."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+            "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+            "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+            "quote": "Ce principe permet de garantir les droits fondamentaux et de conserver un équilibre : les pouvoirs se contrôlent mutuellement, ils sont neutres et ne peuvent s’exercer de façon arbitraire."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx045",
+      "questionText": "Combien de députés composent l’Assemblée nationale ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "577 députés"
+        ],
+        "distractors": [
+          "348 députés",
+          "400 députés",
+          "500 députés"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "577 députés",
+            "normalizedAnswer": "577 deputes",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "l’Assemblée nationale (où siègent les 577 députés, élus par les citoyens)"
+              },
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "les 577 députés de l’Assemblée nationale (élus au suffrage direct par les Français, tous les 5 ans)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "l’Assemblée nationale (où siègent les 577 députés, élus par les citoyens)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx046",
+      "questionText": "Qui peut voter aux élections en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "Les Français, et les Européens pour certains scrutins"
+        ],
+        "distractors": [
+          "Tous les résidents majeurs pour tous les scrutins",
+          "Les Français mineurs s'ils sont inscrits",
+          "Les Européens pour n'importe quelle élection"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Les Français, et les Européens pour certains scrutins",
+            "normalizedAnswer": "les francais et les europeens pour certains scrutins",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "Le suffrage universel signifie que tous les citoyens qui ont la nationalité française, sont majeurs, ont leurs droits civiques et politiques et sont inscrits sur les listes électorales peuvent voter."
+              },
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "Un ressortissant d’un pays membre de l’Union européenne, résidant en France, a le droit de vote aux élections européennes et aux élections municipales."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-1-2",
+            "sectionTitle": "La démocratie et la République (1/2)",
+            "quote": "Le droit de vote est accordé à tout citoyen : de nationalité française, de plus de 18 ans, qui a ses droits civils et politiques et qui est inscrit sur les listes électorales."
+          },
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-1-2",
+            "sectionTitle": "Les conditions pour voter en France (1/2)",
+            "quote": "Un ressortissant d’un pays membre de l’Union européenne, résidant en France, a le droit de vote aux élections européennes et aux élections municipales."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx047",
+      "questionText": "Pour combien de temps sont élus les sénateurs ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "6 ans"
+        ],
+        "distractors": [
+          "5 ans",
+          "4 ans",
+          "7 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "6 ans",
+            "normalizedAnswer": "6 ans",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "les 348 sénateurs du Sénat (élection au suffrage indirect, par les grands électeurs choisis par les Français, tous les 6 ans)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "les 348 sénateurs du Sénat (élection au suffrage indirect, par les grands électeurs choisis par les Français, tous les 6 ans)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx048",
+      "questionText": "Est-ce que le président de la République a tous les pouvoirs ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "Non, les pouvoirs ne sont pas entre les mêmes mains"
+        ],
+        "distractors": [
+          "Oui, il détient tous les pouvoirs",
+          "Oui, il commande aussi les juges",
+          "Non, seul le Parlement gouverne"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, les pouvoirs ne sont pas entre les mêmes mains",
+            "normalizedAnswer": "non les pouvoirs ne sont pas entre les memes mains",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+                "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+                "quote": "En France, la séparation des 3 pouvoirs signifie que les pouvoirs législatif, exécutif et judiciaire ne sont pas entre les mains des mêmes personnes."
+              },
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-1-2",
+                "sectionTitle": "La démocratie et la République (1/2)",
+                "quote": "La France n’est plus une monarchie : le pouvoir n’appartient plus à une seule personne."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+            "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+            "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+            "quote": "En France, la séparation des 3 pouvoirs signifie que les pouvoirs législatif, exécutif et judiciaire ne sont pas entre les mains des mêmes personnes."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx049",
+      "questionText": "Qui est le préfet ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+        ],
+        "correct": [
+          "Le représentant de l'État dans le département"
+        ],
+        "distractors": [
+          "Le président élu du département",
+          "Le maire du chef-lieu du département",
+          "Le juge principal du département"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le représentant de l'État dans le département",
+            "normalizedAnswer": "le representant de l etat dans le departement",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-2-3",
+                "sectionTitle": "Le découpage administratif de la France (2/3)",
+                "quote": "Le Préfet est le représentant de l’État dans le département."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-2-3",
+            "sectionTitle": "Le découpage administratif de la France (2/3)",
+            "quote": "Le Préfet est le représentant de l’État dans le département. Il dirige les services de l’État dans un département."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx050",
+      "questionText": "Quelle condition est nécessaire pour voter aux élections ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+        ],
+        "correct": [
+          "Être inscrit sur les listes électorales"
+        ],
+        "distractors": [
+          "Être titulaire d'un passeport",
+          "Être marié en France",
+          "Être propriétaire d'un logement"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Être inscrit sur les listes électorales",
+            "normalizedAnswer": "etre inscrit sur les listes electorales",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "inscrits sur les listes électorales (à leur demande, auprès de la mairie de son lieu de résidence depuis plus de 6 mois)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-1-2",
+            "sectionTitle": "Les conditions pour voter en France (1/2)",
+            "quote": "Le suffrage universel signifie que tous les citoyens qui ont la nationalité française, sont majeurs, ont leurs droits civiques et politiques et sont inscrits sur les listes électorales peuvent voter."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx051",
+      "questionText": "Qui dirige la commune ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "Le maire"
+        ],
+        "distractors": [
+          "Le préfet",
+          "Le député",
+          "Le sénateur"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le maire",
+            "normalizedAnswer": "le maire",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+                "sectionTitle": "Le découpage administratif de la France (1/3)",
+                "quote": "Elle est dirigée par des personnes élues, dont le maire."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+            "sectionTitle": "Le découpage administratif de la France (1/3)",
+            "quote": "La commune a de nombreuses compétences, surtout en urbanisme, logement et action sociale. Elle gère les écoles primaires et maternelles et les services de proximité. C’est la collectivité la plus répandue sur le territoire. Elle est dirigée par des personnes élues, dont le maire."
+          },
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "Les élus municipaux (maire et conseillers municipaux, élus pour 6 ans lors des élections municipales au suffrage direct) : ils représentent les citoyens sur la commune ;"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx052",
+      "questionText": "Quel est le régime politique de la France aujourd'hui ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "La Vème République"
+        ],
+        "distractors": [
+          "La IVème République",
+          "La IIIème République",
+          "Le régime de Vichy"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La Vème République",
+            "normalizedAnswer": "la veme republique",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+                "sectionId": "la-veme-republique",
+                "sectionTitle": "La Vème République",
+                "quote": "La Vème République est le régime politique actuel de la France."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+            "sectionId": "la-veme-republique",
+            "sectionTitle": "La Vème République",
+            "quote": "La Vème République est le régime politique actuel de la France."
+          },
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-1-2",
+            "sectionTitle": "La démocratie et la République (1/2)",
+            "quote": "La France est une République où le pouvoir est exercé par un ensemble de représentants élus par le peuple."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx053",
+      "questionText": "Qu'est-ce que l'Hôtel de Matignon ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "La résidence du Premier ministre"
+        ],
+        "distractors": [
+          "La résidence du président",
+          "Le siège du Parlement",
+          "Le palais du Sénat"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La résidence du Premier ministre",
+            "normalizedAnswer": "la residence du premier ministre",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le Premier ministre, qui réside à l'hôtel de Matignon, est nommé par le président de la République."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "Le Gouvernement (le Premier ministre et les ministres). Le Premier ministre, qui réside à l'hôtel de Matignon, est nommé par le président de la République."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx054",
+      "questionText": "Le Parlement est composé :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "de l'Assemblée nationale et du Sénat"
+        ],
+        "distractors": [
+          "du président et du Gouvernement",
+          "des maires et des préfets",
+          "des juges et des procureurs"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "de l'Assemblée nationale et du Sénat",
+            "normalizedAnswer": "de l assemblee nationale et du senat",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "L’Assemblée nationale et le Sénat forment le Parlement."
+              },
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le pouvoir législatif est exercé par le Parlement, composé de 2 entités, qu’on appelle “chambres” :"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "L’Assemblée nationale et le Sénat forment le Parlement."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx055",
+      "questionText": "Qui est le chef du Gouvernement ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "Le Premier ministre"
+        ],
+        "distractors": [
+          "Le président du Sénat",
+          "Le président de la République",
+          "Le ministre de l'Intérieur"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le Premier ministre",
+            "normalizedAnswer": "le premier ministre",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le Gouvernement (le Premier ministre et les ministres). Le Premier ministre, qui réside à l'hôtel de Matignon, est nommé par le président de la République."
+              },
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "le Gouvernement (les ministres sont proposés par le Premier ministre au président de la République)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "Le Gouvernement (le Premier ministre et les ministres)."
+          },
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "le Gouvernement (les ministres sont proposés par le Premier ministre au président de la République)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx056",
+      "questionText": "Combien y a-t-il de régions en France ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "correct": [
+          "18 régions"
+        ],
+        "distractors": [
+          "13 régions",
+          "22 régions",
+          "27 régions"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "18 régions",
+            "normalizedAnswer": "18 regions",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+                "sectionTitle": "Le découpage administratif de la France (1/3)",
+                "quote": "Il y a 18 régions en France."
+              },
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-3-3",
+                "sectionTitle": "Le découpage administratif de la France (3/3)",
+                "quote": "les régions (18 dont 5 Outre-Mer)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+            "sectionTitle": "Le découpage administratif de la France (1/3)",
+            "quote": "La région contribue notamment à gérer les lycées, à développer l’activité économique et à aménager le territoire. Il y a 18 régions en France."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx057",
+      "questionText": "Depuis quand l'euro est-elle la monnaie unique ?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1",
+        "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "date_year",
+        "candidateFicheIds": [
+          "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1",
+          "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+        ],
+        "correct": [
+          "Depuis 1998"
+        ],
+        "distractors": [
+          "Depuis 1992",
+          "Depuis 2002",
+          "Depuis 2009"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Depuis 1998",
+            "normalizedAnswer": "depuis 1998",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1",
+                "contentPath": "systeme-institutionnel/institutions-europeennes/fonctionnement-europeen.md",
+                "sectionId": "le-fonctionnement-europeen-1-2",
+                "sectionTitle": "Le fonctionnement européen (1/2)",
+                "quote": "La Banque centrale européenne est créée en 1998, au moment de la création de l’euro comme monnaie unique."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1",
+            "contentPath": "systeme-institutionnel/institutions-europeennes/fonctionnement-europeen.md",
+            "sectionId": "le-fonctionnement-europeen-1-2",
+            "sectionTitle": "Le fonctionnement européen (1/2)",
+            "quote": "La Banque centrale européenne est créée en 1998, au moment de la création de l’euro comme monnaie unique."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx058",
+      "questionText": "Quel est le rôle principal du département ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+        ],
+        "correct": [
+          "L'action sociale"
+        ],
+        "distractors": [
+          "La justice pénale",
+          "La défense militaire",
+          "La politique étrangère"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L'action sociale",
+            "normalizedAnswer": "l action sociale",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+                "sectionTitle": "Le découpage administratif de la France (1/3)",
+                "quote": "Le département agit surtout dans l’action sociale."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+            "sectionTitle": "Le découpage administratif de la France (1/3)",
+            "quote": "Le département agit surtout dans l’action sociale. Il gère aussi les collèges, et a des compétences partagées avec les autres collectivités territoriales."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx059",
+      "questionText": "Quel est le rôle principal des communes ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "correct": [
+          "Les services de proximité"
+        ],
+        "distractors": [
+          "La justice pénale",
+          "La politique étrangère",
+          "La défense nationale"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Les services de proximité",
+            "normalizedAnswer": "les services de proximite",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+                "sectionTitle": "Le découpage administratif de la France (1/3)",
+                "quote": "Elle gère les écoles primaires et maternelles et les services de proximité."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+            "sectionTitle": "Le découpage administratif de la France (1/3)",
+            "quote": "La commune a de nombreuses compétences, surtout en urbanisme, logement et action sociale. Elle gère les écoles primaires et maternelles et les services de proximité."
+          },
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-3-3",
+            "sectionTitle": "Le découpage administratif de la France (3/3)",
+            "quote": "Les communes gèrent les écoles maternelles et primaires."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx060",
+      "questionText": "Combien de communes environ existe-t-il en France ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "correct": [
+          "Environ 35 000 communes"
+        ],
+        "distractors": [
+          "Environ 10 000 communes",
+          "Environ 20 000 communes",
+          "Environ 50 000 communes"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Environ 35 000 communes",
+            "normalizedAnswer": "environ 35 000 communes",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+                "sectionTitle": "Le découpage administratif de la France (1/3)",
+                "quote": "il y a plus de 35 000 communes en France"
+              },
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-3-3",
+                "sectionTitle": "Le découpage administratif de la France (3/3)",
+                "quote": "les communes (34 875)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+            "sectionTitle": "Le découpage administratif de la France (1/3)",
+            "quote": "C’est la collectivité la plus répandue sur le territoire (il y a plus de 35 000 communes en France)."
+          }
+        ],
+        "qualityFlags": []
+      }
+    }
+  ],
+  "skipped": []
+}

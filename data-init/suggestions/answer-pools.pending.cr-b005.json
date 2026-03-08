@@ -1,0 +1,1114 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "batchId": "cr-b005",
+  "generatedAt": "2026-03-07T20:09:32.000Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx081",
+      "questionText": "Qui peut demander à avorter ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+          "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+          "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+        ],
+        "correct": [
+          "Toutes les femmes, sans condition d'âge"
+        ],
+        "distractors": [
+          "Seulement les femmes mariées et majeures",
+          "Seulement les Françaises de plus de 18 ans",
+          "Les femmes mineures avec accord parental"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Toutes les femmes, sans condition d'âge",
+            "normalizedAnswer": "toutes les femmes sans condition d age",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement",
+                "contentPath": "histoire-geographie-culture/la-veme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement.md",
+                "sectionId": "le-droit-a-l-avortement-c-est-quoi",
+                "sectionTitle": "Le droit à l’avortement, c’est quoi ?",
+                "quote": "Chaque femme, sans condition d’âge (les mineures n’ont pas besoin d’une autorisation parentale pour avorter, mais elles doivent être accompagnées d’une personne majeure de leur choix), peut avoir recours à l’IVG"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps.md",
+            "sectionId": "l-interruption-volontaire-de-grossesse-c-est-quoi",
+            "sectionTitle": "L’interruption volontaire de grossesse, c’est quoi ?",
+            "quote": "L’interruption volontaire de grossesse (IVG), c’est la possibilité d’arrêter une grossesse pour toutes les femmes, sans condition d’âge"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx082",
+      "questionText": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+        ],
+        "correct": [
+          "Oui, si elle est inscrite sur les listes électorales"
+        ],
+        "distractors": [
+          "Oui, même sans inscription électorale",
+          "Non, le vote reste réservé aux hommes",
+          "Non, sauf aux élections municipales"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, si elle est inscrite sur les listes électorales",
+            "normalizedAnswer": "oui si elle est inscrite sur les listes electorales",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "- qui ont la nationalité française ;\n- majeurs (de plus de 18 ans) ;\n- ayant leurs droits civiques et politiques (n’est pas condamné) ;\n- inscrits sur les listes électorales (à leur demande, auprès de la mairie de son lieu de résidence depuis plus de 6 mois),\npeuvent voter sans distinction de sexe"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-1-2",
+            "sectionTitle": "Les conditions pour voter en France (1/2)",
+            "quote": "Le suffrage universel signifie que tous les citoyens"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx083",
+      "questionText": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--le-blaspheme"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-laicite--le-blaspheme",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-laicite--le-blaspheme"
+        ],
+        "correct": [
+          "On peut publier librement, sans propos haineux"
+        ],
+        "distractors": [
+          "On peut insulter une religion sans limite",
+          "On ne peut jamais critiquer une religion",
+          "On doit demander l'accord de l'État"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "On peut publier librement, sans propos haineux",
+            "normalizedAnswer": "on peut publier librement sans propos haineux",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+                "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+                "quote": "chacun peut parler, écrire et publier librement."
+              },
+              {
+                "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+                "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+                "sectionId": "quelles-sont-les-limites",
+                "sectionTitle": "Quelles sont les limites ?",
+                "quote": "on ne peut pas dire tout et n’importe quoi. Certains propos sont punis par la loi"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--la-laicite--le-blaspheme",
+            "contentPath": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+            "sectionId": "les-bases-qu-est-ce-que-la-liberte-d-expression",
+            "sectionTitle": "Les bases : qu’est-ce que la liberté d’expression ?",
+            "quote": "En France, la liberté d’expression est un droit fondamental."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx084",
+      "questionText": "Jeter un mégot par terre est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "correct": [
+          "un geste contraire au respect des espaces communs"
+        ],
+        "distractors": [
+          "un geste utile pour nettoyer la rue",
+          "une manière normale de gérer ses déchets",
+          "un acte permis dans les espaces communs"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "un geste contraire au respect des espaces communs",
+            "normalizedAnswer": "un geste contraire au respect des espaces communs",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "- respecter les espaces communs et ne pas y jeter de déchets ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "Toutes les personnes qui habitent en France ont le devoir de protéger l’environnement"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx085",
+      "questionText": "L'État peut-il limiter les droits et libertés ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+        ],
+        "correct": [
+          "Oui, pour protéger l'intérêt général"
+        ],
+        "distractors": [
+          "Oui, pour favoriser une religion",
+          "Non, les libertés n'ont aucune limite",
+          "Non, sauf pour les citoyens étrangers"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, pour protéger l'intérêt général",
+            "normalizedAnswer": "oui pour proteger l interet general",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "la-limite-des-libertes-individuelles",
+                "sectionTitle": "La limite des libertés individuelles",
+                "quote": "Nos droits et libertés individuels sont limités par :\n- l’intérêt général ;\n- les libertés des autres ;\n- la défense de l’ordre public"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "la-limite-des-libertes-individuelles",
+            "sectionTitle": "La limite des libertés individuelles",
+            "quote": "Cependant, ces droits et libertés ont une limite pour protéger la vie en société."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx086",
+      "questionText": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "correct": [
+          "Trier ses déchets et réduire le plastique"
+        ],
+        "distractors": [
+          "Jeter ses déchets dans les espaces communs",
+          "Prendre la voiture pour tous les trajets",
+          "Gaspiller l'eau et l'énergie chaque jour"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Trier ses déchets et réduire le plastique",
+            "normalizedAnswer": "trier ses dechets et reduire le plastique",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "- trier ses déchets et réduire ses déchets plastiques ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "Exemples d’actions concrètes :"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx087",
+      "questionText": "Quelle proposition constitue une obligation ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "correct": [
+          "Porter secours à une personne en danger"
+        ],
+        "distractors": [
+          "Voter à toutes les élections organisées",
+          "Choisir librement sa religion ou ses opinions",
+          "Décider seul du montant de ses impôts"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Porter secours à une personne en danger",
+            "normalizedAnswer": "porter secours a une personne en danger",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "les-obligations-en-tant-que-resident-francais",
+                "sectionTitle": "Les obligations en tant que résident français",
+                "quote": "Assurer l’assistance à personne en danger, c’est porter secours à toute personne en danger."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "les-obligations-en-tant-que-resident-francais",
+            "sectionTitle": "Les obligations en tant que résident français",
+            "quote": "Toute personne qui habite en France (peu importe sa nationalité, citoyen français ou non) doit respecter certaines obligations légales envers l’État"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx088",
+      "questionText": "Pourquoi doit-on trier ses déchets ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "correct": [
+          "Pour prendre part à la préservation de l'environnement"
+        ],
+        "distractors": [
+          "Pour augmenter les déchets plastiques",
+          "Pour éviter toute forme de recyclage",
+          "Pour pouvoir jeter ses déchets partout"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Pour prendre part à la préservation de l'environnement",
+            "normalizedAnswer": "pour prendre part a la preservation de l environnement",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "Toute personne a le devoir de prendre part à la préservation et à l’amélioration de l’environnement"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "- trier ses déchets et réduire ses déchets plastiques ;"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx089",
+      "questionText": "Que doit faire une victime de violences ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-de-toutes-les-formes-de-violences"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-de-toutes-les-formes-de-violences"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+        ],
+        "correct": [
+          "En parler et demander un accompagnement"
+        ],
+        "distractors": [
+          "Rester seule et attendre que cela passe",
+          "Se croire responsable des violences subies",
+          "Garder le silence et ne rien signaler"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "En parler et demander un accompagnement",
+            "normalizedAnswer": "en parler et demander un accompagnement",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "la-protection-des-victimes-de-violences",
+                "sectionTitle": "La protection des victimes de violences",
+                "quote": "Exprimer sa souffrance permet de sortir de l’isolement et d’être orienté vers des solutions."
+              },
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "la-protection-des-victimes-de-violences",
+                "sectionTitle": "La protection des victimes de violences",
+                "quote": "Il existe de nombreuses associations spécialisées selon le type de violence vécue. Elles proposent souvent un accompagnement"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "la-protection-des-victimes-de-violences",
+            "sectionTitle": "La protection des victimes de violences",
+            "quote": "Que faire quand on est victime de violence ?\nEn parler"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx091",
+      "questionText": "Quel est le rôle de la police ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "correct": [
+          "Prévenir les infractions et protéger les personnes"
+        ],
+        "distractors": [
+          "Voter les lois et nommer les ministres",
+          "Rendre les jugements de la cour d'assises",
+          "Délivrer les actes de naissance en mairie"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Prévenir les infractions et protéger les personnes",
+            "normalizedAnswer": "prevenir les infractions et proteger les personnes",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+                "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+                "quote": "Elles se chargent de :\n- la prévention des infractions ;\n- le maintien de l’ordre public ;\n- la protection des personnes et des biens ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+            "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+            "quote": "Quel est leur rôle ?"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx092",
+      "questionText": "Quel est un exemple d’assistance à personne en danger ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "correct": [
+          "Porter secours à une personne en danger"
+        ],
+        "distractors": [
+          "Ignorer une personne blessée dans la rue",
+          "Refuser d'appeler les secours malgré le danger",
+          "Attendre sans rien faire l'arrivée d'un voisin"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Porter secours à une personne en danger",
+            "normalizedAnswer": "porter secours a une personne en danger",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "les-obligations-en-tant-que-resident-francais",
+                "sectionTitle": "Les obligations en tant que résident français",
+                "quote": "Assurer l’assistance à personne en danger, c’est porter secours à toute personne en danger."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "les-obligations-en-tant-que-resident-francais",
+            "sectionTitle": "Les obligations en tant que résident français",
+            "quote": "Si une personne voit quelqu’un en danger ou qui est en danger, il doit l’aider."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx093",
+      "questionText": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles"
+        ],
+        "correct": [
+          "Interdire de circuler dans l'espace public avec le visage caché"
+        ],
+        "distractors": [
+          "Supprimer la liberté d'opinion selon la religion",
+          "Accorder des privilèges politiques à un groupe",
+          "Empêcher toute critique de l'action publique"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Interdire de circuler dans l'espace public avec le visage caché",
+            "normalizedAnswer": "interdire de circuler dans l espace public avec le visage cache",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "la-limite-des-libertes-individuelles",
+                "sectionTitle": "La limite des libertés individuelles",
+                "quote": "De même, il est interdit de circuler dans l'espace public avec une tenue qui vise à cacher son visage."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "la-limite-des-libertes-individuelles",
+            "sectionTitle": "La limite des libertés individuelles",
+            "quote": "Nos droits et libertés individuels sont limités par :\n- l’intérêt général ;\n- les libertés des autres ;\n- la défense de l’ordre public"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx094",
+      "questionText": "Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences"
+        ],
+        "correct": [
+          "Agir sans se mettre en danger"
+        ],
+        "distractors": [
+          "Ne rien dire pour éviter les problèmes",
+          "Forcer la victime à porter plainte",
+          "Se venger soi-même de l'auteur"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Agir sans se mettre en danger",
+            "normalizedAnswer": "agir sans se mettre en danger",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "le-role-des-temoins-en-cas-de-violences",
+                "sectionTitle": "Le rôle des témoins en cas de violences",
+                "quote": "Témoin de violences : vous devez agir sans vous mettre en danger"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "le-role-des-temoins-en-cas-de-violences",
+            "sectionTitle": "Le rôle des témoins en cas de violences",
+            "quote": "Quelque soit la violence dont vous êtes témoin, vous devez agir."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx095",
+      "questionText": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "correct": [
+          "Payer des impôts selon ses revenus"
+        ],
+        "distractors": [
+          "Voter à toutes les élections nationales",
+          "Se présenter à une élection municipale",
+          "Choisir un parti politique officiel"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Payer des impôts selon ses revenus",
+            "normalizedAnswer": "payer des impots selon ses revenus",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "les-obligations-en-tant-que-resident-francais",
+                "sectionTitle": "Les obligations en tant que résident français",
+                "quote": "Payer des impôts"
+              },
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "les-obligations-en-tant-que-resident-francais",
+                "sectionTitle": "Les obligations en tant que résident français",
+                "quote": "La participation à l’effort commun, adaptée selon ses revenus, est nécessaire"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "les-obligations-en-tant-que-resident-francais",
+            "sectionTitle": "Les obligations en tant que résident français",
+            "quote": "Toute personne qui habite en France (peu importe sa nationalité, citoyen français ou non) doit respecter certaines obligations légales envers l’État"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx096",
+      "questionText": "Quelle proposition représente un exemple de crime ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-des-violences-sexuelles"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-des-violences-sexuelles"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+        ],
+        "correct": [
+          "Un braquage"
+        ],
+        "distractors": [
+          "Un vol",
+          "Un excès de vitesse",
+          "Un tapage nocturne"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Un braquage",
+            "normalizedAnswer": "un braquage",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+                "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+                "quote": "Le crime est l'infraction la plus grave. Exemples : assassinat (prémédité), meurtre (non prémédité), viol, braquage, terrorisme…"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+            "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+            "quote": "Le crime est l'infraction la plus grave."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx097",
+      "questionText": "Quelle proposition représente un exemple de délit ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions"
+        ],
+        "correct": [
+          "Une fraude fiscale"
+        ],
+        "distractors": [
+          "Un braquage",
+          "Un excès de vitesse",
+          "Un tapage nocturne"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Une fraude fiscale",
+            "normalizedAnswer": "une fraude fiscale",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+                "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+                "quote": "Le délit est une infraction intermédiaire. Exemples : vol, fraude fiscale, harcèlement, agression sexuelle, homicide involontaire, ne pas scolariser son enfant…"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-infractions-1-2",
+            "sectionTitle": "Se conformer aux lois : les infractions (1/2)",
+            "quote": "Le délit est une infraction intermédiaire."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx098",
+      "questionText": "Qui veille au maintien de l’ordre public ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "correct": [
+          "La police et la gendarmerie"
+        ],
+        "distractors": [
+          "Le Parlement et le Sénat",
+          "La mairie et l'école",
+          "La préfecture et la CAF"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La police et la gendarmerie",
+            "normalizedAnswer": "la police et la gendarmerie",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+                "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+                "quote": "La police et la gendarmerie sont des forces de l’ordre."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+            "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+            "quote": "- le maintien de l’ordre public ;"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx099",
+      "questionText": "S'agissant des déchets, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+        ],
+        "correct": [
+          "Il faut trier ses déchets et réduire le plastique"
+        ],
+        "distractors": [
+          "Il faut jeter ses déchets dans les espaces communs",
+          "Il faut mélanger tous les déchets dans un seul sac",
+          "Il faut brûler ses déchets ménagers dehors"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Il faut trier ses déchets et réduire le plastique",
+            "normalizedAnswer": "il faut trier ses dechets et reduire le plastique",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "- trier ses déchets et réduire ses déchets plastiques ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "Le devoir de protéger l’environnement"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx100",
+      "questionText": "Quel était le surnom de Louis XIV ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+        ],
+        "correct": [
+          "Le Roi-Soleil"
+        ],
+        "distractors": [
+          "Le Roi-Citoyen",
+          "Le Bien-Aimé",
+          "Le Père du Peuple"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le Roi-Soleil",
+            "normalizedAnswer": "le roi-soleil",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+                "sectionId": "l-ancien-regime-jusqu-en-1789",
+                "sectionTitle": "L'Ancien Régime (jusqu'en 1789)",
+                "quote": "Le roi Louis XIV, surnommé le Roi-Soleil, est l’une des personnes importantes de l’Ancien Régime."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+            "sectionId": "l-ancien-regime-jusqu-en-1789",
+            "sectionTitle": "L'Ancien Régime (jusqu'en 1789)",
+            "quote": "Personnage clé : Le roi Louis XIV, surnommé le Roi-Soleil"
+          }
+        ],
+        "qualityFlags": []
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "questionId": "crx090",
+      "questionText": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "blockReason": "La règle utile n'apparaît que dans un bloc `Transcription` dont le `sectionId` est dupliqué dans `fiches-section-index`, ce qui ne permet pas d'ancrer une evidence valide et stable pour cette question."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r009",
+  "generatedAt": "2026-03-07T14:34:12.000Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche « Une puissance touristique » dit que la France est la première destination touristique au monde, mais elle ne classe aucun département.",
+        "La fiche « Île-de-France » indique que Paris fait partie des départements de la région et que le tourisme est un secteur clé de l'Île-de-France.",
+        "La fiche « Le territoire de la France » confirme que Paris (75) est bien un département.",
+        "Aucune de ces fiches n'affirme quel département est le plus touristique, donc je laisse le lien final vide."
+      ]
+    },
+    {
+      "questionId": "crx134",
+      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur l’environnement demande de trier ses déchets et de ne pas les jeter dans les espaces communs.",
+        "La fiche sur les obligations du résident mentionne la réutilisation et le recyclage parmi les gestes pour défendre l’environnement.",
+        "Aucune de ces fiches ne précise où déposer un appareil électroménager cassé comme un lave-vaisselle, donc je laisse le lien final vide."
+      ]
+    },
+    {
+      "questionId": "crx141",
+      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche « Orientation (1/5) » indique qu’une personne étrangère en situation régulière sans travail doit être inscrite à France Travail pour être accompagnée.",
+        "La fiche « Orientation (4/5) » détaille l’inscription et le maintien de l’inscription à France Travail.",
+        "La fiche « Le droit du travail (5/5) » précise qu’un salarié non déclaré ne cotise pas à l’assurance chômage.",
+        "Aucune de ces fiches n’énonce les conditions complètes pour toucher les allocations chômage, donc je laisse le lien final vide."
+      ]
+    },
+    {
+      "questionId": "crx148",
+      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche « Le système éducatif » décrit l’organisation de l’école et l’obligation scolaire, sans calendrier des vacances.",
+        "La fiche sur le rôle des parents à l’école traite du suivi scolaire et des démarches administratives, pas des dates de congés.",
+        "Aucune de ces fiches ne donne la période des vacances scolaires de Noël, donc je laisse le lien final vide."
+      ]
+    }
+  ]
+}

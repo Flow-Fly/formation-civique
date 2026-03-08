@@ -1,0 +1,1017 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "batchId": "cr-b007",
+  "generatedAt": "2026-03-07T20:36:51.494Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx121",
+      "questionText": "Quelle région est la plus peuplée ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+          "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france"
+        ],
+        "correct": [
+          "Île-de-France"
+        ],
+        "distractors": [
+          "Auvergne-Rhône-Alpes",
+          "Occitanie",
+          "Nouvelle-Aquitaine"
+        ],
+        "answerEvidence": [
+      {
+        "answerText": "Île-de-France",
+        "normalizedAnswer": "ile-de-france",
+        "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                "sectionId": "ile-de-france",
+                "sectionTitle": "Île-de-France",
+                "quote": "Environ 12,4 millions d’habitants. C’est la région la plus peuplée de France, avec une forte densité de population et une forte urbanisation."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+            "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+            "sectionId": "ile-de-france",
+            "sectionTitle": "Île-de-France",
+            "quote": "Environ 12,4 millions d’habitants. C’est la région la plus peuplée de France, avec une forte densité de population et une forte urbanisation."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx123",
+      "questionText": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+        ],
+        "correct": [
+          "Le 1er dimanche de chaque mois"
+        ],
+        "distractors": [
+          "Le 2e dimanche de chaque mois",
+          "Le 1er lundi de chaque mois",
+          "Le dernier samedi de chaque mois"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le 1er dimanche de chaque mois",
+            "normalizedAnswer": "le 1er dimanche de chaque mois",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+                "contentPath": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+                "sectionId": "patrimoine-francais-l-acces-a-la-culture",
+                "sectionTitle": "Patrimoine français : l’accès à la culture",
+                "quote": "l'accès aux collections de la plupart des musées nationaux est gratuit le 1er dimanche de chaque mois."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+            "contentPath": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+            "sectionId": "patrimoine-francais-l-acces-a-la-culture",
+            "sectionTitle": "Patrimoine français : l’accès à la culture",
+            "quote": "l'accès aux collections de la plupart des musées nationaux est gratuit le 1er dimanche de chaque mois."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx124",
+      "questionText": "Combien de personnes parlent français dans le monde ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+          "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde"
+        ],
+        "correct": [
+          "Plus de 300 millions de locuteurs"
+        ],
+        "distractors": [
+          "Environ 80 millions de locuteurs",
+          "Environ 150 millions de locuteurs",
+          "Près de 500 millions de locuteurs"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Plus de 300 millions de locuteurs",
+            "normalizedAnswer": "plus de 300 millions de locuteurs",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+                "contentPath": "histoire-geographie-culture/culture/puissance-et-langue.md",
+                "sectionId": "patrimoine-francais-la-langue-francaise-dans-le-monde",
+                "sectionTitle": "Patrimoine français : la langue française dans le monde",
+                "quote": "Le français est la 5ème langue la plus parlée au monde avec plus de 300 millions de locuteurs."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+            "contentPath": "histoire-geographie-culture/culture/puissance-et-langue.md",
+            "sectionId": "patrimoine-francais-la-langue-francaise-dans-le-monde",
+            "sectionTitle": "Patrimoine français : la langue française dans le monde",
+            "quote": "Le français est la 5ème langue la plus parlée au monde avec plus de 300 millions de locuteurs."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx125",
+      "questionText": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+        "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+          "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde"
+        ],
+        "correct": [
+          "La 5ème langue la plus parlée au monde"
+        ],
+        "distractors": [
+          "La 3ème langue la plus parlée au monde",
+          "La 7ème langue la plus parlée au monde",
+          "La 10ème langue la plus parlée au monde"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La 5ème langue la plus parlée au monde",
+            "normalizedAnswer": "la 5eme langue la plus parlee au monde",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+                "contentPath": "histoire-geographie-culture/culture/puissance-et-langue.md",
+                "sectionId": "patrimoine-francais-la-langue-francaise-dans-le-monde",
+                "sectionTitle": "Patrimoine français : la langue française dans le monde",
+                "quote": "Le français est la 5ème langue la plus parlée au monde avec plus de 300 millions de locuteurs."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde",
+            "contentPath": "histoire-geographie-culture/culture/puissance-et-langue.md",
+            "sectionId": "patrimoine-francais-la-langue-francaise-dans-le-monde",
+            "sectionTitle": "Patrimoine français : la langue française dans le monde",
+            "quote": "Le français est la 5ème langue la plus parlée au monde avec plus de 300 millions de locuteurs."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx126",
+      "questionText": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+          "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie",
+          "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france"
+        ],
+        "correct": [
+          "Notre-Dame de Paris"
+        ],
+        "distractors": [
+          "La cathédrale de Reims",
+          "La cathédrale de Chartres",
+          "La cathédrale de Rouen"
+        ],
+        "answerEvidence": [
+      {
+        "answerText": "Notre-Dame de Paris",
+        "normalizedAnswer": "notre-dame de paris",
+        "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+                "contentPath": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+                "sectionId": "patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+                "sectionTitle": "Patrimoine français : le citoyen, acteur et conservateur de la culture en France",
+                "quote": "la reconstruction de la cathédrale de Notre-Dame de Paris : après l’incendie de 2019, plus de 840 millions d’euros ont été récoltés par des dons privés."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+            "contentPath": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+            "sectionId": "patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+            "sectionTitle": "Patrimoine français : le citoyen, acteur et conservateur de la culture en France",
+            "quote": "la reconstruction de la cathédrale de Notre-Dame de Paris : après l’incendie de 2019, plus de 840 millions d’euros ont été récoltés par des dons privés."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx127",
+      "questionText": "Qui était une écrivaine française célèbre ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3"
+        ],
+        "correct": [
+          "George Sand"
+        ],
+        "distractors": [
+          "Victor Hugo",
+          "Albert Camus",
+          "Baudelaire"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "George Sand",
+            "normalizedAnswer": "george sand",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-parmi-les-auteurs-2-3",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+                "quote": "George Sand est une écrivaine connue pour son engagement social, sa défense des droits des femmes et sa liberté de ton."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-parmi-les-auteurs-2-3",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques parmi les auteurs (2/3)",
+            "quote": "George Sand est une écrivaine connue pour son engagement social, sa défense des droits des femmes et sa liberté de ton."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx128",
+      "questionText": "Qui était un célèbre musicien français ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique"
+        ],
+        "correct": [
+          "Claude Debussy"
+        ],
+        "distractors": [
+          "Victor Hugo",
+          "George Sand",
+          "Albert Camus"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Claude Debussy",
+            "normalizedAnswer": "claude debussy",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+                "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                "sectionId": "patrimoine-francais-des-artistes-emblematiques-dans-l-univers-de-la-musique",
+                "sectionTitle": "Patrimoine français : des artistes emblématiques dans l’univers de la musique",
+                "quote": "Claude Debussy, compositeur français (1862-1918)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+            "contentPath": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+            "sectionId": "patrimoine-francais-des-artistes-emblematiques-dans-l-univers-de-la-musique",
+            "sectionTitle": "Patrimoine français : des artistes emblématiques dans l’univers de la musique",
+            "quote": "Claude Debussy, compositeur français (1862-1918)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx130",
+      "questionText": "Quel mariage est reconnu par l'État ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+        "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+          "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+          "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+        ],
+        "correct": [
+          "Le mariage civil"
+        ],
+        "distractors": [
+          "Le mariage religieux",
+          "Le mariage coutumier",
+          "Le mariage symbolique"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le mariage civil",
+            "normalizedAnswer": "le mariage civil",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                "sectionId": "la-declaration-de-mariage",
+                "sectionTitle": "La déclaration de mariage",
+                "quote": "Le mariage civil est le seul mariage reconnu en France."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+            "sectionId": "la-declaration-de-mariage",
+            "sectionTitle": "La déclaration de mariage",
+            "quote": "Le mariage civil est le seul mariage reconnu en France."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx131",
+      "questionText": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+          "vivre-societe-francaise--parentalite--le-systeme-educatif",
+          "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+        ],
+        "correct": [
+          "La mairie"
+        ],
+        "distractors": [
+          "La préfecture",
+          "La CAF",
+          "La CPAM"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "La mairie",
+            "normalizedAnswer": "la mairie",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+                "contentPath": "vivre-societe-francaise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant.md",
+                "sectionId": "l-ecole-publique",
+                "sectionTitle": "L’école publique",
+                "quote": "Pour inscrire son enfant à l’école publique, il suffit de contacter la mairie, ou l’école située à proximité de son domicile."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+            "contentPath": "vivre-societe-francaise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant.md",
+            "sectionId": "l-ecole-publique",
+            "sectionTitle": "L’école publique",
+            "quote": "Pour inscrire son enfant à l’école publique, il suffit de contacter la mairie, ou l’école située à proximité de son domicile."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx132",
+      "questionText": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-2"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+          "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-2"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1"
+        ],
+        "correct": [
+          "Avoir au moins 17 ans"
+        ],
+        "distractors": [
+          "Avoir au moins 15 ans",
+          "Avoir au moins 16 ans",
+          "Avoir au moins 21 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Avoir au moins 17 ans",
+            "normalizedAnswer": "avoir au moins 17 ans",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/quotidien.md",
+                "sectionId": "les-demarches-du-quotidien-comme-le-permis-de-conduire-1-2",
+                "sectionTitle": "Les démarches du quotidien comme le permis de conduire (1/2)",
+                "quote": "Il est nécessaire d'avoir 17 ans au minimum et être résident en France pour passer l'examen du permis de conduire."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/quotidien.md",
+            "sectionId": "les-demarches-du-quotidien-comme-le-permis-de-conduire-1-2",
+            "sectionTitle": "Les démarches du quotidien comme le permis de conduire (1/2)",
+            "quote": "Il est nécessaire d'avoir 17 ans au minimum et être résident en France pour passer l'examen du permis de conduire."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx133",
+      "questionText": "Un bail locatif est valide s'il est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1"
+        ],
+        "correct": [
+          "Signé par le locataire et le propriétaire"
+        ],
+        "distractors": [
+          "Signé par le locataire et la mairie",
+          "Signé par l’agence et la préfecture",
+          "Signé par la banque et l’assurance"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Signé par le locataire et le propriétaire",
+            "normalizedAnswer": "signe par le locataire et le proprietaire",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1",
+                "contentPath": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+                "sectionId": "les-demarches-relatives-au-logement-1-2",
+                "sectionTitle": "Les démarches relatives au logement (1/2)",
+                "quote": "Le bail est le seul document qui autorise à vivre dans un logement : il est valide seulement s'il est signé par le locataire et le propriétaire."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1",
+            "contentPath": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+            "sectionId": "les-demarches-relatives-au-logement-1-2",
+            "sectionTitle": "Les démarches relatives au logement (1/2)",
+            "quote": "Le bail est le seul document qui autorise à vivre dans un logement : il est valide seulement s'il est signé par le locataire et le propriétaire."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx135",
+      "questionText": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+          "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+          "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+        ],
+        "correct": [
+          "Pour un problème courant, on consulte d’abord son médecin traitant."
+        ],
+        "distractors": [
+          "Pour un problème courant, on va toujours directement aux urgences.",
+          "Pour un problème courant, la pharmacie ne donne jamais de conseils.",
+          "Pour un problème courant, les PASS sont réservées aux enfants."
+        ],
+        "answerEvidence": [
+      {
+        "answerText": "Pour un problème courant, on consulte d’abord son médecin traitant.",
+        "normalizedAnswer": "pour un probleme courant on consulte d abord son medecin traitant.",
+        "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+                "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                "sectionId": "acces-aux-soins-le-parcours-de-sante",
+                "sectionTitle": "Accès aux soins : le parcours de santé",
+                "quote": "Pour un problème de santé courant, on commence généralement par consulter un médecin traitant (médecin généraliste de référence pour le patient)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+            "contentPath": "vivre-societe-francaise/sante/acces-aux-soins.md",
+            "sectionId": "acces-aux-soins-le-parcours-de-sante",
+            "sectionTitle": "Accès aux soins : le parcours de santé",
+            "quote": "Pour un problème de santé courant, on commence généralement par consulter un médecin traitant (médecin généraliste de référence pour le patient)."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx136",
+      "questionText": "À qui est accessible la contraception ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+        "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+          "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps"
+        ],
+        "correct": [
+          "Aux plus comme aux moins de 18 ans"
+        ],
+        "distractors": [
+          "Aux seules personnes mariées",
+          "Aux seuls plus de 18 ans",
+          "Aux seules femmes enceintes"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Aux plus comme aux moins de 18 ans",
+            "normalizedAnswer": "aux plus comme aux moins de 18 ans",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps.md",
+                "sectionId": "le-droit-de-disposer-de-son-corps-c-est-quoi",
+                "sectionTitle": "Le droit de disposer de son corps, c’est quoi ?",
+                "quote": "Le droit de disposer de son corps (pour les plus et moins de 18 ans) est garanti par plusieurs dispositifs législatifs et de santé publique, notamment pour ce qui concerne :\n- la contraception ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps.md",
+            "sectionId": "le-droit-de-disposer-de-son-corps-c-est-quoi",
+            "sectionTitle": "Le droit de disposer de son corps, c’est quoi ?",
+            "quote": "Le droit de disposer de son corps (pour les plus et moins de 18 ans) est garanti par plusieurs dispositifs législatifs et de santé publique, notamment pour ce qui concerne :\n- la contraception ;"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx137",
+      "questionText": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-1"
+        ],
+        "correct": [
+          "Il doit payer les heures supplémentaires ou les faire récupérer."
+        ],
+        "distractors": [
+          "Il peut les imposer sans aucune compensation.",
+          "Il doit les convertir en congés non payés.",
+          "Il peut supprimer le bulletin de paie."
+        ],
+        "answerEvidence": [
+      {
+        "answerText": "Il doit payer les heures supplémentaires ou les faire récupérer.",
+        "normalizedAnswer": "il doit payer les heures supplementaires ou les faire recuperer.",
+        "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-1-5",
+                "sectionTitle": "Le droit du travail (1/5)",
+                "quote": "L’employeur doit payer ces heures supplémentaires au salarié ou lui permettre de les rattraper."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+            "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+            "sectionId": "le-droit-du-travail-1-5",
+            "sectionTitle": "Le droit du travail (1/5)",
+            "quote": "L’employeur doit payer ces heures supplémentaires au salarié ou lui permettre de les rattraper."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx138",
+      "questionText": "Quelle est la mission de France Travail ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-5"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-5"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--orientation-1",
+          "vivre-societe-francaise--emploi--orientation-5"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--orientation-1",
+          "vivre-societe-francaise--emploi--orientation-5"
+        ],
+        "correct": [
+          "L’accompagnement vers l’emploi ou la formation"
+        ],
+        "distractors": [
+          "La délivrance des titres de séjour",
+          "L’inscription des enfants à l’école",
+          "La célébration des mariages civils"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "L’accompagnement vers l’emploi ou la formation",
+            "normalizedAnswer": "l accompagnement vers l emploi ou la formation",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--orientation-1",
+                "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+                "sectionId": "orientation-1-5",
+                "sectionTitle": "Orientation (1/5)",
+                "quote": "Cette inscription permet à la personne d’être accompagnée pour trouver un travail ou suivre une formation."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--emploi--orientation-1",
+            "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+            "sectionId": "orientation-1-5",
+            "sectionTitle": "Orientation (1/5)",
+            "quote": "C'est un organisme public qui accompagne les personnes à la recherche d'un emploi."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx139",
+      "questionText": "Dans une entreprise, le droit syndical permet :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-3"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+        ],
+        "correct": [
+          "Il permet de créer, d’adhérer ou de participer à un syndicat."
+        ],
+        "distractors": [
+          "Il permet de fixer seul le montant de son salaire.",
+          "Il permet de licencier directement ses collègues.",
+          "Il permet de supprimer le règlement intérieur."
+        ],
+        "answerEvidence": [
+      {
+        "answerText": "Il permet de créer, d’adhérer ou de participer à un syndicat.",
+        "normalizedAnswer": "il permet de creer d adherer ou de participer a un syndicat.",
+        "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-2-5",
+                "sectionTitle": "Le droit du travail (2/5)",
+                "quote": "Cela veut dire qu’il peut créer, adhérer ou participer à un syndicat."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+            "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+            "sectionId": "le-droit-du-travail-2-5",
+            "sectionTitle": "Le droit du travail (2/5)",
+            "quote": "Cela veut dire qu’il peut créer, adhérer ou participer à un syndicat."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx140",
+      "questionText": "Dans une entreprise, le droit de grève autorise :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-2"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+        ],
+        "correct": [
+          "Cesser le travail pour exprimer un désaccord"
+        ],
+        "distractors": [
+          "Quitter définitivement son emploi sans préavis",
+          "Refuser toute consigne de sécurité au travail",
+          "Empêcher un collègue de travailler librement"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Cesser le travail pour exprimer un désaccord",
+            "normalizedAnswer": "cesser le travail pour exprimer un desaccord",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine.md",
+                "sectionId": "quels-sont-les-droits-qui-decoulent-des-droits-individuels",
+                "sectionTitle": "Quels sont les droits qui découlent des droits individuels ?",
+                "quote": "le droit de grève (droit pour une personne employée de cesser le travail pour exprimer un désaccord)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine.md",
+            "sectionId": "quels-sont-les-droits-qui-decoulent-des-droits-individuels",
+            "sectionTitle": "Quels sont les droits qui découlent des droits individuels ?",
+            "quote": "le droit de grève (droit pour une personne employée de cesser le travail pour exprimer un désaccord)."
+          }
+        ],
+        "qualityFlags": []
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "blockReason": "Les fiches liées décrivent l’importance du tourisme en France, Paris et l’Île-de-France, mais aucune n’affirme explicitement quel département est le plus touristique."
+    },
+    {
+      "questionId": "crx129",
+      "questionText": "Quelle fête est française ?",
+      "questionProfile": "definition",
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "blockReason": "Les fiches liées citent plusieurs fêtes organisées en France (14 juillet, Fête de la musique, Fête des Lumières, Nuit Blanche), donc le libellé sans options ne permet pas d’isoler une seule bonne réponse."
+    },
+    {
+      "questionId": "crx134",
+      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "questionProfile": "place",
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "blockReason": "Les fiches liées parlent de tri, de recyclage et de respect de l’environnement, mais ne donnent aucun lieu précis de dépôt pour un appareil électroménager cassé."
+    }
+  ]
+}

@@ -1,0 +1,1214 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "batchId": "csp-b003",
+  "generatedAt": "2026-03-07T19:33:27.837Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx044",
+      "questionText": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "correct": [
+          "Il peut être sanctionné comme tout citoyen."
+        ],
+        "distractors": [
+          "Il bénéficie d’une immunité automatique.",
+          "Il répond seulement devant le Parlement.",
+          "Il garde sa fonction sans aucune sanction."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Il peut être sanctionné comme tout citoyen.",
+            "normalizedAnswer": "il peut etre sanctionne comme tout citoyen.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+                "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+                "quote": "un ministre qui ne respecte pas la loi peut être sanctionné comme tout citoyen."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+            "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+            "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+            "quote": "un ministre qui ne respecte pas la loi peut être sanctionné comme tout citoyen."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx045",
+      "questionText": "Combien de députés composent l’Assemblée nationale ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "577 députés"
+        ],
+        "distractors": [
+          "348 députés",
+          "500 députés",
+          "600 députés"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "577 députés",
+            "normalizedAnswer": "577 deputes",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "les 577 députés de l’Assemblée nationale"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "l’Assemblée nationale (où siègent les 577 députés, élus par les citoyens)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx031",
+      "questionText": "Quand sont élus les sénateurs ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "Tous les 3 ans, par moitié."
+        ],
+        "distractors": [
+          "Tous les 5 ans, au suffrage direct.",
+          "Tous les 6 ans, par les citoyens.",
+          "Tous les ans, lors d’un référendum."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Tous les 3 ans, par moitié.",
+            "normalizedAnswer": "tous les 3 ans par moitie.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-2-2",
+                "sectionTitle": "Les conditions pour voter en France (2/2)",
+                "quote": "les élections sénatoriales, qui permettent d'élire les sénateurs, sont au suffrage universel indirect (tous les 3 ans renouvellement par moitié)."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-2-2",
+            "sectionTitle": "Les conditions pour voter en France (2/2)",
+            "quote": "les élections sénatoriales, qui permettent d'élire les sénateurs, sont au suffrage universel indirect (tous les 3 ans renouvellement par moitié)."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx032",
+      "questionText": "Qui est élu lors des élections présidentielles ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "Le président de la République"
+        ],
+        "distractors": [
+          "Le Premier ministre",
+          "Le président du Sénat",
+          "Le maire de la commune"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le président de la République",
+            "normalizedAnswer": "le president de la republique",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-2-2",
+                "sectionTitle": "Les conditions pour voter en France (2/2)",
+                "quote": "les élections présidentielles pour élire le président de la République (tous les 5 ans)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "Le président de la République, élu pour 5 ans au suffrage universel directement par les citoyens français."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx033",
+      "questionText": "À partir de quel âge a-t-on le droit de voter ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "À partir de 18 ans"
+        ],
+        "distractors": [
+          "À partir de 16 ans",
+          "À partir de 17 ans",
+          "À partir de 21 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "À partir de 18 ans",
+            "normalizedAnswer": "a partir de 18 ans",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "majeurs (de plus de 18 ans)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-1-2",
+            "sectionTitle": "La démocratie et la République (1/2)",
+            "quote": "de plus de 18 ans (être majeur)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx034",
+      "questionText": "Pour combien de temps est élu le président de la République française ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "correct": [
+          "5 ans"
+        ],
+        "distractors": [
+          "4 ans",
+          "6 ans",
+          "7 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "5 ans",
+            "normalizedAnswer": "5 ans",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "Le président de la République, élu pour 5 ans"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-2-2",
+            "sectionTitle": "Les conditions pour voter en France (2/2)",
+            "quote": "les élections présidentielles pour élire le président de la République (tous les 5 ans)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx035",
+      "questionText": "Pour combien de temps sont élus les députés ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "correct": [
+          "5 ans"
+        ],
+        "distractors": [
+          "4 ans",
+          "6 ans",
+          "7 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "5 ans",
+            "normalizedAnswer": "5 ans",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "les 577 députés de l’Assemblée nationale (élus au suffrage direct par les Français, tous les 5 ans)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-2-2",
+            "sectionTitle": "Les conditions pour voter en France (2/2)",
+            "quote": "les élections législatives pour élire les députés à l’Assemblée nationale (tous les 5 ans sauf si il y a une dissolution)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx047",
+      "questionText": "Pour combien de temps sont élus les sénateurs ?",
+      "questionProfile": "number_unit",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "number_unit",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "correct": [
+          "6 ans"
+        ],
+        "distractors": [
+          "3 ans",
+          "5 ans",
+          "7 ans"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "6 ans",
+            "normalizedAnswer": "6 ans",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                "sectionId": "la-democratie-et-la-republique-2-2",
+                "sectionTitle": "La démocratie et la République (2/2)",
+                "quote": "les 348 sénateurs du Sénat (élection au suffrage indirect, par les grands électeurs choisis par les français, tous les 6 ans)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "les 348 sénateurs du Sénat (élection au suffrage indirect, par les grands électeurs choisis par les français, tous les 6 ans)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx036",
+      "questionText": "Qui possède le pouvoir exécutif ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "correct": [
+          "Le président de la République et le Gouvernement"
+        ],
+        "distractors": [
+          "Le Parlement et le Sénat",
+          "Les juges et les magistrats",
+          "Les maires et les préfets"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le président de la République et le Gouvernement",
+            "normalizedAnswer": "le president de la republique et le gouvernement",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le pouvoir exécutif est exercé par :\n- le président de la République (le chef de l’État et des armées) qui réside au Palais de l’Élysée ;\n- le Gouvernement"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "Le pouvoir exécutif est exercé par :"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx050",
+      "questionText": "Quelle condition est nécessaire pour voter aux élections ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "Être inscrit sur les listes électorales."
+        ],
+        "distractors": [
+          "Être propriétaire de son logement.",
+          "Être marié en France.",
+          "Être salarié à temps plein."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Être inscrit sur les listes électorales.",
+            "normalizedAnswer": "etre inscrit sur les listes electorales.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "inscrits sur les listes électorales"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-1-2",
+            "sectionTitle": "La démocratie et la République (1/2)",
+            "quote": "qui est inscrit sur les listes électorales."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx046",
+      "questionText": "Qui peut voter aux élections en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "Les citoyens français majeurs inscrits sur les listes électorales."
+        ],
+        "distractors": [
+          "Les résidents étrangers sans inscription préalable.",
+          "Les mineurs français accompagnés d’un parent.",
+          "Les agents publics nommés par le Gouvernement."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Les citoyens français majeurs inscrits sur les listes électorales.",
+            "normalizedAnswer": "les citoyens francais majeurs inscrits sur les listes electorales.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "qui ont la nationalité française ;\n- majeurs (de plus de 18 ans) ;\n- ayant leurs droits civiques et politiques (n’est pas condamné) ;\n- inscrits sur les listes électorales"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-1-2",
+            "sectionTitle": "La démocratie et la République (1/2)",
+            "quote": "Le droit de vote est accordé à tout citoyen :\n- de nationalité française ;\n- de plus de 18 ans (être majeur) ;\n- qui a ses droits civils et politiques (n’est pas condamné) ;\n- qui est inscrit sur les listes électorales."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx037",
+      "questionText": "Que signifie « suffrage universel » ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+        ],
+        "correct": [
+          "Tous les citoyens peuvent voter sans distinction."
+        ],
+        "distractors": [
+          "Seuls les propriétaires peuvent voter.",
+          "Le vote est obligatoire pour les majeurs.",
+          "Les élus votent à la place des citoyens."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Tous les citoyens peuvent voter sans distinction.",
+            "normalizedAnswer": "tous les citoyens peuvent voter sans distinction.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "peuvent voter sans distinction de sexe, d'origine, de religion ou d'idéaux politiques."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-1-2",
+            "sectionTitle": "Les conditions pour voter en France (1/2)",
+            "quote": "Le suffrage universel signifie que tous les citoyens"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx038",
+      "questionText": "Concernant les partis politiques, quelle proposition est correcte ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+        ],
+        "correct": [
+          "Ils concourent à l’expression du suffrage."
+        ],
+        "distractors": [
+          "Ils remplacent le vote des citoyens.",
+          "Ils interdisent la diversité des opinions.",
+          "Ils sont nommés par le Conseil constitutionnel."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Ils concourent à l’expression du suffrage.",
+            "normalizedAnswer": "ils concourent a l expression du suffrage.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis.md",
+                "sectionId": "la-pluralite-des-partis-politiques-c-est-quoi",
+                "sectionTitle": "La pluralité des partis politiques, c’est quoi ?",
+                "quote": "Les partis et groupements politiques concourent à l’expression du suffrage"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis.md",
+            "sectionId": "la-pluralite-des-partis-politiques-c-est-quoi",
+            "sectionTitle": "La pluralité des partis politiques, c’est quoi ?",
+            "quote": "La pluralité des partis politiques (beaucoup de partis différents) est un principe fondamental de la démocratie française."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx039",
+      "questionText": "Quel est le rôle des députés ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+        ],
+        "correct": [
+          "Proposer, négocier et voter la loi."
+        ],
+        "distractors": [
+          "Appliquer la loi et diriger l’administration.",
+          "Juger les litiges et rendre la justice.",
+          "Délivrer les titres et autorisations."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Proposer, négocier et voter la loi.",
+            "normalizedAnswer": "proposer negocier et voter la loi.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Les deux chambres doivent :\n- proposer ;\n- négocier ;\n- voter la loi."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/comment-voter-une-loi.md",
+            "sectionId": "comment-voter-une-loi-1-2",
+            "sectionTitle": "Comment voter une loi (1/2)",
+            "quote": "Le Parlement (les députés ou les sénateurs), qui peut présenter une proposition de loi."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx040",
+      "questionText": "Qui possède le pouvoir législatif ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+        ],
+        "correct": [
+          "Le Parlement"
+        ],
+        "distractors": [
+          "Le Gouvernement",
+          "Le président de la République",
+          "L’autorité judiciaire"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le Parlement",
+            "normalizedAnswer": "le parlement",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "Le pouvoir législatif est exercé par le Parlement"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+            "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+            "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+            "quote": "les pouvoirs législatif (le Parlement vote les lois)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx041",
+      "questionText": "Qui élit les députés ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "Les citoyens"
+        ],
+        "distractors": [
+          "Les grands électeurs",
+          "Les ministres",
+          "Les juges"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Les citoyens",
+            "normalizedAnswer": "les citoyens",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "l’Assemblée nationale (où siègent les 577 députés, élus par les citoyens)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+            "sectionId": "la-democratie-et-la-republique-2-2",
+            "sectionTitle": "La démocratie et la République (2/2)",
+            "quote": "les 577 députés de l’Assemblée nationale (élus au suffrage direct par les Français, tous les 5 ans)"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "cspx042",
+      "questionText": "Qui réside au palais de l'Élysée ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "Le président de la République"
+        ],
+        "distractors": [
+          "Le Premier ministre",
+          "Le président du Sénat",
+          "Le maire de Paris"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le président de la République",
+            "normalizedAnswer": "le president de la republique",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+                "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+                "quote": "le président de la République (le chef de l’État et des armées) qui réside au Palais de l’Élysée"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+            "sectionId": "etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1-2",
+            "sectionTitle": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+            "quote": "qui réside au Palais de l’Élysée"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx051",
+      "questionText": "Qui dirige la commune ?",
+      "questionProfile": "institution",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "institution",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "correct": [
+          "Le maire"
+        ],
+        "distractors": [
+          "Le préfet",
+          "Le sénateur",
+          "Le ministre"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le maire",
+            "normalizedAnswer": "le maire",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+                "sectionTitle": "Le découpage administratif de la France (1/3)",
+                "quote": "Elle est dirigée par des personnes élues, dont le maire."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-1-3",
+            "sectionTitle": "Le découpage administratif de la France (1/3)",
+            "quote": "La commune a de nombreuses compétences"
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx048",
+      "questionText": "Est-ce que le président de la République a tous les pouvoirs ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+        "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+          "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1"
+        ],
+        "correct": [
+          "Non, ils ne sont pas entre les mains des mêmes personnes."
+        ],
+        "distractors": [
+          "Oui, ils sont réunis entre ses mains.",
+          "Oui, il cumule aussi le pouvoir judiciaire.",
+          "Oui, il vote seul les lois du Parlement."
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Non, ils ne sont pas entre les mains des mêmes personnes.",
+            "normalizedAnswer": "non ils ne sont pas entre les mains des memes personnes.",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+                "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+                "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+                "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+                "quote": "ne sont pas entre les mains des mêmes personnes."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+            "contentPath": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+            "sectionId": "le-principe-de-separation-des-pouvoirs-c-est-quoi",
+            "sectionTitle": "Le principe de séparation des pouvoirs, c’est quoi ?",
+            "quote": "les pouvoirs législatif (le Parlement vote les lois), exécutif (le Gouvernement applique et fait respecter la loi) et judiciaire (l’autorité judiciaire contrôle l’application des lois) ne sont pas entre les mains des mêmes personnes."
+          }
+        ],
+        "qualityFlags": []
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx049",
+      "questionText": "Qui est le préfet ?",
+      "questionProfile": "person",
+      "candidateFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "person",
+        "candidateFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2"
+        ],
+        "correct": [
+          "Le représentant de l’État dans le département"
+        ],
+        "distractors": [
+          "Le responsable de la justice du département",
+          "Le chef militaire de la région",
+          "L’élu principal de la commune"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le représentant de l’État dans le département",
+            "normalizedAnswer": "le representant de l etat dans le departement",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+                "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                "sectionId": "le-decoupage-administratif-de-la-france-2-3",
+                "sectionTitle": "Le découpage administratif de la France (2/3)",
+                "quote": "Le Préfet est le représentant de l’État dans le département."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+            "contentPath": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+            "sectionId": "le-decoupage-administratif-de-la-france-2-3",
+            "sectionTitle": "Le découpage administratif de la France (2/3)",
+            "quote": "Il dirige les services de l’État dans un département."
+          }
+        ],
+        "qualityFlags": []
+      }
+    }
+  ],
+  "skipped": []
+}

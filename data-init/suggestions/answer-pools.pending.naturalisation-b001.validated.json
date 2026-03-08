@@ -1,0 +1,400 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "naturalisation",
+  "batchId": "naturalisation-b001",
+  "generatedAt": "2026-03-07T19:10:51Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "natx001",
+      "questionText": "Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre État de l'Union ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+        ],
+        "relatedFicheIds": [
+          "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+        ],
+        "correct": [
+          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
+        ],
+        "distractors": [
+          "Oui, s'ils sont majeurs même sans inscription locale",
+          "Non, ils votent seulement aux élections européennes",
+          "Non, ils votent seulement dans leur pays d'origine"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
+            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
+            "evidence": [
+              {
+                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                "sectionId": "les-conditions-pour-voter-en-france-1-2",
+                "sectionTitle": "Les conditions pour voter en France (1/2)",
+                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+            "sectionId": "les-conditions-pour-voter-en-france-1-2",
+            "sectionTitle": "Les conditions pour voter en France (1/2)",
+            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 62,
+          "distractorCharLengths": [
+            52,
+            51,
+            50
+          ],
+          "correctTokenLength": 12,
+          "distractorTokenLengths": [
+            9,
+            7,
+            9
+          ],
+          "charLengthRatio": 1.2156862745098038,
+          "tokenLengthRatio": 1.44,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.793Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "natx002",
+      "questionText": "Parmi ces textes, lequel a été adopté sous Napoléon ler?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+        ],
+        "correct": [
+          "Le Code civil de 1804"
+        ],
+        "distractors": [
+          "La Déclaration de 1789",
+          "La loi de 1905",
+          "La Constitution de 1958"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Le Code civil de 1804",
+            "normalizedAnswer": "le code civil de 1804",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+                "sectionId": "le-1er-empire-1804-1815",
+                "sectionTitle": "Le 1er Empire (1804-1815)",
+                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
+              },
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+                "sectionId": "les-regimes-politiques",
+                "sectionTitle": "Les régimes politiques",
+                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+            "sectionId": "les-regimes-politiques",
+            "sectionTitle": "Les régimes politiques",
+            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 21,
+          "distractorCharLengths": [
+            22,
+            14,
+            23
+          ],
+          "correctTokenLength": 5,
+          "distractorTokenLengths": [
+            4,
+            4,
+            4
+          ],
+          "charLengthRatio": 1.0677966101694916,
+          "tokenLengthRatio": 1.25,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.795Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "natx003",
+      "questionText": "Quel est l'objectif des lois scolaires de la Ille République ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+        ],
+        "correct": [
+          "Une école publique gratuite, laïque et obligatoire"
+        ],
+        "distractors": [
+          "Une école privée payante, religieuse et facultative",
+          "Une école militaire nationale, sélective et obligatoire",
+          "Une école locale, religieuse, sélective et payante"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "Une école publique gratuite, laïque et obligatoire",
+            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+                "sectionId": "la-iiieme-republique-1870-1940",
+                "sectionTitle": "La IIIème République (1870-1940)",
+                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+            "sectionId": "la-iiieme-republique-1870-1940",
+            "sectionTitle": "La IIIème République (1870-1940)",
+            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 50,
+          "distractorCharLengths": [
+            51,
+            55,
+            50
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            7,
+            7,
+            7
+          ],
+          "charLengthRatio": 0.9615384615384616,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.795Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "natx004",
+      "questionText": "En quelle année Napoléon ler est-il devenu empereur?",
+      "questionProfile": "date_year",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+      ],
+      "accepted": false,
+      "suggestion": {
+        "questionProfile": "date_year",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+          "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+        ],
+        "correct": [
+          "1804"
+        ],
+        "distractors": [
+          "1799",
+          "1815",
+          "1852"
+        ],
+        "answerEvidence": [
+          {
+            "answerText": "1804",
+            "normalizedAnswer": "1804",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+                "sectionId": "le-1er-empire-1804-1815",
+                "sectionTitle": "Le 1er Empire (1804-1815)",
+                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+            "sectionId": "le-1er-empire-1804-1815",
+            "sectionTitle": "Le 1er Empire (1804-1815)",
+            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
+          }
+        ],
+        "qualityFlags": [],
+        "styleMetrics": {
+          "questionProfile": "date_year",
+          "correctCharLength": 4,
+          "distractorCharLengths": [
+            4,
+            4,
+            4
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 1,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T16:08:02.795Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [],
+  "validatedAt": "2026-03-08T16:05:15.114Z",
+  "validationSummary": {
+    "total": 4,
+    "valid": 4,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "appliedAt": "2026-03-08T16:08:02.795Z",
+  "applySummary": {
+    "applied": 4,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": true
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "csp",
+  "runId": "r009",
+  "generatedAt": "2026-03-07T14:59:44.003Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/csp.md"
+  },
+  "items": [
+    {
+      "questionId": "cspx044",
+      "questionText": "Quelle est la monnaie utilisée en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne",
+        "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1"
+      ],
+      "reasons": [
+        "La fiche sur la construction européenne indique qu’en 2002 l’euro devient la monnaie officielle de plusieurs pays membres.",
+        "La fiche sur le fonctionnement européen indique que la Banque centrale européenne est créée au moment de la création de l’euro comme monnaie unique.",
+        "Même si les fiches ne formulent pas littéralement « la monnaie utilisée en France », elles ancrent clairement la réponse attendue à l’euro dans le cadre européen."
+      ]
+    },
+    {
+      "questionId": "cspx046",
+      "questionText": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "reasons": [
+        "La DDHC est la fiche locale la plus proche d’un texte qui rappelle explicitement « leurs droits et leurs devoirs ».",
+        "La fiche sur les obligations du résident français permet d’ancrer la partie de l’énoncé qui vise les personnes résidant en France.",
+        "Je rattache donc la question au couple DDHC + obligations du résident français, même si la formulation exacte de l’énoncé dépasse le texte des fiches."
+      ]
+    },
+    {
+      "questionId": "cspx070",
+      "questionText": "Lequel de ces personnages historiques est français ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+      ],
+      "reasons": [
+        "Le libellé seul est incomplet, mais les banques CSP de préparation associent ici la bonne réponse à Charles de Gaulle.",
+        "Les fiches sur la Résistance et sur la Ve République fournissent toutes deux un ancrage solide pour Charles de Gaulle comme personnage historique français.",
+        "Je retiens donc ces deux fiches comme support de rattrapage pour cette question officielle tronquée."
+      ]
+    },
+    {
+      "questionId": "cspx085",
+      "questionText": "Quelle est la capitale de la France ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "reasons": [
+        "La fiche Île-de-France présente Paris comme la principale ville de la région et le coeur politique du pays.",
+        "La fiche sur le territoire de la France cite Paris dans le découpage administratif national.",
+        "Je retiens ces deux fiches comme ancrage de connaissance générale pour la réponse attendue « Paris »."
+      ]
+    },
+    {
+      "questionId": "cspx098",
+      "questionText": "Quand célèbre-t-on Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "histoire-geographie-culture--culture--une-puissance-culturelle"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--definition-laicite-2",
+        "histoire-geographie-culture--culture--une-puissance-culturelle"
+      ],
+      "reasons": [
+        "Aucune fiche locale ne mentionne Noël ni la date du 25 décembre.",
+        "Je rattache donc cette question officielle à un bloc religion/culture par connaissance générale, en assumant qu’elle restera probablement à skipper au stade des preuves si aucune citation locale ne peut l’étayer."
+      ]
+    },
+    {
+      "questionId": "cspx116",
+      "questionText": "Un enfant inscrit à l'école :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "reasons": [
+        "Le libellé est tronqué, mais les préparations CSP associent ici une obligation d’assiduité scolaire.",
+        "La fiche sur le système éducatif dit que tous les enfants de 3 à 16 ans qui habitent en France doivent aller à l’école.",
+        "La fiche sur le rôle des parents à l’école complète cet ancrage sur l’obligation scolaire et l’assiduité."
+      ]
+    }
+  ]
+}
