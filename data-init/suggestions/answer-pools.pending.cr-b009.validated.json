@@ -1,0 +1,1052 @@
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "batchId": "cr-b009",
+  "generatedAt": "2026-03-08T17:25:00.000Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "crx006",
+      "questionText": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+      "questionProfile": "quote",
+      "candidateFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "quote",
+        "candidateFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+        ],
+        "correct": [
+          "citoyens"
+        ],
+        "distractors": [
+          "soldats",
+          "patriotes",
+          "compatriotes"
+        ],
+        "explanationByCorrect": {
+          "citoyens": "La réponse attendue est « citoyens ». La fiche locale ancre bien la Marseillaise comme hymne national, mais le mot précis relève ici d’une connaissance générale sur les paroles."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "citoyens",
+            "normalizedAnswer": "citoyens",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+                "sectionId": "le-titre-de-l-hymne-francais",
+                "sectionTitle": "Le titre de l’hymne français",
+                "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+            "sectionId": "le-titre-de-l-hymne-francais",
+            "sectionTitle": "Le titre de l’hymne français",
+            "quote": "L’hymne national de la France est un chant qui s’appelle La Marseillaise."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "quote",
+          "correctCharLength": 8,
+          "distractorCharLengths": [
+            7,
+            9,
+            12
+          ],
+          "correctTokenLength": 1,
+          "distractorTokenLengths": [
+            1,
+            1,
+            1
+          ],
+          "charLengthRatio": 0.8571428571428571,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": true,
+          "profileMatchCount": 0,
+          "optionCount": 4,
+          "mismatchedOptions": [
+            "citoyens",
+            "soldats",
+            "patriotes",
+            "compatriotes"
+          ]
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "visible_type_mismatch"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.912Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx011",
+      "questionText": "La répudiation de sa femme est :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+        "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+        "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+          "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain"
+        ],
+        "relatedFicheIds": [
+          "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+          "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+        ],
+        "correct": [
+          "Interdite en France"
+        ],
+        "distractors": [
+          "Autorisée en France",
+          "Une procédure de divorce",
+          "Une formalité reconnue"
+        ],
+        "explanationByCorrect": {
+          "Interdite en France": "Les fiches locales ancrent l’égalité entre les femmes et les hommes et la liberté pour chaque conjoint de mettre fin légalement à l’union. La répudiation unilatérale est donc contraire au cadre français."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Interdite en France",
+            "normalizedAnswer": "interdite en france",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+                "contentPath": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                "sectionId": "l-egalite-2-3",
+                "sectionTitle": "L'égalité (2/3)",
+                "quote": "L’égalité entre les femmes et les hommes est inscrite dans le Préambule de la Constitution de 1946 : \"la loi garantit à la femme, dans tous les domaines, des droits égaux à ceux de l’homme\"."
+              },
+              {
+                "ficheId": "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+                "contentPath": "droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple.md",
+                "sectionId": "la-liberte-conjugale-c-est-quoi",
+                "sectionTitle": "La liberté conjugale, c’est quoi ?",
+                "quote": "La liberté conjugale permet aussi à chaque conjoint de mettre fin à l’union (concubinage, PACS ou mariage) dans laquelle elle est engagée :"
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple",
+            "contentPath": "droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple.md",
+            "sectionId": "la-liberte-conjugale-c-est-quoi",
+            "sectionTitle": "La liberté conjugale, c’est quoi ?",
+            "quote": "le divorce met fin au mariage, sans avoir besoin d’une faute"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 19,
+          "distractorCharLengths": [
+            19,
+            24,
+            22
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            3,
+            4,
+            3
+          ],
+          "charLengthRatio": 0.8769230769230769,
+          "tokenLengthRatio": 0.8999999999999999,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.923Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx090",
+      "questionText": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
+        ],
+        "correct": [
+          "S’y conformer"
+        ],
+        "distractors": [
+          "Les ignorer",
+          "Les contester",
+          "Les contourner"
+        ],
+        "explanationByCorrect": {
+          "S’y conformer": "Les fiches locales rappellent que tout le monde doit respecter les lois et que la police comme la gendarmerie sont chargées de les faire respecter. La conduite attendue est donc de se conformer aux ordres légaux."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "S’y conformer",
+            "normalizedAnswer": "s y conformer",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+                "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+                "quote": "La police et la gendarmerie sont des forces de l’ordre. Ces deux institutions assurent le respect des lois en France."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+            "sectionId": "se-conformer-aux-lois-les-acteurs-2-2",
+            "sectionTitle": "Se conformer aux lois - les acteurs (2/2)",
+            "quote": "La police et la gendarmerie sont des forces de l’ordre. Ces deux institutions assurent le respect des lois en France."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 13,
+          "distractorCharLengths": [
+            11,
+            13,
+            14
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 1.0263157894736843,
+          "tokenLengthRatio": 1.5,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.923Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx115",
+      "questionText": "Quelle île française se trouve dans l'océan Indien ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--la-reunion",
+        "histoire-geographie-culture--les-regions-francaises--mayotte"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--les-regions-francaises--la-reunion",
+        "histoire-geographie-culture--les-regions-francaises--mayotte"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--la-reunion",
+          "histoire-geographie-culture--les-regions-francaises--mayotte"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--les-regions-francaises--la-reunion",
+          "histoire-geographie-culture--les-regions-francaises--mayotte"
+        ],
+        "correct": [
+          "La Réunion"
+        ],
+        "distractors": [
+          "La Corse",
+          "Mayotte",
+          "Madagascar"
+        ],
+        "explanationByCorrect": {
+          "La Réunion": "Les fiches locales permettent plusieurs réponses possibles sans les options d’origine. J’utilise ici la reconstruction déjà cohérente avec les autres QCM revus du projet, où La Réunion est la bonne réponse attendue."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "La Réunion",
+            "normalizedAnswer": "la reunion",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--la-reunion",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/outre-mer.md",
+                "sectionId": "la-reunion",
+                "sectionTitle": "La Réunion",
+                "quote": "La Réunion est une île volcanique située dans l’océan Indien, à l’est de Madagascar et au sud-ouest de l’île Maurice."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--les-regions-francaises--la-reunion",
+            "contentPath": "histoire-geographie-culture/les-regions-francaises/outre-mer.md",
+            "sectionId": "la-reunion",
+            "sectionTitle": "La Réunion",
+            "quote": "La Réunion est une île volcanique située dans l’océan Indien, à l’est de Madagascar et au sud-ouest de l’île Maurice."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "place",
+          "correctCharLength": 10,
+          "distractorCharLengths": [
+            8,
+            7,
+            10
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            1,
+            1
+          ],
+          "charLengthRatio": 1.2,
+          "tokenLengthRatio": 1.5,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.923Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx117",
+      "questionText": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+        ],
+        "correct": [
+          "L’Allemagne"
+        ],
+        "distractors": [
+          "L’Autriche",
+          "La Pologne",
+          "Le Portugal"
+        ],
+        "explanationByCorrect": {
+          "L’Allemagne": "Les fiches listent plusieurs voisins compatibles avec « nord-est ». Cette reconstruction retient l’Allemagne comme réponse plausible et garde le point en revue manuelle."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "L’Allemagne",
+            "normalizedAnswer": "l allemagne",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france",
+                "contentPath": "histoire-geographie-culture/atlas-de-la-france/les-frontieres-de-la-france.md",
+                "sectionId": "quelles-sont-les-frontieres-de-la-france",
+                "sectionTitle": "Quelles sont les frontières de la France ?",
+                "quote": "En Europe, la France partage des frontières terrestres avec 8 pays : la Belgique, le Luxembourg, l’Allemagne, la Suisse, l’Italie et l’Espagne, ainsi que les principautés d’Andorre et de Monaco."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+            "sectionId": "quelle-est-la-position-geographique-de-la-france-en-europe",
+            "sectionTitle": "Quelle est la position géographique de la France en Europe ?",
+            "quote": "La France est située à l’ouest de l’Europe. Elle partage ses frontières terrestres avec 8 pays européens :"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "place",
+          "correctCharLength": 11,
+          "distractorCharLengths": [
+            10,
+            10,
+            11
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 1.064516129032258,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.926Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+          "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+          "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+          "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+        ],
+        "correct": [
+          "Paris (75)"
+        ],
+        "distractors": [
+          "Les Alpes-Maritimes",
+          "La Seine-et-Marne",
+          "La Gironde"
+        ],
+        "explanationByCorrect": {
+          "Paris (75)": "Comme validé précédemment, cette question est traitée comme une reconstruction de culture générale. Les fiches ancrent Paris comme département d’Île-de-France et le poids du tourisme dans cette zone."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Paris (75)",
+            "normalizedAnswer": "paris 75",
+            "evidence": [
+              {
+                "ficheId": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+                "contentPath": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                "sectionId": "ile-de-france",
+                "sectionTitle": "Île-de-France",
+                "quote": "L'Île-de-France compte 8 départements : Essonne, Hauts-de-Seine, Paris, Seine-et-Marne, Seine-Saint-Denis, Val-de-Marne, Val-d’Oise, Yvelines."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+            "contentPath": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/une-puissance-touristique.md",
+            "sectionId": "quels-sont-les-atouts-touristiques-de-la-france",
+            "sectionTitle": "Quels sont les atouts touristiques de la France ?",
+            "quote": "La France est la première destination touristique au monde."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 10,
+          "distractorCharLengths": [
+            19,
+            17,
+            10
+          ],
+          "correctTokenLength": 2,
+          "distractorTokenLengths": [
+            2,
+            2,
+            2
+          ],
+          "charLengthRatio": 0.6521739130434783,
+          "tokenLengthRatio": 1,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.926Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx129",
+      "questionText": "Quelle fête est française ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "relatedFicheIds": [
+        "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+        "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "relatedFicheIds": [
+          "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture",
+          "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+        ],
+        "correct": [
+          "La fête nationale"
+        ],
+        "distractors": [
+          "Halloween",
+          "Thanksgiving",
+          "La Saint-Patrick"
+        ],
+        "explanationByCorrect": {
+          "La fête nationale": "Les fiches locales mentionnent plusieurs fêtes organisées en France. Pour isoler une seule bonne réponse, je retiens ici la fête nationale comme fête spécifiquement française et officiellement républicaine."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "La fête nationale",
+            "normalizedAnswer": "la fete nationale",
+            "evidence": [
+              {
+                "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+                "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+                "sectionId": "quel-est-le-jour-de-la-fete-nationale",
+                "sectionTitle": "Quel est le jour de la fête nationale ?",
+                "quote": "Le 14 juillet devient le jour de la fête nationale en 1880."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale",
+            "contentPath": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+            "sectionId": "quelle-est-la-signification-de-cette-journee",
+            "sectionTitle": "Quelle est la signification de cette journée ?",
+            "quote": "Aujourd’hui, la journée du 14 juillet est un moment fort de la vie républicaine en France."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required",
+          "weak_distractors"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 17,
+          "distractorCharLengths": [
+            9,
+            12,
+            16
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            1,
+            1,
+            2
+          ],
+          "charLengthRatio": 1.3783783783783783,
+          "tokenLengthRatio": 2.25,
+          "obviousLengthCue": true,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "manual_review_required",
+        "reviewReasons": [
+          "obvious_length_cue"
+        ]
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.926Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx134",
+      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "place",
+        "candidateFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "relatedFicheIds": [
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+          "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+        ],
+        "correct": [
+          "À la déchetterie"
+        ],
+        "distractors": [
+          "Dans le bac de tri",
+          "Dans les ordures ménagères",
+          "Sur le trottoir"
+        ],
+        "explanationByCorrect": {
+          "À la déchetterie": "Comme validé précédemment, cette question est traitée comme une reconstruction pratique de culture générale. Les fiches locales ancrent le tri, le recyclage et l’interdiction d’abandonner les déchets, ce qui justifie la filière déchetterie."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "À la déchetterie",
+            "normalizedAnswer": "a la dechetterie",
+            "evidence": [
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+                "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+                "quote": "trier ses déchets et réduire ses déchets plastiques ;"
+              },
+              {
+                "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                "sectionId": "les-obligations-en-tant-que-resident-francais",
+                "sectionTitle": "Les obligations en tant que résident français",
+                "quote": "Au quotidien, chacun a l’obligation d’agir pour protéger l’environnement que ce soit au sujet de : l’alimentation, la consommation responsable, les économies d’eau et d’énergie, le choix des transports, la limitation des produits chimiques, le jardinage écologique, la réutilisation et le recyclage."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+            "contentPath": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+            "sectionId": "adopter-une-attitude-respectueuse-vis-a-vis-de-l-environnement",
+            "sectionTitle": "Adopter une attitude respectueuse vis-à-vis de l’environnement",
+            "quote": "respecter les espaces communs et ne pas y jeter de déchets ;"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "place",
+          "correctCharLength": 16,
+          "distractorCharLengths": [
+            18,
+            26,
+            15
+          ],
+          "correctTokenLength": 3,
+          "distractorTokenLengths": [
+            5,
+            4,
+            3
+          ],
+          "charLengthRatio": 0.8135593220338982,
+          "tokenLengthRatio": 0.75,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.927Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx141",
+      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--emploi--orientation-1",
+          "vivre-societe-francaise--emploi--orientation-4",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--emploi--orientation-1",
+          "vivre-societe-francaise--emploi--orientation-4",
+          "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+        ],
+        "correct": [
+          "Être sans emploi, inscrit à France Travail et avoir cotisé"
+        ],
+        "distractors": [
+          "Avoir un emploi stable et déjà un salaire",
+          "Être sans travail mais sans inscription",
+          "Être salarié non déclaré depuis plusieurs mois"
+        ],
+        "explanationByCorrect": {
+          "Être sans emploi, inscrit à France Travail et avoir cotisé": "Les fiches locales ancrent l’inscription à France Travail et le fait qu’un travail déclaré ouvre des cotisations chômage. La formulation reste une reconstruction volontairement large, à relire au besoin avec la règle officielle en vigueur."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "Être sans emploi, inscrit à France Travail et avoir cotisé",
+            "normalizedAnswer": "etre sans emploi inscrit a france travail et avoir cotise",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--emploi--orientation-1",
+                "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+                "sectionId": "orientation-1-5",
+                "sectionTitle": "Orientation (1/5)",
+                "quote": "Chaque personne étrangère qui est en situation régulière (c’est-à-dire qui a un titre de séjour, qui est réfugiée, ou qui bénéficie de la protection internationale), et qui n’a pas de travail, doit être inscrite à France Travail."
+              },
+              {
+                "ficheId": "vivre-societe-francaise--emploi--le-droit-au-travail-5",
+                "contentPath": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                "sectionId": "le-droit-du-travail-5-5",
+                "sectionTitle": "Le droit du travail (5/5)",
+                "quote": "Un salarié qui travaille sans être déclaré ne cotise ni à l’assurance chômage, ni pour sa retraite."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--emploi--orientation-4",
+            "contentPath": "vivre-societe-francaise/emploi/orientation.md",
+            "sectionId": "orientation-4-5",
+            "sectionTitle": "Orientation (4/5)",
+            "quote": "Vous allez sur le site internet de France Travail, puis dans la rubrique Services, vous choisissez \"S’inscrire ou se réinscrire\"."
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 58,
+          "distractorCharLengths": [
+            41,
+            39,
+            46
+          ],
+          "correctTokenLength": 10,
+          "distractorTokenLengths": [
+            8,
+            6,
+            7
+          ],
+          "charLengthRatio": 1.380952380952381,
+          "tokenLengthRatio": 1.4285714285714286,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.927Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    },
+    {
+      "kind": "answer_pool",
+      "questionId": "crx148",
+      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "accepted": true,
+      "suggestion": {
+        "questionProfile": "definition",
+        "candidateFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif",
+          "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+        ],
+        "relatedFicheIds": [
+          "vivre-societe-francaise--parentalite--le-systeme-educatif",
+          "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+        ],
+        "correct": [
+          "À la fin du mois de décembre"
+        ],
+        "distractors": [
+          "Au début du mois de septembre",
+          "À la fin du mois d’octobre",
+          "Au milieu du mois de février"
+        ],
+        "explanationByCorrect": {
+          "À la fin du mois de décembre": "Cette question relève du calendrier scolaire national plus que du corpus de fiches. Je la rattache au bloc école/scolarité avec une réponse générale plausible, comme validé précédemment."
+        },
+        "answerEvidence": [
+          {
+            "answerText": "À la fin du mois de décembre",
+            "normalizedAnswer": "a la fin du mois de decembre",
+            "evidence": [
+              {
+                "ficheId": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+                "contentPath": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+                "sectionId": "l-organisation-de-l-ecole-en-france",
+                "sectionTitle": "L’organisation de l’école en France",
+                "quote": "Français ou étrangers, tous les enfants âgés de 3 à 16 ans, qui habitent en France, doivent aller à l’école."
+              }
+            ]
+          }
+        ],
+        "questionEvidence": [
+          {
+            "ficheId": "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+            "contentPath": "vivre-societe-francaise/parentalite/droits-et-devoirs-des-parents-a-l-ecole.md",
+            "sectionId": "les-devoirs-des-parents",
+            "sectionTitle": "Les devoirs des parents",
+            "quote": "Les parents ont des devoirs pour accompagner la scolarité de leur enfant :"
+          }
+        ],
+        "qualityFlags": [
+          "manual_review_required"
+        ],
+        "styleMetrics": {
+          "questionProfile": "definition",
+          "correctCharLength": 28,
+          "distractorCharLengths": [
+            29,
+            26,
+            28
+          ],
+          "correctTokenLength": 7,
+          "distractorTokenLengths": [
+            6,
+            7,
+            6
+          ],
+          "charLengthRatio": 1.0120481927710843,
+          "tokenLengthRatio": 1.105263157894737,
+          "obviousLengthCue": false,
+          "strictProfileCheck": false,
+          "profileMatchCount": 4,
+          "optionCount": 4,
+          "mismatchedOptions": []
+        },
+        "reviewBucket": "high_confidence",
+        "reviewReasons": []
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "warnings": []
+      },
+      "apply": {
+        "applied": true,
+        "reason": "merged",
+        "checkedAt": "2026-03-08T17:05:17.927Z",
+        "reviewStatusAfter": "reviewed"
+      }
+    }
+  ],
+  "skipped": [],
+  "validatedAt": "2026-03-08T17:05:02.150Z",
+  "validationSummary": {
+    "total": 10,
+    "valid": 10,
+    "invalid": 0,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "appliedAt": "2026-03-08T17:05:17.927Z",
+  "applySummary": {
+    "applied": 10,
+    "skipped": 0,
+    "missing": 0,
+    "acceptAll": false
+  }
+}

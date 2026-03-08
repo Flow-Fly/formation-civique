@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-08T16:40:31.785Z",
+  "updatedAt": "2026-03-08T17:06:33.049Z",
   "workflow": {
-    "currentPhase": "review_apply_bundle",
-    "nextAction": "review_and_apply",
-    "frontendStatus": "not_ready",
+    "currentPhase": "done",
+    "nextAction": "done",
+    "frontendStatus": "bundled",
     "counts": {
       "totalQuestions": 657,
       "linkedQuestions": 657,
-      "draftedQuestions": 647,
-      "appliedQuestions": 647
+      "draftedQuestions": 657,
+      "appliedQuestions": 657
     }
   },
   "sources": {
@@ -129,9 +129,9 @@
             "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r001.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b001",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b001.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "La fiche identifie la Marseillaise comme l'hymne national et donne son contexte historique.",
             "Le libellé demande de compléter des paroles de la Marseillaise.",
@@ -252,9 +252,9 @@
             "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r001.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b001",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b001.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "L'egalite femmes-hommes exclut qu'un seul conjoint dispose unilateralement de l'autre.",
             "La fiche sur les libertes au sein du couple rappelle le consentement libre au mariage et le divorce comme voie legale pour mettre fin a l'union.",
@@ -2320,12 +2320,13 @@
             "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
           ],
           "relatedFicheIds": [
-            "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen"
+            "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+            "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r005.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b005",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b005.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "L’article 7 reproduit dans la fiche précise que tout citoyen appelé ou saisi en vertu de la loi doit obéir à l’instant.",
             "Cette base juridique éclaire directement la conduite attendue face aux ordres des policiers ou gendarmes.",
@@ -3043,9 +3044,9 @@
             "histoire-geographie-culture--les-regions-francaises--mayotte"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r006.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b006",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b006.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "La fiche La Reunion dit explicitement que La Reunion est une ile situee dans l'ocean Indien.",
             "La fiche Mayotte dit egalement que Mayotte est une ile situee dans l'ocean Indien; les deux restent donc pertinentes sans les options du QCM.",
@@ -3118,9 +3119,9 @@
             "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r006.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b006",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b006.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "Les fiches de frontieres donnent les voisins metropolitains du nord-est, notamment la Belgique, le Luxembourg et l'Allemagne.",
             "Le texte seul ne departage pas davantage sans les options, mais ces fiches sont celles qui cadrent directement les pays voisins concernes.",
@@ -3240,9 +3241,9 @@
             "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r010.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b007",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b007.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
             "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique.",
@@ -3471,9 +3472,9 @@
             "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r007.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b007",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b007.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "La fiche sur l'accès à la culture mentionne la Fête de la musique, lancée par le ministère de la Culture en 1982.",
             "La formulation reste large sans les options, et la fiche sur la fête nationale documente aussi une fête spécifiquement française.",
@@ -3622,9 +3623,9 @@
             "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r010.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b007",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b007.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "Les fiches parlent du tri, du recyclage et du respect de l'environnement, mais ne donnent pas le lieu précis de dépôt d'un appareil électroménager cassé.",
             "Je ne retiens donc aucun lien sûr vers une déchèterie ou un point de collecte spécifique.",
@@ -3874,9 +3875,9 @@
             "vivre-societe-francaise--emploi--le-droit-au-travail-5"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r010.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b008",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b008.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "Les fiches parlent de France Travail et de l'assurance chômage, mais aucune ne détaille les conditions d'éligibilité aux allocations chômage.",
             "Je laisse donc le lien final vide faute d'ancrage explicite sur la durée travaillée, la perte d'emploi ou l'inscription comme demandeur d'emploi.",
@@ -4077,9 +4078,9 @@
             "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
           ],
           "lastLinkOutput": "data-init/suggestions/question-fiche-links.cr.r010.json",
-          "qcmStatus": "blocked",
-          "batchId": "cr-b008",
-          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b008.validated.json",
+          "qcmStatus": "applied",
+          "batchId": "cr-b009",
+          "lastAnswerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
           "notes": [
             "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
             "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones.",
@@ -12900,6 +12901,26 @@
       "answerOutput": "data-init/suggestions/answer-pools.pending.csp-b009.validated.json",
       "createdAt": "2026-03-08T16:37:53.000Z",
       "updatedAt": "2026-03-08T16:37:53.000Z"
+    },
+    {
+      "batchId": "cr-b009",
+      "sourceKey": "cr",
+      "questionIds": [
+        "crx006",
+        "crx011",
+        "crx090",
+        "crx115",
+        "crx117",
+        "crx122",
+        "crx129",
+        "crx134",
+        "crx141",
+        "crx148"
+      ],
+      "status": "applied",
+      "answerOutput": "data-init/suggestions/answer-pools.pending.cr-b009.validated.json",
+      "createdAt": "2026-03-08T17:25:00.000Z",
+      "updatedAt": "2026-03-08T17:25:00.000Z"
     }
   ],
   "integration": {
@@ -12923,9 +12944,10 @@
       "data-init/suggestions/answer-pools.pending.csp-b007.validated.json",
       "data-init/suggestions/answer-pools.pending.naturalisation-b001.validated.json",
       "data-init/suggestions/answer-pools.pending.csp-b008.validated.json",
-      "data-init/suggestions/answer-pools.pending.csp-b009.validated.json"
+      "data-init/suggestions/answer-pools.pending.csp-b009.validated.json",
+      "data-init/suggestions/answer-pools.pending.cr-b009.validated.json"
     ],
-    "bankAppliedAt": "2026-03-08T16:40:23.950Z",
-    "frontendBundledAt": null
+    "bankAppliedAt": "2026-03-08T17:05:18.174Z",
+    "frontendBundledAt": "2026-03-08T17:06:26.341Z"
   }
 }
