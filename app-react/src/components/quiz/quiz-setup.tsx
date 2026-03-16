@@ -15,13 +15,116 @@ import { useData } from "@/context/data-context.tsx";
 import { useExam } from "@/context/exam-context.tsx";
 import * as engine from "@/services/quiz-engine.ts";
 import * as materializer from "@/services/question-materializer.ts";
-import type { ExamCode, QuestionInstance } from "@/types/index.ts";
+import * as storage from "@/services/storage.ts";
+import type { ExamCode, QuestionBankItem, QuestionInstance } from "@/types/index.ts";
 
 interface QuizSetupProps {
   onStart: (
     questions: QuestionInstance[],
     options: { timed: boolean; timeLimit?: number; isExam: boolean; exam: ExamCode },
   ) => void;
+}
+
+interface QuestionCycleEntry {
+  order: string[];
+  index: number;
+}
+
+type QuestionCycleState = Record<string, QuestionCycleEntry>;
+
+const QUESTION_CYCLE_STORAGE_KEY = "quiz_question_cycle";
+
+function shuffleQuestionIds(questions: QuestionBankItem[]): string[] {
+  return engine.selectQuestions(questions, { count: questions.length }).map((question) => question.id);
+}
+
+function reconcileCycleOrder(
+  questions: QuestionBankItem[],
+  previousOrder: string[] | undefined,
+): string[] {
+  const byId = new Map(questions.map((question) => [question.id, question]));
+  const seen = new Set<string>();
+  const kept: string[] = [];
+
+  for (const id of previousOrder || []) {
+    if (!byId.has(id) || seen.has(id)) continue;
+    seen.add(id);
+    kept.push(id);
+  }
+
+  const missing = questions.filter((question) => !seen.has(question.id));
+  return [...kept, ...shuffleQuestionIds(missing)];
+}
+
+function takeIdsFromOrder(
+  order: string[],
+  startIndex: number,
+  selectedIds: Set<string>,
+  count: number,
+): { ids: string[]; nextIndex: number } {
+  const ids: string[] = [];
+  let cursor = startIndex;
+
+  while (cursor < order.length && ids.length < count) {
+    const id = order[cursor];
+    cursor += 1;
+    if (selectedIds.has(id)) continue;
+    ids.push(id);
+  }
+
+  return { ids, nextIndex: cursor };
+}
+
+function getSelectionKey(mode: string, themeId: string | null): string {
+  if (mode === "exam") return "exam";
+  return `practice:${themeId && themeId !== "all" ? themeId : "all"}`;
+}
+
+function selectQuestionsFromCycle(
+  questions: QuestionBankItem[],
+  count: number,
+  exam: ExamCode,
+  selectionKey: string,
+): QuestionBankItem[] {
+  if (questions.length === 0 || count <= 0) return [];
+
+  const targetCount = Math.min(count, questions.length);
+  const cycleState = storage.load<QuestionCycleState>(QUESTION_CYCLE_STORAGE_KEY, {}, exam);
+  const existingEntry = cycleState[selectionKey];
+
+  let order = reconcileCycleOrder(questions, existingEntry?.order);
+  let index = Math.min(Math.max(existingEntry?.index || 0, 0), order.length);
+
+  const selectedIds = new Set<string>();
+  const orderedSelection: string[] = [];
+
+  while (orderedSelection.length < targetCount) {
+    const { ids, nextIndex } = takeIdsFromOrder(
+      order,
+      index,
+      selectedIds,
+      targetCount - orderedSelection.length,
+    );
+
+    for (const id of ids) {
+      selectedIds.add(id);
+      orderedSelection.push(id);
+    }
+
+    index = nextIndex;
+    if (orderedSelection.length >= targetCount) break;
+
+    order = shuffleQuestionIds(questions);
+    index = 0;
+  }
+
+  const byId = new Map(questions.map((question) => [question.id, question]));
+  cycleState[selectionKey] = { order, index };
+  storage.save(QUESTION_CYCLE_STORAGE_KEY, cycleState, exam);
+
+  return orderedSelection
+    .map((id) => byId.get(id))
+    .filter((question): question is QuestionBankItem => Boolean(question));
 }
 
 export function QuizSetup({ onStart }: QuizSetupProps) {
@@ -52,7 +155,12 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
 
   function handleStartExam() {
     if (!rules) return;
-    const selected = engine.selectQuestions(examQuestions, { count: rules.questionCount });
+    const selected = selectQuestionsFromCycle(
+      examQuestions,
+      rules.questionCount,
+      activeExam,
+      getSelectionKey(mode, null),
+    );
     const instances = materializeSelection(selected);
     onStart(instances, {
       timed: true,
@@ -63,10 +171,14 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
   }
 
   function handleStartPractice() {
-    const selected = engine.selectQuestions(examQuestions, {
-      count: parseInt(count, 10),
-      themeId: themeId && themeId !== "all" ? themeId : null,
-    });
+    const selected = selectQuestionsFromCycle(
+      examQuestions.filter((question) =>
+        themeId && themeId !== "all" ? question.themeId === themeId : true,
+      ),
+      parseInt(count, 10),
+      activeExam,
+      getSelectionKey(mode, themeId || null),
+    );
     if (selected.length === 0) {
       alert("Aucune question disponible pour ce theme.");
       return;
