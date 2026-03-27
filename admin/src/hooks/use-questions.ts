@@ -41,7 +41,7 @@ export function useQuestions() {
 
   const applySuggestion = useCallback(
     async (id: string, suggestion: unknown): Promise<QuestionBankItem> => {
-      const res = await fetch(`/api/questions/${id}/apply-suggestion`, {
+      const res = await fetch(`/api/questions/${id}/apply-answer-suggestion`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ suggestion }),
@@ -57,5 +57,31 @@ export function useQuestions() {
     [],
   );
 
-  return { questions, loading, error, patchQuestion, applySuggestion, refetch: fetchQuestions };
+  const applyLinkSuggestion = useCallback(
+    async (id: string, suggestion: unknown): Promise<QuestionBankItem> => {
+      const res = await fetch(`/api/questions/${id}/apply-link-suggestion`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ suggestion }),
+      });
+      if (!res.ok) {
+        const body = await res.json().catch(() => ({}));
+        throw new Error((body as Record<string, string>).error || `Apply failed: ${res.status}`);
+      }
+      const updated: QuestionBankItem = await res.json();
+      setQuestions((prev) => prev.map((q) => (q.id === id ? updated : q)));
+      return updated;
+    },
+    [],
+  );
+
+  return {
+    questions,
+    loading,
+    error,
+    patchQuestion,
+    applySuggestion,
+    applyLinkSuggestion,
+    refetch: fetchQuestions,
+  };
 }

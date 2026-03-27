@@ -19,6 +19,14 @@ export function QuestionDetail({ question: q, onEdit, onToggleStatus }: Question
           <Badge variant={q.reviewStatus === "reviewed" ? "default" : "secondary"}>
             {q.reviewStatus}
           </Badge>
+          <Badge variant={(q.relatedFicheIds || []).length > 0 ? "outline" : "destructive"}>
+            {(q.relatedFicheIds || []).length > 0 ? "linked" : "unlinked"}
+          </Badge>
+          {q.reviewBucket && (
+            <Badge variant={q.reviewBucket === "high_confidence" ? "default" : "secondary"}>
+              {q.reviewBucket}
+            </Badge>
+          )}
           {(q.qualityFlags || []).map((f) => (
             <Badge key={f} variant="destructive" className="text-[10px]">{f}</Badge>
           ))}
@@ -43,6 +51,9 @@ export function QuestionDetail({ question: q, onEdit, onToggleStatus }: Question
         <p className="text-xs text-muted-foreground mt-1">
           Theme: {q.themeName} · Difficulty: {Object.entries(q.difficultyByExam).map(([e, d]) => `${e}=${d}`).join(", ") || "unset"}
         </p>
+        {q.questionProfile && (
+          <p className="text-xs text-muted-foreground">Profile: {q.questionProfile}</p>
+        )}
       </div>
 
       <div>
@@ -123,6 +134,36 @@ export function QuestionDetail({ question: q, onEdit, onToggleStatus }: Question
               </p>
             ))}
           </div>
+        </div>
+      )}
+
+      {q.reviewReasons && q.reviewReasons.length > 0 && (
+        <div>
+          <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Review reasons</p>
+          <div className="flex flex-wrap gap-1">
+            {q.reviewReasons.map((reason) => (
+              <Badge key={reason} variant="secondary" className="text-[10px]">{reason}</Badge>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {q.styleMetrics && (
+        <div>
+          <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Style metrics</p>
+          <div className="grid grid-cols-2 gap-2 text-[11px] text-muted-foreground">
+            <p>char ratio: {q.styleMetrics.charLengthRatio.toFixed(2)}</p>
+            <p>token ratio: {q.styleMetrics.tokenLengthRatio.toFixed(2)}</p>
+            <p>profile matches: {q.styleMetrics.profileMatchCount}/{q.styleMetrics.optionCount}</p>
+            <p>length cue: {q.styleMetrics.obviousLengthCue ? "yes" : "no"}</p>
+          </div>
+          {q.styleMetrics.mismatchedOptions.length > 0 && (
+            <div className="mt-2 space-y-1">
+              {q.styleMetrics.mismatchedOptions.map((value) => (
+                <p key={value} className="text-[10px] text-muted-foreground">- {value}</p>
+              ))}
+            </div>
+          )}
         </div>
       )}
 

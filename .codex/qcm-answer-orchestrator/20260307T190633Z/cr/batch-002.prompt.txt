@@ -1,0 +1,43 @@
+Use $qcm-answer-batch20 to complete one phase-2 answer batch for source `cr` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b002.json`
+
+Selected questions:
+- crx021: Le régime de la France est : | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1, histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique
+- crx022: Pourquoi le principe de laïcité doit-il être respecté à l'école ? | linked fiches: principes-et-valeurs--la-laicite--la-laicite-a-ecole-2, principes-et-valeurs--la-laicite--la-laicite-a-ecole-1
+- crx023: Une personne a-t-elle le droit de ne pas croire en une religion ? | linked fiches: principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1, principes-et-valeurs--la-laicite--definition-laicite-2
+- crx024: Quel droit est garanti par la laïcité ? | linked fiches: principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1, principes-et-valeurs--la-laicite--la-laicite-a-ecole-1
+- crx025: À l'école publique, qui peut porter des signes religieux très visibles ? | linked fiches: principes-et-valeurs--la-laicite--la-laicite-a-ecole-1
+- crx026: Qui doit respecter le principe de neutralité religieuse dans une préfecture ? | linked fiches: principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics
+- crx027: La laïcité impose-t-elle aux agents publics d'être neutres vis-à-vis des usagers ? | linked fiches: principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics
+- crx028: A-t-on le droit de changer de religion ? | linked fiches: principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1, principes-et-valeurs--la-laicite--definition-laicite-2
+- crx029: Que représente la laïcité ? | linked fiches: principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1
+- crx030: Qu'est ce qui est interdit par la Charte de la laïcité à l'école ? | linked fiches: principes-et-valeurs--la-laicite--la-laicite-a-ecole-1, principes-et-valeurs--la-laicite--la-laicite-a-ecole-2
+- crx031: Que dit l'article 1er de la Constitution française ? | linked fiches: principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1, principes-et-valeurs--la-laicite--la-laicite-a-ecole-1
+- crx032: Le président de la République a commis un crime. Quelle proposition est correcte ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs, systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1
+- crx033: La loi est l'expression de : | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1
+- crx034: Quelle est la durée du mandat du conseil municipal et du maire ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2
+- crx035: Que garantit l’État de droit ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs
+- crx036: Une personne peut-elle voter à la place d'une autre ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2
+- crx037: Est-ce que le vote est obligatoire ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1
+- crx038: À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2
+- crx039: Qui nomme le Premier ministre ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2, systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1
+- crx040: Quelle est l'organisation administrative de la France ? | linked fiches: systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1, systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3
+
+Tasks:
+refresh the workflow state
+read only the selected questions, their linked fiches, and the needed evidence sections
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `accepted` as `false`.
+- Produce exactly 1 correct answer and exactly 3 distractors for each drafted item.
+- Keep all 4 options the same visible type and similar length.
+- Do not make the correct answer obviously longer, more precise, or more polished than the distractors.
+- If fiche support is insufficient, move the question to top-level `skipped` with a concrete `blockReason`.

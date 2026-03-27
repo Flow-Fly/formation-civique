@@ -1,0 +1,39 @@
+Use $qcm-fiche-linking to complete one phase-1 fiche-linking batch for source `cr` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r007.json`
+
+Selected questions:
+- crx122: Lequel de ces départements de France est le plus touristique ?
+- crx123: Quand peut-on visiter gratuitement des lieux culturels en France ?
+- crx124: Combien de personnes parlent français dans le monde ?
+- crx125: Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?
+- crx126: Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?
+- crx127: Qui était une écrivaine française célèbre ?
+- crx128: Qui était un célèbre musicien français ?
+- crx129: Quelle fête est française ?
+- crx130: Quel mariage est reconnu par l'État ?
+- crx131: Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?
+- crx132: Quelle est l'une des conditions pour passer l'examen du permis de conduire ?
+- crx133: Un bail locatif est valide s'il est :
+- crx134: Où peut-on déposer un lave-vaisselle cassé ?
+- crx135: Concernant l'accès aux soins, quelle proposition est correcte ?
+- crx136: À qui est accessible la contraception ?
+- crx137: Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :
+- crx138: Quelle est la mission de France Travail ?
+- crx139: Dans une entreprise, le droit syndical permet :
+- crx140: Dans une entreprise, le droit de grève autorise :
+- crx141: Quelles sont les conditions pour toucher les allocations chômage ?
+
+Tasks:
+refresh the workflow state
+read the selected questions and the needed fiches
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `relatedFicheIds` justified by the fiche content.

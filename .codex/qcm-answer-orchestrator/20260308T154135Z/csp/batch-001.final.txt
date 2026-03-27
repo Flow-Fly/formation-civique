@@ -1,0 +1,3 @@
+Completed one `csp` phase-2 batch in [answer-pools.pending.csp-b007.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.csp-b007.json). `workflowStatus` is now `completed`, all 20 items have `accepted: false`, exactly 1 correct answer, 3 distractors, and evidence anchored to the linked fiches.
+
+I refreshed the workflow state before and after. The final refresh shows `csp` has `ready=0` and `drafted=131`; overall `nextAction` is still `continue_linking`. I also checked the batch with the answer-pool validator: `20` valid, `0` invalid. The validator’s temporary sidecar files were removed so the batch output remains limited to the requested scaffold file.

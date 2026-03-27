@@ -1,0 +1,43 @@
+Use $qcm-answer-batch20 to complete one phase-2 answer batch for source `cr` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b003.json`
+
+Selected questions:
+- crx041: Qu'est-ce que le pouvoir législatif ? Le pouvoir : | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1, systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1
+- crx042: Pourquoi séparer les trois pouvoirs dans une démocratie ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs
+- crx043: Quel est le rôle du gouvernement ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1
+- crx044: Que se passe-t-il si un ministre ne respecte pas la loi ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs
+- crx045: Combien de députés composent l’Assemblée nationale ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2
+- crx046: Qui peut voter aux élections en France ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1
+- crx047: Pour combien de temps sont élus les sénateurs ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2
+- crx048: Est-ce que le président de la République a tous les pouvoirs ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1
+- crx049: Qui est le préfet ? | linked fiches: systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2
+- crx050: Quelle condition est nécessaire pour voter aux élections ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1
+- crx051: Qui dirige la commune ? | linked fiches: systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2
+- crx052: Quel est le régime politique de la France aujourd'hui ? | linked fiches: histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1
+- crx053: Qu'est-ce que l'Hôtel de Matignon ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1
+- crx054: Le Parlement est composé : | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2
+- crx055: Qui est le chef du Gouvernement ? | linked fiches: systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1, systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2
+- crx056: Combien y a-t-il de régions en France ? | linked fiches: systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1, systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3
+- crx057: Depuis quand l'euro est-elle la monnaie unique ? | linked fiches: systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1
+- crx058: Quel est le rôle principal du département ? | linked fiches: systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1
+- crx059: Quel est le rôle principal des communes ? | linked fiches: systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1, systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3
+- crx060: Combien de communes environ existe-t-il en France ? | linked fiches: systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1, systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3
+
+Tasks:
+refresh the workflow state
+read only the selected questions, their linked fiches, and the needed evidence sections
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `accepted` as `false`.
+- Produce exactly 1 correct answer and exactly 3 distractors for each drafted item.
+- Keep all 4 options the same visible type and similar length.
+- Do not make the correct answer obviously longer, more precise, or more polished than the distractors.
+- If fiche support is insufficient, move the question to top-level `skipped` with a concrete `blockReason`.

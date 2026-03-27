@@ -1,0 +1,39 @@
+Use $qcm-fiche-linking to complete one phase-1 fiche-linking batch for source `cr` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r005.json`
+
+Selected questions:
+- crx082: Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?
+- crx083: Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?
+- crx084: Jeter un mégot par terre est :
+- crx085: L'État peut-il limiter les droits et libertés ?
+- crx086: Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ?
+- crx087: Quelle proposition constitue une obligation ?
+- crx088: Pourquoi doit-on trier ses déchets ?
+- crx089: Que doit faire une victime de violences ?
+- crx090: Que doit-on faire face aux ordres des policiers ou gendarmes ?
+- crx091: Quel est le rôle de la police ?
+- crx092: Quel est un exemple d’assistance à personne en danger ?
+- crx093: Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?
+- crx094: Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ?
+- crx095: Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?
+- crx096: Quelle proposition représente un exemple de crime ?
+- crx097: Quelle proposition représente un exemple de délit ?
+- crx098: Qui veille au maintien de l’ordre public ?
+- crx099: S'agissant des déchets, quelle proposition est correcte ?
+- crx100: Quel était le surnom de Louis XIV ?
+- crx101: Quel roi de France a été exécuté pendant la Révolution française ?
+
+Tasks:
+refresh the workflow state
+read the selected questions and the needed fiches
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `relatedFicheIds` justified by the fiche content.

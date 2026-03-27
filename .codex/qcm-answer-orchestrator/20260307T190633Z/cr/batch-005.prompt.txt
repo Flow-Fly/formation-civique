@@ -1,0 +1,43 @@
+Use $qcm-answer-batch20 to complete one phase-2 answer batch for source `cr` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b005.json`
+
+Selected questions:
+- crx081: Qui peut demander à avorter ? | linked fiches: droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps, histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement
+- crx082: Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1
+- crx083: Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ? | linked fiches: principes-et-valeurs--la-laicite--le-blaspheme
+- crx084: Jeter un mégot par terre est : | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement
+- crx085: L'État peut-il limiter les droits et libertés ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles
+- crx086: Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement
+- crx087: Quelle proposition constitue une obligation ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais
+- crx088: Pourquoi doit-on trier ses déchets ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement
+- crx089: Que doit faire une victime de violences ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences
+- crx090: Que doit-on faire face aux ordres des policiers ou gendarmes ? | linked fiches: droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen
+- crx091: Quel est le rôle de la police ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs
+- crx092: Quel est un exemple d’assistance à personne en danger ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais
+- crx093: Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles
+- crx094: Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences
+- crx095: Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais
+- crx096: Quelle proposition représente un exemple de crime ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions
+- crx097: Quelle proposition représente un exemple de délit ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions
+- crx098: Qui veille au maintien de l’ordre public ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs
+- crx099: S'agissant des déchets, quelle proposition est correcte ? | linked fiches: droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement
+- crx100: Quel était le surnom de Louis XIV ? | linked fiches: histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789
+
+Tasks:
+refresh the workflow state
+read only the selected questions, their linked fiches, and the needed evidence sections
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `accepted` as `false`.
+- Produce exactly 1 correct answer and exactly 3 distractors for each drafted item.
+- Keep all 4 options the same visible type and similar length.
+- Do not make the correct answer obviously longer, more precise, or more polished than the distractors.
+- If fiche support is insufficient, move the question to top-level `skipped` with a concrete `blockReason`.

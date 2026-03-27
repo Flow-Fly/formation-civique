@@ -1,0 +1,4 @@
+===== attempt 1 @ 2026-03-07T19:14:36.079524+00:00 =====
+The batch file was completed in place at [answer-pools.pending.naturalisation-b001.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.naturalisation-b001.json). I filled all 4 `naturalisation` items, kept `accepted: false`, set `workflowStatus` to `completed`, and did not touch `data-init/question-bank.json` or create another batch output file.
+
+I also ran a read-only consistency check against `data-init/fiches-section-index.json`: JSON parsed, each item has exactly 1 correct answer and 3 distractors, and every evidence quote resolves to the referenced section. After the final state refresh, [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) shows `naturalisation: ready=0, drafted=4, applied=254`.

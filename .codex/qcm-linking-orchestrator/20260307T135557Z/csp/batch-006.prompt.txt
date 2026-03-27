@@ -1,0 +1,39 @@
+Use $qcm-fiche-linking to complete one phase-1 fiche-linking batch for source `csp` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.csp.r006.json`
+
+Selected questions:
+- cspx044: Quelle est la monnaie utilisée en France ?
+- cspx046: Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?
+- cspx070: Lequel de ces personnages historiques est français ?
+- cspx071: Dans quelle République est-on aujourd'hui ?
+- cspx072: Quel pays ou région du monde a été colonisé par la France ?
+- cspx073: En quelle année a été créée la Communauté Économique Européenne (CEE) ?
+- cspx074: Qui a été le premier Président élu sous la Ve République ?
+- cspx075: En quelle année l'esclavage a-t-il été aboli définitivement en France ?
+- cspx076: Combien y a-t-il eu de républiques en France ?
+- cspx077: Qui était le roi de France au moment de la Révolution française ?
+- cspx078: Qui a fondé la Ve République ?
+- cspx079: Que célèbre-t-on le 14 juillet ?
+- cspx080: Quelle guerre a eu lieu entre 1914 et 1918 ?
+- cspx081: Quel fleuve coule en France ?
+- cspx082: Quelle ville est française ?
+- cspx083: Quel océan borde la côte ouest française ?
+- cspx084: Qu'est-ce que Paris ?
+- cspx085: Quelle est la capitale de la France ?
+- cspx086: Sur quel continent se situe la France métropolitaine ?
+- cspx087: Quelle ville est un grand port maritime ?
+
+Tasks:
+refresh the workflow state
+read the selected questions and the needed fiches
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `relatedFicheIds` justified by the fiche content.

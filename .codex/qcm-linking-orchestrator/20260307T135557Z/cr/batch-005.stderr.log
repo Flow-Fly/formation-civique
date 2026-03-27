@@ -1,0 +1,2797 @@
+OpenAI Codex v0.106.0 (research preview)
+--------
+workdir: /Users/flow/Documents/github/repositories/formation-civique
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019cc8af-d4e0-7dd0-9bdb-398fc945ca83
+--------
+user
+Use $qcm-fiche-linking to complete one phase-1 fiche-linking batch for source `cr` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r008.json`
+
+Selected questions:
+- crx122: Lequel de ces départements de France est le plus touristique ?
+- crx134: Où peut-on déposer un lave-vaisselle cassé ?
+- crx141: Quelles sont les conditions pour toucher les allocations chômage ?
+- crx142: Qu'est-ce que l'école maternelle ?
+- crx143: Comment s'appelle le diplôme passé par les élèves à la fin du collège ?
+- crx144: Les parents d'élève ont le droit de :
+- crx145: Qui peut manger à la cantine scolaire ?
+- crx146: Quel est l'âge de la majorité ?
+- crx147: À l'école, il est interdit aux parents de :
+- crx148: Quand ont lieu les vacances scolaires de Noël ?
+- crx149: À l'école, un enfant en situation de handicap :
+
+Tasks:
+refresh the workflow state
+read the selected questions and the needed fiches
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `relatedFicheIds` justified by the fiche content.
+
+mcp startup: no servers
+2026-03-07T14:24:53.123242Z  WARN codex_core::shell_snapshot: Failed to delete shell snapshot at "/Users/flow/.codex/shell_snapshots/019cc8af-d4e0-7dd0-9bdb-398fc945ca83.tmp-1772893492454546000": Os { code: 2, kind: NotFound, message: "No such file or directory" }
+codex
+Using `$qcm-fiche-linking` for one `cr` batch. I’m refreshing the workflow state, then I’ll inspect the existing scaffold plus the exact question and fiche files needed before editing only that batch file.
+exec
+/bin/zsh -lc "sed -n '1,220p' /Users/flow/.codex/skills/qcm-fiche-linking/SKILL.md" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,260p' data-init/suggestions/question-fiche-links.cr.r008.json" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+---
+name: qcm-fiche-linking
+description: "Link civic-exam questions to fiche ids in resumable batches. Use when working on `cr.md`, `csp.md`, or `naturalisation.md` before drafting QCM answers, and always refresh `data-init/suggestions/qcm-workflow-state.json`."
+---
+
+# QCM Fiche Linking
+
+Use this skill for phase 1 only: question to fiche linking.
+Do not draft answers. Do not update `data-init/question-bank.json`.
+
+## Workflow
+
+1. Refresh workflow state and inspect the next unresolved questions for one source.
+
+```bash
+node scripts/sync-qcm-workflow-state.mjs --source cr --phase linking --limit 20 --json
+```
+
+Supported sources:
+- `cr`
+ succeeded in 51ms:
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "scaffold",
+  "sourceKey": "cr",
+  "runId": "r008",
+  "generatedAt": "2026-03-07T14:24:52.386Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "relatedFicheIds": [],
+exec
+/bin/zsh -lc 'node scripts/sync-qcm-workflow-state.mjs --source cr --phase linking --limit 20 --json' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 116ms:
+{
+  "statePath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json",
+  "workflow": {
+    "currentPhase": "linking",
+    "nextAction": "continue_linking",
+    "frontendStatus": "not_ready",
+    "counts": {
+      "totalQuestions": 657,
+      "linkedQuestions": 578,
+      "draftedQuestions": 358,
+      "appliedQuestions": 358
+    }
+  },
+  "sourceKey": "cr",
+  "phase": "linking",
+  "availableSources": [
+    "cr",
+    "csp",
+    "naturalisation"
+  ],
+
+
+thinking
+**Searching for relevant fiches**
+
+I need to inspect the question source to locate relevant fiche IDs. It might help to search for keywords within the index. I could also look through existing linked batches for similar questions, but the instructions specify reading only selected questions and fiches. So, it might be wise to avoid unnecessary inspections. Furthermore, I'll look into the index file for candidate fiches by keywords, perhaps using rg or jq if it's JSON. Checking out actual questions in cr.md might provide helpful insights!
+thinking
+**Searching for school terms**
+
+I’m considering using jq to search the index for terms related to schools and such. For example, I could use `rg -n` or run a jq command to extract relevant fiche IDs and titles. It’s important to only read the necessary fiches and determine how index entries map to their corresponding JSON files. I might explore the structure to see if it includes IDs and paths. I could even parallelize my commands; one for cr.md snippets and another for index searches. Let's get started!
+codex
+The scaffold already contains the first three unresolved items, so I’m now narrowing the fiche set from `index.json` and the `cr.md` question text to justify the remaining links without touching any other batch.
+exec
+/bin/zsh -lc 'rg -n "crx122|crx134|crx141|crx142|crx143|crx144|crx145|crx146|crx147|crx148|crx149" data-init/questions/cr.md' in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "jq -r '.[] | [.id, (.title // \"\"), (.path // \"\")] | @tsv' data-init/fiches/index.json | rg -i \"touris|ile-de-france|paris|environnement|recycl|dechet|emploi|chom|assurance|travail|ecole|maternelle|college|parents|cantine|majorite|vacances|noel|handicap|inclusive|eleve|scolar|enfant\"" in /Users/flow/Documents/github/repositories/formation-civique exited 1 in 51ms:
+
+ exited 1 in 51ms:
+jq: error (at data-init/fiches/index.json:1301): Cannot index array with string "id"
+
+thinking
+**Inspecting file structure**
+
+I need to take a closer look at the file structure. It seems like the index might have an object with various items. I should probably check some lines. If the `rg` command returned code 1 with no output, maybe the IDs I’m looking for aren’t in the file. I’ll have to inspect the question file structure, possibly without the IDs. Using `sed` around specific lines could help, and I’ll also check the index’s head to understand its shape. I'll consider using parallel processing too.
+codex
+`index.json` isn’t a flat array, and the question markdown doesn’t expose those ids directly. I’m checking the actual structures now so I can target the minimal set of fiche files and map them cleanly.
+exec
+/bin/zsh -lc "sed -n '1,80p' data-init/fiches/index.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "rg -n \"Lequel de ces départements de France est le plus touristique|Où peut-on déposer un lave-vaisselle cassé|Quelles sont les conditions pour toucher les allocations chômage|Qu'est-ce que l'école maternelle|Comment s'appelle le diplôme passé par les élèves à la fin du collège|Les parents d'élève ont le droit de|Qui peut manger à la cantine scolaire|Quel est l'âge de la majorité|À l'école, il est interdit aux parents de|Quand ont lieu les vacances scolaires de Noël|À l'école, un enfant en situation de handicap\" data-init/questions/cr.md" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+{
+  "themes": [
+    {
+      "id": "principes-et-valeurs",
+      "name": "Principes et valeurs de la République",
+      "subcategories": [
+        {
+          "id": "la-devise-de-la-republique",
+          "name": "La devise de la République",
+          "fiches": [
+            {
+              "id": "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise",
+              "title": "La devise française",
+              "slug": "la-devise-francaise"
+            },
+            {
+              "id": "principes-et-valeurs--la-devise-de-la-republique--la-liberte",
+              "title": "La liberté",
+              "slug": "la-liberte"
+            },
+ succeeded in 50ms:
+178:37. Lequel de ces départements de France est le plus touristique ?
+201:8. Où peut-on déposer un lave-vaisselle cassé ?
+214:21. Quelles sont les conditions pour toucher les allocations chômage ?
+215:22. Qu'est-ce que l'école maternelle ?
+216:23. Comment s'appelle le diplôme passé par les élèves à la fin du collège ?
+217:24. Les parents d'élève ont le droit de :
+218:25. Qui peut manger à la cantine scolaire ?
+220:27. Quel est l'âge de la majorité ?
+221:28. À l'école, il est interdit aux parents de :
+224:31. Quand ont lieu les vacances scolaires de Noël ?
+225:32. À l'école, un enfant en situation de handicap :
+
+thinking
+**Searching for context**
+
+I need more context around the lines mentioned, maybe answer options would be helpful. I'll focus on the range of 170-230. It's also a good idea to inspect the index with jq recursively since there might be nested themes or subcategories. I'll search for IDs and titles recursively using a jq command. Let's run a keyword search to gather more information. That could clarify things!
+exec
+/bin/zsh -lc "sed -n '170,230p' data-init/questions/cr.md" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "jq -r '.. | objects | select(has(\"id\") and has(\"title\")) | [.id, .title, (.slug // \"\")] | @tsv' data-init/fiches/index.json | rg -i \"touris|ile-de-france|paris|environnement|recycl|dechet|emploi|chom|assurance|travail|ecole|maternelle|college|parents|cantine|majorite|vacances|noel|handicap|inclusive|eleve|scolar|enfant|education\"" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+29. Quel fleuve traverse Paris ?
+30. Lequel de ces pays partage des frontières terrestres avec la France ?
+31. Quel pays a une frontière avec la France métropolitaine au nord-est ?
+32. Où se trouvent les principales activités économiques en France ?
+33. Parmi ces pays, lequel attire le plus de visiteurs chaque année ?
+34. Où habite la majorité des Français ?
+35. Quelle région est la plus peuplée ?
+36. Quelle ville française fait partie des 10 plus grandes métropoles du pays ?
+37. Lequel de ces départements de France est le plus touristique ?
+38. Quand peut-on visiter gratuitement des lieux culturels en France ?
+39. Combien de personnes parlent français dans le monde ?
+40. Qui était Marguerite Yourcenar ?
+41. Quel peintre est français ?
+42. Quel musée est situé à Paris ?
+43. Qui était Auguste Rodin ?
+44. Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?
+45. Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?
+46. Qui était une écrivaine française célèbre ?
+47. Qui était un célèbre musicien français ?
+48. Qui était Auguste Renoir ?
+ succeeded in 51ms:
+principes-et-valeurs--la-laicite--la-laicite-au-travail	La laïcité au travail	la-laicite-au-travail
+principes-et-valeurs--la-laicite--la-laicite-a-ecole-1	La laïcité à l'école (1/2)	la-laicite-a-ecole-1
+principes-et-valeurs--la-laicite--la-laicite-a-ecole-2	La laïcité à l'école (2/2)	la-laicite-a-ecole-2
+droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-charte-de-lenvironnement	Présentation des principaux textes (3/3) : La Charte de l'environnement	les-principaux-textes-la-charte-de-lenvironnement
+droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--l-interdiction-des-violences-faites-aux-enfants	L'interdiction des violences faites aux enfants	l-interdiction-des-violences-faites-aux-enfants
+droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement	Adopter une attitude respectueuse vis-à-vis de l’environnement	obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement
+histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique	Une puissance touristique	une-puissance-touristique
+histoire-geographie-culture--les-regions-francaises--ile-de-france	Île-de-France	ile-de-france
+histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france	Patrimoine français : sites emblématiques et gastronomie d’Île-de-France	patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france
+vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile	Les démarches du quotidien comme l’assurance responsabilité civile	les-demarches-du-quotidien-comme-lassurance-responsabilite-civile
+vivre-societe-francaise--emploi--orientation-1	Orientation (1/5)	orientation-1
+vivre-societe-francaise--emploi--orientation-2	Orientation (2/5)	orientation-2
+vivre-societe-francaise--emploi--orientation-3	Orientation (3/5)	orientation-3
+vivre-societe-francaise--emploi--orientation-4	Orientation (4/5)	orientation-4
+vivre-societe-francaise--emploi--orientation-5	Orientation (5/5)	orientation-5
+vivre-societe-francaise--emploi--formation-1	Formation (1/3)	formation-1
+vivre-societe-francaise--emploi--formation-2	Formation (2/3)	formation-2
+vivre-societe-francaise--emploi--formation-3	Formation (3/3)	formation-3
+vivre-societe-francaise--emploi--types-emploi-1	Types d'emploi (1/3)	types-emploi-1
+vivre-societe-francaise--emploi--types-emploi-2	Types d'emploi (2/3)	types-emploi-2
+
+thinking
+**Considering fiche paths**
+
+I’m thinking we need to determine the necessary fiche paths and then read them. An index-to-path script might be useful for that. It seems like the filenames use an ID slug, so I could search by those slug names. I suppose it's a good idea to start by inspecting the file tree to understand how everything is organized. There’s a lot to consider, but I’m focused on finding the right approach!
+codex
+I’ve identified the likely education and employment families from the fiche index. Next I’m locating the actual JSON fiche files and reading only the ones that can anchor these 11 questions, especially where a final link may need to stay empty.
+exec
+/bin/zsh -lc "rg --files data-init/fiches | sed -n '1,80p'" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "jq -r '.. | objects | select(has(\"id\") and has(\"title\")) | [.id, .title, (.slug // \"\")] | @tsv' data-init/fiches/index.json | rg -i \"majorit|majeur|instruction|obligatoire|vacances|noel|cantine|handicap|allophone|parents|ecole|college|brevet|diplome|maternelle|autorite parentale|inclusive|aesh\"" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 52ms:
+principes-et-valeurs--la-laicite--la-laicite-a-ecole-1	La laïcité à l'école (1/2)	la-laicite-a-ecole-1
+principes-et-valeurs--la-laicite--la-laicite-a-ecole-2	La laïcité à l'école (2/2)	la-laicite-a-ecole-2
+vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant	La liberté de choisir l’école de son enfant	la-liberte-de-choisir-l-ecole-de-son-enfant
+vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones	L'école pour les enfants allophones	l-ecole-pour-les-enfants-allophones
+vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole	Les devoirs et le rôle des parents à l’école	droits-et-devoirs-des-parents-a-l-ecole
+ succeeded in 52ms:
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/fraternite-1.json
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/la-liberte.json
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/egalite-1.json
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/egalite-2.json
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.json
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/egalite-3.json
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/fraternite-2.json
+data-init/fiches/principes-et-valeurs/la-langue-de-la-republique/la-langue-fran%C3%A7aise.json
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/marianne.json
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-fran%C3%A7ais.json
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.json
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.json
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/le-coq.json
+data-init/fiches/principes-et-valeurs/le-contrat-d-engagement-a-respecter-les-principes-de-la-republique/le-contrat-engagement-republicain.json
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-au-travail.json
+data-init/fiches/principes-et-valeurs/la-laicite/definition-laicite-2.json
+data-init/fiches/principes-et-valeurs/la-laicite/la-definition-de-la-laicite-1.json
+data-init/fiches/index.json
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-dans-les-services-publics.json
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.json
+
+thinking
+**Searching in fiche files**
+
+The search results didn't yield much in the titles, so I think I need to dig deeper and search inside the fiche files for content. I want to locate school-related fiches and search for specific terms like "maternelle," "collège," "brevet," and more. I’ll use a command within the fiches JSON to explore phrases related to school and children's rights. Let’s go ahead and conduct a content search across those fiches!
+exec
+/bin/zsh -lc "rg -n -i \"maternelle|coll[eè]ge|brevet|cantine|majorit[eé]|18 ans|vacances scolaires|No[eë]l|handicap|AESH|inclusive|inclusion|instruction obligatoire|parents d'élève|parents d eleve|parents d'eleve|laïcité à l'école|laicite a l'ecole\" data-init/fiches" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "rg -n -i \"allocations chômage|assurance chômage|France Travail|demandeur d'emploi|perte d'emploi|déchets|decheterie|déchèterie|électroménager|lave-vaisselle|touristique|département|Paris|Île-de-France\" data-init/fiches" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+Total output lines: 66
+
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/egalite-1.json:25:      "content": "Chaque personne peut - et doit - bénéficier des services publics dont elle a besoin : santé, éducation, sécurité… Par conséquent, chacun a le devoir de respecter les règles qui organisent le fonctionnement de ces services publics.\n\nLa loi interdit de limiter l’accès à ces services selon certains critères : homme ou femme, origine ethnique, handicap, orientation sexuelle...Exemple : toute personne malade doit être soignée.",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.json:3:  "title": "La laïcité à l'école (1/2)",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.json:10:    "Comprendre comment s’applique la laïcité à l’école.Comprendre les enjeux de la laïcité à l'école."
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.json:34:      "heading": "Charte de la laïcité à l'école",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.json:40:      "content": "(Ouvre une nouvelle fenêtre) La laïcité à l'école | éduscol",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.json:46:      "label": "(Ouvre une nouvelle fenêtre) La laïcité à l'école | éduscol",
+data-init/fiches/principes-et-valeurs/la-laicite/histoire-de-la-laicite.json:30:      "content": "En 1905, une loi sépare l’Église et l’État :\n\nl’État est indépendant des religions ;\n- l’État ne finance aucune religion ;\n- et les religions s’organisent de manière indépendante mais en respectant des règles fixées par l’État. Par exemple, il est interdit de commettre un délit au nom d’une religion.\n\nEn 2004, une loi interdit dans les écoles, collèges et lycées publics de porter, avec l’intention d’être vu, un signe ou un vêtement qui montre une appartenance à une religion.\n\nEn 2021, une loi renforce la laïcité et la neutralité dans les services publics et les associations.",
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/egalite-3.json:15:      "content": "On parle de discrimination lorsqu’une personne est moins bien traitée qu’une autre en raison d’un des critères interdits par la loi, par exemple son handicap, sa religion, son orientation sexuelle...\n\nLa discrimination peut exister dans plusieurs domaines : emploi, logement, éducation, accès aux services publics.\n\nElle peut être directe (par exemple, refuser un emploi à une personne en raison de son origine) ou indirecte (par exemple, appliquer une règle qui semble ne pas faire de discrimination, mais qui, dans les faits, désavantage certaines personnes).",
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/egalite-3.json:20:      "content": "La loi française reconnaît plus de 26 critères de discrimination : origine, sexe, apparence physique, âge, handicap, grossesse, orientation sexuelle, opinions politiques, religion…\n\nLes discriminations sont punies par des amendes et diverses sanctions. Des peines de prison sont possibles en cas de récidive.",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.json:3:  "title": "La laïcité à l'école (2/2)",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.json:10:    "Identifier les enjeux de la laïcité à l'école."
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.json:15:      "content": "Identifier les enjeux de la laïcité à l'école.",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.json:39:      "heading": "Charte de la laïcité à l'école",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.json:45:      "content": "(Ouvre une nouvelle fenêtre) Journée nationale de la laïcité 2024 | info.gouv.fr\n\n(Ouvre une nouvelle fenêtre) La laïcité à l'école | education.gouv.fr",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.json:55:      "label": "(Ouvre une nouvelle fenêtre) La laïcité à l'école | education.gouv.fr",
+data-init/fiches/systeme-institutionnel/organisation-de-la-republique-francaise/le-decoupage-administratif-de-la-france-3.json:20:      "content": "Le service public de l’Éducation est concerné par la décentralisation : l’État a transféré certaines compétences aux collectivités territoriales.\n\nL’État (l’administration centrale) :définit les programmes scolaires ;recrute, forme et gère les enseignants ;valide les manuels scolaires ;supervise les universités.\n- définit les programmes scolaires ;\n- recrute, forme et gère les enseignants ;\n- valide les manuels scolaires ;\n- supervise les universités.\n- Les régions gèrent les lycées ;\n- Les départements gèrent les collèges ;\n- Les communes gèrent les écoles maternelles et primaires.\n\nGérer un établissement scolaire réunit plusieurs compétences : construction et entretien des bâtiments, équipements et matériel, cantine.",
+data-init/fiches/index.json:125:              "title": "La laïcité à l'école (1/2)",
+data-init/fiches/index.json:130:              "title": "La laïcité à l'école (2/2)",
+ succeeded in 51ms:
+Total output lines: 193
+
+data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/fraternite-1.json:30:      "content": "La solidarité collective, c’est une aide organisée surtout par des institutions publiques (État, département…), et souvent financée par l’impôt ou des cotisations (c’est-à-dire de l’argent prélevé sur les salaires).Exemples : la Sécurité sociale, le RSA, l’aide au logement…\n- La solidarité entre les générations, c’est l’entraide entre les personnes d’âges différents.Exemple : les retraites sont financées par les cotisations des personnes plus jeunes, celles qui travaillent.\n- L’engagement associatif, c’est un groupe de personnes qui agissent, dans des associations, pour aider des personnes en difficulté, pour préserver l’environnement…Exemples : aide alimentaire, soutien scolaire, aide aux réfugiés…\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogramme FALC",
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-fran%C3%A7ais.json:15:      "content": "Le drapeau français est un symbole officiel de la République française.\n\nLe drapeau est composé de trois bandes verticales : bleu, blanc et rouge.\n- Chaque couleur a une signification : le bleu et le rouge étaient les couleurs de la ville de Paris, tandis que le blanc était la couleur du roi.\n- L'alliance des trois couleurs était donc le symbole de l'alliance du roi et du peuple et reste le symbole d'une France unie.\n\nSur la droite, façade de la sous-préfecture de Montbrison.",
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-fran%C3%A7ais.json:20:      "content": "En juillet 1789, pendant la Révolution française, les gardes nationaux parisiens portent une cocarde bleue et rouge, les couleurs de la ville de Paris.\n- Le général Lafayette, pour symboliser l’unité entre le roi et le peuple, ajoute le blanc royal au centre : c’est la naissance des trois couleurs réunies.\n- En 1790, le drapeau tricolore commence à être utilisé dans la marine.\n- Il est devenu le drapeau officiel de la France en 1794.\n- Il a perdu les couleurs bleue et rouge lors du retour de la monarchie qui ne garda que blanc royal.\n- Le drapeau bleu blanc rouge est revenu définitivement en 1830.",
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.json:20:      "content": "Que s’est-il passé le 14 juillet 1789 ?Des Parisiens sont entrés dans la prison de la Bastille. Cet événement, que l’on appelle la prise de la Bastille, marque le début de la Révolution française, c’est-à-dire la révolte du peuple contre l’Ancien Régime. Il symbolise la lutte pour la liberté.\n\nEt le 14 juillet 1790 ?C’est la première Fête de la Fédération, pour fêter l’anniversaire de la prise de la Bastille. Les représentants de toutes les provinces de France se réunissent à Paris, en présence du roi Louis XVI, pour affirmer leur attachement à la Constitution qui sera écrite l’année suivante.",
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.json:25:      "content": "Aujourd’hui, la journée du 14 juillet est un moment fort de la vie républicaine en France.\n\nC’est un moment institutionnel qui rappelle les fondements de la République : un défilé militaire a lieu à Paris, sur les Champs-Élysées, en présence du président de la République.\n\nC’est aussi une fête populaire dans tout le pays, pour célébrer l’identité nationale, avec des feux d’artifice, des concerts, des bals…",
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.json:20:      "content": "En avril 1792, quelques jours après le début de la guerre de la France contre l'Autriche, un officier français compose le \"Chant de guerre pour l’armée du Rhin\". Ce chant est repris par un bataillon d’habitants de Marseille lors d’une révolte à Paris en août 1792.\n- Le chant se diffuse rapidement partout en France. Face à ce succès, il est déclaré chant national le 14 juillet 1795. Il s’appelle désormais La Marseillaise.\n- Interdite pendant de longues années, la Marseillaise est à nouveau chantée lors de la Révolution de 1830. Berlioz, célèbre compositeur français, arrange le chant pour qu’il puisse être joué par un orchestre.\n- La Marseillaise devient l’hymne national en 1879 durant la 3ème République.",
+data-init/fiches/principes-et-valeurs/les-symboles-de-la-republique/le-coq.json:25:      "content": "Diplomatie économique et culturelle : logo de La French Tech, communication de Business France, pavillon de la France lors des expositions universelles…\n- Institutions de la République : frontons de certaines mairies ou de monuments aux morts…\n- Sport : maillots des équipes nationales.\n\nSource photo : Mascotte coq des Jeux Olympiques posant devant le vestiaire du stand du ministère au Club France Paris / F.Balsamo",
+data-init/fiches/index.json:711:              "id": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+data-init/fiches/index.json:712:              "title": "Une puissance touristique",
+data-init/fiches/index.json:713:              "slug": "une-puissance-touristique"
+data-init/fiches/index.json:758:              "title": "Île-de-France",
+data-init/fiches/index.json:869:              "title": "Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+data-init/fiches/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement.json:20:      "content": "trier ses déchets et réduire ses déchets plastiques ;\n- éviter le gaspillage des aliments et de l’énergie ;\n- privilégier les transports en commun et le vélo ;\n- respecter les espaces communs et ne pas y jeter de déchets ;\n- participer à des actions locales pour l’environnement (exemple : nettoyage collectif).",
+data-init/fiches/droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement.json:25:      "content": "Faites bonne impression\n\nRecyclez c'est d'abord bien jeter ses déchets\n\nBercyLab mobilisé pour un monde plus vert",
+data-init/fiches/systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2.json:25:      "content": "Les citoyens français peuvent participer à plusieurs types d’élections au suffrage universel direct en France :\n\nles élections présidentielles pour élire le président de la République (tous les 5 ans) ;\n- les élections législatives pour élire les députés à l’Assemblée nationale (tous les 5 ans sauf si il y a une dissolution) ;\n- les élections municipales pour élire les conseillers municipaux (tous les 6 ans) ;\n- les élections départementales pour élire les conseillers départementaux (tous les 6 ans) ;\n- les élections régionales pour élire les conseillers régionaux (tous les 6 ans) ;\n- les élections européennes pour élire les députés au Parlement européen (tous les 5 ans). Les citoyens de l’Union européenne résidant en France peuvent également voter.\n\nPar contre, les élections sénatoriales, qui permettent d'élire les sénateurs, sont au suffrage universel indirect (tous les 3 ans renouvellement par moitié). Seuls les grands électeurs (maires, conseillers municipaux, députés) votent.",
+data-init/fiches/systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2.json:20:      "content": "Les élus municipaux (maire et conseillers municipaux, élus pour 6 ans lors des élections municipales au suffrage direct) : ils représentent les citoyens sur la commune ;\n- les conseillers départementaux (élus pour 6 ans aux élections départementales au suffrage direct) : ils forment l’assemblée départementale qui prend des décisions concernant le département ;\n- les conseillers régionaux (élus pour 6 ans au élections régionales au suffrage direct) : ils forment l’assemblée régionale qui prend des décisions concernant la région.",
+data-init/fiches/systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2.json:25:      "content": "(Ouvre une nouvelle fenêtre) Bienvenue sur le site de l'Élysée\n\n(Ouvre une nouvelle fenêtre) Site officiel du Gouvernement | info.gouv.fr\n\n(Ouvre une nouvelle fenêtre) Assemblée nationale | Les députés, le vote de la loi, le Parlement français\n\n(Ouvre une nouvelle fenêtre) Sénat - Travaux parlementaires, sénateurs, Parlement | Sénat\n\n(Ouvre une nouvelle fenêtre) Statut de l'élu local | Ministères Aménagement du territoire Transition écologique\n\n(Ouvre une nouvelle fenêtre) Qu'est-ce qu'un conseil régional ? | vie-publique.fr\n\n(Ouvre une nouvelle fenêtre) Qu'est-ce qu'un conseil départemental ? | vie-publique.fr",
+data-init/fiches/systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2.json:55:      "label": "(Ouvre une nouvelle fenêtre) Qu'est-ce qu'un conseil départemental ? | vie-publique.fr",
+
+thinking
+**Considering question linking**
+
+I'm thinking about the question bank and whether it has options available. The instructions mention reading selected questions, so maybe I don't need those options for linking. However, for precise linking, having answers might still be helpful. But since the selected question text might be sufficient on its own, I wonder if that's all I really need for the task. It's interesting to weigh the necessity of options versus the clarity of just using the selected questions.
+codex
+The school questions appear linkable from a compact parentality set. I’m reading those exact fiche JSONs now, plus the few institutional fiche files that cover majority and school governance, to avoid guessing from titles alone.
+exec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/vivre-societe-francaise/parentalite/le-systeme-educatif.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/vivre-societe-francaise/parentalite/droits-et-devoirs-des-parents-a-l-ecole.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "jq -r '.. | objects | select(has(\"id\") and has(\"title\")) | [.id, .title, (.slug // \"\")] | @tsv' data-init/fiches/index.json | rg -i \"systeme educatif|systeme-educatif|autorite parentale|soutien a la parentalite|OEPRE|droits et devoirs des parents|ecole de son enfant|enfants allophones|droits de l'enfant\"" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 50ms:
+{
+  "id": "vivre-societe-francaise--parentalite--le-systeme-educatif",
+  "title": "Le système éducatif",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif/",
+  "objectives": [
+    "Comprendre l’organisation de l’école en France.Identifier les possibilités de formation après l’école."
+  ],
+  "sections": [
+    {
+      "heading": "L’organisation de l’école en France",
+      "content": "Français ou étrangers, tous les enfants âgés de 3 à 16 ans, qui habitent en France, doivent aller à l’école. C’est une obligation.\n\nL’école est organisée en 4 temps :\n\nla maternelle, (de 3 à 6 ans). Il y a 3 niveaux : petite section, moyenne section, et grande section ;\n- le cours élémentaire (de 6 à 11 ans). Il y a 5 niveaux : CP, CE1, CE2, CM1 et CM2 ;\n- le collège (de 11 à 15 ans). Il y a 4 niveaux : 6e, 5e, 4e et 3e. À la fin du collège, l’enfant passe un diplôme qui s’appelle le brevet des collèges, ou diplôme national du brevet (DNB) ;\n- le lycée (de 15 à 18 ans). Il y a 3 niveaux : Seconde, Première, Terminale. À la fin du lycée l’enfant passe un diplôme qui s’appelle le baccalauréat (BAC), qui permet de poursuivre des études et d’être orienté vers de nombreux parcours dans l’enseignement supérieur.\n\nUne cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires.",
+      "type": "text"
+    },
+    {
+      "heading": "Pourquoi aller à l’école dès l’âge de 3 ans ?",
+      "content": "L’école maternelle permet aux enfants de s’intégrer dans la société :\n\nles enfants apprennent la langue française s’ils ne la parlent pas encore ;\n- ils apprennent à vivre ensemble ;\n- ils se font des amis.\n\nLes enfants y apprennent aussi à dessiner, écrire, compter, comprendre.\n\nL’école maternelle permet aux parents de rencontrer de nouvelles personnes : les enseignants et d’autres parents.",
+ succeeded in 50ms:
+{
+  "id": "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+  "title": "Les devoirs et le rôle des parents à l’école",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/droits-et-devoirs-des-parents-a-l-ecole/",
+  "objectives": [
+    "Connaître les devoirs des parents à l’école.Identifier les possibilités de participer à la vie de l’école."
+  ],
+  "sections": [
+    {
+      "heading": "L’information des parents",
+      "content": "L’école doit informer régulièrement les parents :\n\ndes résultats de leur enfant lors des évaluations ;\n- de son comportement à l’école.\n\nCes informations sont transmises de manière régulière par l’intermédiaire du livret scolaire (pendant le cours élémentaire) puis du bulletin scolaire (pendant le collège et le lycée).",
+      "type": "text"
+    },
+    {
+      "heading": "Les devoirs des parents",
+      "content": "Les parents ont des devoirs pour accompagner la scolarité de leur enfant :\n\nlire le livret scolaire ou le bulletin scolaire ;\n- consulter le carnet de liaison (il est souvent numérique) : sur l'espace numérique de travail (ENT) de l'école ;\n- communiquer avec les professeurs ;\n- participer aux réunions parents-professeurs ;\n- faire les démarches administratives (inscriptions…).",
+ succeeded in 52ms:
+vivre-societe-francaise--parentalite--les-droits-de-l-enfant	Les droits de l'enfant	les-droits-de-l-enfant
+vivre-societe-francaise--parentalite--le-systeme-educatif	Le système éducatif	le-systeme-educatif
+vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones	L'école pour les enfants allophones	l-ecole-pour-les-enfants-allophones
+vivre-societe-francaise--parentalite--le-dispositif-oepre	Le dispositif OEPRE	le-dispositif-oepre
+
+
+thinking
+**Deciding on reinforcing values**
+
+I think the candidate could be empty if there isn't a relevant fiche, but it seems likely there's no school calendar fiche available. I should search for "vacances" across fiches, but those might not all be relevant. I need to get targeted with my search. 
+
+Also, I need to consider if the `questionProfile` is necessary. The scaffold has "definition" but maybe there's a chance to keep definitions as is for the output contract. I might not change if it's unnecessary; let's see!
+thinking
+**Verifying candidate sources**
+
+I need to check if the candidate lists that haven't started should come from the queue, but it seems the file is currently empty. That makes things tricky! I have to figure out how to fill the candidate list and any related items. To do this effectively, I should inspect more files for relevant information. It’s just a matter of digging deeper into the available resources!
+exec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/vivre-societe-francaise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/vivre-societe-francaise/parentalite/les-droits-de-l-enfant.json" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+{
+  "id": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+  "title": "La laïcité à l'école (2/2)",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-laicite",
+  "subcategoryName": "La laïcité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-2/",
+  "objectives": [
+    "Identifier les enjeux de la laïcité à l'école."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les enjeux de la laïcité à l'école.",
+      "type": "text"
+    },
+    {
+      "heading": "La charte de la laïcité à l’école",
+      "content": "À l’école, il n’est pas possible de refuser, en raison de sa religion, une règle de fonctionnement ou un cours du programme. C’est l’une des règles d’application de la laïcité dans les écoles.\n\nL’ensemble des règles d’application de la laïcité dans les écoles est listé dans la charte de la laïcité à l’école. Ce document s’adresse aux professeurs, aux élèves ainsi qu’aux parents d’élèves.",
+ succeeded in 51ms:
+{
+  "id": "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+  "title": "La laïcité à l'école (1/2)",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-laicite",
+  "subcategoryName": "La laïcité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-1/",
+  "objectives": [
+    "Comprendre comment s’applique la laïcité à l’école.Comprendre les enjeux de la laïcité à l'école."
+  ],
+  "sections": [
+    {
+      "heading": "La neutralité de l’école publique",
+      "content": "Les écoles publiques sont neutres vis-à-vis des religions. Cette neutralité permet à chaque élève de penser librement et de construire lui-même ses opinions.\n\nLa laïcité garantit la liberté de conscience et protège la liberté de croire ou de ne pas croire en une religion. Elle permet la libre expression de ses convictions religieuses, dans le respect de celles des autres et dans les limites de l’ordre public.\n\nDans les écoles publiques, les règles de vie dans les différents espaces respectent le principe de laïcité. Elles sont précisées dans le règlement intérieur. Parmi ses règles, il est interdit de porter un signe ou un vêtement qui montre sa religion de manière ostensible, c’est-à-dire de manière à être vu.",
+      "type": "text"
+    },
+    {
+      "heading": "La place de la religion à l’école",
+      "content": "Dans les écoles publiques :\n\nles enseignants ne doivent pas manifester leurs convictions politiques ou religieuses ;\n- les élèves peuvent parler de religion entre eux, dans le respect des autres ;\n- le prosélytisme est interdit ;\n- il n’y a pas de cours de religion, mais certains cours abordent l’existence de diverses religions et leur histoire.\n\nDans les écoles privées sous contrat avec l’État, l’enseignement est le même que dans les écoles publiques. Des cours de religion peuvent être proposés mais ils ne sont pas obligatoires.",
+ succeeded in 51ms:
+{
+  "id": "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+  "title": "Les droits de l'enfant",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-droits-de-l-enfant/",
+  "objectives": [
+    "Identifier le document international qui a défini les droits de l’enfant.Comprendre un des principes fondamentaux des droits de l’enfant.Connaître les principaux droits de l’enfant."
+  ],
+  "sections": [
+    {
+      "heading": "La Convention internationale des droits de l’enfant",
+      "content": "En 1989, 196 États ont signé un document sur les droits de l’enfant dans le cadre de l’Organisation des Nations Unies (ONU). Ce document s’appelle la Convention Internationale des Droits de l’Enfant. Seuls les États-Unis ne l’ont pas signé.\n\nCe document présente les droits fondamentaux des enfants.\n\nIl impose des contraintes aux États qui l’ont signé. Il assure donc la protection des enfants.\n\nC’est le fondement de toute l’action de l’UNICEF, une organisation qui dépend de l’ONU.",
+      "type": "text"
+    },
+    {
+      "heading": "L’intérêt de l’enfant est supérieur",
+      "content": "L’intérêt de l’enfant est supérieur à sa volonté et à celle de ses parents. C’est l’un des principes de la Convention.\n\nCe principe signifie que l'enfant peut choisir lui-même son avenir. Ce ne sont pas ses parents qui décident à sa place, sauf si les décisions de l’enfant le mettent en danger.",
+ succeeded in 51ms:
+{
+  "id": "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+  "title": "La liberté de choisir l’école de son enfant",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant/",
+  "objectives": [
+    "Connaître les différents lieux de l’école.Identifier la possibilité de faire \"l’école à la maison\"."
+  ],
+  "sections": [
+    {
+      "heading": "L’école publique",
+      "content": "Les parents sont libres d'inscrire leur enfant dans une école publique ou privée.\n\nPour inscrire son enfant à l’école publique, il suffit de contacter la mairie, ou l’école située à proximité de son domicile.\n\nLes diplômes délivrés par les écoles publiques ont tous une valeur officielle.\n\nL’École républicaine, gratuite, laïque et obligatoire, est au cœur de la transmission des valeurs de la République, telles que la citoyenneté, la laïcité, la culture de l’engagement et la lutte contre toutes les formes de discrimination.",
+      "type": "text"
+    },
+    {
+      "heading": "L'école privée",
+      "content": "Les parents peuvent inscrire leur enfant dans une école privée, sans contrainte liée à leur lieu de domicile.\n\nLes écoles privées sont également contrôlées par l’État selon leur statut.\n\nIl peut y avoir des frais complémentaires par rapport à l’école publique.\n\nLes diplômes délivrés par les écoles privées n'ont pas tous une valeur officielle.",
+exec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/vivre-societe-francaise/parentalite/exercice-de-l-autorite-parentale-1.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-1.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/vivre-societe-francaise/parentalite/exercice-de-l-autorite-parentale-2.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/histoire-geographie-culture/la-veme-republique/les-presidents-de-la-cinquieme-republique.json" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+{
+  "id": "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique",
+  "title": "Les présidents de la Vème République",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "la-veme-republique",
+  "subcategoryName": "La Vème République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-cinquieme-republique/les-presidents-de-la-cinquieme-republique/",
+  "objectives": [
+    "Identifier les présidents de la Vème République."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les présidents de la Vème République.",
+      "type": "text"
+    },
+    {
+      "heading": "Charles de Gaulle",
+      "content": "Dates des mandats : 1958-1966 et 1966-1969\n\nFaits marquants du mandat :\n\nFondation de la Vème République.\n- Élection du président au suffrage universel.\n- A mis fin à la guerre d’Algérie en 1962.",
+ succeeded in 52ms:
+{
+  "id": "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+  "title": "Exercice de l’autorité parentale (2/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-2/",
+  "objectives": [
+    "Comprendre que la loi est prioritaire sur les valeurs privées.Savoir que l’autorité parentale concerne aussi les biens de l’enfant.Identifier les situations qui mettent fin à l’autorité parentale."
+  ],
+  "sections": [
+    {
+      "heading": "La loi française prime sur les valeurs culturelles et familiales",
+      "content": "La loi française est prioritaire sur les valeurs culturelles et familiales. Cela signifie que si des valeurs culturelles et familiales contredisent la loi française, elles ne peuvent pas être transmises ou appliquées.\n\nExemple : le principe d’égalité entre les filles et les garçons doit être respecté, même dans la sphère privée.",
+      "type": "text"
+    },
+    {
+      "heading": "Les devoirs sur les biens de l’enfant",
+      "content": "Les parents ont le droit et le devoir de gérer les biens de leur enfant, par exemple un appartement issu d’un héritage.\n\nIls ont également la jouissance légale des biens de l'enfant jusqu'à ses 16 ans. Cela signifie, par exemple, qu’ils peuvent s’approprier les revenus liés à la location d’un appartement dont leur enfant est propriétaire.",
+ succeeded in 52ms:
+{
+  "id": "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+  "title": "Exercice de l’autorité parentale (1/2)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "parentalite",
+  "subcategoryName": "Parentalité",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1/",
+  "objectives": [
+    "Comprendre ce qu’est l’autorité parentale.Connaître les droits et devoirs des parents."
+  ],
+  "sections": [
+    {
+      "heading": "L’autorité parentale, qu’est-ce que c’est ?",
+      "content": "Les parents ont des droits et des devoirs vis-à-vis de leur enfant de moins de 18 ans. L’ensemble de ces droits et devoirs, c’est-à-dire ce qu’ils peuvent et ce qu’ils doivent faire, correspond à ce que l’on appelle l’autorité parentale.\n\nLes deux parents ont tous les deux l’autorité parentale : ils ont les mêmes droits et les mêmes devoirs. Peu importe leur situation (s’ils sont mariés, pacsés, en concubinage ou séparés).\n\nDès sa naissance, les parents doivent déclarer leur enfant à la mairie.\n\nIls sont tous les deux responsables de leur enfant.",
+      "type": "text"
+    },
+    {
+      "heading": "L’intérêt de l’enfant",
+      "content": "Les parents exercent leurs droits et devoirs dans l'intérêt de leur enfant et dans le respect de leur enfant. Ils n’utilisent ni la violence physique, ni la violence psychologique.\n\nLes parents associent leur enfant aux décisions qui le concernent, selon son âge et sa maturité.",
+ succeeded in 52ms:
+{
+  "id": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+  "title": "La démocratie et la République (1/2)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "democratie-et-droit-de-vote",
+  "subcategoryName": "Démocratie et droit de vote",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-1/",
+  "objectives": [
+    "Comprendre le modèle de la République.Savoir décrire simplement le fonctionnement démocratique."
+  ],
+  "sections": [
+    {
+      "heading": "La démocratie, c’est quoi ?",
+      "content": "Le mot démocratie vient du grec \"Dêmos Krátos\" qui signifie \"Peuple Pouvoir\". La démocratie est le régime politique dans lequel le pouvoir appartient au peuple sans distinction de sexe, de religion, de richesse ou d'origine sociale.\n\nElle repose sur le principe de la consultation régulière du peuple (le vote : élections de représentants et référendum), de la séparation des pouvoirs et de la pluralité des partis politiques.\n\nLa démocratie s’oppose à la dictature (pouvoir détenu par une personne ou un groupe restreint de personnes).",
+      "type": "text"
+    },
+    {
+      "heading": "La France est une démocratie",
+      "content": "La France est une démocratie dans le sens où le pouvoir vient du peuple : les citoyens votent pour choisir leurs représentants au suffrage universel.\n\nLe droit de vote est accordé à tout citoyen :\n\nde nationalité française ;\n- de plus de 18 ans (être majeur) ;\n- qui a ses droits civils et politiques (n’est pas condamné) ;\n- qui est inscrit sur les listes électorales.\n\nLa Constitution de 1958 indique que la démocratie c'est : \"le gouvernement du peuple, par le peuple et pour le peuple\".",
+
+
+thinking
+**Exploring school governance questions**
+
+I’m considering whether I need to inspect the governance info for the school’s cafeteria, as I found something about decoupage. There’s a possibility I should look into the school for allophone children, especially regarding requirements and if it pertains to question 149. There's also the question of how schooling applies to children with disabilities. I’ll evaluate whether to read more about school inclusion and whether questions 142, 145, or 144 are relevant.
+thinking
+**Reviewing candidates for education and tourism**
+
+I’m considering sections related to maternal, college, and cafeteria as potential secondary candidates. I think it might be useful to check the department lists under `la-france-territoire`, and specifically look into tourism with `Île-de-France` and `Patrimoine Île-de-France`. I also want to read more about unemployment conditions, particularly `orientation-5`, and see if there are explicit details related to employment and unemployment benefits. It might all connect in interesting ways!
+codex
+I’ve got solid anchors for the school questions. I’m now checking the few borderline items: tourism by department, broken appliance drop-off, unemployment eligibility, school holidays, and whether the parent prohibition can be justified from the laïcité fiches or should stay unlinked.
+exec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/systeme-institutionnel/organisation-de-la-republique-francaise/le-decoupage-administratif-de-la-france-1.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/histoire-geographie-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/systeme-institutionnel/organisation-de-la-republique-francaise/le-decoupage-administratif-de-la-france-3.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/histoire-geographie-culture/les-regions-francaises/ile-de-france.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "rg -n -i \"chômage|assurance chômage|allocation|demandeur d'emploi|France Travail\" data-init/fiches/vivre-societe-francaise/emploi" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+{
+  "id": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+  "title": "Le découpage administratif de la France (1/3)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "organisation-de-la-republique-francaise",
+  "subcategoryName": "Organisation de la République Française",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1/",
+  "objectives": [
+    "Comprendre ce qu’est la décentralisation.Identifier les différentes collectivités locales et leurs missions."
+  ],
+  "sections": [
+    {
+      "heading": "La décentralisation, qu’est-ce que c’est ?",
+      "content": "La décentralisation, c’est l’État qui transfère des compétences et des moyens à d’autres autorités, appelées collectivités territoriales.\n\nIl existe plusieurs niveaux de collectivités territoriales : les communes, les départements, les régions, les collectivités à statut particulier (c’est-à-dire qui ont leurs propres caractéristiques), et les collectivités d’outre-mer.",
+      "type": "text"
+    },
+    {
+      "heading": "À quoi servent les collectivités territoriales ?",
+      "content": "La commune a de nombreuses compétences, surtout en urbanisme, logement et action sociale. Elle gère les écoles primaires et maternelles et les services de proximité. C’est la collectivité la plus répandue sur le territoire (il y a plus de 35 000 communes en France). Elle est dirigée par des personnes élues, dont le maire.\n- Le département agit surtout dans l’action sociale (exemples : aide aux personnes handicapées, gestion du RSA). Il gère aussi les collèges, et a des compétences partagées avec les autres collectivités territoriales. Il y a 101 départements en France.\n- La région contribue notamment à gérer les lycées, à développer l’activité économique et à aménager le territoire. Il y a 18 régions en France.",
+ succeeded in 51ms:
+{
+  "id": "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3",
+  "title": "Le découpage administratif de la France (3/3)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "organisation-de-la-republique-francaise",
+  "subcategoryName": "Organisation de la République Française",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-3/",
+  "objectives": [
+    "Comprendre ce que l’on appelle le découpage administratif.Découvrir un exemple de répartition des compétences entre l'Etat et les collectivités territoriales."
+  ],
+  "sections": [
+    {
+      "heading": "Le découpage administratif en France, qu’est-ce que c’est ?",
+      "content": "Les ministères, qui mettent en œuvre les décisions du gouvernement : l'administration centrale définit et encadre les politiques à l’échelle nationale ;\n- Les collectivités territoriales :les communes (34 875) ;les départements (101 dont 5 en Outre-mer) ;les régions (18 dont 5 Outre-Mer).\n- les communes (34 875) ;\n- les départements (101 dont 5 en Outre-mer) ;\n- les régions (18 dont 5 Outre-Mer).\n\nLes ministères et les collectivités territoriales sont chargés, selon leurs compétences, de gérer le pays et chacun des territoires.",
+      "type": "text"
+    },
+    {
+      "heading": "Exemple de répartition des compétences entre l’État et les collectivités territoriales : l’école en France",
+      "content": "Le service public de l’Éducation est concerné par la décentralisation : l’État a transféré certaines compétences aux collectivités territoriales.\n\nL’État (l’administration centrale) :définit les programmes scolaires ;recrute, forme et gère les enseignants ;valide les manuels scolaires ;supervise les universités.\n- définit les programmes scolaires ;\n- recrute, forme et gère les enseignants ;\n- valide les manuels scolaires ;\n- supervise les universités.\n- Les régions gèrent les lycées ;\n- Les départements gèrent les collèges ;\n- Les communes gèrent les écoles maternelles et primaires.\n\nGérer un établissement scolaire réunit plusieurs compétences : construction et entretien des bâtiments, équipements et matériel, cantine.",
+ succeeded in 51ms:
+{
+  "id": "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+  "title": "Patrimoine français : sites emblématiques et gastronomie d’Île-de-France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "culture",
+  "subcategoryName": "Culture",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france/",
+  "objectives": [
+    "Connaître les repères culturels de la société française, et en particulier ceux d’Île-de-France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître les repères culturels de la société française, et en particulier ceux d’Île-de-France.",
+      "type": "text"
+    },
+    {
+      "heading": "La Tour Eiffel, symbole de Paris",
+      "content": "La Tour Eiffel se trouve à Paris. Elle est construite en 2 ans par l’ingénieur Gustave Eiffel pour l’Exposition universelle de 1889 qui fêtait les 100 ans de la Révolution française. Elle y représentait le génie industriel de la France. Haute de 312 mètres (330 avec les antennes), elle a longtemps été le plus haut monument du monde. Elle offre une vue spectaculaire sur Paris.\n\nD’abord critiquée, la Tour Eiffel est aujourd’hui un symbole de la France et un repère parisien.",
+ succeeded in 52ms:
+{
+  "id": "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+  "title": "Île-de-France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regions-francaises",
+  "subcategoryName": "Les régions françaises",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regions-fran%C3%A7aises/ile-de-france/",
+  "objectives": [
+    "Identifier les caractéristiques des régions françaises : l’Île-de-France."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Identifier les caractéristiques des régions françaises : l’Île-de-France.",
+      "type": "text"
+    },
+    {
+      "heading": "Où est située la région de l’Île-de-France ?",
+      "content": "La région de l’Île-de-France est située au centre-nord de la France, autour de Paris. C’est le cœur politique, économique et administratif du pays.",
+ succeeded in 51ms:
+data-init/fiches/vivre-societe-francaise/emploi/orientation-1.json:10:    "Comprendre à quoi sert France Travail.Savoir ce qu’est le questionnaire d’orientation.Connaître l’application Travailler en France."
+data-init/fiches/vivre-societe-francaise/emploi/orientation-1.json:14:      "heading": "S’inscrire à France Travail, à quoi ça sert ?",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-1.json:15:      "content": "Chaque personne étrangère qui est en situation régulière (c’est-à-dire qui a un titre de séjour, qui est réfugiée, ou qui bénéficie de la protection internationale), et qui n’a pas de travail, doit être inscrite à France Travail. C'est un organisme public qui accompagne les personnes à la recherche d'un emploi.\n\nCette inscription permet à la personne d’être accompagnée pour trouver un travail ou suivre une formation. Les solutions proposées sont adaptées à sa situation et à ses besoins.",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-1.json:30:      "content": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-1.json:36:      "label": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+data-init/fiches/vivre-societe-francaise/emploi/recrutement-1.json:19:      "heading": "Sur le site internet de France Travail",
+data-init/fiches/vivre-societe-francaise/emploi/recrutement-1.json:20:      "content": "Vous pouvez transmettre votre candidature en utilisant un des nombreux sites internet généralistes qui diffusent des offres de travail dans la plupart des secteurs d’activité et partout en France.\n\nLe site internet de France travail est la référence pour trouver un travail en France. Environ 160 000 offres sont mises à jour chaque jour. Il vous propose aussi des conseils et des informations utiles pour trouver un travail (fiches de présentation de métiers, témoignages de personnes exerçant un métier...)",
+data-init/fiches/vivre-societe-francaise/emploi/recrutement-1.json:35:      "content": "(Ouvre une nouvelle fenêtre) Accueil | France Travail\n\n(Ouvre une nouvelle fenêtre) Accueil | Apec\n\n(Ouvre une nouvelle fenêtre) Accueil | Choisir le service public",
+data-init/fiches/vivre-societe-francaise/emploi/recrutement-1.json:41:      "label": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+data-init/fiches/vivre-societe-francaise/emploi/le-droit-au-travail-5.json:25:      "content": "Un salarié qui travaille sans être déclaré ne cotise ni à l’assurance chômage, ni pour sa retraite.\n\nIl n’a pas droit à la sécurité sociale en cas de maladie ou d’accident du travail.\n\nIl n’a pas de congé payé.\n\nIl ne peut pas se défendre en cas de conflit avec l’employeur.\n\nIl peut être licencié du jour en lendemain, sans annonce préalable.\n\nS’il a reçu des aides sociales (RSA, CAF…), le salarié risque de devoir les rembourser ou de payer une amende.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-3.json:10:    "Identifier quelles sont les personnes concernées par l’inscription automatique (deuxième catégorie).Connaître la procédure pour bénéficier des services de France Travail."
+data-init/fiches/vivre-societe-francaise/emploi/orientation-3.json:15:      "content": "L’inscription à France Travail est automatique pour deux catégories de personnes. Ces personnes n’ont aucune démarche à faire pour s’inscrire.\n\nCette fiche présente la deuxième catégorie.",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-3.json:20:      "content": "Votre inscription à France Travail est automatique si :\n\nvous avez demandé le Revenu de Solidarité Active (RSA) ;\n- vous avez une relation officielle (mariage, concubinage, PACS) avec une personne qui a demandé le RSA ;\n- vous avez demandé un accompagnement à une Mission locale pour vous aider à trouver un travail.",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-3.json:24:      "heading": "La démarche pour bénéficier des services de France Travail",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-3.json:25:      "content": "Votre inscription est automatique mais vous devez faire une démarche pour bénéficier des services de France Travail.\n\nsi la demande de RSA a été faite par internet, vous recevez par email un lien d’inscription et le questionnaire d’orientation à remplir ;\n- si la demande de RSA a été faite en remplissant des papiers, vous recevez par courrier un document d’inscription et le questionnaire d’orientation à remplir ;\n- si vous êtes déjà suivi par une Mission locale, c’est elle qui vous aide pour vous inscrire à France Travail et transmet à France Travail vos réponses au questionnaire.",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-3.json:30:      "content": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-3.json:36:      "label": "(Ouvre une nouvelle fenêtre) Accueil | France Travail",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-4.json:10:    "Connaître la démarche pour s’inscrire à France Travail.Connaître la démarche pour rester inscrit à France Travail."
+data-init/fiches/vivre-societe-francaise/emploi/orientation-4.json:14:      "heading": "S’inscrire France Travail",
+data-init/fiches/vivre-societe-francaise/emploi/orientation-4.json:15:      "content": "L’inscription à France Travail est automatique pour les personnes bénéficiaires du RSA ou inscrites en Mission locale.\n\nLes autres personnes doivent s’inscrire par elles-mêmes.",
+exec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/vivre-societe-francaise/emploi/orientation-1.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/vivre-societe-francaise/emploi/orientation-4.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc 'rg -n -i "vacances scolaires|No[eë]l|vacances de No[eë]l|calendrier scolaire|zone A|zone B|zone C" data-init/fiches' in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "rg -n -i \"parents?.*interdit|interdit.*parents?|parents d'élèves|parents d'eleves|parents.*relig|parents.*signe|parents.*prosélytisme|parents.*la[iï]cit\" data-init/fiches/principes-et-valeurs/la-laicite data-init/fiches/vivre-societe-francaise/parentalite" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 52ms:
+{
+  "id": "vivre-societe-francaise--emploi--orientation-4",
+  "title": "Orientation (4/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-4/",
+  "objectives": [
+    "Connaître la démarche pour s’inscrire à France Travail.Connaître la démarche pour rester inscrit à France Travail."
+  ],
+  "sections": [
+    {
+      "heading": "S’inscrire France Travail",
+      "content": "L’inscription à France Travail est automatique pour les personnes bénéficiaires du RSA ou inscrites en Mission locale.\n\nLes autres personnes doivent s’inscrire par elles-mêmes.",
+      "type": "text"
+    },
+    {
+      "heading": "Les étapes",
+      "content": "Vous allez sur \n                (Ouvre une nouvelle fenêtre) le site internet de France Travail, puis dans la rubrique Services, vous choisissez \"S’inscrire ou se réinscrire\".\n- Vous remplissez votre demande d’inscription.\n- Si vous avez du mal à comprendre la langue française, cochez la case \"en français et en calculs est-ce que j’ai des difficultés ?\". Vous aurez alors une discussion au téléphone avec un conseiller de France Travail. Il vous aidera à répondre au questionnaire d’orientation.\n- Si vous comprenez bien la langue française, vous remplissez le questionnaire d’orientation. Après cette étape, il y a deux possibilités :vous avez tout de suite une proposition de rendez-vous avec un conseiller de France Travail ;vous serez appelé par téléphone, plus tard, par l’organisation la plus adaptée à vos besoins.\n- vous avez tout de suite une proposition de rendez-vous avec un conseiller de France Travail ;\n- vous serez appelé par téléphone, plus tard, par l’organisation la plus adaptée à vos besoins.\n\nSi vous avez du mal à remplir le questionnaire d’orientation, vous pouvez téléphoner au 09 84 98 37 94 : une personne vous aidera.",
+ succeeded in 52ms:
+{
+  "id": "vivre-societe-francaise--emploi--orientation-1",
+  "title": "Orientation (1/5)",
+  "themeId": "vivre-societe-francaise",
+  "themeName": "Vivre dans la société française",
+  "subcategoryId": "emploi",
+  "subcategoryName": "Emploi",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-1/",
+  "objectives": [
+    "Comprendre à quoi sert France Travail.Savoir ce qu’est le questionnaire d’orientation.Connaître l’application Travailler en France."
+  ],
+  "sections": [
+    {
+      "heading": "S’inscrire à France Travail, à quoi ça sert ?",
+      "content": "Chaque personne étrangère qui est en situation régulière (c’est-à-dire qui a un titre de séjour, qui est réfugiée, ou qui bénéficie de la protection internationale), et qui n’a pas de travail, doit être inscrite à France Travail. C'est un organisme public qui accompagne les personnes à la recherche d'un emploi.\n\nCette inscription permet à la personne d’être accompagnée pour trouver un travail ou suivre une formation. Les solutions proposées sont adaptées à sa situation et à ses besoins.",
+      "type": "text"
+    },
+    {
+      "heading": "Le questionnaire d’orientation, qu’est-ce que c’est ?",
+      "content": "Le questionnaire d’orientation permet de faire un premier point sur les besoins de la personne.\n\nIl pose diverses questions sur la personne :\n\ndes questions générales, notamment si elle célibataire, mariée, divorcée, veuve…\n- des questions sur son niveau en français ;\n- des questions sur son niveau d’utilisation d’internet et d’autres outils numériques ;\n- des questions professionnelles, notamment sur son expérience et ses compétences.\n\nLe questionnaire d’orientation existe en 5 langues.",
+ exited 1 in 51ms:
+
+ succeeded in 51ms:
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-1.json:35:      "content": "La Nation confie à l’École la mission de faire partager aux élèves les valeurs de la République.\n\nPar le Ministère de l'éducation nationale et de la jeunesse Liberté, Égalité, Fraternité\n\nLa république est laïque\n\nLa France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi, sur l'ensemble de son territoire, de tous les citoyens. Elle respecte toutes les croyances.\n- La République laïque organise la séparation des religions et de l’État. L'État est neutre à l'égard des convictions religieuses ou spirituelles. Il n'y a pas de religion d'État.\n- La laïcité garantit la liberté de conscience à tous. Chacun est libre de croire ou de ne pas croire. Elle permet la libre expression de ses convictions, dans le respect de celles d'autrui et dans les limites de l'ordre public.\n- La laïcité permet l'exercice de la citoyenneté, en conciliant la liberté de chacun avec l’égalité et la fraternité de tous dans le souci de l’intérêt général.\n- La République assure dans les établissements scolaires le respect de chacun de ces principes.\n- La laïcité de l’École offre aux élèves les conditions pour forger leur personnalité, exercer leur libre arbitre et faire l'apprentissage de la citoyenneté. Elle les protège de tout prosélytisme et de toute pression qui les empêcherait de faire leurs propres choix.\n- La laïcité assure aux élèves l’accès à une culture commune et partagée.\n- La laïcité permet l'exercice de la liberté d'expression des élèves dans la limite du bon fonctionnement de l'école comme du respects des valeurs républicaines et du pluralisme des convictions.\n- La laïcité implique le rejet de toutes les violences et de toutes les discriminations, garantit l’égalité entre les filles et les garçons et repose sur une culture de respect et de la compréhension de l’autre.\n- Il appartient à tous les personnels de transmettre aux élèves les sens et la valeur de la laïcité, ainsi que des autres principes fondamentaux de la République. Ils veillent à leur application dans le cadre scolaire. Il leur appartient de porter la présente charte à la connaissance des parents d’élèves.\n- Les personnels ont un devoir de stricte neutralité : ils ne doivent pas manifester leurs convictions politiques ou religieuses dans l’exercice de leurs fonctions.\n- Les enseignements sont laïques. Afin de garantir aux élèves l’ouverture le plus objectif possible à la diversité des visions du monde ainsi qu'à l'étendue et à la précision des savoirs, aucun sujet n’est à priori exclu du questionnement scientifique et pédagogique. Aucun élève ne peut invoquer une conviction religieuse ou politique pour contester à un enseignant le droit de traiter une question au programme.\n- Nul ne peut se prévaloir de son appartenance religieuse pour refuser de se conformer aux règles applicables dans l’École de la République.\n- Dans les établissements scolaires publics, les règles de vie des différents espaces, précisées dans le règlement intérieur, sont respectueuses de la laïcité. Le port des signes ou tenues par lesquels les élèves manifestement ostensiblement une appartenance religieuse est interdit.\n- Par leurs réflexions et leurs activités, les élèves contribuent à faire vivre la laïcité au sein de leur établissement.",
+data-init/fiches/vivre-societe-francaise/parentalite/le-soutien-a-la-parentalite-2.json:20:      "content": "Les parents ont le devoir de protéger leur enfant : ne pas le laisser seul, éviter les situations dangereuses, porter attention à tout signe de mal-être…\n\nLes parents doivent signaler toute violence :\n\nen contactant l’école : si la violence se passe à l’école ou en lien avec la vie à l’école (exemple : harcèlement) ;\n- en contactant la police ou la gendarmerie : en cas de violences graves (exemple : incitation à consommer de la drogue) ;\n- en appelant le numéro 119 : en cas de mise en danger de l’enfance (exemples : violence physique, psychologique, sexuelle...) ;\n- en appelant le numéro 30 20 : en cas de harcèlement de l'enfant.",
+data-init/fiches/principes-et-valeurs/la-laicite/la-laicite-a-ecole-2.json:40:      "content": "La Nation confie à l’École la mission de faire partager aux élèves les valeurs de la République.\n\nPar le Ministère de l'éducation nationale et de la jeunesse Liberté, Égalité, Fraternité\n\nLa république est laïque\n\nLa France est une République indivisible, laïque, démocratique et sociale. Elle assure l'égalité devant la loi, sur l'ensemble de son territoire, de tous les citoyens. Elle respecte toutes les croyances.\n- La République laïque organise la séparation des religions et de l’État. L'État est neutre à l'égard des convictions religieuses ou spirituelles. Il n'y a pas de religion d'État.\n- La laïcité garantit la liberté de conscience à tous. Chacun est libre de croire ou de ne pas croire. Elle permet la libre expression de ses convictions, dans le respect de celles d'autrui et dans les limites de l'ordre public.\n- La laïcité permet l'exercice de la citoyenneté, en conciliant la liberté de chacun avec l’égalité et la fraternité de tous dans le souci de l’intérêt général.\n- La République assure dans les établissements scolaires le respect de chacun de ces principes.\n- La laïcité de l’École offre aux élèves les conditions pour forger leur personnalité, exercer leur libre arbitre et faire l'apprentissage de la citoyenneté. Elle les protège de tout prosélytisme et de toute pression qui les empêcherait de faire leurs propres choix.\n- La laïcité assure aux élèves l’accès à une culture commune et partagée.\n- La laïcité permet l'exercice de la liberté d'expression des élèves dans la limite du bon fonctionnement de l'école comme du respects des valeurs républicaines et du pluralisme des convictions.\n- La laïcité implique le rejet de toutes les violences et de toutes les discriminations, garantit l’égalité entre les filles et les garçons et repose sur une culture de respect et de la compréhension de l’autre.\n- Il appartient à tous les personnels de transmettre aux élèves les sens et la valeur de la laïcité, ainsi que des autres principes fondamentaux de la République. Ils veillent à leur application dans le cadre scolaire. Il leur appartient de porter la présente charte à la connaissance des parents d’élèves.\n- Les personnels ont un devoir de stricte neutralité : ils ne doivent pas manifester leurs convictions politiques ou religieuses dans l’exercice de leurs fonctions.\n- Les enseignements sont laïques. Afin de garantir aux élèves l’ouverture le plus objectif possible à la diversité des visions du monde ainsi qu'à l'étendue et à la précision des savoirs, aucun sujet n’est à priori exclu du questionnement scientifique et pédagogique. Aucun élève ne peut invoquer une conviction religieuse ou politique pour contester à un enseignant le droit de traiter une question au programme.\n- Nul ne peut se prévaloir de son appartenance religieuse pour refuser de se conformer aux règles applicables dans l’École de la République.\n- Dans les établissements scolaires publics, les règles de vie des différents espaces, précisées dans le règlement intérieur, sont respectueuses de la laïcité. Le port des signes ou tenues par lesquels les élèves manifestement ostensiblement une appartenance religieuse est interdit.\n- Par leurs réflexions et leurs activités, les élèves contribuent à faire vivre la laïcité au sein de leur établissement.",
+data-init/fiches/vivre-societe-francaise/parentalite/le-soutien-a-la-parentalite-1.json:20:      "content": "Les actions de soutien à la parentalité se fondent sur des grands principes. Ces principes ont été définis par un document officiel : la charte nationale de soutien à la parentalité.\n\nLes grands principes :\n\nvaloriser les rôles, le projet et les compétences des parents ;\n- s’adresser à toutes les familles, partout en France ;\n- accompagner les parents de manière globale et en fonction du contexte familial ;\n- accompagner avant la naissance de l’enfant et jusqu’à ses 18 ans ;\n- respecter l’égalité entre les femmes et les hommes ;\n- permettre à chaque parent d’occuper, dans la mesure du possible, sa place dans le développement de son enfant ;\n- proposer des interventions diverses et neutres sur les plans politique, philosophique et religieux ;\n- garantir que les bénévoles ou professionnels qui interviennent sont compétents en matière de parentalité.",
+data-init/fiches/vivre-societe-francaise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant.json:15:      "content": "Les parents sont libres d'inscrire leur enfant dans une école publique ou privée.\n\nPour inscrire son enfant à l’école publique, il suffit de contacter la mairie, ou l’école située à proximité de son domicile.\n\nLes diplômes délivrés par les écoles publiques ont tous une valeur officielle.\n\nL’École républicaine, gratuite, laïque et obligatoire, est au cœur de la transmission des valeurs de la République, telles que la citoyenneté, la laïcité, la culture de l’engagement et la lutte contre toutes les formes de discrimination.",
+exec
+/bin/zsh -lc "jq -r '.. | objects | select(has(\"id\") and has(\"title\")) | [.id, .title] | @tsv' data-init/fiches/index.json | rg -i \"handicap|enfant|parent|ecole|égalité|laïcité|instruction|autorité parentale\"" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc 'rg -n -i "emploi du temps aménagé|vivre avec et comme les autres|handicap.*école|école.*handicap|handicap.*scolar|scolar.*handicap|inclusion scolaire|AESH" data-init/fiches' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+principes-et-valeurs--la-devise-de-la-republique--egalite-1	L'égalité (1/3)
+principes-et-valeurs--la-devise-de-la-republique--egalite-2	L'égalité (2/3)
+principes-et-valeurs--la-devise-de-la-republique--egalite-3	L'égalité (3/3)
+principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1	La définition de la laïcité (1/2)
+principes-et-valeurs--la-laicite--definition-laicite-2	La définition de la laïcité (2/2)
+principes-et-valeurs--la-laicite--histoire-de-la-laicite	Histoire de la laïcité
+principes-et-valeurs--la-laicite--la-laicite-dans-espace-public	La laïcité dans l'espace public
+principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics	La laïcité dans les services publics
+principes-et-valeurs--la-laicite--la-laicite-au-travail	La laïcité au travail
+principes-et-valeurs--la-laicite--la-laicite-a-ecole-1	La laïcité à l'école (1/2)
+principes-et-valeurs--la-laicite--la-laicite-a-ecole-2	La laïcité à l'école (2/2)
+droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--l-interdiction-des-violences-faites-aux-enfants	L'interdiction des violences faites aux enfants
+vivre-societe-francaise--parentalite--les-droits-de-l-enfant	Les droits de l'enfant
+vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1	Exercice de l’autorité parentale (1/2)
+vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2	Exercice de l’autorité parentale (2/2)
+vivre-societe-francaise--parentalite--retrait-de-l-autorite-parentale	Retrait de l’autorité parentale
+vivre-societe-francaise--parentalite--les-modes-de-garde-des-enfants-de-moins-de-3-ans	Les modes de garde des enfants de moins de 3 ans
+vivre-societe-francaise--parentalite--le-systeme-educatif	Le système éducatif
+vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant	La liberté de choisir l’école de son enfant
+vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones	L'école pour les enfants allophones
+ succeeded in 51ms:
+data-init/fiches/systeme-institutionnel/organisation-de-la-republique-francaise/le-decoupage-administratif-de-la-france-1.json:20:      "content": "La commune a de nombreuses compétences, surtout en urbanisme, logement et action sociale. Elle gère les écoles primaires et maternelles et les services de proximité. C’est la collectivité la plus répandue sur le territoire (il y a plus de 35 000 communes en France). Elle est dirigée par des personnes élues, dont le maire.\n- Le département agit surtout dans l’action sociale (exemples : aide aux personnes handicapées, gestion du RSA). Il gère aussi les collèges, et a des compétences partagées avec les autres collectivités territoriales. Il y a 101 départements en France.\n- La région contribue notamment à gérer les lycées, à développer l’activité économique et à aménager le territoire. Il y a 18 régions en France.",
+data-init/fiches/vivre-societe-francaise/parentalite/les-droits-de-l-enfant.json:25:      "content": "L’égalité.\n- Avoir un nom, une identité.\n- Vivre en famille.\n- Être soigné, protégé des maladies, avoir une alimentation suffisante et équilibrée.\n- Bénéficier d’une justice adaptée à son âge.\n- Aller à l’école et avoir des loisirs.\n- Protection de la vie privée.\n- Ne pas faire la guerre ni la subir : être protégé en temps de guerre.\n- Protection contre la violence.\n- Protection contre l'exploitation.\n- Liberté de s’informer et de s’exprimer, d’être entendu sur les questions qui le concernent.\n- Enfant en situation de handicap : vivre avec et comme les autres, ils peuvent bénéficier d'un emploi du temps aménagé.",
+data-init/fiches/vivre-societe-francaise/parentalite/les-droits-de-l-enfant.json:30:      "content": "12 PRINCIPAUX DROITS DE L’ENFANTCes droits sont inscrits dans la Convention internationale des droits de l’enfant (CIDE), adoptée par l’ONU le 20 novembre 1989.\n\ndroit à l’égalité;\n- droit d’avoir une identité;\n- droit de vivre en famille;\n- droit à la santé;\n- droit à l’éducation et aux loisirs;\n- droit à la protection de la vie privée;\n- droit à une justice adaptée à son âge;\n- droit d’être protégé en temps de guerre;\n- droit d’être protégé contre toutes les formes de violences;\n- droit d’être protégé contre toutes les formes d’exploitation;\n- droit de s’exprimer et d’être entendu sur les questions qui le concernent;\n- droit de l’enfant en situation de handicap de vivre avec et comme les autres.\n\nEn cas de problème, contactez le Défenseur des droits :Téléphone : 09 69 39 00 00Site web : defenseurdesdroits.fr\n\nDéfenseur des droits – République Française",
+data-init/fiches/vivre-societe-francaise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant.json:25:      "content": "Un parent peut exceptionnellement \"faire l’école\" lui-même à son enfant.\n\nIl faut une autorisation spéciale, en fonction de certains motifs.\n\nExemples : l’état de santé de l’enfant, l’enfant pratique un sport de manière intensive, l’enfant a un handicap.\n\nLes motifs sont très encadrés par la loi.\n\nSource photo : \n                (Ouvre une nouvelle fenêtre) Banque de pictogrammes FALC",
+
+
+thinking
+**Evaluating school calendar candidates**
+
+I’m considering that if I don't have a school calendar file, it might lead to an empty candidate. I think `le-systeme-educatif` seems plausible since it relates to school organization, but it doesn’t specify Christmas holiday dates. I wonder if I should include `le-systeme-educatif` and `droits-et-devoirs-des-parents-a-l-ecole`, as they are both school-related. However, none of these mention vacations directly. I might need to decide whether to keep an empty list to signal no matches!
+thinking
+**Considering file edits**
+
+I’m thinking about whether I should inspect a completed batch file to mimic its format, but my current scaffold might be enough. I wonder if I need to parse the question file, especially since I've already read the relevant excerpt. Creating a full plan might not be necessary right now. Before I make any file edits, though, I need to include a commentary update that explains the edits I’m about to make!
+exec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/une-puissance-touristique.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/principes-et-valeurs/la-devise-de-la-republique/egalite-1.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,220p' data-init/fiches/histoire-geographie-culture/atlas-de-la-france/le-territoire-de-la-france.json" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+{
+  "id": "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france",
+  "title": "Le territoire de la France",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "atlas-de-la-france",
+  "subcategoryName": "Atlas de la France",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france/",
+  "objectives": [
+    "Connaître la situation géographique et le découpage de la France.Se repérer dans l'espace."
+  ],
+  "sections": [
+    {
+      "heading": "Comment se compose le territoire français ?",
+      "content": "Le territoire français est composé :\n\nd’un territoire situé en Europe (c’est la France hexagonale, aussi nommée “la métropole”) ;\n- de plusieurs territoires d’outre-mer, localisés dans différents endroits du monde.\n\nLe territoire est divisé administrativement en régions, départements et communes. On les appelle les collectivités territoriales.\n\nLa France est un État unitaire : l’ensemble des lois et règlements s’appliquent de la même manière sur tout le territoire, sauf exception (voir ci-dessous).",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les territoires d’outre-mer de la France ?",
+      "content": "Les territoires ultramarins sont répartis dans plusieurs océans. On trouve :\n\nLes Départements et Régions d’Outre-Mer (DROM) : la Guadeloupe, la Guyane, la Martinique, la Réunion et Mayotte.Les lois françaises s’appliquent dans les DROM comme en France hexagonale, avec parfois quelques adaptations.\n- Les Collectivités d’Outre-Mer (COM) : Saint-Pierre-et-Miquelon, Saint-Barthélemy, Saint-Martin, la Polynésie française, la Nouvelle-Calédonie, Wallis-et-Futuna, ainsi que les Terres Australes et Antarctiques Françaises (TAAF).Les COM ont une autonomie administrative plus grande qu’en métropole et dans les DROM, et les lois sont adaptées selon les spécificités locales.",
+ succeeded in 51ms:
+{
+  "id": "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+  "title": "L'égalité (1/3)",
+  "themeId": "principes-et-valeurs",
+  "themeName": "Principes et valeurs de la République",
+  "subcategoryId": "la-devise-de-la-republique",
+  "subcategoryName": "La devise de la République",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-1/",
+  "objectives": [
+    "Comprendre ce qu’est l’égalité, une des valeurs de la République française."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Comprendre ce qu’est l’égalité, une des valeurs de la République française.",
+      "type": "text"
+    },
+    {
+      "heading": "L’égalité : qu’est-ce que c’est ?",
+      "content": "L’égalité est un principe fondamental de la République française : elle est inscrite dans la Constitution de 1958. Elle est aussi présente dans la Déclaration des droits de l’homme et du citoyen.\n\nEn France, l'égalité s’applique de différentes manières :\n\nl'égalité devant la loi : la loi est la même pour toutes les personnes ;\n- l'égalité des droits civiques : tous les citoyens français ont les mêmes droits civiques : voter, se présenter à une élection, participer à un conseil municipal…\n- l'égalité des droits sociaux : ces droits sont accessibles à tous : éducation, santé, logement, emploi...",
+ succeeded in 51ms:
+{
+  "id": "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+  "title": "Une puissance touristique",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "la-france-dans-l-europe-et-dans-le-monde",
+  "subcategoryName": "La France dans l'Europe et dans le monde",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique/",
+  "objectives": [
+    "Connaître les repères culturels de la société française.Savoir que la France est la première destination touristique au monde."
+  ],
+  "sections": [
+    {
+      "heading": "Quels sont les atouts touristiques de la France ?",
+      "content": "La France est la première destination touristique au monde. Elle attire les voyageurs du monde entier (plus de 100 millions en 2024) grâce à la richesse de son patrimoine et la diversité de ses paysages.\n\nL’offre touristique de la France est très étendue.\n\nPatrimoine culturel : musées (comme le musée du Louvre ou le musée d’Orsay), monuments historiques (tour Eiffel, Mont-Saint-Michel, châteaux de la Loire…), sites français classés à l’Unesco.\n- Patrimoine naturel : plages de la Côte d’Azur, montagnes des Alpes et des Pyrénées, campagnes verdoyantes, parcs naturels, régions viticoles réputées.\n- Événements internationaux : Festival de Cannes pour le cinéma, Roland-Garros pour le tennis, Tour de France pour le cyclisme…",
+      "type": "text"
+    },
+    {
+      "heading": "Pourquoi le tourisme est-il important pour la France ?",
+      "content": "Le tourisme est un secteur majeur de l’économie française. Ses retombées économiques représentent 8% du produit intérieur brut (PIB) national.\n\nC’est aussi un secteur qui génère de nombreux emplois : personnel dans les hôtels et restaurants, guides touristiques, métiers du transport et des activités culturelles… Plus de 2 millions d’emplois sont liés au tourisme en France, directement ou indirectement. Le tourisme contribue au dynamisme des régions, en particulier dans les zones rurales et les petites villes.",
+
+
+
+thinking
+**Evaluating candidate options**
+
+For crx122, I could consider adding `le-territoire-de-la-france` since it lists Paris. However, the current candidate list might already be sufficient. I wonder if I should modify the reasoning to exclude the "département le plus touristique" as it's not named. While I'm pondering adding a territory fiche candidate, the existing ones are plausible enough. I should also check if the `questionProfile` needs to be set to "time" for crx148, but the scaffold suggests sticking to the definition. Keeping things straightforward might be best!
+thinking
+**Considering file updates**
+
+I could use `apply_patch` to update multiple blocks efficiently. It seems I might need a script to generate JSON, but editing must strictly use `apply_patch`. Since the file is relatively small, replacing the entire content could be the easiest route. I should ensure it’s in ASCII, but the current file uses UTF-8 with accents due to French text, so it's fine to keep that. I need to preserve the exact texts the user provided while thinking through each item and its reasons, particularly handling those with empty related links.
+thinking
+**Evaluating candidate fiches**
+
+I’m considering if candidateFicheIds for crx142, 143, and 145 can be limited to just one candidate. That seems acceptable since the guideline mentions "up to 3 plausible fiche ids." For uniformity, I could add some relevant context, but a single candidate would suffice. For crx144, potentially one or more candidates could work. Crx146 might need three candidates, while crx147 could have three and maybe one or two related. For crx148, it could be one or two candidates, or possibly even empty, with a note like "Aucune fiche dédiée au calendrier scolaire" if needed.
+codex
+I’ve settled the batch contents. I’m updating only `question-fiche-links.cr.r008.json`, keeping the unresolved cases explicitly unlinked when the fiche set doesn’t support a confident final choice, then I’ll refresh workflow state again and verify the result.
+file update
+D /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r008.json
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "scaffold",
+  "sourceKey": "cr",
+  "runId": "r008",
+  "generatedAt": "2026-03-07T14:24:52.386Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
+      ]
+    },
+    {
+      "questionId": "crx134",
+      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches parlent du tri, du recyclage et du respect de l'environnement, mais ne donnent pas le lieu précis de dépôt d'un appareil électroménager cassé.",
+        "Je ne retiens donc aucun lien sûr vers une déchèterie ou un point de collecte spécifique."
+      ]
+    },
+    {
+      "questionId": "crx141",
+      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches parlent de France Travail et de l'assurance chômage, mais aucune ne détaille les conditions d'éligibilité aux allocations chômage.",
+        "Je laisse donc le lien final vide faute d'ancrage explicite sur la durée travaillée, la perte d'emploi ou l'inscription comme demandeur d'emploi."
+      ]
+    },
+    {
+      "questionId": "crx142",
+      "questionText": "Qu'est-ce que l'école maternelle ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": []
+    },
+    {
+      "questionId": "crx143",
+      "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": []
+    },
+    {
+      "questionId": "crx144",
+      "questionText": "Les parents d'élève ont le droit de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": []
+    },
+    {
+      "questionId": "crx145",
+      "questionText": "Qui peut manger à la cantine scolaire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": []
+    },
+    {
+      "questionId": "crx146",
+      "questionText": "Quel est l'âge de la majorité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": []
+    },
+    {
+      "questionId": "crx147",
+      "questionText": "À l'école, il est interdit aux parents de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": []
+    },
+    {
+      "questionId": "crx148",
+      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": []
+    },
+    {
+      "questionId": "crx149",
+      "questionText": "À l'école, un enfant en situation de handicap :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [],
+      "relatedFicheIds": [],
+      "reasons": []
+    }
+  ]
+}
+apply_patch(auto_approved=true) exited 0 in 27ms:
+Success. Updated the following files:
+D /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r008.json
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+deleted file mode 100644
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..0000000000000000000000000000000000000000
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ /dev/null
+@@ -1,120 +0,0 @@
+-{
+-  "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
+-  "sourceKey": "cr",
+-  "runId": "r008",
+-  "generatedAt": "2026-03-07T14:24:52.386Z",
+-  "source": {
+-    "questionSourcePath": "data-init/questions/cr.md"
+-  },
+-  "items": [
+-    {
+-      "questionId": "crx122",
+-      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [
+-        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+-        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+-      ],
+-      "relatedFicheIds": [],
+-      "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
+-      ]
+-    },
+-    {
+-      "questionId": "crx134",
+-      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+-      "questionProfile": "place",
+-      "candidateFicheIds": [
+-        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+-        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+-      ],
+-      "relatedFicheIds": [],
+-      "reasons": [
+-        "Les fiches parlent du tri, du recyclage et du respect de l'environnement, mais ne donnent pas le lieu précis de dépôt d'un appareil électroménager cassé.",
+-        "Je ne retiens donc aucun lien sûr vers une déchèterie ou un point de collecte spécifique."
+-      ]
+-    },
+-    {
+-      "questionId": "crx141",
+-      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [
+-        "vivre-societe-francaise--emploi--orientation-1",
+-        "vivre-societe-francaise--emploi--orientation-4",
+-        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+-      ],
+-      "relatedFicheIds": [],
+-      "reasons": [
+-        "Les fiches parlent de France Travail et de l'assurance chômage, mais aucune ne détaille les conditions d'éligibilité aux allocations chômage.",
+-        "Je laisse donc le lien final vide faute d'ancrage explicite sur la durée travaillée, la perte d'emploi ou l'inscription comme demandeur d'emploi."
+-      ]
+-    },
+-    {
+-      "questionId": "crx142",
+-      "questionText": "Qu'est-ce que l'école maternelle ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx143",
+-      "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx144",
+-      "questionText": "Les parents d'élève ont le droit de :",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx145",
+-      "questionText": "Qui peut manger à la cantine scolaire ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx146",
+-      "questionText": "Quel est l'âge de la majorité ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx147",
+-      "questionText": "À l'école, il est interdit aux parents de :",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx148",
+-      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx149",
+-      "questionText": "À l'école, un enfant en situation de handicap :",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    }
+-  ]
+-}
+
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+deleted file mode 100644
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..0000000000000000000000000000000000000000
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ /dev/null
+@@ -1,120 +0,0 @@
+-{
+-  "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
+-  "sourceKey": "cr",
+-  "runId": "r008",
+-  "generatedAt": "2026-03-07T14:24:52.386Z",
+-  "source": {
+-    "questionSourcePath": "data-init/questions/cr.md"
+-  },
+-  "items": [
+-    {
+-      "questionId": "crx122",
+-      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [
+-        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+-        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
+-      ],
+-      "relatedFicheIds": [],
+-      "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
+-      ]
+-    },
+-    {
+-      "questionId": "crx134",
+-      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+-      "questionProfile": "place",
+-      "candidateFicheIds": [
+-        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+-        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+-      ],
+-      "relatedFicheIds": [],
+-      "reasons": [
+-        "Les fiches parlent du tri, du recyclage et du respect de l'environnement, mais ne donnent pas le lieu précis de dépôt d'un appareil électroménager cassé.",
+-        "Je ne retiens donc aucun lien sûr vers une déchèterie ou un point de collecte spécifique."
+-      ]
+-    },
+-    {
+-      "questionId": "crx141",
+-      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [
+-        "vivre-societe-francaise--emploi--orientation-1",
+-        "vivre-societe-francaise--emploi--orientation-4",
+-        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+-      ],
+-      "relatedFicheIds": [],
+-      "reasons": [
+-        "Les fiches parlent de France Travail et de l'assurance chômage, mais aucune ne détaille les conditions d'éligibilité aux allocations chômage.",
+-        "Je laisse donc le lien final vide faute d'ancrage explicite sur la durée travaillée, la perte d'emploi ou l'inscription comme demandeur d'emploi."
+-      ]
+-    },
+-    {
+-      "questionId": "crx142",
+-      "questionText": "Qu'est-ce que l'école maternelle ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx143",
+-      "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx144",
+-      "questionText": "Les parents d'élève ont le droit de :",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx145",
+-      "questionText": "Qui peut manger à la cantine scolaire ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx146",
+-      "questionText": "Quel est l'âge de la majorité ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx147",
+-      "questionText": "À l'école, il est interdit aux parents de :",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx148",
+-      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    },
+-    {
+-      "questionId": "crx149",
+-      "questionText": "À l'école, un enfant en situation de handicap :",
+-      "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
+-    }
+-  ]
+-}
+
+file update
+A /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r008.json
+{
+  "kind": "qcm_fiche_link_batch",
+  "workflowStatus": "completed",
+  "sourceKey": "cr",
+  "runId": "r008",
+  "generatedAt": "2026-03-07T14:24:52.386Z",
+  "source": {
+    "questionSourcePath": "data-init/questions/cr.md"
+  },
+  "items": [
+    {
+      "questionId": "crx122",
+      "questionText": "Lequel de ces départements de France est le plus touristique ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+        "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
+        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+      ]
+    },
+    {
+      "questionId": "crx134",
+      "questionText": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "questionProfile": "place",
+      "candidateFicheIds": [
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement",
+        "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches parlent du tri, du recyclage et du respect de l'environnement, mais ne donnent pas le lieu précis de dépôt d'un appareil électroménager cassé.",
+        "Je ne retiens donc aucun lien sûr vers une déchèterie ou un point de collecte spécifique."
+      ]
+    },
+    {
+      "questionId": "crx141",
+      "questionText": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--emploi--orientation-1",
+        "vivre-societe-francaise--emploi--orientation-4",
+        "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches parlent de France Travail et de l'assurance chômage, mais aucune ne détaille les conditions d'éligibilité aux allocations chômage.",
+        "Je laisse donc le lien final vide faute d'ancrage explicite sur la durée travaillée, la perte d'emploi ou l'inscription comme demandeur d'emploi."
+      ]
+    },
+    {
+      "questionId": "crx142",
+      "questionText": "Qu'est-ce que l'école maternelle ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
+        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
+      ]
+    },
+    {
+      "questionId": "crx143",
+      "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
+      ]
+    },
+    {
+      "questionId": "crx144",
+      "questionText": "Les parents d'élève ont le droit de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "reasons": [
+        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
+        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
+        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
+      ]
+    },
+    {
+      "questionId": "crx145",
+      "questionText": "Qui peut manger à la cantine scolaire ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif"
+      ],
+      "reasons": [
+        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
+      ]
+    },
+    {
+      "questionId": "crx146",
+      "questionText": "Quel est l'âge de la majorité ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
+      ],
+      "reasons": [
+        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
+        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
+        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
+      ]
+    },
+    {
+      "questionId": "crx147",
+      "questionText": "À l'école, il est interdit aux parents de :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+      ],
+      "reasons": [
+        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
+        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
+      ]
+    },
+    {
+      "questionId": "crx148",
+      "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--le-systeme-educatif",
+        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+      ],
+      "relatedFicheIds": [],
+      "reasons": [
+        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
+        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
+      ]
+    },
+    {
+      "questionId": "crx149",
+      "questionText": "À l'école, un enfant en situation de handicap :",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+      ],
+      "relatedFicheIds": [
+        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
+        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
+      ],
+      "reasons": [
+        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
+        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
+      ]
+    }
+  ]
+}
+apply_patch(auto_approved=true) exited 0 in 31ms:
+Success. Updated the following files:
+A /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r008.json
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..836d5d39f54fe2e86420a7750710dc35f16d2089
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ b/data-init/suggestions/question-fiche-links.cr.r008.json
+@@ -1,6 +1,6 @@
+ {
+   "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "cr",
+   "runId": "r008",
+   "generatedAt": "2026-03-07T14:24:52.386Z",
+@@ -15,12 +15,12 @@
+       "candidateFicheIds": [
+         "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+         "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
++        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+       ],
+       "relatedFicheIds": [],
+       "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
++        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
++        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+       ]
+     },
+     {
+@@ -56,65 +56,132 @@
+       "questionId": "crx142",
+       "questionText": "Qu'est-ce que l'école maternelle ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
++        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
++      ]
+     },
+     {
+       "questionId": "crx143",
+       "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
++      ]
+     },
+     {
+       "questionId": "crx144",
+       "questionText": "Les parents d'élève ont le droit de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "reasons": [
++        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
++        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
++        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
++      ]
+     },
+     {
+       "questionId": "crx145",
+       "questionText": "Qui peut manger à la cantine scolaire ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
++      ]
+     },
+     {
+       "questionId": "crx146",
+       "questionText": "Quel est l'âge de la majorité ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
++        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
++      ],
++      "reasons": [
++        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
++        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
++        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
++      ]
+     },
+     {
+       "questionId": "crx147",
+       "questionText": "À l'école, il est interdit aux parents de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
++      "relatedFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
++      ],
++      "reasons": [
++        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
++        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
++      ]
+     },
+     {
+       "questionId": "crx148",
+       "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
+       "relatedFicheIds": [],
+-      "reasons": []
++      "reasons": [
++        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
++        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
++      ]
+     },
+     {
+       "questionId": "crx149",
+       "questionText": "À l'école, un enfant en situation de handicap :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
++      ],
++      "reasons": [
++        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
++        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
++      ]
+     }
+   ]
+ }
+
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..836d5d39f54fe2e86420a7750710dc35f16d2089
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ b/data-init/suggestions/question-fiche-links.cr.r008.json
+@@ -1,6 +1,6 @@
+ {
+   "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "cr",
+   "runId": "r008",
+   "generatedAt": "2026-03-07T14:24:52.386Z",
+@@ -15,12 +15,12 @@
+       "candidateFicheIds": [
+         "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+         "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
++        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+       ],
+       "relatedFicheIds": [],
+       "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
++        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
++        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+       ]
+     },
+     {
+@@ -56,65 +56,132 @@
+       "questionId": "crx142",
+       "questionText": "Qu'est-ce que l'école maternelle ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
++        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
++      ]
+     },
+     {
+       "questionId": "crx143",
+       "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
++      ]
+     },
+     {
+       "questionId": "crx144",
+       "questionText": "Les parents d'élève ont le droit de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "reasons": [
++        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
++        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
++        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
++      ]
+     },
+     {
+       "questionId": "crx145",
+       "questionText": "Qui peut manger à la cantine scolaire ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
++      ]
+     },
+     {
+       "questionId": "crx146",
+       "questionText": "Quel est l'âge de la majorité ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
++        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
++      ],
++      "reasons": [
++        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
++        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
++        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
++      ]
+     },
+     {
+       "questionId": "crx147",
+       "questionText": "À l'école, il est interdit aux parents de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
++      "relatedFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
++      ],
++      "reasons": [
++        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
++        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
++      ]
+     },
+     {
+       "questionId": "crx148",
+       "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
+       "relatedFicheIds": [],
+-      "reasons": []
++      "reasons": [
++        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
++        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
++      ]
+     },
+     {
+       "questionId": "crx149",
+       "questionText": "À l'école, un enfant en situation de handicap :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
++      ],
++      "reasons": [
++        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
++        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
++      ]
+     }
+   ]
+ }
+
+
+thinking
+**Validating JSON format**
+
+I need to validate the JSON, making sure to check for proper use of apostrophes and other syntax elements. My next step might involve running the jq file and ensuring workflow synchronization too. Also, I should probably check for any differences and ensure everything matches up. I’ll provide a commentary update that mentions validating the file and refreshing the state afterward. It’s essential to be thorough in this step!
+codex
+The batch file is written. I’m validating the JSON structure now, then I’ll run the final workflow-state refresh and check the resulting `nextAction` for this source.
+exec
+/bin/zsh -lc 'jq . data-init/suggestions/question-fiche-links.cr.r008.json >/dev/null' in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc 'git diff -- data-init/suggestions/question-fiche-links.cr.r008.json' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+
+ succeeded in 50ms:
+
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..836d5d39f54fe2e86420a7750710dc35f16d2089
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ b/data-init/suggestions/question-fiche-links.cr.r008.json
+@@ -1,6 +1,6 @@
+ {
+   "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "cr",
+   "runId": "r008",
+   "generatedAt": "2026-03-07T14:24:52.386Z",
+@@ -15,12 +15,12 @@
+       "candidateFicheIds": [
+         "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+         "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
++        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+       ],
+       "relatedFicheIds": [],
+       "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
++        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
++        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+       ]
+     },
+     {
+@@ -56,65 +56,132 @@
+       "questionId": "crx142",
+       "questionText": "Qu'est-ce que l'école maternelle ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
++        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
++      ]
+     },
+     {
+       "questionId": "crx143",
+       "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
++      ]
+     },
+     {
+       "questionId": "crx144",
+       "questionText": "Les parents d'élève ont le droit de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "reasons": [
++        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
++        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
++        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
++      ]
+     },
+     {
+       "questionId": "crx145",
+       "questionText": "Qui peut manger à la cantine scolaire ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
++      ]
+     },
+     {
+       "questionId": "crx146",
+       "questionText": "Quel est l'âge de la majorité ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
++        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
++      ],
++      "reasons": [
++        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
++        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
++        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
++      ]
+     },
+     {
+       "questionId": "crx147",
+       "questionText": "À l'école, il est interdit aux parents de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
++      "relatedFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
++      ],
++      "reasons": [
++        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
++        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
++      ]
+     },
+     {
+       "questionId": "crx148",
+       "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
+       "relatedFicheIds": [],
+-      "reasons": []
++      "reasons": [
++        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
++        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
++      ]
+     },
+     {
+       "questionId": "crx149",
+       "questionText": "À l'école, un enfant en situation de handicap :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
++      ],
++      "reasons": [
++        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
++        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
++      ]
+     }
+   ]
+ }
+
+
+thinking
+**Troubleshooting git state**
+
+I'm thinking about the git diff not producing any output—maybe the file is untracked or ignored? It's hard to tell if there's even a git repository. Anyway, I need to refresh the state. I'll run `node scripts/sync-qcm-workflow-state.mjs` with options like `--source cr --phase linking --limit 20 --json`. I should inspect qcm-workflow-state afterward. But since I can't run multiple tools in parallel, I'll do this step-by-step. I'll focus on executing the sync first and then inspect the results.
+exec
+/bin/zsh -lc 'node scripts/sync-qcm-workflow-state.mjs' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 192ms:
+State: /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json
+Updated: 2026-03-07T14:30:39.177Z
+Phase: linking
+Next action: continue_linking
+Frontend: not_ready
+Counts: total=657, linked=585, drafted=358, applied=358
+- cr: linking=in_progress, questions=209, linked=205, ready=145, drafted=0, applied=60
+- csp: linking=in_progress, questions=190, linked=122, ready=78, drafted=0, applied=44
+- naturalisation: linking=completed, questions=258, linked=258, ready=4, drafted=0, applied=254
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..836d5d39f54fe2e86420a7750710dc35f16d2089
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ b/data-init/suggestions/question-fiche-links.cr.r008.json
+@@ -1,6 +1,6 @@
+ {
+   "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "cr",
+   "runId": "r008",
+   "generatedAt": "2026-03-07T14:24:52.386Z",
+@@ -15,12 +15,12 @@
+       "candidateFicheIds": [
+         "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+         "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
++        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+       ],
+       "relatedFicheIds": [],
+       "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
++        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
++        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+       ]
+     },
+     {
+@@ -56,65 +56,132 @@
+       "questionId": "crx142",
+       "questionText": "Qu'est-ce que l'école maternelle ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
++        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
++      ]
+     },
+     {
+       "questionId": "crx143",
+       "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
++      ]
+     },
+     {
+       "questionId": "crx144",
+       "questionText": "Les parents d'élève ont le droit de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "reasons": [
++        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
++        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
++        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
++      ]
+     },
+     {
+       "questionId": "crx145",
+       "questionText": "Qui peut manger à la cantine scolaire ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
++      ]
+     },
+     {
+       "questionId": "crx146",
+       "questionText": "Quel est l'âge de la majorité ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
++        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
++      ],
++      "reasons": [
++        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
++        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
++        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
++      ]
+     },
+     {
+       "questionId": "crx147",
+       "questionText": "À l'école, il est interdit aux parents de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
++      "relatedFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
++      ],
++      "reasons": [
++        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
++        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
++      ]
+     },
+     {
+       "questionId": "crx148",
+       "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
+       "relatedFicheIds": [],
+-      "reasons": []
++      "reasons": [
++        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
++        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
++      ]
+     },
+     {
+       "questionId": "crx149",
+       "questionText": "À l'école, un enfant en situation de handicap :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
++      ],
++      "reasons": [
++        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
++        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
++      ]
+     }
+   ]
+ }
+
+
+thinking
+**Inspecting source queue**
+
+I think I need to check the specific source queue after I refresh it, just to make sure the batch is done and that there aren't any unresolved items left. I plan to run the command `--source cr --phase linking --limit 20 --json` once more. It seems like a solid way to keep everything organized and ensure everything's moving along as it should! Let’s see how that goes.
+exec
+/bin/zsh -lc 'node scripts/sync-qcm-workflow-state.mjs --source cr --phase linking --limit 20 --json' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 109ms:
+{
+  "statePath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json",
+  "workflow": {
+    "currentPhase": "linking",
+    "nextAction": "continue_linking",
+    "frontendStatus": "not_ready",
+    "counts": {
+      "totalQuestions": 657,
+      "linkedQuestions": 585,
+      "draftedQuestions": 358,
+      "appliedQuestions": 358
+    }
+  },
+  "sourceKey": "cr",
+  "phase": "linking",
+  "availableSources": [
+    "cr",
+    "csp",
+    "naturalisation"
+  ],
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..836d5d39f54fe2e86420a7750710dc35f16d2089
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ b/data-init/suggestions/question-fiche-links.cr.r008.json
+@@ -1,6 +1,6 @@
+ {
+   "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "cr",
+   "runId": "r008",
+   "generatedAt": "2026-03-07T14:24:52.386Z",
+@@ -15,12 +15,12 @@
+       "candidateFicheIds": [
+         "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+         "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
++        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+       ],
+       "relatedFicheIds": [],
+       "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
++        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
++        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+       ]
+     },
+     {
+@@ -56,65 +56,132 @@
+       "questionId": "crx142",
+       "questionText": "Qu'est-ce que l'école maternelle ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
++        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
++      ]
+     },
+     {
+       "questionId": "crx143",
+       "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
++      ]
+     },
+     {
+       "questionId": "crx144",
+       "questionText": "Les parents d'élève ont le droit de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "reasons": [
++        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
++        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
++        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
++      ]
+     },
+     {
+       "questionId": "crx145",
+       "questionText": "Qui peut manger à la cantine scolaire ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
++      ]
+     },
+     {
+       "questionId": "crx146",
+       "questionText": "Quel est l'âge de la majorité ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
++        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
++      ],
++      "reasons": [
++        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
++        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
++        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
++      ]
+     },
+     {
+       "questionId": "crx147",
+       "questionText": "À l'école, il est interdit aux parents de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
++      "relatedFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
++      ],
++      "reasons": [
++        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
++        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
++      ]
+     },
+     {
+       "questionId": "crx148",
+       "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
+       "relatedFicheIds": [],
+-      "reasons": []
++      "reasons": [
++        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
++        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
++      ]
+     },
+     {
+       "questionId": "crx149",
+       "questionText": "À l'école, un enfant en situation de handicap :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
++      ],
++      "reasons": [
++        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
++        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
++      ]
+     }
+   ]
+ }
+
+codex
+The refresh completed. `cr` is not fully linked yet: the workflow now shows 4 `needs_review` questions still unresolved (`crx122`, `crx134`, `crx141`, `crx148`), and the next recommended batch would be `r009`.
+
+thinking
+**Checking touched files**
+
+I think I need to verify the touched files since the user mentioned that only the scaffold file should be the output file for the batch, while the state file is allowed. It's important that I clarify no other output files were created. So, maybe I should use `git status` to get a better overview of the current situation. This way, I can ensure everything aligns with what the user needs.
+exec
+/bin/zsh -lc 'git status --short -- data-init/suggestions/question-fiche-links.cr.r008.json data-init/suggestions/qcm-workflow-state.json' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 52ms:
+ M data-init/suggestions/qcm-workflow-state.json
+?? data-init/suggestions/question-fiche-links.cr.r008.json
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..836d5d39f54fe2e86420a7750710dc35f16d2089
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ b/data-init/suggestions/question-fiche-links.cr.r008.json
+@@ -1,6 +1,6 @@
+ {
+   "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "cr",
+   "runId": "r008",
+   "generatedAt": "2026-03-07T14:24:52.386Z",
+@@ -15,12 +15,12 @@
+       "candidateFicheIds": [
+         "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+         "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
++        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+       ],
+       "relatedFicheIds": [],
+       "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
++        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
++        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+       ]
+     },
+     {
+@@ -56,65 +56,132 @@
+       "questionId": "crx142",
+       "questionText": "Qu'est-ce que l'école maternelle ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
++        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
++      ]
+     },
+     {
+       "questionId": "crx143",
+       "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
++      ]
+     },
+     {
+       "questionId": "crx144",
+       "questionText": "Les parents d'élève ont le droit de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "reasons": [
++        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
++        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
++        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
++      ]
+     },
+     {
+       "questionId": "crx145",
+       "questionText": "Qui peut manger à la cantine scolaire ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
++      ]
+     },
+     {
+       "questionId": "crx146",
+       "questionText": "Quel est l'âge de la majorité ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
++        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
++      ],
++      "reasons": [
++        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
++        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
++        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
++      ]
+     },
+     {
+       "questionId": "crx147",
+       "questionText": "À l'école, il est interdit aux parents de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
++      "relatedFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
++      ],
++      "reasons": [
++        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
++        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
++      ]
+     },
+     {
+       "questionId": "crx148",
+       "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
+       "relatedFicheIds": [],
+-      "reasons": []
++      "reasons": [
++        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
++        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
++      ]
+     },
+     {
+       "questionId": "crx149",
+       "questionText": "À l'école, un enfant en situation de handicap :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
++      ],
++      "reasons": [
++        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
++        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
++      ]
+     }
+   ]
+ }
+
+codex
+Completed the `cr` phase-1 batch in [question-fiche-links.cr.r008.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r008.json) and set `workflowStatus` to `completed`. I linked the school, parental-rights, majority, laïcité, and handicap questions to fiche ids justified by the fiche text, and kept `crx122`, `crx134`, `crx141`, and `crx148` with empty `relatedFicheIds` because the current fiche set does not state those answers explicitly. I did not create another batch file or touch `data-init/question-bank.json`.
+
+I validated the JSON with `jq` and refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json). The workflow `nextAction` is still `continue_linking`; `cr` is now at 205/209 linked, with `crx122`, `crx134`, `crx141`, and `crx148` still marked `needs_review`, and the next recommended batch id is `r009`.
+file update:
+diff --git a/data-init/suggestions/question-fiche-links.cr.r008.json b/data-init/suggestions/question-fiche-links.cr.r008.json
+index 2bfa3a7266e0baedba09928fde9a78a3a1c03b54..836d5d39f54fe2e86420a7750710dc35f16d2089
+--- a/data-init/suggestions/question-fiche-links.cr.r008.json
++++ b/data-init/suggestions/question-fiche-links.cr.r008.json
+@@ -1,6 +1,6 @@
+ {
+   "kind": "qcm_fiche_link_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "cr",
+   "runId": "r008",
+   "generatedAt": "2026-03-07T14:24:52.386Z",
+@@ -15,12 +15,12 @@
+       "candidateFicheIds": [
+         "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique",
+         "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+-        "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france"
++        "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+       ],
+       "relatedFicheIds": [],
+       "reasons": [
+-        "La fiche sur la puissance touristique confirme le poids du tourisme en France, sans donner de classement par département.",
+-        "Les fiches sur l'Île-de-France et Paris appuient l'hypothèse de Paris, mais n'énoncent pas explicitement qu'il s'agit du département le plus touristique."
++        "Les fiches lues confirment que la France est une grande destination touristique et que Paris est un département d'Île-de-France.",
++        "Aucune de ces fiches n'énonce explicitement quel département est le plus touristique, donc je laisse le lien final vide."
+       ]
+     },
+     {
+@@ -56,65 +56,132 @@
+       "questionId": "crx142",
+       "questionText": "Qu'est-ce que l'école maternelle ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche définit la maternelle comme le premier temps de l'école, de 3 à 6 ans, avec petite, moyenne et grande section.",
++        "Elle précise aussi que la maternelle aide les enfants à apprendre le français, vivre ensemble, dessiner, écrire et compter."
++      ]
+     },
+     {
+       "questionId": "crx143",
+       "questionText": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche indique qu'à la fin du collège, l'enfant passe le brevet des collèges, ou diplôme national du brevet (DNB)."
++      ]
+     },
+     {
+       "questionId": "crx144",
+       "questionText": "Les parents d'élève ont le droit de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant",
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "reasons": [
++        "La fiche sur le rôle des parents à l'école dit que l'établissement doit informer régulièrement les parents des résultats et du comportement de leur enfant.",
++        "La même fiche indique que les parents peuvent rejoindre une association de parents d'élèves et se présenter aux élections de représentants.",
++        "La fiche sur le choix de l'école confirme aussi que les parents sont libres d'inscrire leur enfant dans une école publique ou privée."
++      ]
+     },
+     {
+       "questionId": "crx145",
+       "questionText": "Qui peut manger à la cantine scolaire ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif"
++      ],
++      "reasons": [
++        "La fiche précise qu'une cantine est accessible à tous les enfants qui le souhaitent dans tous les établissements scolaires."
++      ]
+     },
+     {
+       "questionId": "crx146",
+       "questionText": "Quel est l'âge de la majorité ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
++        "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2",
++        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1"
++      ],
++      "reasons": [
++        "La fiche sur l'autorité parentale dit qu'elle se termine quand l'enfant a 18 ans.",
++        "La fiche sur la démocratie précise qu'être majeur correspond à avoir plus de 18 ans pour exercer le droit de vote.",
++        "La fiche sur les présidents de la Vème République apporte un repère historique avec l'abaissement de la majorité à 18 ans."
++      ]
+     },
+     {
+       "questionId": "crx147",
+       "questionText": "À l'école, il est interdit aux parents de :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
++      "relatedFicheIds": [
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
++        "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
++      ],
++      "reasons": [
++        "Les fiches sur la laïcité à l'école indiquent que le prosélytisme est interdit et qu'on ne peut pas refuser un cours ou une règle scolaire pour un motif religieux.",
++        "La seconde fiche précise que la charte de la laïcité à l'école s'adresse aussi aux parents d'élèves, ce qui ancre une interdiction applicable dans le cadre scolaire."
++      ]
+     },
+     {
+       "questionId": "crx148",
+       "questionText": "Quand ont lieu les vacances scolaires de Noël ?",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--le-systeme-educatif",
++        "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
++      ],
+       "relatedFicheIds": [],
+-      "reasons": []
++      "reasons": [
++        "Les fiches sur l'école et les parents d'élèves traitent de l'organisation scolaire et du rôle des parents, pas du calendrier scolaire.",
++        "Aucune fiche lue ne donne la période précise des vacances de Noël ou les dates selon les zones."
++      ]
+     },
+     {
+       "questionId": "crx149",
+       "questionText": "À l'école, un enfant en situation de handicap :",
+       "questionProfile": "definition",
+-      "candidateFicheIds": [],
+-      "relatedFicheIds": [],
+-      "reasons": []
++      "candidateFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
++        "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
++      ],
++      "relatedFicheIds": [
++        "vivre-societe-francaise--parentalite--les-droits-de-l-enfant",
++        "principes-et-valeurs--la-devise-de-la-republique--egalite-1"
++      ],
++      "reasons": [
++        "La fiche sur les droits de l'enfant dit qu'un enfant en situation de handicap doit pouvoir vivre avec et comme les autres et peut bénéficier d'un emploi du temps aménagé.",
++        "La fiche sur l'égalité rappelle que l'accès à l'éducation, comme service public, ne peut pas être limité en raison du handicap."
++      ]
+     }
+   ]
+ }
+
+tokens used
+84 689

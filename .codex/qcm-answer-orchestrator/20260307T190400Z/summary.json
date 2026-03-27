@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-03-07T19:04:01.174483+00:00",
+  "repo": "/Users/flow/Documents/github/repositories/formation-civique",
+  "logDir": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190400Z",
+  "sources": [],
+  "failures": [
+    {
+      "source": "cr",
+      "status": "failed",
+      "error": "Command failed: node scripts/sync-qcm-workflow-state.mjs --source cr --phase answers --limit 20 --json --scaffold\nRefusing to overwrite existing scaffold: /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b001.json. Use --force to replace it."
+    },
+    {
+      "source": "csp",
+      "status": "failed",
+      "error": "Command failed: node scripts/sync-qcm-workflow-state.mjs --source csp --phase answers --limit 20 --json --scaffold\nRefusing to overwrite existing scaffold: /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.csp-b001.json. Use --force to replace it."
+    },
+    {
+      "source": "naturalisation",
+      "status": "failed",
+      "error": "Command failed: node scripts/sync-qcm-workflow-state.mjs --source naturalisation --phase answers --limit 20 --json --scaffold\nRefusing to overwrite existing scaffold: /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.naturalisation-b001.json. Use --force to replace it."
+    }
+  ]
+}

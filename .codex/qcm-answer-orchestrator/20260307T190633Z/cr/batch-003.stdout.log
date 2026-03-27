@@ -1,0 +1,4 @@
+===== attempt 1 @ 2026-03-07T19:49:10.544013+00:00 =====
+[answer-pools.pending.cr-b003.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b003.json) is filled and marked `workflowStatus: "completed"`. It contains 20 drafted items, `accepted: false` on all of them, exactly 1 correct answer plus 3 distractors per item, and `skipped` remains empty.
+
+I refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) after the batch. A structural validation pass succeeded for all 20 items; I removed the validator’s generated `.validated` files so the scaffold file remains the only batch output. Current workflow `nextAction` is `continue_linking`.

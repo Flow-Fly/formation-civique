@@ -1,0 +1,23 @@
+Use $qcm-fiche-linking to complete one phase-1 fiche-linking batch for source `naturalisation` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.naturalisation.r001.json`
+
+Selected questions:
+- natx001: Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre État de l'Union ?
+- natx002: Parmi ces textes, lequel a été adopté sous Napoléon ler?
+- natx003: Quel est l'objectif des lois scolaires de la Ille République ?
+- natx004: En quelle année Napoléon ler est-il devenu empereur?
+
+Tasks:
+refresh the workflow state
+read the selected questions and the needed fiches
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `relatedFicheIds` justified by the fiche content.

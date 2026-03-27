@@ -1,0 +1,4 @@
+===== attempt 1 @ 2026-03-07T20:21:12.011874+00:00 =====
+Updated [answer-pools.pending.csp-b006.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.csp-b006.json). The batch is now `workflowStatus: "completed"`, `accepted` stays `false`, with 11 drafted items and 9 questions moved to `skipped` when the linked fiche support was ambiguous or insufficient for a one-correct/three-distractor QCM.
+
+I refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) before and after. The final sync shows `csp` at `drafted=111` and `ready=20`. I also checked the batch shape: every drafted item has exactly 1 correct answer, 3 distractors, and no remaining shape errors.

@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import { Card, CardContent, CardHeader } from "@/components/ui/card.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Button } from "@/components/ui/button.tsx";
-import { ArrowLeft, ArrowRight, Lightbulb, BookOpen, Check, HelpCircle } from "lucide-react";
+import { ArrowLeft, ArrowRight, Lightbulb, BookOpen, Check } from "lucide-react";
 import type { Fiche, FichesData, QuestionBankItem } from "@/types/index.ts";
 import * as storage from "@/services/storage.ts";
 import { useExam } from "@/context/exam-context.tsx";
+import { LinkedQuestionsCard } from "./linked-questions-card.tsx";
 
 function renderSectionContent(content: string): ReactNode[] {
   return content.split("\n\n").map((p, i) => {
@@ -55,10 +56,6 @@ export function FicheReader({
       </div>
     );
   }
-
-  const relatedQ = questions
-    .filter((q) => q.themeId === fiche.themeId && q.exams.includes(activeExam))
-    .slice(0, 5);
 
   const sameSub = fichesData.fiches.filter(
     (f: Fiche) =>
@@ -194,31 +191,11 @@ export function FicheReader({
         )}
       </div>
 
-      {relatedQ.length > 0 && (
-        <Card>
-          <CardHeader>
-            <h3 className="font-semibold flex items-center gap-1.5">
-              <HelpCircle className="w-4 h-4 text-muted-foreground" />
-              Questions liees
-            </h3>
-          </CardHeader>
-          <CardContent className="space-y-2">
-            {relatedQ.map((q) => (
-              <div
-                key={q.id}
-                className="py-2 border-b border-border last:border-b-0"
-              >
-                <span className="text-sm">{q.questionText}</span>
-              </div>
-            ))}
-            <Button variant="outline" size="sm" asChild className="mt-2 active-scale">
-              <Link to={`/quiz?mode=practice&theme=${fiche.themeId}`}>
-                Quiz sur ce theme
-              </Link>
-            </Button>
-          </CardContent>
-        </Card>
-      )}
+      <LinkedQuestionsCard
+        questionBank={questions}
+        activeExam={activeExam}
+        ficheIds={[ficheId]}
+      />
     </div>
   );
 }

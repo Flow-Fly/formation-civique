@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-03-07T14:59:47.352323+00:00",
+  "repo": "/Users/flow/Documents/github/repositories/formation-civique",
+  "logDir": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z",
+  "sources": [
+    {
+      "source": "cr",
+      "status": "stalled",
+      "batchesCompleted": 6,
+      "lastOutputPath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.cr.r009.json",
+      "remainingQuestionIds": [
+        "crx122",
+        "crx134",
+        "crx141",
+        "crx148"
+      ],
+      "logs": {
+        "promptPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/cr/batch-006.prompt.txt",
+        "finalMessagePath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/cr/batch-006.final.txt",
+        "stdoutPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/cr/batch-006.stdout.log",
+        "stderrPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/cr/batch-006.stderr.log"
+      }
+    },
+    {
+      "source": "naturalisation",
+      "status": "completed",
+      "batchesCompleted": 1,
+      "lastOutputPath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.naturalisation.r001.json",
+      "logs": {
+        "promptPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/naturalisation/batch-001.prompt.txt",
+        "finalMessagePath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/naturalisation/batch-001.final.txt",
+        "stdoutPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/naturalisation/batch-001.stdout.log",
+        "stderrPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/naturalisation/batch-001.stderr.log"
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source": "csp",
+      "status": "failed",
+      "error": "Sub-agent failed for csp batch 9. See /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/csp/batch-009.stdout.log and /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-linking-orchestrator/20260307T135557Z/csp/batch-009.stderr.log."
+    }
+  ]
+}

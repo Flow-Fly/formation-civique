@@ -1,0 +1,7 @@
+Completed one phase-1 `csp` linking batch in [question-fiche-links.csp.r004.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.csp.r004.json). The file is now `workflowStatus: "completed"`, and no alternate batch output file was created.
+
+I refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) before and after the work. Current `nextAction` is `continue_linking`.
+
+Validation passed: the batch JSON parses, every fiche ID exists, and every `relatedFicheIds` entry is contained in `candidateFicheIds`.
+
+Two questions were left with empty `relatedFicheIds` on purpose because the fiche set was not direct enough to justify a confident link: `cspx044` and `cspx046`.

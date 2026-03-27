@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-03-07T20:36:53.304138+00:00",
+  "repo": "/Users/flow/Documents/github/repositories/formation-civique",
+  "logDir": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z",
+  "sources": [
+    {
+      "source": "naturalisation",
+      "status": "completed",
+      "batchesCompleted": 1,
+      "lastOutputPath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.naturalisation-b001.json",
+      "logs": {
+        "promptPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z/naturalisation/batch-001.prompt.txt",
+        "finalMessagePath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z/naturalisation/batch-001.final.txt",
+        "stdoutPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z/naturalisation/batch-001.stdout.log",
+        "stderrPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z/naturalisation/batch-001.stderr.log"
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source": "cr",
+      "status": "usage_limited",
+      "error": "Sub-agent hit a Codex usage limit for cr batch 7. Retry at approximately Mar 8th, 2026 12:46 AM. See /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z/cr/batch-007.stdout.log and /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z/cr/batch-007.stderr.log.",
+      "retryAt": "Mar 8th, 2026 12:46 AM"
+    },
+    {
+      "source": "csp",
+      "status": "usage_limited",
+      "error": "Sub-agent hit a Codex usage limit for csp batch 7. Retry at approximately Mar 8th, 2026 12:46 AM. See /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z/csp/batch-007.stdout.log and /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T190633Z/csp/batch-007.stderr.log.",
+      "retryAt": "Mar 8th, 2026 12:46 AM"
+    }
+  ]
+}

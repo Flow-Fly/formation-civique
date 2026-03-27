@@ -18,7 +18,7 @@ function hasPoolIssue(q: QuestionBankItem): boolean {
   const distractors = q.answerPools?.distractors || [];
   const correctSet = new Set(correct.map((c) => normalize(c)));
   const overlap = distractors.some((d) => correctSet.has(normalize(d)));
-  return correct.length < 1 || distractors.length < 3 || overlap;
+  return correct.length !== 1 || distractors.length !== 3 || overlap;
 }
 
 interface QuestionListProps {
@@ -65,6 +65,9 @@ export function QuestionList({ questions, selectedId, onSelect }: QuestionListPr
               {poolIssue && (
                 <Badge variant="destructive" className="text-[10px] px-1.5 py-0">pool!</Badge>
               )}
+              {(q.relatedFicheIds || []).length === 0 && (
+                <Badge variant="destructive" className="text-[10px] px-1.5 py-0">link!</Badge>
+              )}
               {(q.qualityFlags || []).length > 0 && (
                 <Badge variant="secondary" className="text-[10px] px-1.5 py-0">
                   {(q.qualityFlags || []).length} flag(s)
@@ -73,7 +76,7 @@ export function QuestionList({ questions, selectedId, onSelect }: QuestionListPr
             </div>
             <p className="text-xs font-medium leading-tight line-clamp-2">{q.questionText}</p>
             <p className="text-[10px] text-muted-foreground mt-1">
-              {q.exams.join("/")} · {q.themeName} · C={q.answerPools.correct.length} D={q.answerPools.distractors.length}
+              {q.exams.join("/")} · {q.themeName} · C={q.answerPools.correct.length} D={q.answerPools.distractors.length} · F={q.relatedFicheIds.length}
             </p>
           </button>
         );

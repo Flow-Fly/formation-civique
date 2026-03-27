@@ -1,7 +1,10 @@
-import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
+import { useEffect, useMemo, useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
+import { BookOpen } from "lucide-react";
+import { Alert, AlertDescription } from "@/components/ui/alert.tsx";
 import { Badge } from "@/components/ui/badge.tsx";
+import { Button } from "@/components/ui/button.tsx";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
 import {
   Select,
   SelectContent,
@@ -9,11 +12,9 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select.tsx";
-import { Alert, AlertDescription } from "@/components/ui/alert.tsx";
 import { useData } from "@/context/data-context.tsx";
 import { useExam } from "@/context/exam-context.tsx";
-import * as materializer from "@/services/question-materializer.ts";
-import type { EvidencePointer, QualityFlag, QuestionBankItem } from "@/types/index.ts";
+import { compareQuestionsForExam, getQuestionStudyLinks } from "@/lib/question-links.ts";
 
 function normalize(text: string): string {
   return text
@@ -26,106 +27,103 @@ function normalize(text: string): string {
     .trim();
 }
 
-function hasPoolIssue(q: QuestionBankItem): boolean {
-  const correct = q.answerPools?.correct || [];
-  const distractors = q.answerPools?.distractors || [];
-  const correctSet = new Set(correct.map((c) => normalize(c)));
-  const overlap = distractors.some((d) => correctSet.has(normalize(d)));
-  return correct.length < 1 || distractors.length < 3 || overlap;
-}
-
-function evidenceLink(evidence: EvidencePointer): string {
-  const pathNoMd = evidence.contentPath.replace(/\.md$/, "");
-  return `/study/${pathNoMd}#${evidence.sectionId}`;
-}
-
 export function QuestionsPage() {
-  const { questionBank } = useData();
+  const {
+    questionBank,
+    contentIndex,
+    fichesData,
+    examConfig,
+    loading,
+    error,
+  } = useData();
   const { activeExam } = useExam();
+  const [searchParams] = useSearchParams();
+  const queryParam = searchParams.get("q") ?? "";
+  const themeParam = searchParams.get("theme") ?? "all";
+  const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
+  const [themeId, setThemeId] = useState(() => searchParams.get("theme") ?? "all");
 
-  const [query, setQuery] = useState("");
-  const [themeId, setThemeId] = useState("all");
-  const [difficulty, setDifficulty] = useState("all");
-  const [reviewStatus, setReviewStatus] = useState("all");
-  const [poolFlag, setPoolFlag] = useState("all");
-  const [qualityFlag, setQualityFlag] = useState<"all" | QualityFlag>("all");
-  const [selectedId, setSelectedId] = useState<string | null>(null);
+  useEffect(() => {
+    setQuery(queryParam);
+    setThemeId(themeParam);
+  }, [queryParam, themeParam]);
 
   const examQuestions = useMemo(
-    () => questionBank.filter((q) => q.exams.includes(activeExam)),
+    () =>
+      questionBank
+        .filter((question) => question.exams.includes(activeExam))
+        .sort((a, b) => compareQuestionsForExam(a, b, activeExam)),
     [questionBank, activeExam],
   );
 
   const themes = useMemo(
-    () => [...new Map(examQuestions.map((q) => [q.themeId, q.themeName])).entries()],
-    [examQuestions],
-  );
-  const qualityFlags = useMemo(
-    () =>
-      [...new Set(examQuestions.flatMap((q) => q.qualityFlags || []))]
-        .sort((a, b) => a.localeCompare(b)),
+    () => [...new Map(examQuestions.map((question) => [question.themeId, question.themeName])).entries()],
     [examQuestions],
   );
 
-  const filtered = useMemo(() => {
-    const qn = normalize(query);
-    return examQuestions.filter((q) => {
-      if (qn && !normalize(`${q.questionText} ${q.id}`).includes(qn)) return false;
-      if (themeId !== "all" && q.themeId !== themeId) return false;
-      if (difficulty !== "all" && q.difficultyByExam?.[activeExam] !== difficulty) return false;
-      if (reviewStatus !== "all" && q.reviewStatus !== reviewStatus) return false;
-      if (qualityFlag !== "all" && !(q.qualityFlags || []).includes(qualityFlag)) return false;
+  const validThemeId = themeId === "all" || themes.some(([id]) => id === themeId)
+    ? themeId
+    : "all";
 
-      const issue = hasPoolIssue(q);
-      if (poolFlag === "issue" && !issue) return false;
-      if (poolFlag === "ok" && issue) return false;
+  const filteredQuestions = useMemo(() => {
+    const normalizedQuery = normalize(query);
+
+    return examQuestions.filter((question) => {
+      if (normalizedQuery && !normalize(`${question.id} ${question.questionText}`).includes(normalizedQuery)) {
+        return false;
+      }
+
+      if (validThemeId !== "all" && question.themeId !== validThemeId) {
+        return false;
+      }
 
       return true;
     });
-  }, [examQuestions, query, themeId, difficulty, reviewStatus, poolFlag, qualityFlag, activeExam]);
+  }, [examQuestions, query, validThemeId]);
 
-  const selected = useMemo(
-    () => filtered.find((q) => q.id === selectedId) || filtered[0] || null,
-    [filtered, selectedId],
-  );
+  if (loading) {
+    return <div className="text-center py-16 text-muted-foreground">Chargement des questions...</div>;
+  }
 
-  const preview = useMemo(() => {
-    if (!selected) return [];
-    return [0, 1, 2].map((n) =>
-      materializer.materializeQuestion(selected, activeExam, `${activeExam}|preview|${selected.id}|${n}`),
-    );
-  }, [selected, activeExam]);
+  if (error) {
+    return <div className="text-center py-16 text-muted-foreground">{error}</div>;
+  }
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Questions ({activeExam})</h1>
+      <div>
+        <h1 className="text-2xl font-bold">Questions ({activeExam})</h1>
+        <p className="text-sm text-muted-foreground mt-1">
+          Parcourez toutes les questions et ouvrez les fiches liees pour retrouver la reponse
+          dans le cours.
+        </p>
+      </div>
 
-      <Alert>
-        <AlertDescription>
-          Simulation basée sur les questions de connaissance publiques; les mises en situation
-          officielles ne sont pas publiées.
-        </AlertDescription>
-      </Alert>
+      {examConfig?.[activeExam]?.disclaimer && (
+        <Alert>
+          <AlertDescription>{examConfig[activeExam].disclaimer}</AlertDescription>
+        </Alert>
+      )}
 
       <Card>
         <CardHeader>
           <CardTitle>Filtres</CardTitle>
         </CardHeader>
-        <CardContent className="grid grid-cols-1 md:grid-cols-6 gap-3">
+        <CardContent className="grid grid-cols-1 gap-3 md:grid-cols-[minmax(0,1fr)_240px]">
           <input
             type="text"
-            placeholder="Recherche texte / id"
             value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Recherche texte ou id"
             className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm"
           />
 
-          <Select value={themeId} onValueChange={setThemeId}>
+          <Select value={validThemeId} onValueChange={setThemeId}>
             <SelectTrigger>
               <SelectValue placeholder="Theme" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">Tous themes</SelectItem>
+              <SelectItem value="all">Tous les themes</SelectItem>
               {themes.map(([id, name]) => (
                 <SelectItem key={id} value={id}>
                   {name}
@@ -134,178 +132,72 @@ export function QuestionsPage() {
             </SelectContent>
           </Select>
 
-          <Select value={difficulty} onValueChange={setDifficulty}>
-            <SelectTrigger>
-              <SelectValue placeholder="Difficulte" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">Toutes difficultes</SelectItem>
-              <SelectItem value="easy">easy</SelectItem>
-              <SelectItem value="medium">medium</SelectItem>
-              <SelectItem value="hard">hard</SelectItem>
-            </SelectContent>
-          </Select>
-
-          <Select value={reviewStatus} onValueChange={setReviewStatus}>
-            <SelectTrigger>
-              <SelectValue placeholder="Review" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">Tous statuts</SelectItem>
-              <SelectItem value="reviewed">reviewed</SelectItem>
-              <SelectItem value="pending">pending</SelectItem>
-            </SelectContent>
-          </Select>
-
-          <Select value={poolFlag} onValueChange={setPoolFlag}>
-            <SelectTrigger>
-              <SelectValue placeholder="Pools" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">Tous pools</SelectItem>
-              <SelectItem value="ok">Pools valides</SelectItem>
-              <SelectItem value="issue">Pools a corriger</SelectItem>
-            </SelectContent>
-          </Select>
-
-          <Select value={qualityFlag} onValueChange={(v) => setQualityFlag(v as "all" | QualityFlag)}>
-            <SelectTrigger>
-              <SelectValue placeholder="Quality flag" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">Tous flags</SelectItem>
-              {qualityFlags.map((flag) => (
-                <SelectItem key={flag} value={flag}>
-                  {flag}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          <p className="text-sm text-muted-foreground md:col-span-2">
+            {filteredQuestions.length} question(s) affichee(s) sur {examQuestions.length}.
+          </p>
         </CardContent>
       </Card>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-        <Card>
-          <CardHeader>
-            <CardTitle>Liste ({filtered.length})</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-2 max-h-[60vh] overflow-y-auto">
-            {filtered.map((q) => {
-              const poolIssue = hasPoolIssue(q);
-              const isSelected = selected?.id === q.id;
+      <Card>
+        <CardHeader>
+          <CardTitle>Liste complete</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-3">
+          {filteredQuestions.length === 0 ? (
+            <p className="text-sm text-muted-foreground">
+              Aucune question ne correspond aux filtres actuels.
+            </p>
+          ) : (
+            filteredQuestions.map((question) => {
+              const questionNumber = question.sourceMetaByExam[activeExam]?.globalNumber;
+              const studyLinks = getQuestionStudyLinks(question, contentIndex, fichesData);
+
               return (
-                <button
-                  key={q.id}
-                  className={`w-full text-left border rounded p-3 transition-colors ${
-                    isSelected ? "border-primary bg-primary/5" : "border-border hover:bg-accent"
-                  }`}
-                  onClick={() => setSelectedId(q.id)}
-                >
-                  <div className="flex items-center gap-2 mb-1">
-                    <Badge>{q.id}</Badge>
-                    <Badge variant="outline">{q.difficultyByExam?.[activeExam] || "medium"}</Badge>
-                    <Badge variant={q.reviewStatus === "reviewed" ? "default" : "secondary"}>
-                      {q.reviewStatus}
-                    </Badge>
-                    {poolIssue && <Badge variant="destructive">pool issue</Badge>}
+                <div key={question.id} className="rounded-lg border border-border p-4 space-y-3">
+                  <div className="flex flex-wrap items-center gap-2">
+                    {typeof questionNumber === "number" && (
+                      <Badge variant="outline">#{questionNumber}</Badge>
+                    )}
+                    <Badge>{question.id}</Badge>
+                    <Badge variant="secondary">{question.themeName}</Badge>
                   </div>
-                  <p className="text-sm font-medium">{q.questionText}</p>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    {q.themeName} · correct={q.answerPools.correct.length} · distractors={q.answerPools.distractors.length}
-                  </p>
-                  {(q.qualityFlags || []).length > 0 && (
-                    <p className="text-xs text-muted-foreground mt-1">
-                      flags: {(q.qualityFlags || []).join(", ")}
-                    </p>
-                  )}
-                </button>
-              );
-            })}
-          </CardContent>
-        </Card>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Détail</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            {!selected ? (
-              <p className="text-sm text-muted-foreground">Aucune question.</p>
-            ) : (
-              <>
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <Badge>{selected.id}</Badge>
-                    <Badge variant="outline">{selected.themeName}</Badge>
-                  </div>
-                  <p className="text-sm font-medium">{selected.questionText}</p>
-                </div>
+                  <p className="text-base font-medium leading-relaxed">{question.questionText}</p>
 
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Pool correct</p>
-                  <div className="space-y-1">
-                    {selected.answerPools.correct.map((c) => (
-                      <p key={c} className="text-sm">• {c}</p>
-                    ))}
-                  </div>
-                </div>
-
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Pool distractors</p>
-                  <div className="space-y-1 max-h-40 overflow-y-auto">
-                    {selected.answerPools.distractors.map((d) => (
-                      <p key={d} className="text-sm">• {d}</p>
-                    ))}
-                  </div>
-                </div>
-
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Prévisualisation (3 variantes)</p>
                   <div className="space-y-2">
-                    {preview.map((p, idx) => (
-                      <div key={idx} className="border rounded p-2 text-sm">
-                        <p className="font-medium mb-1">Variante {idx + 1}</p>
-                        {p.choices.map((c) => (
-                          <p key={c.id} className={c.id === p.correctAnswer ? "text-dsfr-success" : ""}>
-                            {c.id}) {c.text}
-                          </p>
+                    <p className="text-xs uppercase tracking-wider text-muted-foreground">
+                      Fiches liees
+                    </p>
+
+                    {studyLinks.length > 0 ? (
+                      <div className="flex flex-wrap gap-2">
+                        {studyLinks.map((link) => (
+                          <Button
+                            key={link.key}
+                            variant="outline"
+                            size="sm"
+                            asChild
+                            className="h-auto justify-start whitespace-normal py-2 text-left"
+                          >
+                            <Link to={link.to}>
+                              <BookOpen className="w-3.5 h-3.5 mr-1 shrink-0" />
+                              {link.label}
+                            </Link>
+                          </Button>
                         ))}
                       </div>
-                    ))}
+                    ) : (
+                      <p className="text-sm text-muted-foreground">
+                        Aucune fiche liee disponible pour le moment.
+                      </p>
+                    )}
                   </div>
                 </div>
-
-                {selected.answerEvidence && selected.answerEvidence.length > 0 && (
-                  <div>
-                    <p className="text-xs uppercase tracking-wider text-muted-foreground mb-1">Preuves (section-level)</p>
-                    <div className="space-y-2">
-                      {selected.answerEvidence.map((entry) => (
-                        <div key={entry.normalizedAnswer} className="border rounded p-2">
-                          <p className="text-sm font-medium">{entry.answerText}</p>
-                          {(entry.evidence || []).length === 0 ? (
-                            <p className="text-xs text-muted-foreground mt-1">Aucune preuve</p>
-                          ) : (
-                            <div className="space-y-1 mt-1">
-                              {entry.evidence.map((ev, idx) => (
-                                <p key={`${ev.contentPath}#${ev.sectionId}:${idx}`} className="text-xs">
-                                  <Link to={evidenceLink(ev)} className="text-primary hover:underline">
-                                    {ev.sectionTitle || `${ev.contentPath}#${ev.sectionId}`}
-                                  </Link>
-                                  {ev.quote ? ` — "${ev.quote}"` : ""}
-                                </p>
-                              ))}
-                            </div>
-                          )}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </>
-            )}
-          </CardContent>
-        </Card>
-      </div>
+              );
+            })
+          )}
+        </CardContent>
+      </Card>
     </div>
   );
 }

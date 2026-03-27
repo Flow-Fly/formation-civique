@@ -1,0 +1,39 @@
+Use $qcm-fiche-linking to complete one phase-1 fiche-linking batch for source `csp` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.csp.r002.json`
+
+Selected questions:
+- cspx017: Quelle proposition est correcte ? La liberté d'expression :
+- cspx018: Quelles sont les couleurs du drapeau français ?
+- crx016: Qu'est-ce que la Marseillaise ?
+- cspx019: Qu'est ce qui est traditionnellement organisé sur les Champs Élysées le 14 juillet pour célébrer la fête nationale ?
+- cspx020: Qui est Marianne ?
+- cspx021: Une personne peut-elle changer librement de religion ?
+- cspx022: "La France est une République indivisible, ..., démocratique et sociale". Complétez cette phrase extraite de l'article 1er de la Constitution :
+- cspx023: Que permet le principe de laïcité ?
+- crx024: Quel droit est garanti par la laïcité ?
+- crx022: Pourquoi le principe de laïcité doit-il être respecté à l'école ?
+- cspx024: Un enfant peut-il refuser d’aller à l’école pour une raison religieuse ?
+- crx023: Une personne a-t-elle le droit de ne pas croire en une religion ?
+- crx039: Qui nomme le Premier ministre ?
+- crx054: Le Parlement est composé :
+- cspx025: Qu'est-ce que le pouvoir exécutif ? Le pouvoir :
+- cspx026: Les dirigeants sont élus par les citoyens dans :
+- cspx027: Qui doit respecter la loi ?
+- cspx028: Quel est le rôle de l'autorité judiciaire ?
+- cspx029: Quel pouvoir détient un juge ? Le pouvoir :
+- cspx030: L'autorité judiciaire est exercée par :
+
+Tasks:
+refresh the workflow state
+read the selected questions and the needed fiches
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `relatedFicheIds` justified by the fiche content.

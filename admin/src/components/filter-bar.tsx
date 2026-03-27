@@ -22,6 +22,8 @@ interface FilterBarProps {
   qualityFlags: QualityFlag[];
   poolFlag: string;
   onPoolFlagChange: (v: string) => void;
+  linkFlag: string;
+  onLinkFlagChange: (v: string) => void;
   counts: { total: number; filtered: number; pending: number; reviewed: number };
 }
 
@@ -42,6 +44,8 @@ export function FilterBar({
   qualityFlags,
   poolFlag,
   onPoolFlagChange,
+  linkFlag,
+  onLinkFlagChange,
   counts,
 }: FilterBarProps) {
   return (
@@ -52,7 +56,7 @@ export function FilterBar({
           {counts.filtered}/{counts.total} shown · {counts.pending} pending · {counts.reviewed} reviewed
         </div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-2">
+      <div className="grid grid-cols-2 md:grid-cols-7 gap-2">
         <input
           type="text"
           placeholder="Search text / id..."
@@ -116,6 +120,17 @@ export function FilterBar({
             <SelectItem value="all">All pools</SelectItem>
             <SelectItem value="ok">Pools valid</SelectItem>
             <SelectItem value="issue">Pools with issues</SelectItem>
+          </SelectContent>
+        </Select>
+
+        <Select value={linkFlag} onValueChange={onLinkFlagChange}>
+          <SelectTrigger className="h-9">
+            <SelectValue placeholder="Fiche links" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">All links</SelectItem>
+            <SelectItem value="linked">Linked</SelectItem>
+            <SelectItem value="unlinked">Unlinked</SelectItem>
           </SelectContent>
         </Select>
       </div>

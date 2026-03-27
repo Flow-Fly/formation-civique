@@ -1,0 +1,8 @@
+===== attempt 1 @ 2026-03-07T19:22:57.145285+00:00 =====
+Completed the batch in [answer-pools.pending.cr-b001.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b001.json) and set `workflowStatus` to `completed`. I kept `accepted: false`, did not touch [question-bank.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/question-bank.json), and refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) after the edit.
+
+Local checks passed: JSON parses, all fiche ids resolve, and every drafted item has exactly `1` correct answer and `3` distractors.
+
+Skipped:
+- `crx006`: the linked fiche identifies the Marseillaise and its history but does not contain the lyric needed to validate a single completion.
+- `crx011`: the linked fiches support equality between spouses and divorce as the legal way to end a union, but do not explicitly state the legal status of repudiation.

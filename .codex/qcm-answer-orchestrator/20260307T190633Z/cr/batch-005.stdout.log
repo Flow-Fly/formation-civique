@@ -1,0 +1,4 @@
+===== attempt 1 @ 2026-03-07T20:17:17.479049+00:00 =====
+The batch is completed in [answer-pools.pending.cr-b005.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b005.json). I set `workflowStatus` to `completed`, kept every drafted item at `accepted: false`, filled 19 questions with exactly 1 correct answer and 3 distractors each, and moved `crx090` to top-level `skipped` with a concrete blocker tied to the duplicated `Transcription` section id in the fiche index.
+
+I refreshed the workflow state before and after the work, did not touch `data-init/question-bank.json`, and ran a no-output sanity check against the JSON and evidence pointers. I did not run the official validator because it would create extra output files, which would violate your single-output-file rule for this batch.

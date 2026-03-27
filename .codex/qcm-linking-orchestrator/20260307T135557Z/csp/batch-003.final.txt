@@ -1,0 +1,3 @@
+Completed one `csp` phase-1 fiche-linking batch in [question-fiche-links.csp.r003.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.csp.r003.json). The existing scaffold is now filled, `workflowStatus` is `completed`, and `data-init/question-bank.json` was not changed.
+
+I validated the batch JSON and checked the linking contract (`relatedFicheIds` inside candidates, max 3 candidates, non-empty reasons). Then I refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) again. Current state reports `nextAction: continue_linking`; `csp` is now `linked=104` and `ready=60`.

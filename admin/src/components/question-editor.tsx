@@ -27,6 +27,7 @@ const ALL_FLAGS: QualityFlag[] = [
 export function QuestionEditor({ question: q, onSave, onCancel }: QuestionEditorProps) {
   const [correctText, setCorrectText] = useState(q.answerPools.correct.join("\n"));
   const [distractorsText, setDistractorsText] = useState(q.answerPools.distractors.join("\n"));
+  const [relatedFichesText, setRelatedFichesText] = useState((q.relatedFicheIds || []).join("\n"));
   const [explanationTemplate, setExplanationTemplate] = useState(q.explanationTemplate || "");
   const [flags, setFlags] = useState<QualityFlag[]>(q.qualityFlags || []);
   const [difficulty, setDifficulty] = useState<Record<string, Difficulty>>(() => {
@@ -46,9 +47,14 @@ export function QuestionEditor({ question: q, onSave, onCancel }: QuestionEditor
       .split("\n")
       .map((l) => l.trim())
       .filter(Boolean);
+    const relatedFicheIds = relatedFichesText
+      .split("\n")
+      .map((l) => l.trim())
+      .filter(Boolean);
 
     const patch: Partial<QuestionBankItem> = {
       answerPools: { correct, distractors },
+      relatedFicheIds,
       qualityFlags: flags,
       difficultyByExam: difficulty as Partial<Record<ExamCode, Difficulty>>,
     };
@@ -87,7 +93,7 @@ export function QuestionEditor({ question: q, onSave, onCancel }: QuestionEditor
 
       <div>
         <label className="text-xs uppercase tracking-wider text-muted-foreground mb-1 block">
-          Correct answers (one per line)
+          Correct answers (exactly one)
         </label>
         <textarea
           value={correctText}
@@ -99,12 +105,24 @@ export function QuestionEditor({ question: q, onSave, onCancel }: QuestionEditor
 
       <div>
         <label className="text-xs uppercase tracking-wider text-muted-foreground mb-1 block">
-          Distractors (one per line)
+          Distractors (exactly three)
         </label>
         <textarea
           value={distractorsText}
           onChange={(e) => setDistractorsText(e.target.value)}
           rows={6}
+          className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm font-mono"
+        />
+      </div>
+
+      <div>
+        <label className="text-xs uppercase tracking-wider text-muted-foreground mb-1 block">
+          Related fiche ids (one per line)
+        </label>
+        <textarea
+          value={relatedFichesText}
+          onChange={(e) => setRelatedFichesText(e.target.value)}
+          rows={4}
           className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm font-mono"
         />
       </div>

@@ -1,0 +1,2414 @@
+===== attempt 1 @ 2026-03-07T19:14:36.080546+00:00 =====
+OpenAI Codex v0.106.0 (research preview)
+--------
+workdir: /Users/flow/Documents/github/repositories/formation-civique
+model: gpt-5.4
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR]
+reasoning effort: xhigh
+reasoning summaries: none
+session id: 019cc9b1-bdd0-79f0-93cd-8065687745f8
+--------
+user
+Use $qcm-answer-batch20 to complete one phase-2 answer batch for source `naturalisation` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.naturalisation-b001.json`
+
+Selected questions:
+- natx001: Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre État de l'Union ? | linked fiches: systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1
+- natx002: Parmi ces textes, lequel a été adopté sous Napoléon ler? | linked fiches: histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815, histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques
+- natx003: Quel est l'objectif des lois scolaires de la Ille République ? | linked fiches: histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940
+- natx004: En quelle année Napoléon ler est-il devenu empereur? | linked fiches: histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815, histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques
+
+Tasks:
+refresh the workflow state
+read only the selected questions, their linked fiches, and the needed evidence sections
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `accepted` as `false`.
+- Produce exactly 1 correct answer and exactly 3 distractors for each drafted item.
+- Keep all 4 options the same visible type and similar length.
+- Do not make the correct answer obviously longer, more precise, or more polished than the distractors.
+- If fiche support is insufficient, move the question to top-level `skipped` with a concrete `blockReason`.
+
+mcp startup: no servers
+codex
+I’m using `$qcm-answer-batch20` for a single `naturalisation` phase-2 batch. First I’ll refresh workflow state, inspect the existing scaffold, and read only the four selected questions plus their linked fiche evidence before editing the batch file.
+Plan update
+  → Refresh workflow state and inspect the target scaffold batch file
+  • Read the selected questions and linked fiche evidence needed for natx001-natx004
+  • Fill the scaffold with answer pools or skips, set workflowStatus to completed, and verify shape
+  • Refresh workflow state again and summarize the result
+
+thinking
+**Planning command execution**
+
+I’m thinking about the commands I need to run. Maybe I could refresh the state and inspect the file simultaneously? It seems like running sync could help locate files too. Since commands can be run in parallel if they're independent, I might refresh the state before inspecting, although that isn’t strictly necessary. I’ll consider running node sync followed by opening the file. I’ll use multi_tool_use.parallel for the reads after the refresh. Let's refresh separately to keep it organized!
+exec
+/bin/zsh -lc 'node scripts/sync-qcm-workflow-state.mjs' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+State: /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json
+Updated: 2026-03-07T19:06:51.481Z
+Phase: linking
+Next action: continue_linking
+Frontend: not_ready
+Counts: total=657, linked=651, drafted=358, applied=358
+- cr: linking=completed, questions=209, linked=209, ready=149, drafted=0, applied=60
+- csp: linking=in_progress, questions=190, linked=184, ready=140, drafted=0, applied=44
+- naturalisation: linking=completed, questions=258, linked=258, ready=4, drafted=0, applied=254
+
+thinking
+**Inspecting target files**
+
+I need to examine the target file and question sources. It seems like I could use parallel processing on the natx001 to natx004 files to list fiche files. I should locate the question bank, possibly found at data-init/question-bank.json, and check the fiches in data/processed. Let’s inspect the target scaffold and take a closer look at the question bank lines. There’s definitely some organizing to do!
+codex
+The state refresh shows `naturalisation` has exactly 4 questions ready for drafting, which matches this batch. I’m checking the scaffold shape and locating the minimal source files for the four questions and linked fiches now.
+exec
+/bin/zsh -lc "sed -n '1,240p' data-init/suggestions/answer-pools.pending.naturalisation-b001.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "rg -n '\"natx00[1-4]\"|systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1|histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815|histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques|histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940' data-init" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "scaffold",
+  "sourceKey": "naturalisation",
+  "batchId": "naturalisation-b001",
+  "generatedAt": "2026-03-07T15:06:39.356Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "natx001",
+      "questionText": "Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre État de l'Union ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+ succeeded in 51ms:
+Total output lines: 307
+
+data-init/suggestions/question-fiche-links.csp.r001.json:119:        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+data-init/suggestions/question-fiche-links.csp.r001.json:135:        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+data-init/suggestions/question-fiche-links.csp.r001.json:140:        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+data-init/suggestions/question-fiche-links.cr.r005.json:16:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+data-init/suggestions/question-fiche-links.cr.r005.json:20:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+data-init/suggestions/question-fiche-links.csp.r003.json:85:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+data-init/suggestions/question-fiche-links.csp.r003.json:90:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+data-init/suggestions/question-fiche-links.csp.r003.json:175:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+data-init/suggestions/question-fiche-links.csp.r003.json:180:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+data-init/suggestions/question-fiche-links.csp.r003.json:193:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+data-init/suggestions/question-fiche-links.csp.r003.json:198:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+data-init/suggestions/question-fiche-links.csp.r003.json:211:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+data-init/suggestions/question-fiche-links.csp.r003.json:216:        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+data-init/suggestions/question-fiche-links.csp.r005.json:293:        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+data-init/suggestions/question-fiche-links.csp.r005.json:297:        "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815"
+data-init/question-bank.json:8689:    "id": "natx001",
+data-init/question-bank.json:8721:    "id": "natx002",
+data-init/question-bank.json:8753:    "id": "natx003",
+codex
+I have the scaffold and batch ids. Next I’m pulling the four question records plus the three linked fiche JSON files so I can anchor each option set to direct evidence instead of guessing.
+exec
+/bin/zsh -lc "sed -n '1,240p' data-init/fiches/systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,260p' data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,260p' data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/les-regimes-politiques.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '1,260p' data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const data=JSON.parse(fs.readFileSync(\"data-init/question-bank.json\",\"utf8\"));const ids=new Set([\"natx001\",\"natx002\",\"natx003\",\"natx004\"]);console.log(JSON.stringify(data.questions.filter(q=>ids.has(q.id)),null,2));'" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 52ms:
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+  "title": "Le 1er Empire (1804-1815)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815/",
+  "objectives": [
+    "Connaître le 1er Empire.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que le 1er Empire ?",
+      "content": "Le 1er Empire correspond à la période où Napoléon 1er est au pouvoir. Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur.\n\nPendant cette période, Napoléon 1er mène plusieurs guerres en Europe pour étendre son empire et centralise le pouvoir en contrôlant la presse et les opposants. Affaibli par ses défaites, notamment en Russie en 1812, l’empereur abdique en 1814, puis définitivement le 7 juillet 1815 après la bataille de Waterloo. Le 1er Empire prend fin et la monarchie est rétablie.\n\nPersonnage clé : Napoléon Bonaparte est le fondateur et le chef du 1er Empire, sous le nom de Napoléon 1er. Il concentre entre ses mains le pouvoir politique, militaire et administratif et incarne l’autorité impériale en France.\n\nSur la droite, portrait de Napoléon Bonaparte en costume de sacre peint par François Gérard.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant cette période ?",
+      "content": "Le citoyen conserve l’égalité devant la loi, garantie par le Code civil de 1804. Celui-ci fixe des règles communes à tous, notamment sur la famille, la propriété et les contrats.\n\nMais sous l’Empire, les libertés politiques sont limitées : Napoléon concentre le pouvoir et contrôle la presse. Il rétablit l’esclavage en 1802 puis abolit la traite des noirs en 1815.",
+ succeeded in 52ms:
+{
+  "id": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+  "title": "Les conditions pour voter en France (1/2)",
+  "themeId": "systeme-institutionnel",
+  "themeName": "Système institutionnel et politique",
+  "subcategoryId": "democratie-et-droit-de-vote",
+  "subcategoryName": "Démocratie et droit de vote",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1/",
+  "objectives": [
+    "Connaître et comprendre le droit de vote."
+  ],
+  "sections": [
+    {
+      "heading": "Objectif de la fiche :",
+      "content": "Connaître et comprendre le droit de vote.",
+      "type": "text"
+    },
+    {
+      "heading": "Le droit de vote, c’est quoi ?",
+      "content": "Le droit de vote est le droit d’exprimer sa volonté à une élection. Les citoyens élisent leurs représentants.",
+ succeeded in 51ms:
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
+  "title": "La IIIème République (1870-1940)",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940/",
+  "objectives": [
+    "Connaître la IIIème République.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Qu’est-ce que la IIIème République ?",
+      "content": "Après la chute du 2nd Empire de Napoléon 3, la IIIème République ancre le régime républicain en France. Elle est proclamée le 4 septembre 1870 par Léon Gambetta. Elle naît dans un climat de tensions entre républicains et monarchistes.\n\nEn 1871, la Commune de Paris, mouvement d’insurrection parisien et républicain, se forme, en opposition à la nouvelle Assemblée monarchiste. Le Gouvernement d’Adolphe Thiers réprime violemment le mouvement.\n\nLes royalistes, divisés, échouent à restaurer la monarchie. La République s’installe durablement avec les lois constitutionnelles de 1875. Elle s’achève le 10 juillet 1940, pendant la guerre, lorsque le régime de Vichy s’installe.\n\nPersonnages clés : La IIIème République n’est pas incarnée par une seule figure, mais par 16 présidents. Ils reflètent la diversité et la continuité du régime à travers plusieurs décennies.",
+      "type": "text"
+    },
+    {
+      "heading": "Quels sont les droits des citoyens pendant cette période ?",
+      "content": "La IIIème République affirme de grandes libertés républicaines, comme la liberté de réunion publique sans autorisation ou la liberté de syndicat (sauf dans la fonction publique).\n\nAvec la loi du 5 avril 1884 sur l’organisation municipale, les citoyens masculins peuvent élire le conseil municipal de leur commune.",
+ succeeded in 51ms:
+{
+  "id": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+  "title": "Les régimes politiques",
+  "themeId": "histoire-geographie-culture",
+  "themeName": "Histoire, géographie et culture",
+  "subcategoryId": "les-regimes-politiques-depuis-1789",
+  "subcategoryName": "Les régimes politiques depuis 1789",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/les-regimes-politiques/",
+  "objectives": [
+    "Connaître et savoir situer les principales périodes historiques.Comprendre l’apport des différents régimes politiques à notre système actuel."
+  ],
+  "sections": [
+    {
+      "heading": "Jusqu’en 1789, l’Ancien Régime",
+      "content": "Avant la Révolution française de 1789, le régime politique de France est celui d’une monarchie absolue de droit divin. On appelle cette période l’Ancien Régime. Les principales périodes sont les suivantes :\n\n481-751 : dynastie mérovingienne ;\n- 751-987 : dynastie carolingienne ;\n- 987-1789 : dynastie capétienne.",
+      "type": "text"
+    },
+    {
+      "heading": "De 1789 à 1958, une succession de régimes politiques",
+      "content": "À partir de 1789, la France connaît plusieurs régimes politiques. Les principales périodes sont les suivantes :\n\n1789-1791 : Révolution française et transitions politiques. La Déclaration des droits de l’homme et du citoyen est publiée en 1789 ;\n- 1791-1792 : Monarchie constitutionnelle ;\n- 1792-1799 : Ière République ;\n- 1799-1804 : Consulat ;\n- 1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;\n- 1814-1830 : Restauration de la monarchie ;\n- 1830-1848 : Monarchie de Juillet ;\n- 1848-1851 : IIème République ;\n- 1852-1870 : 2nd Empire ;\n- 1870-1940 : IIIème République. En 1871, insurrection de la Commune de Paris ;\n- 1940-1944 : Régime de Vichy. En parallèle, la France libre puis le Comité français de libération nationale ;\n- 1944-1946 : Gouvernement provisoire de la République française ;\n- 1946-1958 : IVème République. La Sécurité sociale est créée. La Constitution garantit pour la première fois l’égalité entre les femmes et les hommes.",
+ exited 1 in 50ms:
+[eval]:1
+const fs=require("fs");const data=JSON.parse(fs.readFileSync("data-init/question-bank.json","utf8"));const ids=new Set(["natx001","natx002","natx003","natx004"]);console.log(JSON.stringify(data.questions.filter(q=>ids.has(q.id)),null,2));
+                                                                                                                                                                                                            ^
+
+TypeError: Cannot read properties of undefined (reading 'filter')
+    at [eval]:1:205
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:118:14
+    at [eval]-wrapper:6:24
+    at runScript (node:internal/process/execution:101:62)
+    at evalScript (node:internal/process/execution:136:3)
+    at node:internal/main/eval_string:55:3
+
+Node.js v22.12.0
+
+thinking
+**Inspecting question bank structure**
+
+I need to examine the structure of the question bank since it's different. My first step is to look at the root keys to understand what’s there. I’m considering using a command like `node -e Object.keys` to help me retrieve those keys. This should give me a better idea of how the data is organized and how I can work with it effectively. Let’s see what those keys reveal!
+codex
+The fiche evidence is enough for all four questions. I hit a minor schema mismatch while extracting the question records from `question-bank.json`, so I’m checking the bank structure and then I’ll draft the option sets directly into the scaffold.
+exec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const data=JSON.parse(fs.readFileSync(\"data-init/question-bank.json\",\"utf8\"));const arr=Array.isArray(data)?data:data.items||data.questions||[];const ids=new Set([\"natx001\",\"natx002\",\"natx003\",\"natx004\"]);console.log(JSON.stringify(arr.filter(q=>ids.has(q.id)),null,2));'" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const data=JSON.parse(fs.readFileSync(\"data-init/question-bank.json\",\"utf8\"));console.log(Object.keys(data));'" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+[
+  '0',  '1',  '2',  '3',  '4',  '5',  '6',  '7',  '8',  '9',
+  '10', '11', '12', '13', '14', '15', '16', '17', '18', '19',
+  '20', '21', '22', '23', '24', '25', '26', '27', '28', '29',
+  '30', '31', '32', '33', '34', '35', '36', '37', '38', '39',
+  '40', '41', '42', '43', '44', '45', '46', '47', '48', '49',
+  '50', '51', '52', '53', '54', '55', '56', '57', '58', '59',
+  '60', '61', '62', '63', '64', '65', '66', '67', '68', '69',
+  '70', '71', '72', '73', '74', '75', '76', '77', '78', '79',
+  '80', '81', '82', '83', '84', '85', '86', '87', '88', '89',
+  '90', '91', '92', '93', '94', '95', '96', '97', '98', '99',
+  ... 425 more items
+]
+ succeeded in 52ms:
+[
+  {
+    "id": "natx001",
+    "themeId": "systeme-institutionnel",
+    "themeName": "Système institutionnel et politique",
+    "questionText": "Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre État de l'Union ?",
+    "exams": [
+      "NAT"
+    ],
+    "sourceMetaByExam": {
+      "NAT": {
+        "localNumber": 47,
+        "globalNumber": 85
+      }
+    },
+    "answerPools": {
+      "correct": [
+        "Réponse à compléter (source officielle non enrichie)"
+      ],
+      "distractors": [
+codex
+The source facts are loaded now. Before editing, I’m checking the validator-side evidence shape so the batch file matches the pipeline without pulling in unrelated question content.
+exec
+/bin/zsh -lc "rg -n '\"answerEvidence\"|\"questionEvidence\"' data-init/suggestions/answer-pools.pending.naturalisation-b001.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "rg -n 'answerEvidence|questionEvidence|qualityFlags' scripts data-init/suggestions -g '*.mjs' -g '*.js'" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 52ms:
+30:        "answerEvidence": [],
+31:        "questionEvidence": [],
+61:        "answerEvidence": [],
+62:        "questionEvidence": [],
+88:        "answerEvidence": [],
+89:        "questionEvidence": [],
+119:        "answerEvidence": [],
+120:        "questionEvidence": [],
+ succeeded in 51ms:
+scripts/validate-question-bank.mjs:103:    if (q.qualityFlags != null) {
+scripts/validate-question-bank.mjs:104:      if (!Array.isArray(q.qualityFlags)) {
+scripts/validate-question-bank.mjs:105:        err(`${prefix} qualityFlags must be an array`);
+scripts/validate-question-bank.mjs:107:        for (const flag of q.qualityFlags) {
+scripts/validate-question-bank.mjs:113:    if (q.answerEvidence != null) {
+scripts/validate-question-bank.mjs:114:      if (!Array.isArray(q.answerEvidence)) {
+scripts/validate-question-bank.mjs:115:        err(`${prefix} answerEvidence must be an array`);
+scripts/validate-question-bank.mjs:117:        for (const row of q.answerEvidence) {
+scripts/validate-question-bank.mjs:120:          if (!answerText) err(`${prefix} answerEvidence row missing answerText`);
+scripts/validate-question-bank.mjs:121:          if (!normalizedAnswer) err(`${prefix} answerEvidence row missing normalizedAnswer`);
+scripts/validate-question-bank.mjs:123:            err(`${prefix} answerEvidence normalizedAnswer mismatch for "${answerText}"`);
+scripts/validate-question-bank.mjs:126:            err(`${prefix} answerEvidence.evidence must be an array`);
+scripts/validate-question-bank.mjs:139:    if (q.questionEvidence != null) {
+scripts/validate-question-bank.mjs:140:      if (!Array.isArray(q.questionEvidence)) {
+scripts/validate-question-bank.mjs:141:        err(`${prefix} questionEvidence must be an array`);
+scripts/validate-question-bank.mjs:143:        for (const ev of q.questionEvidence) {
+scripts/validate-question-bank.mjs:144:          if (!String(ev?.contentPath || "").trim()) err(`${prefix} questionEvidence pointer missing contentPath`);
+scripts/validate-question-bank.mjs:145:          if (!String(ev?.sectionId || "").trim()) err(`${prefix} questionEvidence pointer missing sectionId`);
+scripts/validate-question-bank.mjs:146:          if (!String(ev?.sectionTitle || "").trim()) err(`${prefix} questionEvidence pointer missing sectionTitle`);
+scripts/validate-question-bank.mjs:147:          if (!String(ev?.quote || "").trim()) err(`${prefix} questionEvidence pointer missing quote`);
+
+thinking
+**Inspecting script examples**
+
+I need to ensure I'm looking at examples in the scripts rather than unrelated content. Maybe I can test some snippet lines from the test-qcm-workflow to help with that. I want to figure out the best approach to find relevant examples without getting sidetracked, focusing on what really matters for the task at hand. Let me dive into those script sections and see what I can uncover!
+exec
+/bin/zsh -lc "sed -n '120,220p' scripts/validate-answer-pool-suggestions.mjs" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '108,156p' scripts/test-qcm-workflow.mjs" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "sed -n '730,780p' scripts/lib/qcm-workflow.mjs" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+    "Contraintes globales:",
+    "- Retourne un objet JSON valide, sans markdown.",
+    "- correct doit contenir exactement 1 entree.",
+    "- distractors doit contenir exactement 3 entrees et aucune ne doit recouvrir la bonne reponse.",
+    "- relatedFicheIds ne doit contenir que des IDs presents dans candidateFicheIds.",
+    "- answerEvidence doit contenir exactement 1 ligne pour la bonne reponse et au moins 1 evidence.",
+    "- questionEvidence doit contenir au moins 1 evidence.",
+    "- Chaque quote doit etre une citation exacte issue d'une section fournie.",
+    "- N'utilise aucun placeholder.",
+    "- Les 4 choix doivent etre du meme type visible.",
+    `- Profil de question a respecter: ${questionProfile}.`,
+    `- Regle de profil: ${PROFILE_PROMPT_RULES[questionProfile] || PROFILE_PROMPT_RULES.definition}`,
+    "",
+    "Format JSON attendu:",
+    JSON.stringify({
+      questionProfile,
+      candidateFicheIds,
+      correct: ["string"],
+      distractors: ["string", "string", "string"],
+      explanationByCorrect: { "<correct-answer>": "explication concise" },
+ succeeded in 51ms:
+          questionProfile: "website",
+          candidateFicheIds: [ficheId],
+          correct: ["Le site internet de France VAE avec le logo officiel de la République française"],
+          distractors: ["elysee.fr", "service-public.fr", "gouvernement.fr"],
+          explanationByCorrect: {
+            "Le site internet de France VAE avec le logo officiel de la République française":
+              "Exemple volontairement trop long pour tester le bucket de revue.",
+          },
+          answerEvidence: [
+            {
+              answerText: "Le site internet de France VAE avec le logo officiel de la République française",
+              normalizedAnswer: normalize("Le site internet de France VAE avec le logo officiel de la République française"),
+              evidence: [
+                {
+                  ficheId,
+                  contentPath: "principes-et-valeurs/les-symboles-de-la-republique/le-coq.md",
+                  sectionId: "un-symbole-non-officiel",
+                  sectionTitle: "Un symbole non officiel",
+                  quote,
+                },
+ succeeded in 51ms:
+  const answerEvidence = Array.isArray(suggestion.answerEvidence) ? suggestion.answerEvidence : [];
+  const questionEvidence = Array.isArray(suggestion.questionEvidence) ? suggestion.questionEvidence : [];
+  const errors = [];
+  const warnings = [];
+  const relatedSet = new Set(candidateFicheIds);
+  let exactQuotesOnly = true;
+
+  if (correct.length !== 1) errors.push("must include exactly one correct answer");
+  if (distractors.length !== 3) errors.push("must include exactly three distractors");
+
+  const normalizedCorrect = new Set(correct.map((value) => normalize(value)));
+  for (const distractor of distractors) {
+    if (normalizedCorrect.has(normalize(distractor))) {
+      errors.push(`correct/distractor overlap: "${distractor}"`);
+    }
+  }
+
+  if (hasPlaceholderInOptions(correct, distractors)) errors.push("placeholder option detected");
+
+  const evidenceByAnswer = new Map();
+
+thinking
+**Exploring content paths**
+
+I need to figure out the contentPath and sectionId. I might be able to infer the contentPath from the file path, possibly theme/subcategory/page.md. The sectionId probably matches a generated slug from the heading, which needs to align with the validator sectionMap. I should also look into how sections are represented and check if the contentPath is a relative markdown path rather than a JSON path. It seems like it's time to inspect the generation of sectionMap from fiches.
+exec
+/bin/zsh -lc "sed -n '1,140p' scripts/validate-answer-pool-suggestions.mjs" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "rg -n 'contentPath|sectionId|slug' scripts/lib scripts -g '*.mjs' -g '*.js'" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+#!/usr/bin/env node
+
+/**
+ * Validate generated answer-pool suggestions with strict fiche/evidence/style checks.
+ */
+
+import { readFileSync, writeFileSync } from "fs";
+import { basename, dirname, extname, join } from "path";
+import { fileURLToPath } from "url";
+
+import {
+  buildReviewBucket,
+  buildStyleMetrics,
+  classifyQuestionProfile,
+  dedupe,
+  hasPlaceholderInOptions,
+  normalize,
+  VALID_QUALITY_FLAGS,
+} from "./lib/qcm-workflow.mjs";
+
+ succeeded in 51ms:
+scripts/validate-answer-pool-suggestions.mjs:158:      const contentPath = String(pointer?.contentPath || "").trim();
+scripts/validate-answer-pool-suggestions.mjs:159:      const sectionId = String(pointer?.sectionId || "").trim();
+scripts/validate-answer-pool-suggestions.mjs:161:      if (!contentPath || !sectionId) {
+scripts/validate-answer-pool-suggestions.mjs:165:      const section = sectionMap.get(`${contentPath}#${sectionId}`);
+scripts/validate-answer-pool-suggestions.mjs:167:        errors.push(`unknown section for "${answer}": ${contentPath}#${sectionId}`);
+scripts/validate-answer-pool-suggestions.mjs:193:      const contentPath = String(pointer?.contentPath || "").trim();
+scripts/validate-answer-pool-suggestions.mjs:194:      const sectionId = String(pointer?.sectionId || "").trim();
+scripts/validate-answer-pool-suggestions.mjs:196:      if (!contentPath || !sectionId) {
+scripts/validate-answer-pool-suggestions.mjs:200:      const section = sectionMap.get(`${contentPath}#${sectionId}`);
+scripts/validate-answer-pool-suggestions.mjs:202:        errors.push(`unknown questionEvidence section: ${contentPath}#${sectionId}`);
+scripts/validate-answer-pool-suggestions.mjs:290:    sectionMap.set(`${section.contentPath}#${section.sectionId}`, section);
+scripts/build-fiche-section-index.mjs:146:      sectionId: currentId,
+scripts/build-fiche-section-index.mjs:192:    const contentPath = filePath.slice(CONTENT_DIR.length + 1);
+scripts/build-fiche-section-index.mjs:200:        contentPath,
+scripts/build-fiche-section-index.mjs:206:        sectionId: section.sectionId,
+scripts/build-search-index.mjs:135:  const slug = basename(filePath, ".md");
+scripts/build-search-index.mjs:137:  // Use path (without .md) as unique id — slugs can collide across subcategories
+scripts/build-search-index.mjs:145:    title: fm.title || slug,
+scripts/validate-question-bank.mjs:130:            if (!String(ev?.contentPath || "").trim()) err(`${prefix} evidence pointer missing contentPath`);
+scripts/validate-question-bank.mjs:131:            if (!String(ev?.sectionId || "").trim()) err(`${prefix} evidence pointer missing sectionId`);
+codex
+I need the validator-facing section pointers next: exact `contentPath`, `sectionId`, and verbatim quotes. I’m resolving those from the fiche section index or the generated markdown so the evidence arrays validate cleanly.
+exec
+/bin/zsh -lc "rg --files | rg 'democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1\\.md|le-1er-empire-1804-1815\\.md|les-regimes-politiques\\.md|la-troisieme-republique-1870-1940\\.md'" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "rg -n 'systeme-institutionnel/.*/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1\\.md|histoire-geographie-culture/.*/le-1er-empire-1804-1815\\.md|histoire-geographie-culture/.*/les-regimes-politiques\\.md|histoire-geographie-culture/.*/la-troisieme-republique-1870-1940\\.md' data-init/fiches-section-index.json" in /Users/flow/Documents/github/repositories/formation-civique exited 1 in 51ms:
+
+ exited 1 in 51ms:
+
+
+thinking
+**Inspecting file paths**
+
+I’m considering that there might be an issue with different directories not matching up. I need to check the filenames; maybe they’re encoded or something. I’ll try using `rg --files` with slugs, possibly looking at both JSON and Markdown formats. It feels like this could shed some light on what’s happening. I need to be thorough in my inspection to figure out the problem effectively!
+exec
+/bin/zsh -lc "rg --files | rg 'democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1|le-1er-empire-1804-1815|les-regimes-politiques|la-troisieme-republique-1870-1940'" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const idx=JSON.parse(fs.readFileSync(\"data-init/fiches-section-index.json\",\"utf8\")); const keys=[\"systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1\",\"histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815\",\"histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques\",\"histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940\"]; console.log(JSON.stringify(idx.filter(s=>keys.includes(s.ficheId)),null,2));'" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+app-react/public/content/histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md
+app-react/public/content/histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md
+app-react/public/content/histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md
+data-init/fiches/systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/la-deuxieme-republique-1848-1851.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/le-consulat-1799-1804.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/l-ancien-regime-jusqu-en-1789.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/la-cinquieme-republique.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/le-regime-de-vichy-1940-1944.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/la-quatrieme-republique-1946-1958.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/la-troisieme-republique-1870-1940.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/le-2nd-empire-1852-1870.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/des-merovingiens-a-l-ancien-regime.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/les-regimes-politiques.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/la-restauration-et-la-monarchie-de-juillet-1815-1848.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815.json
+data-init/fiches/histoire-geographie-culture/les-regimes-politiques-depuis-1789/le-gouvernement-provisoire-de-la-republique-francaise-1944-1946.json
+ exited 1 in 51ms:
+[eval]:1
+const fs=require("fs");const idx=JSON.parse(fs.readFileSync("data-init/fiches-section-index.json","utf8")); const keys=["systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1","histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815","histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques","histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"]; console.log(JSON.stringify(idx.filter(s=>keys.includes(s.ficheId)),null,2));
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+
+TypeError: idx.filter is not a function
+    at [eval]:1:557
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:118:14
+    at [eval]-wrapper:6:24
+    at runScript (node:internal/process/execution:101:62)
+    at evalScript (node:internal/process/execution:136:3)
+    at node:internal/main/eval_string:55:3
+
+Node.js v22.12.0
+exec
+/bin/zsh -lc "sed -n '1,80p' data-init/fiches-section-index.json" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const idx=JSON.parse(fs.readFileSync(\"data-init/fiches-section-index.json\",\"utf8\"));console.log(Object.keys(idx));'" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 50ms:
+{
+  "generatedAt": "2026-03-06T14:49:42.748Z",
+  "sourceDir": "app-react/public/content",
+  "sectionCount": 464,
+  "byTheme": {
+    "droits-et-devoirs": 55,
+    "histoire-geographie-culture": 213,
+    "principes-et-valeurs": 72,
+    "systeme-institutionnel": 36,
+    "vivre-societe-francaise": 88
+  },
+  "sections": [
+    {
+      "contentPath": "droits-et-devoirs/droits-fondamentaux/droits-economiques-sociaux-troisieme-generation.md",
+      "themeId": "droits-et-devoirs",
+      "themeName": "Droits et devoirs",
+      "subcategoryId": "droits-fondamentaux",
+      "subcategoryName": "Droits fondamentaux",
+      "originalFicheIds": [
+        "droits-et-devoirs--droits-fondamentaux--droits-economiques-sociaux-troisieme-generation"
+ succeeded in 51ms:
+[
+  'generatedAt',
+  'sourceDir',
+  'sectionCount',
+  'byTheme',
+  'sections',
+  'index'
+]
+exec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const idx=JSON.parse(fs.readFileSync(\"data-init/fiches-section-index.json\",\"utf8\"));const keys=new Set([\"systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1\",\"histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815\",\"histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques\",\"histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940\"]);console.log(JSON.stringify(idx.sections.filter(s=>(s.originalFicheIds||[]).some(id=>keys.has(id))),null,2));'" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+Total output lines: 2389
+
+[
+  {
+    "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+    "themeId": "histoire-geographie-culture",
+    "themeName": "Histoire, géographie et culture",
+    "subcategoryId": "les-regimes-politiques-depuis-1789",
+    "subcategoryName": "Les régimes politiques depuis 1789",
+    "originalFicheIds": [
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--des-merovingiens-a-l-ancien-regime",
+      "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+    ],
+    "sectionId": "les-regimes-politiques",
+    "sectionTitle": "Les régimes politiques",
+    "sectionText": "Jusqu’en 1789, l’Ancien Régime\nAvant la Révolution française de 1789, le régime politique de France est celui d’une monarchie absolue de droit divin. On appelle cette période l’Ancien Régime. Les principales périodes sont les suivantes :\n- 481-751 : dynastie mérovingienne ;\n- 751-987 : dynastie carolingienne ;\n- 987-1789 : dynastie capétienne.\nDe 1789 à 1958, une succession de régimes politiques\nÀ partir de 1789, la France connaît plusieurs régimes politiques. Les principales périodes sont les suivantes :\n- 1789-1791 : Révolution française et transitions politiques. La Déclaration des droits de l’homme et du citoyen est publiée en 1789 ;\n- 1791-1792 : Monarchie constitutionnelle ;\n- 1792-1799 : Ière République ;\n- 1799-1804 : Consulat ;\n- 1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;\n- 1814-1830 : Restauration de la monarchie ;\n- 1830-1848 : Monarchie de Juillet ;\n- 1848-1851 : IIème République ;\n- 1852-1870 : 2nd Empire ;\n- 1870-1940 : IIIème République. En 1871, insurrection de la Commune de Paris ;\n- 1940-1944 : Régime de Vichy. En parallèle, la France libre puis le Comité français de libération nationale ;\n- 1944-1946 : Gouvernement provisoire de la République française ;\n- 1946-1958 : IVème République. La Sécurité sociale est créée. La Constitution garantit pour la première fois l’égalité entre les femmes et les hommes.\nDepuis 1958, la Vème République\nDepuis 1958, le régime politique de la France est celui de la Vème République.\nLa République telle que nous la connaissons aujourd’hui s’est construite progressivement. Elle a hérité des acquis, des luttes et des transformations des différents régimes qui l’ont précédée.\nPour aller plus loin\n Les régimes politiques de la Révolution française à 1958 vie-publique.fr",
+    "terms": [
+      "avant",
+      "revolution",
+
+
+thinking
+**Framing voting statements**
+
+I'm considering the format for the voting statements where I need one correct answer and three distractors, all in full sentences. The correct one could be: "Oui, s'ils résident dans cet État et sont inscrits sur la liste électorale." For the distractors, I might say: "Oui, mais seulement pour les élections présidentielles de cet État," "Non, seuls les nationaux votent à toutes les élections locales," and "Non, ils ne peuvent voter qu'aux élections européennes." I also need to ensure the evidence quotes are accurate from the section.
+thinking
+**Considering content path and section ID**
+
+I'm thinking about whether I need the contentPath as "revolution-au-xixe.md" along with the sectionId as "les-regimes-politiques." It seems like these are key components to consider for whatever I'm working on. So I’ll double-check if using that content path aligns with my goals and ensure the section ID is accurate too. It's all about getting the details right!
+exec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const idx=JSON.parse(fs.readFileSync(\"data-init/fiches-section-index.json\",\"utf8\"));const target=\"systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1\";const out=idx.sections.filter(s=>(s.originalFicheIds||[]).includes(target)).map(s=>({contentPath:s.contentPath,sectionId:s.sectionId,sectionTitle:s.sectionTitle,sectionText:s.sectionText}));console.log(JSON.stringify(out,null,2));'" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const idx=JSON.parse(fs.readFileSync(\"data-init/fiches-section-index.json\",\"utf8\"));const target=\"histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940\";const out=idx.sections.filter(s=>(s.originalFicheIds||[]).includes(target)).map(s=>({contentPath:s.contentPath,sectionId:s.sectionId,sectionTitle:s.sectionTitle,sectionText:s.sectionText}));console.log(JSON.stringify(out,null,2));'" in /Users/flow/Documents/github/repositories/formation-civiqueexec
+/bin/zsh -lc "node -e 'const fs=require(\"fs\");const idx=JSON.parse(fs.readFileSync(\"data-init/fiches-section-index.json\",\"utf8\"));const target=\"histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815\";const out=idx.sections.filter(s=>(s.originalFicheIds||[]).includes(target)).map(s=>({contentPath:s.contentPath,sectionId:s.sectionId,sectionTitle:s.sectionTitle,sectionText:s.sectionText}));console.log(JSON.stringify(out,null,2));'" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+[
+  {
+    "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+    "sectionId": "les-conditions-pour-voter-en-france-1-2",
+    "sectionTitle": "Les conditions pour voter en France (1/2)",
+    "sectionText": "Le droit de vote, c’est quoi ?\nLe droit de vote est le droit d’exprimer sa volonté à une élection. Les citoyens élisent leurs représentants.\nLe suffrage universel, c’est quoi ?\nLe suffrage universel signifie que tous les citoyens\n- qui ont la nationalité française ;\n- majeurs (de plus de 18 ans) ;\n- ayant leurs droits civiques et politiques (n’est pas condamné) ;\n- inscrits sur les listes électorales (à leur demande, auprès de la mairie de son lieu de résidence depuis plus de 6 mois),\npeuvent voter sans distinction de sexe, d'origine, de religion ou d'idéaux politiques.\nUn ressortissant d’un pays membre de l’Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s’il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale).\nLe vote n'est pas obligatoire, c'est un droit et non un devoir.\nIl est possible de voter pour une autre personne uniquement si elle a fait une procuration de vote.\nLes droits civiques et politiques, c’est quoi ?\nLe citoyen a plusieurs droits civiques et politiques liés au droit de vote :\n- droit de se présenter à des élections et d’être élu (élections législatives, communales...) ;\n- droit d’exercer une fonction juridictionnelle (être juge) ;\n- droit de servir dans l’armée.\nUn citoyen puni par la loi (condamné à une peine d’emprisonnement) peut être privé de ses droits civiques et politiques.\nPour aller plus loin\n L'importance du droit de vote Les élections en France"
+  },
+  {
+    "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+    "sectionId": "les-conditions-pour-voter-en-france-2-2",
+    "sectionTitle": "Les conditions pour voter en France (2/2)",
+    "sectionText": "Pourquoi le droit de vote est-il un droit fondamental ?\nEn France, le droit de vote est un droit fondamental. Il est inscrit dans la Déclaration des droits de l’homme et du citoyen, de 1789. L’article 3 de la Constitution de la Vème République de 1958 le précise.\nEn France, le vote est strictement :\n- personnel ;\n- libre ;\n- secret.\nPar le vote, le peuple exprime sa volonté, qui se traduit ensuite en lois, qui s’imposent à tous. Tous les votes sont comptabilisés, peu importe le sexe, l’âge, l’origine ou la religion.\nQuels sont les différents types d’élection ?\nLes citoyens français peuvent participer à plusieurs types d’élections au suffrage universel direct en France :\n1. les élections présidentielles pour élire le président de la République (tous les 5 ans) ;\n2. les élections législatives pour élire les députés à l’Assemblée nationale (tous les 5 ans sauf si il y a une dissolution) ;\n3. les élections municipales pour élire les conseillers municipaux (tous les 6 ans) ;\n4. les élections départementales pour élire les conseillers départementaux (tous les 6 ans) ;\n5. les élections régionales pour élire les conseillers régionaux (tous les 6 ans) ;\n6. les élections européennes pour élire les députés au Parlement européen (tous les 5 ans). Les citoyens de l’Union européenne résidant en France peuvent également voter.\nPar contre, les élections sénatoriales, qui permettent d'élire les sénateurs, sont au suffrage universel indirect (tous les 3 ans renouvellement par moitié). Seuls les grands électeurs (maires, conseillers municipaux, députés) votent.\nPour aller plus loin\n L'importance du droit de vote Les élections en France"
+  }
+]
+ succeeded in 51ms:
+[
+  {
+    "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+    "sectionId": "la-iiieme-republique-1870-1940",
+    "sectionTitle": "La IIIème République (1870-1940)",
+    "sectionText": "Qu’est-ce que la IIIème République ?\nAprès la chute du 2nd Empire de Napoléon 3, la IIIème République ancre le régime républicain en France. Elle est proclamée le 4 septembre 1870 par Léon Gambetta. Elle naît dans un climat de tensions entre républicains et monarchistes.\nEn 1871, la Commune de Paris, mouvement d’insurrection parisien et républicain, se forme, en opposition à la nouvelle Assemblée monarchiste. Le Gouvernement d’Adolphe Thiers réprime violemment le mouvement.\nLes royalistes, divisés, échouent à restaurer la monarchie. La République s’installe durablement avec les lois constitutionnelles de 1875. Elle s’achève le 10 juillet 1940, pendant la guerre, lorsque le régime de Vichy s’installe.\nPersonnages clés : La IIIème République n’est pas incarnée par une seule figure, mais par 16 présidents. Ils reflètent la diversité et la continuité du régime à travers plusieurs décennies.\nQuels sont les droits des citoyens pendant cette période ?\nLa IIIème République affirme de grandes libertés républicaines, comme la liberté de réunion publique sans autorisation ou la liberté de syndicat (sauf dans la fonction publique).\nAvec la loi du 5 avril 1884 sur l’organisation municipale, les citoyens masculins peuvent élire le conseil municipal de leur commune.\nQuels sont les apports de ce régime au système français actuel ?\nLa IIIème République établit une démocratie parlementaire stable avec :\n- un président ;\n- un Parlement composé de deux chambres (les députés et les sénateurs) ;\n- et un Gouvernement (les ministres) responsable devant ce parlement.\nElle généralise l’école publique gratuite en 1881 et l’école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry.\nElle instaure la loi de 1905 sur la séparation des Églises et de l’État, qui fonde la laïcité.\nPour aller plus loin\n La IIIe République (1870-1940). Installation définitive de la République vie-publique.fr"
+  },
+  {
+    "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+    "sectionId": "le-regime-de-vichy-1940-1944",
+    "sectionTitle": "Le régime de Vichy (1940-1944)",
+    "sectionText": "Qu’est-ce que le régime de Vichy ?\nOn appelle “régime de Vichy” le régime dirigé par le maréchal Pétain à partir du 10 juillet 1940, après la défaite de la France face à l’Allemagne. Installé à Vichy, le gouvernement abolit la République et instaure un régime autoritaire et collaborationniste avec l’occupant nazi.\nLe régime de Vichy supprime les libertés et persécute les opposants et les minorités, en particulier les Juifs.\nIl prend fin le 22 août 1944 avec la Libération.\nPersonnage clé : le maréchal Philippe Pétain, héros de la Première Guerre mondiale, devient chef de l’État français en 1940 et dirige le régime autoritaire de Vichy.\nSur la droite, une photo du maréchal Philippe Pétain.\nPhoto du maréchal Philippe Pétain par Henri Manuel\nQuels sont les droits des citoyens pendant cette période ?\nLes libertés et droits fondamentaux (liberté d’expression, de réunion, de la presse, droit de vote) sont supprimés.\nLe régime impose une société hiérarchisée, fondée sur des valeurs conservatrices et autoritaires. Une large partie de la population est exclue de la pleine citoyenneté.\nQuels sont les apports de ce régime au système français actuel ?\nLe régime de Vichy n’a pas laissé d’apports positifs au système actuel. Au contraire, il marque une rupture avec les valeurs démocratiques et républicaines, ce qui conduit, après la Libération, à renforcer la défense des droits et libertés fondamentales en France.\nSource photo : Henri Manuel.\nPour aller plus loin\n Régime de Vichy et Résistance (1940-1944) vie-publique.fr"
+  },
+  {
+    "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+    "sectionId": "le-gouvernement-provisoire-de-la-republique-francaise-1944-1946",
+    "sectionTitle": "Le Gouvernement provisoire de la République française (1944-1946)",
+    "sectionText": "Qu’est-ce que le Gouvernement provisoire de la République française ? (1944-1946)\nLe Gouvernement provisoire de la République française (GPRF) est mis en place après la Libération, le 25 août 1944, pour rétablir la République. Il met fin au régime de Vichy.\nLe GPRF représente la France dans les négociations de paix et réaffirme la souveraineté nationale sur la scène internationale. Il lance aussi la reconstruction du pays après la Seconde Guerre mondiale, en modernisant l’économie, les infrastructures et les services publics. Il met en place d’importantes réformes économiques et sociales, comme les nationalisations d’entreprises et la préparation de la sécurité sociale.\nLe GPRF prend fin le 27 octobre 1946, quand commence la IVème République.\nPersonnage clé : Le général Charles de Gaulle est la figure centrale du GPRF, qu’il dirige jusqu’en janvier 1946. Il incarne l’autorité de l’État et la continuité de la République.\nSur la droite, photo du ministre de l'Information Pierre-Henri Teitgen, du général Charles de Gaulle et du ministre des Affaires étrangères Georges Bidault photographiés durant un conseil des ministres du Gouvernement provisoire de la République française, le 2 novembre 1945.\nPhoto du Général Charles de Gaulle durant un conseil des ministres du Gouvernement provisoire de la République française, le 2 novembre 1945\nQuels sont les droits des citoyens pendant cette période ?\nLa démocratie est rétablie et les citoyens retrouvent leurs droits civiques.\nLe droit de vote est accordé aux femmes en avril 1944.\nLa sécurité sociale et d’autres mesures sont mises en place pour renforcer la protection des citoyens et l’égalité sociale.\nQuels sont les apports de ce régime au système français actuel ?\nLe Gouvernement provisoire restaure la légitimité républicaine après la Seconde Guerre mondiale et prépare les institutions de la IVème République. Grâce à ses réformes, il assure la continuité de l’État français et pose les bases d’un système politique moderne et stable, qui servira de référence pour les gouvernements suivants.\nSource photo : auteur inconnu.\nPour aller plus loin\n Régime de Vichy et Résistance (1940-1944) vie-publique.fr"
+  },
+  {
+ succeeded in 51ms:
+[
+  {
+    "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+    "sectionId": "la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+    "sectionTitle": "La fin de la monarchie absolue et le début de la Ière République (1789-1792)",
+    "sectionText": "Comment prend fin la monarchie avec la Révolution ?\nEntre 1789 et 1792, la France connaît plusieurs années de transition politique qui mèneront de la monarchie à la République.\nLa Révolution française (1789-1799) démarre avec la convocation des États généraux (le clergé, la noblesse et le tiers état) par le roi. Le 17 juin 1789, le tiers état proclame l’Assemblée nationale et met fin à la monarchie absolue. La Déclaration des droits de l’homme et du citoyen est adoptée quelques semaines plus tard.\nEn 1791, une monarchie constitutionnelle est instaurée. Les pouvoirs du roi sont limités, mais la fuite du roi Louis XVI à l’étranger et les tensions sociales dressent le peuple contre lui. Le 10 août 1792, le roi est renversé.\nPersonnage clé : Le marquis de La Fayette joue un rôle central pendant la Révolution française. Il contribue notamment à la rédaction de la Déclaration des droits de l’homme et du citoyen de 1789.\nSur la droite, portrait du marquis de La Fayette peint par Joseph-Désiré Court.\nPortrait du marquis de La Fayette peint par Joseph-Désiré Court.\nQuels sont les droits des citoyens pendant cette période ?\nLa Déclaration des droits de l’homme et du citoyen de 1789 affirme des principes universels, comme la liberté ou l’égalité devant la loi.\nLe droit de vote est instauré pour la première fois, mais il est réservé aux hommes de plus de 25 ans qui paient un impôt.\nQuels sont les apports de ce régime au système français actuel ?\nCette période met fin aux privilèges héréditaires et abolit la société d’ordres (clergé, noblesse et tiers état). Elle établit les bases de notre démocratie en affirmant les droits fondamentaux qui figurent encore aujourd’hui dans la Constitution française.\nElle introduit aussi l’idée de souveraineté populaire, de représentation nationale et de séparation des pouvoirs. Ces principes guideront les régimes républicains à venir.\nSource : GrandPalaisRmn (Château de Versailles) / image GrandPalaisRmn.\nPour aller plus loin\n La Révolution : vers la première Constitution française (1789-1791) vie-publique.fr"
+  },
+  {
+    "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+    "sectionId": "la-iere-republique-1792-1804",
+    "sectionTitle": "La Ière République (1792-1804)",
+    "sectionText": "Qu’est-ce que la Ière République ?\nLa Ière République est la période qui succède à la monarchie constitutionnelle. Héritière de la Révolution française, elle est proclamée le 22 septembre 1792.\nÀ cette époque, la France est confrontée à de nombreuses menaces : des guerres avec d’autres pays et des révoltes à l’intérieur du pays. Pour protéger la République, le gouvernement met en place la Terreur. Il surveille strictement les ennemis de la Révolution et utilise la guillotine contre ceux qu’il considère comme des traîtres. Louis XVI est ainsi exécuté en 1793.\nEn 1799, Napoléon Bonaparte prend le pouvoir et la période du Consulat s'ouvre. La Ière République disparaît le 18 mai 1804, lorsqu’il est proclamé empereur.\nPersonnage clé : Maximilien Robespierre est une figure centrale de la Révolution française. Il est célèbre pour son engagement en faveur de l’égalité et de la République, mais aussi pour avoir dirigé la Terreur.\nSur la droite, portrait de Maximilien Robespierre en habit de député du tiers état peint par Pierre-Roch Vigneron (copie d'après le portrait au pastel d'Adélaïde Labille-Guiard exposé au Salon de 1791).\nPortrait de Robespierre en habit de député du tiers état, d’après Adélaïde Labille-Guiard.\nQuels sont les droits des citoyens pendant cette période ?\nLe citoyen n’est plus sujet d’un roi, mais membre d’une République, où le pouvoir vient du peuple.\nLa séparation progressive entre l’Église et l’État réduit l’influence religieuse.\nQuels sont les apports de ce régime au système français actuel ?\nLa volonté de séparer l’Église et l’État annonce l’introduction progressive de la laïcité.\nOn doit aussi à la Ière République la réorganisation de l’administration du territoire, avec la création des départements qui améliorent la gestion et le contrôle des régions.\nSource photo : GrandPalaisRmn (Château de Versailles) / Gérard Blot.\nPour aller plus loin\n De la démocratie de l'an I à la dictature de la Convention (1792-1795) vie-publique.fr"
+  },
+  {
+    "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+    "sectionId": "le-consulat-1799-1804",
+    "sectionTitle": "Le Consulat (1799-1804)",
+    "sectionText": "Qu’est-ce que le Consulat ?\nLe Consulat est le régime établi le 13 décembre 1799, après le coup d’État de Napoléon Bonaparte. Pendant cette période, le pouvoir exécutif est confié à trois consuls.\nNapoléon Bonaparte, nommé Premier Consul, concentre entre ses mains l’essentiel du pouvoir. Il dispose de l’autorité exécutive, militaire et diplomatique et peut même proposer des lois.\nLe régime du Consulat prend fin le 18 mai 1804, lorsque Napoléon proclame le Premier Empire.\nPersonnage clé : Napoléon Bonaparte qui, en tant que Premier Consul, exerce l’autorité exécutive et réorganise l’administration française.\nSur la droite, portrait de Napoléon Bonaparte, premier consul, par Marie-Guillemine Benoist.\nPortrait de Napoléon Bonaparte, premier consul, par Marie-Guillemine Benoist. Tableau offert par Bonaparte à la ville de Gand en 1804.\nQuels sont les droits des citoyens pendant cette période ?\nSous le Consulat, le pouvoir législatif est affaibli car il est partagé entre plusieurs assemblées. Le pouvoir exécutif est donc plus fort que le pouvoir législatif.\nQuels sont les apports de ce régime au système français actuel ?\nLe Consulat conserve le découpage du territoire en départements, mais met en place une administration centralisée. En 1800, une nouvelle fonction administrative est ainsi créée : le préfet, qui dirige chaque département et représente le gouvernement. Le système actuel est l’héritier de cette organisation centralisée.\nSource photo : Guy Stair Sainty et al., Marie-Guillemine Benoist, Les adieux de psyché (Psyche bids her family farewell), London, Matthiesen, 2021.\nPour aller plus loin\n Consulat et Empire : l’autoritarisme napoléonien (1799-1815) vie-publique.fr"
+  },
+  {
+
+
+
+
+
+
+
+
+thinking
+**Refining phrasing for clarity**
+
+Okay, I need to focus on the exact formulation because the term "tous les enfants" isn't mentioned in the initial documentation. It's probably best to stick to the specific adjectives used to maintain accuracy. I might say something similar but keep the same length and structure. For instance, I could phrase it as: "Généraliser l'école publique, gratuite, laïque et obligatoire." That captures the essence while sticking closely to the source.
+thinking
+**Considering educational approaches**
+
+I’m looking at different options for educational systems, starting with phrases like “Faire de l'école...” and making sure they're similar in length and structure. I want to emphasize that school can be a free, public, and secular service, but also acknowledge the compulsory aspect. 
+
+I think it’s reasonable to suggest options, like making it private and religious or military-focused but ensuring they follow a similar length. I plan to include a quote from the section about the generalization of free public schooling.
+thinking
+**Assembling quiz options**
+
+I think it's good that I found the same quote for evidence. I need options for the year Napoleon became emperor that are similar in type and length. So, I could use years like "1804", "1799", "1815", and "1852" since they're all equal length and fitting for my date-year profile.
+
+I'll reference the 1st Empire section with an exact quote, making sure it aligns with the question about when Napoleon became emperor, which is indeed 1804. I guess distractors can represent nearby periods with similar lengths. Also, for natx002, I realized all options could just be years since the question requires text, not just dates. Short titles of texts could also work!
+thinking
+**Generating balanced answer options**
+
+I'm considering potential answers for the user, and I have a list of legal texts: "Le Code civil," "La loi de 1905," "La Constitution de 1958," and "La Déclaration de 1789." They’re all similar lengths, but I notice "Le Code civil" is a bit shorter.
+
+To balance things, I might change it to "Le Code civil de 1804" to match the length of the others. This way, all options will be more uniform and maintain a consistent format for the user!
+thinking
+**Considering text adoption context**
+
+The question "Parmi ces textes, lequel a été adopté sous Napoléon ler?" suggests I focus on specific texts with dates. I could anchor my answer in `Le Code civil de 1804`, using distractors like:
+
+- `La Déclaration de 1789`
+- `La loi de 1905`
+- `La Constitution de 1958`
+
+These distractors are clear text/date labels. However, I need clarification about including explanations for correct answers. The examples seem to omit "explanationByCorrect," and possibly missing this is fine. I should validate using a script, but it seems the output file creation might need to be considered.
+thinking
+**Clarifying validation approach**
+
+The task states that the scaffold file must be the only output for this batch, so I shouldn’t run the validator if it creates an output file. I could use a node script with `/tmp`, but that would still create an additional output. A custom read-only JSON check with `node -e` could work, as it would only read the batch file without generating extra output. It might be unnecessary to use the question bank since that might have already been done. Now, I need to edit the file and consider whether natx001 support is sufficient. The question regarding EU citizens voting in local elections appears to be supported based on the information about residency requirements.
+thinking
+**Creating answer structure**
+
+I need to ensure my answer isn't too broad. A good response might be: "Oui, s'ils y résident et sont inscrits sur la liste électorale." Now for the distractors, I think I could use:
+
+- "Oui, sans inscription s'ils sont majeurs."
+- "Non, seulement aux élections nationales."
+- "Non, seulement dans leur pays d'origine."
+
+I need to check if these options are similar in visibility and length, making sure the correct answer stands out. They should all be full sentences, with the first one being a clear "yes." I want to finalize my distractors effectively.
+thinking
+**Examining non-breaking spaces**
+
+I’m looking into using non-breaking spaces (NBSP) in section text. Copying them directly from the output should be fine, but if I'm editing the JSON file, I need to make sure I’m aware of the Unicode situation. The developer mentioned that the default should stay ASCII unless there's a reason to introduce non-ASCII characters. Since the file already includes accented characters and curly apostrophes, I might need to ensure I validate it correctly for the output to be acceptable.
+exec
+/bin/zsh -lc "rg -n 'function normalize|const normalize|export function normalize|export const normalize' scripts/lib/qcm-workflow.mjs" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+180:export function normalize(text) {
+436:  const normalizedCorrect = new Set((correct || []).map((value) => normalize(value)));
+691:    const normalizedSectionText = normalize(`${section.sectionTitle || ""} ${section.sectionText || ""}`);
+exec
+/bin/zsh -lc "sed -n '180,220p' scripts/lib/qcm-workflow.mjs" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 52ms:
+export function normalize(text) {
+  return String(text || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’']/g, " ")
+    .replace(/[^\w\s.:-]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function dedupe(values) {
+  const out = [];
+  const seen = new Set();
+  for (const value of values || []) {
+    const txt = String(value || "").trim();
+    if (!txt) continue;
+    const key = normalize(txt);
+    if (seen.has(key)) continue;
+    seen.add(key);
+
+
+
+thinking
+**Normalizing quotes for validation**
+
+I’m focusing on how to normalize quotes, especially when they have curly apostrophes and accents. When searching for an exact match, I need to ensure it checks the normalized text. I wonder if I really need a full sentence or if a shorter substring would work better. I realize that fragments like “Un ressortissant d’un pays membre de l’Union européenne, résidant en France, a le droit de vote aux élections européennes” can be sufficient. The validator checks for the whole quote, so this contiguous fragment should be enough.
+thinking
+**Considering registration conditions**
+
+To support the condition of registration or residence, I might want to use a fragment like "aux élections municipales (s’il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)" that’s contiguous within the section text. I’m thinking the questionEvidence could quote a full sentence or specific condition. Maybe I can combine quotes from "Un ressortissant...municipales..." to form a comprehensive quote, even if it's long. It seems copying the entire sentence might be acceptable for clarity.
+thinking
+**Considering file updates**
+
+I need to figure out if the user is asking to read only selected questions and linked sections. I've looked into validation scripts, so that seems fine. I might need to edit the file without rewriting the whole thing, using apply_patch instead. I can possibly replace some sections with arrays, and the file size seems manageable. I also want to update the timestamp with the current date. Let’s get that timestamp!
+codex
+The evidence and option drafts are ready. I’m updating the existing scaffold in place now, keeping `accepted: false`, filling only these four items, and switching `workflowStatus` to `completed`.
+exec
+/bin/zsh -lc 'date -u +"%Y-%m-%dT%H:%M:%SZ"' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+2026-03-07T19:10:51Z
+
+
+thinking
+**Planning patch and JSON structure**
+
+I need to handle the patch carefully. It might be easiest to replace the entire file since it’s not too big. I’ll use `apply_patch` with the updated file and ensure grammar is correct. Crafting the JSON will require precise formatting with double quotes and escapes, avoiding any placeholders and ensuring the necessary fields are included. I’ll also confirm pointers are accurate, especially for `questionEvidence` and `answerEvidence`, and validate the structure. Let's draft it carefully!
+thinking
+**Selecting quote strings**
+
+I need to focus on picking the exact quote strings, deciding between normal apostrophes or typographic ones. I can use ASCII apostrophes, but I think normalizing will handle both. Including accents seems okay, and I want to ensure I use the exact `sectionTitle` as it appears in the index, especially since it may have specific ordinal accents or characters. For the `natx001` quote, I'll use a precise string that normalizes well, and I'll apply a similar approach for the `questionEvidence` quote too.
+
+thinking
+**Investigating a patch failure**
+
+It looks like the patch is failing, and I suspect it’s due to a spacing mismatch from indentation or different lines. I should check the file afterward to see if there are any changes that need addressing. Maybe I’ll try using sed to sort out these issues. There’s a lot to think about with versions and formatting, so I need to be careful and thorough to ensure everything's right!
+codex
+The first patch missed the exact scaffold context, so I’m reloading the file and applying a full in-place replacement to avoid partial drift.
+exec
+/bin/zsh -lc "sed -n '1,240p' data-init/suggestions/answer-pools.pending.naturalisation-b001.json" in /Users/flow/Documents/github/repositories/formation-civique succeeded in 51ms:
+{
+  "kind": "qcm_answer_batch",
+  "workflowStatus": "scaffold",
+  "sourceKey": "naturalisation",
+  "batchId": "naturalisation-b001",
+  "generatedAt": "2026-03-07T15:06:39.356Z",
+  "items": [
+    {
+      "kind": "answer_pool",
+      "questionId": "natx001",
+      "questionText": "Les citoyens de l'Union européenne peuvent-ils voter aux élections locales dans un autre État de l'Union ?",
+      "questionProfile": "definition",
+      "candidateFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "relatedFicheIds": [
+        "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+      ],
+      "accepted": false,
+      "suggestion": {
+
+
+
+thinking
+**Considering text formatting**
+
+The developer mentions that I should default to ASCII when editing files and only use non-ASCII if there's a clear reason, like when the file already uses them. Since the current file has French text with accents, I'll include those accents. I also wonder if I need to normalize answers without accents. Using typographic apostrophes might be best, but straight apostrophes could help avoid issues. I need to craft sections carefully while ensuring quotes are precise. Overall, I want to maintain clarity without losing essential details!
+thinking
+**Evaluating potential issues**
+
+I'm noting that I shouldn't use ellipses at all, which is good. There's a potential issue with the section title "Les régimes politiques" not being exact due to accents. I see that the question evidence for natx002 is referencing "avant-la-revolution.md" and that this section includes the quote, so that's alright. For natx003, the correct answer "Une école publique gratuite, laïque et obligatoire" looks fine, whereas the distractor, "Une école locale, religieuse, sélective et payante," is quite similar but still distinct. Just need to keep my eye on these!
+thinking
+**Patching file details**
+
+I’ve noticed the text isn’t a full name, but just a label. I think I might need a distractor for `natx001`, something like "Non, ils votent seulement aux élections européennes," so that it remains visually consistent. It seems like the top-level section has been skipped, leaving it empty. I’ll go ahead and patch the whole file to ensure everything is properly accounted for.
+file update
+M /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+@@ -2,6 +2,6 @@
+   "kind": "qcm_answer_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "naturalisation",
+   "batchId": "naturalisation-b001",
+-  "generatedAt": "2026-03-07T15:06:39.356Z",
++  "generatedAt": "2026-03-07T19:10:51Z",
+   "items": [
+@@ -27,6 +27,34 @@
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
++        ],
++        "distractors": [
++          "Oui, s'ils sont majeurs même sans inscription locale",
++          "Non, ils votent seulement aux élections européennes",
++          "Non, ils votent seulement dans leur pays d'origine"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
++            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
++            "evidence": [
++              {
++                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++                "sectionId": "les-conditions-pour-voter-en-france-1-2",
++                "sectionTitle": "Les conditions pour voter en France (1/2)",
++                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++            "sectionId": "les-conditions-pour-voter-en-france-1-2",
++            "sectionTitle": "Les conditions pour voter en France (1/2)",
++            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++          }
++        ],
+         "qualityFlags": []
+@@ -58,6 +86,41 @@
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Le Code civil de 1804"
++        ],
++        "distractors": [
++          "La Déclaration de 1789",
++          "La loi de 1905",
++          "La Constitution de 1958"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Le Code civil de 1804",
++            "normalizedAnswer": "le code civil de 1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
++              },
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++                "sectionId": "les-regimes-politiques",
++                "sectionTitle": "Les régimes politiques",
++                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++            "sectionId": "les-regimes-politiques",
++            "sectionTitle": "Les régimes politiques",
++            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++          }
++        ],
+         "qualityFlags": []
+@@ -85,6 +148,34 @@
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Une école publique gratuite, laïque et obligatoire"
++        ],
++        "distractors": [
++          "Une école privée payante, religieuse et facultative",
++          "Une école militaire nationale, sélective et obligatoire",
++          "Une école locale, religieuse, sélective et payante"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Une école publique gratuite, laïque et obligatoire",
++            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++                "sectionId": "la-iiieme-republique-1870-1940",
++                "sectionTitle": "La IIIème République (1870-1940)",
++                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++            "sectionId": "la-iiieme-republique-1870-1940",
++            "sectionTitle": "La IIIème République (1870-1940)",
++            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++          }
++        ],
+         "qualityFlags": []
+@@ -116,6 +207,34 @@
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "1804"
++        ],
++        "distractors": [
++          "1799",
++          "1815",
++          "1852"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "1804",
++            "normalizedAnswer": "1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++            "sectionId": "le-1er-empire-1804-1815",
++            "sectionTitle": "Le 1er Empire (1804-1815)",
++            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++          }
++        ],
+         "qualityFlags": []
+apply_patch(auto_approved=true) exited 0 in 59ms:
+Success. Updated the following files:
+M /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+file update:
+diff --git a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+index 1e988072fcc9f0cf83232c69ca7d2c92e734312c..251e4c0ebee2583425486686465e310a28380bb6
+--- a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
++++ b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+@@ -1,9 +1,9 @@
+ {
+   "kind": "qcm_answer_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "naturalisation",
+   "batchId": "naturalisation-b001",
+-  "generatedAt": "2026-03-07T15:06:39.356Z",
++  "generatedAt": "2026-03-07T19:10:51Z",
+   "items": [
+     {
+       "kind": "answer_pool",
+@@ -25,10 +25,38 @@
+         "relatedFicheIds": [
+           "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
++        ],
++        "distractors": [
++          "Oui, s'ils sont majeurs même sans inscription locale",
++          "Non, ils votent seulement aux élections européennes",
++          "Non, ils votent seulement dans leur pays d'origine"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
++            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
++            "evidence": [
++              {
++                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++                "sectionId": "les-conditions-pour-voter-en-france-1-2",
++                "sectionTitle": "Les conditions pour voter en France (1/2)",
++                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++            "sectionId": "les-conditions-pour-voter-en-france-1-2",
++            "sectionTitle": "Les conditions pour voter en France (1/2)",
++            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -56,10 +84,45 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Le Code civil de 1804"
++        ],
++        "distractors": [
++          "La Déclaration de 1789",
++          "La loi de 1905",
++          "La Constitution de 1958"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Le Code civil de 1804",
++            "normalizedAnswer": "le code civil de 1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
++              },
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++                "sectionId": "les-regimes-politiques",
++                "sectionTitle": "Les régimes politiques",
++                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++            "sectionId": "les-regimes-politiques",
++            "sectionTitle": "Les régimes politiques",
++            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -83,10 +146,38 @@
+         "relatedFicheIds": [
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Une école publique gratuite, laïque et obligatoire"
++        ],
++        "distractors": [
++          "Une école privée payante, religieuse et facultative",
++          "Une école militaire nationale, sélective et obligatoire",
++          "Une école locale, religieuse, sélective et payante"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Une école publique gratuite, laïque et obligatoire",
++            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++                "sectionId": "la-iiieme-republique-1870-1940",
++                "sectionTitle": "La IIIème République (1870-1940)",
++                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++            "sectionId": "la-iiieme-republique-1870-1940",
++            "sectionTitle": "La IIIème République (1870-1940)",
++            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -114,10 +205,38 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "1804"
++        ],
++        "distractors": [
++          "1799",
++          "1815",
++          "1852"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "1804",
++            "normalizedAnswer": "1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++            "sectionId": "le-1er-empire-1804-1815",
++            "sectionTitle": "Le 1er Empire (1804-1815)",
++            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++          }
++        ],
+         "qualityFlags": []
+       }
+     }
+
+file update:
+diff --git a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+index 1e988072fcc9f0cf83232c69ca7d2c92e734312c..251e4c0ebee2583425486686465e310a28380bb6
+--- a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
++++ b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+@@ -1,9 +1,9 @@
+ {
+   "kind": "qcm_answer_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "naturalisation",
+   "batchId": "naturalisation-b001",
+-  "generatedAt": "2026-03-07T15:06:39.356Z",
++  "generatedAt": "2026-03-07T19:10:51Z",
+   "items": [
+     {
+       "kind": "answer_pool",
+@@ -25,10 +25,38 @@
+         "relatedFicheIds": [
+           "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
++        ],
++        "distractors": [
++          "Oui, s'ils sont majeurs même sans inscription locale",
++          "Non, ils votent seulement aux élections européennes",
++          "Non, ils votent seulement dans leur pays d'origine"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
++            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
++            "evidence": [
++              {
++                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++                "sectionId": "les-conditions-pour-voter-en-france-1-2",
++                "sectionTitle": "Les conditions pour voter en France (1/2)",
++                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++            "sectionId": "les-conditions-pour-voter-en-france-1-2",
++            "sectionTitle": "Les conditions pour voter en France (1/2)",
++            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -56,10 +84,45 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Le Code civil de 1804"
++        ],
++        "distractors": [
++          "La Déclaration de 1789",
++          "La loi de 1905",
++          "La Constitution de 1958"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Le Code civil de 1804",
++            "normalizedAnswer": "le code civil de 1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
++              },
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++                "sectionId": "les-regimes-politiques",
++                "sectionTitle": "Les régimes politiques",
++                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++            "sectionId": "les-regimes-politiques",
++            "sectionTitle": "Les régimes politiques",
++            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -83,10 +146,38 @@
+         "relatedFicheIds": [
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Une école publique gratuite, laïque et obligatoire"
++        ],
++        "distractors": [
++          "Une école privée payante, religieuse et facultative",
++          "Une école militaire nationale, sélective et obligatoire",
++          "Une école locale, religieuse, sélective et payante"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Une école publique gratuite, laïque et obligatoire",
++            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++                "sectionId": "la-iiieme-republique-1870-1940",
++                "sectionTitle": "La IIIème République (1870-1940)",
++                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++            "sectionId": "la-iiieme-republique-1870-1940",
++            "sectionTitle": "La IIIème République (1870-1940)",
++            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -114,10 +205,38 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "1804"
++        ],
++        "distractors": [
++          "1799",
++          "1815",
++          "1852"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "1804",
++            "normalizedAnswer": "1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++            "sectionId": "le-1er-empire-1804-1815",
++            "sectionTitle": "Le 1er Empire (1804-1815)",
++            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++          }
++        ],
+         "qualityFlags": []
+       }
+     }
+
+
+thinking
+**Fixing quote issues**
+
+I need to consider that if any quotes aren't found due to accents or formatting, I'll need to fix that. I plan to run a command to read the section index and batch file, implementing normalization and ensuring exact inclusion. Also, I need to check that I have one correct answer with three distractors and that the workflow status is marked as completed. Sounds good! Let's get to it!
+codex
+The batch file is written. I’m doing a read-only consistency pass now against the section index: counts, evidence presence, and whether each quote resolves to the referenced section without creating any extra output artifacts.
+exec
+/bin/zsh -lc "node - <<'NODE'
+const fs = require('fs');
+const batch = JSON.parse(fs.readFileSync('data-init/suggestions/answer-pools.pending.naturalisation-b001.json','utf8'));
+const idx = JSON.parse(fs.readFileSync('data-init/fiches-section-index.json','utf8'));
+const map = new Map(idx.sections.map(s => ["'`${s.contentPath}#${s.sectionId}`, s]));
+const normalize = (text) => String(text || '"'')
+  .toLowerCase()
+  .normalize('NFD')
+  .replace(/[\\u0300-\\u036f]/g, '')
+  .replace(/[’']/g, ' ')
+  .replace(/["'^'"\\w\\s.:-]/g, ' ')
+  .replace(/\\s+/g, ' ')
+  .trim();
+const problems = [];
+if (batch.workflowStatus "'!== '"'completed') problems.push('workflowStatus not completed');
+for (const item of batch.items || []) {
+  if (item.accepted "'!== false) problems.push(`${item.questionId}: accepted must be false`);
+  const s = item.suggestion || {};
+  if (!Array.isArray(s.correct) || s.correct.length !== 1) problems.push(`${item.questionId}: correct count`);
+  if (!Array.isArray(s.distractors) || s.distractors.length !== 3) problems.push(`${item.questionId}: distractor count`);
+  if (!Array.isArray(s.answerEvidence) || s.answerEvidence.length !== 1) problems.push(`${item.questionId}: answerEvidence rows`);
+  if (!Array.isArray(s.questionEvidence) || s.questionEvidence.length < 1) problems.push(`${item.questionId}: questionEvidence missing`);
+  for (const row of s.answerEvidence || []) {
+    if (normalize(row.answerText) !== normalize(row.normalizedAnswer)) {
+      problems.push(`${item.questionId}: normalizedAnswer mismatch for ${row.answerText}`);
+    }
+    for (const ev of row.evidence || []) {
+      const section = map.get(`${ev.contentPath}#${ev.sectionId}`);
+      if (!section) {
+        problems.push(`${item.questionId}: missing section ${ev.contentPath}#${ev.sectionId}`);
+        continue;
+      }
+      if (!normalize(section.sectionText).includes(normalize(ev.quote))) {
+        problems.push(`${item.questionId}: answer quote not found in ${ev.contentPath}#${ev.sectionId}`);
+      }
+    }
+  }
+  for (const ev of s.questionEvidence || []) {
+    const section = map.get(`${ev.contentPath}#${ev.sectionId}`);
+    if (!section) {
+      problems.push(`${item.questionId}: missing question section ${ev.contentPath}#${ev.sectionId}`);
+      continue;
+    }
+    if (!normalize(section.sectionText).includes(normalize(ev.quote))) {
+      problems.push(`${item.questionId}: question quote not found in ${ev.contentPath}#${ev.sectionId}`);
+    }
+  }
+}
+if (problems.length) {
+  console.log(JSON.stringify({ok:false, problems}, null, 2));
+  process.exit(1);
+}
+console.log(JSON.stringify({ok:true, items:batch.items.length, skipped:(batch.skipped||[]).length}, null, 2));
+NODE' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 89ms:
+{
+  "ok": true,
+  "items": 4,
+  "skipped": 0
+}
+file update:
+diff --git a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+index 1e988072fcc9f0cf83232c69ca7d2c92e734312c..251e4c0ebee2583425486686465e310a28380bb6
+--- a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
++++ b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+@@ -1,9 +1,9 @@
+ {
+   "kind": "qcm_answer_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "naturalisation",
+   "batchId": "naturalisation-b001",
+-  "generatedAt": "2026-03-07T15:06:39.356Z",
++  "generatedAt": "2026-03-07T19:10:51Z",
+   "items": [
+     {
+       "kind": "answer_pool",
+@@ -25,10 +25,38 @@
+         "relatedFicheIds": [
+           "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
++        ],
++        "distractors": [
++          "Oui, s'ils sont majeurs même sans inscription locale",
++          "Non, ils votent seulement aux élections européennes",
++          "Non, ils votent seulement dans leur pays d'origine"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
++            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
++            "evidence": [
++              {
++                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++                "sectionId": "les-conditions-pour-voter-en-france-1-2",
++                "sectionTitle": "Les conditions pour voter en France (1/2)",
++                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++            "sectionId": "les-conditions-pour-voter-en-france-1-2",
++            "sectionTitle": "Les conditions pour voter en France (1/2)",
++            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -56,10 +84,45 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Le Code civil de 1804"
++        ],
++        "distractors": [
++          "La Déclaration de 1789",
++          "La loi de 1905",
++          "La Constitution de 1958"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Le Code civil de 1804",
++            "normalizedAnswer": "le code civil de 1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
++              },
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++                "sectionId": "les-regimes-politiques",
++                "sectionTitle": "Les régimes politiques",
++                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++            "sectionId": "les-regimes-politiques",
++            "sectionTitle": "Les régimes politiques",
++            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -83,10 +146,38 @@
+         "relatedFicheIds": [
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Une école publique gratuite, laïque et obligatoire"
++        ],
++        "distractors": [
++          "Une école privée payante, religieuse et facultative",
++          "Une école militaire nationale, sélective et obligatoire",
++          "Une école locale, religieuse, sélective et payante"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Une école publique gratuite, laïque et obligatoire",
++            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++                "sectionId": "la-iiieme-republique-1870-1940",
++                "sectionTitle": "La IIIème République (1870-1940)",
++                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++            "sectionId": "la-iiieme-republique-1870-1940",
++            "sectionTitle": "La IIIème République (1870-1940)",
++            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -114,10 +205,38 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "1804"
++        ],
++        "distractors": [
++          "1799",
++          "1815",
++          "1852"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "1804",
++            "normalizedAnswer": "1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++            "sectionId": "le-1er-empire-1804-1815",
++            "sectionTitle": "Le 1er Empire (1804-1815)",
++            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++          }
++        ],
+         "qualityFlags": []
+       }
+     }
+
+
+thinking
+**Updating workflow states**
+
+I think it's time to refresh the workflow state again. I should probably first update the plan statuses: Step 1 is completed, Step 2 is completed, Step 3 is completed, and Step 4 is currently in progress. Keeping everything organized like this really helps in tracking progress effectively. I want to make sure I have the most accurate information so that I can maintain a clear overview of where things stand!
+Plan update
+The batch file is filled and passed a read-only consistency check against the fiche section index. Refreshing workflow state is the last remaining step.
+  ✓ Refresh workflow state and inspect the target scaffold batch file
+  ✓ Read the selected questions and linked fiche evidence needed for natx001-natx004
+  ✓ Fill the scaffold with answer pools or skips, set workflowStatus to completed, and verify shape
+  → Refresh workflow state again and summarize the result
+file update:
+diff --git a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+index 1e988072fcc9f0cf83232c69ca7d2c92e734312c..251e4c0ebee2583425486686465e310a28380bb6
+--- a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
++++ b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+@@ -1,9 +1,9 @@
+ {
+   "kind": "qcm_answer_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "naturalisation",
+   "batchId": "naturalisation-b001",
+-  "generatedAt": "2026-03-07T15:06:39.356Z",
++  "generatedAt": "2026-03-07T19:10:51Z",
+   "items": [
+     {
+       "kind": "answer_pool",
+@@ -25,10 +25,38 @@
+         "relatedFicheIds": [
+           "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
++        ],
++        "distractors": [
++          "Oui, s'ils sont majeurs même sans inscription locale",
++          "Non, ils votent seulement aux élections européennes",
++          "Non, ils votent seulement dans leur pays d'origine"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
++            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
++            "evidence": [
++              {
++                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++                "sectionId": "les-conditions-pour-voter-en-france-1-2",
++                "sectionTitle": "Les conditions pour voter en France (1/2)",
++                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++            "sectionId": "les-conditions-pour-voter-en-france-1-2",
++            "sectionTitle": "Les conditions pour voter en France (1/2)",
++            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -56,10 +84,45 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Le Code civil de 1804"
++        ],
++        "distractors": [
++          "La Déclaration de 1789",
++          "La loi de 1905",
++          "La Constitution de 1958"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Le Code civil de 1804",
++            "normalizedAnswer": "le code civil de 1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
++              },
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++                "sectionId": "les-regimes-politiques",
++                "sectionTitle": "Les régimes politiques",
++                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++            "sectionId": "les-regimes-politiques",
++            "sectionTitle": "Les régimes politiques",
++            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -83,10 +146,38 @@
+         "relatedFicheIds": [
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Une école publique gratuite, laïque et obligatoire"
++        ],
++        "distractors": [
++          "Une école privée payante, religieuse et facultative",
++          "Une école militaire nationale, sélective et obligatoire",
++          "Une école locale, religieuse, sélective et payante"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Une école publique gratuite, laïque et obligatoire",
++            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++                "sectionId": "la-iiieme-republique-1870-1940",
++                "sectionTitle": "La IIIème République (1870-1940)",
++                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++            "sectionId": "la-iiieme-republique-1870-1940",
++            "sectionTitle": "La IIIème République (1870-1940)",
++            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -114,10 +205,38 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "1804"
++        ],
++        "distractors": [
++          "1799",
++          "1815",
++          "1852"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "1804",
++            "normalizedAnswer": "1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++            "sectionId": "le-1er-empire-1804-1815",
++            "sectionTitle": "Le 1er Empire (1804-1815)",
++            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++          }
++        ],
+         "qualityFlags": []
+       }
+     }
+
+exec
+/bin/zsh -lc 'node scripts/sync-qcm-workflow-state.mjs' in /Users/flow/Documents/github/repositories/formation-civique succeeded in 68ms:
+State: /Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json
+Updated: 2026-03-07T19:14:23.490Z
+Phase: linking
+Next action: continue_linking
+Frontend: not_ready
+Counts: total=657, linked=651, drafted=362, applied=358
+- cr: linking=completed, questions=209, linked=209, ready=149, drafted=0, applied=60
+- csp: linking=in_progress, questions=190, linked=184, ready=140, drafted=0, applied=44
+- naturalisation: linking=completed, questions=258, linked=258, ready=0, drafted=4, applied=254
+file update:
+diff --git a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+index 1e988072fcc9f0cf83232c69ca7d2c92e734312c..251e4c0ebee2583425486686465e310a28380bb6
+--- a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
++++ b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+@@ -1,9 +1,9 @@
+ {
+   "kind": "qcm_answer_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "naturalisation",
+   "batchId": "naturalisation-b001",
+-  "generatedAt": "2026-03-07T15:06:39.356Z",
++  "generatedAt": "2026-03-07T19:10:51Z",
+   "items": [
+     {
+       "kind": "answer_pool",
+@@ -25,10 +25,38 @@
+         "relatedFicheIds": [
+           "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
++        ],
++        "distractors": [
++          "Oui, s'ils sont majeurs même sans inscription locale",
++          "Non, ils votent seulement aux élections européennes",
++          "Non, ils votent seulement dans leur pays d'origine"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
++            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
++            "evidence": [
++              {
++                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++                "sectionId": "les-conditions-pour-voter-en-france-1-2",
++                "sectionTitle": "Les conditions pour voter en France (1/2)",
++                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++            "sectionId": "les-conditions-pour-voter-en-france-1-2",
++            "sectionTitle": "Les conditions pour voter en France (1/2)",
++            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -56,10 +84,45 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Le Code civil de 1804"
++        ],
++        "distractors": [
++          "La Déclaration de 1789",
++          "La loi de 1905",
++          "La Constitution de 1958"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Le Code civil de 1804",
++            "normalizedAnswer": "le code civil de 1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
++              },
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++                "sectionId": "les-regimes-politiques",
++                "sectionTitle": "Les régimes politiques",
++                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++            "sectionId": "les-regimes-politiques",
++            "sectionTitle": "Les régimes politiques",
++            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -83,10 +146,38 @@
+         "relatedFicheIds": [
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Une école publique gratuite, laïque et obligatoire"
++        ],
++        "distractors": [
++          "Une école privée payante, religieuse et facultative",
++          "Une école militaire nationale, sélective et obligatoire",
++          "Une école locale, religieuse, sélective et payante"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Une école publique gratuite, laïque et obligatoire",
++            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++                "sectionId": "la-iiieme-republique-1870-1940",
++                "sectionTitle": "La IIIème République (1870-1940)",
++                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++            "sectionId": "la-iiieme-republique-1870-1940",
++            "sectionTitle": "La IIIème République (1870-1940)",
++            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -114,10 +205,38 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "1804"
++        ],
++        "distractors": [
++          "1799",
++          "1815",
++          "1852"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "1804",
++            "normalizedAnswer": "1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++            "sectionId": "le-1er-empire-1804-1815",
++            "sectionTitle": "Le 1er Empire (1804-1815)",
++            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++          }
++        ],
+         "qualityFlags": []
+       }
+     }
+
+
+thinking
+**Considering git updates**
+
+I think I should inspect the git diff, but I'm not sure if it's entirely necessary. I could mention which files changed and that the state is updated, just for clarity. If it helps, I could also update the plan to show that it's completed. I want to make sure I'm providing a comprehensive overview while keeping things simple and straightforward.
+Plan update
+  ✓ Refresh workflow state and inspect the target scaffold batch file
+  ✓ Read the selected questions and linked fiche evidence needed for natx001-natx004
+  ✓ Fill the scaffold with answer pools or skips, set workflowStatus to completed, and verify shape
+  ✓ Refresh workflow state again and summarize the result
+file update:
+diff --git a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+index 1e988072fcc9f0cf83232c69ca7d2c92e734312c..251e4c0ebee2583425486686465e310a28380bb6
+--- a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
++++ b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+@@ -1,9 +1,9 @@
+ {
+   "kind": "qcm_answer_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "naturalisation",
+   "batchId": "naturalisation-b001",
+-  "generatedAt": "2026-03-07T15:06:39.356Z",
++  "generatedAt": "2026-03-07T19:10:51Z",
+   "items": [
+     {
+       "kind": "answer_pool",
+@@ -25,10 +25,38 @@
+         "relatedFicheIds": [
+           "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
++        ],
++        "distractors": [
++          "Oui, s'ils sont majeurs même sans inscription locale",
++          "Non, ils votent seulement aux élections européennes",
++          "Non, ils votent seulement dans leur pays d'origine"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
++            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
++            "evidence": [
++              {
++                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++                "sectionId": "les-conditions-pour-voter-en-france-1-2",
++                "sectionTitle": "Les conditions pour voter en France (1/2)",
++                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++            "sectionId": "les-conditions-pour-voter-en-france-1-2",
++            "sectionTitle": "Les conditions pour voter en France (1/2)",
++            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -56,10 +84,45 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Le Code civil de 1804"
++        ],
++        "distractors": [
++          "La Déclaration de 1789",
++          "La loi de 1905",
++          "La Constitution de 1958"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Le Code civil de 1804",
++            "normalizedAnswer": "le code civil de 1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
++              },
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++                "sectionId": "les-regimes-politiques",
++                "sectionTitle": "Les régimes politiques",
++                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++            "sectionId": "les-regimes-politiques",
++            "sectionTitle": "Les régimes politiques",
++            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -83,10 +146,38 @@
+         "relatedFicheIds": [
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Une école publique gratuite, laïque et obligatoire"
++        ],
++        "distractors": [
++          "Une école privée payante, religieuse et facultative",
++          "Une école militaire nationale, sélective et obligatoire",
++          "Une école locale, religieuse, sélective et payante"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Une école publique gratuite, laïque et obligatoire",
++            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++                "sectionId": "la-iiieme-republique-1870-1940",
++                "sectionTitle": "La IIIème République (1870-1940)",
++                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++            "sectionId": "la-iiieme-republique-1870-1940",
++            "sectionTitle": "La IIIème République (1870-1940)",
++            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -114,10 +205,38 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "1804"
++        ],
++        "distractors": [
++          "1799",
++          "1815",
++          "1852"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "1804",
++            "normalizedAnswer": "1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++            "sectionId": "le-1er-empire-1804-1815",
++            "sectionTitle": "Le 1er Empire (1804-1815)",
++            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++          }
++        ],
+         "qualityFlags": []
+       }
+     }
+
+codex
+The batch file was completed in place at [answer-pools.pending.naturalisation-b001.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.naturalisation-b001.json). I filled all 4 `naturalisation` items, kept `accepted: false`, set `workflowStatus` to `completed`, and did not touch `data-init/question-bank.json` or create another batch output file.
+
+I also ran a read-only consistency check against `data-init/fiches-section-index.json`: JSON parsed, each item has exactly 1 correct answer and 3 distractors, and every evidence quote resolves to the referenced section. After the final state refresh, [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) shows `naturalisation: ready=0, drafted=4, applied=254`.
+file update:
+diff --git a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+index 1e988072fcc9f0cf83232c69ca7d2c92e734312c..251e4c0ebee2583425486686465e310a28380bb6
+--- a/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
++++ b/data-init/suggestions/answer-pools.pending.naturalisation-b001.json
+@@ -1,9 +1,9 @@
+ {
+   "kind": "qcm_answer_batch",
+-  "workflowStatus": "scaffold",
++  "workflowStatus": "completed",
+   "sourceKey": "naturalisation",
+   "batchId": "naturalisation-b001",
+-  "generatedAt": "2026-03-07T15:06:39.356Z",
++  "generatedAt": "2026-03-07T19:10:51Z",
+   "items": [
+     {
+       "kind": "answer_pool",
+@@ -25,10 +25,38 @@
+         "relatedFicheIds": [
+           "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Oui, s'ils y résident et sont inscrits sur la liste électorale"
++        ],
++        "distractors": [
++          "Oui, s'ils sont majeurs même sans inscription locale",
++          "Non, ils votent seulement aux élections européennes",
++          "Non, ils votent seulement dans leur pays d'origine"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Oui, s'ils y résident et sont inscrits sur la liste électorale",
++            "normalizedAnswer": "oui s ils y resident et sont inscrits sur la liste electorale",
++            "evidence": [
++              {
++                "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++                "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++                "sectionId": "les-conditions-pour-voter-en-france-1-2",
++                "sectionTitle": "Les conditions pour voter en France (1/2)",
++                "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
++            "contentPath": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
++            "sectionId": "les-conditions-pour-voter-en-france-1-2",
++            "sectionTitle": "Les conditions pour voter en France (1/2)",
++            "quote": "Un ressortissant d'un pays membre de l'Union européenne, résidant en France, a le droit de vote aux élections européennes (inscription aux listes électorales requise) et aux élections municipales (s'il habite dans la même ville depuis plus de 6 mois et y est inscrit sur la liste électorale)"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -56,10 +84,45 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Le Code civil de 1804"
++        ],
++        "distractors": [
++          "La Déclaration de 1789",
++          "La loi de 1905",
++          "La Constitution de 1958"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Le Code civil de 1804",
++            "normalizedAnswer": "le code civil de 1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Le citoyen conserve l'égalité devant la loi, garantie par le Code civil de 1804"
++              },
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++                "sectionId": "les-regimes-politiques",
++                "sectionTitle": "Les régimes politiques",
++                "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
++            "sectionId": "les-regimes-politiques",
++            "sectionTitle": "Les régimes politiques",
++            "quote": "1804-1814 : 1er Empire. Napoléon promulgue le Code civil ;"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -83,10 +146,38 @@
+         "relatedFicheIds": [
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "Une école publique gratuite, laïque et obligatoire"
++        ],
++        "distractors": [
++          "Une école privée payante, religieuse et facultative",
++          "Une école militaire nationale, sélective et obligatoire",
++          "Une école locale, religieuse, sélective et payante"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "Une école publique gratuite, laïque et obligatoire",
++            "normalizedAnswer": "une ecole publique gratuite laique et obligatoire",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++                "sectionId": "la-iiieme-republique-1870-1940",
++                "sectionTitle": "La IIIème République (1870-1940)",
++                "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
++            "sectionId": "la-iiieme-republique-1870-1940",
++            "sectionTitle": "La IIIème République (1870-1940)",
++            "quote": "Elle généralise l'école publique gratuite en 1881 et l'école laïque et obligatoire en 1882, grâce aux lois de Jules Ferry"
++          }
++        ],
+         "qualityFlags": []
+       }
+     },
+@@ -114,10 +205,38 @@
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+           "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques"
+         ],
+-        "correct": [],
+-        "distractors": [],
+-        "answerEvidence": [],
+-        "questionEvidence": [],
++        "correct": [
++          "1804"
++        ],
++        "distractors": [
++          "1799",
++          "1815",
++          "1852"
++        ],
++        "answerEvidence": [
++          {
++            "answerText": "1804",
++            "normalizedAnswer": "1804",
++            "evidence": [
++              {
++                "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++                "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++                "sectionId": "le-1er-empire-1804-1815",
++                "sectionTitle": "Le 1er Empire (1804-1815)",
++                "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++              }
++            ]
++          }
++        ],
++        "questionEvidence": [
++          {
++            "ficheId": "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
++            "contentPath": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
++            "sectionId": "le-1er-empire-1804-1815",
++            "sectionTitle": "Le 1er Empire (1804-1815)",
++            "quote": "Il commence le 18 mai 1804, date à laquelle Napoléon est nommé empereur"
++          }
++        ],
+         "qualityFlags": []
+       }
+     }
+
+tokens used
+82 431

@@ -1,0 +1,23 @@
+{
+  "generatedAt": "2026-03-07T15:06:42.851451+00:00",
+  "repo": "/Users/flow/Documents/github/repositories/formation-civique",
+  "logDir": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T150638Z",
+  "sources": [],
+  "failures": [
+    {
+      "source": "cr",
+      "status": "failed",
+      "error": "Sub-agent failed for cr batch 1. See /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T150638Z/cr/batch-001.stdout.log and /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T150638Z/cr/batch-001.stderr.log."
+    },
+    {
+      "source": "csp",
+      "status": "failed",
+      "error": "Sub-agent failed for csp batch 1. See /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T150638Z/csp/batch-001.stdout.log and /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T150638Z/csp/batch-001.stderr.log."
+    },
+    {
+      "source": "naturalisation",
+      "status": "failed",
+      "error": "Sub-agent failed for naturalisation batch 1. See /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T150638Z/naturalisation/batch-001.stdout.log and /Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T150638Z/naturalisation/batch-001.stderr.log."
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import { QuestionEditor } from "@/components/question-editor.tsx";
 import { SuggestionPanel } from "@/components/suggestion-panel.tsx";
 import { useQuestions } from "@/hooks/use-questions.ts";
 import { useSuggestions } from "@/hooks/use-suggestions.ts";
-import type { QuestionBankItem, QualityFlag } from "@/types.ts";
+import type { QuestionBankItem, QualityFlag, SuggestionReviewFeedback } from "@/types.ts";
 
 function normalize(text: string): string {
   return text
@@ -24,12 +24,12 @@ function hasPoolIssue(q: QuestionBankItem): boolean {
   const distractors = q.answerPools?.distractors || [];
   const correctSet = new Set(correct.map((c) => normalize(c)));
   const overlap = distractors.some((d) => correctSet.has(normalize(d)));
-  return correct.length < 1 || distractors.length < 3 || overlap;
+  return correct.length !== 1 || distractors.length !== 3 || overlap;
 }
 
 export function App() {
-  const { questions, loading, error, patchQuestion, applySuggestion } = useQuestions();
-  const { suggestions } = useSuggestions();
+  const { questions, loading, error, patchQuestion, applySuggestion, applyLinkSuggestion } = useQuestions();
+  const { suggestions, saveSuggestionFeedback } = useSuggestions();
 
   // Filters
   const [query, setQuery] = useState("");
@@ -38,11 +38,13 @@ export function App() {
   const [status, setStatus] = useState("all");
   const [qualityFlag, setQualityFlag] = useState("all");
   const [poolFlag, setPoolFlag] = useState("all");
+  const [linkFlag, setLinkFlag] = useState("all");
 
   // Selection & editing
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [editing, setEditing] = useState(false);
   const [applying, setApplying] = useState(false);
+  const [savingFeedbackKey, setSavingFeedbackKey] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
 
   // Derived data
@@ -68,9 +70,12 @@ export function App() {
       const issue = hasPoolIssue(q);
       if (poolFlag === "issue" && !issue) return false;
       if (poolFlag === "ok" && issue) return false;
+      const hasLinks = (q.relatedFicheIds || []).length > 0;
+      if (linkFlag === "linked" && !hasLinks) return false;
+      if (linkFlag === "unlinked" && hasLinks) return false;
       return true;
     });
-  }, [questions, query, exam, themeId, status, qualityFlag, poolFlag]);
+  }, [questions, query, exam, themeId, status, qualityFlag, poolFlag, linkFlag]);
 
   const selected = useMemo(
     () => filtered.find((q) => q.id === selectedId) ?? null,
@@ -141,6 +146,42 @@ export function App() {
       }
     },
     [selected, applySuggestion, showToast],
+  );
+
+  const handleApplyLinkSuggestion = useCallback(
+    async (suggestion: unknown) => {
+      if (!selected) return;
+      setApplying(true);
+      try {
+        await applyLinkSuggestion(selected.id, suggestion);
+        showToast(`Applied fiche shortlist to ${selected.id}`);
+      } catch (err) {
+        showToast(`Error: ${err}`);
+      } finally {
+        setApplying(false);
+      }
+    },
+    [selected, applyLinkSuggestion, showToast],
+  );
+
+  const handleSaveSuggestionFeedback = useCallback(
+    async (
+      questionId: string,
+      sourceFile: string,
+      feedback: Omit<SuggestionReviewFeedback, "updatedAt" | "questionId" | "sourceFile">,
+    ) => {
+      const key = `${sourceFile}::${questionId}`;
+      setSavingFeedbackKey(key);
+      try {
+        await saveSuggestionFeedback(questionId, sourceFile, feedback);
+        showToast(`Saved review feedback for ${questionId}`);
+      } catch (err) {
+        showToast(`Error: ${err}`);
+      } finally {
+        setSavingFeedbackKey(null);
+      }
+    },
+    [saveSuggestionFeedback, showToast],
   );
 
   // Navigate to next/prev pending
@@ -268,6 +309,8 @@ export function App() {
           qualityFlags={allQualityFlags}
           poolFlag={poolFlag}
           onPoolFlagChange={setPoolFlag}
+          linkFlag={linkFlag}
+          onLinkFlagChange={setLinkFlag}
           counts={counts}
         />
       </div>
@@ -314,8 +357,11 @@ export function App() {
             <SuggestionPanel
               key={selected.id}
               suggestions={selectedSuggestions}
-              onApply={handleApplySuggestion}
+              onApplyAnswer={handleApplySuggestion}
+              onApplyLink={handleApplyLinkSuggestion}
               applying={applying}
+              savingFeedbackKey={savingFeedbackKey}
+              onSaveFeedback={handleSaveSuggestionFeedback}
             />
           )}
         </div>

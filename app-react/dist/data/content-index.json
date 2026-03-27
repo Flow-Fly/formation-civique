@@ -1,0 +1,1372 @@
+{
+  "themes": [
+    {
+      "id": "principes-et-valeurs",
+      "name": "Principes et valeurs de la République",
+      "subcategories": [
+        {
+          "id": "la-devise-de-la-republique",
+          "name": "La devise de la République",
+          "pages": [
+            {
+              "id": "la-devise-francaise",
+              "title": "La devise française",
+              "path": "principes-et-valeurs/la-devise-de-la-republique/la-devise-francaise.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-devise-de-la-republique--la-devise-francaise"
+              ]
+            },
+            {
+              "id": "la-liberte",
+              "title": "La liberté",
+              "path": "principes-et-valeurs/la-devise-de-la-republique/la-liberte.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-devise-de-la-republique--la-liberte"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "egalite",
+              "name": "L'égalité",
+              "pages": [
+                {
+                  "id": "egalite",
+                  "title": "L'égalité",
+                  "path": "principes-et-valeurs/la-devise-de-la-republique/egalite.md",
+                  "originalFicheIds": [
+                    "principes-et-valeurs--la-devise-de-la-republique--egalite-1",
+                    "principes-et-valeurs--la-devise-de-la-republique--egalite-2",
+                    "principes-et-valeurs--la-devise-de-la-republique--egalite-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fraternite",
+              "name": "La fraternité",
+              "pages": [
+                {
+                  "id": "fraternite",
+                  "title": "La fraternité",
+                  "path": "principes-et-valeurs/la-devise-de-la-republique/fraternite.md",
+                  "originalFicheIds": [
+                    "principes-et-valeurs--la-devise-de-la-republique--fraternite-1",
+                    "principes-et-valeurs--la-devise-de-la-republique--fraternite-2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "les-symboles-de-la-republique",
+          "name": "Les symboles de la République",
+          "pages": [
+            {
+              "id": "le-drapeau-français",
+              "title": "Le drapeau français",
+              "path": "principes-et-valeurs/les-symboles-de-la-republique/le-drapeau-français.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--les-symboles-de-la-republique--le-drapeau-fran%C3%A7ais"
+              ]
+            },
+            {
+              "id": "hymne-francais",
+              "title": "L'hymne français",
+              "path": "principes-et-valeurs/les-symboles-de-la-republique/hymne-francais.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--les-symboles-de-la-republique--hymne-francais"
+              ]
+            },
+            {
+              "id": "marianne",
+              "title": "Marianne",
+              "path": "principes-et-valeurs/les-symboles-de-la-republique/marianne.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--les-symboles-de-la-republique--marianne"
+              ]
+            },
+            {
+              "id": "la-fete-nationale",
+              "title": "La fête nationale",
+              "path": "principes-et-valeurs/les-symboles-de-la-republique/la-fete-nationale.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--les-symboles-de-la-republique--la-fete-nationale"
+              ]
+            },
+            {
+              "id": "le-coq",
+              "title": "Le coq",
+              "path": "principes-et-valeurs/les-symboles-de-la-republique/le-coq.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--les-symboles-de-la-republique--le-coq"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "la-laicite",
+          "name": "La laïcité",
+          "pages": [
+            {
+              "id": "histoire-de-la-laicite",
+              "title": "Histoire de la laïcité",
+              "path": "principes-et-valeurs/la-laicite/histoire-de-la-laicite.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-laicite--histoire-de-la-laicite"
+              ]
+            },
+            {
+              "id": "la-laicite-dans-espace-public",
+              "title": "La laïcité dans l'espace public",
+              "path": "principes-et-valeurs/la-laicite/la-laicite-dans-espace-public.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-laicite--la-laicite-dans-espace-public"
+              ]
+            },
+            {
+              "id": "la-laicite-dans-les-services-publics",
+              "title": "La laïcité dans les services publics",
+              "path": "principes-et-valeurs/la-laicite/la-laicite-dans-les-services-publics.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-laicite--la-laicite-dans-les-services-publics"
+              ]
+            },
+            {
+              "id": "le-proselytisme",
+              "title": "Le prosélytisme",
+              "path": "principes-et-valeurs/la-laicite/le-proselytisme.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-laicite--le-proselytisme"
+              ]
+            },
+            {
+              "id": "le-blaspheme",
+              "title": "Le blasphème",
+              "path": "principes-et-valeurs/la-laicite/le-blaspheme.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-laicite--le-blaspheme"
+              ]
+            },
+            {
+              "id": "la-laicite-au-travail",
+              "title": "La laïcité au travail",
+              "path": "principes-et-valeurs/la-laicite/la-laicite-au-travail.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-laicite--la-laicite-au-travail"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "definition-laicite",
+              "name": "La définition de la laïcité",
+              "pages": [
+                {
+                  "id": "definition-laicite",
+                  "title": "La définition de la laïcité",
+                  "path": "principes-et-valeurs/la-laicite/definition-laicite.md",
+                  "originalFicheIds": [
+                    "principes-et-valeurs--la-laicite--la-definition-de-la-laicite-1",
+                    "principes-et-valeurs--la-laicite--definition-laicite-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "laicite-ecole",
+              "name": "La laïcité à l'école",
+              "pages": [
+                {
+                  "id": "laicite-ecole",
+                  "title": "La laïcité à l'école",
+                  "path": "principes-et-valeurs/la-laicite/laicite-ecole.md",
+                  "originalFicheIds": [
+                    "principes-et-valeurs--la-laicite--la-laicite-a-ecole-1",
+                    "principes-et-valeurs--la-laicite--la-laicite-a-ecole-2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "la-langue-de-la-republique",
+          "name": "La langue de la République",
+          "pages": [
+            {
+              "id": "la-langue-française",
+              "title": "La langue française",
+              "path": "principes-et-valeurs/la-langue-de-la-republique/la-langue-française.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--la-langue-de-la-republique--la-langue-fran%C3%A7aise"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "le-contrat-d-engagement-a-respecter-les-principes-de-la-republique",
+          "name": "Le contrat d'engagement à respecter les principes de la République",
+          "pages": [
+            {
+              "id": "le-contrat-engagement-republicain",
+              "title": "Le contrat d'engagement républicain",
+              "path": "principes-et-valeurs/le-contrat-d-engagement-a-respecter-les-principes-de-la-republique/le-contrat-engagement-republicain.md",
+              "originalFicheIds": [
+                "principes-et-valeurs--le-contrat-d-engagement-a-respecter-les-principes-de-la-republique--le-contrat-engagement-republicain"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systeme-institutionnel",
+      "name": "Système institutionnel et politique",
+      "subcategories": [
+        {
+          "id": "etat-de-droit-et-separation-des-pouvoirs",
+          "name": "État de droit et séparation des pouvoirs",
+          "pages": [
+            {
+              "id": "etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+              "title": "État de droit et séparation des pouvoirs : présentation de l’État de droit et principe de la séparation des pouvoirs",
+              "path": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs.md",
+              "originalFicheIds": [
+                "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "presentation-3-pouvoirs",
+              "name": "Présentation des 3 pouvoirs",
+              "pages": [
+                {
+                  "id": "presentation-3-pouvoirs",
+                  "title": "Présentation des 3 pouvoirs",
+                  "path": "systeme-institutionnel/etat-de-droit-et-separation-des-pouvoirs/presentation-3-pouvoirs.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+                    "systeme-institutionnel--etat-de-droit-et-separation-des-pouvoirs--etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "democratie-et-droit-de-vote",
+          "name": "Démocratie et droit de vote",
+          "pages": [
+            {
+              "id": "democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+              "title": "Le principe de pluralité des partis",
+              "path": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis.md",
+              "originalFicheIds": [
+                "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "democratie-et-republique",
+              "name": "La démocratie et la République",
+              "pages": [
+                {
+                  "id": "democratie-et-republique",
+                  "title": "La démocratie et la République",
+                  "path": "systeme-institutionnel/democratie-et-droit-de-vote/democratie-et-republique.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+                    "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-la-democratie-et-la-republique-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "conditions-pour-voter",
+              "name": "Les conditions pour voter en France",
+              "pages": [
+                {
+                  "id": "conditions-pour-voter",
+                  "title": "Les conditions pour voter en France",
+                  "path": "systeme-institutionnel/democratie-et-droit-de-vote/conditions-pour-voter.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+                    "systeme-institutionnel--democratie-et-droit-de-vote--democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "comment-voter-une-loi",
+              "name": "Comment voter une loi",
+              "pages": [
+                {
+                  "id": "comment-voter-une-loi",
+                  "title": "Comment voter une loi",
+                  "path": "systeme-institutionnel/democratie-et-droit-de-vote/comment-voter-une-loi.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-1",
+                    "systeme-institutionnel--democratie-et-droit-de-vote--comment-voter-une-loi-2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "organisation-de-la-republique-francaise",
+          "name": "Organisation de la République Française",
+          "groups": [
+            {
+              "id": "decoupage-administratif",
+              "name": "Le découpage administratif de la France",
+              "pages": [
+                {
+                  "id": "decoupage-administratif",
+                  "title": "Le découpage administratif de la France",
+                  "path": "systeme-institutionnel/organisation-de-la-republique-francaise/decoupage-administratif.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-1",
+                    "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-2",
+                    "systeme-institutionnel--organisation-de-la-republique-francaise--le-decoupage-administratif-de-la-france-3"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "institutions-europeennes",
+          "name": "Institutions européennes",
+          "pages": [
+            {
+              "id": "les-etapes-cles-de-la-construction-europeenne",
+              "title": "Les étapes clés de la construction européenne",
+              "path": "systeme-institutionnel/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne.md",
+              "originalFicheIds": [
+                "systeme-institutionnel--institutions-europeennes--les-etapes-cles-de-la-construction-europeenne"
+              ]
+            },
+            {
+              "id": "les-elections-europeennes",
+              "title": "Les élections européennes",
+              "path": "systeme-institutionnel/institutions-europeennes/les-elections-europeennes.md",
+              "originalFicheIds": [
+                "systeme-institutionnel--institutions-europeennes--les-elections-europeennes"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "symboles-europeens",
+              "name": "Les symboles européens",
+              "pages": [
+                {
+                  "id": "symboles-europeens",
+                  "title": "Les symboles européens",
+                  "path": "systeme-institutionnel/institutions-europeennes/symboles-europeens.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-1",
+                    "systeme-institutionnel--institutions-europeennes--les-symboles-europeens-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fonctionnement-europeen",
+              "name": "Le fonctionnement européen",
+              "pages": [
+                {
+                  "id": "fonctionnement-europeen",
+                  "title": "Le fonctionnement européen",
+                  "path": "systeme-institutionnel/institutions-europeennes/fonctionnement-europeen.md",
+                  "originalFicheIds": [
+                    "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-1",
+                    "systeme-institutionnel--institutions-europeennes--le-fonctionnement-europeen-2"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "droits-et-devoirs",
+      "name": "Droits et devoirs",
+      "subcategories": [
+        {
+          "id": "droits-fondamentaux",
+          "name": "Droits fondamentaux",
+          "pages": [
+            {
+              "id": "introduction-aux-droits-fondamentaux",
+              "title": "Introduction aux droits fondamentaux",
+              "path": "droits-et-devoirs/droits-fondamentaux/introduction-aux-droits-fondamentaux.md",
+              "originalFicheIds": [
+                "droits-et-devoirs--droits-fondamentaux--introduction-aux-droits-fondamentaux"
+              ]
+            },
+            {
+              "id": "les-droits-inherents-a-la-personne-humaine",
+              "title": "Les droits liés à la personne humaine",
+              "path": "droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine.md",
+              "originalFicheIds": [
+                "droits-et-devoirs--droits-fondamentaux--les-droits-inherents-a-la-personne-humaine"
+              ]
+            },
+            {
+              "id": "droits-economiques-sociaux-troisieme-generation",
+              "title": "Les droits économiques et sociaux et les droits dits de troisième génération",
+              "path": "droits-et-devoirs/droits-fondamentaux/droits-economiques-sociaux-troisieme-generation.md",
+              "originalFicheIds": [
+                "droits-et-devoirs--droits-fondamentaux--droits-economiques-sociaux-troisieme-generation"
+              ]
+            },
+            {
+              "id": "la-diginite-humaine",
+              "title": "La dignité humaine",
+              "path": "droits-et-devoirs/droits-fondamentaux/la-diginite-humaine.md",
+              "originalFicheIds": [
+                "droits-et-devoirs--droits-fondamentaux--la-diginite-humaine"
+              ]
+            },
+            {
+              "id": "un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+              "title": "Un droit fondamental : le droit de disposer de son corps",
+              "path": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps.md",
+              "originalFicheIds": [
+                "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-le-droit-de-disposer-de-son-corps"
+              ]
+            },
+            {
+              "id": "les-libertes-au-sein-du-couple",
+              "title": "Les libertés au sein du couple",
+              "path": "droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple.md",
+              "originalFicheIds": [
+                "droits-et-devoirs--droits-fondamentaux--les-libertes-au-sein-du-couple"
+              ]
+            },
+            {
+              "id": "un-droit-fondamental-la-citoyennete",
+              "title": "La citoyenneté",
+              "path": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-la-citoyennete.md",
+              "originalFicheIds": [
+                "droits-et-devoirs--droits-fondamentaux--un-droit-fondamental-la-citoyennete"
+              ]
+            },
+            {
+              "id": "les-acteurs-institutionnels",
+              "title": "Les acteurs institutionnels",
+              "path": "droits-et-devoirs/droits-fondamentaux/les-acteurs-institutionnels.md",
+              "originalFicheIds": [
+                "droits-et-devoirs--droits-fondamentaux--les-acteurs-institutionnels"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "principaux-textes",
+              "name": "Présentation des principaux textes",
+              "pages": [
+                {
+                  "id": "principaux-textes",
+                  "title": "Présentation des principaux textes",
+                  "path": "droits-et-devoirs/droits-fondamentaux/principaux-textes.md",
+                  "originalFicheIds": [
+                    "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+                    "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-constitution-de-la-5-republique",
+                    "droits-et-devoirs--droits-fondamentaux--les-principaux-textes-la-charte-de-lenvironnement"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "obligations-et-devoirs-des-personnes-residant-en-france",
+          "name": "Obligations et devoirs des personnes résidant en France",
+          "groups": [
+            {
+              "id": "cadre-legal",
+              "name": "Cadre légal",
+              "pages": [
+                {
+                  "id": "cadre-legal",
+                  "title": "Cadre légal",
+                  "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/cadre-legal.md",
+                  "originalFicheIds": [
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-limite-des-libertes-individuelles",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-infractions",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--se-conformer-aux-lois-les-acteurs",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-resident-francais",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--les-obligations-en-tant-que-citoyen-francais"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "violences-et-protection",
+              "name": "Violences et protection",
+              "pages": [
+                {
+                  "id": "violences-et-protection",
+                  "title": "Violences et protection",
+                  "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/violences-et-protection.md",
+                  "originalFicheIds": [
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-de-toutes-les-formes-de-violences",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--l-interdiction-des-violences-faites-aux-enfants",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-des-mutilations-sexuelles-f%C3%A9minines",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--linterdiction-des-violences-sexuelles",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-traite-des-etres-humains-et-la-prostitution",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--la-protection-des-victimes-de-violences",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--le-role-des-temoins-en-cas-de-violences",
+                    "droits-et-devoirs--obligations-et-devoirs-des-personnes-residant-en-france--obligations-et-devoirs-des-personnes-residants-en-france-adopter-une-attitude-respectueuse-vis-a-vis-de-environnement"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "histoire-geographie-culture",
+      "name": "Histoire, géographie et culture",
+      "subcategories": [
+        {
+          "id": "les-regimes-politiques-depuis-1789",
+          "name": "Les régimes politiques depuis 1789",
+          "groups": [
+            {
+              "id": "avant-la-revolution",
+              "name": "Avant la Révolution",
+              "pages": [
+                {
+                  "id": "avant-la-revolution",
+                  "title": "Avant la Révolution",
+                  "path": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/avant-la-revolution.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--les-regimes-politiques",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--des-merovingiens-a-l-ancien-regime",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--l-ancien-regime-jusqu-en-1789"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "revolution-au-xixe",
+              "name": "De la Révolution au XIXe siècle",
+              "pages": [
+                {
+                  "id": "revolution-au-xixe",
+                  "title": "De la Révolution au XIXe siècle",
+                  "path": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/revolution-au-xixe.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-premiere-republique-1792-1804",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-consulat-1799-1804",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-1er-empire-1804-1815",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-restauration-et-la-monarchie-de-juillet-1815-1848",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-deuxieme-republique-1848-1851",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-2nd-empire-1852-1870"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "xxe-siecle",
+              "name": "XXe siècle à nos jours",
+              "pages": [
+                {
+                  "id": "xxe-siecle",
+                  "title": "XXe siècle à nos jours",
+                  "path": "histoire-geographie-culture/les-regimes-politiques-depuis-1789/xxe-siecle.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-troisieme-republique-1870-1940",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-regime-de-vichy-1940-1944",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--le-gouvernement-provisoire-de-la-republique-francaise-1944-1946",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-quatrieme-republique-1946-1958",
+                    "histoire-geographie-culture--les-regimes-politiques-depuis-1789--la-cinquieme-republique"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "la-veme-republique",
+          "name": "La Vème République",
+          "pages": [
+            {
+              "id": "les-presidents-de-la-cinquieme-republique",
+              "title": "Les présidents de la Vème République",
+              "path": "histoire-geographie-culture/la-veme-republique/les-presidents-de-la-cinquieme-republique.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-veme-republique--les-presidents-de-la-cinquieme-republique"
+              ]
+            },
+            {
+              "id": "focus-sur-la-cinquieme-republique-5",
+              "title": "Focus sur la Vème République : l'abolition de la peine de mort",
+              "path": "histoire-geographie-culture/la-veme-republique/focus-sur-la-cinquieme-republique-5.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-5"
+              ]
+            },
+            {
+              "id": "focus-sur-la-cinquieme-republique-le-droit-a-l-avortement",
+              "title": "Focus sur la Vème République : le droit à l'avortement",
+              "path": "histoire-geographie-culture/la-veme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-le-droit-a-l-avortement"
+              ]
+            },
+            {
+              "id": "focus-sur-la-cinquieme-republique-7",
+              "title": "Focus sur la Vème République : le mariage pour tous",
+              "path": "histoire-geographie-culture/la-veme-republique/focus-sur-la-cinquieme-republique-7.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-veme-republique--focus-sur-la-cinquieme-republique-7"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "les-conflits-mondiaux-et-le-nouvel-ordre-mondial",
+          "name": "Les conflits mondiaux et le nouvel ordre mondial",
+          "pages": [
+            {
+              "id": "la-premiere-guerre-mondiale-1",
+              "title": "La Première Guerre mondiale (1914-1918) : le contexte",
+              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-1"
+              ]
+            },
+            {
+              "id": "la-premiere-guerre-mondiale-2",
+              "title": "La Première Guerre mondiale (1914-1918) : les conséquences",
+              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-2.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-premiere-guerre-mondiale-2"
+              ]
+            },
+            {
+              "id": "la-seconde-guerre-mondiale-1939-1945-le-contexte",
+              "title": "La Seconde Guerre mondiale (1939-1945) : le contexte",
+              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1939-1945-le-contexte.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1939-1945-le-contexte"
+              ]
+            },
+            {
+              "id": "les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+              "title": "La Seconde Guerre mondiale (1939-1945) : les conséquences",
+              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences"
+              ]
+            },
+            {
+              "id": "la-decolonisation",
+              "title": "Recomposition de l’ordre mondial : la décolonisation",
+              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-decolonisation"
+              ]
+            },
+            {
+              "id": "la-construction-europeenne",
+              "title": "Recomposition de l’ordre mondial : la construction européenne",
+              "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-construction-europeenne"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "seconde-guerre-mondiale",
+              "name": "La Seconde Guerre mondiale (1939-1945)",
+              "pages": [
+                {
+                  "id": "seconde-guerre-mondiale",
+                  "title": "La Seconde Guerre mondiale (1939-1945)",
+                  "path": "histoire-geographie-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/seconde-guerre-mondiale.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-1",
+                    "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-2",
+                    "histoire-geographie-culture--les-conflits-mondiaux-et-le-nouvel-ordre-mondial--la-seconde-guerre-mondiale-3"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zoom-sur",
+          "name": "Zoom sur",
+          "pages": [
+            {
+              "id": "l-immigration",
+              "title": "L'immigration",
+              "path": "histoire-geographie-culture/zoom-sur/l-immigration.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--zoom-sur--l-immigration"
+              ]
+            },
+            {
+              "id": "focus-sur-la-seconde-guerre-mondiale-la-shoah",
+              "title": "Focus sur la Seconde Guerre mondiale - la Shoah",
+              "path": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-shoah"
+              ]
+            },
+            {
+              "id": "focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-libération",
+              "title": "Focus sur la Seconde Guerre mondiale - la Résistance et la Libération",
+              "path": "histoire-geographie-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-libération.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--zoom-sur--focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "territoire-francais-dans-le-temps",
+              "name": "Le territoire français dans le temps",
+              "pages": [
+                {
+                  "id": "territoire-francais-dans-le-temps",
+                  "title": "Le territoire français dans le temps",
+                  "path": "histoire-geographie-culture/zoom-sur/territoire-francais-dans-le-temps.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--zoom-sur--le-territoire-francais-dans-le-temps-1",
+                    "histoire-geographie-culture--zoom-sur--le-territoire-francais-dans-le-temps-2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "atlas-de-la-france",
+          "name": "Atlas de la France",
+          "pages": [
+            {
+              "id": "le-territoire-de-la-france",
+              "title": "Le territoire de la France",
+              "path": "histoire-geographie-culture/atlas-de-la-france/le-territoire-de-la-france.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--atlas-de-la-france--le-territoire-de-la-france"
+              ]
+            },
+            {
+              "id": "les-frontieres-de-la-france",
+              "title": "Les frontières de la France",
+              "path": "histoire-geographie-culture/atlas-de-la-france/les-frontieres-de-la-france.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--atlas-de-la-france--les-frontieres-de-la-france"
+              ]
+            },
+            {
+              "id": "les-fleuves-français",
+              "title": "Les fleuves français",
+              "path": "histoire-geographie-culture/atlas-de-la-france/les-fleuves-français.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--atlas-de-la-france--les-fleuves-fran%C3%A7ais"
+              ]
+            },
+            {
+              "id": "la-demographie-francaise",
+              "title": "La démographie française",
+              "path": "histoire-geographie-culture/atlas-de-la-france/la-demographie-francaise.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--atlas-de-la-france--la-demographie-francaise"
+              ]
+            },
+            {
+              "id": "la-france-aire-urbaine-et-metropolisation",
+              "title": "La France : aire urbaine et métropolisation",
+              "path": "histoire-geographie-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--atlas-de-la-france--la-france-aire-urbaine-et-metropolisation"
+              ]
+            },
+            {
+              "id": "la-france-terre-d-agriculture",
+              "title": "La France, terre d’agriculture",
+              "path": "histoire-geographie-culture/atlas-de-la-france/la-france-terre-d-agriculture.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--atlas-de-la-france--la-france-terre-d-agriculture"
+              ]
+            },
+            {
+              "id": "la-france-terre-industrielle",
+              "title": "La France, terre industrielle",
+              "path": "histoire-geographie-culture/atlas-de-la-france/la-france-terre-industrielle.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--atlas-de-la-france--la-france-terre-industrielle"
+              ]
+            },
+            {
+              "id": "l-economie-francaise",
+              "title": "L’économie française",
+              "path": "histoire-geographie-culture/atlas-de-la-france/l-economie-francaise.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--atlas-de-la-france--l-economie-francaise"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "la-france-dans-l-europe-et-dans-le-monde",
+          "name": "La France dans l'Europe et dans le monde",
+          "pages": [
+            {
+              "id": "la-france-dans-l-europe",
+              "title": "La France dans l'Europe",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-europe.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-europe"
+              ]
+            },
+            {
+              "id": "la-france-dans-la-circulation-europeenne",
+              "title": "La France dans la circulation européenne",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-la-circulation-europeenne.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-la-circulation-europeenne"
+              ]
+            },
+            {
+              "id": "la-france-dans-l-ecosysteme-naturel-europeen",
+              "title": "La France dans l’écosystème naturel européen",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-l-ecosysteme-naturel-europeen.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-l-ecosysteme-naturel-europeen"
+              ]
+            },
+            {
+              "id": "l-agriculture-francaise-en-europe",
+              "title": "L’agriculture française en Europe",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/l-agriculture-francaise-en-europe.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--l-agriculture-francaise-en-europe"
+              ]
+            },
+            {
+              "id": "la-france-dans-le-monde",
+              "title": "La France dans le monde",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/la-france-dans-le-monde.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--la-france-dans-le-monde"
+              ]
+            },
+            {
+              "id": "une-puissance-militaire-et-diplomatique",
+              "title": "Une puissance militaire et diplomatique",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/une-puissance-militaire-et-diplomatique.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-militaire-et-diplomatique"
+              ]
+            },
+            {
+              "id": "une-puissance-maritime",
+              "title": "Une puissance maritime",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/une-puissance-maritime.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-maritime"
+              ]
+            },
+            {
+              "id": "les-ports-francais",
+              "title": "Les ports français",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/les-ports-francais.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--les-ports-francais"
+              ]
+            },
+            {
+              "id": "un-systeme-aerien-au-cœur-du-reseau-mondial",
+              "title": "Un système aérien au cœur du réseau mondial",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/un-systeme-aerien-au-cœur-du-reseau-mondial.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--un-systeme-aerien-au-c%C5%93ur-du-reseau-mondial"
+              ]
+            },
+            {
+              "id": "une-puissance-touristique",
+              "title": "Une puissance touristique",
+              "path": "histoire-geographie-culture/la-france-dans-l-europe-et-dans-le-monde/une-puissance-touristique.md",
+              "originalFicheIds": [
+                "histoire-geographie-culture--la-france-dans-l-europe-et-dans-le-monde--une-puissance-touristique"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "les-regions-francaises",
+          "name": "Les régions françaises",
+          "groups": [
+            {
+              "id": "metropole",
+              "name": "France métropolitaine",
+              "pages": [
+                {
+                  "id": "metropole",
+                  "title": "France métropolitaine",
+                  "path": "histoire-geographie-culture/les-regions-francaises/metropole.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--les-regions-francaises--auvergne-rhone-alpes",
+                    "histoire-geographie-culture--les-regions-francaises--bourgogne-franche-comte",
+                    "histoire-geographie-culture--les-regions-francaises--bretagne",
+                    "histoire-geographie-culture--les-regions-francaises--centre-val-de-loire",
+                    "histoire-geographie-culture--les-regions-francaises--corse",
+                    "histoire-geographie-culture--les-regions-francaises--grand-est",
+                    "histoire-geographie-culture--les-regions-francaises--hauts-de-france",
+                    "histoire-geographie-culture--les-regions-francaises--ile-de-france",
+                    "histoire-geographie-culture--les-regions-francaises--normandie",
+                    "histoire-geographie-culture--les-regions-francaises--nouvelle-aquitaine",
+                    "histoire-geographie-culture--les-regions-francaises--occitanie",
+                    "histoire-geographie-culture--les-regions-francaises--pays-de-la-loire",
+                    "histoire-geographie-culture--les-regions-francaises--provence-alpes-cote-d-azur"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "outre-mer",
+              "name": "Outre-mer",
+              "pages": [
+                {
+                  "id": "outre-mer",
+                  "title": "Outre-mer",
+                  "path": "histoire-geographie-culture/les-regions-francaises/outre-mer.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--les-regions-francaises--guadeloupe",
+                    "histoire-geographie-culture--les-regions-francaises--martinique",
+                    "histoire-geographie-culture--les-regions-francaises--guyane",
+                    "histoire-geographie-culture--les-regions-francaises--la-reunion",
+                    "histoire-geographie-culture--les-regions-francaises--mayotte"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "culture",
+          "name": "Culture",
+          "groups": [
+            {
+              "id": "puissance-et-langue",
+              "name": "Puissance et langue",
+              "pages": [
+                {
+                  "id": "puissance-et-langue",
+                  "title": "Puissance et langue",
+                  "path": "histoire-geographie-culture/culture/puissance-et-langue.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--culture--une-puissance-culturelle",
+                    "histoire-geographie-culture--culture--patrimoine-francais-la-langue-francaise-dans-le-monde"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sites-et-gastronomie",
+              "name": "Sites emblématiques et gastronomie",
+              "pages": [
+                {
+                  "id": "sites-et-gastronomie",
+                  "title": "Sites emblématiques et gastronomie",
+                  "path": "histoire-geographie-culture/culture/sites-et-gastronomie.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-auvergne-rhone-alpes",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-bourgogne-franche-comte",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-bretagne",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-dans-le-centre-val-de-loire",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-du-grand-est",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-des-hauts-de-france",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-ile-de-france",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-normandie",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-nouvelle-aquitaine",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-d-occitanie",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-des-pays-de-la-loire",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-provence-alpes-cote-azur",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-guadeloupe",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-martinique",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-guyane",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-la-reunion",
+                    "histoire-geographie-culture--culture--patrimoine-francais-sites-emblematiques-et-gastronomie-de-mayotte"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "artistes-emblematiques",
+              "name": "Artistes emblématiques",
+              "pages": [
+                {
+                  "id": "artistes-emblematiques",
+                  "title": "Artistes emblématiques",
+                  "path": "histoire-geographie-culture/culture/artistes-emblematiques.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-1",
+                    "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-2",
+                    "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-auteurs-3",
+                    "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-peintres",
+                    "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-dans-univers-musique",
+                    "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-parmi-les-sculpteurs",
+                    "histoire-geographie-culture--culture--patrimoine-francais-artistes-emblematiques-devenus-francais"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "culture-et-citoyennete",
+              "name": "Culture et citoyenneté",
+              "pages": [
+                {
+                  "id": "culture-et-citoyennete",
+                  "title": "Culture et citoyenneté",
+                  "path": "histoire-geographie-culture/culture/culture-et-citoyennete.md",
+                  "originalFicheIds": [
+                    "histoire-geographie-culture--culture--patrimoine-francais-le-citoyen-acteur-et-conservateur-de-la-culture-en-france",
+                    "histoire-geographie-culture--culture--patrimoine-francais-acces-a-la-culture"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vivre-societe-francaise",
+      "name": "Vivre dans la société française",
+      "subcategories": [
+        {
+          "id": "demarches-administratives",
+          "name": "Démarches administratives",
+          "groups": [
+            {
+              "id": "quotidien",
+              "name": "Démarches du quotidien",
+              "pages": [
+                {
+                  "id": "quotidien",
+                  "title": "Démarches du quotidien",
+                  "path": "vivre-societe-francaise/demarches-administratives/quotidien.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-la-domiciliation",
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-louverture-dun-compte-bancaire",
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-le-permis-de-conduire-2",
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-du-quotidien-comme-lassurance-responsabilite-civile"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "etat-civil-et-nationalite",
+              "name": "État civil et nationalité",
+              "pages": [
+                {
+                  "id": "etat-civil-et-nationalite",
+                  "title": "État civil et nationalité",
+                  "path": "vivre-societe-francaise/demarches-administratives/etat-civil-et-nationalite.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--demarches-administratives--l-impot-en-france-et-la-declaration-de-revenus",
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-sejour-en-france",
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-dacces-a-la-nationalite-francaise",
+                    "vivre-societe-francaise--demarches-administratives--la-declaration-de-naissance",
+                    "vivre-societe-francaise--demarches-administratives--la-declaration-de-mariage",
+                    "vivre-societe-francaise--demarches-administratives--la-declaration-de-deces"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "logement-et-urgences",
+              "name": "Logement et urgences",
+              "pages": [
+                {
+                  "id": "logement-et-urgences",
+                  "title": "Logement et urgences",
+                  "path": "vivre-societe-francaise/demarches-administratives/logement-et-urgences.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-1",
+                    "vivre-societe-francaise--demarches-administratives--les-demarches-relatives-au-logement-2",
+                    "vivre-societe-francaise--demarches-administratives--annexe-les-numeros-durgence"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sante",
+          "name": "Santé",
+          "groups": [
+            {
+              "id": "acces-aux-soins",
+              "name": "Accès aux soins",
+              "pages": [
+                {
+                  "id": "acces-aux-soins",
+                  "title": "Accès aux soins",
+                  "path": "vivre-societe-francaise/sante/acces-aux-soins.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--sante--acces-aux-soins-le-parcours-de-sante",
+                    "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-generaliste",
+                    "vivre-societe-francaise--sante--acces-aux-soins-le-medecin-specialiste",
+                    "vivre-societe-francaise--sante--acces-aux-soins-les-structures-d-accueil-gratuites",
+                    "vivre-societe-francaise--sante--acces-aux-soins-services-et-numeros-d-urgence",
+                    "vivre-societe-francaise--sante--acces-aux-soins-les-medecins-et-pharmacies-de-garde"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prise-en-charge",
+              "name": "Prise en charge",
+              "pages": [
+                {
+                  "id": "prise-en-charge",
+                  "title": "Prise en charge",
+                  "path": "vivre-societe-francaise/sante/prise-en-charge.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--sante--la-prise-en-charge-les-differentes-couvertures-maladie",
+                    "vivre-societe-francaise--sante--sante-la-prise-en-charge-en-cas-de-enouvellement-du-titre-de-sejour",
+                    "vivre-societe-francaise--sante--sante-la-prise-en-charge-les-demarches-pour-etre-rembourse",
+                    "vivre-societe-francaise--sante--la-prise-en-charge-les-demarches-pour-acceder-a-la-protection-universelle-maladie",
+                    "vivre-societe-francaise--sante--sante-la-prise-en-charge-durant-la-maternite",
+                    "vivre-societe-francaise--sante--sante-les-droits-du-patient"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "prevention",
+              "name": "Prévention",
+              "pages": [
+                {
+                  "id": "prevention",
+                  "title": "Prévention",
+                  "path": "vivre-societe-francaise/sante/prevention.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-1",
+                    "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-2",
+                    "vivre-societe-francaise--sante--prevention-et-promotion-de-la-sante-la-sante-mentale"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "emploi",
+          "name": "Emploi",
+          "groups": [
+            {
+              "id": "orientation",
+              "name": "Orientation",
+              "pages": [
+                {
+                  "id": "orientation",
+                  "title": "Orientation",
+                  "path": "vivre-societe-francaise/emploi/orientation.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--emploi--orientation-1",
+                    "vivre-societe-francaise--emploi--orientation-2",
+                    "vivre-societe-francaise--emploi--orientation-3",
+                    "vivre-societe-francaise--emploi--orientation-4",
+                    "vivre-societe-francaise--emploi--orientation-5"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "formation",
+              "name": "Formation",
+              "pages": [
+                {
+                  "id": "formation",
+                  "title": "Formation",
+                  "path": "vivre-societe-francaise/emploi/formation.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--emploi--formation-1",
+                    "vivre-societe-francaise--emploi--formation-2",
+                    "vivre-societe-francaise--emploi--formation-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "types-emploi",
+              "name": "Types d'emploi",
+              "pages": [
+                {
+                  "id": "types-emploi",
+                  "title": "Types d'emploi",
+                  "path": "vivre-societe-francaise/emploi/types-emploi.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--emploi--types-emploi-1",
+                    "vivre-societe-francaise--emploi--types-emploi-2",
+                    "vivre-societe-francaise--emploi--types-emploi-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "recrutement",
+              "name": "Recrutement",
+              "pages": [
+                {
+                  "id": "recrutement",
+                  "title": "Recrutement",
+                  "path": "vivre-societe-francaise/emploi/recrutement.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--emploi--recrutement-1",
+                    "vivre-societe-francaise--emploi--recrutement-2",
+                    "vivre-societe-francaise--emploi--recrutement-3"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "droit-du-travail",
+              "name": "Droit du travail",
+              "pages": [
+                {
+                  "id": "droit-du-travail",
+                  "title": "Droit du travail",
+                  "path": "vivre-societe-francaise/emploi/droit-du-travail.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--emploi--le-droit-au-travail-1",
+                    "vivre-societe-francaise--emploi--le-droit-au-travail-2",
+                    "vivre-societe-francaise--emploi--le-droit-au-travail-3",
+                    "vivre-societe-francaise--emploi--le-droit-au-travail-4",
+                    "vivre-societe-francaise--emploi--le-droit-au-travail-5"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "parentalite",
+          "name": "Parentalité",
+          "pages": [
+            {
+              "id": "les-droits-de-l-enfant",
+              "title": "Les droits de l'enfant",
+              "path": "vivre-societe-francaise/parentalite/les-droits-de-l-enfant.md",
+              "originalFicheIds": [
+                "vivre-societe-francaise--parentalite--les-droits-de-l-enfant"
+              ]
+            },
+            {
+              "id": "retrait-de-l-autorite-parentale",
+              "title": "Retrait de l’autorité parentale",
+              "path": "vivre-societe-francaise/parentalite/retrait-de-l-autorite-parentale.md",
+              "originalFicheIds": [
+                "vivre-societe-francaise--parentalite--retrait-de-l-autorite-parentale"
+              ]
+            },
+            {
+              "id": "les-modes-de-garde-des-enfants-de-moins-de-3-ans",
+              "title": "Les modes de garde des enfants de moins de 3 ans",
+              "path": "vivre-societe-francaise/parentalite/les-modes-de-garde-des-enfants-de-moins-de-3-ans.md",
+              "originalFicheIds": [
+                "vivre-societe-francaise--parentalite--les-modes-de-garde-des-enfants-de-moins-de-3-ans"
+              ]
+            },
+            {
+              "id": "le-systeme-educatif",
+              "title": "Le système éducatif",
+              "path": "vivre-societe-francaise/parentalite/le-systeme-educatif.md",
+              "originalFicheIds": [
+                "vivre-societe-francaise--parentalite--le-systeme-educatif"
+              ]
+            },
+            {
+              "id": "la-liberte-de-choisir-l-ecole-de-son-enfant",
+              "title": "La liberté de choisir l’école de son enfant",
+              "path": "vivre-societe-francaise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant.md",
+              "originalFicheIds": [
+                "vivre-societe-francaise--parentalite--la-liberte-de-choisir-l-ecole-de-son-enfant"
+              ]
+            },
+            {
+              "id": "l-ecole-pour-les-enfants-allophones",
+              "title": "L'école pour les enfants allophones",
+              "path": "vivre-societe-francaise/parentalite/l-ecole-pour-les-enfants-allophones.md",
+              "originalFicheIds": [
+                "vivre-societe-francaise--parentalite--l-ecole-pour-les-enfants-allophones"
+              ]
+            },
+            {
+              "id": "droits-et-devoirs-des-parents-a-l-ecole",
+              "title": "Les devoirs et le rôle des parents à l’école",
+              "path": "vivre-societe-francaise/parentalite/droits-et-devoirs-des-parents-a-l-ecole.md",
+              "originalFicheIds": [
+                "vivre-societe-francaise--parentalite--droits-et-devoirs-des-parents-a-l-ecole"
+              ]
+            },
+            {
+              "id": "le-dispositif-oepre",
+              "title": "Le dispositif OEPRE",
+              "path": "vivre-societe-francaise/parentalite/le-dispositif-oepre.md",
+              "originalFicheIds": [
+                "vivre-societe-francaise--parentalite--le-dispositif-oepre"
+              ]
+            }
+          ],
+          "groups": [
+            {
+              "id": "autorite-parentale",
+              "name": "Exercice de l'autorité parentale",
+              "pages": [
+                {
+                  "id": "autorite-parentale",
+                  "title": "Exercice de l'autorité parentale",
+                  "path": "vivre-societe-francaise/parentalite/autorite-parentale.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-1",
+                    "vivre-societe-francaise--parentalite--exercice-de-l-autorite-parentale-2"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "soutien-parentalite",
+              "name": "Le soutien à la parentalité",
+              "pages": [
+                {
+                  "id": "soutien-parentalite",
+                  "title": "Le soutien à la parentalité",
+                  "path": "vivre-societe-francaise/parentalite/soutien-parentalite.md",
+                  "originalFicheIds": [
+                    "vivre-societe-francaise--parentalite--le-soutien-a-la-parentalite-1",
+                    "vivre-societe-francaise--parentalite--le-soutien-a-la-parentalite-2"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

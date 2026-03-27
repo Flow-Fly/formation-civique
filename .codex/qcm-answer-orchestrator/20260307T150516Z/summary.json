@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-03-07T15:05:16.818290+00:00",
+  "repo": "/Users/flow/Documents/github/repositories/formation-civique",
+  "logDir": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260307T150516Z",
+  "sources": [
+    {
+      "source": "cr",
+      "status": "dry_run",
+      "batchesCompleted": 0,
+      "lastOutputPath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b001.json",
+      "nextQuestionIds": [
+        "crx001",
+        "crx002",
+        "crx003",
+        "crx004",
+        "crx005",
+        "crx006",
+        "crx007",
+        "crx008",
+        "crx009",
+        "crx010",
+        "crx011",
+        "crx012",
+        "crx013",
+        "crx014",
+        "crx015",
+        "crx016",
+        "crx017",
+        "crx018",
+        "crx019",
+        "crx020"
+      ]
+    },
+    {
+      "source": "csp",
+      "status": "dry_run",
+      "batchesCompleted": 0,
+      "lastOutputPath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.csp-b001.json",
+      "nextQuestionIds": [
+        "cspx001",
+        "cspx002",
+        "cspx003",
+        "cspx004",
+        "crx020",
+        "cspx005",
+        "cspx006",
+        "crx021",
+        "cspx007",
+        "crx019",
+        "cspx008",
+        "cspx009",
+        "cspx010",
+        "cspx011",
+        "cspx012",
+        "cspx013",
+        "cspx014",
+        "cspx015",
+        "crx018",
+        "cspx016"
+      ]
+    },
+    {
+      "source": "naturalisation",
+      "status": "dry_run",
+      "batchesCompleted": 0,
+      "lastOutputPath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.naturalisation-b001.json",
+      "nextQuestionIds": [
+        "natx001",
+        "natx002",
+        "natx003",
+        "natx004"
+      ]
+    }
+  ],
+  "failures": []
+}

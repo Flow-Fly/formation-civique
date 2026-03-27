@@ -1,0 +1,4 @@
+===== attempt 1 @ 2026-03-07T19:33:27.545373+00:00 =====
+Completed one phase-2 batch in [answer-pools.pending.csp-b002.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.csp-b002.json). `workflowStatus` is now `completed`, all 20 items have exactly 1 correct answer and 3 distractors, `accepted` stayed `false`, and `skipped` is empty.
+
+I refreshed the workflow state in [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json). I also sanity-checked the batch shape and ran the answer-pool validator; it passed for all 20 items. The validator briefly generated `.validated` artifacts, and I removed them so the scaffold file remains the only batch output. `data-init/question-bank.json` was not changed.

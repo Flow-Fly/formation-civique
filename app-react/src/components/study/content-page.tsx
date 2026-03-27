@@ -10,8 +10,10 @@ import {
 import { ArrowLeft, ArrowRight, List } from "lucide-react";
 import { TableOfContents } from "./table-of-contents.tsx";
 import { FicheContent } from "./fiche-content.tsx";
+import { LinkedQuestionsCard } from "./linked-questions-card.tsx";
 import { StudySidebar } from "./study-sidebar.tsx";
 import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import { useFicheContent } from "@/hooks/use-fiche-content.ts";
 import type { ContentPageMeta } from "@/types/index.ts";
 
@@ -21,7 +23,8 @@ export function ContentPage() {
     subcategory: string;
     slug: string;
   }>();
-  const { contentIndex } = useData();
+  const { contentIndex, questionBank } = useData();
+  const { activeExam } = useExam();
   const location = useLocation();
   const scrolledRef = useRef(false);
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -152,6 +155,12 @@ export function ContentPage() {
         <h1 className="text-2xl font-bold">{frontmatter.title}</h1>
 
         <FicheContent frontmatter={frontmatter} body={body} slug={slug!} />
+
+        <LinkedQuestionsCard
+          questionBank={questionBank}
+          activeExam={activeExam}
+          ficheIds={frontmatter.originalFicheIds}
+        />
 
         <div className="flex justify-between pt-4">
           {prev ? (

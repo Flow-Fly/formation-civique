@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-03-08T16:02:47.636132+00:00",
+  "repo": "/Users/flow/Documents/github/repositories/formation-civique",
+  "logDir": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z",
+  "sources": [
+    {
+      "source": "cr",
+      "status": "completed",
+      "batchesCompleted": 2,
+      "lastOutputPath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b008.json",
+      "logs": {
+        "promptPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z/cr/batch-002.prompt.txt",
+        "finalMessagePath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z/cr/batch-002.final.txt",
+        "stdoutPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z/cr/batch-002.stdout.log",
+        "stderrPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z/cr/batch-002.stderr.log"
+      }
+    },
+    {
+      "source": "csp",
+      "status": "completed",
+      "batchesCompleted": 1,
+      "lastOutputPath": "/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.csp-b007.json",
+      "logs": {
+        "promptPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z/csp/batch-001.prompt.txt",
+        "finalMessagePath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z/csp/batch-001.final.txt",
+        "stdoutPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z/csp/batch-001.stdout.log",
+        "stderrPath": "/Users/flow/Documents/github/repositories/formation-civique/.codex/qcm-answer-orchestrator/20260308T154135Z/csp/batch-001.stderr.log"
+      }
+    },
+    {
+      "source": "naturalisation",
+      "status": "empty",
+      "batchesCompleted": 0,
+      "lastOutputPath": ""
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,4 @@
+===== attempt 1 @ 2026-03-07T20:08:46.752518+00:00 =====
+[answer-pools.pending.csp-b005.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.csp-b005.json) is complete for the 20 requested `csp` phase-2 items. `workflowStatus` is `completed`, every item keeps `accepted: false`, each drafted item has exactly 1 correct answer and 3 distractors, and `skipped` remains empty.
+
+I refreshed the workflow state after the update. The batch validated cleanly during drafting, and I removed the validator artifacts so only the scaffold file remains for this batch. Current workflow `nextAction` is `continue_linking`.

@@ -1,0 +1,4 @@
+===== attempt 1 @ 2026-03-08T16:02:47.284034+00:00 =====
+Completed the `cr-b008` batch in [answer-pools.pending.cr-b008.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b008.json). `workflowStatus` is `completed`, `accepted` stayed `false`, and I refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) afterward.
+
+The batch contains 7 drafted items and 2 skipped items: `crx141` and `crx148`, both with concrete `blockReason`s due to insufficient fiche support. I did not modify [question-bank.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/question-bank.json), and the scaffold file is the only batch output left on disk.

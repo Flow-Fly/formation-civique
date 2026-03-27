@@ -1,0 +1,39 @@
+Use $qcm-fiche-linking to complete one phase-1 fiche-linking batch for source `csp` in `/Users/flow/Documents/github/repositories/formation-civique`.
+
+The scaffold file already exists and must be the only output file for this batch:
+- `/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.csp.r004.json`
+
+Selected questions:
+- cspx043: Quel est le rôle du Parlement ?
+- crx052: Quel est le régime politique de la France aujourd'hui ?
+- crx062: Quel État n'est pas membre de l'Union européenne ?
+- crx065: Quelle condition est nécessaire pour voter aux élections européennes ?
+- crx064: À quelle fréquence les élections européennes sont-elles organisées ?
+- crx066: Quel pays est un pays fondateur de l'Union européenne ?
+- cspx044: Quelle est la monnaie utilisée en France ?
+- crx063: Quand célèbre-t-on la journée de l'Europe ?
+- cspx045: Comment s’appelle la Constitution actuelle de la France ?
+- cspx046: Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?
+- cspx047: Concernant les droits individuels, quelle proposition est correcte ?
+- cspx048: De quelle année date la Déclaration des droits de l’homme et du citoyen ?
+- cspx049: Lequel de ces droits est un droit fondamental ?
+- cspx050: Parmi ces textes, lequel garantit les droits et libertés en France ?
+- cspx051: Quel droit permet à une personne de se défendre devant la justice ?
+- cspx052: Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?
+- cspx053: Quel texte a été adopté pendant la Révolution française ?
+- cspx054: Quelle liberté permet à une personne de ne pas avoir de religion ?
+- cspx055: Une femme peut avorter :
+- crx069: Est-il toujours possible de divorcer ?
+
+Tasks:
+refresh the workflow state
+read the selected questions and the needed fiches
+fill the existing scaffold file
+set `workflowStatus` to `completed`
+refresh the state again
+
+Rules:
+- Work only on this one batch and then stop.
+- Do not create a different output file.
+- Do not update `data-init/question-bank.json`.
+- Keep `relatedFicheIds` justified by the fiche content.

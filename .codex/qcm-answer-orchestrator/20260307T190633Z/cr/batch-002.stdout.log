@@ -1,0 +1,4 @@
+===== attempt 1 @ 2026-03-07T19:35:03.868984+00:00 =====
+The batch is complete in [answer-pools.pending.cr-b002.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.cr-b002.json). It contains 20 drafted items, `workflowStatus: "completed"`, `accepted: false` on every item, exactly 1 correct answer plus 3 distractors each, and no skipped questions.
+
+I validated the batch successfully with 20 valid items, 0 errors, and 0 warnings, then removed the validator artifacts so the scaffold file remains the only batch output. I also refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) again after completion.

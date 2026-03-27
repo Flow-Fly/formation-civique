@@ -1,0 +1,6 @@
+===== attempt 1 @ 2026-03-07T19:42:20.351922+00:00 =====
+Updated [answer-pools.pending.csp-b003.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/answer-pools.pending.csp-b003.json): all 20 items now have `workflowStatus: "completed"`, exactly 1 correct answer, exactly 3 distractors, anchored `answerEvidence`/`questionEvidence`, `accepted: false`, and no skipped items. I only edited this scaffold for the batch.
+
+I refreshed [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) afterward. The state now reports `Next action: continue_linking`.
+
+Verification: a no-write integrity check against `data-init/fiches-section-index.json` passed with `issueCount: 0`. I did not run `validate-answer-pool-suggestions.mjs` because it would create additional output files, which would violate your batch-output constraint.

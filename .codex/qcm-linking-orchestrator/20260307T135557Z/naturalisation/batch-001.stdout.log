@@ -1,0 +1,5 @@
+Completed one phase-1 fiche-linking batch for `naturalisation`.
+
+The scaffold was filled in [question-fiche-links.naturalisation.r001.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/question-fiche-links.naturalisation.r001.json) and `workflowStatus` is now `completed`. I refreshed the workflow state before and after; [qcm-workflow-state.json](/Users/flow/Documents/github/repositories/formation-civique/data-init/suggestions/qcm-workflow-state.json) now shows `naturalisation` with `linkingStatus: completed` and the overall `nextAction: continue_linking`.
+
+Validation passed with a JSON parse check. `data-init/question-bank.json` was not touched, and no additional batch output file was created.
