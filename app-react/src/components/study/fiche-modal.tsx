@@ -6,6 +6,9 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog.tsx";
 import { FicheContent } from "./fiche-content.tsx";
+import { LinkedQuestionsCard } from "./linked-questions-card.tsx";
+import { useData } from "@/context/data-context.tsx";
+import { useExam } from "@/context/exam-context.tsx";
 import { useFicheContent } from "@/hooks/use-fiche-content.ts";
 
 interface FicheModalProps {
@@ -25,6 +28,8 @@ export function FicheModal({
   pageTitle,
   initialSectionId,
 }: FicheModalProps) {
+  const { questionBank } = useData();
+  const { activeExam } = useExam();
   const { frontmatter, body, loading, error } = useFicheContent(
     open ? contentPath : null,
   );
@@ -65,7 +70,14 @@ export function FicheModal({
             </div>
           )}
           {frontmatter && (
-            <FicheContent frontmatter={frontmatter} body={body} slug={slug} />
+            <div className="space-y-4">
+              <FicheContent frontmatter={frontmatter} body={body} slug={slug} />
+              <LinkedQuestionsCard
+                questionBank={questionBank}
+                activeExam={activeExam}
+                ficheIds={frontmatter.originalFicheIds}
+              />
+            </div>
           )}
         </div>
       </DialogContent>
