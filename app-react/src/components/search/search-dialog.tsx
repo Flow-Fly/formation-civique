@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import MiniSearch from "minisearch";
-import { FileText, XIcon } from "lucide-react";
+import { FileText, Search, XIcon } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -64,6 +64,11 @@ interface SearchDialogProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
 }
+
+const isMac =
+  typeof navigator !== "undefined" && /Mac|iPod|iPhone|iPad/.test(navigator.userAgent);
+
+const QUICK_SEARCHES = ["laicite", "ecole", "prefecture", "logement"];
 
 // ─── Helpers ─────────────────────────────────────────────────────────
 
@@ -189,6 +194,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
   const miniSearchRef = useRef<MiniSearch<SearchEntry> | null>(null);
   const entriesMapRef = useRef<Map<string, SearchEntry>>(new Map());
   const loadedRef = useRef(false);
+  const shortcutLabel = isMac ? "Cmd + K" : "Ctrl + K";
 
   // Lazy-load search index on first open
   useEffect(() => {
@@ -309,7 +315,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
             <CommandInput
               value={query}
               onValueChange={handleSearch}
-              placeholder="Rechercher dans les fiches..."
+              placeholder="Rechercher une fiche, un theme ou un mot-cle..."
               className="pr-8"
             />
             {query && (
@@ -325,6 +331,42 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
             )}
           </div>
 
+          {!query && (
+            <div className="border-b bg-muted/30 px-4 py-4">
+              <div className="flex items-start gap-3">
+                <div className="rounded-full bg-primary/10 p-2 text-primary">
+                  <Search className="h-4 w-4" />
+                </div>
+                <div className="space-y-2 text-sm">
+                  <p className="font-medium text-foreground">
+                    Recherchez une fiche, une notion ou un theme en quelques secondes.
+                  </p>
+                  <p className="text-muted-foreground">
+                    Essayez par exemple un mot-cle comme laicite, prefecture, logement ou ecole.
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {QUICK_SEARCHES.map((term) => (
+                      <button
+                        key={term}
+                        type="button"
+                        onClick={() => handleSearch(term)}
+                        className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium text-foreground transition-colors hover:bg-accent cursor-pointer"
+                      >
+                        {term}
+                      </button>
+                    ))}
+                  </div>
+                  <p className="text-xs text-muted-foreground">
+                    Raccourci clavier :{" "}
+                    <kbd className="inline-flex items-center rounded border border-border bg-background px-1.5 py-0.5 font-mono text-[11px]">
+                      {shortcutLabel}
+                    </kbd>
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+
           {/* Result count */}
           {query && totalResults > 0 && (
             <div className="px-4 py-2 text-xs text-muted-foreground border-b">
@@ -337,7 +379,7 @@ export function SearchDialog({ open, onOpenChange }: SearchDialogProps) {
           <CommandList className="max-h-[60vh] overflow-y-auto p-2">
             {query && totalResults === 0 && (
               <div className="py-6 text-center text-sm text-muted-foreground">
-                Aucun résultat.
+                Aucun resultat. Essayez un theme, un mot-cle ou une notion plus precise.
               </div>
             )}
 

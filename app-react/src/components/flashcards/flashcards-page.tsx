@@ -10,6 +10,7 @@ import { FlashcardCard } from "./flashcard-card.tsx";
 import { RatingButtons } from "./rating-buttons.tsx";
 import { DeckSetup } from "./deck-setup.tsx";
 import { DeckSummary } from "./deck-summary.tsx";
+import { getExamMeta } from "@/lib/exams.ts";
 import * as sr from "@/services/spaced-repetition.ts";
 import * as materializer from "@/services/question-materializer.ts";
 import type { Quality } from "@/types/index.ts";
@@ -17,6 +18,7 @@ import type { Quality } from "@/types/index.ts";
 export function FlashcardsPage() {
   const { questionBank, loading } = useData();
   const { activeExam } = useExam();
+  const examMeta = getExamMeta(activeExam);
   const deck = useFlashcards();
   const [searchParams] = useSearchParams();
 
@@ -79,9 +81,10 @@ export function FlashcardsPage() {
           <span className="text-sm text-muted-foreground">
             Carte {deck.state.current + 1}/{deck.state.cards.length}
           </span>
-          <Badge>
-            {activeExam} · {q.themeName}
-          </Badge>
+          <div className="flex flex-wrap items-center justify-end gap-2">
+            <Badge variant="outline">{examMeta.label}</Badge>
+            <Badge>{q.themeName}</Badge>
+          </div>
         </div>
 
         <Progress value={(deck.state.current / deck.state.cards.length) * 100} />

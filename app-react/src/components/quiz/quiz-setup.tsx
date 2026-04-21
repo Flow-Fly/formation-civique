@@ -13,6 +13,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert.tsx";
 import { Zap, GraduationCap, ArrowRight, AlertCircle } from "lucide-react";
 import { useData } from "@/context/data-context.tsx";
 import { useExam } from "@/context/exam-context.tsx";
+import { getExamMeta } from "@/lib/exams.ts";
 import * as engine from "@/services/quiz-engine.ts";
 import * as materializer from "@/services/question-materializer.ts";
 import * as storage from "@/services/storage.ts";
@@ -130,6 +131,7 @@ function selectQuestionsFromCycle(
 export function QuizSetup({ onStart }: QuizSetupProps) {
   const { questionBank, examConfig } = useData();
   const { activeExam } = useExam();
+  const examMeta = getExamMeta(activeExam);
   const [searchParams] = useSearchParams();
   const mode = searchParams.get("mode") || "practice";
   const defaultTheme = searchParams.get("theme") || "";
@@ -188,9 +190,18 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">
-        {mode === "exam" ? `Simulation d'examen (${activeExam})` : `Quiz (${activeExam})`}
-      </h1>
+      <div className="space-y-1">
+        <h1 className="text-2xl font-bold">
+          {mode === "exam"
+            ? `Simulation pour ${examMeta.shortLabel}`
+            : `Quiz pour ${examMeta.shortLabel}`}
+        </h1>
+        <p className="text-sm text-muted-foreground">
+          {mode === "exam"
+            ? `Lancez une simulation complete du parcours ${examMeta.label}.`
+            : `Choisissez un theme pour vous entrainer sur ${examMeta.shortLabel}.`}
+        </p>
+      </div>
 
       <Alert>
         <AlertCircle className="h-4 w-4" />
@@ -202,25 +213,26 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
 
       <Card className={mode === "exam" ? "border-l-4 border-l-destructive" : ""}>
         <CardHeader>
-          <CardTitle>{mode === "exam" ? "Examen civique" : "Entrainement"}</CardTitle>
+          <CardTitle>{mode === "exam" ? "Simulation complete" : "Quiz d'entrainement"}</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           {mode === "exam" ? (
             <>
-              <p>
-                Simulation de l'examen civique : <strong>{rules?.questionCount ?? 40} questions</strong>,{" "}
+              <p className="text-sm leading-relaxed">
+                Simulation du parcours {examMeta.label} :{" "}
+                <strong>{rules?.questionCount ?? 40} questions</strong>,{" "}
                 <strong>{rules?.timeLimitMinutes ?? 45} minutes</strong>, seuil de reussite :{" "}
                 <strong>{rules?.passScorePercent ?? 80}%</strong>.
               </p>
               <Button className="w-full active-scale" size="lg" onClick={handleStartExam}>
-                Commencer l'examen
+                Commencer la simulation
                 <ArrowRight className="w-4 h-4 ml-1.5" />
               </Button>
             </>
           ) : (
             <>
               <div className="space-y-2">
-                <label className="text-sm text-muted-foreground">Theme</label>
+                <label className="text-sm text-muted-foreground">Theme a travailler</label>
                 <Select value={themeId} onValueChange={setThemeId}>
                   <SelectTrigger>
                     <SelectValue placeholder="Tous les themes" />
@@ -250,7 +262,7 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
                 </Select>
               </div>
               <Button className="w-full active-scale" size="lg" onClick={handleStartPractice}>
-                Commencer
+                Lancer le quiz
                 <ArrowRight className="w-4 h-4 ml-1.5" />
               </Button>
             </>
@@ -262,13 +274,13 @@ export function QuizSetup({ onStart }: QuizSetupProps) {
         <Button variant={mode === "practice" ? "default" : "outline"} asChild className="active-scale">
           <Link to="/quiz?mode=practice">
             <Zap className="w-4 h-4 mr-1.5" />
-            Entrainement
+            Quiz par theme
           </Link>
         </Button>
         <Button variant={mode === "exam" ? "default" : "outline"} asChild className="active-scale">
           <Link to="/quiz?mode=exam">
             <GraduationCap className="w-4 h-4 mr-1.5" />
-            Examen
+            Simulation complete
           </Link>
         </Button>
       </div>
