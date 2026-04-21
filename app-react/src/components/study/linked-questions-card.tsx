@@ -4,6 +4,7 @@ import { HelpCircle } from "lucide-react";
 import { Badge } from "@/components/ui/badge.tsx";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card.tsx";
 import { cn } from "@/lib/utils.ts";
+import { getExamMeta } from "@/lib/exams.ts";
 import { getLinkedQuestions } from "@/lib/question-links.ts";
 import type { ExamCode, QuestionBankItem } from "@/types/index.ts";
 
@@ -20,6 +21,7 @@ export function LinkedQuestionsCard({
   ficheIds,
   className,
 }: LinkedQuestionsCardProps) {
+  const examMeta = getExamMeta(activeExam);
   const linkedQuestions = useMemo(
     () => getLinkedQuestions(questionBank, activeExam, ficheIds),
     [questionBank, activeExam, ficheIds],
@@ -35,7 +37,7 @@ export function LinkedQuestionsCard({
           Questions liees
         </CardTitle>
         <p className="text-sm text-muted-foreground">
-          {linkedQuestions.length} question(s) associee(s) a cette fiche pour {activeExam}.
+          {linkedQuestions.length} question(s) associee(s) a cette fiche pour {examMeta.shortLabel}.
         </p>
       </CardHeader>
       <CardContent>

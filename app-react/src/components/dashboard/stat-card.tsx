@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import type { LucideIcon } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card.tsx";
+import { cn } from "@/lib/utils.ts";
 
 const colorMap = {
   blue: "bg-primary/10 text-primary",
@@ -15,12 +17,26 @@ interface StatCardProps {
   color?: keyof typeof colorMap;
   pulse?: boolean;
   delay?: number;
+  hint?: string;
+  to?: string;
 }
 
-export function StatCard({ value, label, icon: Icon, color = "blue", pulse, delay = 0 }: StatCardProps) {
-  return (
+export function StatCard({
+  value,
+  label,
+  icon: Icon,
+  color = "blue",
+  pulse,
+  delay = 0,
+  hint,
+  to,
+}: StatCardProps) {
+  const card = (
     <Card
-      className="animate-fade-in-up hover:-translate-y-1 hover:shadow-md transition-all duration-200"
+      className={cn(
+        "animate-fade-in-up transition-all duration-200 hover:-translate-y-1 hover:shadow-md",
+        to && "cursor-pointer hover:border-primary/30",
+      )}
       style={{ animationDelay: `${delay}ms` }}
     >
       <CardContent className="text-center py-4">
@@ -33,7 +49,19 @@ export function StatCard({ value, label, icon: Icon, color = "blue", pulse, dela
         )}
         <div className="text-3xl font-bold text-primary">{value}</div>
         <div className="text-sm text-muted-foreground mt-1">{label}</div>
+        {hint && <div className="mt-1 text-xs text-muted-foreground">{hint}</div>}
       </CardContent>
     </Card>
+  );
+
+  if (!to) return card;
+
+  return (
+    <Link
+      to={to}
+      className="block no-underline rounded-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+    >
+      {card}
+    </Link>
   );
 }

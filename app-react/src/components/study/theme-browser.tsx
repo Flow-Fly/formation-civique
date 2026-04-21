@@ -10,6 +10,7 @@ import { Card } from "@/components/ui/card.tsx";
 import { ChevronRight, CheckCircle } from "lucide-react";
 import { useData } from "@/context/data-context.tsx";
 import { useExam } from "@/context/exam-context.tsx";
+import { getExamMeta } from "@/lib/exams.ts";
 import * as storage from "@/services/storage.ts";
 import type { ContentPageMeta } from "@/types/index.ts";
 
@@ -45,6 +46,7 @@ function isPageRead(page: ContentPageMeta, readFiches: Record<string, number>): 
 export function ThemeBrowser() {
   const { contentIndex } = useData();
   const { activeExam } = useExam();
+  const examMeta = getExamMeta(activeExam);
   const readFiches = storage.load<Record<string, number>>("fiches_read", {}, activeExam);
 
   if (!contentIndex) {
@@ -53,7 +55,12 @@ export function ThemeBrowser() {
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Fiches d'etude</h1>
+      <div className="space-y-1">
+        <h1 className="text-2xl font-bold">Fiches pour {examMeta.shortLabel}</h1>
+        <p className="text-sm text-muted-foreground">
+          Commencez ici pour comprendre le cours avant de passer aux quiz et aux cartes memoire.
+        </p>
+      </div>
       <Card className="p-0 overflow-hidden">
         <Accordion type="multiple">
           {contentIndex.themes.map((theme, i) => (

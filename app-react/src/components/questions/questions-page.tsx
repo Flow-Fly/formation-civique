@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/select.tsx";
 import { useData } from "@/context/data-context.tsx";
 import { useExam } from "@/context/exam-context.tsx";
+import { getExamMeta } from "@/lib/exams.ts";
 import { compareQuestionsForExam, getQuestionStudyLinks } from "@/lib/question-links.ts";
 
 function normalize(text: string): string {
@@ -37,6 +38,7 @@ export function QuestionsPage() {
     error,
   } = useData();
   const { activeExam } = useExam();
+  const examMeta = getExamMeta(activeExam);
   const [searchParams] = useSearchParams();
   const queryParam = searchParams.get("q") ?? "";
   const themeParam = searchParams.get("theme") ?? "all";
@@ -92,10 +94,10 @@ export function QuestionsPage() {
   return (
     <div className="space-y-4">
       <div>
-        <h1 className="text-2xl font-bold">Questions ({activeExam})</h1>
+        <h1 className="text-2xl font-bold">Questions pour {examMeta.shortLabel}</h1>
         <p className="text-sm text-muted-foreground mt-1">
-          Parcourez toutes les questions et ouvrez les fiches liees pour retrouver la reponse
-          dans le cours.
+          Parcourez toutes les questions de {examMeta.shortLabel} et ouvrez les fiches liees
+          pour retrouver la reponse dans le cours.
         </p>
       </div>
 
@@ -114,7 +116,7 @@ export function QuestionsPage() {
             type="text"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="Recherche texte ou id"
+            placeholder="Rechercher une question, un mot-cle ou un numero"
             className="h-10 rounded-md border border-input bg-background px-3 py-2 text-sm"
           />
 

@@ -6,6 +6,7 @@ import { useExam } from "@/context/exam-context.tsx";
 import { StatCard } from "@/components/dashboard/stat-card.tsx";
 import * as sr from "@/services/spaced-repetition.ts";
 import * as materializer from "@/services/question-materializer.ts";
+import { getExamMeta } from "@/lib/exams.ts";
 import type { QuestionInstance } from "@/types/index.ts";
 
 interface DeckSetupProps {
@@ -15,6 +16,7 @@ interface DeckSetupProps {
 export function DeckSetup({ onStart }: DeckSetupProps) {
   const { questionBank } = useData();
   const { activeExam } = useExam();
+  const examMeta = getExamMeta(activeExam);
 
   const examQuestions = questionBank.filter(
     (q) => q.exams.includes(activeExam) && materializer.isQuestionMaterializable(q),
@@ -49,7 +51,12 @@ export function DeckSetup({ onStart }: DeckSetupProps) {
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Cartes memoire ({activeExam})</h1>
+      <div className="space-y-1">
+        <h1 className="text-2xl font-bold">Cartes memoire pour {examMeta.shortLabel}</h1>
+        <p className="text-sm text-muted-foreground">
+          Utilisez-les pour revoir rapidement ce que vous avez deja vu et relancer les notions a memoriser.
+        </p>
+      </div>
 
       <div className="grid grid-cols-3 gap-3">
         <StatCard value={dueCards.length} label="A reviser" icon={Clock} color="orange" delay={0} />
