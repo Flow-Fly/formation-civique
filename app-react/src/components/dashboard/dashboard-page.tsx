@@ -19,6 +19,7 @@ import { useData } from "@/context/data-context.tsx";
 import { useExam } from "@/context/exam-context.tsx";
 import { useSpacedRepetition } from "@/hooks/use-spaced-repetition.ts";
 import { EXAM_OPTIONS, getExamMeta } from "@/lib/exams.ts";
+import { cn } from "@/lib/utils.ts";
 import { openSearchDialog } from "@/lib/search.ts";
 import { StatCard } from "./stat-card.tsx";
 import { ThemeProgress } from "./theme-progress.tsx";
@@ -30,7 +31,7 @@ const isMac =
 
 export function DashboardPage() {
   const { loading, examConfig } = useData();
-  const { activeExam } = useExam();
+  const { activeExam, setActiveExam } = useExam();
   const { stats, themeMastery, dueCards, streak } = useSpacedRepetition();
 
   if (loading) {
@@ -72,21 +73,33 @@ export function DashboardPage() {
 
         <Card className="overflow-hidden border-primary/15 bg-linear-to-br from-primary/[0.04] via-background to-secondary/70">
           <CardHeader className="gap-3">
-            <div className="flex flex-wrap gap-2">
-              {EXAM_OPTIONS.map((option) => (
-                <Badge
-                  key={option.code}
-                  variant={option.code === activeExam ? "default" : "outline"}
-                >
-                  {option.label}
-                </Badge>
-              ))}
+            <div className="space-y-3">
+              <p className="text-xs font-semibold uppercase tracking-[0.08em] text-muted-foreground">
+                Je prepare quel examen ?
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {EXAM_OPTIONS.map((option) => (
+                  <button
+                    key={option.code}
+                    type="button"
+                    onClick={() => setActiveExam(option.code)}
+                    className={cn(
+                      "rounded-full border px-4 py-2 text-sm font-semibold transition-colors cursor-pointer",
+                      option.code === activeExam
+                        ? "border-primary bg-primary text-primary-foreground"
+                        : "border-border bg-background/70 text-foreground hover:border-primary/30 hover:bg-accent",
+                    )}
+                  >
+                    {option.label}
+                  </button>
+                ))}
+              </div>
             </div>
             <CardTitle className="text-2xl leading-tight">Commencez par le bon parcours</CardTitle>
             <p className="text-sm text-muted-foreground">
               Ce tableau de bord filtre les fiches, quiz, questions et statistiques pour{" "}
-              {examMeta.shortLabel}. Si ce n&apos;est pas le bon examen, changez-le dans le
-              selecteur en haut.
+              {examMeta.shortLabel}. Si ce n&apos;est pas le bon examen, changez-le avec les
+              boutons ci-dessus.
             </p>
           </CardHeader>
           <CardContent className="space-y-4">
